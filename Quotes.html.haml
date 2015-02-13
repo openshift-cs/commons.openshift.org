@@ -78,128 +78,47 @@
                   %a{:href => "index.html"} Home
                 %li /
                 %li
-                  %a{:href => "commons.html"} Commons
+                  %a{:href => "Quotes.html"} Participant Quotes
       / End crumbs
       / Info title
-      #try.info_title.wow.fadeInDown#join
-        %i.fa.fa-users.right
-        .vertical_line
-          .circle_bottom
-        .info_vertical.animated
-          %h1
-            OpenShift
-            %span Commons
-        .padding_bottom
-          .container.wow.fadeInUp.animated
-            .row
-              .col-xs-12.col-sm-12.col-md-6.col-lg-6.lead
-                %p.text-left Commons builds connections and collaboration across OpenShift communities, projects and stakeholders. In doing so we'll enable the success of customers, users, partners, and contributors as we deepen our knowledge and experiences together.
-
-                %br
-                %p.text-left Our goals go beyond code contributions. Commons is a place for companies using OpenShift to accelerate its success and adoption. To do this we'll act as resources for each other, share best practices and provide a forum for peer-to-peer communication.
-              %h2 Join Now
-              / Form
-              = partial ('main_signup.html.haml')
-              / End Form
-    / End Info title
-    / End content info - Grey Section
-    %section.content_info#colleagues
-      / Info Resalt
-      .info_resalt.borders
-        .info_vertical
-          %h1
-            Commons
-            %span Participants
-        .container
-          / Items Works filters
-          .portfolioContainer
-            / Item Work
-            - File.open("img/participants.txt").readlines.each do |line|
-              - img = line.split(',').map(&:chomp)
-              .col-sm-2.col-md-2.col-lg-2.col-xs-4.desing
-                .item-work
-                  %a{:href => "#{img[1]}", :alt => " #{img[0]}", :title => " #{img[0]}"}
-                    .hover
-                      %img{:alt => "Image", :src => "img/#{img[2]}"}/
-                      / %a.ligbox-image{:href => "#{img[1]}", :title => "#{name}"}/
-                      / .overlay
-                    .info
-                      %a{:href => "#{img[0]}"} #{img[0]}
-                / End Item Work
-            / End Items Works filters
-        / End Info Resalt
-      / End content info - Grey Section
-      / Info title
-      %section.content_info#interests
-        .row.info_title
-          .vertical_line
-            .circle_bottom
-          .info_vertical
-            %h1
-              Find Your
-              %span Commonality
-            %p.text-left OpenShift is an inclusive, open and inviting community filled with passionate people. Chances are, there is a local OpenShift event near you already in the works, check out our Events calendar or connect with the OpenShift Accelerators nearest you and organize your own local event.
-            .row
-              .paddings
-                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInLeft
-                  %h2 
-                    %a{:href => "sig/Operations.html", :title => "Operations"} OpenShift Ops
-                    %p Discuss, develop and disseminate best practices for administrating, managing and operating OpenShift
-                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInUp
-                  %h2 
-                    %a{:href => "sig/Openshift3.html", :title => "OpenShift 3"} OpenShift 3
-                    %p OpenShift V3 Migration Upgrade Roadmap Special Interest Group
-                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInRight
-                  %h2 
-                    %a{:href => "sig/Ecosystem.html", :title => "Ecosystem"} Ecosystem
-                    %p Collaboration in practice
-          .vertical_line
-          %i.fa.fa-comments-o.right
-        / End Info title
-        / Info title
       %section.content_info
         / Info Resalt
-        .info_resalt.borders
-          .container
+        .paddings
+          .container.wow.fadeInUp
             .row
-              .col-md-12.simple-title
-                %h2
-                  Member 
-                  %span Quotes
-              / carousel-team-members
-              #carousel-team-members.col-md-12
-                - File.open("img/quotes.txt").readlines.each do |line|
-                  - img = line.split(',').map(&:chomp)
-                  / Item Team
-                  .item-team
-                    .logo
-                      %img{:alt => "Image", :src => "img/#{img[2]}"}
-                    %h4
-                      %a{:href => "#{img[1]}", :alt => " #{img[0]}", :title => " #{img[0]}"} #{img[0]}
-                    %p #{img[3]}
-                  / End Item Team
-              / End carousel-team-members
+              .col-md-12
+                .col-md-2
+                  %img.img-responsive{:alt => "", :src => "img/commons-logos/cisco.png"}/
+                %p "Enterprise CIOs consistently rank DevOps enablement as one of their highest priorities. With Openshift Commons, Redhat has remained true to their opensource heritage and proven that Openshift enables open source application life-cycle management in a powerful self-service DevOps enablement platform. Openshift aligns with Cisco’s InterCloud vision of application centric enablement and portability across public and private clouds. We're please to be participants and contributors to the OpenShift Commons as it enables Cisco to contribute and collaborate directly with the entire OpenShift eco-system." 
+                .col-md-5.col-md-offset-7
+                  .text-right
+                    %p - Ken Owens Chief Technical Officer, Cisco Cloud Services
+                .col-md-2
+                  %img.img-responsive{:alt => "", :src => "img/commons-logos/getupcloud.png"}/
+                %p "OpenShift is critical to our business and the OpenShift Commons has given us a great opportunity to connect directly with other OpenShift ecosystem participants. Getup has been involved with OpenShift for over  2 years, built a company with this open source project and  having the opportunity to colaborate and work with them has been a great experience. We believe OpenShift Commons is a great opportunity to work with other OpenShift members, a channel to get feedbacks, share knowledge, experiences about the market and new releases."   
+                .col-md-5.col-md-offset-7
+                  .text-right
+                    %p - Diogo Goebel, CEO, Getup Cloud
+                .col-md-2
+                  %img.img-responsive{:alt => "", :src => "img/commons-logos/Amadeus_Logo.svg"}/
+                %p "As part of the project Amadeus Cloud Services, we are collaborating with Redhat to build a complete solution to manage data-center resources as a single compute unit, of which OpenShift is a critical component. By participating in the OpenShift Commons, we are able to easily and proactively communicate with the community, to jointly build a powerful solution that can benefit all users. With both the openness of the virtual meetings and code on GitHub, we are able to commit resources to areas in which we have expertise, while liaising with other participants to prioritise the common goal – a stable, secure and fully open-source solution."
+                .col-md-5.col-md-offset-7
+                  .text-right
+                    %p - Dietmar Fauser VP, Architecture, Quality & Governance
+                .col-md-2
+                  %img.img-responsive{:alt => "", :src => "img/commons-logos/shippable_logo.png"}/
+                %p As the first PaaS offering to embrace Docker natively, Red Hat's OpenShift 3.0 platform-as-a-service will achieve significant adoption in enterprises in 2015 for three reasons. Not only is OpenShift the easiest path yet for enterprises to take advantage of container technology inside their data centers, but with their OpenShift Commons initiative, they are providing the entire eco-system around OpenShift with an open peer-to-peer network to exchange and collaborate on all aspects of this latest release.  We're pleased to be active participants in the OpenShift Commons and encourage others to join." - Avi Cavale, CEO & Co-founder of Shippable
+                .col-md-5.col-md-offset-7
+                  .text-right
+                    %p - Avi Cavale, CEO & Co-founder of Shippable
+                .col-md-2
+                  %img.img-responsive{:alt => "", :src => "img/commons-logos/appdirect.png"}/
+                %p “Our cloud service commerce platform enables the distribution of cloud services through the OpenShift marketplace and we have seen first hand the growing demand for PaaS. Our collaboration with Red Hat has provided an opportunity to respond to the market need and support Red Hat’s vision of driving high value for its OpenShift partners, developer community and open source technology,” said Daniel Saks, co-CEO, AppDirect. “Red Hat's OpenShift Commons initiative is a testament to this vision and we are excited to provide our technology and API expertise to help drive open source adoption, engagement, integration and distribution.”
+                .col-md-5.col-md-offset-7
+                  .text-right
+                    %p - No Name in Spreadsheet
         / End Info Resalt
-      %section.content_info.paddings
-        .row.info_title.wow.fadeInUp
-          .info_vertical
-            %h1
-              Become a part of something
-              %span bigger
-            %p OpenShift Commons open to OpenShift users (individuals), enterprises, non-profits, educational institutions, partners, service providers, hosting providers  and related open source technology projects that are either utilized under the hood or to extend the platform with services and additional functionality.
-            %br
-            %ul
-              %li.text-left If you (or your organization)  are an OpenShift Online or an OpenShift Enterprise  customer or you have deploy OpenShift Origin on premise or on a public cloud, this is the forum for you to connect with your peers.
-
-              %li.text-left If you have extended OpenShift with your services or contributed to the OpenShift Origin project and want to connect with your peers and those users of your services on OpenShift, this is the forum for you.
-
-              %li.text-left If you simply want to stay up-to-date on the roadmap and best practices for using, deploying and operating OpenShift, the OpenShift Commons is the right place for you.
-
-            %h2
-              %a{:href => "#join"} Ready to Join?
-          %i.fa.fa-compass.left            
-      / End Info title
-      / End content info - Grey Section
+      / End content info - White Section
       /footer              
       %footer
         .container
