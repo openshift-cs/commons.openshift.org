@@ -33,16 +33,16 @@ a.strong {
   font-size: 18px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
 
-/* line 37, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
-.image_03_parallax {
-  background-image: url("../img/parallax/twirl-full.jpg");
+/* ------------------------------------------------------------
+Image: "photo-1422479516648-9b1f0b6e8da8" https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?q=75&fm=jpg&s=c5f2b3df2a4c71532b3b354b8766503c
+Author: breather https://unsplash.com/breather
+License: https://unsplash.com/license
+---------------------------------------------------------------*/
+/* line 42, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+.image_07_parrallax {
+  background-image: url("../img/parallax/commons-full.jpg");
   background-repeat: repeat-x; }
 
-/* ------------------------------------------------------------
-Image: "Spin" https://www.flickr.com/photos/eflon/3655695161/
-Author: eflon https://www.flickr.com/photos/eflon/
-License: https://creativecommons.org/licenses/by/2.0/
----------------------------------------------------------------*/
 /* line 47, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
 .opacy_bg_02 {
   background: rgba(0, 61, 110, 0.34);

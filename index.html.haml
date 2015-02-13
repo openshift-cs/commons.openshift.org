@@ -81,7 +81,7 @@
                   %a{:href => "commons.html"} Commons
       / End crumbs
       / Info title
-      #try.info_title.wow.fadeInDown
+      #try.info_title.wow.fadeInDown#join
         %i.fa.fa-users.right
         .vertical_line
           .circle_bottom
@@ -140,14 +140,18 @@
             %p.text-left OpenShift is an inclusive, open and inviting community filled with passionate people. Chances are, there is a local OpenShift event near you already in the works, check out our Events calendar or connect with the OpenShift Accelerators nearest you and organize your own local event.
             .row
               .paddings
-                .col-xs-12.col-sm-6.col-md-6.col-lg-6.wow.fadeInLeft
+                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInLeft
                   %h2 
                     %a{:href => "sig/Operations.html", :title => "Operations"} OpenShift Ops
                     %p Discuss, develop and disseminate best practices for administrating, managing and operating OpenShift
-                .col-xs-12.col-sm-6.col-md-6.col-lg-6.wow.fadeInRight
+                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInUp
                   %h2 
                     %a{:href => "sig/Openshift3.html", :title => "OpenShift 3"} OpenShift 3
                     %p OpenShift V3 Migration Upgrade Roadmap Special Interest Group
+                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInRight
+                  %h2 
+                    %a{:href => "sig/ecosystem.html", :title => "Ecosystem"} Ecosystem
+                    %p Collaboration in practice
           .vertical_line
           %i.fa.fa-comments-o.right
         / End Info title

@@ -21,6 +21,10 @@ h2, h3 {
 	background-image: url("../img/parallax/commons-full.jpg");
 }
 
+.image_07_parrallax{
+	background-image: url("../img/parallax/ecosystem.jpg");
+}
+
 .opacy_bg_02{
   background:rgba(0, 61, 110, 0.34);
   text-shadow: 1px 1px 0 rgba(0,0,0,.5);
