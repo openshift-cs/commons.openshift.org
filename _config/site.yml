@@ -1,0 +1,14 @@
+profiles:
+  development:
+    base_url: http://nick-harvey.github.io/
+    deploy:
+      host: github_pages
+      # use gh-branch for repositories other than <username>.github.io
+      branch: gh-pages
+      # use master branch for <username>.github.io repository
+      branch: master
+  production:
+    base_url: http://www.openshift.org/
+    deploy:
+      host: www-originsites.rhcloud.com
+      path: /var/lib/openshift/547c99faecb8d478010001ab/app-root/data/html

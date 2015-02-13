@@ -1,0 +1,59 @@
+!!!
+%html{:lang => "en"}
+  %head
+    / Basic
+    %meta{:charset => "utf-8"}/
+    %title OpenShift Commons
+    %meta{:content => "The next generation open source app hosting platform by Red Hat", :name => "description"}/
+    / Mobile Metas
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    
+    / Skins Theme
+    %link.skin_color{:href => "#", :media => "screen", :rel => "stylesheet"}/
+
+    / Theme CSS
+    %link{:href => "../css/style.css", :media => "screen", :rel => "stylesheet"}/
+    
+    / Responsive CSS
+    %link{:href => "../css/theme-responsive.css", :media => "screen", :rel => "stylesheet"}/
+   
+    %link{:href => "../stylesheets/styles.css", :media => "screen", :rel => "stylesheet"}/
+
+    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700", :rel => "stylesheet", :type => "text/css"}/
+
+    / Favicons
+    %link{:href => "../img/icons/favicon.png", :rel => "shortcut icon"}/
+    %link{:href => "../img/icons/apple-touch-icon.png", :rel => "apple-touch-icon"}/
+    /[if IE]
+      <link rel="stylesheet" href="css/ie/ie.css">
+    /[if lte IE 8]
+      <script src="js/responsive/html5shiv.js"></script>
+      <script src="js/responsive/respond.js"></script>
+    :css
+      label {
+              font-weight:normal;
+            }
+:javascript
+    var submitted=false;
+  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted)\r\n{window.location='commons.html';}", :style => "display:none;"}
+%form#ss-form{:action => "https://docs.google.com/a/redhat.com/forms/d/1JpkOjRyRJe9kOawOutlQscSSApn5xU81D5KZfeYoB6Q/formResponse", :method => "POST", :onsubmit => "", :target => ""}
+  %ol.ss-question-list{:role => "list", :style => "padding-left: 0"}
+  .ss-form-question.errorbox-good{:role => "listitem"}
+    .ss-item.ss-item-required.ss-text{:dir => "ltr"}
+      .ss-form-entry
+        %label.ss-q-item-label{:for => "entry_945970398"}/
+        .ss-q-title
+          Email Address
+          %label{"aria-label" => "(Required field)", :for => "itemView.getDomIdToLabel()"}
+          %span.ss-required-asterisk{"aria-hidden" => "true"} *
+        .ss-q-help.ss-secondary-text{:dir => "ltr"}
+        %input#entry_945970398.ss-q-short{"aria-label" => "Email Address  Must enter a valid email address", "aria-required" => "true", :dir => "auto", :name => "entry.945970398", :required => "", :title => "Must enter a valid email address", :type => "email", :value => ""}
+  %input{:name => "draftResponse", :type => "hidden", :value => "[,,&quot;-729898859264933456&quot;]\n"}/
+  %input{:name => "pageHistory", :type => "hidden", :value => "0"}/
+  %input{:name => "fbzx", :type => "hidden", :value => "-729898859264933456"}/
+  .ss-item.ss-navigate
+    %table#navigation-table
+      %tbody
+        %tr
+          %td#navigation-buttons.ss-form-entry.goog-inline-block{:dir => "ltr"}
+            %input#ss-submit.jfk-button.jfk-button-action{:name => "submit", :type => "submit", :value => "Submit"}/

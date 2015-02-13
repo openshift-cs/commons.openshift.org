@@ -1,0 +1,79 @@
+!!!
+%html{:lang => "en"}
+  %head
+    / Basic
+    %meta{:charset => "utf-8"}/
+    %title Jekas  - Software, Studio and Corporate Responsive Template
+    %meta{:content => "HTML5 Template", :name => "keywords"}/
+    %meta{:content => "Jekas is a Software, Studio and Corporate Responsive Template", :name => "description"}/
+    %meta{:content => "iwthemes.com", :name => "author"}/
+    / Mobile Metas
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    / Theme CSS
+    %link{:href => "css/style.css", :media => "screen", :rel => "stylesheet"}/
+    / Responsive CSS
+    %link{:href => "css/theme-responsive.css", :media => "screen", :rel => "stylesheet"}/
+    / Skins Theme
+    %link.skin_color{:href => "#", :media => "screen", :rel => "stylesheet"}/
+    / Favicons
+    %link{:href => "img/icons/favicon.ico", :rel => "shortcut icon"}/
+    %link{:href => "img/icons/apple-touch-icon.png", :rel => "apple-touch-icon"}/
+    %link{:href => "img/icons/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}/
+    %link{:href => "img/icons/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}/
+    /[if IE]
+      <link rel="stylesheet" href="css/ie/ie.css">
+    /[if lte IE 8]
+      <script src="js/responsive/html5shiv.js"></script>
+      <script src="js/responsive/respond.js"></script>
+.row
+  .col-md-6
+    %form#ss-form{:action => "https://docs.google.com/forms/d/1BbYOX7Zz9NgpqB7A5fzaFkp-qgJgLHjIpHwBH5LJ6Hk/formResponse", :method => "POST", :onsubmit => "", :target => "_self"}
+      .ss-form-question.errorbox-good{:role => "listitem"}
+        .ss-item.ss-text{:dir => "ltr"}
+          .ss-form-entry
+            %label.ss-q-item-label{:for => "entry_835193099"}/
+            %h3
+              First Name
+            .ss-q-help.ss-secondary-text{:dir => "ltr"}
+            %input#entry_835193099.ss-q-short{"aria-label" => "First Name  ", :dir => "auto", :name => "entry.835193099", :title => "", :type => "text", :value => ""}/
+            #929163826_errorMessage.error-message
+            .required-message This is a required question
+      .ss-form-question.errorbox-good{:role => "listitem"}
+        .ss-item.ss-text{:dir => "ltr"}
+          .ss-form-entry
+            %label.ss-q-item-label{:for => "entry_305079668"}/
+            .ss-q-title
+              Last Name
+            .ss-q-help.ss-secondary-text{:dir => "ltr"}
+            %input#entry_305079668.ss-q-short{"aria-label" => "Last Name  ", :dir => "auto", :name => "entry.305079668", :title => "", :type => "text", :value => ""}/
+            #875941160_errorMessage.error-message
+            .required-message This is a required question
+      .ss-form-question.errorbox-good{:role => "listitem"}
+        .ss-item.ss-text{:dir => "ltr"}
+          .ss-form-entry
+            %label.ss-q-item-label{:for => "entry_1187159420"}/
+            .ss-q-title
+              Company Name
+            .ss-q-help.ss-secondary-text{:dir => "ltr"}
+            %input#entry_1187159420.ss-q-short{"aria-label" => "Company Name  ", :dir => "auto", :name => "entry.1187159420", :title => "", :type => "text", :value => ""}/
+            #1644215826_errorMessage.error-message
+            .required-message This is a required question
+      .ss-form-question.errorbox-good{:role => "listitem"}
+        .ss-item.ss-text{:dir => "ltr"}
+          .ss-form-entry
+            %label.ss-q-item-label{:for => "entry_1077678398"}/
+            .ss-q-title
+              Email Address
+            .ss-q-help.ss-secondary-text{:dir => "ltr"}
+            %input#entry_1077678398.ss-q-short{"aria-label" => "Email Address  ", :dir => "auto", :name => "entry.1077678398", :title => "", :type => "text", :value => ""}/
+            #830937204_errorMessage.error-message
+            .required-message This is a required question
+      %input{:name => "draftResponse", :type => "hidden", :value => "[,,&quot;626563492533810786&quot;]\n"}/
+      %input{:name => "pageHistory", :type => "hidden", :value => "0"}/
+      %input{:name => "fbzx", :type => "hidden", :value => "626563492533810786"}/
+      .ss-item.ss-navigate
+        %table#navigation-table
+          %tbody
+            %tr
+              %td#navigation-buttons.ss-form-entry.goog-inline-block{:dir => "ltr"}
+                %input#ss-submit.jfk-button.jfk-button-action{:name => "submit", :type => "submit", :value => "Submit"}/

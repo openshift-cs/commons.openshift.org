@@ -1,0 +1,32 @@
+---
+layout: base
+---
+~ content
+
+/ Footer
+%footer
+  .container
+    .row
+      / Social Section
+      .col-md-6.col-sm-12
+        %a{:href => "https://www.redhat.com/"}
+          %img{:alt => "Red Hat", :src => "https://assets.openshift.net/app/assets/redhat.svg"}/
+      .col-md-6.col-sm-12
+        %ul.social
+          %li.twitter
+            %a{:href => "https://twitter.com/openshift"}
+              %span
+                %i.fa.fa-twitter-square
+          %li.github
+            %a{:href => "https://github.com/openshift/origin-server"}
+              %span
+                %i.fa.fa-github
+          %li.google
+            %a{:href => "https://plus.google.com/communities/114361859072744017486"} 
+              %span
+                %i.fa.fa-google-plus-square
+          %li.facebook
+            %a{:href => "https://www.facebook.com/openshift"}
+              %span
+                %i.fa.fa-facebook-square
+/ End Footer

@@ -1,0 +1,63 @@
+!!!
+%html{:lang => "en"}
+  %head
+    / Basic
+    %meta{:charset => "utf-8"}/
+    %title OpenShift Commons
+    %meta{:content => "The next generation open source app hosting platform by Red Hat", :name => "description"}/
+    / Mobile Metas
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    
+    / Skins Theme
+    %link.skin_color{:href => "#", :media => "screen", :rel => "stylesheet"}/
+
+    / Theme CSS
+    %link{:href => "css/style.css", :media => "screen", :rel => "stylesheet"}/
+    
+    / Responsive CSS
+    %link{:href => "css/theme-responsive.css", :media => "screen", :rel => "stylesheet"}/
+   
+    %link{:href => "stylesheets/styles.css", :media => "screen", :rel => "stylesheet"}/
+
+    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700", :rel => "stylesheet", :type => "text/css"}/
+
+    / Favicons
+    %link{:href => "img/icons/favicon.png", :rel => "shortcut icon"}/
+    %link{:href => "img/icons/apple-touch-icon.png", :rel => "apple-touch-icon"}/
+    /[if IE]
+      <link rel="stylesheet" href="css/ie/ie.css">
+    /[if lte IE 8]
+      <script src="js/responsive/html5shiv.js"></script>
+      <script src="js/responsive/respond.js"></script>
+    :css
+      label {
+              font-weight:normal;
+            }
+.col-xs-12.col-sm-12.col-md-6.col-lg-6
+  :javascript
+    var submitted=false;
+  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted)\r\n{window.location='commons.html';}", :style => "display:none;"}
+  %form
+    .form-group{:action => "https://docs.google.com/forms/d/1BbYOX7Zz9NgpqB7A5fzaFkp-qgJgLHjIpHwBH5LJ6Hk/formResponse", :method => "POST", :onsubmit => "submitted=true;", :target => "hidden_iframe"}
+      .form-group
+        First Name
+        %input#entry_835193099.form-control{"aria-label" => "First Name  ", :dir => "auto", :name => "entry.835193099", :title => "", :type => "text", :value => ""}/
+      .form-group
+        Last Name
+        %input#entry_305079668.form-control{"aria-label" => "Last Name  ", :dir => "auto", :name => "entry.305079668", :title => "", :type => "text", :value => ""}/ 
+      .form-group
+        Company Name
+        %input#entry_1187159420.form-control{"aria-label" => "Company Name  ", :dir => "auto", :name => "entry.1187159420", :title => "", :type => "text", :value => ""}/
+      .form-group
+        Email Address
+        %input#entry_1077678398.form-control{"aria-label" => "Email Address  ", :dir => "auto", :name => "entry.1077678398", :title => "", :type => "text", :value => ""}/
+
+      %input{:name => "draftResponse", :type => "hidden", :value => "[,,&quot;626563492533810786&quot;]\n"}/
+      %input{:name => "pageHistory", :type => "hidden", :value => "0"}/
+      %input{:name => "fbzx", :type => "hidden", :value => "626563492533810786"}/
+      .ss-item.ss-navigate
+        %table#navigation-table
+          %tbody
+            %tr
+              %td#navigation-buttons.ss-form-entry.goog-inline-block{:dir => "ltr"}
+                %button.btn.btn-default{:name => "submit", :type => "submit", :value => "Submit"} Submit
