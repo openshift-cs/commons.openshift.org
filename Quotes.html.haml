@@ -1,61 +1,25 @@
-!!!
-%html{:lang => "en"}
-  %head
-    / Basic
-    %meta{:charset => "utf-8"}/
-    %title OpenShift Commons
-    %meta{:content => "The next generation open source app hosting platform by Red Hat", :name => "description"}/
-    / Mobile Metas
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    
-    / Skins Theme
-    %link.skin_color{:href => "#", :media => "screen", :rel => "stylesheet"}/
-
-    / Theme CSS
-    %link{:href => "css/style.css", :media => "screen", :rel => "stylesheet"}/
-    
-    / Responsive CSS
-    %link{:href => "css/theme-responsive.css", :media => "screen", :rel => "stylesheet"}/
-   
-    %link{:href => "stylesheets/styles.css", :media => "screen", :rel => "stylesheet"}/
-
-    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700", :rel => "stylesheet", :type => "text/css"}/
-
-    / Favicons
-    %link{:href => "img/icons/favicon.png", :rel => "shortcut icon"}/
-    %link{:href => "img/icons/apple-touch-icon.png", :rel => "apple-touch-icon"}/
-    /[if IE]
-      <link rel="stylesheet" href="css/ie/ie.css">
-    /[if lte IE 8]
-      <script src="js/responsive/html5shiv.js"></script>
-      <script src="js/responsive/respond.js"></script>
-    :css
-      label {
-              font-weight:normal;
-            }
-
-  %body.commons
-    #layout.layout-wide
-      / Header Section
-      %header.index_static
-        .nav_logo.animated.fadeIn
-          .container
-            .row
-              %nav.col-md-12
-                %ul#menu.sf-menu
-                  %li 
-                    %a{:href => "#join"} Join Commons
-                  %li
-                    %a{:href => "#colleagues"} Participants
-                  %li 
-                    %a{:href => "#interests"} Interests
-                  %li
-                    %a{:href => "briefings.html"} Events & Briefings
-        %section.content_info
-          / Parallax Background
-          .bg_parallax.image_06_parallax
-          / Parallax Background
-          / Content Parallax
+---
+layout: base
+---
+%body.commons
+  #layout.layout-wide
+    / Header Section
+    %header.index_static
+      .nav_logo.animated.fadeIn
+        .container
+          .row
+            %nav.col-md-12
+              %ul#menu.sf-menu
+                %li 
+                  %a{:href => "#join"} Join Commons
+                %li
+                  %a{:href => "#colleagues"} Participants
+                %li 
+                  %a{:href => "#interests"} Interests
+                %li
+                  %a{:href => "briefings.html"} Events & Briefings
+      %section.content_info
+        .bg_parallax.image_06_parallax
           %section.opacy_bg_05.paddings
             / Info Head Static
             .container
@@ -68,124 +32,52 @@
                     OpenShift Commons
                   %p.animated.fadeInUp.delay
                     Where partners, customers, and contributors come together to collaborate and work together using OpenShift. 
-      / Begin Crumbs
-      .crumbs.border_bottom
-        .container
+    / Begin Crumbs
+    .crumbs.border_bottom
+      .container
+        .row
+          .col-md-12
+            %ul
+              %li
+                %a{:href => "index.html"} Home
+              %li /
+              %li
+                %a{:href => "Quotes.html"} Participant Quotes
+    / End crumbs
+    / Info title
+    %section.content_info
+      / Info Resalt
+      .paddings
+        .container.wow.fadeInUp
           .row
             .col-md-12
-              %ul
-                %li
-                  %a{:href => "index.html"} Home
-                %li /
-                %li
-                  %a{:href => "Quotes.html"} Participant Quotes
-      / End crumbs
-      / Info title
-      %section.content_info
-        / Info Resalt
-        .paddings
-          .container.wow.fadeInUp
-            .row
-              .col-md-12
-                .col-md-2
-                  %img.img-responsive{:alt => "", :src => "img/commons-logos/cisco.png"}/
-                %p "Enterprise CIOs consistently rank DevOps enablement as one of their highest priorities. With Openshift Commons, Redhat has remained true to their opensource heritage and proven that Openshift enables open source application life-cycle management in a powerful self-service DevOps enablement platform. Openshift aligns with Cisco’s InterCloud vision of application centric enablement and portability across public and private clouds. We're please to be participants and contributors to the OpenShift Commons as it enables Cisco to contribute and collaborate directly with the entire OpenShift eco-system." 
-                .col-md-5.col-md-offset-7
-                  .text-right
-                    %p - Ken Owens Chief Technical Officer, Cisco Cloud Services
-                .col-md-2
-                  %img.img-responsive{:alt => "", :src => "img/commons-logos/getupcloud.png"}/
-                %p "OpenShift is critical to our business and the OpenShift Commons has given us a great opportunity to connect directly with other OpenShift ecosystem participants. Getup has been involved with OpenShift for over  2 years, built a company with this open source project and  having the opportunity to colaborate and work with them has been a great experience. We believe OpenShift Commons is a great opportunity to work with other OpenShift members, a channel to get feedbacks, share knowledge, experiences about the market and new releases."   
-                .col-md-5.col-md-offset-7
-                  .text-right
-                    %p - Diogo Goebel, CEO, Getup Cloud
-                .col-md-2
-                  %img.img-responsive{:alt => "", :src => "img/commons-logos/Amadeus_Logo.svg"}/
-                %p "As part of the project Amadeus Cloud Services, we are collaborating with Redhat to build a complete solution to manage data-center resources as a single compute unit, of which OpenShift is a critical component. By participating in the OpenShift Commons, we are able to easily and proactively communicate with the community, to jointly build a powerful solution that can benefit all users. With both the openness of the virtual meetings and code on GitHub, we are able to commit resources to areas in which we have expertise, while liaising with other participants to prioritise the common goal – a stable, secure and fully open-source solution."
-                .col-md-5.col-md-offset-7
-                  .text-right
-                    %p - Dietmar Fauser VP, Architecture, Quality & Governance
-                .col-md-2
-                  %img.img-responsive{:alt => "", :src => "img/commons-logos/shippable_logo.png"}/
-                %p As the first PaaS offering to embrace Docker natively, Red Hat's OpenShift 3.0 platform-as-a-service will achieve significant adoption in enterprises in 2015 for three reasons. Not only is OpenShift the easiest path yet for enterprises to take advantage of container technology inside their data centers, but with their OpenShift Commons initiative, they are providing the entire eco-system around OpenShift with an open peer-to-peer network to exchange and collaborate on all aspects of this latest release.  We're pleased to be active participants in the OpenShift Commons and encourage others to join." - Avi Cavale, CEO & Co-founder of Shippable
-                .col-md-5.col-md-offset-7
-                  .text-right
-                    %p - Avi Cavale, CEO & Co-founder of Shippable
-                .col-md-2
-                  %img.img-responsive{:alt => "", :src => "img/commons-logos/appdirect.png"}/
-                %p “Our cloud service commerce platform enables the distribution of cloud services through the OpenShift marketplace and we have seen first hand the growing demand for PaaS. Our collaboration with Red Hat has provided an opportunity to respond to the market need and support Red Hat’s vision of driving high value for its OpenShift partners, developer community and open source technology,” said Daniel Saks, co-CEO, AppDirect. “Red Hat's OpenShift Commons initiative is a testament to this vision and we are excited to provide our technology and API expertise to help drive open source adoption, engagement, integration and distribution.”
-                .col-md-5.col-md-offset-7
-                  .text-right
-                    %p - No Name in Spreadsheet
-        / End Info Resalt
-      / End content info - White Section
-      /footer              
-      %footer
-        .container
-          .row
-            / Social Section
-            .col-md-6.col-sm-12
-              %a{:href => "https://www.redhat.com/"}
-                %img{:alt => "Red Hat", :src => "https://assets.openshift.net/app/assets/redhat.svg"}/
-            .col-md-6.col-sm-12
-              %ul.social
-                %li.twitter
-                  %a{:href => "https://twitter.com/openshift"}
-                    %span
-                      %i.fa.fa-twitter-square
-                %li.github
-                  %a{:href => "https://github.com/openshift/origin-server"}
-                    %span
-                      %i.fa.fa-github
-                %li.google
-                  %a{:href => "https://plus.google.com/communities/114361859072744017486"} 
-                    %span
-                      %i.fa.fa-google-plus-square
-                %li.facebook
-                  %a{:href => "https://www.facebook.com/openshift"}
-                    %span
-                      %i.fa.fa-facebook-square
-      / footer
-    / End layout
-    / ======================= JQuery libs ===========================
-    / jQuery local
-    %script{:src => "js/jquery.js", :type => "text/javascript"}
-    / Nav
-    %script{:src => "js/nav/tinynav.js", :type => "text/javascript"}
-    %script{:src => "js/nav/superfish.js", :type => "text/javascript"}
-    %script{:src => "js/nav/hoverIntent.js", :type => "text/javascript"}
-    / %script{:src => "js/nav/jquery.sticky.js", :type => "text/javascript"}
-    / Totop
-    %script{:src => "js/totop/jquery.ui.totop.js", :type => "text/javascript"}
-    / Slide
-    %script{:src => "js/rs-plugin/js/jquery.themepunch.tools.min.js", :type => "text/javascript"}
-    %script{:src => "js/rs-plugin/js/jquery.themepunch.revolution.min.js", :type => "text/javascript"}
-    / owl-carousel
-    %script{:src => "js/carousel/owl.carousel.js", :type => "text/javascript"}
-    / Ligbox
-    %script{:src => "js/fancybox/jquery.fancybox.pack.js", :type => "text/javascript"}
-    / Gamma Gallery
-    /%script{:src => "js/gammagallery/js/gamma.js", :type => "text/javascript"}
-    / Gallery Grid
-    %script{:src => "js/gallery/modernizr.custom.26633.js", :type => "text/javascript"}
-    %script{:src => "js/gallery/jquery.gridrotator.js", :type => "text/javascript"}
-    / Minislider Team
-    %script{:src => "js/team/modernizr.custom.63321.js", :type => "text/javascript"}
-    %script{:src => "js/team/jquery.catslider.js", :type => "text/javascript"}
-    / Filters
-    %script{:src => "js/filters/jquery.isotope.js", :type => "text/javascript"}
-    / Theme Options
-    %script{:src => "js/theme-options/theme-options.js", :type => "text/javascript"}
-    %script{:src => "js/theme-options/jquery.cookies.js", :type => "text/javascript"}
-    / Twitter Feed
-    %script{:src => "js/twitter/jquery.tweet.js", :type => "text/javascript"}
-    / WOW-master
-    %script{:src => "js/animations/wow.min.js", :type => "text/javascript"}
-    / Parallax
-    %script{:src => "js/parallax/jquery.inview.js", :type => "text/javascript"}
-    %script{:src => "js/parallax/nbw-parallax.js", :type => "text/javascript"}
-    / Bootstrap.js
-    %script{:src => "js/bootstrap/bootstrap.js", :type => "text/javascript"}
-    / fUNCTIONS
-    %script{:src => "js/main.js", :type => "text/javascript"}
-    / ======================= End JQuery libs ===========================
+              .col-md-2
+                %img.img-responsive{:alt => "", :src => "img/commons-logos/cisco.png"}/
+              %p "Enterprise CIOs consistently rank DevOps enablement as one of their highest priorities. With Openshift Commons, Redhat has remained true to their opensource heritage and proven that Openshift enables open source application life-cycle management in a powerful self-service DevOps enablement platform. Openshift aligns with Cisco’s InterCloud vision of application centric enablement and portability across public and private clouds. We're please to be participants and contributors to the OpenShift Commons as it enables Cisco to contribute and collaborate directly with the entire OpenShift eco-system." 
+              .col-md-5.col-md-offset-7
+                .text-right
+                  %p - Ken Owens Chief Technical Officer, Cisco Cloud Services
+              .col-md-2
+                %img.img-responsive{:alt => "", :src => "img/commons-logos/getupcloud.png"}/
+              %p "OpenShift is critical to our business and the OpenShift Commons has given us a great opportunity to connect directly with other OpenShift ecosystem participants. Getup has been involved with OpenShift for over  2 years, built a company with this open source project and  having the opportunity to colaborate and work with them has been a great experience. We believe OpenShift Commons is a great opportunity to work with other OpenShift members, a channel to get feedbacks, share knowledge, experiences about the market and new releases."   
+              .col-md-5.col-md-offset-7
+                .text-right
+                  %p - Diogo Goebel, CEO, Getup Cloud
+              .col-md-2
+                %img.img-responsive{:alt => "", :src => "img/commons-logos/Amadeus_Logo.svg"}/
+              %p "As part of the project Amadeus Cloud Services, we are collaborating with Redhat to build a complete solution to manage data-center resources as a single compute unit, of which OpenShift is a critical component. By participating in the OpenShift Commons, we are able to easily and proactively communicate with the community, to jointly build a powerful solution that can benefit all users. With both the openness of the virtual meetings and code on GitHub, we are able to commit resources to areas in which we have expertise, while liaising with other participants to prioritise the common goal – a stable, secure and fully open-source solution."
+              .col-md-5.col-md-offset-7
+                .text-right
+                  %p - Dietmar Fauser VP, Architecture, Quality & Governance
+              .col-md-2
+                %img.img-responsive{:alt => "", :src => "img/commons-logos/shippable_logo.png"}/
+              %p As the first PaaS offering to embrace Docker natively, Red Hat's OpenShift 3.0 platform-as-a-service will achieve significant adoption in enterprises in 2015 for three reasons. Not only is OpenShift the easiest path yet for enterprises to take advantage of container technology inside their data centers, but with their OpenShift Commons initiative, they are providing the entire eco-system around OpenShift with an open peer-to-peer network to exchange and collaborate on all aspects of this latest release.  We're pleased to be active participants in the OpenShift Commons and encourage others to join." - Avi Cavale, CEO & Co-founder of Shippable
+              .col-md-5.col-md-offset-7
+                .text-right
+                  %p - Avi Cavale, CEO & Co-founder of Shippable
+              .col-md-2
+                %img.img-responsive{:alt => "", :src => "img/commons-logos/appdirect.png"}/
+              %p “Our cloud service commerce platform enables the distribution of cloud services through the OpenShift marketplace and we have seen first hand the growing demand for PaaS. Our collaboration with Red Hat has provided an opportunity to respond to the market need and support Red Hat’s vision of driving high value for its OpenShift partners, developer community and open source technology,” said Daniel Saks, co-CEO, AppDirect. “Red Hat's OpenShift Commons initiative is a testament to this vision and we are excited to provide our technology and API expertise to help drive open source adoption, engagement, integration and distribution.”
+              .col-md-5.col-md-offset-7
+                .text-right
+                  %p - No Name in Spreadsheet

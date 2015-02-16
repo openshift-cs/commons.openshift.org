@@ -39,8 +39,8 @@ Author: breather https://unsplash.com/breather
 License: https://unsplash.com/license
 ---------------------------------------------------------------*/
 
-.image_07_parrallax{
-	background-image: url("../img/parallax/ecosystem_full.jpg");
+.image_06_parallax{
+	background-image: url("../img/parallax/commons-full-2.jpg");
 	background-repeat: repeat-x;
 }
 
@@ -158,7 +158,6 @@ table.table.contributions {
 
 .item-team {
 	padding: 5px;
-		background: #fff;
 		border: none;
 		margin: 0 0 15px 0;
 		text-align: center;
@@ -386,7 +385,6 @@ ul.social {
 
 .item-work {
 	padding: 5px;
-	background: #fff;
 	border: none;
 	margin: 0 0 15px 0;
 	text-align: center;
@@ -410,7 +408,7 @@ ul.social {
 	}
 
 	.service-process:before {
-		background-image: url('../img/dev-process.svg');
+		background-image: url("../img/parallax/commons-full.jpg");
 		background-position: inherit;
 		background-repeat: no-repeat;
 		background-size: contain;

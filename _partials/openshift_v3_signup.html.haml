@@ -1,39 +1,5 @@
-!!!
-%html{:lang => "en"}
-  %head
-    / Basic
-    %meta{:charset => "utf-8"}/
-    %title OpenShift Commons
-    %meta{:content => "The next generation open source app hosting platform by Red Hat", :name => "description"}/
-    / Mobile Metas
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    
-    / Skins Theme
-    %link.skin_color{:href => "#", :media => "screen", :rel => "stylesheet"}/
-
-    / Theme CSS
-    %link{:href => "../css/style.css", :media => "screen", :rel => "stylesheet"}/
-    
-    / Responsive CSS
-    %link{:href => "../css/theme-responsive.css", :media => "screen", :rel => "stylesheet"}/
-   
-    %link{:href => "../stylesheets/styles.css", :media => "screen", :rel => "stylesheet"}/
-
-    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700", :rel => "stylesheet", :type => "text/css"}/
-
-    / Favicons
-    %link{:href => "../img/icons/favicon.png", :rel => "shortcut icon"}/
-    %link{:href => "../img/icons/apple-touch-icon.png", :rel => "apple-touch-icon"}/
-    /[if IE]
-      <link rel="stylesheet" href="css/ie/ie.css">
-    /[if lte IE 8]
-      <script src="js/responsive/html5shiv.js"></script>
-      <script src="js/responsive/respond.js"></script>
-    :css
-      label {
-              font-weight:normal;
-            }
-:javascript
+.col-xs-12.col-sm-12.col-md-6.col-lg-6
+  :javascript
     var submitted=false;
   %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted)\r\n{window.location='commons.html';}", :style => "display:none;"}
 %form#ss-form{:action => "https://docs.google.com/a/redhat.com/forms/d/1JpkOjRyRJe9kOawOutlQscSSApn5xU81D5KZfeYoB6Q/formResponse", :method => "POST", :onsubmit => "", :target => ""}

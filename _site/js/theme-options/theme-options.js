@@ -30,7 +30,7 @@ $(document).ready(function($) {
 	    var themepanel = "0"; // 1 (default - visible), 0 ( No visible)
 
 	    $("#layout").addClass(skin_version);	
-	    $(".skin_color").attr("href", "css/skins/"+ skin_color + "/" + skin_color + ".css");
+	    $(".skin_color").attr("href", "stylesheets/skins/"+ skin_color + "/" + skin_color + ".css");
 	    $("#layout").addClass(layout);	
 	    $("body").addClass(bg);   
 	    $("#theme-options").css('opacity' , themepanel);

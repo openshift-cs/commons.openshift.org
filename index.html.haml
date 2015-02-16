@@ -1,61 +1,25 @@
-!!!
-%html{:lang => "en"}
-  %head
-    / Basic
-    %meta{:charset => "utf-8"}/
-    %title OpenShift Commons
-    %meta{:content => "The next generation open source app hosting platform by Red Hat", :name => "description"}/
-    / Mobile Metas
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
-    
-    / Skins Theme
-    %link.skin_color{:href => "#", :media => "screen", :rel => "stylesheet"}/
-
-    / Theme CSS
-    %link{:href => "css/style.css", :media => "screen", :rel => "stylesheet"}/
-    
-    / Responsive CSS
-    %link{:href => "css/theme-responsive.css", :media => "screen", :rel => "stylesheet"}/
-   
-    %link{:href => "stylesheets/styles.css", :media => "screen", :rel => "stylesheet"}/
-
-    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700", :rel => "stylesheet", :type => "text/css"}/
-
-    / Favicons
-    %link{:href => "img/icons/favicon.png", :rel => "shortcut icon"}/
-    %link{:href => "img/icons/apple-touch-icon.png", :rel => "apple-touch-icon"}/
-    /[if IE]
-      <link rel="stylesheet" href="css/ie/ie.css">
-    /[if lte IE 8]
-      <script src="js/responsive/html5shiv.js"></script>
-      <script src="js/responsive/respond.js"></script>
-    :css
-      label {
-              font-weight:normal;
-            }
-
-  %body.commons
-    #layout.layout-wide
-      / Header Section
-      %header.index_static
-        .nav_logo.animated.fadeIn
-          .container
-            .row
-              %nav.col-md-12
-                %ul#menu.sf-menu
-                  %li 
-                    %a{:href => "#join"} Join Commons
-                  %li
-                    %a{:href => "#colleagues"} Participants
-                  %li 
-                    %a{:href => "#interests"} Interests
-                  %li
-                    %a{:href => "briefings.html"} Events & Briefings
-        %section.content_info
-          / Parallax Background
-          .bg_parallax.image_06_parallax
-          / Parallax Background
-          / Content Parallax
+---
+layout: base
+---
+%body.commons
+  #layout.layout-wide
+    / Header Section
+    %header.index_static
+      .nav_logo.animated.fadeIn
+        .container
+          .row
+            %nav.col-md-12
+              %ul#menu.sf-menu
+                %li 
+                  %a{:href => "#join"} Join Commons
+                %li
+                  %a{:href => "#colleagues"} Participants
+                %li 
+                  %a{:href => "#interests"} Interests
+                %li
+                  %a{:href => "briefings.html"} Events & Briefings
+      %section.content_info
+        .bg_parallax.image_06_parallax
           %section.opacy_bg_05.paddings
             / Info Head Static
             .container
@@ -68,20 +32,21 @@
                     OpenShift Commons
                   %p.animated.fadeInUp.delay
                     Where partners, customers, and contributors come together to collaborate and work together using OpenShift. 
-      / Begin Crumbs
-      .crumbs.border_bottom
-        .container
-          .row
-            .col-md-12
-              %ul
-                %li
-                  %a{:href => "index.html"} Home
-                %li /
-                %li
-                  %a{:href => "commons.html"} Commons
-      / End crumbs
-      / Info title
-      #try.info_title.wow.fadeInDown#join
+    / Begin Crumbs
+    .crumbs.border_bottom
+      .container
+        .row
+          .col-md-12
+            %ul
+              %li
+                %a{:href => "index.html"} Home
+              %li /
+              %li
+                %a{:href => "commons.html"} Commons
+    / End crumbs
+    / Info title
+    %section.content_info#join
+      #try.info_title.wow.fadeInDown
         %i.fa.fa-users.right
         .vertical_line
           .circle_bottom
@@ -125,148 +90,79 @@
                       / .overlay
                     .info
                       %a{:href => "#{img[0]}"} #{img[0]}
-                / End Item Work
-            / End Items Works filters
-        / End Info Resalt
-      / End content info - Grey Section
-      / Info title
-      %section.content_info#interests
-        .row.info_title
-          .vertical_line
-            .circle_bottom
-          .info_vertical
-            %h1
-              Find Your
-              %span Commonality
-            %p.text-left OpenShift is an inclusive, open and inviting community filled with passionate people. Chances are, there is a local OpenShift event near you already in the works, check out our Events calendar or connect with the OpenShift Accelerators nearest you and organize your own local event.
-            .row
-              .paddings
-                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInLeft
-                  %h2 
-                    %a{:href => "sig/Operations.html", :title => "Operations"} OpenShift Ops
-                    %p Discuss, develop and disseminate best practices for administrating, managing and operating OpenShift
-                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInUp
-                  %h2 
-                    %a{:href => "sig/Openshift3.html", :title => "OpenShift 3"} OpenShift 3
-                    %p OpenShift V3 Migration Upgrade Roadmap Special Interest Group
-                .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInRight
-                  %h2 
-                    %a{:href => "sig/Ecosystem.html", :title => "Ecosystem"} Ecosystem
-                    %p Collaboration in practice
-          .vertical_line
-          %i.fa.fa-comments-o.right
-        / End Info title
-        / Info title
-      %section.content_info
-        / Info Resalt
-        .info_resalt.borders
-          .container
-            .row
-              .col-md-12.simple-title
-                %h2
-                  Member 
-                  %span Quotes
-              / carousel-team-members
-              #carousel-team-members.col-md-12
-                - File.open("img/quotes.txt").readlines.each do |line|
-                  - img = line.split(',').map(&:chomp)
-                  / Item Team
-                  .item-team
-                    .logo
-                      %img{:alt => "Image", :src => "img/#{img[2]}"}
-                    %h4
-                      %a{:href => "#{img[1]}", :alt => " #{img[0]}", :title => " #{img[0]}"} #{img[0]}
-                    %p #{img[3]}
-                  / End Item Team
-              / End carousel-team-members
-        / End Info Resalt
-      %section.content_info.paddings
-        .row.info_title.wow.fadeInUp
-          .info_vertical
-            %h1
-              Become a part of something
-              %span bigger
-            %p OpenShift Commons open to OpenShift users (individuals), enterprises, non-profits, educational institutions, partners, service providers, hosting providers  and related open source technology projects that are either utilized under the hood or to extend the platform with services and additional functionality.
-            %br
-            %ul
-              %li.text-left If you (or your organization)  are an OpenShift Online or an OpenShift Enterprise  customer or you have deploy OpenShift Origin on premise or on a public cloud, this is the forum for you to connect with your peers.
-
-              %li.text-left If you have extended OpenShift with your services or contributed to the OpenShift Origin project and want to connect with your peers and those users of your services on OpenShift, this is the forum for you.
-
-              %li.text-left If you simply want to stay up-to-date on the roadmap and best practices for using, deploying and operating OpenShift, the OpenShift Commons is the right place for you.
-
-            %h2
-              %a{:href => "#join"} Ready to Join?
-          %i.fa.fa-compass.left            
+              / End Item Work
+          / End Items Works filters
+      / End Info Resalt
+    / End content info - Grey Section
+    / Info title
+    %section.content_info#interests
+      .row.info_title
+        .vertical_line
+          .circle_bottom
+        .info_vertical
+          %h1
+            Find Your
+            %span Commonality
+          %p.text-left OpenShift is an inclusive, open and inviting community filled with passionate people. Chances are, there is a local OpenShift event near you already in the works, check out our Events calendar or connect with the OpenShift Accelerators nearest you and organize your own local event.
+          .row
+            .paddings
+              .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInLeft
+                %h2 
+                  %a{:href => "sig/Operations.html", :title => "Operations"} OpenShift Ops
+                  %p Discuss, develop and disseminate best practices for administrating, managing and operating OpenShift
+              .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInUp
+                %h2 
+                  %a{:href => "sig/Openshift3.html", :title => "OpenShift 3"} OpenShift 3
+                  %p OpenShift V3 Migration Upgrade Roadmap Special Interest Group
+              .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInRight
+                %h2 
+                  %a{:href => "sig/Ecosystem.html", :title => "Ecosystem"} Ecosystem
+                  %p Collaboration in practice
+        .vertical_line
+        %i.fa.fa-comments-o.right
       / End Info title
-      / End content info - Grey Section
-      /footer              
-      %footer
+      / Info title
+    %section.content_info
+      / Info Resalt
+      .info_resalt.borders
         .container
           .row
-            / Social Section
-            .col-md-6.col-sm-12
-              %a{:href => "https://www.redhat.com/"}
-                %img{:alt => "Red Hat", :src => "https://assets.openshift.net/app/assets/redhat.svg"}/
-            .col-md-6.col-sm-12
-              %ul.social
-                %li.twitter
-                  %a{:href => "https://twitter.com/openshift"}
-                    %span
-                      %i.fa.fa-twitter-square
-                %li.github
-                  %a{:href => "https://github.com/openshift/origin-server"}
-                    %span
-                      %i.fa.fa-github
-                %li.google
-                  %a{:href => "https://plus.google.com/communities/114361859072744017486"} 
-                    %span
-                      %i.fa.fa-google-plus-square
-                %li.facebook
-                  %a{:href => "https://www.facebook.com/openshift"}
-                    %span
-                      %i.fa.fa-facebook-square
-      / footer
-    / End layout
-    / ======================= JQuery libs ===========================
-    / jQuery local
-    %script{:src => "js/jquery.js", :type => "text/javascript"}
-    / Nav
-    %script{:src => "js/nav/tinynav.js", :type => "text/javascript"}
-    %script{:src => "js/nav/superfish.js", :type => "text/javascript"}
-    %script{:src => "js/nav/hoverIntent.js", :type => "text/javascript"}
-    / %script{:src => "js/nav/jquery.sticky.js", :type => "text/javascript"}
-    / Totop
-    %script{:src => "js/totop/jquery.ui.totop.js", :type => "text/javascript"}
-    / Slide
-    %script{:src => "js/rs-plugin/js/jquery.themepunch.tools.min.js", :type => "text/javascript"}
-    %script{:src => "js/rs-plugin/js/jquery.themepunch.revolution.min.js", :type => "text/javascript"}
-    / owl-carousel
-    %script{:src => "js/carousel/owl.carousel.js", :type => "text/javascript"}
-    / Ligbox
-    %script{:src => "js/fancybox/jquery.fancybox.pack.js", :type => "text/javascript"}
-    / Gamma Gallery
-    /%script{:src => "js/gammagallery/js/gamma.js", :type => "text/javascript"}
-    / Gallery Grid
-    %script{:src => "js/gallery/modernizr.custom.26633.js", :type => "text/javascript"}
-    %script{:src => "js/gallery/jquery.gridrotator.js", :type => "text/javascript"}
-    / Minislider Team
-    %script{:src => "js/team/modernizr.custom.63321.js", :type => "text/javascript"}
-    %script{:src => "js/team/jquery.catslider.js", :type => "text/javascript"}
-    / Filters
-    %script{:src => "js/filters/jquery.isotope.js", :type => "text/javascript"}
-    / Theme Options
-    %script{:src => "js/theme-options/theme-options.js", :type => "text/javascript"}
-    %script{:src => "js/theme-options/jquery.cookies.js", :type => "text/javascript"}
-    / Twitter Feed
-    %script{:src => "js/twitter/jquery.tweet.js", :type => "text/javascript"}
-    / WOW-master
-    %script{:src => "js/animations/wow.min.js", :type => "text/javascript"}
-    / Parallax
-    %script{:src => "js/parallax/jquery.inview.js", :type => "text/javascript"}
-    %script{:src => "js/parallax/nbw-parallax.js", :type => "text/javascript"}
-    / Bootstrap.js
-    %script{:src => "js/bootstrap/bootstrap.js", :type => "text/javascript"}
-    / fUNCTIONS
-    %script{:src => "js/main.js", :type => "text/javascript"}
-    / ======================= End JQuery libs ===========================
+            .col-md-12.simple-title
+              %h2
+                Participant 
+                %span Quotes
+            / carousel-team-members
+            #carousel-team-members.col-md-12
+              - File.open("img/quotes.txt").readlines.each do |line|
+                - img = line.split(',').map(&:chomp)
+                / Item Team
+                .item-team
+                  .logo
+                    %img{:alt => "Image", :src => "img/#{img[2]}"}
+                  %h4
+                    %a{:href => "#{img[1]}", :alt => " #{img[0]}", :title => " #{img[0]}"} #{img[0]}
+                  %p #{img[3]}
+                / End Item Team
+            / End carousel-team-members
+      / End Info Resalt
+    %section.content_info.paddings
+      .row.info_title.wow.fadeInUp
+        .info_vertical
+          %h1
+            Become a part of something
+            %span bigger
+          %p OpenShift Commons open to OpenShift users (individuals), enterprises, non-profits, educational institutions, partners, service providers, hosting providers  and related open source technology projects that are either utilized under the hood or to extend the platform with services and additional functionality.
+          %br
+          %ul
+            %li.text-left If you (or your organization)  are an OpenShift Online or an OpenShift Enterprise  customer or you have deploy OpenShift Origin on premise or on a public cloud, this is the forum for you to connect with your peers.
+
+            %li.text-left If you have extended OpenShift with your services or contributed to the OpenShift Origin project and want to connect with your peers and those users of your services on OpenShift, this is the forum for you.
+
+            %li.text-left If you simply want to stay up-to-date on the roadmap and best practices for using, deploying and operating OpenShift, the OpenShift Commons is the right place for you.
+
+          %h2
+            %a{:href => "#join"} Ready to Join?
+        %i.fa.fa-compass.left            
+    / End Info title
+    / End content info - Grey Section
+    /footer              
