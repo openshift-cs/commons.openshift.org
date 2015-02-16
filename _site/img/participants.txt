@@ -1,27 +1,25 @@
 AGIX,http://www.agix.com.au/,commons-logos/agix.png
 Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
 Appdirect,http://www.appdirect.com/,commons-logos/appdirect.png
-CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.png
-Centos,http://www.centos.org/,commons-logos/centos.png
+CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
-Cisco,http://www.cisco.com,commons-logos/cisco.png
+Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
 CSC,http://www.csc.com/,commons-logos/csc.png
-Dell,http://www.dell.com/,commons-logos/dell.png
-Docker,https://www.docker.com/,commons-logos/docker.png
-Fedora,https://getfedora.org/,commons-logos/fedora.png
-FICO,http://www.fico.com/en/,commons-logos/fico.png
+Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
+Docker,https://www.docker.com/,commons-logos/docker_logo.svg
+FICO,http://www.fico.com/en/,commons-logos/fico.svg
 Getupcloud,https://getupcloud.com/index.html,commons-logos/getupcloud.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
-Ironio,http://www.iron.io/,commons-logos/ironio.png
+Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
 Pantheon,https://www.getpantheon.com,commons-logos/pantheon.png
 Phase2,http://www.phase2technology.com,commons-logos/phase2.png
 produban,http://www.produban.com/en/index.html,commons-logos/produban.png
 Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
-puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.png
-SAIC,http://www.saic.com/,commons-logos/saic.png
+puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.svg
+SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 Telstra,https://www.telstra.com.au,commons-logos/telstra-orange.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png

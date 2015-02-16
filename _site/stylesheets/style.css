@@ -1224,10 +1224,10 @@ header .container{
 	list-style: none;
 }
 .item-work img{
-	transform: scale(0.1, 0.1);
+	/*transform: scale(0.1, 0.1);
     -ms-transform: scale(0.1, 0.1);
     -webkit-transform: scale(0.1, 0.1);
-	width: 100%;	
+	width: 100%;*/
 }
 .item-work{
 	padding: 5px;	
