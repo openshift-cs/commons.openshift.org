@@ -26,3 +26,5 @@ Vizuri,http://vizuri.com/,commons-logos/vizuri.png
 Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/Amadeus_Logo.svg
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
 IDC,http://www.idc.com/,commons-logos/idc_logo.png
+T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
+AppDynamics,http://www.appdynamics.com/,commons-logos/AppDynamics.png
