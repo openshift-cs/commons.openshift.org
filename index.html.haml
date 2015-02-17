@@ -76,22 +76,14 @@ layout: base
             Commons
             %span Participants
         .container
-          / Items Works filters
-          .portfolioContainer
-            / Item Work
+          / Partner list
+          %ul.participants
             - File.open("img/participants.txt").readlines.each do |line|
               - img = line.split(',').map(&:chomp)
-              .col-sm-2.col-md-2.col-lg-2.col-xs-4.desing
-                .item-work
-                  %a{:href => "#{img[1]}", :alt => " #{img[0]}", :title => " #{img[0]}"}
-                    .hover
-                      %img{:alt => "Image", :src => "img/#{img[2]}"}/
-                      / %a.ligbox-image{:href => "#{img[1]}", :title => "#{name}"}/
-                      / .overlay
-                    .info
-                      %a{:href => "#{img[0]}"} #{img[0]}
-              / End Item Work
-          / End Items Works filters
+              %li
+                %a{:href => "#{img[1]}", :title => " #{img[0]}"}
+                  %img{:src => "img/#{img[2]}", :alt => " #{img[0]}"}
+          / End Partner list
       / End Info Resalt
     / End content info - Grey Section
     / Info title

@@ -383,20 +383,36 @@ ul.social {
 // Commons
 // -------------------------------
 
-.item-work {
-	padding: 5px;
-	border: none;
-	margin: 0 0 15px 0;
-	text-align: center;
-	img {
-	width: 100%;
+// Participants
+ul.participants {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 25px;
+    width: 120px;
+    vertical-align: middle;
   }
-  .info {
-  	display: none;
+
+  a {
+    position: relative;
+    display: inline-block;
+
+    img {
+      max-width: 120px;
+      max-height: 85px;
+      transition: all .5s cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    }
+
+    &:hover img{
+      transform: scale(1.33);
+    }
   }
+
 }
-
-
 
 @media (min-width: $screen-md-min) {
 	.opacy_bg_02, .opacy_bg_05 {
