@@ -18,6 +18,8 @@ layout: base
                   %a{:href => "#interests"} Interests
                 %li
                   %a{:href => "briefings.html"} Events & Briefings
+                %li
+                  %a{:href => "quotes.html"} Participant Quotes
       %section.content_info
         .bg_parallax.image_06_parallax
           %section.opacy_bg_05.paddings
@@ -32,18 +34,6 @@ layout: base
                     OpenShift Commons
                   %p.animated.fadeInUp.delay
                     Where partners, customers, and contributors come together to collaborate and work together using OpenShift. 
-    / Begin Crumbs
-    .crumbs.border_bottom
-      .container
-        .row
-          .col-md-12
-            %ul
-              %li
-                %a{:href => "index.html"} Home
-              %li /
-              %li
-                %a{:href => "commons.html"} Commons
-    / End crumbs
     / Info title
     %section.content_info#join
       #try.info_title.wow.fadeInDown
@@ -84,12 +74,11 @@ layout: base
               .col-sm-2.col-md-2.col-lg-2.col-xs-4.desing
                 .item-work
                   %a{:href => "#{img[1]}", :alt => " #{img[0]}", :title => " #{img[0]}"}
-                    .hover
-                      %img{:alt => "Image", :src => "img/#{img[2]}"}/
-                      / %a.ligbox-image{:href => "#{img[1]}", :title => "#{name}"}/
-                      / .overlay
-                    .info
-                      %a{:href => "#{img[0]}"} #{img[0]}
+                    .logo
+                      .hover
+                        %img{:alt => "Image", :src => "img/#{img[2]}"}/
+                  .info
+                    %a{:href => "#{img[0]}"} #{img[0]}
               / End Item Work
           / End Items Works filters
       / End Info Resalt
@@ -106,18 +95,18 @@ layout: base
           %p.text-left OpenShift is an inclusive, open and inviting community filled with passionate people. Chances are, there is a local OpenShift event near you already in the works, check out our Events calendar or connect with the OpenShift Accelerators nearest you and organize your own local event.
           .row
             .paddings
-              .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInLeft
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6.wow.fadeInLeft
                 %h2 
                   %a{:href => "sig/Operations.html", :title => "Operations"} OpenShift Ops
                   %p Discuss, develop and disseminate best practices for administrating, managing and operating OpenShift
-              .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInUp
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6.wow.fadeInRight
                 %h2 
                   %a{:href => "sig/Openshift3.html", :title => "OpenShift 3"} OpenShift 3
                   %p OpenShift V3 Migration Upgrade Roadmap Special Interest Group
-              .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInRight
-                %h2 
-                  %a{:href => "sig/Ecosystem.html", :title => "Ecosystem"} Ecosystem
-                  %p Collaboration in practice
+              -# .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInRight
+              -#   %h2 
+              -#     %a{:href => "sig/Ecosystem.html", :title => "Ecosystem"} Ecosystem
+              -#     %p Collaboration in practice
         .vertical_line
         %i.fa.fa-comments-o.right
       / End Info title
@@ -140,7 +129,7 @@ layout: base
                   .logo
                     %img{:alt => "Image", :src => "img/#{img[2]}"}
                   %h4
-                    %a{:href => "#{img[1]}", :alt => " #{img[0]}", :title => " #{img[0]}"} #{img[0]}
+                    %a{:href => "#{img[4]}", :alt => " #{img[0]}", :title => " #{img[0]}"} #{img[0]}
                   %p #{img[3]}
                 / End Item Team
             / End carousel-team-members
