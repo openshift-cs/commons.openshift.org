@@ -8,7 +8,7 @@ profiles:
       # use master branch for <username>.github.io repository
       branch: master
   production:
-    base_url: http://www.openshift.org/
+    base_url: http://commons.openshift.org/
     deploy:
-      host: www-originsites.rhcloud.com
-      path: /var/lib/openshift/547c99faecb8d478010001ab/app-root/data/html
+      host: commons-originsites.rhcloud.com
+      path: /var/lib/openshift/54d9249c4382ec277000003b/app-root/data/html
