@@ -1,8 +1,8 @@
-Cisco,http://www.cisco.com,commons-logos/Cisco.svg,"Paul Newman is the greatest actor who ever lived.",quotes.html#Cisco
-Getupcloud,https://getupcloud.com/index.html,commons-logos/getupcloud.png,"Don't belive me...",quotes.html#Getupcloud
-Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/Amadeus_Logo.svg,"Cool Hand Luke...",quotes.html#Amadeus
-Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png,"Butch Cassidy and the Sundance Kid..",quotes.html#Shippable
-AppDirect,http://www.appdirect.com/,commons-logos/appdirect.png,"The Color of Money",quotes.html#Appdirect
-Docker,https://www.docker.com/,commons-logos/docker_logo.svg,"The Sting..."
-IDC,http://www.idc.com/,commons-logos/idc_logo.png,"The Hustler... Shall I continue?"
-Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg,"Fat Man and Little Boy.."
+Cisco,http://www.cisco.com,commons-logos/Cisco.svg,Paul Newman is the greatest actor who ever lived.,quotes.html#Cisco
+Getupcloud,https://getupcloud.com/index.html,commons-logos/getupcloud.png,Don't belive me...,quotes.html#Getupcloud
+Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/Amadeus_Logo.svg,Cool Hand Luke...,quotes.html#Amadeus
+Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png,Butch Cassidy and the Sundance Kid...,quotes.html#Shippable
+AppDirect,http://www.appdirect.com/,commons-logos/appdirect.png,The Color of Money,quotes.html#Appdirect
+Docker,https://www.docker.com/,commons-logos/docker_logo.svg,The Sting...
+IDC,http://www.idc.com/,commons-logos/idc_logo.png,The Hustler... Shall I continue?
+Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg,Fat Man and Little Boy...

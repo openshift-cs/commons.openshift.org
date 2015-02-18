@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /** Overrides to theme
 	*******************************************************/
 /* line 3, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
@@ -366,28 +367,79 @@ ul.social span i {
   height: 18px;
   border: 5px solid #DB212F; }
 
-/* line 372, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
-.item-work {
-  padding: 5px;
-  border: none;
+/* line 373, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+ul.participants {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   text-align: center; }
-/* line 376, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
-.item-work img {
-  width: 100%; }
 /* line 379, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
-.item-work .info {
-  display: none; }
+ul.participants li {
+  display: inline-block;
+  margin: 25px;
+  width: 120px;
+  vertical-align: middle; }
+/* line 386, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+ul.participants a {
+  position: relative;
+  display: inline-block; }
+/* line 390, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+ul.participants a img {
+  max-width: 120px;
+  max-height: 85px;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); }
+/* line 396, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+ul.participants a:hover img {
+  transform: scale(1.33); }
+
+/* line 403, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+.item-team {
+  width: 100%;
+  display: block;
+  height: auto; }
+/* line 408, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+.item-team img.logo {
+  padding-top: 20px;
+  width: 15%;
+  float: left; }
+/* line 414, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+.item-team a {
+  display: inline-block;
+  float: left;
+  width: 85%;
+  color: black; }
+/* line 420, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+.item-team a:hover {
+  text-decoration: none; }
+/* line 425, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+.item-team blockquote {
+  border: none;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 50px; }
+/* line 431, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+.item-team blockquote:before {
+  content: '❝';
+  color: #DB212F;
+  font-size: 40px;
+  margin-left: -30px; }
+/* line 438, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+.item-team blockquote cite {
+  margin: 20px 0 0;
+  font-style: italic;
+  display: block;
+  text-align: left; }
 
 @media (min-width: 992px) {
-  /* line 387, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 449, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .opacy_bg_02, .opacy_bg_05 {
     padding: 70px 0 130px; }
 
-  /* line 391, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 453, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .bg_parallax {
     background-position-x: 10% !important; }
 
-  /* line 395, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 457, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .service-process:before {
     background-image: url("../img/parallax/commons-full.jpg");
     background-position: inherit;
@@ -402,46 +454,62 @@ ul.social span i {
     height: 100%;
     opacity: .1; }
 
-  /* line 409, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 471, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   #timeline .date {
     top: -120px; }
 
-  /* line 412, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 474, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   ul.social {
     float: right; } }
 @media (max-width: 980px) {
-  /* line 418, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 480, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .tinynav {
     top: -7px;
     border-radius: 5px; }
 
-  /* line 422, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 484, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .nav_logo {
     background-color: transparent;
     top: 0; }
-  /* line 425, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 487, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .commons .nav_logo {
     background-color: transparent; } }
 @media (max-width: 991px) {
-  /* line 431, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 493, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .index_static h1 {
     font-size: 34px;
     line-height: normal; }
-  /* line 435, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 497, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .index_static p {
     font-size: 21px;
     line-height: normal; }
 
-  /* line 442, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 504, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .timeline-responsive .opacy_bg_03 {
     min-width: 600px; }
-  /* line 445, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 507, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .timeline-responsive .opacy_bg_03 #timeline .date {
     top: -90px; }
 
-  /* line 452, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 514, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .social {
     padding-top: 30px; }
-  /* line 454, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  /* line 516, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
   .social li {
-    margin: 0 15px; } }
+    margin: 0 15px; }
+
+  /* line 523, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  .item-team img.logo {
+    display: block;
+    float: none;
+    margin: 10px auto;
+    width: auto;
+    max-width: 120px;
+    max-height: 85px; }
+  /* line 532, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  .item-team a {
+    width: 100%;
+    float: none; }
+  /* line 536, /Users/Nick/Git/commons.openshift.org/stylesheets/_custom.scss */
+  .item-team a blockquote {
+    text-align: center; } }

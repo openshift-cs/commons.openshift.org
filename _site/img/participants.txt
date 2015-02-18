@@ -17,10 +17,11 @@ Orange,http://www.orange.com/en/home,commons-logos/orange.png
 Pantheon,https://www.getpantheon.com,commons-logos/pantheon.png
 Phase2,http://www.phase2technology.com,commons-logos/phase2.png
 produban,http://www.produban.com/en/index.html,commons-logos/produban.png
+Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
 puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.svg
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
-Telstra,https://www.telstra.com.au,commons-logos/telstra.svg
+Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
 Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/Amadeus_Logo.svg
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
