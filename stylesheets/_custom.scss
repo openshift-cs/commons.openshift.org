@@ -397,8 +397,53 @@ ul.participants {
       transform: scale(1.33);
     }
   }
-
 }
+
+// Quotes
+.item-team {
+  width: 100%;
+  display: block;
+  height: auto;
+
+  img.logo {
+    padding-top: 20px;
+    width: 15%;
+    float: left;
+  }
+
+  a {
+    display: inline-block;
+    float: left;
+    width: 85%;
+    color: black;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  blockquote {
+    border: none;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 50px;
+
+    &:before {
+      content: '❝';
+      color: #DB212F;
+      font-size: 40px;
+      margin-left: -30px;
+    }
+
+    cite {
+      margin: 20px 0 0;
+      font-style: italic;
+      display: block;
+      text-align: left;
+    }
+  }
+}
+
 
 @media (min-width: $screen-md-min) {
 	.opacy_bg_02, .opacy_bg_05 {
@@ -472,4 +517,26 @@ ul.participants {
 			margin: 0 15px;
 		}
 	}
+
+	// Quotes
+	.item-team {
+	  img.logo {
+	    display: block;
+	    float: none;
+	    margin: 10px auto;
+	    width: auto;
+	    max-width: 120px;
+	    max-height: 85px;
+	  }
+
+	  a {
+	    width: 100%;
+	    float: none;
+
+	    blockquote {
+	      text-align: center;
+	    }
+	  }
+	}
+
 }

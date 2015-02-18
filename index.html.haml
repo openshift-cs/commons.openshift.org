@@ -128,14 +128,14 @@ layout: base
             / carousel-team-members
             #carousel-team-members.col-md-12
               - File.open("img/quotes.txt").readlines.each do |line|
-                - img = line.split(',').map(&:chomp)
+                - img = line.split('|').map(&:chomp)
                 / Item Team
                 .item-team
-                  .logo
-                    %img{:alt => "Image", :src => "img/#{img[2]}"}
-                  %h4
-                    %a{:href => "#{img[4]}", :alt => " #{img[0]}", :title => " #{img[0]}"} #{img[0]}
-                  %p #{img[3]}
+                  %img.logo{:alt => "#{img[0]}", :src => "img/#{img[2]}"}
+                  %a{:href => "#{img[5]}"}
+                    %blockquote 
+                      #{img[3]}
+                      %cite #{img[4]}
                 / End Item Team
             / End carousel-team-members
       / End Info Resalt

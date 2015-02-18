@@ -293,18 +293,18 @@ $(document).ready(function($) {
 	   	loop:true,
 	    margin:30,
 	    autoplay: true,
-	    autoplayTimeout:3500,
+	    autoplayTimeout:5000,
 	    nav:false,
-	    items:4,
+	    items:1,
 	    responsive:{
 	        0:{
-	            items:2
+	            items:1
 	        },
 	        600:{
-	            items:3
+	            items:1
 	        },
 	        1000:{
-	            items:4
+	            items:1
 	        }
 	    }
 	})
