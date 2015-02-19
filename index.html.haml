@@ -122,9 +122,12 @@ layout: base
           %i.fa.fa-comments-o.right
       / End Info title
       / Info title
-    %section.content_info.paddings
-      .row.info_title.wow.fadeInUp
-        .info_vertical
+    %section.content_info#join
+      #try.info_title.wow.fadeInUp
+        %i.fa.fa-compass.left
+        .vertical_line
+          .circle_bottom
+        .info_vertical.animated
           %h1
             Become a part of something
             %span bigger
@@ -138,8 +141,6 @@ layout: base
             %li.text-left If you simply want to stay up-to-date on the roadmap and best practices for using, deploying and operating OpenShift, the OpenShift Commons is the right place for you.
 
           %h2
-            %a{:href => "#join"} Ready to Join?
-        %i.fa.fa-compass.left            
+            %a{:href => "#join"} Ready to Join?     
     / End Info title
     / End content info - Grey Section
-    /footer              
