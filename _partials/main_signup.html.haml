@@ -1,28 +1,32 @@
 .col-xs-12.col-sm-12.col-md-6.col-lg-6
   :javascript
     var submitted=false;
-  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted)\r\n{window.location='commons.html';}", :style => "display:none;"}
-  %form
-    .form-group{:action => "https://docs.google.com/forms/d/1BbYOX7Zz9NgpqB7A5fzaFkp-qgJgLHjIpHwBH5LJ6Hk/formResponse", :method => "POST", :onsubmit => "submitted=true;", :target => "hidden_iframe"}
-      .form-group
-        First Name
-        %input#entry_835193099.form-control{"aria-label" => "First Name  ", :dir => "auto", :name => "entry.835193099", :title => "", :type => "text", :value => ""}/
-      .form-group
-        Last Name
-        %input#entry_305079668.form-control{"aria-label" => "Last Name  ", :dir => "auto", :name => "entry.305079668", :title => "", :type => "text", :value => ""}/ 
-      .form-group
-        Company Name
-        %input#entry_1187159420.form-control{"aria-label" => "Company Name  ", :dir => "auto", :name => "entry.1187159420", :title => "", :type => "text", :value => ""}/
-      .form-group
-        Email Address
-        %input#entry_1077678398.form-control{"aria-label" => "Email Address  ", :dir => "auto", :name => "entry.1077678398", :title => "", :type => "text", :value => ""}/
+  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted) {window.location='index.html';}", :style => "display:none;"}
+  %form{:action => "https://docs.google.com/forms/d/1BbYOX7Zz9NgpqB7A5fzaFkp-qgJgLHjIpHwBH5LJ6Hk/formResponse", :method => "post", :onsubmit => "submitted=true;", :target => "hidden_iframe"}
+    .form-group
+      First Name
+      %input#entry_835193099.form-control{"aria-label" => "First Name  ", :dir => "auto", :name => "entry.835193099", :required => "", :title => "", :type => "text", :value => ""}/
+    .form-group
+      Last Name
+      %input#entry_305079668.form-control{"aria-label" => "Last Name  ", :dir => "auto", :name => "entry.305079668", :required => "", :title => "", :type => "text", :value => ""}/ 
+    .form-group
+      Company Name
+      %input#entry_1187159420.form-control{"aria-label" => "Company Name  ", :dir => "auto", :name => "entry.1187159420", :required => "", :title => "", :type => "text", :value => ""}/
+    .form-group
+      Email Address
+      %input#entry_1077678398.form-control{"aria-label" => "Email Address  Must enter a valid email address", :dir => "auto", :required => "", :name => "entry.1077678398", :title => "Must enter a valid email address", :type => "email", :value => ""}/
 
-      %input{:name => "draftResponse", :type => "hidden", :value => "[,,&quot;626563492533810786&quot;]\n"}/
-      %input{:name => "pageHistory", :type => "hidden", :value => "0"}/
-      %input{:name => "fbzx", :type => "hidden", :value => "626563492533810786"}/
-      .ss-item.ss-navigate
-        %table#navigation-table
-          %tbody
-            %tr
-              %td#navigation-buttons.ss-form-entry.goog-inline-block{:dir => "ltr"}
-                %button.btn.btn-default{:name => "submit", :type => "submit", :value => "Submit"} Submit
+    %input{:name => "draftResponse", :type => "hidden", :value => "[,,&quot;626563492533810786&quot;]\n"}/
+    %input{:name => "pageHistory", :type => "hidden", :value => "0"}/
+    %input{:name => "fbzx", :type => "hidden", :value => "626563492533810786"}/
+    .ss-item.ss-navigate
+      %table#navigation-table
+        %tbody
+          %tr
+            %td#navigation-buttons.ss-form-entry.goog-inline-block{:dir => "ltr"}
+              %button.btn.btn-default{:name => "submit", :type => "submit", :value => "Submit"} Submit
+  %script{:src => "/static/forms/client/js/3954015373-formviewer_prd.js", :type => "text/javascript"}
+  :javascript
+    H5F.setup(document.getElementById('ss-form'));
+              _initFormViewer(
+                "[100,,[[[1077678398,[[2,102,,\x22Must enter a valid email address\x22]\n]\n]\n]\n]\n]\n"); 

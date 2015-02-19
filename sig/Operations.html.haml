@@ -1,5 +1,5 @@
 ---
-layout: sigs
+layout: base
 ---
 %body.commons
   #layout.layout-wide
@@ -17,7 +17,7 @@ layout: sigs
                 %li
                   %a{:href => "../briefings.html"} Events & Briefings
                 %li
-                  %a{:href => "../quotes.html"} Participant Quotes
+                  %a{:href => "../quotes.html"} Supporting Quotes
       %section.content_info
         .bg_parallax.image_06_parallax
           %section.opacy_bg_05.paddings
@@ -47,17 +47,12 @@ layout: sigs
           .info_vertical
             %h1
               Join the OpenShift Ops
+              %br
               %span Special Interest Group
-              / Form
+            / Form
+            .col-xs-12.col-sm-12.col-md-6.col-md-offset-3
               = partial( 'operations_signup.html.haml')
-              / End Form
-            -# %form#newsletterForm.newsletterForm{:action => "#"}
-            -#   .input-group
-            -#     %span.input-group-addon
-            -#       %i.fa.fa-envelope
-            -#     %input.form-control{:name => "email", :placeholder => "Email Address", :required => "required", :type => "email"}/
-            -#     %span.input-group-btn
-            -#       %button.btn.btn-primary{:name => "subscribe", :type => "submit"} Go!
+            / End Form
             #result-newsletter
     %section.content_info
       / Info Resalt
@@ -71,11 +66,8 @@ layout: sigs
                 .blog-content
                   .entry-header
                     .blog-image
-                      /%img.img-responsive{:alt => "", :src => "../img/gallery/1.jpg"}/
                     %iframe{:allowfullscreen => "", :frameborder => "0", :height => "415", :src => "https://www.youtube.com/embed/yQoYBS0daeM", :width => "560"}
-                    -# .more-link
-                    -#   %a{:href => "#"}
-                        %i.fa.fa-google-plus-square
+                      %i.fa.fa-google-plus-square
                   .entry-content
                     %h3.entry-title
                       OpenShift Ops Commons Briefing
@@ -117,24 +109,6 @@ layout: sigs
             %aside
               %h4 About OpenShift Operations 
               %p OpenShift is as much about operations as it is about development. This Special Interest Group is way for like-minded engineers to discuss and share information on deploying and maintaining OpenShift at scale. 
-            -# %aside
-            -#   %h4 Archives
-            -#   %ul.list
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} Dec
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} Jan
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} Feb
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} March
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} April
     %section.content_info#colleagues
       / Info Resalt
       .info_resalt.borders
@@ -148,7 +122,7 @@ layout: sigs
           .row-fluid
             / Item Service-02
             - operations.each do |x|
-              .col-xs-6.col-md-4
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6
                 .service-03
                   .head-service-03
                     %i.fa.fa-newspaper-o
@@ -158,23 +132,23 @@ layout: sigs
                     %p
                       #{x.at_css(".entry-summary").text.split[0..20].join(" ").concat("...")}
                       %a{:href => "#{x.at_css(".entry-title a")[:href]}"} Read More
-            .col-xs-6.col-md-4
-              .service-03
-                .head-service-03
-                  %i.fa.fa-code-fork
-                  %h3
-                    %a{:href => "https://github.com/openshift/openshift_zabbix",:title => "OpenShift Zabbix Monitoring Scripts"} OpenShift Zabbix Monitoring Scripts
-                .caption-service-03
-                  %p
-                    This repository contains monitoring scripts and configuration files to enable monitoring an OpenShift installation with Zabbix...
-                    %a{:href => "https://github.com/openshift/openshift_zabbix"} Read More
-            .col-xs-6.col-md-4
-              .service-03
-                .head-service-03
-                  %i.fa.fa-code-fork
-                  %h3
-                    %a{:href => "https://github.com/openshift/puppet-openshift_origin",:title => "OpenShift Puppet Modules"} OpenShift Puppet Modules
-                .caption-service-03
-                  %p
-                    Puppet module to create OpenShift Brokers and Nodes. Can be used to create a full OpenShift Origin deployment...
-                    %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Read More
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6
+                .service-03
+                  .head-service-03
+                    %i.fa.fa-code-fork
+                    %h3
+                      %a{:href => "https://github.com/openshift/openshift_zabbix",:title => "OpenShift Zabbix Monitoring Scripts"} OpenShift Zabbix Monitoring Scripts
+                  .caption-service-03
+                    %p
+                      This repository contains monitoring scripts and configuration files to enable monitoring an OpenShift installation with Zabbix...
+                      %a{:href => "https://github.com/openshift/openshift_zabbix"} Read More
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6
+                .service-03
+                  .head-service-03
+                    %i.fa.fa-code-fork
+                    %h3
+                      %a{:href => "https://github.com/openshift/puppet-openshift_origin",:title => "OpenShift Puppet Modules"} OpenShift Puppet Modules
+                  .caption-service-03
+                    %p
+                      Puppet module to create OpenShift Brokers and Nodes. Can be used to create a full OpenShift Origin deployment...
+                      %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Read More

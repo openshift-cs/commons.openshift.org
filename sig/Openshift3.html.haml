@@ -1,5 +1,5 @@
 ---
-layout: sigs
+layout: base
 ---
 %body.commons
   #layout.layout-wide
@@ -17,7 +17,7 @@ layout: sigs
                 %li
                   %a{:href => "../briefings.html"} Events & Briefings
                 %li
-                  %a{:href => "../quotes.html"} Participant Quotes
+                  %a{:href => "../quotes.html"} Supporting Quotes
       %section.content_info
         .bg_parallax.image_06_parallax
           %section.opacy_bg_05.paddings
@@ -49,15 +49,8 @@ layout: sigs
               Join the OpenShift V3
               %br
               %span Special Interest Group
-            .col-md-offset-4.col-xs-6.col-sm-4
+            .col-xs-12.col-sm-12.col-md-6.col-md-offset-3
               = partial( 'openshift_v3_signup.html.haml')
-            -# %form#newsletterForm.newsletterForm{:action => "#"}
-            -#   .input-group
-            -#     %span.input-group-addon
-            -#       %i.fa.fa-envelope
-            -#     %input.form-control{:name => "email", :placeholder => "Email Address", :required => "required", :type => "email"}/
-            -#     %span.input-group-btn
-            -#       %button.btn.btn-primary{:name => "subscribe", :type => "submit"} Go!
             #result-newsletter
     %section.content_info
       / Info Resalt
@@ -71,11 +64,8 @@ layout: sigs
                 .blog-content
                   .entry-header
                     .blog-image
-                      /%img.img-responsive{:alt => "", :src => "../img/gallery/1.jpg"}/
                     %iframe{:allowfullscreen => "", :frameborder => "0", :height => "415", :src => "//www.youtube.com/embed/N4lu2DhSI5Q", :width => "560"}
-                    -# .more-link
-                    -#   %a{:href => "#"}
-                        %i.fa.fa-google-plus-square
+                      %i.fa.fa-google-plus-square
                   .entry-content
                     %h3.entry-title
                       OpenShift V3 Commons Brieffing 
@@ -93,15 +83,6 @@ layout: sigs
             / Post
             / Sidebars Left Sidebar
           .col-md-3.sidebars
-            %aside
-              -# %h4 Searh Sidebar
-              -# %form.search
-              -#   .input-group
-              -#     %span.input-group-addon
-              -#       %i.fa.fa-search
-              -#     %input.form-control{:name => "email", :placeholder => "Search...", :required => "required", :type => "email"}/
-              -#     %span.input-group-btn
-              -#       %button.btn.btn-primary{:name => "subscribe", :type => "submit"} Go!
             %aside
               %h4 Topics Covered
               %ul.list
@@ -123,24 +104,6 @@ layout: sigs
             %aside
               %h4 About OpenShift v3 
               %p OpenShift v3 is built around a core of application containers powered by Docker, with orchestration and management provided by Kubernetes, on a foundation of Atomic and Enterprise Linux.
-            -# %aside
-            -#   %h4 Archives
-            -#   %ul.list
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} Dec
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} Jan
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} Feb
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} March
-            -#     %li
-            -#       %i.fa.fa-check
-            -#       %a{:href => "#"} April
     %section.content_info#colleagues
       / Info Resalt
       .info_resalt.borders
@@ -154,7 +117,7 @@ layout: sigs
           .row-fluid
             / Item Service-02
             - openshiftv3.each do |x|
-              .col-xs-6.col-md-4
+              .col-xs-12.col-sm-6.col-md-6.col-lg-6
                 .service-03
                   .head-service-03
                     %i.fa.fa-newspaper-o

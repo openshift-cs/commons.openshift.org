@@ -10,16 +10,16 @@
     <!-- Skins Theme -->
     <link class="skin_color" href="stylesheets/skins/red/red.css" media="screen" rel="stylesheet">
     <!-- Theme CSS -->
-    <link href="/stylesheets/style.css" media="screen" rel="stylesheet">
+    <link href="stylesheets/style.css" media="screen" rel="stylesheet">
     <!-- Responsive CSS -->
-    <link href="/stylesheets/theme-responsive.css" media="screen" rel="stylesheet">
-    <link href="/stylesheets/styles.css" media="screen" rel="stylesheet">
+    <link href="stylesheets/theme-responsive.css" media="screen" rel="stylesheet">
+    <link href="stylesheets/styles.css" media="screen" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
     <!-- Favicons -->
     <link href="img/icons/favicon.png" rel="shortcut icon">
     <link href="img/icons/apple-touch-icon.png" rel="apple-touch-icon">
     <!--[if IE]>
-      <link rel="stylesheet" href="css/ie/ie.css">
+      <link rel="stylesheet" href="/stylesheets/ie/ie.css">
     <![endif]-->
     <!--[if lte IE 8]>
       <script src="js/responsive/html5shiv.js"></script>
@@ -53,7 +53,7 @@
                     <a href="briefings.html">Events & Briefings</a>
                   </li>
                   <li>
-                    <a href="quotes.html">Participant Quotes</a>
+                    <a href="quotes.html">Supporting Quotes</a>
                   </li>
                 </ul>
               </nav>
@@ -85,25 +85,6 @@
           </div>
         </section>
       </header>
-      <!-- Begin Crumbs -->
-      <div class="crumbs border_bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <ul>
-                <li>
-                  <a href="index.html">Home</a>
-                </li>
-                <li>/</li>
-                <li>
-                  <a href="commons.html">Commons</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End crumbs -->
       <!-- Info title -->
       <section class="content_info" id="join">
         <div class="info_title wow fadeInDown" id="try">
@@ -131,41 +112,45 @@
                   <script>
                     var submitted=false;
                   </script>
-                  <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted)&#x000A;{window.location='commons.html';}" style="display:none;"></iframe>
-                  <form>
-                    <div action="https://docs.google.com/forms/d/1BbYOX7Zz9NgpqB7A5fzaFkp-qgJgLHjIpHwBH5LJ6Hk/formResponse" class="form-group" method="POST" onsubmit="submitted=true;" target="hidden_iframe">
-                      <div class="form-group">
-                        First Name
-                        <input aria-label="First Name  " class="form-control" dir="auto" id="entry_835193099" name="entry.835193099" title="" type="text" value="">
-                      </div>
-                      <div class="form-group">
-                        Last Name
-                        <input aria-label="Last Name  " class="form-control" dir="auto" id="entry_305079668" name="entry.305079668" title="" type="text" value="">
-                      </div>
-                      <div class="form-group">
-                        Company Name
-                        <input aria-label="Company Name  " class="form-control" dir="auto" id="entry_1187159420" name="entry.1187159420" title="" type="text" value="">
-                      </div>
-                      <div class="form-group">
-                        Email Address
-                        <input aria-label="Email Address  " class="form-control" dir="auto" id="entry_1077678398" name="entry.1077678398" title="" type="text" value="">
-                      </div>
-                      <input name="draftResponse" type="hidden" value='[,,"626563492533810786"]'>
-                      <input name="pageHistory" type="hidden" value="0">
-                      <input name="fbzx" type="hidden" value="626563492533810786">
-                      <div class="ss-item ss-navigate">
-                        <table id="navigation-table">
-                          <tbody>
-                            <tr>
-                              <td class="ss-form-entry goog-inline-block" dir="ltr" id="navigation-buttons">
-                                <button class="btn btn-default" name="submit" type="submit" value="Submit">Submit</button>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
+                  <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted) {window.location='index.html';}" style="display:none;"></iframe>
+                  <form action="https://docs.google.com/forms/d/1BbYOX7Zz9NgpqB7A5fzaFkp-qgJgLHjIpHwBH5LJ6Hk/formResponse" method="post" onsubmit="submitted=true;" target="hidden_iframe">
+                    <div class="form-group">
+                      First Name
+                      <input aria-label="First Name  " class="form-control" dir="auto" id="entry_835193099" name="entry.835193099" required="" title="" type="text" value="">
+                    </div>
+                    <div class="form-group">
+                      Last Name
+                      <input aria-label="Last Name  " class="form-control" dir="auto" id="entry_305079668" name="entry.305079668" required="" title="" type="text" value="">
+                    </div>
+                    <div class="form-group">
+                      Company Name
+                      <input aria-label="Company Name  " class="form-control" dir="auto" id="entry_1187159420" name="entry.1187159420" required="" title="" type="text" value="">
+                    </div>
+                    <div class="form-group">
+                      Email Address
+                      <input aria-label="Email Address  Must enter a valid email address" class="form-control" dir="auto" id="entry_1077678398" name="entry.1077678398" required="" title="Must enter a valid email address" type="email" value="">
+                    </div>
+                    <input name="draftResponse" type="hidden" value='[,,"626563492533810786"]'>
+                    <input name="pageHistory" type="hidden" value="0">
+                    <input name="fbzx" type="hidden" value="626563492533810786">
+                    <div class="ss-item ss-navigate">
+                      <table id="navigation-table">
+                        <tbody>
+                          <tr>
+                            <td class="ss-form-entry goog-inline-block" dir="ltr" id="navigation-buttons">
+                              <button class="btn btn-default" name="submit" type="submit" value="Submit">Submit</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </form>
+                  <script src="/static/forms/client/js/3954015373-formviewer_prd.js" type="text/javascript"></script>
+                  <script>
+                    H5F.setup(document.getElementById('ss-form'));
+                              _initFormViewer(
+                                "[100,,[[[1077678398,[[2,102,,\x22Must enter a valid email address\x22]\n]\n]\n]\n]\n]\n");
+                  </script>
                 </div>
                 <!-- End Form -->
               </div>
@@ -386,7 +371,7 @@
             <div class="row">
               <div class="col-md-12 simple-title">
                 <h2>
-                  Participant
+                  Supporting
                   <span>Quotes</span>
                 </h2>
               </div>
