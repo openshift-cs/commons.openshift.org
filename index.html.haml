@@ -75,58 +75,53 @@ layout: base
                   %img{:src => "img/#{img[2]}", :alt => " #{img[0]}"}
           / End Partner list
       / End Info Resalt
-    / End content info - Grey Section
-    / Info title
-    %section.content_info#interests
-      .row.info_title
-        .vertical_line
-          .circle_bottom
-        .info_vertical
-          %h1
-            Find Your
-            %span Commonality
-          %p.text-left OpenShift is an inclusive, open and inviting community filled with passionate people. Chances are, there is a local OpenShift event near you already in the works, check out our Events calendar or connect with the OpenShift Accelerators nearest you and organize your own local event.
-          .row
-            .paddings
-              .col-xs-12.col-sm-6.col-md-6.col-lg-6.wow.fadeInLeft
-                %h2 
-                  %a{:href => "sig/Operations.html", :title => "Operations"} OpenShift Ops
-                  %p Discuss, develop and disseminate best practices for administrating, managing and operating OpenShift
-              .col-xs-12.col-sm-6.col-md-6.col-lg-6.wow.fadeInRight
-                %h2 
-                  %a{:href => "sig/Openshift3.html", :title => "OpenShift 3"} OpenShift 3
-                  %p OpenShift V3 Migration Upgrade Roadmap Special Interest Group
-              -# .col-xs-12.col-sm-4.col-md-4.col-lg-4.wow.fadeInRight
-              -#   %h2 
-              -#     %a{:href => "sig/Ecosystem.html", :title => "Ecosystem"} Ecosystem
-              -#     %p Collaboration in practice
-        .vertical_line
-        %i.fa.fa-comments-o.right
-      / End Info title
-      / Info title
     %section.content_info
       / Info Resalt
-      .info_resalt.borders
-        .container
-          .row
-            .col-md-12.simple-title
-              %h2
-                Supporting  
-                %span Quotes
-            / carousel-team-members
-            #carousel-team-members.col-md-12
-              - File.open("img/quotes.txt").readlines.each do |line|
-                - img = line.split(',').map(&:chomp)
-                .item-team
-                  %img.logo{:src => "img/#{img[2]}", :alt => "#{img[0]}"}
-                    %blockquote 
-                      #{img[3]}
-                    %cite
-                      .text-right
-                        %a{:href => "#{img[4]}"} Read More
+      .vertical_line
+        .circle_bottom
+      .container
+        .row
+          .col-md-12.simple-title
+            %h2
+              Supporting  
+              %span Quotes
+          / carousel-team-members
+          #carousel-team-members.col-md-12
+            - File.open("img/quotes.txt").readlines.each do |line|
+              - img = line.split(',').map(&:chomp)
+              .item-team
+                %img.logo{:src => "img/#{img[2]}", :alt => "#{img[0]}"}
+                  %blockquote 
+                    #{img[3]}
+                  %cite
+                    .text-right
+                      %a{:href => "#{img[4]}"} Read More
                 / End Item Team
             / End carousel-team-members
       / End Info Resalt
+    / End content info - Grey Section
+    / Info title
+    %section.content_info#interests
+      .info_resalt.borders
+        .row.info_title
+          .info_vertical
+            %h1
+              Find Your
+              %span Commonality
+            %p.text-left Being a part of an inclusive, open, and inviting community such as Commons means that you're part of the conversation. Our Special Interest Groups (SIG) are designed so that you can find everything you need in one place around a central topic.
+            .row
+              .paddings
+                .col-xs-12.col-sm-6.col-md-6.col-lg-6.wow.fadeInLeft
+                  %h2 
+                    %a{:href => "sig/Operations.html", :title => "Operations"} OpenShift Ops
+                    %p Discuss, develop and disseminate best practices for administrating, managing and operating OpenShift
+                .col-xs-12.col-sm-6.col-md-6.col-lg-6.wow.fadeInRight
+                  %h2 
+                    %a{:href => "sig/Openshift3.html", :title => "OpenShift 3"} OpenShift 3
+                    %p OpenShift V3 Migration Upgrade Roadmap Special Interest Group
+          %i.fa.fa-comments-o.right
+      / End Info title
+      / Info title
     %section.content_info.paddings
       .row.info_title.wow.fadeInUp
         .info_vertical
