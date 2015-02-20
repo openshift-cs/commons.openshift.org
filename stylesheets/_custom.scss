@@ -409,6 +409,7 @@ ul.participants {
     padding-top: 20px;
     width: 15%;
     float: left;
+    padding-right: 10px;
   }
 
   a {
@@ -429,10 +430,18 @@ ul.participants {
     padding-left: 50px;
 
     &:before {
-      content: '❝';
+      content: '"';
       color: #DB212F;
       font-size: 40px;
-      margin-left: -30px;
+      margin-left: -10px;
+      padding-left: 15px;
+    }
+    &:after {
+      content: '"';
+      color: #DB212F;
+      font-size: 40px;
+      margin-right: -10px;
+      padding-right: 15px;
     }
 
     cite {

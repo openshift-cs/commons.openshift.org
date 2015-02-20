@@ -1,0 +1,654 @@
+!!!
+%html{:lang => "en"}
+  %head
+    / Basic
+    %meta{:charset => "utf-8"}/
+    %title Jekas  - Software, Studio and Corporate Responsive Template
+    %meta{:content => "HTML5 Template", :name => "keywords"}/
+    %meta{:content => "Jekas is a Software, Studio and Corporate Responsive Template", :name => "description"}/
+    %meta{:content => "iwthemes.com", :name => "author"}/
+    / Mobile Metas
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    / Theme CSS
+    %link{:href => "css/style.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    / Responsive CSS
+    %link{:href => "css/theme-responsive.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    / Skins Theme
+    %link.skin_color{:href => "#", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    / Favicons
+    %link{:href => "img/icons/favicon.ico", :rel => "shortcut icon"}/
+    %link{:href => "img/icons/apple-touch-icon.png", :rel => "apple-touch-icon"}/
+    %link{:href => "img/icons/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}/
+    %link{:href => "img/icons/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}/
+    /[if IE]
+      <link rel="stylesheet" href="css/ie/ie.css">
+    /[if lte IE 8]
+      <script src="js/responsive/html5shiv.js"></script>
+      <script src="js/responsive/respond.js"></script>
+  %body
+    / Theme-options
+    #theme-options
+      .openclose
+      .title
+        %span THEME OPTIONS
+        %p Choose a combination of predefined colors here. Here are some examples. You can create any additional number on your backend theme, also can choose the background you want and four differents layouts.
+      %span SKINS VERSION
+      %ul.layout-style
+        %li.light.active Light Skin
+        %li.dark Dark Skin
+      %span SKINS COLOR
+      %ul#colorchanger
+        %li
+          %a.colorbox.red{:href => "?theme=red", :title => "Red Skin"}
+        %li
+          %a.colorbox.blue{:href => "?theme=blue", :title => "Blue Skin"}
+        %li
+          %a.colorbox.yellow{:href => "?theme=yellow", :title => "Yellow Skin"}
+        %li
+          %a.colorbox.green{:href => "?theme=green", :title => "Green Skin"}
+        %li
+          %a.colorbox.orange{:href => "?theme=orange", :title => "Orange Skin"}
+        %li
+          %a.colorbox.purple{:href => "?theme=purple", :title => "Purple Skin"}
+        %li
+          %a.colorbox.pink{:href => "?theme=pink", :title => "Pink Skin"}
+        %li
+          %a.colorbox.cocoa{:href => "?theme=cocoa", :title => "Cocoa Skin"}
+        %li
+          %a.colorbox.suelte{:href => "?theme=suelte", :title => "Suelte Skin"}
+        %li
+          %a.colorbox.grey{:href => "?theme=grey", :title => "grey Skin"}
+      %span LAYOUT STYLE
+      %ul.layout-style
+        %li.wide.active Wide
+        %li.boxed Boxed
+        %li.boxed-margin.full Boxed Margin
+      .patterns
+        %span BACKGROUND PATTERNS
+        %ul.backgrounds
+          %li.bgnone{:title => "None - Default"}
+          %li.bg1
+          %li.bg2
+          %li.bg3
+          %li.bg4
+          %li.bg5
+          %li.bg6
+          %li.bg7
+          %li.bg8
+          %li.bg9
+          %li.bg10
+          %li.bg11
+          %li.bg12
+          %li.bg13
+          %li.bg14
+          %li.bg15
+          %li.bg16
+          %li.bg17
+          %li.bg18
+          %li.bg19
+          %li.bg20
+          %li.bg21
+          %li.bg22
+          %li.bg23
+          %li.bg24
+          %li.bg25
+          %li.bg26
+    / End Theme-options
+    / layout
+    #layout.layout-wide
+      / Header Section
+      %header.slide
+        / nav_logo Section
+        .nav_logo.animated.fadeInDown
+          .container
+            .row
+              / Logo
+              .col-md-3.logo
+                %a{:href => "index.html", :title => "Back to Home"}
+                  %img.logo_img{:alt => "Logo", :src => "img/logo.png"}/
+              / End Logo
+              / Nav
+              %nav.col-md-9
+                / Menu
+                %ul#menu.sf-menu
+                  %li
+                    %a{:href => "index.html"} HOME
+                    %ul
+                      %li.selected
+                        %a{:href => "index.html"} Creative
+                      %li
+                        %a{:href => "index-corporate.html"} Corporate
+                      %li
+                        %a{:href => "index-business.html"} Business
+                      %li
+                        %a{:href => "index-portfolio.html"} Portfolio
+                      %li
+                        %a{:href => "index-one-page.html"} One Page Theme
+                      %li
+                        %a{:href => "index-landing.html"} Landing Page
+                  %li
+                    %a{:href => "page-about-01.html"} ABOUT
+                    %ul
+                      %li
+                        %a{:href => "page-about-01.html"} About 01
+                      %li
+                        %a{:href => "page-about-02.html"} About 02
+                      %li
+                        %a{:href => "page-about-me.html"} About Me
+                      %li
+                        %a{:href => "page-about-team.html"} About Team
+                  %li
+                    %a{:href => "page-services-01.html"} SERVICES
+                    %ul
+                      %li
+                        %a{:href => "page-services-01.html"} Services 01
+                      %li
+                        %a{:href => "page-services-02.html"} Services 02
+                      %li
+                        %a{:href => "page-services-03.html"} Services 03
+                      %li
+                        %a{:href => "page-services-options.html"} Services Options
+                  %li
+                    %a{:href => "work-2-columns.html"} WORKS
+                    %ul
+                      %li
+                        %a{:href => "work-2-columns.html"} Work 2 Columns
+                      %li
+                        %a{:href => "work-3-columns.html"} Work 3 Columns
+                      %li
+                        %a{:href => "work-4-columns.html"} Work 4 Columns
+                      %li
+                        %a{:href => "single-work.html"} Single Work
+                  %li
+                    %a{:href => "#"} FEATURES
+                    %ul
+                      %li
+                        %a{:href => "page-sections-content.html"} Sections background
+                      %li
+                        %a{:href => "#"} Pages
+                        %ul
+                          %li
+                            %a{:href => "page-full-width.html"} Full Width
+                          %li
+                            %a{:href => "page-left-sidebar.html"} Left Sidebar
+                          %li
+                            %a{:href => "page-right-sidebar.html"} Right Sidebar
+                          %li
+                            %a{:href => "page-404.html"} 404 Page
+                          %li
+                            %a{:href => "page-faq.html"} FAQ
+                      %li
+                        %a{:href => "#"} Sections Titles
+                        %ul
+                          %li
+                            %a{:href => "page-services-01.html"} Option 01
+                          %li
+                            %a{:href => "page-services-02.html"} Option 02
+                          %li
+                            %a{:href => "page-services-03.html"} Option 03
+                      %li
+                        %a{:href => "feature-table-pricing.html"} Pricing Tables
+                      %li
+                        %a{:href => "feature-grid.html"} Grind System
+                      %li
+                        %a{:href => "feature-typograpy.html"} Tipograpy
+                      %li
+                        %a{:href => "feature-icons.html"} Icons
+                      %li
+                        %a{:href => "feature-elements.html"} Elements
+                  %li
+                    %a{:href => "page-blog-01.html"} BLOG
+                    %ul
+                      %li
+                        %a{:href => "page-blog-01.html"} Blog Post 01
+                      %li
+                        %a{:href => "page-blog-02.html"} Blog Post 02
+                      %li
+                        %a{:href => "single-post.html"} Single Page Post
+                  %li
+                    %a{:href => "page-contact-02.html"} CONTACT
+                    %ul
+                      %li
+                        %a{:href => "page-contact-01.html"} Contact 01
+                      %li
+                        %a{:href => "page-contact-02.html"} Contact 02
+                / End Menu
+              / End Nav
+        / End nav_logo Section
+        / Slide Section
+        .tp-banner-container
+          .tp-banner
+            %ul
+              / SLIDE  01
+              %li{"data-fsmasterspeed" => "1000", "data-fsslotamount" => "7", "data-fstransition" => "fade", "data-masterspeed" => "1000", "data-slotamount" => "7", "data-transition" => "slidehorizontal"}
+                / LAYER NR. 1
+                .tp-caption.tp-fade.fadeout.fullscreenvideo{"data-aspectratio" => "16:9", "data-autoplay" => "true", "data-autoplayonlyfirsttime" => "false", "data-dottedoverlay" => "twoxtwo", "data-easing" => "Power4.easeOut", "data-endeasing" => "Power4.easeIn", "data-endspeed" => "1500", "data-forcecover" => "1", "data-forcerewind" => "on", "data-nextslideatend" => "true", "data-speed" => "1000", "data-start" => "1100", "data-x" => "0", "data-y" => "0", :style => "z-index: 2"}
+                  %video.video-js.vjs-default-skin{"data-setup" => "{}", :height => "100%", :poster => "img/slide/slides/video-bg.png", :preload => "none", :width => "100%"}
+                    %source{:src => "img/video/video-slide.webm", :type => "video/webm"}/
+                / LAYER NR. 2
+                .tp-caption.large_bold_white.tp-fade.fadeout.tp-resizeme{"data-easing" => "Power4.easeOut", "data-elementdelay" => "0.05", "data-endelementdelay" => "0.05", "data-endspeed" => "300", "data-speed" => "500", "data-splitin" => "chars", "data-splitout" => "chars", "data-start" => "1000", "data-voffset" => "0", "data-x" => "30", "data-y" => "120", :style => "z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"}
+                  Design and Development
+                / LAYER NR. 2
+                / LAYER NR. 3
+                .tp-caption.medium_light_white.tp-fade.fadeout.tp-resizeme{"data-customin" => "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;", "data-customout" => "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;", "data-easing" => "Power3.easeInOut", "data-elementdelay" => "0.12", "data-endelementdelay" => "0.12", "data-endspeed" => "300", "data-speed" => "500", "data-splitin" => "words", "data-splitout" => "words", "data-start" => "1800", "data-voffset" => "120", "data-x" => "30", "data-y" => "195", :style => "z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;"}
+                  Ipad And Android Devices
+                / LAYER NR. 3
+              / END SLIDE  01
+              / SLIDE  02
+              %li{"data-masterspeed" => "1000", "data-slotamount" => "7", "data-transition" => "zoomout"}
+                / MAIN IMAGE
+                %img{:alt => "slidebg1", "data-bgfit" => "cover", "data-bgposition" => "left top", "data-bgrepeat" => "no-repeat", :src => "img/slide/slides/1.jpg"}/
+                / LAYERS
+                / LAYER NR. 1
+                .tp-caption.large_bold_white.large_text.lft.tp-resizeme{"data-easing" => "Power4.easeOut", "data-elementdelay" => "0.05", "data-endelementdelay" => "0.05", "data-endspeed" => "300", "data-speed" => "500", "data-splitin" => "chars", "data-splitout" => "chars", "data-start" => "1000", "data-voffset" => "0", "data-x" => "right", "data-y" => "120", :style => "z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"}
+                  Font Awesome Icons
+                / LAYER NR. 1
+                / LAYER NR. 2
+                .tp-caption.medium_light_white.large_text.lft.tp-resizeme{"data-easing" => "Power3.easeInOut", "data-elementdelay" => "0.12", "data-endelementdelay" => "0.12", "data-endspeed" => "300", "data-speed" => "500", "data-splitin" => "words", "data-splitout" => "words", "data-start" => "1800", "data-voffset" => "120", "data-x" => "right", "data-y" => "195", :style => "z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;"}
+                  Our Most Powerfull Features Ever
+                / LAYER NR. 2
+              / END SLIDE  02
+              / SLIDE  03
+              %li{"data-masterspeed" => "1000", "data-saveperformance" => "off", "data-slotamount" => "7", "data-transition" => "zoomout"}
+                / MAIN IMAGE
+                %img{:alt => "power-to-creators-slider", "data-bgfit" => "cover", "data-bgposition" => "center top", "data-bgrepeat" => "no-repeat", :src => "img/slide/slides/2.jpg"}/
+                / LAYERS
+                / LAYER NR. 1
+                .tp-caption.large_text.lft.tp-resizeme{"data-easing" => "Power2.easeIn", "data-elementdelay" => "0.1", "data-endelementdelay" => "0.1", "data-endspeed" => "300", "data-hoffset" => "0", "data-speed" => "500", "data-splitin" => "lines", "data-splitout" => "none", "data-start" => "500", "data-voffset" => "-100", "data-x" => "center", "data-y" => "center", :style => "z-index: 2; max-width: auto; max-height: auto; white-space: normal;"}
+                  YOU RELAX, WE CARE FOR YOUR INFORMATION!
+                / LAYER NR. 2
+                .tp-caption.small_text.lft.tp-resizeme{"data-easing" => "Power2.easeIn", "data-elementdelay" => "0.1", "data-endelementdelay" => "0.1", "data-endspeed" => "300", "data-hoffset" => "0", "data-speed" => "300", "data-splitin" => "lines", "data-splitout" => "none", "data-start" => "1100", "data-voffset" => "-30", "data-x" => "center", "data-y" => "center", :style => "z-index: 3; font-size:16px; max-width: auto; max-height: auto; white-space: normal;"}
+                  WE CARE VERY WELL YOUR INFORMATION, OUR PRIORITY IS TO ENSURE THE SAFETY OF YOUR DATA!
+                / LAYER NR. 3
+                .tp-caption.style-caption.lfb.tp-resizeme{"data-easing" => "Power3.easeInOut", "data-elementdelay" => "0.1", "data-endelementdelay" => "0.1", "data-endspeed" => "300", "data-speed" => "300", "data-splitin" => "none", "data-splitout" => "none", "data-start" => "1600", "data-voffset" => "30", "data-x" => "center", "data-y" => "center"}
+                  %a.button{:href => "#"}
+                    %span>
+                      %i.fa.fa-android
+                    Android App
+              / END SLIDE  03
+        / End Slide Section
+      / End Header Section
+      / Info title
+      .row.info_title.wow.fadeInUp
+        .vertical_line
+          .circle_bottom
+        .info_vertical.animated
+          %h1
+            Jekas is
+            %span incredibly beautiful
+            and fully responsive.
+          %p The fastest way to grow your business with the leader in Technology.
+        .vertical_line
+        %i.fa.fa-cogs.right
+      / End Info title
+      / End content info - Portfolio Carousel Section
+      %section.content_info
+        / Info Resalt
+        .info_resalt.borders
+          .container.wow.fadeInUp
+            .row
+              .col-md-12
+                / Carousel Gallery
+                %ul#carousel-portfolio.owl-carousel.carousel-portfolio
+                  %li
+                    .hover
+                      %img{:alt => "", :src => "img/gallery/1.jpg"}/
+                      %a.ligbox-image{:href => "img/gallery/1.jpg", :title => "Image"}/
+                      .overlay
+                    .info
+                      Responsive Design
+                      %i.fa.fa-tablet
+                      %i.fa.fa-desktop
+                  %li
+                    .hover
+                      %img{:alt => "", :src => "img/gallery/2.jpg"}/
+                      %a.ligbox-image{:href => "img/gallery/2.jpg", :title => "Image"}/
+                      .overlay
+                    .info
+                      Vinilo - HTML Template
+                      %i.fa.fa-tablet
+                      %i.fa.fa-desktop
+                  %li
+                    .hover
+                      %img{:alt => "", :src => "img/gallery/3.jpg"}/
+                      %a.ligbox-image{:href => "img/gallery/3.jpg", :title => "Image"}/
+                      .overlay
+                    .info
+                      Mega Host - Responsive template
+                      %i.fa.fa-tablet
+                      %i.fa.fa-desktop
+                  %li
+                    .hover
+                      %img{:alt => "", :src => "img/gallery/4.jpg"}/
+                      %a.ligbox-image{:href => "img/gallery/4.jpg", :title => "Image"}/
+                      .overlay
+                    .info
+                      My Cv - Responsive Resume / CV
+                      %i.fa.fa-tablet
+                      %i.fa.fa-desktop
+                  %li
+                    .hover
+                      %img{:alt => "", :src => "img/gallery/5.jpg"}/
+                      %a.ligbox-image{:href => "img/gallery/5.jpg", :title => "Image"}/
+                      .overlay
+                    .info
+                      Political - Landing Page
+                      %i.fa.fa-tablet
+                      %i.fa.fa-desktop
+                  %li
+                    .hover
+                      %img{:alt => "", :src => "img/gallery/6.jpg"}/
+                      %a.ligbox-image{:href => "img/gallery/6.jpg", :title => "Image"}/
+                      .overlay
+                    .info
+                      Classic Restaurant - Css3/Html5
+                      %i.fa.fa-tablet
+                      %i.fa.fa-desktop
+                / End Carousel Gallery
+        / End Info Resalt
+      / End content info - Portfolio Carousel Section
+      / Info title
+      .row.info_title.wow.fadeInUp
+        .vertical_line
+          .circle_bottom
+        .info_vertical.animated
+          %h1
+            A fact worth a thousand
+            %span words
+          %p “We bring a personal and effective approach to every project we work on, which is why our clients love us and why they keep coming back.”
+        .vertical_line
+        %i.fa.fa-coffee.left
+      / End Info title
+      / End content info - Result Section
+      %section.content_info
+        / Info resalt
+        .info_resalt.borders
+          .container
+            .row
+              / Left Content
+              .col-md-8.wow.fadeInLeft
+                / Resul Zone
+                .row.results
+                  .col-md-3
+                    %i.fa.fa-bomb
+                    %h2
+                      1,000,123
+                      %span +
+                    %h5 HOURS WORKED SINCE 2003
+                  .col-md-3
+                    %i.fa.fa-edit
+                    %h2
+                      6,233,954
+                      %span +
+                    %h5
+                      LINES OF
+                      = succeed "CODEC" do
+                        %br/
+                  .col-md-2
+                    %i.fa.fa-group
+                    %h2
+                      780
+                      %span +
+                    %h5 CLIENTS SERVED
+                  .col-md-2
+                    %i.fa.fa-coffee
+                    %h2
+                      520
+                      %span =
+                    %h5 PROJECTS COMPLETED
+                  .col-md-2
+                    %i.fa.fa-briefcase
+                    %h2 18
+                    %h5 YEARS OF EXPERIENCE
+                  %span.arrow_results
+                / End Resul Zone
+              / End Left Content
+              / Image animation - Right Content
+              .col-md-4.wow.fadeInRight
+                %img.img-responsive{:alt => "", :src => "img/services/1.png"}/
+              / End Image animation - Right Content
+        / End Info resalt
+      / End content info - Result Section
+      / Info title
+      .row.info_title.wow.fadeInUp
+        .vertical_line
+          .circle_bottom
+        .info_vertical.animated
+          %h1
+            Our
+            %span Great
+            Process
+          %p “Sollemnes wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip consequat.”
+        .vertical_line
+        %i.fa.fa-tablet.right
+      / End Info title
+      / End content info - Services Section
+      %section.content_info
+        / Services
+        %section.info_resalt.borders
+          .container.wow.fadeInUp
+            .row.text-center
+              .service-process
+                / Step 1
+                .col-xs-12.col-sm-6.col-md-3.col-lg-3
+                  .thumbnail
+                    .caption-head
+                      %em.caption-icon.fa.fa-graduation-cap.icon-big
+                      %h2.caption-title Imagine
+                / End Step 1
+                / Step 2
+                .col-xs-12.col-sm-6.col-md-3.col-lg-3
+                  .thumbnail
+                    .caption-head
+                      %em.caption-icon.fa.fa-edit.icon-big
+                      %h2.caption-title Strategy
+                / End Step 2
+                / Step 3
+                .col-xs-12.col-sm-6.col-md-3.col-lg-3
+                  .thumbnail
+                    .caption-head
+                      %em.caption-icon.fa.fa-cog.icon-big
+                      %h2.caption-title Build
+                / End Step 3
+                / Step 4
+                .col-xs-12.col-sm-6.col-md-3.col-lg-3
+                  .thumbnail
+                    .caption-head
+                      %em.caption-icon.fa.fa-plane.icon-big
+                      %h2.caption-title Launch
+                / End Step 4
+              .col-md-12.single_services
+                %p.lead
+                  We limit our concurrent projects to ensure your company gets the most care and attention possible.
+                  %a{:href => "#"} Learn More
+        / End Services
+      / End content info - Services Section
+      / Info title
+      .row.info_title.wow.fadeInUp
+        .vertical_line
+          .circle_bottom
+        .info_vertical.animated
+          %h1
+            Testimonials our
+            %span clients
+          %p “Sollemnes wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip consequat.”
+        .vertical_line
+        %i.fa.fa-comment.left
+      / End Info title
+      / End content info - Testimonials Section
+      %section.content_info
+        / testimonials
+        %section.info_resalt.border_top
+          / testimonials Carousel
+          %ul#carousel-testimonials.owl-carousel.carousel-testimonials.wow.fadeInUp
+            / Item testimonial
+            %li
+              .head-testimonials
+                .image-testimonials
+                  %img{:alt => "", :src => "img/commnets/1.jpg"}/
+              .name
+                %h3 Jeny Martinez
+              .job
+                %h3 Social Media
+              %p Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+            / End Item testimonial
+            / Item testimonial
+            %li
+              .head-testimonials
+                .image-testimonials
+                  %img{:alt => "", :src => "img/commnets/2.jpg"}/
+              .name
+                %h3 Mager retry
+              .job
+                %h3 Development
+              %p Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+            / End Item testimonial
+            / Item testimonial
+            %li
+              .head-testimonials
+                .image-testimonials
+                  %img{:alt => "", :src => "img/commnets/3.jpg"}/
+              .name
+                %h3 Jertye Falcao
+              .job
+                %h3 Web designer
+              %p Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+            / End Item testimonial
+          / End testimonials Carousel
+        / End testimonials
+      / End content info - Testimonials Section
+      / footer
+      %footer.footer_top
+        .container
+          .row
+            / Social Section
+            .col-md-2
+              %h3 FOLLOW US
+              %ul.social
+                %li.facebook
+                  %span
+                    %i.fa.fa-facebook
+                  %a{:href => "#"} Facebook
+                %li.twitter
+                  %span
+                    %i.fa.fa-twitter
+                  %a{:href => "#"} Twitter
+                %li.github
+                  %span
+                    %i.fa.fa-github
+                  %a{:href => "#"} Github
+                %li.linkedin
+                  %span
+                    %i.fa.fa-linkedin
+                  %a{:href => "#"} Linkedin
+            / End Social Section
+            / Recent links
+            .col-md-2
+              %h3 TWITTER FEED
+              .twitts
+            / End Recent links
+            / Recent Links
+            .col-md-2
+              %h3 RECENT LINKS
+              %ul
+                %li
+                  %i.fa.fa-check
+                  %a{:href => "#"} Work
+                %li
+                  %i.fa.fa-check
+                  %a{:href => "#"} About Us
+                %li
+                  %i.fa.fa-check
+                  %a{:href => "#"} Services
+                %li
+                  %i.fa.fa-check
+                  %a{:href => "#"} Contact Us
+            / End Recent Links
+            / Newsletter
+            .col-md-3
+              %h3 NEWSLETTER SIGN UP
+              %p Enter your e-mail and subscribe to our newsletter.
+              %form#newsletterForm.newsletterForm{:action => "php/mailchip/newsletter-subscribe.php"}
+                .input-group
+                  %span.input-group-addon
+                    %i.fa.fa-envelope
+                  %input.form-control{:name => "email", :placeholder => "Email Address", :required => "required", :type => "email"}/
+                  %span.input-group-btn
+                    %button.btn.btn-primary{:name => "subscribe", :type => "submit"} Go!
+              #result-newsletter
+            / end Newsletter
+            / Contact Us
+            .col-md-3
+              %h3 CONTACT US
+              %ul.contact_footer
+                %li
+                  %i.fa.fa-envelope
+                  %a{:href => "#"} example@example.com
+                %li
+                  %i.fa.fa-headphones
+                  %a{:href => "#"} 55-5698-4589
+                %li.location
+                  %i.fa.fa-home
+                  %a{:href => "#"} Av new stret - New York
+            / Contact Us
+      / End footer
+      / footer
+      %footer.coopring
+        %p &copy; 2014 Jekas. All Rights Reserved.
+      / End footer
+    / End layout
+    / ======================= JQuery libs ===========================
+    / jQuery local
+    %script{:src => "js/jquery.js", :type => "text/javascript"}
+    / Nav
+    %script{:src => "js/nav/tinynav.js", :type => "text/javascript"}
+    %script{:src => "js/nav/superfish.js", :type => "text/javascript"}
+    %script{:src => "js/nav/hoverIntent.js", :type => "text/javascript"}
+    %script{:src => "js/nav/jquery.sticky.js", :type => "text/javascript"}
+    / Totop
+    %script{:src => "js/totop/jquery.ui.totop.js", :type => "text/javascript"}
+    / Slide Revolution
+    %script{:src => "js/rs-plugin/js/jquery.themepunch.tools.min.js", :type => "text/javascript"}
+    %script{:src => "js/rs-plugin/js/jquery.themepunch.revolution.min.js", :type => "text/javascript"}
+    / owl-carousel
+    %script{:src => "js/carousel/owl.carousel.js", :type => "text/javascript"}
+    / Ligbox
+    %script{:src => "js/fancybox/jquery.fancybox.pack.js", :type => "text/javascript"}
+    / Gallery Grid
+    %script{:src => "js/gallery/modernizr.custom.26633.js", :type => "text/javascript"}
+    %script{:src => "js/gallery/jquery.gridrotator.js", :type => "text/javascript"}
+    / Minislider Team
+    %script{:src => "js/team/modernizr.custom.63321.js", :type => "text/javascript"}
+    %script{:src => "js/team/jquery.catslider.js", :type => "text/javascript"}
+    / Filters
+    %script{:src => "js/filters/jquery.isotope.js", :type => "text/javascript"}
+    / Theme Options
+    %script{:src => "js/theme-options/theme-options.js", :type => "text/javascript"}
+    %script{:src => "js/theme-options/jquery.cookies.js", :type => "text/javascript"}
+    / Twitter Feed
+    %script{:src => "js/twitter/jquery.tweet.js", :type => "text/javascript"}
+    / WOW-master
+    %script{:src => "js/animations/wow.min.js", :type => "text/javascript"}
+    / Parallax
+    %script{:src => "js/parallax/jquery.inview.js", :type => "text/javascript"}
+    %script{:src => "js/parallax/nbw-parallax.js", :type => "text/javascript"}
+    / Bootstrap.js
+    %script{:src => "js/bootstrap/bootstrap.js", :type => "text/javascript"}
+    / fUNCTIONS
+    %script{:src => "js/main.js", :type => "text/javascript"}
+    / ======================= End JQuery libs ===========================
+    / Slider Function
+    :javascript
+      jQuery(document).ready(function() {
+         jQuery('.tp-banner').revolution(
+          {
+              delay:15000,
+              startwidth:1170,
+              startheight:500,
+              hideThumbs:10,
+              fullWidth:"on",
+              fullScreen:"on",
+              fullScreenOffsetContainer: ""
+          });
+      });
+    / End Slider Function

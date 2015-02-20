@@ -1,29 +1,27 @@
-:javascript
-  var submitted=false;
-%iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted) {window.location='Operations.html';}", :style => "display:none;"}
-%form{:action => "https://docs.google.com/forms/d/13QTzVUzA4J_3DVcgWkvKNl2PbYTSDRu1KLvaMeCBBJ0/formResponse", :method => "post", :onsubmit => "submitted=true;", :target => "hidden_iframe"}
-  %ol.ss-question-list{:role => "list", :style => "padding-left: 0"}
-  .ss-form-question.errorbox-good{:role => "listitem"}
-    .ss-item.ss-item-required.ss-text{:dir => "ltr"}
-      .ss-form-entry
-        %label.ss-q-item-label{:for => "entry_1758221271"}/
-        .ss-q-title
-          Email Address
-          %label{"aria-label" => "(Required field)", :for => "itemView.getDomIdToLabel()"}
-          %span.ss-required-asterisk{"aria-hidden" => "true"} *
-        .ss-q-help.ss-secondary-text{:dir => "ltr"}
-        %input#entry_1758221271.ss-q-short{"aria-label" => "Email Address  Must enter a valid email address", "aria-required" => "true", :dir => "auto", :name => "entry.1758221271", :required => "", :title => "Must enter a valid email address", :type => "email", :value => ""}
-  %input{:name => "draftResponse", :type => "hidden", :value => "[,,&quot;-729898859264933456&quot;]\n"}/
-  %input{:name => "pageHistory", :type => "hidden", :value => "0"}/
-  %input{:name => "fbzx", :type => "hidden", :value => "-729898859264933456"}/
-  .ss-item.ss-navigate
-    %table#navigation-table
-      %tbody
-        %tr
-          %td#navigation-buttons.ss-form-entry.goog-inline-block{:dir => "ltr"}
-            %input#ss-submit.jfk-button.jfk-button-action{:name => "submit", :type => "submit", :value => "Submit"}/
-%script{:src => "/static/forms/client/js/3954015373-formviewer_prd.js", :type => "text/javascript"}
-:javascript
-  H5F.setup(document.getElementById('ss-form'));
-            _initFormViewer(
-              "[100,,[[[1758221271,[[2,102,,\x22Must enter a valid email address\x22]\n]\n]\n]\n]\n]\n");
+.text-center
+  :javascript
+    var submitted=false;
+  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted) {window.location='Operations.html';}", :style => "display:none;"}
+  %form{:action => "https://docs.google.com/forms/d/13QTzVUzA4J_3DVcgWkvKNl2PbYTSDRu1KLvaMeCBBJ0/formResponse", :method => "post", :onsubmit => "submitted=true;", :target => "hidden_iframe"}
+    %ol.ss-question-list{:role => "list", :style => "padding-left: 0"}
+    .ss-form-question.errorbox-good{:role => "listitem"}
+      .ss-item.ss-item-required.ss-text{:dir => "ltr"}
+        .ss-form-entry
+          .row
+            %label.ss-q-item-label{:for => "entry_1758221271"}/
+            .ss-q-title
+            %h5  
+              Enter Your Email Address
+              %label{"aria-label" => "(Required field)", :for => "itemView.getDomIdToLabel()"}
+            .ss-q-help.ss-secondary-text{:dir => "ltr"}
+            %input#entry_1758221271.ss-q-short{"aria-label" => "Email Address  Must enter a valid email address", "aria-required" => "true", :dir => "auto", :name => "entry.1758221271", :required => "", :title => "Must enter a valid email address", :type => "email", :value => ""}
+            %input{:name => "draftResponse", :type => "hidden", :value => "[,,&quot;-729898859264933456&quot;]\n"}/
+            %input{:name => "pageHistory", :type => "hidden", :value => "0"}/
+            %input{:name => "fbzx", :type => "hidden", :value => "-729898859264933456"}/
+            %td#navigation-buttons.ss-form-entry.goog-inline-block{:dir => "ltr"}
+              %input#ss-submit.jfk-button.jfk-button-action{:name => "submit", :type => "submit", :value => "Submit"}/
+  %script{:src => "/static/forms/client/js/3954015373-formviewer_prd.js", :type => "text/javascript"}
+  :javascript
+    H5F.setup(document.getElementById('ss-form'));
+              _initFormViewer(
+                "[100,,[[[1758221271,[[2,102,,\x22Must enter a valid email address\x22]\n]\n]\n]\n]\n]\n");

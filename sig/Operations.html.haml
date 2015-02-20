@@ -41,114 +41,121 @@ layout: base
                 %a{:href => "Operations.html"} OpenShift Ops
     / End crumbs
     / End content info - White Section
-    %section.content_info#interests
-      .paddings
-        .row.info_title
-          .info_vertical
-            %h1
-              Join the OpenShift Ops
-              %br
-              %span Special Interest Group
-            / Form
-            .col-xs-12.col-sm-12.col-md-6.col-md-offset-3
-              = partial( 'operations_signup.html.haml')
-            / End Form
-            #result-newsletter
-    %section.content_info
-      / Info Resalt
-      .container
-        .row
-          / Post
-          .col-md-9
+    %section.content_info#join
+      #try.info_title.wow.fadeInDown
+        %i.fa.fa-users.right
+        .vertical_line
+          .circle_bottom
+        .info_vertical.animated
+          %h1
+            Join the OpenShift Operations
+            %br
+            %span Special Interest Group
+        .padding_bottom
+          .container.wow.fadeInUp.animated
             .row
-              / Item Post 01
-              .col-sm-6.col-md-6
-                .blog-content
-                  .entry-header
-                    .blog-image
-                    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "415", :src => "https://www.youtube.com/embed/yQoYBS0daeM", :width => "560"}
-                      %i.fa.fa-google-plus-square
-                  .entry-content
-                    %h3.entry-title
-                      OpenShift Ops Commons Briefing
-                      %li
-                        %a{:href => "http://www.amazon.com/Implementing-OpenShift-Adam-Miller/dp/1782164723/"}
-                          %i.fa.fa-user
-                          By: Adam Miller
-                          %span 
-                      %li
-                        %a{:href => "#"}
-                          %i.fa.fa-tags
-                          V3 Commons
-                          %span
-                    %p OpenShift's Adam Miller walks us through how OpenShift does Operations. 
+              / Form
+              .col-xs-12.col-sm-12.col-md-6.col-md-offset-3
+                = partial( 'operations_signup.html.haml')
+              / End Form
+          #result-newsletter
+    %section.content_info
+      .info_resalt.borders
+        / Info Resalt
+        .container
+          .row
             / Post
-            / Sidebars Left Sidebar
-          .col-md-3.sidebars
-            %aside
-              -# %h4 Searh Sidebar
-              -# %form.search
-              -#   .input-group
-              -#     %span.input-group-addon
-              -#       %i.fa.fa-search
-              -#     %input.form-control{:name => "email", :placeholder => "Search...", :required => "required", :type => "email"}/
-              -#     %span.input-group-btn
-              -#       %button.btn.btn-primary{:name => "subscribe", :type => "submit"} Go!
-            %aside
-              %h4 Topics Covered
-              %ul.list
-                %li
-                  %i.fa.fa-check
-                  %a{:href => "https://github.com/openshift/openshift_zabbix"} Monitoring
-                %li
-                  %i.fa.fa-check
-                  %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Deployment
-                %li
-                  %i.fa.fa-check
-                  %a{:href => "https://www.openshift.com/blogs/automated-node-recovery-architecture"} Architecture
-            %aside
-              %h4 About OpenShift Operations 
-              %p OpenShift is as much about operations as it is about development. This Special Interest Group is way for like-minded engineers to discuss and share information on deploying and maintaining OpenShift at scale. 
+            .col-md-9
+              .row
+                / Item Post 01
+                .col-sm-6.col-md-6
+                  .blog-content
+                    .entry-header
+                      .blog-image
+                      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "415", :src => "https://www.youtube.com/embed/yQoYBS0daeM", :width => "560"}
+                        %i.fa.fa-google-plus-square
+                    .entry-content
+                      %h3.entry-title
+                        OpenShift Ops Commons Briefing
+                        %li
+                          %a{:href => "http://www.amazon.com/Implementing-OpenShift-Adam-Miller/dp/1782164723/"}
+                            %i.fa.fa-user
+                            By: Adam Miller
+                            %span 
+                        %li
+                          %a{:href => "#"}
+                            %i.fa.fa-tags
+                            V3 Commons
+                            %span
+                      %p OpenShift's Adam Miller walks us through how OpenShift does Operations. 
+              / Post
+              / Sidebars Left Sidebar
+            .col-md-3.sidebars
+              %aside
+                -# %h4 Searh Sidebar
+                -# %form.search
+                -#   .input-group
+                -#     %span.input-group-addon
+                -#       %i.fa.fa-search
+                -#     %input.form-control{:name => "email", :placeholder => "Search...", :required => "required", :type => "email"}/
+                -#     %span.input-group-btn
+                -#       %button.btn.btn-primary{:name => "subscribe", :type => "submit"} Go!
+              %aside
+                %h4 Topics Covered
+                %ul.list
+                  %li
+                    %i.fa.fa-check
+                    %a{:href => "https://github.com/openshift/openshift_zabbix"} Monitoring
+                  %li
+                    %i.fa.fa-check
+                    %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Deployment
+                  %li
+                    %i.fa.fa-check
+                    %a{:href => "https://www.openshift.com/blogs/automated-node-recovery-architecture"} Architecture
+              %aside
+                %h4 About OpenShift Operations 
+                %p OpenShift is as much about operations as it is about development. This Special Interest Group is way for like-minded engineers to discuss and share information on deploying and maintaining OpenShift at scale. 
     %section.content_info#colleagues
       / Info Resalt
-      .info_resalt.borders
-        .info_vertical
-          .row.info_title.wow.fadeInUp
-            .info_vertical.animated
-              %h1
-                OpenShift Ops
-                %span Articles
-        .container.wow.fadeInUp
-          .row-fluid
-            / Item Service-02
-            - operations.each do |x|
-              .col-xs-12.col-sm-6.col-md-6.col-lg-6
-                .service-03
-                  .head-service-03
-                    %i.fa.fa-newspaper-o
-                    %h3
-                      %a{:href => "#{x.at_css(".entry-title a")[:href]}",:title => "#{x.at_css(".entry-title").text}"} #{x.at_css(".entry-title").text}
-                  .caption-service-03
-                    %p
-                      #{x.at_css(".entry-summary").text.split[0..20].join(" ").concat("...")}
-                      %a{:href => "#{x.at_css(".entry-title a")[:href]}"} Read More
-              .col-xs-12.col-sm-6.col-md-6.col-lg-6
-                .service-03
-                  .head-service-03
-                    %i.fa.fa-code-fork
-                    %h3
-                      %a{:href => "https://github.com/openshift/openshift_zabbix",:title => "OpenShift Zabbix Monitoring Scripts"} OpenShift Zabbix Monitoring Scripts
-                  .caption-service-03
-                    %p
-                      This repository contains monitoring scripts and configuration files to enable monitoring an OpenShift installation with Zabbix...
-                      %a{:href => "https://github.com/openshift/openshift_zabbix"} Read More
-              .col-xs-12.col-sm-6.col-md-6.col-lg-6
-                .service-03
-                  .head-service-03
-                    %i.fa.fa-code-fork
-                    %h3
-                      %a{:href => "https://github.com/openshift/puppet-openshift_origin",:title => "OpenShift Puppet Modules"} OpenShift Puppet Modules
-                  .caption-service-03
-                    %p
-                      Puppet module to create OpenShift Brokers and Nodes. Can be used to create a full OpenShift Origin deployment...
-                      %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Read More
+      .info_vertical
+      .vertical_line
+        .circle_bottom
+      .row.info_title.wow.fadeInUp
+        .info_vertical.animated
+          %h1
+            OpenShift Ops
+            %span Articles
+    .container.wow.fadeInUp
+      .row-fluid
+        / Item Service-02
+        - operations.each do |x|
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6
+            .service-03
+              .head-service-03
+                %i.fa.fa-newspaper-o
+                %h3
+                  %a{:href => "#{x.at_css(".entry-title a")[:href]}",:title => "#{x.at_css(".entry-title").text}"} #{x.at_css(".entry-title").text}
+              .caption-service-03
+                %p
+                  #{x.at_css(".entry-summary").text.split[0..20].join(" ").concat("...")}
+                  %a{:href => "#{x.at_css(".entry-title a")[:href]}"} Read More
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6
+            .service-03
+              .head-service-03
+                %i.fa.fa-code-fork
+                %h3
+                  %a{:href => "https://github.com/openshift/openshift_zabbix",:title => "OpenShift Zabbix Monitoring Scripts"} OpenShift Zabbix Monitoring Scripts
+              .caption-service-03
+                %p
+                  This repository contains monitoring scripts and configuration files to enable monitoring an OpenShift installation with Zabbix...
+                  %a{:href => "https://github.com/openshift/openshift_zabbix"} Read More
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6
+            .service-03
+              .head-service-03
+                %i.fa.fa-code-fork
+                %h3
+                  %a{:href => "https://github.com/openshift/puppet-openshift_origin",:title => "OpenShift Puppet Modules"} OpenShift Puppet Modules
+              .caption-service-03
+                %p
+                  Puppet module to create OpenShift Brokers and Nodes. Can be used to create a full OpenShift Origin deployment...
+                  %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Read More

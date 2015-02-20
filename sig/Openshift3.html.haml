@@ -41,89 +41,96 @@ layout: base
                 %a{:href => "Openshift3.html"} OpenShift 3
     / End crumbs
     / End content info - White Section
-    %section.content_info#interests
-      .paddings
-        .row.info_title
-          .info_vertical
-            %h1
-              Join the OpenShift V3
-              %br
-              %span Special Interest Group
-            .col-xs-12.col-sm-12.col-md-6.col-md-offset-3
-              = partial( 'openshift_v3_signup.html.haml')
+    %section.content_info#join
+      #try.info_title.wow.fadeInDown
+        %i.fa.fa-users.right
+        .vertical_line
+          .circle_bottom
+        .info_vertical.animated
+          %h1
+            Join the OpenShift V3
+            %br
+            %span Special Interest Group
+        .padding_bottom
+          .container.wow.fadeInUp.animated
+            .row
+              .col-xs-12.col-sm-12.col-md-6.col-md-offset-3
+                = partial( 'openshift_v3_signup.html.haml')
             #result-newsletter
     %section.content_info
       / Info Resalt
-      .container
-        .row
-          / Post
-          .col-md-9
-            .row
-              / Item Post 01
-              .col-sm-6.col-md-6
-                .blog-content
-                  .entry-header
-                    .blog-image
-                    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "415", :src => "//www.youtube.com/embed/N4lu2DhSI5Q", :width => "560"}
-                      %i.fa.fa-google-plus-square
-                  .entry-content
-                    %h3.entry-title
-                      OpenShift V3 Commons Brieffing 
-                      %li
-                        %a{:href => "https://blog.openshift.com/author/mikebarrett/"}
-                          %i.fa.fa-user
-                          By: Mike Barrett
-                          %span 
-                      %li
-                        %a{:href => "#"}
-                          %i.fa.fa-tags
-                          V3 Commons
-                          %span
-                    %p OpenShift Product Manager Mike Barrett goes over Commons and how you can get involved with OpenShift V3 
+      .info_resalt.borders
+        .container
+          .row
             / Post
-            / Sidebars Left Sidebar
-          .col-md-3.sidebars
-            %aside
-              %h4 Topics Covered
-              %ul.list
-                %li
-                  %i.fa.fa-check
-                  %a{:href => "https://github.com/openshift/origin#getting-started"} Install
-                %li
-                  %i.fa.fa-check
-                  %a{:href => "https://blog.openshift.com/builds-deployments-services-v3/"} Deploy
-                %li
-                  %i.fa.fa-check
-                  %a{:href => "https://github.com/openshift/origin#start-developing"} Contribute
-                %li
-                  %i.fa.fa-check
-                  %a{:href => "https://blog.openshift.com/microservices-containers-paas-devops/"} Microservices
-                %li
-                  %i.fa.fa-check
-                  %a{:href => "https://github.com/openshift/origin"} Open Source
-            %aside
-              %h4 About OpenShift v3 
-              %p OpenShift v3 is built around a core of application containers powered by Docker, with orchestration and management provided by Kubernetes, on a foundation of Atomic and Enterprise Linux.
+            .col-md-9
+              .row
+                / Item Post 01
+                .col-sm-6.col-md-6
+                  .blog-content
+                    .entry-header
+                      .blog-image
+                      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "415", :src => "//www.youtube.com/embed/N4lu2DhSI5Q", :width => "560"}
+                        %i.fa.fa-google-plus-square
+                    .entry-content
+                      %h3.entry-title
+                        OpenShift V3 Commons Brieffing 
+                        %li
+                          %a{:href => "https://blog.openshift.com/author/mikebarrett/"}
+                            %i.fa.fa-user
+                            By: Mike Barrett
+                            %span 
+                        %li
+                          %a{:href => "#"}
+                            %i.fa.fa-tags
+                            V3 Commons
+                            %span
+                      %p OpenShift Product Manager Mike Barrett goes over Commons and how you can get involved with OpenShift V3 
+              / Post
+              / Sidebars Left Sidebar
+            .col-md-3.sidebars
+              %aside
+                %h4 Topics Covered
+                %ul.list
+                  %li
+                    %i.fa.fa-check
+                    %a{:href => "https://github.com/openshift/origin#getting-started"} Install
+                  %li
+                    %i.fa.fa-check
+                    %a{:href => "https://blog.openshift.com/builds-deployments-services-v3/"} Deploy
+                  %li
+                    %i.fa.fa-check
+                    %a{:href => "https://github.com/openshift/origin#start-developing"} Contribute
+                  %li
+                    %i.fa.fa-check
+                    %a{:href => "https://blog.openshift.com/microservices-containers-paas-devops/"} Microservices
+                  %li
+                    %i.fa.fa-check
+                    %a{:href => "https://github.com/openshift/origin"} Open Source
+              %aside
+                %h4 About OpenShift v3 
+                %p OpenShift v3 is built around a core of application containers powered by Docker, with orchestration and management provided by Kubernetes, on a foundation of Atomic and Enterprise Linux.
     %section.content_info#colleagues
       / Info Resalt
-      .info_resalt.borders
-        .info_vertical
-          .row.info_title.wow.fadeInUp
-            .info_vertical.animated
-              %h1
-                OpenShift V3
-                %span Articles
-        .container.wow.fadeInUp
-          .row-fluid
-            / Item Service-02
-            - openshiftv3.each do |x|
-              .col-xs-12.col-sm-6.col-md-6.col-lg-6
-                .service-03
-                  .head-service-03
-                    %i.fa.fa-newspaper-o
-                    %h3
-                      %a{:href => "#{x.at_css(".entry-title a")[:href]}",:title => "#{x.at_css(".entry-title").text}"} #{x.at_css(".entry-title").text}
-                  .caption-service-03
-                    %p
-                      #{x.at_css(".entry-summary").text.split[0..20].join(" ").concat("...")}
-                      %a{:href => "#{x.at_css(".entry-title a")[:href]}"} Read More
+      .info_vertical
+      .vertical_line
+        .circle_bottom
+      .row.info_title.wow.fadeInUp
+        .info_vertical.animated
+          %h1
+            OpenShift V3
+            %span Articles
+      .container.wow.fadeInUp
+        .row-fluid
+          / Item Service-02
+          - openshiftv3.each do |x|
+            .col-xs-12.col-sm-6.col-md-6.col-lg-6
+              .service-03
+                .head-service-03
+                  %i.fa.fa-newspaper-o
+                  %h3
+                    %a{:href => "#{x.at_css(".entry-title a")[:href]}",:title => "#{x.at_css(".entry-title").text}"} #{x.at_css(".entry-title").text}
+                .caption-service-03
+                  %p
+                    #{x.at_css(".entry-summary").text.split[0..20].join(" ").concat("...")}
+                    %a{:href => "#{x.at_css(".entry-title a")[:href]}"} Read More
