@@ -61,63 +61,36 @@ layout: base
           #result-newsletter
     %section.content_info
       .info_resalt.borders
-        / Info Resalt
         .container
           .row
-            / Post
-            .col-md-9
-              .row
-                / Item Post 01
-                .col-sm-6.col-md-6
-                  .blog-content
-                    .entry-header
-                      .blog-image
-                      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "415", :src => "https://www.youtube.com/embed/yQoYBS0daeM", :width => "560"}
-                        %i.fa.fa-google-plus-square
-                    .entry-content
-                      %h3.entry-title
-                        OpenShift Ops Commons Briefing
-                        %li
-                          %a{:href => "http://www.amazon.com/Implementing-OpenShift-Adam-Miller/dp/1782164723/"}
-                            %i.fa.fa-user
-                            By: Adam Miller
-                            %span 
-                        %li
-                          %a{:href => "#"}
-                            %i.fa.fa-tags
-                            V3 Commons
-                            %span
-                      %p OpenShift's Adam Miller walks us through how OpenShift does Operations. 
-              / Post
-              / Sidebars Left Sidebar
-            .col-md-3.sidebars
-              %aside
-                -# %h4 Searh Sidebar
-                -# %form.search
-                -#   .input-group
-                -#     %span.input-group-addon
-                -#       %i.fa.fa-search
-                -#     %input.form-control{:name => "email", :placeholder => "Search...", :required => "required", :type => "email"}/
-                -#     %span.input-group-btn
-                -#       %button.btn.btn-primary{:name => "subscribe", :type => "submit"} Go!
-              %aside
-                %h4 Topics Covered
-                %ul.list
-                  %li
-                    %i.fa.fa-check
-                    %a{:href => "https://github.com/openshift/openshift_zabbix"} Monitoring
-                  %li
-                    %i.fa.fa-check
-                    %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Deployment
-                  %li
-                    %i.fa.fa-check
-                    %a{:href => "https://www.openshift.com/blogs/automated-node-recovery-architecture"} Architecture
-              %aside
-                %h4 About OpenShift Operations 
-                %p OpenShift is as much about operations as it is about development. This Special Interest Group is way for like-minded engineers to discuss and share information on deploying and maintaining OpenShift at scale. 
+            .col-md-12.text-center
+              .info_vertical.animated
+                %h1 OpenShift Ops Commons Briefing
+                %p 
+                  OpenShift's 
+                  %a{:href => "http://www.amazon.com/Implementing-OpenShift-Adam-Miller/dp/1782164723/"}Adam Miller 
+                  walks us through how OpenShift does Operations.
+          .row.padding-top
+            .col-md-6
+              .embed-responsive.embed-responsive-16by9
+                %iframe{:allowfullscreen => "", :frameborder => "0", :class => "embed-responsive-item", :src => "https://www.youtube.com/embed/yQoYBS0daeM"}
+            .col-md-6
+              %h3 Topics Covered
+              %ul.list{:style => "margin-bottom: 20px"}
+                %li
+                  %i.fa.fa-check
+                  %a{:href => "https://github.com/openshift/openshift_zabbix"} Monitoring
+                %li
+                  %i.fa.fa-check
+                  %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Deployment
+                %li
+                  %i.fa.fa-check
+                  %a{:href => "https://www.openshift.com/blogs/automated-node-recovery-architecture"} Architecture
+              
+              %h5 About OpenShift Operations
+              %p OpenShift is as much about operations as it is about development. This Special Interest Group is way for like-minded engineers to discuss and share information on deploying and maintaining OpenShift at scale. 
     %section.content_info#colleagues
       / Info Resalt
-      .info_vertical
       .vertical_line
         .circle_bottom
       .row.info_title.wow.fadeInUp
