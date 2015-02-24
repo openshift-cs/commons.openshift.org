@@ -14,7 +14,6 @@ Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
 Getupcloud,https://getupcloud.com/index.html,commons-logos/getupcloud.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
-IDC,http://www.idc.com/,commons-logos/idc_logo.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
@@ -29,3 +28,4 @@ Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
 Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
+Worldline,http://worldline.com/en-us/home.html,commons-logos/worldline.png
