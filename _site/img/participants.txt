@@ -8,6 +8,7 @@ Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
 CSC,http://www.csc.com/,commons-logos/csc.png
+Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
 Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
 Docker,https://www.docker.com/,commons-logos/docker_logo.svg
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
