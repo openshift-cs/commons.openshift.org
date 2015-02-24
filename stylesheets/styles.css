@@ -5574,9 +5574,9 @@ button.close {
 .carousel-inner > .item {
   display: none;
   position: relative;
-  -webkit-transition: 0.6s ease-in-out left;
-  -o-transition: 0.6s ease-in-out left;
-  transition: 0.6s ease-in-out left; }
+  -webkit-transition: 1s ease-in-out left;
+  -o-transition: 1s ease-in-out left;
+  transition: 1s ease-in-out left; }
 /* line 23, /usr/local/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   display: block;

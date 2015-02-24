@@ -4,8 +4,8 @@
 
     // Default settings
     var settings = $.extend({
-      'active' : 'selected', // String: Set the "active" class
-      'header' : 'Go to', // String: Specify text for "header" and show header instead of the active item
+      'active' : 'current', // String: Set the "active" class
+      'header' : 'Nav To', // String: Specify text for "header" and show header instead of the active item
       'indent' : '- ', // String: Specify text for indenting sub-items
       'label'  : '' // String: sets the <label> text for the <select> (if not set, no label will be added)
     }, options);

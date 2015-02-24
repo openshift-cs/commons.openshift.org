@@ -409,6 +409,10 @@ ul.participants {
   width: 100%;
   display: block;
   height: auto;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
 
   img.logo {
     padding-top: 20px;
@@ -432,7 +436,7 @@ ul.participants {
     border: none;
     font-size: 22px;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 15px;
 
     &:before {
       content: '"';
