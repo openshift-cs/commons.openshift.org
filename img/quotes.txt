@@ -1,4 +1,4 @@
-Cisco;http://www.cisco.com;commons-logos/Cisco.svg;We're pleased to be participants and contributors to the OpenShift Commons as it enables Cisco to contribute and collaborate directly with the entire OpenShift ecosystem...;quotes.html#Cisco
+Cisco;http://www.cisco.com;commons-logos/Cisco.svg;We're pleased to be contribute to the OpenShift Commons as it enables Cisco to collaborate directly with the entire OpenShift ecosystem...;quotes.html#Cisco
 Getupcloud;https://getupcloud.com/index.html;commons-logos/getupcloud.png;OpenShift is critical to our business and the OpenShift Commons has given us a great opportunity to connect directly with other OpenShift ecosystem participants...;quotes.html#Getupcloud
 Amadeus;http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal;commons-logos/Amadeus_Logo.svg;By participating in the OpenShift Commons, we are able to easily and proactively communicate with the community...;quotes.html#Amadeus
 Shippable;http://www.shippable.com/;commons-logos/shippable_logo.png;We're pleased to be active participants in the OpenShift Commons and encourage others to join...;quotes.html#Shippable
