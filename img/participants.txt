@@ -1,3 +1,4 @@
+Accenture,http://www.accenture.com/,commons-logos/Accenture.svg
 AGIX,http://www.agix.com.au/,commons-logos/agix.png
 Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/Amadeus_Logo.svg
 Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
