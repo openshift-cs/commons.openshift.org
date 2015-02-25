@@ -1,7 +1,7 @@
 .text-center
   :javascript
     var submitted=false;
-  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted) {window.location='Openshift3.html';}", :style => "display:none;"}
+  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted) {window.location='../formsubmit.html';}", :style => "display:none;"}
   %form{:action => "https://docs.google.com/forms/d/1JpkOjRyRJe9kOawOutlQscSSApn5xU81D5KZfeYoB6Q/formResponse", :method => "post", :onsubmit => "submitted=true;", :target => "hidden_iframe"}
     %ol.ss-question-list{:role => "list", :style => "padding-left: 0"}
     .ss-form-question.errorbox-good{:role => "listitem"}

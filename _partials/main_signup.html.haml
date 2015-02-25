@@ -1,7 +1,7 @@
 .col-xs-12.col-sm-12.col-md-6.col-lg-6
   :javascript
     var submitted=false;
-  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted) {window.location='index.html';}", :style => "display:none;"}
+  %iframe#hidden_iframe{:name => "hidden_iframe", :onload => "if(submitted) {window.location='formsubmit.html';}", :style => "display:none;"}
   %form{:action => "https://docs.google.com/forms/d/1BbYOX7Zz9NgpqB7A5fzaFkp-qgJgLHjIpHwBH5LJ6Hk/formResponse", :method => "post", :onsubmit => "submitted=true;", :target => "hidden_iframe"}
     .form-group
       First Name
