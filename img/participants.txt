@@ -18,6 +18,7 @@ FICO,http://www.fico.com/en/,commons-logos/fico.svg
 Getupcloud,https://getupcloud.com/index.html,commons-logos/getupcloud.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
+NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
 Pantheon,https://www.getpantheon.com,commons-logos/pantheon.png
@@ -32,3 +33,4 @@ Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
 Worldline,http://worldline.com/en-us/home.html,commons-logos/worldline.png
+Zend,http://www.zend.com/,commons-logos/zend.png
