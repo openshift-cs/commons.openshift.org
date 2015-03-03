@@ -15,7 +15,7 @@ Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
 Docker,https://www.docker.com/,commons-logos/docker_logo.svg
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
-Getupcloud,https://getupcloud.com/index.html,commons-logos/getupcloud.png
+Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
