@@ -7,6 +7,9 @@
     %meta{:content => "The next generation open source app hosting platform by Red Hat", :name => "description"}/
     / Mobile Metas
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+
+    / Google Webmaster Tools
+    %meta{:content => "9jyGvNki3NSELTYJ7t_XbF-YQZ8jjfm7LqQQGNq4SSg", :name => "google-site-verification"}/
     
     / Skins Theme
     %link.skin_color{:href => relative("/stylesheets/skins/red/red.css"), :media => "screen", :rel => "stylesheet"}/
@@ -29,6 +32,14 @@
     /[if lte IE 8]
       <script src="js/responsive/html5shiv.js"></script>
       <script src="js/responsive/respond.js"></script>
+
+    / Google Analytics
+    %script{:src => "//www.google-analytics.com/analytics.js", :type => "text/javascript", :async => true}
+    :javascript
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-40375612-1', 'openshift.org');
+      ga('set', 'forceSSL', true);
+      ga('send', 'pageview');
     :css
       label {
               font-weight:normal;
@@ -65,6 +76,24 @@
       %p &copy; 2015 Red Hat All Rights Reserved.
       %p
         %a{:href => "http://www.redhat.com/en/about/terms-use"}http://www.redhat.com/en/about/terms-use 
+
+  / Google Remarekting
+  :plain
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1007064360;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1007064360/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
   / ======================= JQuery libs ===========================
   / jQuery local
   %script{:src => "js/jquery.js", :type => "text/javascript"}
