@@ -23,7 +23,7 @@ Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
-Pantheon,https://www.getpantheon.com,commons-logos/pantheon.png
+Pantheon,https://www.pantheon.io,commons-logos/pantheon.png
 Phase2,http://www.phase2technology.com,commons-logos/phase2.png
 produban,http://www.produban.com/en/index.html,commons-logos/produban.png
 Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
