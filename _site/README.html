@@ -1,3 +1,32 @@
 <h1 id="commons-website">Commons Website</h1>
 
 <p>The Awestruct system that is used to build commons.openshift.org</p>
+
+<h1 id="adding-new-companies-and-their-logos">Adding New Companies and their logos</h1>
+
+<ol>
+  <li>
+    <p>Get logo from participant, preferably a png with 0 alpha channel (Transparent Background) or a svg. If the logo doesn't come with a transparent background, please open it in Gimp (or photoshop) to remove the background. There are plenty of tutorials out there that will show you how to do this if you don't alreday know how. </p>
+  </li>
+  <li>
+    <p>Place the image in the <code>/img/commons-logos/</code> directory. </p>
+  </li>
+  <li>
+    <p>Open the file <code>/img/participants.txt</code> </p>
+  </li>
+  <li>
+    <p>The participants are sorted alphabetically by company name and the next thing you'll need to find the line where you want to append the new participant. </p>
+  </li>
+  <li>
+    <p>The order in which you put the participant name, url, and path to image is very important as well as the commas that seperate them. So be sure to use the following order <code>&lt;participants name&gt;,&lt;participants url&gt;,commons-logos/&lt;logo filename&gt;</code>.</p>
+  </li>
+  <li>
+    <p>Save your changes.</p>
+  </li>
+  <li>
+    <p>run <code>rake clean preview</code> on your local machine and navigate to <code>http://localhost:4242</code> and check to see if the participant is displayed and showing correctly. </p>
+  </li>
+  <li>
+    <p>Once that's done, add-commit-push your changes and once the site is rebuilt (which is nightly) the new participant will be public</p>
+  </li>
+</ol>
