@@ -13,11 +13,13 @@ CSC,http://www.csc.com/,commons-logos/csc.png
 Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
 Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
 Docker,https://www.docker.com/,commons-logos/docker_logo.svg
+EBRC,http://www.ebrc.com/,commons-logos/ebrc.png
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
 Getupcloud,https://getupcloud.com/index.html,commons-logos/getupcloud.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
+Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
