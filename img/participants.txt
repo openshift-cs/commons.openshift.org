@@ -5,6 +5,7 @@ Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
 Appdirect,http://www.appdirect.com/,commons-logos/appdirect.png
 AppDynamics,http://www.appdynamics.com/,commons-logos/AppDynamics.png
 Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
+Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
