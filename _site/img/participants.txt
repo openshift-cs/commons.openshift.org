@@ -4,6 +4,7 @@ Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-P
 Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
 Appdirect,http://www.appdirect.com/,commons-logos/appdirect.png
 AppDynamics,http://www.appdynamics.com/,commons-logos/AppDynamics.png
+Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
@@ -23,7 +24,7 @@ Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
-Pantheon,https://www.pantheon.io,commons-logos/pantheon.png
+Pantheon,https://pantheon.io/,commons-logos/pantheon.png
 Phase2,http://www.phase2technology.com,commons-logos/phase2.png
 produban,http://www.produban.com/en/index.html,commons-logos/produban.png
 Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
