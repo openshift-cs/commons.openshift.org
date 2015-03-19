@@ -22,6 +22,7 @@ Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
+Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
