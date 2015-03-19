@@ -19,6 +19,7 @@ EBRC,http://www.ebrc.com/,commons-logos/ebrc.png
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
 Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
+Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
