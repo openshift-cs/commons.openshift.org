@@ -35,7 +35,7 @@ puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.svg
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
-Smals,https://www.smals.be/,commons-logos/smals.png
+Smals,https://www.smals.be/,commons-logos/Smals.png
 Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
