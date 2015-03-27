@@ -1,10 +1,11 @@
 Accenture,http://www.accenture.com/,commons-logos/Accenture.svg
 AGIX,http://www.agix.com.au/,commons-logos/agix.png
-Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/Amadeus_Logo.svg
+Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/amadeus.png
 Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
 Appdirect,http://www.appdirect.com/,commons-logos/appdirect.png
 AppDynamics,http://www.appdynamics.com/,commons-logos/AppDynamics.png
 Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
+Autonomic Resources,http://autonomicresources.com,commons-logos/arcwrx.png
 Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
@@ -22,6 +23,7 @@ Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
 Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
+Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
@@ -39,5 +41,9 @@ Smals,https://www.smals.be/,commons-logos/Smals.png
 Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
+Web Semantics,http://websemantics.ca,commons-logos/websemantics.png
 Worldline,http://worldline.com/en-us/home.html,commons-logos/worldline.png
+Zabbix,http://www.zabbix.com,commons-logos/zabbix.png
 Zend,http://www.zend.com/,commons-logos/zend.png
+Zero Turnaround,http://zeroturnaround.com/,commons-logos/jrebel.png
+
