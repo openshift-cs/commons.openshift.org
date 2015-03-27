@@ -29,11 +29,13 @@ Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
+OS Squad,http://www.ossquad.com,commons-logos/ossquad.png
 Pantheon,https://pantheon.io/,commons-logos/pantheon.png
 Phase2,http://www.phase2technology.com,commons-logos/phase2.png
 produban,http://www.produban.com/en/index.html,commons-logos/produban.png
 Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
 puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.svg
+RedisLabs,https://redislabs.com/,commons-logos/redislabs.png
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
