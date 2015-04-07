@@ -8,6 +8,7 @@ Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
 Autonomic Resources,http://autonomicresources.com,commons-logos/arcwrx.png
 Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
+Chuanhow,http://www.chuanhow.com,commons-logos/chuanhow.png
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
@@ -35,17 +36,19 @@ Phase2,http://www.phase2technology.com,commons-logos/phase2.png
 produban,http://www.produban.com/en/index.html,commons-logos/produban.png
 Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
 puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.svg
+Puzzle ITC,http://www.puzzle.ch/de/home,commons-logos/puzzleitc.png
 RedisLabs,https://redislabs.com/,commons-logos/redislabs.png
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
 Smals,https://www.smals.be/,commons-logos/Smals.png
-Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
+Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
+TicketFly,http://www.ticketfly.com,commons-logos/ticketfly.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
 Web Semantics,http://websemantics.ca,commons-logos/websemantics.png
 Worldline,http://worldline.com/en-us/home.html,commons-logos/worldline.png
 Zabbix,http://www.zabbix.com,commons-logos/zabbix.png
 Zend,http://www.zend.com/,commons-logos/zend.png
-Zero Turnaround,http://zeroturnaround.com/,commons-logos/jrebel.png
+Zero Turnaround,http://zeroturnaround.com/,commons-logos/zeroturnaround.png
 
