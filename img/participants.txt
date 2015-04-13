@@ -1,3 +1,4 @@
+6fusion,http://www.6fusion.com/,commons-logos/6fusion.png
 Accenture,http://www.accenture.com/,commons-logos/Accenture.svg
 AGIX,http://www.agix.com.au/,commons-logos/agix.png
 Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/amadeus.png
@@ -25,6 +26,7 @@ Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
+Mesospere,https://mesosphere.com/,commons-logos/mesosphere.png
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
