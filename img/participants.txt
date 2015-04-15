@@ -5,6 +5,7 @@ Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-P
 Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
 Appdirect,http://www.appdirect.com/,commons-logos/appdirect.png
 AppDynamics,http://www.appdynamics.com/,commons-logos/AppDynamics.png
+Architech,http://www.architech.ca/,commons-logos/architech.png
 Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
 Autonomic Resources,http://autonomicresources.com,commons-logos/arcwrx.png
 Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
@@ -29,6 +30,7 @@ Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
 Mesospere,https://mesosphere.com/,commons-logos/mesosphere.png
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
+NetEngine,http://netengine.com.au/,commons-logos/netengine.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
