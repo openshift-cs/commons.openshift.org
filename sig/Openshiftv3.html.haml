@@ -1,8 +1,7 @@
 ---
 layout: base
+title: OpenShift v3 SIG
 ---
-%head
-  %title OpenShift v3 SIG
 %body.commons
   #layout.layout-wide
     / Header Section
@@ -13,7 +12,9 @@ layout: base
             %nav.col-md-12
               %ul#menu.sf-menu
                 %li 
-                  %a{:href => "../index.html"} Commons
+                  %a{:href => "../index.html#join"} Join Commons
+                %li
+                  %a{:href => "../index.html#colleagues"} Participants
                 %li 
                   %a{:href => "../index.html#interests"} Interests
                 %li
@@ -26,6 +27,9 @@ layout: base
             .container
               .row
                 .col-md-12
+                  .logo.wow.fadeIn.delay
+                    %a{:href => "index.html", :title => "Back to Home"}
+                      %img.logo_img{:alt => "Logo", :src => "../img/openshift_logo_horizontal_wht.svg", :style => "margin-bottom: 30px"}/
                   %h1.animated.fadeInDown.delay
                     OpenShift v3
                   %p.animated.fadeInUp.delay
