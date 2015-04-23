@@ -48,6 +48,7 @@ Rgen Solutions,http://rgensolutions.com/openshift/,commons-logos/rgen.png
 Rhodix,http://www.rhodix.com/,commons-logos/rhodix.png
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
+ShadowSoft,http://www.shadow-soft.com/,commons-logos/shadowsoft.png
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
 Smals,https://www.smals.be/,commons-logos/Smals.png
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
