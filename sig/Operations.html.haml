@@ -118,23 +118,24 @@ title: OpenShift Operations SIG
                 %p
                   #{x.at_css(".entry-summary").text.split[0..20].join(" ").concat("...")}
                   %a{:href => "#{x.at_css(".entry-title a")[:href]}"} Read More
-          .col-xs-12.col-sm-6.col-md-6.col-lg-6
-            .service-03
-              .head-service-03
-                %i.fa.fa-code-fork
-                %h3
-                  %a{:href => "https://github.com/openshift/openshift_zabbix",:title => "OpenShift Zabbix Monitoring Scripts"} OpenShift Zabbix Monitoring Scripts
-              .caption-service-03
-                %p
-                  This repository contains monitoring scripts and configuration files to enable monitoring an OpenShift installation with Zabbix...
-                  %a{:href => "https://github.com/openshift/openshift_zabbix"} Read More
-          .col-xs-12.col-sm-6.col-md-6.col-lg-6
-            .service-03
-              .head-service-03
-                %i.fa.fa-code-fork
-                %h3
-                  %a{:href => "https://github.com/openshift/puppet-openshift_origin",:title => "OpenShift Puppet Modules"} OpenShift Puppet Modules
-              .caption-service-03
-                %p
-                  Puppet module to create OpenShift Brokers and Nodes. Can be used to create a full OpenShift Origin deployment...
-                  %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Read More
+        / End operations.each
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6
+          .service-03
+            .head-service-03
+              %i.fa.fa-code-fork
+              %h3
+                %a{:href => "https://github.com/openshift/openshift_zabbix",:title => "OpenShift Zabbix Monitoring Scripts"} OpenShift Zabbix Monitoring Scripts
+            .caption-service-03
+              %p
+                This repository contains monitoring scripts and configuration files to enable monitoring an OpenShift installation with Zabbix...
+                %a{:href => "https://github.com/openshift/openshift_zabbix"} Read More
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6
+          .service-03
+            .head-service-03
+              %i.fa.fa-code-fork
+              %h3
+                %a{:href => "https://github.com/openshift/puppet-openshift_origin",:title => "OpenShift Puppet Modules"} OpenShift Puppet Modules
+            .caption-service-03
+              %p
+                Puppet module to create OpenShift Brokers and Nodes. Can be used to create a full OpenShift Origin deployment...
+                %a{:href => "https://github.com/openshift/puppet-openshift_origin"} Read More
