@@ -27,6 +27,7 @@ Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 Fedora,http://getfedora.org/,commons-logos/fedora.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
 Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
+Greenbird,http://www.greenbird.com/,commons-logos/greenbird.png
 Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
@@ -37,11 +38,15 @@ Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
 NetEngine,http://netengine.com.au/,commons-logos/netengine.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
+Nginx,http://nginx.com/,commons-logos/nginx.png
+Node4,http://www.node4.co.uk/,commons-logos/node4.png
+Nuage Networks,http://www.nuagenetworks.net/,commons-logos/nuage.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
 OS Squad,http://www.ossquad.com,commons-logos/ossquad.png
 OwnCloud,https://owncloud.com/,commons-logos/owncloud.png
 Pantheon,https://pantheon.io/,commons-logos/pantheon.png
+Peapod,http://www.peapod.com/,commons-logos/peapod.png
 Phase2,http://www.phase2technology.com,commons-logos/phase2.png
 produban,http://www.produban.com/en/index.html,commons-logos/produban.png
 Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
@@ -59,6 +64,8 @@ Synnefo,http://synnefo.forsythe.com/,commons-logos/synnefo.png
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 TicketFly,http://www.ticketfly.com,commons-logos/ticketfly.png
+TransCirrus,http://www.transcirrus.com/,commons-logos/transcirrus.png
+Uakami,http://www.uakami.com/,commons-logos/uakami.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
 Web Semantics,http://websemantics.ca,commons-logos/websemantics.png
 WiPro,http://wipro.com/,commons-logos/wipro.png
