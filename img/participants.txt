@@ -16,6 +16,7 @@ Chuanhow,http://www.chuanhow.com,commons-logos/chuanhow.png
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
+Colosseum,http://www.colosseum.com,commons-logos/colosseum.png
 Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
 CSC,http://www.csc.com/,commons-logos/csc.png
 Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
@@ -60,6 +61,7 @@ Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 ShadowSoft,http://www.shadow-soft.com/,commons-logos/shadowsoft.png
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
 Smals,https://www.smals.be/,commons-logos/Smals.png
+StartApp.BG,http://www.startapp.bg/,commons-logos/startapp.png
 Synnefo,http://synnefo.forsythe.com/,commons-logos/synnefo.png
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
@@ -67,6 +69,7 @@ TicketFly,http://www.ticketfly.com,commons-logos/ticketfly.png
 TransCirrus,http://www.transcirrus.com/,commons-logos/transcirrus.png
 Uakami,http://www.uakami.com/,commons-logos/uakami.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
+Webratio,http://www.webratio.com/,commons-logos/webratio.png
 Web Semantics,http://websemantics.ca,commons-logos/websemantics.png
 WiPro,http://wipro.com/,commons-logos/wipro.png
 Worldline,http://worldline.com/en-us/home.html,commons-logos/worldline.png
