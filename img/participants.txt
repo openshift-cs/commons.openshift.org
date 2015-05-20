@@ -10,6 +10,7 @@ Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
 Autonomic Resources,http://autonomicresources.com,commons-logos/arcwrx.png
 Availity,http://www.availity.com/,commons-logos/availity.png
 Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
+Blazemeter,http://blazemeter.com/,commons-logos/blazemeter.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
 CentOS,https://www.centos.org/,commons-logos/centos.png
 Chuanhow,http://www.chuanhow.com,commons-logos/chuanhow.png
@@ -33,6 +34,7 @@ Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
+Kismatic,http://kismatic.io/,commons-logos/kismatic.png
 MariaDB,https://mariadb.com/,commons-logos/mariadb.png
 Mesospere,https://mesosphere.com/,commons-logos/mesosphere.png
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
