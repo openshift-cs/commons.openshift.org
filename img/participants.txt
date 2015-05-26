@@ -22,6 +22,7 @@ Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
 CSC,http://www.csc.com/,commons-logos/csc.png
 Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
 Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
+Department for Work & Pensions,https://www.gov.uk/government/organisations/department-for-work-pensions,commons-logos/dwp.png
 Docker,https://www.docker.com/,commons-logos/docker_logo.svg
 EBRC,http://www.ebrc.com/,commons-logos/ebrc.png
 Epidata Consulting,http://www.epidataconsulting.com/,commons-logos/epidata.png
