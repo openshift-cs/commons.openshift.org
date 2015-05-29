@@ -18,12 +18,14 @@ Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
 Colosseum,http://www.colosseum.com,commons-logos/colosseum.png
+Couchbase,http://www.couchbase.com/,commons-logos/couchbase.png
 Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
 CSC,http://www.csc.com/,commons-logos/csc.png
 Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
 Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
 Department for Work & Pensions,https://www.gov.uk/government/organisations/department-for-work-pensions,commons-logos/dwp.png
 Docker,https://www.docker.com/,commons-logos/docker_logo.svg
+Dynatrace,http://www.dynatrace.com/en/index.html,commons-logos/dynatrace.png
 EBRC,http://www.ebrc.com/,commons-logos/ebrc.png
 Epidata Consulting,http://www.epidataconsulting.com/,commons-logos/epidata.png
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
@@ -36,11 +38,13 @@ Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
 Kismatic,http://kismatic.io/,commons-logos/kismatic.png
+Leighton,http://www.leighton.com/,commons-logos/leighton.png
 MariaDB,https://mariadb.com/,commons-logos/mariadb.png
 Mesospere,https://mesosphere.com/,commons-logos/mesosphere.png
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
 NetEngine,http://netengine.com.au/,commons-logos/netengine.png
+Neo4j,http://neo4j.com/,commons-logos/neo4j.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 Nginx,http://nginx.com/,commons-logos/nginx.png
 Node4,http://www.node4.co.uk/,commons-logos/node4.png
