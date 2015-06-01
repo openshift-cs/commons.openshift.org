@@ -1,6 +1,7 @@
 6fusion,http://www.6fusion.com/,commons-logos/6fusion.png
 Accenture,http://www.accenture.com/,commons-logos/Accenture.svg
 AGIX,http://www.agix.com.au/,commons-logos/agix.png
+Altran,http://www.altran.fr/,commons-logos/altran.png
 Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/amadeus.png
 Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
 Appdirect,http://www.appdirect.com/,commons-logos/appdirect.png
@@ -8,7 +9,7 @@ AppDynamics,http://www.appdynamics.com/,commons-logos/AppDynamics.png
 Architech,http://www.architech.ca/,commons-logos/architech.png
 Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
 Autonomic Resources,http://autonomicresources.com,commons-logos/arcwrx.png
-Availity,http://www.availity.com/,commons-logos/availity.png
+Availity Healthcare Clearinghouse&#44; Revenue Cycle Solutions.,http://www.availity.com/,commons-logos/availity.png
 Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
 Blazemeter,http://blazemeter.com/,commons-logos/blazemeter.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
@@ -28,6 +29,7 @@ Docker,https://www.docker.com/,commons-logos/docker_logo.svg
 Dynatrace,http://www.dynatrace.com/en/index.html,commons-logos/dynatrace.png
 EBRC,http://www.ebrc.com/,commons-logos/ebrc.png
 Epidata Consulting,http://www.epidataconsulting.com/,commons-logos/epidata.png
+Fairfield University,http://www.fairfield.edu/,commons-logos/fairfielduniversity.png
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 Fedora,http://getfedora.org/,commons-logos/fedora.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
@@ -75,6 +77,7 @@ Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 TicketFly,http://www.ticketfly.com,commons-logos/ticketfly.png
 TransCirrus,http://www.transcirrus.com/,commons-logos/transcirrus.png
 Uakami,http://www.uakami.com/,commons-logos/uakami.png
+Villamedia,http://www.villamedia.ca/,commons-logos/villamedia.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
 Webratio,http://www.webratio.com/,commons-logos/webratio.png
 Web Semantics,http://websemantics.ca,commons-logos/websemantics.png
