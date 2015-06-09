@@ -15,9 +15,11 @@ Blazemeter,http://blazemeter.com/,commons-logos/blazemeter.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
 CentOS,https://www.centos.org/,commons-logos/centos.png
 Chuanhow,http://www.chuanhow.com,commons-logos/chuanhow.png
+Chnoumis,http://chnoumis.com/,commons-logos/chnoumis.png
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
+CloudsSky,https://cloudssky.com/en/index.html,commons-logos/cloudssky.png
 Colosseum,http://www.colosseum.com,commons-logos/colosseum.png
 Couchbase,http://www.couchbase.com/,commons-logos/couchbase.png
 Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
@@ -33,10 +35,12 @@ Fairfield University,http://www.fairfield.edu/,commons-logos/fairfielduniversity
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 Fedora,http://getfedora.org/,commons-logos/fedora.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
+Forsythe,http://www.forsythe.com/,commons-logos/forsythe.png
 Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
 Greenbird,http://www.greenbird.com/,commons-logos/greenbird.png
 Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
+Intelligent Payments,http://intelligentpayments.co.uk/,commons-logos/intelligentpayments.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
 Kismatic,http://kismatic.io/,commons-logos/kismatic.png
@@ -74,9 +78,11 @@ StartApp.BG,http://www.startapp.bg/,commons-logos/startapp.png
 Synnefo,http://synnefo.forsythe.com/,commons-logos/synnefo.png
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
+ThetisApps,http://www.thetis-apps.dk/,commons-logos/thetisapps.png
 TicketFly,http://www.ticketfly.com,commons-logos/ticketfly.png
 TransCirrus,http://www.transcirrus.com/,commons-logos/transcirrus.png
 Uakami,http://www.uakami.com/,commons-logos/uakami.png
+vArmour,https://www.varmour.com/,commons-logos/varmour.png
 Villamedia,http://www.villamedia.ca/,commons-logos/villamedia.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
 Webratio,http://www.webratio.com/,commons-logos/webratio.png
