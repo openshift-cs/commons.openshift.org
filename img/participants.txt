@@ -7,6 +7,7 @@ Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
 Appdirect,http://www.appdirect.com/,commons-logos/appdirect.png
 AppDynamics,http://www.appdynamics.com/,commons-logos/AppDynamics.png
 Architech,http://www.architech.ca/,commons-logos/architech.png
+Atos,http://atos.net/en-us/home.html,commons-logos/atos.png
 Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
 Autonomic Resources,http://autonomicresources.com,commons-logos/arcwrx.png
 Availity Healthcare Clearinghouse&#44; Revenue Cycle Solutions.,http://www.availity.com/,commons-logos/availity.png
@@ -28,6 +29,7 @@ Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
 Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
 Department for Work & Pensions,https://www.gov.uk/government/organisations/department-for-work-pensions,commons-logos/dwp.png
 Docker,https://www.docker.com/,commons-logos/docker_logo.svg
+Dreamfactory,http://www.dreamfactory.com/,commons-logos/dreamfactory.png
 Dynatrace,http://www.dynatrace.com/en/index.html,commons-logos/dynatrace.png
 EBRC,http://www.ebrc.com/,commons-logos/ebrc.png
 Epidata Consulting,http://www.epidataconsulting.com/,commons-logos/epidata.png
@@ -40,6 +42,7 @@ Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
 Greenbird,http://www.greenbird.com/,commons-logos/greenbird.png
 Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
+Ikano,http://ikano.se/,commons-logos/ikano.png
 Intelligent Payments,http://intelligentpayments.co.uk/,commons-logos/intelligentpayments.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
@@ -55,20 +58,26 @@ NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 Nginx,http://nginx.com/,commons-logos/nginx.png
 Node4,http://www.node4.co.uk/,commons-logos/node4.png
 Nuage Networks,http://www.nuagenetworks.net/,commons-logos/nuage.png
+Octo,http://www.octo.com/en,commons-logos/octo.png
+OGIS-RI Co.&#44;Ltd.,http://www.ogis-ri.co.jp/corporate_e/n-00.html,commons-logos/ogis.png
 opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
 OS Squad,http://www.ossquad.com,commons-logos/ossquad.png
 OwnCloud,https://owncloud.com/,commons-logos/owncloud.png
 Pantheon,https://pantheon.io/,commons-logos/pantheon.png
+Peak10,http://www.peak10.com/,commons-logos/peak10.png
 Peapod,http://www.peapod.com/,commons-logos/peapod.png
+Pega Systems,http://www.pega.com/,commons-logos/pega.png
 Phase2,http://www.phase2technology.com,commons-logos/phase2.png
 produban,http://www.produban.com/en/index.html,commons-logos/produban.png
 Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
 puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.svg
 Puzzle ITC,http://www.puzzle.ch/de/home,commons-logos/puzzleitc.png
+Qualica,http://www.qualica.co.jp/english/,commons-logos/qualica.png
 RedisLabs,https://redislabs.com/,commons-logos/redislabs.png
 Rgen Solutions,http://rgensolutions.com/openshift/,commons-logos/rgen.png
 Rhodix,http://www.rhodix.com/,commons-logos/rhodix.png
+RocketBolt,http://rocketbolt.com/,commons-logos/rocketbolt.png
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 ShadowSoft,http://www.shadow-soft.com/,commons-logos/shadowsoft.png
@@ -80,6 +89,7 @@ T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
 ThetisApps,http://www.thetis-apps.dk/,commons-logos/thetisapps.png
 TicketFly,http://www.ticketfly.com,commons-logos/ticketfly.png
+ToMM,http://tomm-apps.de/,commons-logos/tomm.png
 TransCirrus,http://www.transcirrus.com/,commons-logos/transcirrus.png
 Uakami,http://www.uakami.com/,commons-logos/uakami.png
 vArmour,https://www.varmour.com/,commons-logos/varmour.png
