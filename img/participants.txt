@@ -6,6 +6,7 @@ Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-P
 Ansible,http://www.ansible.com/home/,commons-logos/ansible_logo.png
 Appdirect,http://www.appdirect.com/,commons-logos/appdirect.png
 AppDynamics,http://www.appdynamics.com/,commons-logos/AppDynamics.png
+AppFirst,http://www.appfirst.com/,commons-logos/appfirst.png
 Architech,http://www.architech.ca/,commons-logos/architech.png
 Atos,http://atos.net/en-us/home.html,commons-logos/atos.png
 Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
@@ -22,6 +23,7 @@ Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
 CloudsSky,https://cloudssky.com/en/index.html,commons-logos/cloudssky.png
 Colosseum,http://www.colosseum.com,commons-logos/colosseum.png
+Container Solutions,http://container-solutions.com/,commons-logos/containersolutions.png
 Couchbase,http://www.couchbase.com/,commons-logos/couchbase.png
 Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
 CSC,http://www.csc.com/,commons-logos/csc.png
@@ -57,6 +59,7 @@ Neo4j,http://neo4j.com/,commons-logos/neo4j.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 Nginx,http://nginx.com/,commons-logos/nginx.png
 Node4,http://www.node4.co.uk/,commons-logos/node4.png
+NSSOL,http://www.nssol.nssmc.com/en/corporate/index.html,commons-logos/nssol.png
 Nuage Networks,http://www.nuagenetworks.net/,commons-logos/nuage.png
 Octo,http://www.octo.com/en,commons-logos/octo.png
 OGIS-RI Co.&#44;Ltd.,http://www.ogis-ri.co.jp/corporate_e/n-00.html,commons-logos/ogis.png
