@@ -1,5 +1,6 @@
 6fusion,http://www.6fusion.com/,commons-logos/6fusion.png
 Accenture,http://www.accenture.com/,commons-logos/Accenture.svg
+Agile Clouds,http://www.agileclouds.com/,commons-logos/agileclouds.png
 AGIX,http://www.agix.com.au/,commons-logos/agix.png
 Altran,http://www.altran.fr/,commons-logos/altran.png
 Amadeus,http://www.amadeus.com/web/amadeus/en_US-US/Amadeus-Home/1259071353509-Page-AMAD_HomePpal,commons-logos/amadeus.png
@@ -16,6 +17,7 @@ Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
 Blazemeter,http://blazemeter.com/,commons-logos/blazemeter.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
 CentOS,https://www.centos.org/,commons-logos/centos.png
+Charter Communications,http://www.charter.com/,commons-logos/charter.png
 Chuanhow,http://www.chuanhow.com,commons-logos/chuanhow.png
 Chnoumis,http://chnoumis.com/,commons-logos/chnoumis.png
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
@@ -28,6 +30,7 @@ Couchbase,http://www.couchbase.com/,commons-logos/couchbase.png
 Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
 CSC,http://www.csc.com/,commons-logos/csc.png
 Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
+Datawise.io,http://www.datawise.io/,commons-logos/datawise.png
 Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
 Department for Work & Pensions,https://www.gov.uk/government/organisations/department-for-work-pensions,commons-logos/dwp.png
 Docker,https://www.docker.com/,commons-logos/docker_logo.svg
@@ -36,6 +39,7 @@ Dynatrace,http://www.dynatrace.com/en/index.html,commons-logos/dynatrace.png
 EBRC,http://www.ebrc.com/,commons-logos/ebrc.png
 Epidata Consulting,http://www.epidataconsulting.com/,commons-logos/epidata.png
 Fairfield University,http://www.fairfield.edu/,commons-logos/fairfielduniversity.png
+Fedr8,http://fedr8.com/,commons-logos/fedr8.png
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 Fedora,http://getfedora.org/,commons-logos/fedora.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
@@ -44,6 +48,7 @@ Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
 Greenbird,http://www.greenbird.com/,commons-logos/greenbird.png
 Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
 Hortonworks,http://hortonworks.com/,commons-logos/hortonworks.png
+IISL,http://www.iisl.com/,commons-logos/iisl.png
 Ikano,http://ikano.se/,commons-logos/ikano.png
 Intelligent Payments,http://intelligentpayments.co.uk/,commons-logos/intelligentpayments.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
