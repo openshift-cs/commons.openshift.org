@@ -24,12 +24,15 @@ Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
 CloudsSky,https://cloudssky.com/en/index.html,commons-logos/cloudssky.png
+Cloudyle,http://cloudyle.com/,commons-logos/cloudyle.png
+Cognizant,http://www.cognizant.com/,commons-logos/cognizant.png
 Colosseum,http://www.colosseum.com,commons-logos/colosseum.png
 Container Solutions,http://container-solutions.com/,commons-logos/containersolutions.png
 Couchbase,http://www.couchbase.com/,commons-logos/couchbase.png
 Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
 CSC,http://www.csc.com/,commons-logos/csc.png
 Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
+DataDog,http://www.datadoghq.com/,commons-logos/datadog.png
 Datawise.io,http://www.datawise.io/,commons-logos/datawise.png
 Dell,http://www.dell.com/,commons-logos/Dell_Logo.svg
 Department for Work & Pensions,https://www.gov.uk/government/organisations/department-for-work-pensions,commons-logos/dwp.png
@@ -56,6 +59,7 @@ Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
 Kismatic,http://kismatic.io/,commons-logos/kismatic.png
 Leighton,http://www.leighton.com/,commons-logos/leighton.png
 MariaDB,https://mariadb.com/,commons-logos/mariadb.png
+Medisite.de,http://medisite.de/index.php?id=2&L=1,commons-logos/medisite.png
 Mesospere,https://mesosphere.com/,commons-logos/mesosphere.png
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
@@ -82,11 +86,13 @@ Project Atomic,http://www.projectatomic.io/,commons-logos/projectatomic.png
 puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.svg
 Puzzle ITC,http://www.puzzle.ch/de/home,commons-logos/puzzleitc.png
 Qualica,http://www.qualica.co.jp/english/,commons-logos/qualica.png
+redapt,http://www.redapt.com/,commons-logos/redapt.png
 RedisLabs,https://redislabs.com/,commons-logos/redislabs.png
 Rgen Solutions,http://rgensolutions.com/openshift/,commons-logos/rgen.png
 Rhodix,http://www.rhodix.com/,commons-logos/rhodix.png
 RocketBolt,http://rocketbolt.com/,commons-logos/rocketbolt.png
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
+Sapho,http://www.sapho.com/,commons-logos/sapho.png
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 ShadowSoft,http://www.shadow-soft.com/,commons-logos/shadowsoft.png
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
