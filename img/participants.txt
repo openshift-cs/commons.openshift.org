@@ -13,6 +13,7 @@ Atos,http://atos.net/en-us/home.html,commons-logos/atos.png
 Ausnimbus,https://www.ausnimbus.com.au/,commons-logos/ausnimbus.png
 Autonomic Resources,http://autonomicresources.com,commons-logos/arcwrx.png
 Availity Healthcare Clearinghouse&#44; Revenue Cycle Solutions.,http://www.availity.com/,commons-logos/availity.png
+Biglobe,http://www.biglobe.ne.jp/,commons-logos/biglobe.png
 Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
 Blazemeter,http://blazemeter.com/,commons-logos/blazemeter.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
@@ -25,8 +26,10 @@ Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/cloudera.png
 CloudsSky,https://cloudssky.com/en/index.html,commons-logos/cloudssky.png
 Cloudyle,http://cloudyle.com/,commons-logos/cloudyle.png
+Codenvy,https://codenvy.com/,commons-logos/codenvy.png
 Cognizant,http://www.cognizant.com/,commons-logos/cognizant.png
 Colosseum,http://www.colosseum.com,commons-logos/colosseum.png
+ConSol,https://www.consol.de/,commons-logos/consol.png
 Container Solutions,http://container-solutions.com/,commons-logos/containersolutions.png
 Couchbase,http://www.couchbase.com/,commons-logos/couchbase.png
 Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
@@ -47,6 +50,7 @@ Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
 Fedora,http://getfedora.org/,commons-logos/fedora.png
 FICO,http://www.fico.com/en/,commons-logos/fico.svg
 Forsythe,http://www.forsythe.com/,commons-logos/forsythe.png
+Fujitsu,http://software.fujitsu.com/jp/linux/concept/oss/,commons-logos/fujitsu.png
 Getupcloud,https://getupcloud.com/index_en.html,commons-logos/getupcloud.png
 Greenbird,http://www.greenbird.com/,commons-logos/greenbird.png
 Grid Dynamics,http://www.griddynamics.com/,commons-logos/Grid_Dynamics.png
@@ -68,6 +72,7 @@ Neo4j,http://neo4j.com/,commons-logos/neo4j.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 Nginx,http://nginx.com/,commons-logos/nginx.png
 Node4,http://www.node4.co.uk/,commons-logos/node4.png
+NovaOrdis,http://novaordis.com/,commons-logos/novaordis.png
 NSSOL,http://www.nssol.nssmc.com/en/corporate/index.html,commons-logos/nssol.png
 Nuage Networks,http://www.nuagenetworks.net/,commons-logos/nuage.png
 Octo,http://www.octo.com/en,commons-logos/octo.png
@@ -93,6 +98,7 @@ Rhodix,http://www.rhodix.com/,commons-logos/rhodix.png
 RocketBolt,http://rocketbolt.com/,commons-logos/rocketbolt.png
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sapho,http://www.sapho.com/,commons-logos/sapho.png
+Seagate,http://www.seagate.com/,commons-logos/seagate.png
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 ShadowSoft,http://www.shadow-soft.com/,commons-logos/shadowsoft.png
 Shippable,http://www.shippable.com/,commons-logos/shippable_logo.png
@@ -106,6 +112,8 @@ TicketFly,http://www.ticketfly.com,commons-logos/ticketfly.png
 ToMM,http://tomm-apps.de/,commons-logos/tomm.png
 TransCirrus,http://www.transcirrus.com/,commons-logos/transcirrus.png
 Uakami,http://www.uakami.com/,commons-logos/uakami.png
+Udig,http://www.udig.com/,commons-logos/udig.png
+UNC Chapel Hill,http://www.unc.edu/,commons-logos/uncchapelhill.png
 vArmour,https://www.varmour.com/,commons-logos/varmour.png
 Villamedia,http://www.villamedia.ca/,commons-logos/villamedia.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
