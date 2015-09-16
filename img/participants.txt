@@ -36,6 +36,7 @@ ConSol,https://www.consol.de/,commons-logos/consol.png
 Container Solutions,http://container-solutions.com/,commons-logos/containersolutions.png
 Couchbase,http://www.couchbase.com/,commons-logos/couchbase.png
 Crunchy,http://crunchydatasolutions.com/,commons-logos/Crunchy_Logo.png
+Crypteron,https://www.crypteron.com/,commons-logos/crypteron.png
 CSC,http://www.csc.com/,commons-logos/csc.png
 Cybercom Group,http://www.cybercom.com/,commons-logos/CybercomGroup.png
 DataDog,http://www.datadoghq.com/,commons-logos/datadog.png
@@ -64,6 +65,7 @@ IISL,http://www.iisl.com/,commons-logos/iisl.png
 Ikano,http://ikano.se/,commons-logos/ikano.png
 Intelligent Payments,http://intelligentpayments.co.uk/,commons-logos/intelligentpayments.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
+Kaazing,http://kaazing.com/,commons-logos/kaazing.png
 Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
 Kismatic,http://kismatic.io/,commons-logos/kismatic.png
 Leighton,http://www.leighton.com/,commons-logos/leighton.png
