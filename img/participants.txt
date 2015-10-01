@@ -29,6 +29,7 @@ Cloudera,http://www.cloudera.com/content/cloudera/en/home.html,commons-logos/clo
 CloudsSky,https://cloudssky.com/en/index.html,commons-logos/cloudssky.png
 CloudSoft,http://www.cloudsoftcorp.com/,commons-logos/cloudsoft.png
 Cloudyle,http://cloudyle.com/,commons-logos/cloudyle.png
+CNPaaS,http://www.cnpaas.io/,commons-logos/cnpaas.png
 Codenvy,https://codenvy.com/,commons-logos/codenvy.png
 Cognizant,http://www.cognizant.com/,commons-logos/cognizant.png
 Colosseum,http://www.colosseum.com,commons-logos/colosseum.png
@@ -75,6 +76,7 @@ Mesospere,https://mesosphere.com/,commons-logos/mesosphere.png
 Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
 Mudano,http://mudano.com/,commons-logos/mudano.png
+NASA,https://www.nasa.gov/,commons-logos/nasa.png
 NetEngine,http://netengine.com.au/,commons-logos/netengine.png
 Neo4j,http://neo4j.com/,commons-logos/neo4j.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
@@ -128,6 +130,7 @@ Udig,http://www.udig.com/,commons-logos/udig.png
 UNC Chapel Hill,http://www.unc.edu/,commons-logos/uncchapelhill.png
 UOL,http://www.uol.com.br/,commons-logos/uol.png
 vArmour,https://www.varmour.com/,commons-logos/varmour.png
+VG.no,http://www.vg.no/,commons-logos/vgno.png
 Villamedia,http://www.villamedia.ca/,commons-logos/villamedia.png
 Vizuri,http://vizuri.com/,commons-logos/vizuri.png
 Webratio,http://www.webratio.com/,commons-logos/webratio.png
@@ -138,4 +141,3 @@ Yoomani,http://yoomani.me/,commons-logos/yoomani.png
 Zabbix,http://www.zabbix.com,commons-logos/zabbix.png
 Zend,http://www.zend.com/,commons-logos/zend.png
 Zero Turnaround,http://zeroturnaround.com/,commons-logos/zeroturnaround.png
-
