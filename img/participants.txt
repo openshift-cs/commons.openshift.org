@@ -49,6 +49,7 @@ Dreamfactory,http://www.dreamfactory.com/,commons-logos/dreamfactory.png
 Dynatrace,http://www.dynatrace.com/en/index.html,commons-logos/dynatrace.png
 EBRC,http://www.ebrc.com/,commons-logos/ebrc.png
 Epidata Consulting,http://www.epidataconsulting.com/,commons-logos/epidata.png
+Exversion,https://exversion.com/,commons-logos/exversion.png
 Fairfield University,http://www.fairfield.edu/,commons-logos/fairfielduniversity.png
 Fedr8,http://fedr8.com/,commons-logos/fedr8.png
 Feed Henry,http://www.feedhenry.com/,commons-logos/FeedHenry.png
