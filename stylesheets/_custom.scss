@@ -403,6 +403,48 @@ ul.participants {
     }
   }
 }
+a.list-link {
+  font-size: 22px;
+  display: block;
+  text-align: center;
+}
+
+// Participant list
+#participant-search {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 10px 0;
+}
+
+ul.participants.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    font-size: 24px;
+    line-height: 50px;
+    padding: 10px;
+    margin: 0;
+    border: solid #eee;
+    border-width: 1px 0;
+    text-align: left;
+
+    .logo {
+      display: table-cell;
+      text-align: right;
+      vertical-align: middle;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 60px;
+    }
+  }
+}
 
 // Quotes
 .item-team {
@@ -561,8 +603,6 @@ ul.participants {
 
 // Fix Timely modals
 //------------------------------------------------------------------------
-     
-
 #ai1ec-event-modal .clearfix {
   width: 100%;
 }

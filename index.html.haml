@@ -67,15 +67,19 @@ title: OpenShift Commons
             Commons
             %span Participants
         .container
+          .search
+            %input#participant-search{:placeholder => 'Search participants'}
           / Partner list
           %ul.participants
             - File.open("img/participants.txt").readlines.each do |line|
               - unless line.strip!.empty?
                 - img = line.split(',').map(&:chomp)
-                %li
+                %li(data-participantName="#{img[0].downcase}")
                   %a{:href => "#{img[1]}", :title => " #{img[0]}"}
                     %img{:src => "img/#{img[2]}", :alt => " #{img[0]}"}
+
           / End Partner list
+          %a.list-link{:href => "participants.html"} View Participant List
       / End Info Resalt
     %section.content_info
       / Info Resalt

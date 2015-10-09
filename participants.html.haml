@@ -1,0 +1,78 @@
+---
+layout: base
+title: OpenShift Commons Participants
+---
+%body.commons
+  #layout.layout-wide
+    / Header Section
+    %header.index_static
+      .nav_logo.animated.fadeIn
+        .container
+          .row
+            %nav.col-md-12
+              %ul#menu.sf-menu
+                %li 
+                  %a{:href => "index.html#join"} Join Commons
+                %li
+                  %a{:href => "index.html#colleagues"} Participants
+                %li 
+                  %a{:href => "index.html#interests"} Interests
+                %li
+                  %a{:href => "briefings.html"} Events & Briefings
+                %li
+                  %a{:href => "quotes.html"} Supporting Quotes
+      %section.content_info
+        .bg_parallax.image_06_parallax
+          %section.opacy_bg_05.paddings
+            / Info Head Static
+            .container
+              .row
+                .col-md-12
+                  .logo.wow.fadeIn.delay
+                    %a{:href => "index.html", :title => "Back to Home"}
+                      %img.logo_img{:alt => "Logo", :src => "img/openshift_logo_horizontal_wht.svg", :style => "margin-bottom: 30px"}/
+                  %h1.animated.fadeInDown.delay
+                    OpenShift Commons Participants
+                  %p.animated.fadeInUp.delay
+                    A community of collaborators working together.
+
+    / End Header Section
+    / crumbs
+    .crumbs.border_bottom
+      .container
+        .row
+          .col-md-12
+            %ul
+              %li
+                %a{:href => "index.html"} Home
+              %li /
+              %li
+                %a{:href => "participant-list.html"} OpenShift Commons Participants
+    / End crumbs
+    / Info title
+    .row.info_title.wow.animated.fadeInUp
+      .vertical_line
+        .circle_bottom
+      .info_vertical
+        %h1
+          OpenShift Commons
+          %span Participants
+    / End Info title
+    / End content info - Grey Section - works single
+    %section.content_info
+      .container
+        .row
+          .col-md-12
+            .search
+              %input#participant-search{:placeholder => 'Search participants'}
+            %ul.participants.list
+              - File.open("img/participants.txt").readlines.each do |line|
+                - unless line.strip!.empty?
+                  - partner = line.split(',').map(&:chomp)
+                  %li(data-participantName="#{partner[0].downcase}")
+                    .col-md-2.logo
+                      %img{:src => "img/#{partner[2]}", :alt => ""}
+                    .col-md-10.participant-name
+                      %a{:href => "#{partner[1]}"} #{partner[0]}
+                    
+

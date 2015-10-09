@@ -355,7 +355,7 @@ $(document).ready(function($) {
 
 	//=================================== Portfolio Filters  ==============================//
 
-		$(window).load(function(){
+	  $(window).load(function(){
 	     var $container = $('.portfolioContainer');
 	     $container.isotope({
 	      filter: '*',
@@ -365,7 +365,7 @@ $(document).ready(function($) {
 	              queue: false
 	            }
 	     });
-		 
+
 	    $('.portfolioFilter a').click(function(){
 	      $('.portfolioFilter .current').removeClass('current');
 	      $(this).addClass('current');
@@ -379,11 +379,33 @@ $(document).ready(function($) {
 	             }
 	        });
 	       return false;
-	      }); 
+	      });
 	});
-
 	//================================ Animations Efect ===================================//
-	
 	new WOW().init();
 
+	//================================ Participant Search ================================//
+	
+	 var $participant_list = $('li', 'ul.participants');
+	 if ($participant_list.length > 0) {
+	    $('#participant-search').keyup(function(e) {
+	        var search_string = e.target.value.toLowerCase();
+	        if (search_string) {
+	 	 $participant_list.each(function(i, el) {
+	 	    var $el = $(el);
+	 	    if ($el.data('participantname').indexOf(search_string) < 0) {
+	 		$el.hide();
+		    }
+		    else {
+			$el.show();
+		    }
+		 });
+	       }
+	       else {
+	 	 $participant_list.each(function(i, el) {
+	 	    $(el).show();
+	 	 });
+	       }
+	    });
+       }
 });
