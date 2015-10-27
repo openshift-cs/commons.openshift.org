@@ -1,5 +1,7 @@
 6fusion,http://www.6fusion.com/,commons-logos/6fusion.png
+99 Cloud,http://99cloud.net/,commons-logos/99cloud.png
 Accenture,http://www.accenture.com/,commons-logos/Accenture.svg
+Adfinis,http://adfinis-sygroup.ch/,commons-logos/adfinis.png
 Agile Clouds,http://www.agileclouds.com/,commons-logos/agileclouds.png
 AGIX,http://www.agix.com.au/,commons-logos/agix.png
 Altran,http://www.altran.fr/,commons-logos/altran.png
@@ -22,6 +24,7 @@ CentOS,https://www.centos.org/,commons-logos/centos.png
 Charter Communications,http://www.charter.com/,commons-logos/charter.png
 Chuanhow,http://www.chuanhow.com,commons-logos/chuanhow.png
 Chnoumis,http://chnoumis.com/,commons-logos/chnoumis.png
+Ciber,http://www.ciber.com/us/,commons-logos/ciber.png
 Cinglevue,http://cinglevue.com/,commons-logos/cinglevue.png
 Cisco,http://www.cisco.com,commons-logos/Cisco.svg
 CloudBees,https://www.cloudbees.com/,commons-logos/cloudbees.png
@@ -68,6 +71,7 @@ Ikano,http://ikano.se/,commons-logos/ikano.png
 Intelligent Payments,http://intelligentpayments.co.uk/,commons-logos/intelligentpayments.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
 Kaazing,http://kaazing.com/,commons-logos/kaazing.png
+Kainos,https://www.kainos.com/,commons-logos/kainos.png
 Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
 Kismatic,http://kismatic.io/,commons-logos/kismatic.png
 Leighton,http://www.leighton.com/,commons-logos/leighton.png
@@ -104,6 +108,7 @@ puppetlabs,http://puppetlabs.com/,commons-logos/puppetlabs.svg
 Puzzle ITC,http://www.puzzle.ch/de/home,commons-logos/puzzleitc.png
 Qualica,http://www.qualica.co.jp/english/,commons-logos/qualica.png
 Raiffeisen Informatik,http://www.raiffeiseninformatik.at/,commons-logos/raiffeisen.png
+Rasia,http://www.rasia.info/,commons-logos/rasia.png
 redapt,http://www.redapt.com/,commons-logos/redapt.png
 RedisLabs,https://redislabs.com/,commons-logos/redislabs.png
 Rgen Solutions,http://rgensolutions.com/openshift/,commons-logos/rgen.png
@@ -111,6 +116,7 @@ Rhodix,http://www.rhodix.com/,commons-logos/rhodix.png
 RocketBolt,http://rocketbolt.com/,commons-logos/rocketbolt.png
 SAIC,http://www.saic.com/,commons-logos/saic_logo.svg
 Sapho,http://www.sapho.com/,commons-logos/sapho.png
+SBB,http://www.sbb.ch/home.html,commons-logos/sbb.png
 Seagate,http://www.seagate.com/,commons-logos/seagate.png
 Sendgrid,http://sendgrid.com,commons-logos/sendgrid_logo.png
 ShadowSoft,http://www.shadow-soft.com/,commons-logos/shadowsoft.png
