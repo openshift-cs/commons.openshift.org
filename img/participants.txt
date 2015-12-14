@@ -20,6 +20,7 @@ Biglobe,http://www.biglobe.ne.jp/,commons-logos/biglobe.png
 Black Mesh,http://www.blackmesh.com/,commons-logos/blackmesh.png
 Blazemeter,http://blazemeter.com/,commons-logos/blazemeter.png
 CA Technologies,http://www.ca.com/us/default.aspx,commons-logos/catechnologies.svg
+Catalyst Cloud,http://catalyst.net.nz/,commons-logos/catalyst.png
 CentOS,https://www.centos.org/,commons-logos/centos.png
 Charter Communications,http://www.charter.com/,commons-logos/charter.png
 Chuanhow,http://www.chuanhow.com,commons-logos/chuanhow.png
@@ -70,11 +71,13 @@ IISL,http://www.iisl.com/,commons-logos/iisl.png
 Ikano,http://ikano.se/,commons-logos/ikano.png
 Intelligent Payments,http://intelligentpayments.co.uk/,commons-logos/intelligentpayments.png
 Ironio,http://www.iron.io/,commons-logos/ironio-logo.svg
+Juniper.net,http://www.juniper.net/us/en/,commons-logos/juniper.png
 Kaazing,http://kaazing.com/,commons-logos/kaazing.png
 Kainos,https://www.kainos.com/,commons-logos/kainos.png
 Kangaroot,http://kangaroot.net,commons-logos/kangaroot.png
 Kismatic,http://kismatic.io/,commons-logos/kismatic.png
 Leighton,http://www.leighton.com/,commons-logos/leighton.png
+Macroview Telecom,http://www.macroview.com/en/scripts/index.php,commons-logos/macroview.png
 MariaDB,https://mariadb.com/,commons-logos/mariadb.png
 Medisite.de,http://medisite.de/index.php?id=2&L=1,commons-logos/medisite.png
 Mesospere,https://mesosphere.com/,commons-logos/mesosphere.png
@@ -82,8 +85,10 @@ Miracle.dk,http://miracle.dk/,commons-logos/MiracleBlack.png
 Middleware360,http://www.middleware360.com/,commons-logos/middleware360.png
 Mudano,http://mudano.com/,commons-logos/mudano.png
 NASA,https://www.nasa.gov/,commons-logos/nasa.png
-NetEngine,http://netengine.com.au/,commons-logos/netengine.png
 Neo4j,http://neo4j.com/,commons-logos/neo4j.png
+Neotys,http://www.neotys.com/,commons-logos/neotys.png
+NetApp,http://www.netapp.com/,commons-logos/netapp.png
+NetEngine,http://netengine.com.au/,commons-logos/netengine.png
 NewRelic,http://newrelic.com/,commons-logos/NewRelic.png
 Nginx,http://nginx.com/,commons-logos/nginx.png
 Node4,http://www.node4.co.uk/,commons-logos/node4.png
@@ -92,8 +97,9 @@ NSSOL,http://www.nssol.nssmc.com/en/corporate/index.html,commons-logos/nssol.png
 Nuage Networks,http://www.nuagenetworks.net/,commons-logos/nuage.png
 Octo,http://www.octo.com/en,commons-logos/octo.png
 OGIS-RI Co.&#44;Ltd.,http://www.ogis-ri.co.jp/corporate_e/n-00.html,commons-logos/ogis.png
-opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
+OpenContrail,http://www.opencontrail.org/,commons-logos/opencontrail.png
 OpenCredo,http://opencredo.com/,commons-logos/opencredo.png
+opensourcearchitect,http://opensourcearchitect.co/,commons-logos/opensourcearchitect.png
 Orange,http://www.orange.com/en/home,commons-logos/orange.png
 OS Squad,http://www.ossquad.com,commons-logos/ossquad.png
 OwnCloud,https://owncloud.com/,commons-logos/owncloud.png
@@ -125,6 +131,7 @@ Smals,https://www.smals.be/,commons-logos/Smals.png
 StartApp.BG,http://www.startapp.bg/,commons-logos/startapp.png
 StackRox,http://stackrox.com/,commons-logos/stackrox.png
 Stamplay,https://stamplay.com/,commons-logos/stamplay.png
+Symantec,http://www.symantec.com/,commons-logos/symantec.png
 Synnefo,http://synnefo.forsythe.com/,commons-logos/synnefo.png
 T Systems,http://www.t-systems.com/,commons-logos/Tsystem.png
 Telstra,https://www.telstra.com.au,commons-logos/Telstra.svg
