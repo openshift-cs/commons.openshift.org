@@ -1020,7 +1020,7 @@ header .container{
 	background: url("../img/parallax/5.jpg");
 }
 
-.bg_parallax{
+/*.bg_parallax{
   margin: 0 auto;
   padding: 0;
   position: absolute;
@@ -1040,7 +1040,7 @@ header .container{
   -ms-transition: none;
   -o-transition: none;
   transition: none;
-}
+}*/
 .opacy_bg_01{
   bottom: 0px;
   left: 0;
