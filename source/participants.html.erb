@@ -1,0 +1,56 @@
+---
+title: OpenShift Commons Participants
+description:  A community of collaborators working together.
+---
+
+<% content_for :header do %>
+<h1 class="animated fadeInDown delay">
+  OpenShift Commons Participants
+</h1>
+<p class="animated fadeInUp delay">
+  A community of collaborators working together.
+</p>
+<% end %>
+
+<div class="crumbs border_bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>/</li>
+          <li>
+            <a href="/participants.html">OpenShift Commons Participants</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row info_title wow animated fadeInUp">
+  <div class="vertical_line">
+    <div class="circle_bottom"></div>
+  </div>
+  <div class="info_vertical">
+    <h1>
+      OpenShift Commons
+      <span>Participants</span>
+    </h1>
+  </div>
+</div>
+
+<section class="content_info">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="search">
+          <input id="participant-search" placeholder="Search participants">
+        </div>
+        <%= partial "participants_list", :object => data.participants.participants %>
+      </div>
+    </div>
+  </div>
+</section>

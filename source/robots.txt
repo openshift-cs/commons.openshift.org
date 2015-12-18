@@ -1,0 +1,3 @@
+# www.openshift.org
+
+User-agent: *

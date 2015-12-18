@@ -1,0 +1,199 @@
+---
+title: OpenShift Commons
+description:  Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift.
+---
+
+<% content_for :header do %>
+<h1 class="animated fadeInDown delay">OpenShift Commons</h1>
+<p class="animated fadeInUp delay">
+  Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift.
+</p>
+<% end %>
+
+<section class="content_info" id="join">
+  <div class="info_title wow fadeInDown" id="try">
+    <i class="fa fa-users right"></i>
+    <div class="vertical_line">
+      <div class="circle_bottom"></div>
+    </div>
+    <div class="info_vertical animated">
+      <h1>OpenShift <span>Commons</span></h1>
+    </div>
+    <div class="padding_bottom">
+      <div class="container wow fadeInUp animated">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lead">
+            <p class="text-left">Commons builds connections and collaboration across OpenShift communities, projects and stakeholders. In doing so we'll enable the success of customers, users, partners, and contributors as we deepen our knowledge and experiences together.</p>
+            <br>
+            <p class="text-left">Our goals go beyond code contributions. Commons is a place for companies using OpenShift to accelerate its success and adoption. To do this we'll act as resources for each other, share best practices and provide a forum for peer-to-peer communication.</p>
+          </div>
+          <h2>Join Now</h2>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <%= partial "forms/join_commons" %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content_info" id="colleagues">
+  <div class="info_resalt borders">
+    <div class="info_vertical">
+      <h1>
+        Commons
+        <span>Participants</span>
+      </h1>
+    </div>
+    <div class="container">
+      <div class="search">
+        <input id="participant-search" placeholder="Search participants">
+      </div>
+      <%= partial "participants", :object => data.participants.participants %>
+      <a class="list-link" href="/participants.html">View Participant List</a>
+    </div>
+  </div>
+</section>
+<section class="content_info">
+  <div class="vertical_line">
+    <div class="circle_bottom"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 simple-title">
+        <h2>
+          Supporting
+          <span>Quotes</span>
+        </h2>
+      </div>
+      <div class="col-md-12" id="carousel-team-members">
+        <div class="item-team">
+          <img alt="Getupcloud" class="logo" src="img/commons-logos/getupcloud.png">
+          <div class="col-md-10">
+            <blockquote>
+              OpenShift is critical to our business and the OpenShift Commons has given us a great opportunity to connect directly with other OpenShift ecosystem participants...
+            </blockquote>
+          </div>
+          <cite>
+            <div class="text-right">
+              <a href="/quotes.html#Getupcloud">Read More</a>
+            </div>
+          </cite>
+        </div>
+        <div class="item-team">
+          <img alt="Amadeus" class="logo" src="img/commons-logos/Amadeus_Logo.svg">
+          <div class="col-md-10">
+            <blockquote>
+              By participating in the OpenShift Commons, we are able to easily and proactively communicate with the community...
+            </blockquote>
+          </div>
+          <cite>
+            <div class="text-right">
+              <a href="/quotes.html#Amadeus">Read More</a>
+            </div>
+          </cite>
+        </div>
+        <div class="item-team">
+          <img alt="Shippable" class="logo" src="img/commons-logos/shippable_logo.png">
+          <div class="col-md-10">
+            <blockquote>
+              We're pleased to be active participants in the OpenShift Commons and encourage others to join...
+            </blockquote>
+          </div>
+          <cite>
+            <div class="text-right">
+              <a href="/quotes.html#Shippable">Read More</a>
+            </div>
+          </cite>
+        </div>
+        <div class="item-team">
+          <img alt="AppDirect" class="logo" src="img/commons-logos/appdirect.png">
+          <div class="col-md-10">
+            <blockquote>
+              Our collaboration with Red Hat has provided an opportunity to respond to the market need and support Red Hat’s vision of driving high value for its OpenShift partners, developer community and open source technology...
+            </blockquote>
+          </div>
+          <cite>
+            <div class="text-right">
+              <a href="/quotes.html#Appdirect">Read More</a>
+            </div>
+          </cite>
+        </div>
+        <div class="item-team">
+          <img alt="IDC" class="logo" src="img/commons-logos/idc_logo.png">
+          <div class="col-md-10">
+            <blockquote>
+              OpenShift Commons is a distinctive way of building a strong and open network of users, partners and open source community members...
+            </blockquote>
+          </div>
+          <cite>
+            <div class="text-right">
+              <a href="/quotes.html#IDC">Read More</a>
+            </div>
+          </cite>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content_info" id="interests">
+  <div class="info_resalt borders">
+    <div class="row info_title">
+      <div class="info_vertical">
+        <h1>
+          Find Your
+          <span>Commonality</span>
+        </h1>
+        <p class="text-left">Being a part of an inclusive, open, and inviting community such as Commons means that you're part of the conversation. Our Special Interest Groups (SIG) are designed so that you can find everything you need in one place around a central topic.</p>
+        <div class="row">
+          <div class="paddings">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow fadeInLeft">
+              <h2>
+                <a href="/sig/Operations.html" title="Operations">OpenShift Ops</a>
+                <p>Discuss, develop and disseminate best practices for administrating, managing and operating OpenShift</p>
+              </h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 wow fadeInRight">
+              <h2>
+                <a href="/sig/Openshiftv3.html" title="OpenShift v3">OpenShift v3</a>
+                <p>OpenShift v3 Migration Upgrade Roadmap Special Interest Group</p>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <i class="fa fa-comments-o right"></i>
+    </div>
+  </div>
+</section>
+
+<section class="content_info" id="join">
+  <div class="info_title wow fadeInUp" id="try">
+    <i class="fa fa-compass left"></i>
+    <div class="vertical_line">
+      <div class="circle_bottom"></div>
+    </div>
+    <div class="info_vertical animated">
+      <h1>
+        Become a part of something
+        <span>bigger</span>
+      </h1>
+      <p>OpenShift Commons is open to all community participants: users, operators, enterprises, non-profits, educational institutions, partners, and service providers as well as other open source technology initiatives utilized under the hood or to extend the OpenShift platform.</p>
+      <br>
+      <ul>
+        <li class="text-left">If you are an OpenShift Online or an OpenShift Enterprise  customer or have deployed OpenShift on premise or on a public cloud.</li>
+        <li class="text-left">If you have contributed to the OpenShift Origin project and want to connect with your peers and end users.</li>
+        <li class="text-left">If you simply want to stay up-to-date on the roadmap and best practices for using, deploying and operating OpenShift.</li>
+      </ul>
+      <div class="text-center">
+        <h3>
+          Then OpenShift Commons is the right place for you.
+        </h3>
+        <h4>
+          <a href="#join">Ready to Join?</a>
+        </h4>
+      </div>
+    </div>
+  </div>
+</section>

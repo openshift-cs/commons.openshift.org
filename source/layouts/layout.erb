@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= current_page.data.title || settings.site_title %></title>
+    <meta charset="utf-8">
+    <meta name="description" content="<%= current_page.data.description || "" %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="9jyGvNki3NSELTYJ7t_XbF-YQZ8jjfm7LqQQGNq4SSg">
+    <%= stylesheet_link_tag "skins/red/red.css", :media => "screen", :class => "skin_color" %>
+    <%= stylesheet_link_tag "style.css", :media => "screen" %>
+    <%= stylesheet_link_tag "theme-responsive.css", :media => "screen" %>
+    <%= stylesheet_link_tag "styles.css", :media => "screen" %>
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700", :media => "screen" %>
+    <%= favicon_tag "/img/icons/apple-touch-icon.png", :rel => "apple-touch-icon-precomposed" %>
+    <%= favicon_tag "/img/icons/favicon.png" %>
+    <!--[if IE]>
+      <%= stylesheet_link_tag "ie/ie.css", :media => "screen" %>
+    <![endif]-->
+    <!--[if lte IE 8]>
+      <%= javascript_include_tag "responsive/html5shiv.js" %>
+      <%= javascript_include_tag "responsive/respond.js" %>
+    <![endif]-->
+    <%= partial "layouts/tracking" %>
+    <style>
+      label {
+        font-weight:normal;
+      }
+    </style>
+  </head>
+  <body class="commons">
+    <div class="layout-wide" id="layout">
+      <!-- Header Section -->
+      <header class="index_static">
+        <%= partial "layouts/navbar" unless (current_page.data.navigation && current_page.data.navigation == false) %>
+        <section class="content_info">
+          <div class="bg_parallax image_06_parallax">
+            <section class="opacy_bg_05 paddings">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="logo wow fadeIn delay">
+                      <a href="index.html" title="Back to Home">
+                        <%= image_tag "openshift_logo_horizontal_wht.svg", { :class => "logo_img", :alt => "OpenShift Logo", :style => "margin-bottom: 30px;" } %>
+                      </a>
+                    </div>
+                    <%= yield_content(:header) %>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </header>
+      <!-- main content -->
+      <%= yield %>
+      <!-- end main content -->
+      
+      <%= partial "layouts/footer" %>
+    </div>
+    
+    <%= javascript_include_tag "jquery.js" %>
+    <%= javascript_include_tag "nav/tinynav.js" %>
+    <%= javascript_include_tag "nav/superfish.js" %>
+    <%= javascript_include_tag "nav/hoverIntent.js" %>
+    <%= javascript_include_tag "totop/jquery.ui.totop.js" %>
+    <%= javascript_include_tag "rs-plugin/js/jquery.themepunch.tools.min.js" %>
+    <%= javascript_include_tag "rs-plugin/js/jquery.themepunch.revolution.min.js" %>
+    <%= javascript_include_tag "carousel/owl.carousel.js" %>
+    <%= javascript_include_tag "fancybox/jquery.fancybox.pack.js" %>
+    <%= javascript_include_tag "gallery/modernizr.custom.26633.js" %>
+    <%= javascript_include_tag "gallery/jquery.gridrotator.js" %>
+    <%= javascript_include_tag "team/modernizr.custom.63321.js" %>
+    <%= javascript_include_tag "team/jquery.catslider.js" %>
+    <%= javascript_include_tag "filters/jquery.isotope.js" %>
+    <%= javascript_include_tag "theme-options/theme-options.js" %>
+    <%= javascript_include_tag "theme-options/jquery.cookies.js" %>
+    <%= javascript_include_tag "twitter/jquery.tweet.js" %>
+    <%= javascript_include_tag "animations/wow.min.js" %>
+    <%= javascript_include_tag "parallax/jquery.inview.js" %>
+    <%= javascript_include_tag "parallax/nbw-parallax.js" %>
+    <%= javascript_include_tag "bootstrap/bootstrap.js" %>
+    <%= javascript_include_tag "main.js" %>
+    
+    <script type="text/javascript">
+    <%= content_for?(:javascript) ? yield_content(:javascript) : '' %>
+    </script>
+    
+    <!-- Google Remarekting -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1007064360;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1007064360/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+  </body>
+</html>
