@@ -1,0 +1,34 @@
+language: ruby
+cache: bundler
+rvm:
+- 2.2.0
+branches:
+  only:
+  - master
+ssh_known_hosts:
+- commons-osdevelopers.rhcloud.com
+before_install:
+- openssl aes-256-cbc -K $encrypted_14571849b2f2_key -iv $encrypted_14571849b2f2_iv
+  -in id_rsa_deploy.enc -out id_rsa_deploy -d
+- chmod 600 id_rsa_deploy
+- eval "$(ssh-agent -s)"
+- ssh-add id_rsa_deploy
+before_script:
+- echo -e "Host commons-osdevelopers.rhcloud.com\n\tStrictHostKeyChecking no\n" >>
+  ~/.ssh/config
+script:
+- mkdir build
+- cd build
+- git init
+- git remote add production $REMOTE
+- git pull production master
+- git config --global user.email $USERMAIL
+- git config --global user.name $USERNAME
+- cd ..
+- bundle exec middleman build
+- if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then bundle exec middleman deploy; fi
+env:
+  global:
+  - secure: pBL/TBi0mufhvsP5L/Qnja0Dkh5f4QXp/A+xm3Kwi/Ktxgs+Gh6hr+/BEI4PCWWrxiRXR0GFL87dSc8KnOJmXVSeal+06MRKobnETufznXbxgvbxUwvxSE1P0Ee6mNZxdX1lbKBQlIbyG/wl+d3siTpwOp8NNo4yw4TQvnYXl0snLnNt+1ad/cV5+Ms8j2Ra1Tkew4mIXqAfFJDA+NOe1pym/K1mx/0On+meEkS3N0M96EpoZ3THAYhXG2Fq6+H7Czrh0Je6oyPE3/r6uywdd/nwGqzU4rLNTtN5YCAiuXoZEmucJk+UTiQzUORKxS3xz5Eo60ZL8TLV1uzLTN91S74qypOFj88RKdVe/rRGQsDW65AvDrrgN2MWhgkO3k//rDibL6Q6nyqTURELOiBLVUrmbIDqUAymw/TzLpLVz5cYN8QR0D9mz54i/oOaHy3ucVqM9oRw2VO6Tj6RHrZjDltT/jVjmu/GfcTKnWe1EZM4+MKR2TP3ZvQ2+OEO3jglqHW3w++ZtVKwJCgcx5S7T7LHfaM+a8SY4Xihwpw+u1oJqgIwU5jdZ+cvbTJgL9nEycKCk1eMgKWL/1q3/YgE3//shown4/UnsXzLuj4zjkOK41fcTao7pYGqeBqHCkNXAlYQUNaj3ZIzSJrEcY7eWDjFGi56Uy6cIToG1E2ZN60=
+  - secure: VYgZyBbVH7DdGyg6wuN4ehDDjcpX+pkxLi7YfBlOP3/k0fsSQoby8RETPaLI3cgvKA2u6NUpx5T/PMrhbljn3bsmeGeMbkYok99x3TamR8cpIphgMOFvwdUhCH+6Q8wEkY0UCF3LpXo2+YNKRF0K9OAUQA56A5HnRUo4GigHAmF+InXha68P4dnCLRq3FZ6aYnnW9c5cJd41xav5xR/0AYgk/TMFUERq1NQRl911EZkzM1UwVUqYkZlA5dyOjO8YOWV1Y6Xd/+CHOBUgLDzqb8c1NJavD2aPRz82veFms8MgfquA6ZgdkSPlLJXcExsov1VKNxRKuuMJyiMaekgH4r3mHHFPcAFQ6HT0HajWM/dNHWmqQZgIuWK9MFTMxaMuGvbidpEJviqM/rhrTsTWIvauzoglRc+aQA1NV1fFin6A4U6byVDpT44Ek0Vk58JfKq2tAZohVqcpsGdnWekFAG8QytbmYVm14W2y7OjicBXWQ95TEcFrv4YO+V1Xsy8Lz2OXpPZIcitdsZLPntVmD32hA06O39m3+fBjTTfz5FQwRD2h4cCeUqP7op+yGvQGTD+jHJxJKkYUiLUDKiU+qwAUMjYguUVmAVupmWaz28l4AEuOM4lv3z9eVXF+VZ0YeqLV/D1JWCzYSkigNKSp2xxt097ie1T7NgazNYHOXJ8=
+  - secure: a48/8vufEoXxPzyQjzcXYKVsDh66nTSlM4g7fkNJiWXBxkyAiva5IDgRPQ6aw5jSfdE8xBAlWvAiVfHaUuVcG1JxmR+6dQC7BclpRO5vw579Q3nSkEdjjRZib45lxiy8JIdJOx7PL53cK8shV1fNZoq2drJBf+QvsF0eAMhxDQIX3YVQJyL3RxAOiWLzZU94peMe/WvDXCxdodtj/0UhCIobp/vBcQHpQoYkhSAgsnStxXCslKSIKnJTw+eXdI48DYlhYoK2j58VHRXAvMq5bSwrkCFe031AhTlKcXmG738m6q6c72HmvuqFp0VT3Mqqkrm+JYk0Efc34NPhjpzRuqZoiYluEt/5Z60L3bjP6FFmEnVwFOkOwSDlfa6/EG5xKBEg584fzWbU4ccqzXGSxCQrmMK2TxswxeNx09tnFEc/3J5ugH149G8vh3stfbrY7P1ew5sceyXnRBTWMU3UGGhsWjmVRGd6VebetyHCpnbhn3fRn82YvNRP+RGWogn0XOjGksHxqkWVj8ak1qOdjcMyaBtzZIAWO7khPRWoHqVTKzu5HJZL8UlAmnfmlt+oWYnVe4Oca5Is6oNJ9CqfZgmbAKUVnwu0mtGS0oFQXi6xPjKLbBSmW6c9tK7qdgSG3vP6vWLBpz+aPvQlkmgRdtuv53WQAnTzxDP8iCarf4s=
