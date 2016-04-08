@@ -1,0 +1,35 @@
+language: ruby
+cache: bundler
+rvm:
+- 2.2.0
+branches:
+  only:
+  - master
+script:
+# Set up git stuff if we are going to deploy
+- mkdir build
+- |
+  if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
+    echo -e "Host commons-osdevelopers.rhcloud.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config;
+    openssl aes-256-cbc -K $encrypted_4db62d3545df_key -iv $encrypted_4db62d3545df_iv -in id_rsa_deploy.enc -out id_rsa_deploy -d;
+    chmod 600 id_rsa_deploy;
+    eval "$(ssh-agent -s)";
+    ssh-add id_rsa_deploy;
+    # Start the git repo
+    cd build;
+    git init;
+    # Do the git configs
+    git config --global user.email $USERMAIL;
+    git config --global user.name $USERNAME;
+    # And fetch the production state
+    git remote add production $REMOTE;
+    git pull production master;
+    cd ..
+  fi
+- bundle exec middleman build
+- if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then bundle exec middleman deploy; fi
+env:
+  global:
+  - secure: hdsB6ZVtFuTLc8gALBwjxtJKpeQKjWDYmMzpuqBX9OfZq02nc9Uj9MKN1hw/e1sMJfFT1wvhGQbE72UB1pqgJiTU1q9gUZDT1n9vCsBJ7nDTthlaQlIHsp9uMPj/PqEy6gfcryBKVKZRiwplalVLcqwsDKuhFydGXpPfK9h0pfY=
+  - secure: XLfInDkeLwilKmgG/ev/39Ot6BiHYJqsqOKxxGCsv/QguIwticJgQGPkHh3InUvtp0KBpM0NZHBWxdGiEBq1wCOME1G4ODLCXxzUwHElEG53V+9/FTfri1MHXzT7iM3GOhI5251F+N1NAdzXR9Jy7H/wvIXQs6Gaw9Bg9/9fK7I=
+  - secure: Dkpc2lD0XkgVt9n3dBOIc6DyFoULRFj4juiOZsX+xreKbB15NZXxV+oUJf+s/9ttGflfQSIedQGIEaTksKUkLUfGSK3TSYG1rz8VRTW1I89Q4teY/hSVTP7+ncSB4jybIynxDOEZonyOeorPNYZirGmt+c8kM3NswtoCuUUNE8M=

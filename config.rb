@@ -29,7 +29,7 @@ configure :build do
   config.ignored_sitemap_matchers[:source_dotfiles] = proc { |file|
     file =~ %r{/\.} && file !~ %r{/\.(openshift|htaccess|htpasswd|nojekyll|git)}
   }
-  
+
   activate :minify_css
   activate :minify_javascript
 end
@@ -37,7 +37,8 @@ end
 # Deployment configuration
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.build_before = true # default: false
-  deploy.remote = 'production' # remote name or git url, default: origin
+  deploy.build_before = false # default: false
+  deploy.remote = 'production' # remote name or git url
+  deploy.strategy = :force_push
   deploy.branch = 'master' # default: gh-pages
 end
