@@ -1,6 +1,6 @@
 <% content_for :javascript do %>
 $(document).ready(function() {
-  var url = 'https://blog.openshift.com/tag/v3/feed/';
+  var url = 'https://blog.openshift.com/tag/big-data/feed/';
   var container = $("#blog");
   var stripHtml = function(html) {
     var tmp = document.createElement("DIV");
@@ -33,7 +33,7 @@ $(document).ready(function() {
 require 'rss'
 require 'open-uri'
 
-url = 'https://blog.openshift.com/tag/v3/feed/'
+url = 'https://blog.openshift.com/tag/big-data/feed/'
 open(url) do |rss|
   feed = RSS::Parser.parse(rss, false)
   feed.channel.items.first(10).each do |item|
