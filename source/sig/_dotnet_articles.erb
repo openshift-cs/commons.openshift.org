@@ -1,0 +1,61 @@
+<% content_for :javascript do %>
+$(document).ready(function() {
+  var url = 'https://blog.openshift.com/tag/microsoft/feed/';
+  var container = $("#blog");
+  var stripHtml = function(html) {
+    var tmp = document.createElement("DIV");
+    tmp.innerHTML = html;
+    return tmp.textContent || tmp.innerText || "";
+  };
+  var output_container = function(link, title, description) {
+    var content = stripHtml(description).split(/\s+/).slice(0,20).join(" ") + "&hellip;";
+    return "<div class='col-xs-12 col-sm-6 col-md-6 col-lg-6'><div class='service-03'><div class='head-service-03'><i class='fa fa-newspaper-o'></i><h3><a href='" + link + "' title='" + title + "'>" + title + "</a></h3></div><div class='caption-service-03'><p>" + content + " <a href='" + link + "'>Read More</a></p></div></div></div>";
+  };
+  $.ajax({
+    type: "GET",
+    url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(url),
+    dataType: 'json',
+    error: function(){
+      alert('Unable to load feed, Incorrect path or invalid feed');
+    },
+    success: function(xml) {
+      var output = '';
+      $(xml.responseData.feed.entries).each(function(index, entry) {
+        output += output_container(entry.link, entry.title, entry.content);
+      });
+      container.html(output);
+    }
+  });
+});
+<% end %>
+<div id="blog">
+<%
+require 'rss'
+require 'open-uri'
+
+url = 'https://blog.openshift.com/tag/microsoft/feed/'
+open(url) do |rss|
+  feed = RSS::Parser.parse(rss, false)
+  feed.channel.items.first(10).each do |item|
+%>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+  <div class="service-03">
+    <div class="head-service-03">
+      <i class="fa fa-newspaper-o"></i>
+      <h3>
+        <a href="<%= item.link %>" title="<%= item.title %>"><%= item.title %></a>
+      </h3>
+    </div>
+    <div class="caption-service-03">
+      <p>
+        <%= item.description.split[0...20].join(' ').concat('&hellip;') %>
+        <a href="<%= item.link %>">Read More</a>
+      </p>
+    </div>
+  </div>
+</div>
+<%
+  end
+end
+%>
+</div>
