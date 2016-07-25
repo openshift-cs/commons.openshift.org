@@ -620,3 +620,6 @@ participants:
 - name: "Zero Turnaround"
   link: "http://zeroturnaround.com/"
   logo: "commons-logos/zeroturnaround.png"
+- name: "ZTE"
+  link: "http://www.zte.com.cn/global"
+  logo: "commons-logos/zte.png"
