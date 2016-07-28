@@ -1,22 +1,22 @@
 @charset "utf-8";
 
-/* ============================== 
-	- Template Name: Jekas - Software,Studio And Corporate Template 
+/* ==============================
+	- Template Name: Jekas - Software,Studio And Corporate Template
 	- Autor: Iwthemes
 	- Email: support@iwthemes.com
 	- Name File: style.css
 	- Version 1.5 - Update on 9/09/2014
-	- Website: http://www.iwthemes.com 
+	- Website: http://www.iwthemes.com
 	- Copyright: (C) 2014
-================================= */	
+================================= */
 
-/* ---------------------- 
+/* ----------------------
 	Stylesheet Guide
 -------------------------
 
 01. Import styles
 	-  bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).
-	-  bootstrap-responsive.css	
+	-  bootstrap-responsive.css
 	-  default.css  - Default color skin
 	-  jquery.fancybox-1.3.1.css  - Lightbox
 	-  owl-carousel.css  - Carousel (comments, sponsors and gallery)
@@ -25,10 +25,10 @@
 	-  font-awesome.min.css  - Incons
 	-  grid.css - Gallery team
 	-  minislider.css - Carousel team
-	-  Google Fonts  - Open sans	
-	
+	-  Google Fonts  - Open sans
+
 02. Basic Elements
-	-  Standar Styles	
+	-  Standar Styles
 	-  Class and styles Generals
 	-  Info title
 	-  divisor vertical
@@ -40,7 +40,7 @@
 
 0.3.  Structure
 	-  Header
-	-  Sections Titles 
+	-  Sections Titles
 	-  Crumbs
 	-  Main Navigation
 	-  Galley Carousel
@@ -50,10 +50,10 @@
 	-  Social
 	-  Contact
 	-  Comments
-	-  Tables Princing	
-	-  Commnets		
-	-  Tables Princing Promotions	
-	-  Blog	
+	-  Tables Princing
+	-  Commnets
+	-  Tables Princing Promotions
+	-  Blog
 
 */
 
@@ -93,7 +93,7 @@
 /* Standar Styles --------------------------------------------------------*/
 
 body{
-	font-size: 16px;	
+	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 	line-height:26px;
 	color:#777;
@@ -105,13 +105,13 @@ a{
 	color: #43402f;
 }
 a:hover{
-	text-decoration: none;	
+	text-decoration: none;
 	color: #43402f;
 }
 p{
 	margin:0 0 20px 0;
-	padding: 0;	
-	font-weight: 300;	
+	padding: 0;
+	font-weight: 300;
 }
 h1 {font-size:34px;
 	line-height: 44px;
@@ -132,9 +132,9 @@ h6 {font-size:14px;
 	line-height: 24px;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;	
-	padding: 5px 0 15px 0;	
-	margin: 0;	
+	font-weight: normal;
+	padding: 5px 0 15px 0;
+	margin: 0;
 	color: #403e3d;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #999;
 }
 .style-dark  .mi-slider nav a.mi-selected:after {
-	border-top-color: transparent !important; 
+	border-top-color: transparent !important;
 }
 
 
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .clearfix{
 	width:1px;
-	height:1px;	
+	height:1px;
 	display:block;
 	clear:both;
 	content:" , ";
@@ -260,15 +260,15 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 50px;
 }
 .button{
-	width: auto;	
+	width: auto;
 	border: 0;
 	color: #fff;
 	margin: 10px 0;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	border-radius: 5px;		
-	font-weight: 300;	
-	padding: 12px 25px;		
+	border-radius: 5px;
+	font-weight: 300;
+	padding: 12px 25px;
 	text-shadow: 0 -1px 0 #ccc;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 	transition: 0.3s all ease;
 }
 .button:hover{
-	color: #fff;	
+	color: #fff;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -437,7 +437,7 @@ footer ul{
 .info_vertical{
 	text-align: center;
 	max-width: 850px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	z-index: 1;
 	position: relative;
 }
@@ -452,7 +452,7 @@ footer ul{
 }
 .info_vertical p{
 	font-size: 18px;
-	line-height: 28px;	
+	line-height: 28px;
 	font-weight: lighter;
 	margin: 0;
 	width: 100%;
@@ -468,7 +468,7 @@ footer ul{
 	background-repeat:no-repeat;
 	overflow: auto;
 	background-size:100% auto;
-	background-position:center center;	
+	background-position:center center;
 }
 .service-process a{
 	color: #5c5c5c;
@@ -491,7 +491,7 @@ footer ul{
 	height:200px;
 	width:200px;
 	overflow: hidden;
-	margin: 0 auto 20px auto;	
+	margin: 0 auto 20px auto;
 	background-color:#fff;
 	border:6px solid #e6e6e6;
 	-webkit-border-radius:500px;
@@ -508,12 +508,12 @@ h2.caption-title{
 }
 .caption-head .caption-icon{
 	display:block;
-	margin-top:35px;	
+	margin-top:35px;
 }
 .caption-head .caption-icon:hover,.caption-head .caption-title:hover{
 	cursor:pointer
 }
-.caption-head:hover{	
+.caption-head:hover{
 	cursor:pointer;
 	-webkit-transition:background-color .3s ease;
 	-moz-transition:background-color .3s ease;
@@ -642,8 +642,8 @@ to{
 /* Results ----------------------------------------------------*/
 
 .results{
-	padding-top: 13%;	
-	text-align: center;	
+	padding-top: 13%;
+	text-align: center;
 	position: relative;
 }
 .results.results-mini-top{
@@ -659,7 +659,7 @@ to{
 	top: 20px;
 	height: 32px;
 }
-.results h2{	
+.results h2{
 	font-size: 23px;
 	padding: 0;
 	border-bottom: 1px solid #cdcdcd;
@@ -715,7 +715,7 @@ to{
 	overflow:hidden;
 	float:left;
 	opacity: 0;
-	-moz-opacity: 0;	
+	-moz-opacity: 0;
 }
 #toTop:active, #toTop:focus {
 	outline:none;
@@ -728,7 +728,7 @@ to{
 
 /* header ---------------------------------------------------------*/
 
-header{	
+header{
 	overflow: hidden;
 	position: relative;
 }
@@ -743,12 +743,12 @@ header .container{
 
 /* Sections Titles 01  ----------------------------*/
 
-.section_title{			
+.section_title{
 	padding: 125px 0 40px 0;
 	overflow: visible;
 }
 .section_title h1{
-	color: #fff;	
+	color: #fff;
 	padding: 0;
 }
 .section_title p{
@@ -759,13 +759,13 @@ header .container{
 
 /* Sections Titles 02  ----------------------------*/
 
-.section_title-02{			
+.section_title-02{
 	padding: 145px 0 80px 0;
 	overflow: visible;
 	background-color: #1c1c1c;
 }
 .section_title-02 h1{
-	color: #fff;	
+	color: #fff;
 	font-size: 40px;
 	padding: 0;
 }
@@ -776,7 +776,7 @@ header .container{
 
 /* Sections Titles 02  ----------------------------*/
 
-.section_title-03{			
+.section_title-03{
 	overflow: visible;
 	background-color: #1c1c1c;
 }
@@ -787,7 +787,7 @@ header .container{
 	padding: 180px 0 130px 0;
 }
 .section_title-03 h1{
-	color: #fff;	
+	color: #fff;
 	font-size: 40px;
 	padding: 0;
 }
@@ -822,15 +822,15 @@ header .container{
 /*  Main Logo -----------------------------------------*/
 
 .logo img{
-	max-width: 100%;	
+	max-width: 300px;
 }
 
 /*  Container Navigation -----------------------------------------*/
 
-.nav_logo{	
-	width: 100%;	
+.nav_logo{
+	width: 100%;
 	z-index: 999;
-	padding: 20px 0;	
+	padding: 20px 0;
 	background: #232323;
 	background: rgba(17, 17, 17, 0.92);
 }
@@ -861,16 +861,16 @@ header .container{
 
 /*  Main Navigation -----------------------------------------*/
 
-.tinynav{ 
-	display: none 
+.tinynav{
+	display: none
 }
-.sf-menu{	
+.sf-menu{
 	margin:0;
-	float: right;		
-	padding-top: 7px;	
+	float: right;
+	padding-top: 7px;
 }
 .sf-menu ul{
-	position:absolute;	
+	position:absolute;
 	list-style: none;
 	top:-999em;
 	width:150px;
@@ -879,20 +879,20 @@ header .container{
 }
 .sf-menu > li{
 	position: relative;
-	float:left;	
-	list-style: none;	
+	float:left;
+	list-style: none;
 	line-height: 20px;
 	margin:0 40px 0 0;
 }
-.sf-menu > li:last-child {	
+.sf-menu > li:last-child {
 	margin:0;
 }
 .sf-menu > li > a {
 	text-decoration:none;
 	display:block;
-	font-size:15px;	
+	font-size:15px;
 	font-weight: lighter;
-	color:#fff;	
+	color:#fff;
 }
 .sf-menu li:hover ul,.sf-menu li.sfHover ul{top:44px;  left:0; z-index:999;}
 .sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul{top:-999em}
@@ -910,7 +910,7 @@ header .container{
 	overflow:hidden;
 	padding:12px 15px;
 	background: #232323;
-	background: rgba(17, 17, 17, 0.9);	
+	background: rgba(17, 17, 17, 0.9);
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -919,10 +919,10 @@ header .container{
 }
 .sf-menu li li{
 	float:none;
-	position:relative;	
+	position:relative;
 }
 .sf-menu li li a:hover{
-	color: #fff;	
+	color: #fff;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -943,7 +943,7 @@ header .container{
 /* Content Secions -----------------------------*/
 
 .info_resalt{
-	background: #f5f5f5;	
+	background: #f5f5f5;
 	padding: 70px 0;
 }
 .info_resalt.no-bottom{
@@ -1134,8 +1134,8 @@ header .container{
 .carousel-portfolio li{
 	padding: 5px;
 	background: #fff;
-	border:solid 1px #cdcdcd;	
-	text-align: left;	
+	border:solid 1px #cdcdcd;
+	text-align: left;
 }
 .carousel-portfolio li .hover{
 	position: relative;
@@ -1152,11 +1152,11 @@ header .container{
 	font-size: 15px;
 }
 .overlay{
-	position: absolute;	
+	position: absolute;
 	left: 0;
-	top: -400px;	
+	top: -400px;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 	z-index: 1;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
@@ -1166,7 +1166,7 @@ header .container{
 }
 .carousel-portfolio li:hover .overlay{
 	top: 0;
-	cursor: pointer;	
+	cursor: pointer;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -1176,8 +1176,8 @@ header .container{
 
 /* filtrers -------------------------------------------*/
 
-.portfolioFilter{			
-	display: table;	
+.portfolioFilter{
+	display: table;
 	margin: 0 auto;
 	margin-bottom: 50px;
 	border-bottom: 1px solid #cdcdcd;
@@ -1185,7 +1185,7 @@ header .container{
 	padding: 10px 0;
 }
 .portfolioFilter a{
-	list-style: none;		
+	list-style: none;
 	float: left;
 	padding:0 35px;
 	display: inline-block;
@@ -1232,9 +1232,9 @@ header .container{
 	height: auto;
 }
 .item-work{
-	padding: 5px;	
-	border:solid 1px #cdcdcd;	
-	text-align: left;	
+	padding: 5px;
+	border:solid 1px #cdcdcd;
+	text-align: left;
 	margin-bottom: 5px;
 	width: 120px;
 }
@@ -1254,7 +1254,7 @@ header .container{
 }
 .item-work:hover .overlay{
 	top: 0;
-	cursor: pointer;	
+	cursor: pointer;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -1317,18 +1317,18 @@ header .container{
 	padding-right: 10px;
 	font-size: 18px;
 }
-.accordion-trigger:hover{	
+.accordion-trigger:hover{
 	-webkit-transition: all .1s linear;
 	-moz-transition: all .1s linear;
 	-o-transition: all .1s linear;
 	transition: all .1s linear;
 }
 .accordion-trigger.active,
-.accordion-trigger:hover{	
+.accordion-trigger:hover{
 	color: #fff;
 	background: #999 url("../img/img-theme/toggle.png") no-repeat right -69px;
 }
-.accordion-container{	
+.accordion-container{
 	padding:10px 0;
 }
 .accordion-container p{
@@ -1339,10 +1339,10 @@ header .container{
 
 footer{
 	background-color: #1C1C1C;
-	padding: 80px 0;	
+	padding: 80px 0;
 	color: #fff;
 	font-weight: 600;
-	position: relative;	
+	position: relative;
 }
 .footer_top:before{
 	-webkit-transition-duration: 0.3s;
@@ -1364,7 +1364,7 @@ footer p{
 footer h3{
 	font-size: 18px;
 	color: #fff;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #2c2c2c;
 }
@@ -1426,7 +1426,7 @@ footer li i{
 }
 .social li span{
 	background: #555;
-	margin-right: 15px;	
+	margin-right: 15px;
 	-webkit-transition: 0.2s all ease;
 	-moz-transition: 0.2s all ease;
 	-o-transition: 0.2s all ease;
@@ -1527,17 +1527,17 @@ address i {
 .carousel-testimonials  li{
 	position: relative;
 }
-.carousel-testimonials .image-testimonials{	
-	width: 160px;	
+.carousel-testimonials .image-testimonials{
+	width: 160px;
 	margin: 0 auto;
 	height: 150px;
 	border-radius: 50%;
-	position: relative;	
+	position: relative;
 	overflow: hidden;
 	z-index: 2;
 }
-.carousel-testimonials .image-testimonials img{	
-	width: 160px;	
+.carousel-testimonials .image-testimonials img{
+	width: 160px;
 	height: 150px;
 	margin-top: -3px;
 	margin-left: -3px;
@@ -1545,13 +1545,13 @@ address i {
 	z-index: 1;
 }
 .carousel-testimonials .head-testimonials{
-	width: 160px;	
+	width: 160px;
 	margin: 0 auto;
 	height: 150px;
 	border-radius: 50%;
-	position: relative;	
+	position: relative;
 }
-.carousel-testimonials .head-testimonials:before{	
+.carousel-testimonials .head-testimonials:before{
 	-webkit-transition-duration: 0.3s;
 	content: '';
 	right: 50%;
@@ -1576,7 +1576,7 @@ address i {
 	border-top: 1px solid #999;
 	border-bottom: 1px solid #999;
 	padding: 20px 0 20px 5%;
-	width: 50%;	
+	width: 50%;
 	position: absolute;
 	right: 0;
 	top: 17%;
@@ -1598,7 +1598,7 @@ address i {
 
 .item_table{
 	border-radius: 4px;
-	border: solid 1px #cdcdcd;		
+	border: solid 1px #cdcdcd;
 	background-color: #fff;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
@@ -1607,7 +1607,7 @@ address i {
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
 	-ms-transition: 0.3s all ease;
-	transition: 0.3s all ease;	
+	transition: 0.3s all ease;
 }
 .item_table:hover{
 	margin-top: -5px;
@@ -1615,12 +1615,12 @@ address i {
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
 	-ms-transition: 0.3s all ease;
-	transition: 0.3s all ease;	
+	transition: 0.3s all ease;
 }
 .head_table{
-	color: #fff;	
+	color: #fff;
 	background-color: #1C1C1C;
-	position: relative;	
+	position: relative;
 	z-index: 5;
 	padding: 10px 0;
 	text-align: center;
@@ -1631,10 +1631,10 @@ address i {
 	font-weight: lighter;
 	font-size: 25px;
 	line-height: 35px;
-	padding: 10px 0;	
+	padding: 10px 0;
 	border-bottom: 1px solid #666;
 }
-.head_table h2{	
+.head_table h2{
 	font-size: 30px;
 	margin: 0;
 	font-weight: lighter;
@@ -1655,7 +1655,7 @@ address i {
 	position: absolute;
 	z-index: -1;
 	background-repeat: repeat-x;
-	bottom: -28px;	
+	bottom: -28px;
 	height: 32px;
 	width: 100%;
 	left: 0;
@@ -1691,13 +1691,13 @@ address i {
 	margin-top: -40px;
 }
 .promotion_table .head_table{
-	color: #fff;		
-	position: relative;	
+	color: #fff;
+	position: relative;
 	z-index: 5;
 	text-align: center;
 }
 .promotion_table .head_table h2{
-	color: #232323 !important;	
+	color: #232323 !important;
 }
 
 
@@ -1757,7 +1757,7 @@ address i {
 }
 .comment .social li:hover,
 .info-me .social li:hover{
-	margin-left: 0;	
+	margin-left: 0;
 }
 .form_comment input,
 .form_comment textarea{
@@ -1886,7 +1886,7 @@ aside .search .btn{
 }
 .item-team{
 	padding: 5px;
-	text-align: center;	
+	text-align: center;
 	margin: 0 auto;
 	width: 200px;
 	height: 200px;
