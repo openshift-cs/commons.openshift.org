@@ -1,10 +1,10 @@
-/*	
-	- Template Name: Jekas - Software,Studio And Corporate Template 
+/*
+	- Template Name: Jekas - Software,Studio And Corporate Template
 	- Autor: Iwthemes
 	- Email: support@iwthemes.com
 	- Name File: main.js
 	- Version 1.5 - Update on 30/08/2014
-	- Website: http://www.iwthemes.com 
+	- Website: http://www.iwthemes.com
 	- Copyright: (C) 2014
 */
 
@@ -39,9 +39,9 @@ $(document).ready(function($) {
 
 	$('nav ul li a').click(function(){
         var el = $(this).attr('href');
-        var elWrapped = $(el);  
+        var elWrapped = $(el);
         scrollToDiv(elWrapped,40);
-        return false;    
+        return false;
     });
 
     function scrollToDiv(element,navheight){
@@ -55,39 +55,39 @@ $(document).ready(function($) {
 
 	//=================================== Totop  ===================================//
 
-	$().UItoTop({ 		
+	$().UItoTop({
 		scrollSpeed:500,
 		easingType:'linear'
-	});	
+	});
 
 	//=================================== Subtmit Form  =================================//
 
-	$('#form').submit(function(event) {  
-	  event.preventDefault();  
-	  var url = $(this).attr('action');  
-	  var datos = $(this).serialize();  
-	  $.get(url, datos, function(resultado) {  
-	    $('#result').html(resultado);  
-	  });  
-	});  
+	$('#form').submit(function(event) {
+	  event.preventDefault();
+	  var url = $(this).attr('action');
+	  var datos = $(this).serialize();
+	  $.get(url, datos, function(resultado) {
+	    $('#result').html(resultado);
+	  });
+	});
 
 	//=================================== Subtmit Form Newslleter ===========================//
 
-	$('#newsletterForm').submit(function(event) {  
-	      event.preventDefault();  
+	$('#newsletterForm').submit(function(event) {
+	      event.preventDefault();
 	      var url = $(this).attr('action');
-	      var datos = $(this).serialize();  
-	       $.get(url, datos, function(resultado) {  
-	        $('#result-newsletter').html(resultado);  
+	      var datos = $(this).serialize();
+	       $.get(url, datos, function(resultado) {
+	        $('#result-newsletter').html(resultado);
 		});
-	}); 
+	});
 
     //=================================== Accordion  =================================//
-	
-	$('.accordion-container').hide(); 
+
+	$('.accordion-container').hide();
 	$('.accordion-trigger:first').addClass('active').next().show();
 	$('.accordion-trigger').click(function(){
-		if( $(this).next().is(':hidden') ) { 
+		if( $(this).next().is(':hidden') ) {
 			$('.accordion-trigger').removeClass('active').next().slideUp();
 			$(this).toggleClass('active').next().slideDown();
 		}
@@ -95,10 +95,10 @@ $(document).ready(function($) {
 	});
 
 	//=================================== Parallax Efect =====================================//
-   
+
   	$('.bg_parallax').parallax("50%", .12);
 
-	//=================================== Ligbox  ===================================//	
+	//=================================== Ligbox  ===================================//
 
 	$("a[class*=ligbox-image]").fancybox({
 		overlayOpacity	:	0.7,
@@ -132,14 +132,14 @@ $(document).ready(function($) {
     		}
     	}
 	});
-	
+
 	//=============================  tooltip demo ===========================================//
 
     $('.tooltip-hover').tooltip({
         selector: "[data-toggle=tooltip]",
         container: "body"
     });
-	
+
 
 	//================================== Grid Gallery ====================================//
 
@@ -385,7 +385,7 @@ $(document).ready(function($) {
 	new WOW().init();
 
 	//================================ Participant Search ================================//
-	
+
 	 var $participant_list = $('li', 'ul.participants');
 	 if ($participant_list.length > 0) {
 	    $('#participant-search').keyup(function(e) {

@@ -337,6 +337,10 @@ FileETag None
   RewriteEngine On
   RewriteBase /
 
+  RewriteRule ^videos$ videos.html  [R,L]
+  RewriteRule ^gathering/videos$ videos.html [R,L]
+  RewriteRule ^gathering$ https://meeting-reg.com/redhat/2016/public/openshiftgathering [R=301,L]
+
 #  RewriteCond %{HTTP:X-Forwarded-Proto} !https
 #  RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 </IfModule>
@@ -501,6 +505,3 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
-
-# Redirects
-Redirect 301 /gathering https://meeting-reg.com/redhat/2016/public/openshiftgathering
