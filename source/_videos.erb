@@ -1,0 +1,11 @@
+<div class="videos">
+  <%= partial "video", :collection => videos %>
+</div>
+
+<% content_for :javascript do %>
+$('.video-thumbnail').click(function(){
+  $(this).css('padding', '0');
+  var ytvideo = '<div class="video-wrapper"><iframe src="https://www.youtube.com/embed/' +  $(this).attr('id') +  '?rel=0&showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe></div>';
+  $(this).html(ytvideo);
+})
+<% end %>
