@@ -27,6 +27,25 @@ $(document).ready(function($) {
 	    active: 'selected'
 	});
 
+	// Overrides specific text in the responsive nav. This provides added context when
+	// midding top level nav items
+	$('select.tinynav option').each(function (i, elem) {
+		switch (elem.value) {
+			case '/events.html':
+				elem.text = 'Briefing Events';
+				break;
+			case '/briefings.html':
+				elem.text = 'Briefing Videos';
+				break;
+			case 'https://meeting-reg.com/redhat/2016/public/openshiftgathering':
+				elem.text = 'Gathering Events';
+				break;
+			case '/videos.html':
+				elem.text = 'Gathering Videos';
+				break;
+		}
+	});
+
 	//=================================== Sticky nav ===================================//
 
 	// $(".nav_logo").sticky({topSpacing:0});
