@@ -236,7 +236,7 @@ participants:
 - name: "Dynatrace"
   link: "http://www.dynatrace.com/en/ruxit/technologies/cloud-and-microservices/openshift-monitoring/"
   logo: "commons-logos/dynatrace.png"
-- name: "Easier AG"
+- name: "easiER AG"
   link: "http://easier.ag/"
   logo: "commons-logos/easier.svg"
 - name: "EBRC"
