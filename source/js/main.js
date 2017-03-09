@@ -38,7 +38,10 @@ $(document).ready(function($) {
 				elem.text = 'Briefing Videos';
 				break;
 			case 'https://meeting-reg.com/redhat/2016/public/openshiftgathering':
-				elem.text = 'Gathering Events';
+				elem.text = 'Berlin Gathering Mar 28';
+				break;
+			case 'http://openshiftgathering.com/openshiftgathering/boston':
+				elem.text = 'Boston Gathering May 1';
 				break;
 			case '/videos.html':
 				elem.text = 'Gathering Videos';
