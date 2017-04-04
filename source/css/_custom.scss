@@ -736,3 +736,12 @@ ul.participants.list {
 #ai1ec-event-modal .clearfix {
   width: 100%;
 }
+
+// Eloqua form iframe
+#elq-iframe-signup-container {
+  iframe {
+	  width: 100%;
+		height: 570px; // fixed to current form
+		border: none;
+  }
+}
