@@ -6,7 +6,10 @@
   <% if video.featuring.length > 0 %>
   <div class="featuring">
     <div class="featuring-title">Featuring:&nbsp;</div>
-    <div class="featuring-participants"><%= video.featuring %></div>
+    <div class="featuring-participants">
+      <%= # prevents line wrapping after "and" and between first name and last name
+      video.featuring.gsub(/(?<!,)\ (?!and)/,"&nbsp;") %>
+    </div>
   </div>
   <% end %>
   <% if video.description.length > 0 %>
