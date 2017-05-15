@@ -36,80 +36,6 @@ description:  Where users, partners, customers, and contributors come together t
   </div>
 </section>
 
-<section class="content_info" id="colleagues">
-  <div class="info_resalt borders">
-    <div class="info_vertical">
-      <h1>
-        Commons
-        <span>Participants</span>
-      </h1>
-    </div>
-    <div class="container">
-      <div class="search">
-        <input id="participant-search" placeholder="Search participants">
-      </div>
-      <%= partial "participants", :object => data.participants.participants %>
-      <a class="list-link" href="/participants.html">View Participant List</a>
-    </div>
-  </div>
-</section>
-<section class="content_info">
-  <div class="vertical_line">
-    <div class="circle_bottom"></div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 simple-title">
-        <h2>
-          Supporting
-          <span>Quotes</span>
-        </h2>
-      </div>
-      <div class="col-md-12" id="carousel-team-members">
-        <div class="item-team">
-          <img alt="Getupcloud" class="logo" src="img/commons-logos/getupcloud.png">
-          <div class="col-md-10">
-            <blockquote>
-              OpenShift is critical to our business and the OpenShift Commons has given us a great opportunity to connect directly with other OpenShift ecosystem participants...
-            </blockquote>
-          </div>
-          <cite>
-            <div class="text-right">
-              <a href="/quotes.html#Getupcloud">Read More</a>
-            </div>
-          </cite>
-        </div>
-        <div class="item-team">
-          <img alt="Amadeus" class="logo" src="img/commons-logos/Amadeus_Logo.svg">
-          <div class="col-md-10">
-            <blockquote>
-              By participating in the OpenShift Commons, we are able to easily and proactively communicate with the community...
-            </blockquote>
-          </div>
-          <cite>
-            <div class="text-right">
-              <a href="/quotes.html#Amadeus">Read More</a>
-            </div>
-          </cite>
-        </div>
-        <div class="item-team">
-          <img alt="IDC" class="logo" src="img/commons-logos/idc_logo.png">
-          <div class="col-md-10">
-            <blockquote>
-              OpenShift Commons is a distinctive way of building a strong and open network of users, partners and open source community members...
-            </blockquote>
-          </div>
-          <cite>
-            <div class="text-right">
-              <a href="/quotes.html#IDC">Read More</a>
-            </div>
-          </cite>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="content_info" id="interests">
   <div class="info_resalt borders">
     <div class="row info_title">
@@ -195,6 +121,81 @@ description:  Where users, partners, customers, and contributors come together t
         </div>
       </div>
       <i class="fa fa-comments-o right"></i>
+    </div>
+  </div>
+</section>
+
+<section class="content_info">
+  <div class="vertical_line">
+    <div class="circle_bottom"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 simple-title">
+        <h2>
+          Supporting
+          <span>Quotes</span>
+        </h2>
+      </div>
+      <div class="col-md-12" id="carousel-team-members">
+        <div class="item-team">
+          <img alt="Getupcloud" class="logo" src="img/commons-logos/getupcloud.png">
+          <div class="col-md-10">
+            <blockquote>
+              OpenShift is critical to our business and the OpenShift Commons has given us a great opportunity to connect directly with other OpenShift ecosystem participants...
+            </blockquote>
+          </div>
+          <cite>
+            <div class="text-right">
+              <a href="/quotes.html#Getupcloud">Read More</a>
+            </div>
+          </cite>
+        </div>
+        <div class="item-team">
+          <img alt="Amadeus" class="logo" src="img/commons-logos/Amadeus_Logo.svg">
+          <div class="col-md-10">
+            <blockquote>
+              By participating in the OpenShift Commons, we are able to easily and proactively communicate with the community...
+            </blockquote>
+          </div>
+          <cite>
+            <div class="text-right">
+              <a href="/quotes.html#Amadeus">Read More</a>
+            </div>
+          </cite>
+        </div>
+        <div class="item-team">
+          <img alt="IDC" class="logo" src="img/commons-logos/idc_logo.png">
+          <div class="col-md-10">
+            <blockquote>
+              OpenShift Commons is a distinctive way of building a strong and open network of users, partners and open source community members...
+            </blockquote>
+          </div>
+          <cite>
+            <div class="text-right">
+              <a href="/quotes.html#IDC">Read More</a>
+            </div>
+          </cite>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content_info" id="colleagues">
+  <div class="info_resalt borders">
+    <div class="info_vertical">
+      <h1>
+        Commons
+        <span>Participants</span>
+      </h1>
+    </div>
+    <div class="container">
+      <div class="search">
+        <input id="participant-search" placeholder="Search participants">
+      </div>
+      <%= partial "participants", :object => data.participants.participants %>
+      <a class="list-link" href="/participants.html">View Participant List</a>
     </div>
   </div>
 </section>
