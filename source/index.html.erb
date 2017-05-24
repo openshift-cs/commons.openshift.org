@@ -191,11 +191,16 @@ description:  Where users, partners, customers, and contributors come together t
       </h1>
     </div>
     <div class="container">
-      <div class="search">
-        <input id="participant-search" placeholder="Search participants">
+      <div class="row">
+        <div class="col-md-12">
+          <%= partial "participants_carousel", :object => data.participants.participants %>
+        </div>
       </div>
-      <%= partial "participants", :object => data.participants.participants %>
-      <a class="list-link" href="/participants.html">View Participant List</a>
+      <div class="row">
+        <div class="col-md-12">
+          <a class="list-link" href="/participants.html">View the Full Participant List (<%= data.participants.participants.count %> members)</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
