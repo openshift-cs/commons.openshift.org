@@ -421,6 +421,42 @@ a.list-link {
   margin: 10px 0;
 }
 
+#participant-carousel {
+	width: 100%;
+	overflow: hidden;
+	font-size: 24px;
+	line-height: 70px;
+	padding: 10px;
+	margin: 2em auto;
+	text-align: center;
+
+	img {
+		max-width: 140px;
+		max-height: 60px;
+	}
+
+	.participant-logo {
+		display: inline-block;
+		width: 140px;
+		height: 60px;
+		margin: 5px 20px;
+	}
+
+	&.carousel.slide {
+		max-width: 100%;
+	}
+
+	&>.carousel-inner {
+		// width: 100%;
+		display: table;
+		margin: 0 auto;
+	}
+
+	.carousel-control {
+		background: none;
+	}
+}
+
 ul.participants.list {
   list-style-type: none;
   margin: 0;
