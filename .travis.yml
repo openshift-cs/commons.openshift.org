@@ -11,7 +11,7 @@ script:
 - |
   if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
     echo -e "Host commons-osdevelopers.rhcloud.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config;
-    openssl aes-256-cbc -K $encrypted_4db62d3545df_key -iv $encrypted_4db62d3545df_iv -in id_rsa_deploy.enc -out id_rsa_deploy -d;
+    openssl aes-256-cbc -K $encrypted_cb202bc44af1_key -iv $encrypted_cb202bc44af1_iv -in id_rsa_deploy.enc -out id_rsa_deploy -d;
     chmod 600 id_rsa_deploy;
     eval "$(ssh-agent -s)";
     ssh-add id_rsa_deploy;
