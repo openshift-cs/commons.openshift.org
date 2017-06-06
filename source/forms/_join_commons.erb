@@ -1,37 +1,5 @@
-<script>
-  var submitted=false;
-</script>
 
-<iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted) {window.location='formsubmit.html';}" style="display:none;"></iframe>
-<form action="https://docs.google.com/forms/d/e/1FAIpQLScNLx9k9dVJHNZywK_-THPdpVxthJlghYDfbOZv6SgUYFVQVw/formResponse" method="post" onsubmit="submitted=true;" target="hidden_iframe">
-  <div class="form-group">
-    First Name
-    <input aria-label="First Name" class="form-control" dir="auto" id="entry_1930010579" name="entry.1930010579" required="" title="" type="text" value="">
-  </div>
-  <div class="form-group">
-    Last Name
-    <input aria-label="Last Name" class="form-control" dir="auto" id="entry_413829789" name="entry.413829789" required="" title="" type="text" value="">
-  </div>
-  <div class="form-group">
-    Company Name
-    <input aria-label="Company Name" class="form-control" dir="auto" id="entry_1964111368" name="entry.1964111368" required="" title="" type="text" value="">
-  </div>
-  <div class="form-group">
-    Email Address
-    <input aria-label="Email Address  Must enter a valid email address" class="form-control" dir="auto" id="entry_650465355" name="entry.650465355" required="" title="Must enter a valid email address" type="email" value="">
-  </div>
-  <input name="draftResponse" type="hidden" value='[,,"5508384116794069576"]'>
-  <input name="pageHistory" type="hidden" value="0">
-  <input name="fbzx" type="hidden" value="5508384116794069576">
-  <div class="ss-item ss-navigate">
-    <table id="navigation-table">
-      <tbody>
-        <tr>
-          <td class="ss-form-entry goog-inline-block" dir="ltr" id="navigation-buttons">
-            <button class="btn btn-default" name="submit" type="submit" value="Submit">Submit</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</form>
+<!-- Eloqua form ifram (allowed domain workaround) -->
+<div id="elq-iframe-signup-container">
+  <iframe src="https://engage.redhat.com/opensource-commons-newsletter" scrolling="no"></iframe>
+</div>
