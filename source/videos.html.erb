@@ -54,7 +54,13 @@ description:  OpenShift Commons Gathering Videos
 
 <% content_for :javascript do %>
   $(document).ready(function() {
-    $('.videos.active>.video').matchHeight();
-    $('.videos.active>.video>.title').matchHeight();
+    if ($('.videos.active>.video').length) {
+      $('.videos.active>.video').matchHeight();
+      $('.videos.active>.video>.title').matchHeight();
+    } else {
+      // assume no categorized videos -> no active bootstrap tab
+      $('.videos>.video').matchHeight();
+      $('.videos>.video>.title').matchHeight();
+    }
   });
 <% end %>
