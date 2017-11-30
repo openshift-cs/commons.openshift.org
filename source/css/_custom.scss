@@ -745,3 +745,54 @@ ul.participants.list {
 		border: none;
   }
 }
+
+// blog feeds on SIG sign up form
+#blog-feed-sig {
+  .blog-item {
+	  margin: 0 0 5px;
+		padding-bottom: 1em;
+	}
+
+	.blog-article {
+		h3 {
+			font-size: 20px;
+		}
+		i{
+			font-size: 25px;
+			line-height: 45px;
+			float: left;
+			margin-right: 20px;
+			font-weight: lighter;
+			width: 45px;
+			height: 45px;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border-radius: 6px;
+			color: #CC0000;
+			text-align: center;
+		}
+	}
+
+  @media (max-width: $screen-sm-max) {
+    .blog-item {
+			margin: 0;
+			padding-bottom: 0;
+		}
+		.blog-article {
+			h3 {
+				font-size: 12pt;
+				line-height: 24px;
+				padding-bottom: 5px;
+				border-bottom: 1px solid #E5E7E8;
+			}
+		  i {
+			  display: none;
+		  }
+		}
+
+		.blog-article-description {
+			display: none;
+		}
+	}
+
+}
