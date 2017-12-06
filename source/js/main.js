@@ -37,11 +37,11 @@ $(document).ready(function($) {
 			case '/briefings.html':
 				elem.text = 'Briefing Videos';
 				break;
-			case 'http://openshiftgathering.com/openshiftgathering/Amadeus':
-				elem.text = 'France Gathering (Sept 11-12)';
-				break;
 			case 'http://openshiftgathering.com/openshiftgathering/austin':
 				elem.text = 'Austin Gathering (Dec 5)';
+				break;
+			case 'http://openshiftgathering.com/openshiftgathering/sanfran':
+				elem.text = 'San Francisco Gathering (May 7)';
 				break;
 			case '/videos.html':
 				elem.text = 'Gathering Videos';
