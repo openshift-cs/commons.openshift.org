@@ -18,17 +18,27 @@ set :js_dir, 'js'
 ###
 page "/sitemap.xml", layout: false
 
-# Development-specific configuration
+# Reload the browser automatically whenever files change
 configure :development do
-  activate :php
+  set :site_url, 'https://commons-openshift.c9.io/'
+  set :openshift_assets, 'https://assets-openshift.c9.io/content'
 end
 
 # Build-specific configuration
 configure :build do
   config.ignored_sitemap_matchers[:source_dotfiles] = proc { |file|
-    file =~ %r{/\.} && file !~ %r{/\.(s2i|openshift|htaccess|htpasswd|nojekyll|git)|containers}
+    file =~ %r{/\.} && file !~ %r{/\.(openshift|htaccess|htpasswd|nojekyll|git)}
   }
 
   activate :minify_css
   activate :minify_javascript
+end
+
+# Deployment configuration
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = false # default: false
+  deploy.remote = 'production' # remote name or git url
+  deploy.strategy = :force_push
+  deploy.branch = 'master' # default: gh-pages
 end
