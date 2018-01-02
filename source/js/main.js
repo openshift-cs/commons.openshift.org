@@ -40,6 +40,9 @@ $(document).ready(function($) {
 			case 'http://openshiftgathering.com/openshiftgathering/austin':
 				elem.text = 'Austin Gathering (Dec 5)';
 				break;
+			case 'http://london-openshift-gathering-2018.s3-website.eu-west-2.amazonaws.com/':
+				elem.text = 'London Gathering (Jan 31)';
+				break;
 			case 'http://openshiftgathering.com/openshiftgathering/sanfran':
 				elem.text = 'San Francisco Gathering (May 7)';
 				break;
