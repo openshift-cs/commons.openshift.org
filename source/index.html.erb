@@ -66,36 +66,35 @@ description:  Where users, partners, customers, and contributors come together t
   </div>
 </section>
 
+
+
 <section class="content_info" id="blog">
-  <div class="vertical_line">
-    <div class="circle_bottom"></div>
-  </div>
-  <div class="row info_title wow fadeInUp">
-    <div class="info_vertical animated">
+  <div class="info_resalt no-bottom">
+    <div class="info_vertical">
       <h1>
         Commons
         <span>Blog Articles</span>
       </h1>
     </div>
-  </div>
-  <div class="container wow fadeInUp padding_bottom">
-    <div class="row-fluid">
-      <div class="col-md-8 col-xs-12">
-          <p class="lead">OpenShift Blog is full of great content. If we're to select our top three favorite blog posts, we'd recommend you to have a look on these...</p>
-        <%= partial "featured_articles", :object => data.featured_blogs.blogs %>
-      </div>
-      <div class="col-md-4 col-xs-12" id="blog-feed-wrapper">
-        <div class="row">
-          <div class="col-md-12">
-            <h3><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;Latest blog posts</h3>
-          </div>
+    <div class="container wow fadeInUp padding_bottom">
+      <div class="row-fluid">
+        <div class="col-md-8 col-xs-12">
+            <p class="lead">The OpenShift Blog is full of great content. Take a look at our top three recommended blog posts.</p>
+          <%= partial "featured_articles", :object => data.featured_blogs.blogs %>
         </div>
-        <%= partial "commons_articles" %>
+        <div class="col-md-4 col-xs-12" id="blog-feed-wrapper">
+          <div class="row">
+            <div class="col-md-12">
+              <h3><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;Latest blog posts</h3>
+            </div>
+          </div>
+          <%= partial "commons_articles" %>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1 text-center more-btn" id="blog-btn">
-        <a class="btn btn-primary" href="https://blog.openshift.com/" target="_blank">OpenShift Blog&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1 text-center more-btn" id="blog-btn">
+          <a class="btn btn-primary" href="https://blog.openshift.com/" target="_blank">OpenShift Blog&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+        </div>
       </div>
     </div>
   </div>
@@ -120,7 +119,7 @@ description:  Where users, partners, customers, and contributors come together t
             </div>
             <cite>
               <div class="text-right">
-                <a href="/quotes.html#Getupcloud">Read More</a>
+                <a href="/testimonials.html#Getupcloud">Read More</a>
               </div>
             </cite>
           </div>
@@ -133,7 +132,7 @@ description:  Where users, partners, customers, and contributors come together t
             </div>
             <cite>
               <div class="text-right">
-                <a href="/quotes.html#Amadeus">Read More</a>
+                <a href="/testimonials.html#Amadeus">Read More</a>
               </div>
             </cite>
           </div>
@@ -146,7 +145,7 @@ description:  Where users, partners, customers, and contributors come together t
             </div>
             <cite>
               <div class="text-right">
-                <a href="/quotes.html#IDC">Read More</a>
+                <a href="/testimonials.html#IDC">Read More</a>
               </div>
             </cite>
           </div>

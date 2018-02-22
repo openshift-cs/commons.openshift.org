@@ -810,19 +810,25 @@ ul.participants.list {
 	padding-bottom: 10px;
 }
 
-// event calendar custom button
-.more-btn {
-  padding-top: 20px;
+#upcoming {
 
-  &> a {
-	  font-size: 18px;
-  }
+  // reduce reflow by reserving space for the widget
+  .container:first-child {
+		min-height: 462px;
+	}
+
+	// event calendar custom button
+	.more-btn {
+	  padding-top: 20px;
+
+	  &> a {
+		  font-size: 18px;
+	  }
+	}
 }
 
 // blog section
 #blog {
-	background-color: rgb(245, 245, 245);
-
   #featured-blog {
  		margin-bottom: 1.5em;
 
