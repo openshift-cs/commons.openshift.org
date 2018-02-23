@@ -794,5 +794,71 @@ ul.participants.list {
 			display: none;
 		}
 	}
+}
 
+// Eloqua SIG form iframe
+#elq-iframe-SIG-container {
+  iframe {
+	  width: 100%;
+		height: 360px;
+		border: none;
+  }
+}
+
+// tigther spacing between the signup form and upcoming events
+#join > #try > .padding_bottom {
+	padding-bottom: 10px;
+}
+
+#upcoming {
+
+  // reduce reflow by reserving space for the widget
+  .container:first-child {
+		min-height: 462px;
+	}
+
+	// event calendar custom button
+	.more-btn {
+	  padding-top: 20px;
+
+	  &> a {
+		  font-size: 18px;
+	  }
+	}
+}
+
+// blog section
+#blog {
+  #featured-blog {
+ 		margin-bottom: 1.5em;
+
+		.featured-blog-image {
+			display: inline;
+			float: left;
+			img {
+				border: 0 none;
+				display: inline-block;
+				height: auto;
+				max-width: 150px;
+				margin-right: 20px;
+				vertical-align: middle;
+			}
+		}
+
+		.featured-blog-description {
+			display: inline;
+		}
+	}
+
+  #blog-feed-wrapper {
+		border: 1px solid #e6e6e6;
+		background-color: white;
+	}
+
+}
+
+#interests {
+	.info_title i.right {
+		font-size: 10em;
+	}
 }
