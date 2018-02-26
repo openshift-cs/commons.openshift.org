@@ -820,10 +820,6 @@ ul.participants.list {
 	// event calendar custom button
 	.more-btn {
 	  padding-top: 20px;
-
-	  &> a {
-		  font-size: 18px;
-	  }
 	}
 }
 
@@ -861,4 +857,8 @@ ul.participants.list {
 	.info_title i.right {
 		font-size: 10em;
 	}
+}
+
+.more-btn>a {
+	font-size: 18px;
 }

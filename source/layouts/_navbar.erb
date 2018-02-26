@@ -4,16 +4,16 @@
       <nav class="col-md-12">
         <ul class="sf-menu" id="menu">
           <li>
-            <a href="/index.html#join">Join Commons</a>
+            <a href="<% if !current_page.path.include? "index.html" %><%= "/index.html" %><% end %>#join">Join Commons</a>
           </li>
           <li>
-            <a href="/index.html#interests">Interests</a>
+            <a href="<% if !current_page.path.include? "index.html" %><%= "/index.html" %><% end %>#interests">Interests</a>
           </li>
           <li>
-            <a href="/index.html#blog">Blog</a>
+            <a href="<% if !current_page.path.include? "index.html" %><%= "/index.html" %><% end %>#blog">Blog</a>
           </li>
           <li>
-            <a href="/index.html#colleagues">Participants</a>
+            <a href="<% if !current_page.path.include? "index.html" %><%= "/index.html" %><% end %>#colleagues">Participants</a>
           </li>
           <li>Briefings
             <ul>
