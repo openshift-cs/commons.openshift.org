@@ -1,0 +1,241 @@
+---
+kind: "Template"
+apiVersion: "v1"
+metadata:
+  name: "public-middleman-website"
+  annotations:
+    openshift.io/display-name: "Public Middleman Static Website"
+    description: "Takes files created for static site generator Middleman (https://middlemanapp.com/) from a public source repo, builds them in Ruby, and deploys them in a PHP container."
+    tags: "ruby,middleman"
+    iconClass: "icon-shadowman"
+    template.openshift.io/long-description: "This template defines resources needed to develop a Middleman application, including a build configuration and application deployment configuration."
+    template.openshift.io/provider-display-name: "Red Hat, Inc."
+message: "The following service(s) have been created in your project: ${NAME}."
+labels:
+  template: "middleman-website"
+objects:
+  - kind: "Service"
+    apiVersion: "v1"
+    metadata:
+      name: "${NAME}"
+      annotations:
+        description: "Exposes and load balances the frontend application pods"
+      labels:
+        app: "${NAME}"
+    spec:
+      ports:
+        - name: "http"
+          port: 8080
+          targetPort: 8080
+      selector:
+        name: "${NAME}"
+
+  - kind: "Route"
+    apiVersion: "v1"
+    metadata:
+      name: "${NAME}"
+      labels:
+        app: "${NAME}"
+    spec:
+      host: "${APPLICATION_DOMAIN}"
+      to:
+        kind: "Service"
+        name: "${NAME}"
+        weight: 1
+      tls:
+        termination: "edge"
+        insecureEdgeTerminationPolicy: "Redirect"
+
+  - kind: "ImageStream"
+    apiVersion: "v1"
+    metadata:
+      name: "stg1-${NAME}"
+      annotations:
+        description: "Keeps track of changes in the stg1-${NAME} application image"
+      labels:
+        app: "${NAME}"
+
+  - kind: "ImageStream"
+    apiVersion: "v1"
+    metadata:
+      name: "final-${NAME}"
+      annotations:
+        description: "Keeps track of changes in the final-${NAME} application image"
+      labels:
+        app: "${NAME}"
+
+  - kind: "BuildConfig"
+    apiVersion: "v1"
+    metadata:
+      name: "stg1-${NAME}"
+      annotations:
+        description: "Defines how to perform stage 1 build for ${NAME}"
+      labels:
+        app: "${NAME}"
+    spec:
+      nodeSelector:
+      source:
+        type: "Git"
+        git:
+          uri: "${SOURCE_REPOSITORY_URL}"
+          ref: "${SOURCE_REPOSITORY_REF}"
+        contextDir: "${CONTEXT_DIR}"
+      strategy:
+        type: "Source"
+        sourceStrategy:
+          incremental: true
+          from:
+            kind: "ImageStreamTag"
+            namespace: "${NAMESPACE}"
+            name: "ruby:2.5"
+      output:
+        to:
+          kind: "ImageStreamTag"
+          name: "stg1-${NAME}:latest"
+      triggers:
+        - type: "ImageChange"
+        - type: "ConfigChange"
+
+  - kind: "BuildConfig"
+    apiVersion: "v1"
+    metadata:
+      name: "final-${NAME}"
+      annotations:
+        description: "Defines how to perform final build for ${NAME} before deployment"
+      labels:
+        app: "${NAME}"
+    spec:
+      nodeSelector:
+      source:
+        type: "Images"
+        images:
+          - from:
+              kind: "ImageStreamTag"
+              name: "stg1-${NAME}:latest"
+            paths:
+              - sourcePath: "/opt/app-root/src/build/."
+                destinationDir: "."
+      strategy:
+        type: "Source"
+        sourceStrategy:
+          from:
+            kind: "ImageStreamTag"
+            namespace: "${NAMESPACE}"
+            name: "php:7.1"
+      output:
+        to:
+          kind: "ImageStreamTag"
+          name: "final-${NAME}:latest"
+      triggers:
+        - imageChange:
+            from:
+              kind: ImageStreamTag
+              name: 'stg1-${NAME}:latest'
+          type: "ImageChange"
+        - type: "ConfigChange"
+
+  - kind: "DeploymentConfig"
+    apiVersion: "v1"
+    metadata:
+      name: "${NAME}"
+      annotations:
+        description: "Defines how to deploy ${APPLICATION_DOMAIN}"
+      labels:
+        app: "${NAME}"
+    spec:
+      strategy:
+        type: "Rolling"
+      triggers:
+        - type: "ImageChange"
+          imageChangeParams:
+            automatic: true
+            containerNames:
+              - "${NAME}"
+            from:
+              kind: "ImageStreamTag"
+              name: "final-${NAME}:latest"
+        - type: "ConfigChange"
+      replicas: 1
+      test: false
+      selector:
+        name: "${NAME}"
+      template:
+        metadata:
+          name: "${NAME}"
+          labels:
+            name: "${NAME}"
+            app: "${NAME}"
+        spec:
+          containers:
+            - name: "${NAME}"
+              ports:
+                - containerPort: 8080
+              readinessProbe:
+                timeoutSeconds: 3
+                initialDelaySeconds: 5
+                httpGet:
+                  path: "/${HEALTHCHECK_PATH}"
+                  port: 8080
+              livenessProbe:
+                timeoutSeconds: 3
+                initialDelaySeconds: 10
+                httpGet:
+                  path: "/${HEALTHCHECK_PATH}"
+                  port: 8080
+              resources:
+                requests:
+                  cpu: "${CPU_REQUEST}"
+                  memory: "${MEMORY_REQUEST}"
+                limits:
+                  cpu: "${CPU_REQUEST}"
+                  memory: "${MEMORY_REQUEST}"
+
+parameters:
+  - name: "NAME"
+    displayName: "Application name"
+    description: "The name assigned to all of the application components defined in this template."
+    required: true
+    value: ""
+
+  - name: "APPLICATION_DOMAIN"
+    displayName: "Application Hostname"
+    description: "The exposed hostname that will route to the PHP service."
+    value: ""
+
+  - name: "HEALTHCHECK_PATH"
+    displayName: "URI path to a known, working web page."
+    description: "The URI path to a known, working web page for testing liveness and readiness probes. Exclude leading '/'"
+    required: true
+    value: "index.html"
+
+  - name: "SOURCE_REPOSITORY_URL"
+    displayName: "Git Repository URL"
+    description: "The URL of the repository with your application source code."
+    required: true
+    value: "."
+
+  - name: "SOURCE_REPOSITORY_REF"
+    displayName: "Git Reference"
+    description: "Set this to a branch name, tag or other ref of your repository if you are not using the default branch."
+
+  - name: "CONTEXT_DIR"
+    displayName: "Context Directory"
+    description: "Set this to the relative path to your project if it is not in the root of your repository."
+
+  - name: "CPU_REQUEST"
+    displayName: "CPU Request"
+    description: "Requested amount of cpu the PHP container will use."
+    required: true
+    value: "200m"
+
+  - name: "MEMORY_REQUEST"
+    displayName: "Memory Request"
+    description: "Requested amount of memory the PHP container will use."
+    required: true
+    value: "256Mi"
+
+  - name: "NAMESPACE"
+    displayName: "Namespace"
+    description: "The OpenShift Namespace where the Ruby s2i builder ImageStream resides."
+    required: true
+    value: "openshift"
