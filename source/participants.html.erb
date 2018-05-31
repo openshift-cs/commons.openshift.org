@@ -42,6 +42,7 @@ description:  A community of collaborators working together.
   </div>
 </div>
 
+<!-- Search Participants -->
 <section class="content_info">
   <div class="container">
     <div class="row">
@@ -49,8 +50,23 @@ description:  A community of collaborators working together.
         <div class="search">
           <input id="participant-search" placeholder="Search participants">
         </div>
+      </div>
+    </div>
+    <br>
+
+<!-- List Participants -->
+    <div class="row">
+      <div class="col-lg-4 col-xs-6"><!-- Left Col -->
+        <%= partial "participants_list", :object => data.participants.participants %>
+      </div>
+      <div class="col-lg-4 col-xs-6"><!-- Centre Col -->
+        <%= partial "participants_list", :object => data.participants.participants %>
+      </div>
+      <div class="col-lg-4 col-xs-6"><!-- Right Col -->
         <%= partial "participants_list", :object => data.participants.participants %>
       </div>
     </div>
+
+
   </div>
 </section>
