@@ -1,8 +1,8 @@
 <li data-participantName="<%= participant_list.name.downcase %>">
-  <div class="col-sm-4 logo">
+  <div class="col-sm-5 logo">
     <%= image_tag participant_list.logo, :alt => participant_list.name %>
   </div>
-  <div class="col-sm-8 hidden-xs participant-name">
+  <div class="col-sm-7 hidden-xs participant-name">
     <%= link_to participant_list.name, participant_list.link, target: "_blank" %>
   </div>
 </li>

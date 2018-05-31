@@ -56,14 +56,17 @@ description:  A community of collaborators working together.
 
 <!-- List Participants -->
     <div class="row">
-      <div class="col-lg-4 col-xs-6"><!-- Left Col -->
-        <%= partial "participants_list", :object => data.participants.participants %>
+      <div class="col-lg-3 col-xs-6"><!-- 1st Col -->
+        <%= partial "participants_list", :object => data.participants.participants.select.with_index{ | _, i | (i + 1) % 4 == 1 } %>
       </div>
-      <div class="col-lg-4 col-xs-6"><!-- Centre Col -->
-        <%= partial "participants_list", :object => data.participants.participants %>
+      <div class="col-lg-3 col-xs-6"><!-- 2nd Col -->
+        <%= partial "participants_list", :object => data.participants.participants.select.with_index{ | _, i | (i + 1) % 4 == 2 } %>
       </div>
-      <div class="col-lg-4 col-xs-6"><!-- Right Col -->
-        <%= partial "participants_list", :object => data.participants.participants %>
+      <div class="col-lg-3 col-xs-6"><!-- 3rd Col -->
+        <%= partial "participants_list", :object => data.participants.participants.select.with_index{ | _, i | (i + 1) % 4 == 3 } %>
+      </div>
+      <div class="col-lg-3 col-xs-6"><!-- 4th Col -->
+        <%= partial "participants_list", :object => data.participants.participants.select.with_index{ | _, i | (i + 1) % 4 == 0 } %>
       </div>
     </div>
 
