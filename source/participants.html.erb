@@ -48,28 +48,21 @@ description:  A community of collaborators working together.
     <div class="row">
       <div class="col-md-12">
         <div class="search">
-          <input id="participant-search" placeholder="Search participants">
+          <!--<input id="participant-search" placeholder="Search participants">-->
+          <input type="text" id="quicksearch" placeholder="Search participants" />
         </div>
       </div>
     </div>
     <br>
 
 <!-- List Participants -->
-    <div class="row">
-      <div class="col-lg-3 col-xs-6"><!-- 1st Col -->
-        <%= partial "participants_list", :object => data.participants.participants.select.with_index{ | _, i | (i + 1) % 4 == 1 } %>
-      </div>
-      <div class="col-lg-3 col-xs-6"><!-- 2nd Col -->
-        <%= partial "participants_list", :object => data.participants.participants.select.with_index{ | _, i | (i + 1) % 4 == 2 } %>
-      </div>
-      <div class="col-lg-3 col-xs-6"><!-- 3rd Col -->
-        <%= partial "participants_list", :object => data.participants.participants.select.with_index{ | _, i | (i + 1) % 4 == 3 } %>
-      </div>
-      <div class="col-lg-3 col-xs-6"><!-- 4th Col -->
-        <%= partial "participants_list", :object => data.participants.participants.select.with_index{ | _, i | (i + 1) % 4 == 0 } %>
-      </div>
-    </div>
-
-
+<div class="container-fluid">
+  <div class="grid"><!-- add extra container element for Masonry -->
+    <div class="grid-sizer col-lg-4 col-xs-6"></div><!-- add sizing element for columnWidth -->
+      <%= partial "participants_list", :object => data.participants.participants %>
   </div>
+</div>
+
+
+</div>
 </section>
