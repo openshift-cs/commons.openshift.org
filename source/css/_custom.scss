@@ -864,3 +864,83 @@ ul.participants.list {
   padding: 5px 15px;
   margin: 10px 0;
 }
+/* Gathering Event / Landing Page ------------------------------------------*/
+.nav-center {
+  text-align: center;
+  ul.nav {
+    display: inline-block;
+    li {
+      display: inline
+      a {
+        float: left
+      }
+    }
+  }
+}
+.btn-event {
+	padding-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+	width:240px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	p{
+		font-size: 16px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+}
+.apply {
+border: 2px solid rgb(100, 149, 237);
+	a {
+			color: rgb(100, 149, 237);
+	}
+}
+.buy {
+border: 2px solid #DB212F;
+	a {
+	    color: #DB212F;
+	}
+}
+.event-box {
+border: 1px solid #eee;
+padding: 20px 0px;
+text-align: left;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
+}
+.sponsor-height {
+	min-height: 138px;
+	img {
+		padding:0px;
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;
+		max-height: 120px;
+		}
+	}
+.schedule-list {
+	padding: 0 20px;
+}
+.schedule-list-border-left {
+	border-left:2px solid #eee;
+}
+.section-gathering {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.section-gathering-secondary {
+	background: #f7f5f2;
+}
+.speaker-img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:175px;
+}
+.map-box {
+border: 1px solid #eee;
+padding: 8px 8px 0px 8px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
+position:relative;
+}
