@@ -1,8 +1,12 @@
-<li data-participantName="<%= participant_list.name.downcase %>">
-  <div class="col-md-2 logo">
-    <%= image_tag participant_list.logo, :alt => participant_list.name %>
+<div class="grid-item col-lg-4 col-xs-6"><!-- items use Bootstrap .col- classes -->
+  <div class="grid-item-content"><!-- wrap item content in its own element -->
+    <li data-participantName="<%= participant_list.name.downcase %>">
+      <div class="col-sm-5 logo">
+        <%= image_tag participant_list.logo, :alt => participant_list.name %>
+      </div>
+      <div class="col-sm-7 hidden-xs participant-name">
+        <%= link_to participant_list.name, participant_list.link, target: "_blank" %>
+      </div>
+    </li>
   </div>
-  <div class="col-md-10 participant-name">
-    <%= link_to participant_list.name, participant_list.link %>
-  </div>
-</li>
+</div>

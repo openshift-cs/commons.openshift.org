@@ -466,17 +466,13 @@ ul.participants.list {
     width: 100%;
     overflow: hidden;
     height: 80px;
-    font-size: 24px;
-    line-height: 50px;
-    padding: 10px;
+    font-size: 18px;
     margin: 0;
-    border: solid #eee;
-    border-width: 1px 0;
     text-align: left;
 
     .logo {
-      display: table-cell;
-      text-align: right;
+      display: block;
+      text-align: left;
       vertical-align: middle;
     }
 
@@ -861,4 +857,10 @@ ul.participants.list {
 
 .more-btn>a {
 	font-size: 18px;
+}
+
+#quicksearch {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 10px 0;
 }
