@@ -864,61 +864,78 @@ ul.participants.list {
   padding: 5px 15px;
   margin: 10px 0;
 }
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
 /* Gathering Event / Landing Page ------------------------------------------*/
-.nav-center {
-  text-align: center;
-  ul.nav {
-    display: inline-block;
-    li {
-      display: inline
-      a {
-        float: left
-      }
-    }
-  }
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+.ocg-img {
+	margin-bottom: 30px;
 }
 .btn-event {
-	padding-top:20px;
+	padding:15px 10px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom: 20px;
-	width:240px;
-	background-color: #ffffff;
-	border-radius: 8px;
-	p{
-		font-size: 16px;
-		font-weight: 500;
+	width:246px;
+	//background-color: #ffffff;
+	border-radius: 30px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.46);
+	p {
+		font-size: 18px;
+		font-weight: 600;
 		text-transform: uppercase;
+		margin: 0 0 0 0;
 	}
+	a {
+			color: #FFF;
+			text-decoration: none;
+	}
+}
+.btn-event:hover {
+  box-shadow: 0 7px 14px rgba(0,0,0,0.50), 0 5px 5px rgba(0,0,0,0.44);
 }
 .apply {
+background: rgb(100, 149, 237);
 border: 2px solid rgb(100, 149, 237);
-	a {
-			color: rgb(100, 149, 237);
-	}
 }
 .buy {
+background: #DB212F;
 border: 2px solid #DB212F;
-	a {
-	    color: #DB212F;
-	}
 }
 .event-box {
 border: 1px solid #eee;
+background: #FFF;
 padding: 20px 0px;
 text-align: left;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
+box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
 }
 .sponsor-height {
-	min-height: 138px;
+min-height: 138px;
 	img {
 		padding:0px;
 		margin-left:auto;
 		margin-right:auto;
 		width:100%;
 		max-height: 120px;
-		}
 	}
+}
+.event-overview {
+font-size:18px;
+margin: 0 20px;
+}
+.event-span-red {
+	color: #DB212F;
+	font-weight:700;
+}
+.event-invite {
+	font-size:1.2em;
+}
+.event-cal-img {
+	width:120px;
+}
 .schedule-list {
 	padding: 0 20px;
 }
@@ -938,9 +955,191 @@ text-align: left;
 	display:block;
 	width:175px;
 }
+.speaker-text {
+	text-decoration: none;
+}
 .map-box {
 border: 1px solid #eee;
+background: #FFF;
 padding: 8px 8px 0px 8px;
 box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
 position:relative;
+	iframe {
+		border: none;
+	}
+}
+
+/*  SelectNav Short Main Menu Navigation (Gathering pages only) -----------------------------*/
+.selectnav, {
+	display: block;
+	border-radius: 5px;
+	margin:0;
+	float: right;
+	padding-top: 7px;
+	top: 0;
+	background: #eee;
+}
+#short-main-menu {
+	display: none;
+}
+@media (max-width: 600px) {
+  .js #short-main-menu { display: none; }
+  .js .selectnav { display: block; }
+}
+.selectnav_menu {
+	position: absolute;
+	top: 0;
+	background-color: transparent;
+	width: 100%;
+	z-index: 999;
+	padding: 15px 0;
+	.commons & {
+  	background-color: transparent;
+	}
+}
+.layout-boxed .selectnav_menu,
+.layout-boxed-margin .selectnav_menu,{
+	max-width: 1230px;
+}
+
+/*  Gathering Breadcrumb Menu (Gathering pages only) -----------------------------------------*/
+.nav-center {
+  text-align: center;
+  ul.nav {
+    display: inline-block;
+    li {
+      display: inline;
+      a {
+        float: left
+      }
+    }
+  }
+}
+.gathering_menu {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 20, 37, .35);
+	width: 100%;
+	z-index: 999;
+	padding: 15px 0;
+	color:#FFF;
+	.commons & {
+  	background-color: rgba(17, 17, 17, 0.5);
+	}
+	ul {
+	padding: 0px;
+		li{
+			position: relative;
+			float:left;
+			list-style: none;
+			line-height: 20px;
+			margin:0 10px 0 0;
+			a {
+				text-decoration:none;
+				font-size:16px;
+				font-weight: lighter;
+				color:#FFF;
+			}
+		}
+	}
+}
+.layout-boxed .gathering_menu,
+.layout-boxed-margin .gathering_menu,{
+	max-width: 1230px;
+}
+@media (max-width: 980px) {
+	.gathering_menu {
+		background-color: transparent;
+		.commons & { background-color: transparent; }
+	}
+}
+.crumbs-nav{
+	background: #f7f5f2;
+	padding: 0;
+}
+
+/*  Gathering Main Navigation -----------------------------------------*/
+.nav-center {
+  text-align: center;
+  ul.nav {
+    display: inline-block;
+    li {
+      display: inline;
+      a {
+        float: none;
+      }
+    }
+  }
+}
+.navbar-gathering {
+  background-color: #f7f5f2;
+	margin: 5px;
+}
+.navbar-gathering .navbar-text {
+  color: #069;
+}
+.navbar-gathering .navbar-nav {
+width: 100%;
+text-align: center;
+	> li {
+		float: none;
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+	}
+}
+.navbar-gathering .navbar-nav > li > a {
+  color: #069;
+	border-radius: 4px;
+	float: none;
+	display: inline-block;
+}
+.navbar-gathering .navbar-nav > li > a:hover,
+.navbar-gathering .navbar-nav > li > a:focus {
+  color: #069;
+  background-color: transparent;
+	background-color: #e7e7e7;
+}
+.navbar-gathering .navbar-nav > .active > a,
+.navbar-gathering .navbar-nav > .active > a:hover,
+.navbar-gathering .navbar-nav > .active > a:focus {
+	color: #069;
+}
+.navbar-gathering .navbar-toggle {
+  border-color: #ddd;
+	margin: 0;
+	margin-top: 4px;
+	border: none;
+	float: left;
+}
+.navbar-gathering .navbar-toggle:hover,
+.navbar-gathering .navbar-toggle:focus {
+  background-color: #f7f5f2;
+}
+.navbar-gathering .navbar-toggle .icon-bar {
+  background-color: #888;
+	width: 28px;
+	height: 2px;
+}
+.navbar-gathering .navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 8px;
+}
+.navbar-gathering .navbar-collapse,
+.navbar-gathering .navbar-form {
+  border-color: #e7e7e7;
+	margin-top: 10px;
+}
+.navbar-gathering .navbar-nav > .open > a,
+.navbar-gathering .navbar-nav > .open > a:hover,
+.navbar-gathering .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (min-width: 768px){
+    .navbar-nav{
+        float:left;
+    }
+		.navbar-gathering .navbar-collapse {
+			margin: 0px;
+		}
 }
