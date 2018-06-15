@@ -29,6 +29,15 @@
           </li>
           <li>Gatherings
             <ul>
+              <% data.gatherings.gatherings.each do |gathering| %>
+                <% if gathering.menu == "show" && Date.parse(gathering.date) >= Date.today %>
+                <li>
+                  <a href="/gatherings/<%= gathering.name.gsub(" ","_") %>.html">
+                    <%= gathering.name %>
+                  </a>
+                </li>
+                <% end %>
+              <% end %>
               <li>
                 <%# This text is overridden on Mobile in main.js %>
                 <a href="http://openshiftgathering.com/openshiftgathering/copenhagen" target="_blank">Copenhagen - May 1</a>

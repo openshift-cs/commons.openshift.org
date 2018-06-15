@@ -918,8 +918,9 @@ min-height: 138px;
 		padding:0px;
 		margin-left:auto;
 		margin-right:auto;
-		width:100%;
-		max-height: 120px;
+		max-width:140px;
+		height: auto;
+		width: 100%;
 	}
 }
 .event-overview {
@@ -933,6 +934,16 @@ margin: 0 20px;
 .event-invite {
 	font-size:1.2em;
 }
+
+#price {
+	h3 {
+		padding-bottom: 20px;
+	}
+  p {
+		margin-bottom: 10px;
+	}
+}
+
 .event-cal-img {
 	width:120px;
 }
@@ -945,19 +956,37 @@ margin: 0 20px;
 .section-gathering {
 	padding-bottom: 60px;
 	padding-top: 60px;
+
+	&>.additional-info {
+	  padding-top: 40px;
+	}
 }
 .section-gathering-secondary {
 	background: #f7f5f2;
 }
-.speaker-img {
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-	width:175px;
+
+.speaker-container {
+	.speaker-img {
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		width:175px;
+	}
+	.speaker-text {
+		text-decoration: none;
+	}
+
+	.popover-content {
+		color: black;
+	}
+
+	&:hover {
+		text-decoration: none;
+		filter: brightness(1.2);
+		cursor: default;
+	}
 }
-.speaker-text {
-	text-decoration: none;
-}
+
 .map-box {
 border: 1px solid #eee;
 background: #FFF;
@@ -968,6 +997,82 @@ position:relative;
 		border: none;
 	}
 }
+
+/* calendar icon definition */
+.calendar-icon {
+  font-size: 1em;
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  margin: 1em auto;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+
+	* {
+		display: block;
+	  width: 100%;
+	  font-size: 1em;
+	  font-style: normal;
+	  text-align: center;
+	}
+
+	strong {
+		// month text
+		position: absolute;
+		top: 0;
+		padding: 0.05em 0;
+		color: #fff;
+		background-color: #DB212F;
+		outline-style: dotted;
+		box-shadow: 0 2px 0 red;
+	}
+
+	em {
+		// weekday text
+		position: absolute;
+		bottom: 0.3em;
+		color: #044;
+	}
+
+	span {
+		// day number
+		width: 100%;
+	  font-size: 2.8em;
+	  letter-spacing: -0.05em;
+	  padding-top: 1em;
+	  color: #2f2f2f;
+	}
+
+	time.icon:hover, time.icon:focus
+	{
+	  -webkit-animation: shake 0.6s ease-out;
+	  animation: shake 0.6s ease-out;
+	  cursor: pointer;
+	}
+
+	@-webkit-keyframes shake {
+	  0%   { -webkit-transform: rotate(0deg)  skewY(0deg); }
+	  20%  { -webkit-transform: rotate(12deg) skewY(4deg); }
+	  60%  { -webkit-transform: rotate(-9deg) skewY(-3deg); }
+	  80%  { -webkit-transform: rotate(6deg)  skewY(-2deg); }
+	  100% { -webkit-transform: rotate(0deg)  skewY(0deg); }
+	}
+
+	@keyframes shake {
+	  0%   { transform: rotate(0deg)  skewY(0deg); }
+	  20%  { transform: rotate(12deg) skewY(4deg); }
+	  60%  { transform: rotate(-9deg) skewY(-3deg); }
+	  80%  { transform: rotate(6deg)  skewY(-2deg); }
+	  100% { transform: rotate(0deg)  skewY(0deg); }
+	}
+}  // calendar-icon
 
 /*  SelectNav Short Main Menu Navigation (Gathering pages only) -----------------------------*/
 .selectnav, {

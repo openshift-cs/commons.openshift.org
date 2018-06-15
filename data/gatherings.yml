@@ -1,0 +1,56 @@
+gatherings:
+  - name: "Seattle 2018"
+    menu: "show"
+    language: "English"
+    date: "2018-12-10"
+    time: "8:00 am - 5:30 pm"
+    location: "Seattle, Washington"
+    google_maps_URL: ""
+    venue: "Washington Convention Center"
+    venue_URL: ""
+    venue_address: ""
+    calendar_event_URL: ""
+    registration_text: ""
+    registration_URL: ""
+    pricing:
+      - label: "Early Bird"
+        price: "$99"
+      - label: "Standard"
+        price: "$149"
+    lead_text: "The OpenShift Commons Gathering will be co-located in Austin with <a href=\"http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-north-america\" target=\"_blank\">\
+                \ CNCF's KubeCon</a> at the <a href=\"http://www3.hilton.com/en/hotels/texas/hilton-austin-AUSCVHH/index.html\" target=\"_blank\">Hilton Austin</a>!"
+    info_text: "The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and\
+                \ the open source software projects that underpin the OpenShift ecosystem. The Austin event will gather developers, devops professionals and sysadmins together to explore\
+                \ the next steps in making container technologies successful and secure."
+    additional_info: "By being co-located in Austin with KubeCon at the Hilton Austin, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that\
+                     \ support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events."
+    invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+    sponsors:
+      - name: "1901 Group"
+      - name: "3scale"
+      - name: "6fusion"
+      - name: "8 ions"
+      - name: "99 Cloud"
+    sponsoring_URL: "foo"
+    schedule:
+      - id: "breakfast"
+        local_time: "8:00 am"
+        session_name: "Registration Opens - Breakfast"
+        speakers: ""
+      - id: "welcome"
+        local_time: "9:00 am"
+        session_name: "Welcome - What is the OpenSHift Commons"
+        speakers:
+          - id: "diane"
+      - id: "surprise"
+        local_time: "10:00 am"
+        session_name: "Surprise talk about interesting things"
+        speakers:
+          - id: "david_duncan"
+          - id: "diane"
+      - id: "something"
+        local_time: "11:00 am"
+        session_name: "A talk about something else"
+        speakers:
+          - id: "john_doe"
+          - id: "diane"

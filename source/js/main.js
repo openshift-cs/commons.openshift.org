@@ -47,6 +47,10 @@ $(document).ready(function($) {
 				elem.text = 'Gathering Videos';
 				break;
 		}
+
+		if (elem.value.includes('/gatherings/')) {
+			elem.text = elem.text.concat(' Gathering').slice(2);
+		}
 	});
 
 	//=================================== Sticky nav ===================================//
@@ -376,7 +380,7 @@ $(document).ready(function($) {
 	})
 
 	//=================================== Portfolio Filters  ==============================//
-	// 
+	//
 	//   $(window).load(function(){
 	//      var $container = $('.portfolioContainer');
 	//      $container.isotope({
