@@ -9,7 +9,7 @@ gatherings:
     venue: "Washington Convention Center"
     venue_URL: ""
     venue_address: ""
-    calendar_event_URL: ""
+    calendar_event_URL: "calendar_link.html"
     registration_text: ""
     registration_URL: ""
     pricing:
@@ -31,6 +31,7 @@ gatherings:
       - name: "6fusion"
       - name: "8 ions"
       - name: "99 Cloud"
+      - name: "sponsor"
     sponsoring_URL: "foo"
     schedule:
       - id: "breakfast"

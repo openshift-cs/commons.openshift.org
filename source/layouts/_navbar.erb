@@ -32,8 +32,8 @@
               <% data.gatherings.gatherings.each do |gathering| %>
                 <% if gathering.menu == "show" && Date.parse(gathering.date) >= Date.today %>
                 <li>
-                  <a href="/gatherings/<%= gathering.name.gsub(" ","_") %>.html">
-                    <%= gathering.name %>
+                  <a href="/gatherings/<%= gathering.name.gsub(" ", "_") %>.html">
+                    <%= gathering.location.gsub(/\,.*$/, "") + " - " + gathering.date.to_time.strftime('%B %d') %>
                   </a>
                 </li>
                 <% end %>

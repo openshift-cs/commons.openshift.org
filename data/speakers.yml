@@ -10,7 +10,7 @@ speakers:
     name: "David Duncan"
     role: "OSS Global Linux Lead"
     company: "AWS"
-    URL: "foo"
+    URL: "http://www.amazon.com/"
     intro: "David Duncan is a Partner Solutions Architect for Amazon Web Services. David works with open source platform partners\
            \ to ensure that their customers get the breadth of experience they expect in EC2."
     photo: "speakers/david_duncan.jpg"

@@ -1049,30 +1049,36 @@ position:relative;
 	  padding-top: 1em;
 	  color: #2f2f2f;
 	}
+}  // calendar-icon
 
-	time.icon:hover, time.icon:focus
+.calendar-animate {
+	&:hover, &:focus {
+	  text-decoration: none;
+	}
+
+	.calendar-icon:hover, .calendar-icon:focus
 	{
-	  -webkit-animation: shake 0.6s ease-out;
-	  animation: shake 0.6s ease-out;
-	  cursor: pointer;
+		-webkit-animation: shake 0.6s ease-out;
+		animation: shake 0.6s ease-out;
+		cursor: pointer;
 	}
 
 	@-webkit-keyframes shake {
-	  0%   { -webkit-transform: rotate(0deg)  skewY(0deg); }
-	  20%  { -webkit-transform: rotate(12deg) skewY(4deg); }
-	  60%  { -webkit-transform: rotate(-9deg) skewY(-3deg); }
-	  80%  { -webkit-transform: rotate(6deg)  skewY(-2deg); }
-	  100% { -webkit-transform: rotate(0deg)  skewY(0deg); }
+		0%   { top: 10px; }
+		20%  { top: 0px; }
+		60%  { top: 0px; }
+		80%  { top: 15px; }
+		100% { top: 0px; }
 	}
 
 	@keyframes shake {
-	  0%   { transform: rotate(0deg)  skewY(0deg); }
-	  20%  { transform: rotate(12deg) skewY(4deg); }
-	  60%  { transform: rotate(-9deg) skewY(-3deg); }
-	  80%  { transform: rotate(6deg)  skewY(-2deg); }
-	  100% { transform: rotate(0deg)  skewY(0deg); }
+		0%   { top: 10px; }
+		20%  { top: 0px; }
+		60%  { top: 0px; }
+		80%  { top: 15px; }
+		100% { top: 0px; }
 	}
-}  // calendar-icon
+}
 
 /*  SelectNav Short Main Menu Navigation (Gathering pages only) -----------------------------*/
 .selectnav, {

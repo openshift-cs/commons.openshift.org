@@ -32,7 +32,6 @@ description:  The OpenShift Commons community gets together and share experience
                 <li><a href="#gathering-schedule">Schedule</a></li>
                 <li><a href="#gathering-speakers">Speakers</a></li>
                 <li><a href="#gathering-venue">Venue</a></li>
-                <!-- <li><a href="#gathering-videos">Videos</a></li> -->
               </ul>
             </div>
         </div>
@@ -62,7 +61,7 @@ description:  The OpenShift Commons community gets together and share experience
     <div class="col-sm-4 col-sm-offset-4">
     <% end %>
       <div class="btn-event event-border buy">
-        <a href="#" target="_blank">
+        <a href="<%= gathering.registration_URL %>" target="_blank">
           <p class="text-center">
             <% if gathering.registration_text.length > 0 %>
               <%= gathering.registration_text %>
@@ -76,7 +75,7 @@ description:  The OpenShift Commons community gets together and share experience
     <% if gathering.sponsoring_URL.length > 0 %>
     <div class="col-sm-4">
       <div class="btn-event apply">
-        <a href="#" target="_blank">
+        <a href="<%= gathering.sponsoring_URL %>" target="_blank">
           <p class="text-center">Apply to be a sponsor</p>
         </a>
       </div>
@@ -140,7 +139,7 @@ description:  The OpenShift Commons community gets together and share experience
              <div class="col-xs-6">
                 <h3>When</h3>
                 <% if gathering.calendar_event_URL.length > 0 %>
-                <a href="https://openshiftgathering.com/assets/openshiftgathering/os-gathering-2017-austin.ics" target="_blank">
+                <a href="<%= gathering.calendar_event_URL %>" target="_blank" class="calendar-animate">
                 <% end %>
                   <div class="calendar-icon">
                     <em><%= gathering.date.to_time.strftime('%A') %></em>
@@ -186,9 +185,9 @@ description:  The OpenShift Commons community gets together and share experience
               <!--Sponsor -->
               <div class="sponsor sponsor-height col-xs-6 col-md-3">
                 <div class="panel-body">
-                  <a href = "https://www.nearform.com/" target = "_blank">
-                    <% participant = data.participants.participants.find{ |participants| sponsor.name == participants.name } %>
-                    <%= image_tag participant.logo, :alt => participant.name %>
+                  <% sponsor = data.participants.participants.find{ |participants| sponsor.name == participants.name } || data.sponsors.sponsors.find{ |sponsors| sponsor.name == sponsors.name } %>
+                  <a href = "<%= sponsor.link %>" target = "_blank">
+                    <%= image_tag sponsor.logo, :alt => sponsor.name %>
                   </a>
                 </div>
               </div>
@@ -268,7 +267,7 @@ description:  The OpenShift Commons community gets together and share experience
           <% unless speaker_id.nil? %>
             <% speaker = data.speakers.speakers.find{ |spkr| spkr.id == speaker_id["id"] } %>
             <% if speaker.URL.length > 0 %>
-            <a class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>">
+            <a class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>" href="<%= speaker.URL %>">
             <% else %>
             <div class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>">
             <% end %>
@@ -280,7 +279,7 @@ description:  The OpenShift Commons community gets together and share experience
                 <% end %>
               </div>
               <div class="panel-heading">
-                <div class="speaker-text" href="#" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<%= speaker.intro %>">
+                <div class="speaker-text" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<%= speaker.intro %>">
                   <h3 class="text-center"><%= speaker.name %></h3>
                   <p class="text-center"><%= speaker.role %><%= "<br>" + speaker.company unless speaker.company.length == 0%></p>
                 </div>
