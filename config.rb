@@ -18,6 +18,13 @@ set :js_dir, 'js'
 ###
 page "/sitemap.xml", layout: false
 
+###
+# Generating individual dynamic Gathering pages from template
+###
+data.gatherings.gatherings.each do |gathering|
+  proxy "/gatherings/#{gathering.name.gsub(" ","_")}.html", "/gatherings/template.html", :locals => { :gathering => gathering }, :ignore => true
+end
+
 # Development-specific configuration
 configure :development do
   activate :php
