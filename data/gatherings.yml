@@ -17,12 +17,12 @@ gatherings:
         price: "$99"
       - label: "Standard"
         price: "$149"
-    lead_text: "The OpenShift Commons Gathering will be co-located in Austin with <a href=\"http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-north-america\" target=\"_blank\">\
-                \ CNCF's KubeCon</a> at the <a href=\"http://www3.hilton.com/en/hotels/texas/hilton-austin-AUSCVHH/index.html\" target=\"_blank\">Hilton Austin</a>!"
+    lead_text: "The OpenShift Commons Gathering will be co-located in Seattle with <a href=\"http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-north-america\" target=\"_blank\">\
+                \ CNCF's KubeCon-NA</a> at the <a href=\"http://foobar.com\" target=\"_blank\">Washington</a>!"
     info_text: "The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and\
                 \ the open source software projects that underpin the OpenShift ecosystem. The Austin event will gather developers, devops professionals and sysadmins together to explore\
                 \ the next steps in making container technologies successful and secure."
-    additional_info: "By being co-located in Austin with KubeCon at the Hilton Austin, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that\
+    additional_info: "By being co-located in Seattle with KubeCon at the Washington Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that\
                      \ support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events."
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
