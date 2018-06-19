@@ -1,6 +1,6 @@
 gatherings:
   - name: "Seattle 2018"
-    menu: "show"
+    menu: "hide"
     language: "English"
     date: "2018-12-10"
     time: "8:00 am - 5:30 pm"
