@@ -185,7 +185,7 @@ description:  The OpenShift Commons community gets together and share experience
               <!--Sponsor -->
               <div class="sponsor sponsor-height col-xs-6 col-md-3">
                 <div class="panel-body">
-                  <% sponsor = data.participants.participants.find{ |participants| sponsor.name == participants.name } || data.sponsors.sponsors.find{ |sponsors| sponsor.name == sponsors.name } %>
+                  <% sponsor = data.participants.participants.find{ |participants| sponsor.name == participants.name } || data.gatherings.sponsors.find{ |sponsors| sponsor.name == sponsors.name } %>
                   <a href = "<%= sponsor.link %>" target = "_blank">
                     <%= image_tag sponsor.logo, :alt => sponsor.name %>
                   </a>
@@ -228,7 +228,7 @@ description:  The OpenShift Commons community gets together and share experience
                     <div class="col-xs-7 col-sm-10 schedule-list-border-left"><%= session.session_name %>
                     <% if session.speakers.length > 0 %>
                       <% session.speakers.each do |speaker| %>
-                      | <a href="#<%= speaker.id %>"><%= data.speakers.speakers.find{ |spkr| speaker.id == spkr.id }.name %></a>&nbsp;
+                      | <a href="#<%= speaker.id %>"><%= data.gatherings.speakers.find{ |spkr| speaker.id == spkr.id }.name %></a>&nbsp;
                       <% end %>
                     <% end %>
                     </div>
@@ -265,7 +265,7 @@ description:  The OpenShift Commons community gets together and share experience
       <div class="row-fluid inner">
         <% gathering.schedule.collect(&:speakers).reject{ |k, v| v.nil? }.flatten.uniq.each do |speaker_id| %>
           <% unless speaker_id.nil? %>
-            <% speaker = data.speakers.speakers.find{ |spkr| spkr.id == speaker_id["id"] } %>
+            <% speaker = data.gatherings.speakers.find{ |spkr| spkr.id == speaker_id["id"] } %>
             <% if speaker.URL.length > 0 %>
             <a class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>" href="<%= speaker.URL %>">
             <% else %>
