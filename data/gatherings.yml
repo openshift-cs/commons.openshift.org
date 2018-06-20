@@ -146,7 +146,7 @@ speakers:
     intro: ""
     photo: "speakers/diane.jpg"
   - id: "clayton_coleman"
-    name: "Clayton Colman"
+    name: "Clayton Coleman"
     role: "Lead Architect, OpenShift and Kubernetes"
     company: "Red Hat"
     URL: ""
