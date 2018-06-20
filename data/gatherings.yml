@@ -17,13 +17,16 @@ gatherings:
         price: "$99"
       - label: "Standard"
         price: "$149"
-    lead_text: "The OpenShift Commons Gathering will be co-located in Seattle with <a href=\"https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target=\"_blank\">\
-                \ CNCF's KubeCon-NA</a> at the <a href=\"http://foobar.com\" target=\"_blank\">Washington</a>!"
-    info_text: "The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and\
-                \ the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore\
-                \ the next steps in making container technologies successful and secure."
-    additional_info: "By being co-located in Seattle with KubeCon at the Washington Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that\
-                     \ support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events."
+    lead_text: >-
+      The OpenShift Commons Gathering will be co-located in Seattle with <a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target="_blank">
+      CNCF's KubeCon-NA</a> at the <a href="http://foobar.com" target="_blank">Washington</a>!
+    info_text: >-
+      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+      the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
+      the next steps in making container technologies successful and secure.
+    additional_info: >-
+      By being co-located in Seattle with KubeCon at the Washington Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
+      support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
       - name: "sponsor"
@@ -32,7 +35,6 @@ gatherings:
       - id: "breakfast"
         local_time: "8:00 am"
         session_name: "Registration Opens"
-        speakers: ""
       - id: "welcome"
         local_time: "9:00 am"
         session_name: "Welcome to the Commons: Making Collaboration that Works - Diane Mueller, Red Hat"
@@ -60,36 +62,32 @@ gatherings:
         session_name: "Case Study"
         speakers:
           - id: "john_doe"
-          - id: "diane"  
+          - id: "diane"
       - id: "break1"
         local_time: "10:40 am"
         session_name: "Coffee Break"
-        speakers:
-          - id: ""
-       - id: "casestudy3"
+      - id: "casestudy3"
         local_time: "11:10 am"
         session_name: "Case Study"
         speakers:
           - id: "john_doe"
-          - id: "diane" 
-       - id: "casestudy4"
+          - id: "diane"
+      - id: "casestudy4"
         local_time: "11:30 am"
         session_name: "Case Study"
         speakers:
           - id: "john_doe"
-          - id: "diane" 
-       - id: "Panel1"
+          - id: "diane"
+      - id: "Panel1"
         local_time: "11:50 am"
         session_name: "Upstream This! Panel - moderated by TBD"
         speakers:
           - id: "john_doe"
-          - id: "diane" 
-       - id: "lunch"
+          - id: "diane"
+      - id: "lunch"
         local_time: "12:30 am"
         session_name: "Networking Lunch"
-        speakers:
-          - id: ""
-       - id: "keynote3"
+      - id: "keynote3"
         local_time: "1:30 pm"
         session_name: "State of the Operators: Framework, SDK, and beyond"
         speakers:
@@ -99,52 +97,46 @@ gatherings:
         session_name: "Users Talk Back! Panel - moderated by TBD"
         speakers:
           - id: "john_doe"
-          - id: "diane" 
+          - id: "diane"
       - id: "break2"
         local_time: "2:30 pm"
         session_name: "Coffee Break"
-        speakers:
-          - id: ""
       - id: "casestudy5"
         local_time: "2:45 pm"
         session_name: "Case Study 5"
         speakers:
           - id: "john_doe"
-          - id: "diane" 
-       - id: "casestudy6"
+          - id: "diane"
+      - id: "casestudy6"
         local_time: "3:15 pm"
         session_name: "Case Study 6"
         speakers:
           - id: "john_doe"
-          - id: "diane" 
-       - id: "casestudy7"
+          - id: "diane"
+      - id: "casestudy7"
         local_time: "3:45 pm"
         session_name: "Case Study 7"
         speakers:
           - id: "john_doe"
-          - id: "diane" 
-       - id: "Panel3"
+          - id: "diane"
+      - id: "Panel3"
         local_time: "4:15 pm"
         session_name: "What's Next Panel - moderated by TBD"
         speakers:
           - id: "john_doe"
-          - id: "diane" 
-  
-       - id: "WrapUp"
+          - id: "diane"
+      - id: "WrapUp"
         local_time: "5:00 pm"
         session_name: "The Road Ahead @ OpenShift/AMA Panel with OpenShift PM team"
         speakers:
           - id: "brian_gracely"
-       - id: "Closing"
+      - id: "Closing"
         local_time: "5:30 pm"
         session_name: "Closing"
         speakers:
-          - id: "diane"    
-         - id: "break2"
+          - id: "diane"
         local_time: "6:00 pm"
         session_name: "Evening Reception and Networking Event"
-        speakers:
-          - id: ""       
 speakers:
   - id: "diane"
     name: "Diane Mueller-Klingspor"
@@ -159,30 +151,35 @@ speakers:
     company: "Red Hat"
     URL: ""
     intro: ""
+    photo: ""
   - id: "brian_gracely"
     name: "Brian Gracely"
     role: "Director, OpenShift Product Strategy"
     company: "Red Hat"
     URL: ""
     intro: ""
+    photo: ""
   - id: "brandon_philips"
     name: "Brandon Philips"
     role: "Lead Architect, OpenShift and Kubernetes"
     company: "Red Hat"
     URL: ""
-    intro: ""  
+    intro: ""
+    photo: ""
   - id: "mike_barrett"
     name: "Mike Barrett"
     role: "Product Manager, OpenShift"
     company: "Red Hat"
     URL: ""
-    intro: ""    
-   - id: "chris_wright"
+    intro: ""
+    photo: ""
+  - id: "chris_wright"
     name: "Chris Wright"
     role: "Chief Technology Officer"
     company: "Red Hat"
     URL: ""
-    intro: ""   
+    intro: ""
+    photo: ""
   - id: "john_doe"
     name: "John Doe"
     role: "Everyday Ninja"
