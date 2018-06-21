@@ -55,7 +55,7 @@ description:  The OpenShift Commons community gets together and share experience
 </div>
 <div class="container">
   <div class="row">
-    <% if gathering.sponsoring_URL.length > 0 %>
+    <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
     <div class="col-sm-4 col-sm-offset-2">
     <% else %>
     <div class="col-sm-4 col-sm-offset-4">
@@ -63,7 +63,7 @@ description:  The OpenShift Commons community gets together and share experience
       <div class="btn-event event-border buy">
         <a href="<%= gathering.registration_URL %>" target="_blank">
           <p class="text-center">
-            <% if gathering.registration_text.length > 0 %>
+            <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
               <%= gathering.registration_text %>
             <% else %>
               Purchase tickets Now
@@ -72,7 +72,7 @@ description:  The OpenShift Commons community gets together and share experience
         </a>
       </div>
     </div>
-    <% if gathering.sponsoring_URL.length > 0 %>
+    <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
     <div class="col-sm-4">
       <div class="btn-event apply">
         <a href="<%= gathering.sponsoring_URL %>" target="_blank">
@@ -95,7 +95,7 @@ description:  The OpenShift Commons community gets together and share experience
         <div class="col-md-12 event-box">
           <!-- Left Col -->
           <div class="col-md-6 text-center">
-            <% if gathering.lead_text.length > 0 %>
+            <% if gathering.lead_text.presence && gathering.lead_text.length > 0 %>
             <p>
               <span class="event-span-red">
                 <%= gathering.lead_text %>
@@ -109,7 +109,7 @@ description:  The OpenShift Commons community gets together and share experience
             <div class="btn-event event-border buy">
               <a href="<%= gathering.registration_URL %>" target="_blank">
                 <p>
-                <% if gathering.registration_text.length > 0 %>
+                <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
                   <%= gathering.registration_text %>
                 <% else %>
                   Purchase tickets Now
@@ -117,7 +117,7 @@ description:  The OpenShift Commons community gets together and share experience
                 </p>
               </a>
             </div>
-            <% if gathering.invite_link.length > 0 %>
+            <% if gathering.invite_link.presence && gathering.invite_link.length > 0 %>
               <p class="text-center text-2-mobile event-invite"><a href="<%= gathering.invite_link %>" target="_blank"><strong>Invite a friend &gt;&gt;</strong></a></p>
             <% end %>
           </div>
@@ -126,7 +126,7 @@ description:  The OpenShift Commons community gets together and share experience
             <h3 class="text-center">Where</h3>
             <p class="text-center">
              <span class="event-span-red"><%= gathering.location %></span><br>
-             <% if gathering.venue_URL.length > 0 %>
+             <% if gathering.venue_URL.presence && gathering.venue_URL.length > 0 %>
              <a href="<%= gathering.venue_URL %>" target="_blank">
              <% else %>
              <a href="#gathering-venue">
@@ -138,7 +138,7 @@ description:  The OpenShift Commons community gets together and share experience
             <div class="row">
              <div class="col-xs-6">
                 <h3>When</h3>
-                <% if gathering.calendar_event_URL.length > 0 %>
+                <% if gathering.calendar_event_URL.presence && gathering.calendar_event_URL.length > 0 %>
                 <a href="<%= gathering.calendar_event_URL %>" target="_blank" class="calendar-animate">
                 <% end %>
                   <div class="calendar-icon">
@@ -146,7 +146,7 @@ description:  The OpenShift Commons community gets together and share experience
                     <strong><%= gathering.date.to_time.strftime('%B') %></strong>
                     <span><%= gathering.date.to_time.strftime('%d') %></span>
                   </div>
-                <% if gathering.calendar_event_URL.length > 0 %>
+                <% if gathering.calendar_event_URL.presence && gathering.calendar_event_URL.length > 0 %>
                 </a>
                 <% end %>
              </div>
@@ -162,21 +162,22 @@ description:  The OpenShift Commons community gets together and share experience
         </div>
       </div><!-- /.row -->
     </div><!-- /.container -->
-    <% if gathering.additional_info.length > 0 %>
-    <div class="container additional-info">
-      <p class="text-center">By being co-located in Austin with KubeCon at the Hilton Austin, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.</p>
+    <% if gathering.event_footer_text.presence && gathering.event_footer_text.length > 0 %>
+    <div class="container event-footer-text">
+      <p class="text-center"><%= gathering.event_footer_text %></p>
     </div>
     <% end %>
   </div>
 </section>
 
 <!-- Sponsors Section ---------------------------------------------------------------------------------------------------------------->
+<% if gathering.sponsors.presence %>
 <div id="gathering-sponsor"></div>
 <section class="section-gathering">
     <div class="container text-center">
         <div class="row container text-center">
             <h3>Sponsors</h3>
-            <% if gathering.sponsoring_URL.length > 0 %>
+            <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
             <p class="text-center">Interested in sponsoring OpenShift Commons Gathering?
               <a href="<%= gathering.sponsoring_URL %>" target="_blank">Apply here.</a>
             </p>
@@ -192,7 +193,7 @@ description:  The OpenShift Commons community gets together and share experience
                 </div>
               </div>
             <% end %>
-            <% if gathering.sponsoring_URL.length > 0 %>
+            <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
             <div class="sponsor sponsor-height col-xs-6 col-md-3">
               <div class="panel-body">
                 <a href = "<%= gathering.sponsoring_URL %>" target = "_blank">
@@ -204,7 +205,7 @@ description:  The OpenShift Commons community gets together and share experience
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section>
-
+<% end %>
 
 <!-- Schedule Section ---------------------------------------------------------------------------------------------------------------->
 <div id="gathering-schedule"></div>
@@ -242,7 +243,7 @@ description:  The OpenShift Commons community gets together and share experience
           <div class="btn-event event-border buy">
             <a href="<%= gathering.registration_URL %>" target="_blank">
               <p class="text-center">
-                <% if gathering.registration_text.length > 0 %>
+                <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
                   <%= gathering.registration_text %>
                 <% else %>
                   Purchase tickets Now
@@ -266,13 +267,13 @@ description:  The OpenShift Commons community gets together and share experience
         <% gathering.schedule.collect(&:speakers).flatten.uniq.reject { |s| s.to_s.empty? }.each do |speaker_id| %>
           <% unless speaker_id.nil? %>
             <% speaker = data.gatherings.speakers.find{ |spkr| spkr.id == speaker_id["id"] } %>
-            <% if speaker.URL.length > 0 %>
+            <% if speaker.URL.presence && speaker.URL.length > 0 %>
             <a class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>" href="<%= speaker.URL %>">
             <% else %>
             <div class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>">
             <% end %>
               <div class="panel-image">
-                <% if speaker.photo.length > 0 %>
+                <% if speaker.photo.presence && speaker.photo.length > 0 %>
                   <%= image_tag speaker.photo, :alt => speaker.name, :class => "img-circle modal_target5 speaker-img" %>
                 <% else %>
                   <%= image_tag "speakers/default.png", :alt => speaker.name, :class => "img-circle modal_target5 speaker-img" %>
@@ -281,10 +282,15 @@ description:  The OpenShift Commons community gets together and share experience
               <div class="panel-heading">
                 <div class="speaker-text" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="<%= speaker.intro %>">
                   <h3 class="text-center"><%= speaker.name %></h3>
-                  <p class="text-center"><%= speaker.role %><%= "<br>" + speaker.company unless speaker.company.length == 0%></p>
+                  <p class="text-center">
+                    <%= speaker.role %>
+                    <% if speaker.company.presence && speaker.company.length > 0 %>
+                      <%= "<br>" + speaker.company %>
+                    <% end %>
+                  </p>
                 </div>
               </div>
-            <% if speaker.URL.length > 0 %>
+            <% if speaker.URL.presence && speaker.URL.length > 0 %>
             </a>
             <% else %>
             </div>
@@ -304,17 +310,19 @@ description:  The OpenShift Commons community gets together and share experience
       <h3>Venue</h3>
       <p class="text-center"><%= gathering.date.to_time.strftime('%B %d, %Y') %> | <%= gathering.time %>
         <br>
-        <% if gathering.venue_URL.length > 0 %>
+        <% if gathering.venue_URL.presence && gathering.venue_URL.length > 0 %>
           <a href="<%= gathering.venue_URL %>" target="_blank"><strong><%= gathering.venue %></strong></a>
         <% else %>
           <strong><%= gathering.venue %></strong>
         <% end %>
-        <%= "<br />" + gathering.venue_address unless gathering.venue_address.length == 0 %>
+        <% if gathering.venue_URL.presence && gathering.venue_address.length > 0 %>
+          <%= "<br />" + gathering.venue_address %>
+        <% end %>
         <br /><%= gathering.location %>
         <br><br>
       </p>
       <div class="map-box">
-        <% if gathering.google_maps_URL.length > 0 %>
+        <% if gathering.google_maps_URL.presence && gathering.google_maps_URL.length > 0 %>
         <iframe src="<%= gathering.google_maps_URL %>" width="100%" height="450" frameborder="0" allowfullscreen=""></iframe>
         <% else %>
         <iframe src="https://www.google.com/maps?q=<%= ERB::Util.url_encode(gathering.venue + "," + gathering.location) %>&output=embed" width="100%" height="450" frameborder="0" allowfullscreen=""></iframe>
