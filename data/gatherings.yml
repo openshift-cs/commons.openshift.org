@@ -5,7 +5,8 @@ gatherings:
     date: "2018-12-10"
     time: "8:00 am - 8:00 pm"
     location: "Seattle, Washington"
-    google_maps_URL: "https://www.google.ca/maps/dir/''/washington+state+convention+center/@47.6115216,-122.4026693,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x54906ab5090f3cc7:0x38d32c762126bc69!2m2!1d-122.3326296!2d47.6115429"
+    google_maps_URL: >-
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.7503990355976!2d-122.33481828436932!3d47.61154287918504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab5090f3cc7%3A0x38d32c762126bc69!2sWashington+State+Convention+Center!5e0!3m2!1sen!2sus!4v1529684362169" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     venue: "Washington State Convention Center"
     venue_URL: "https://www.wscc.com/"
     venue_address: "705 Pike St, Seattle, WA 98101, USA"
@@ -170,7 +171,7 @@ gatherings:
         speakers:
           - id: "diane"
       - local_time: "6:00 pm"
-        session_name: "Evening Reception and Networking Event"        
+        session_name: "Evening Reception and Networking Event"
 speakers:
   - id: "diane"
     name: "Diane Mueller"
