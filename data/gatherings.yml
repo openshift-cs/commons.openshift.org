@@ -64,7 +64,6 @@ gatherings:
       - id: "casestudy4"
         local_time: "11:30 am"
         session_name: "Case Study"
-        speakers:
       - id: "Panel1"
         local_time: "11:50 am"
         session_name: "Upstream This! Panel - moderated by TBD"
@@ -104,7 +103,7 @@ gatherings:
         session_name: "Closing"
         speakers:
           - id: "diane"
-        local_time: "6:00 pm"
+      - local_time: "6:00 pm"
         session_name: "Evening Reception and Networking Event"
 speakers:
   - id: "diane"
@@ -149,14 +148,7 @@ speakers:
     URL: ""
     intro: ""
     photo: ""
-  - id: "john_doe"
-    name: "John Doe"
-    role: "Everyday Ninja"
-    company: ""
-    URL: ""
-    intro: "This person can do absolutely anything you can imagine."
-    photo: ""
 sponsors:
   - name: "sponsor"
     link: "sponsorl_link"
-    logo: "sponsor-logos/spensor.png"
+    logo: "sponsor-logos/sponsor.png"
