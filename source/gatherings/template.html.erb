@@ -66,7 +66,11 @@ description:  The OpenShift Commons community gets together and share experience
             <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
               <%= gathering.registration_text %>
             <% else %>
-              Purchase tickets Now
+              <% if gathering.pricing.presence %>
+                Purchase tickets Now
+              <% else %>
+                Register Now
+              <% end %>
             <% end %>
           </p>
         </a>
@@ -112,7 +116,11 @@ description:  The OpenShift Commons community gets together and share experience
                 <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
                   <%= gathering.registration_text %>
                 <% else %>
-                  Purchase tickets Now
+                  <% if gathering.pricing.presence %>
+                    Purchase tickets Now
+                  <% else %>
+                    Register Now
+                  <% end %>
                 <% end %>
                 </p>
               </a>
@@ -136,7 +144,7 @@ description:  The OpenShift Commons community gets together and share experience
            </p>
             <hr>
             <div class="row">
-             <div class="col-xs-6">
+             <div class="col-xs-6 <%= "col-xs-offset-3" unless gathering.pricing.presence %>">
                 <h3>When</h3>
                 <% if gathering.calendar_event_URL.presence && gathering.calendar_event_URL.length > 0 %>
                 <a href="<%= gathering.calendar_event_URL %>" target="_blank" class="calendar-animate">
@@ -150,12 +158,14 @@ description:  The OpenShift Commons community gets together and share experience
                 </a>
                 <% end %>
              </div>
+             <% if gathering.pricing.presence %>
              <div id="price" class="col-xs-6">
                <h3>Price</h3>
-               <% gathering.pricing.each do |price_point| %>
-               <p><span class="event-span-red event-invite"><%= price_point.label %>: <%= price_point.price %></span></p>
-               <% end %>
+                 <% gathering.pricing.each do |price_point| %>
+                 <p><span class="event-span-red event-invite"><%= price_point.label %>: <%= price_point.price %></span></p>
+                 <% end %>
              </div>
+             <% end %>
            </div>
           </div>
         </div>
@@ -246,7 +256,11 @@ description:  The OpenShift Commons community gets together and share experience
                 <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
                   <%= gathering.registration_text %>
                 <% else %>
-                  Purchase tickets Now
+                  <% if gathering.pricing.presence %>
+                    Purchase tickets Now
+                  <% else %>
+                    Register Now
+                  <% end %>
                 <% end %>
               </p>
             </a>
