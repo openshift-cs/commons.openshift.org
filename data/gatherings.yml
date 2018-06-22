@@ -3,12 +3,12 @@ gatherings:
     menu: "hide"
     language: "English"
     date: "2018-12-10"
-    time: "8:00 am - 5:30 pm"
+    time: "8:00 am - 8:00 pm"
     location: "Seattle, Washington"
-    google_maps_URL: ""
-    venue: "Washington Convention Center"
-    venue_URL: ""
-    venue_address: ""
+    google_maps_URL: "https://www.google.ca/maps/dir/''/washington+state+convention+center/@47.6115216,-122.4026693,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x54906ab5090f3cc7:0x38d32c762126bc69!2m2!1d-122.3326296!2d47.6115429"
+    venue: "Washington State Convention Center"
+    venue_URL: "https://www.wscc.com/"
+    venue_address: "705 Pike St, Seattle, WA 98101, USA"
     calendar_event_URL: "calendar_link.html"
     registration_text: ""
     registration_URL: "https://www.regonline.com/registration/Checkin.aspx?EventID=2246960"
@@ -17,13 +17,13 @@ gatherings:
         price: "$99"
     lead_text: >-
       The OpenShift Commons Gathering will be co-located in Seattle with <a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target="_blank">
-      CNCF's KubeCon-NA</a> at the <a href="http://foobar.com" target="_blank">Washington</a>!
+      CNCF's KubeCon-NA</a> at the <a href="https://www.wscc.com/" target="_blank">Washington State Convention Center</a>!
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure.
     event_footer_text: >-
-      By being co-located in Seattle with KubeCon at the Washington Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
+      By being co-located in Seattle with KubeCon at the Washington State Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
@@ -87,7 +87,7 @@ gatherings:
         session_name: "Evening Reception and Networking Event"
 speakers:
   - id: "diane"
-    name: "Diane Mueller-Klingspor"
+    name: "Diane Mueller"
     role: "Director, Community Development - OpenShift"
     company: "Red Hat"
     URL: ""
