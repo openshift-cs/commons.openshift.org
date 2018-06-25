@@ -74,7 +74,9 @@ gatherings:
     date: "2018-12-10"
     time: "8:00 am - 5:30 pm"
     location: "Seattle, Washington"
-    google_maps_URL: "" (optional; alternate for the bottom map. Search for the location in Google Maps; Click "Share"; Select "Embed a map"; Copy/paste the entire HTML, including "<iframe...")
+    google_maps_URL: >-
+      Start content here
+      (optional; alternate for the bottom map. Search for the location in Google Maps; Click "Share"; Select "Embed a map"; Copy/paste the entire HTML, including "<iframe...")
     venue: "Washington Convention Center"
     venue_URL: "" (optional; link to external venue page)
     venue_address: "" (optional; adds lines to venue location on bottom of the page)

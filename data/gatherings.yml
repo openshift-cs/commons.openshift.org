@@ -178,9 +178,10 @@ gatherings:
     date: "2018-9-02"
     time: "8:00 am - 8:00 pm"
     location: "Buenos Aires, Argentina"
-    google_maps_URL: ""
+    google_maps_URL: >-
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.045653429368!2d-58.4548288!3d-34.6038729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa4d807b2dfc1d0d!2sBubble+Studio!5e0!3m2!1sen!2sca!4v1529948005290" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     venue: "Red Hat Offices"
-    venue_URL: "<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.045653429368!2d-58.4548288!3d-34.6038729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa4d807b2dfc1d0d!2sBubble+Studio!5e0!3m2!1sen!2sca!4v1529948005290" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"
+    venue_URL: ""
     venue_address: "C1416CJK, Cucha Cucha 1661, CABA Buenos Aires, Argentina"
     calendar_event_URL: "calendar_link.html"
     registration_text: ""
@@ -247,7 +248,7 @@ gatherings:
         speakers:
           - id: "santiago"
       - local_time: "5:30 pm"
-        session_name: "Evening Reception and Networking Event"        
+        session_name: "Evening Reception and Networking Event"
 speakers:
   - id: "diane"
     name: "Diane Mueller"
