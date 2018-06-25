@@ -189,35 +189,31 @@ gatherings:
       - label: "RSVP Required"
         price: "Free"
     lead_text: >-
-      The OpenShift Commons Gathering will be co-located in Helsinki with <a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target="_blank">
-      CNCF's KubeCon-NA</a> at the <a href="https://www.wscc.com/" target="_blank">Washington State Convention Center</a>!
+      This OpenShift Commons Gathering will be held in Buenos Aires at the <a href="https://www.wscc.com/" target="_blank">Washington State Convention Center</a>!
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
+      the open source software projects that underpin the OpenShift ecosystem. The Buenos Aires event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure.
     event_footer_text: >-
-      By being co-located in Seattle with KubeCon at the Washington State Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
-      support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
+      By helod in Bueons Aires , the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
+      support the OpenShift ecosystem and help bring LATAM cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
       - name: "sponsor"
-    sponsoring_URL: "mailto:dmueller@redhat.com"
+    sponsoring_URL: "mailto:cpalomeq@redhat.com "
     schedule:
       - local_time: "8:00 am"
         session_name: "Registration Opens"
       - local_time: "9:00 am"
-        session_name: "Welcome to the Commons: Making Collaboration that Works - Diane Mueller, Red Hat"
+        session_name: "Welcome to the Commons: Making Collaboration that Works - Santiago Sinelnicof, Red Hat"
         speakers:
-          - id: "diane"
+          - id: "santiago"
       - local_time: "9:10 am"
-        session_name: "Opening Keynote"
-        speakers:
-          - id: "chris_wright"
+        session_name: "Opening Keynote - Accelerating DevOps"
       - local_time: "9:30 am"
         session_name: "OpenShift 3.x - Features, Functions, Futures"
         speakers:
-          - id: "clayton_coleman"
-          - id: "mike_barrett"
+          - id: "thiago"
       - local_time: "10:00 am"
         session_name: "Case Study"
       - local_time: "10:20 am"
@@ -233,9 +229,7 @@ gatherings:
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
-        session_name: "State of the Operators: Framework, SDK, and beyond"
-        speakers:
-          - id: "brandon_philips"
+        session_name: "Afternoon Keynote"
       - local_time: "2:00 pm"
         session_name: "Users Talk Back! Panel - moderated by TBD"
       - local_time: "2:30 pm"
@@ -249,14 +243,10 @@ gatherings:
       - local_time: "4:15 pm"
         session_name: "What's Next Panel - moderated by TBD"
       - local_time: "5:00 pm"
-        session_name: "The Road Ahead @ OpenShift/AMA Panel with OpenShift PM team"
+        session_name: "The Road Ahead @ OpenShift"
         speakers:
-          - id: "brian_gracely"
+          - id: "santiago"
       - local_time: "5:30 pm"
-        session_name: "Closing"
-        speakers:
-          - id: "diane"
-      - local_time: "6:00 pm"
         session_name: "Evening Reception and Networking Event"        
 speakers:
   - id: "diane"
@@ -297,6 +287,27 @@ speakers:
   - id: "chris_wright"
     name: "Chris Wright"
     role: "Chief Technology Officer"
+    company: "Red Hat"
+    URL: ""
+    intro: ""
+    photo: ""
+  - id: "thiago"
+    name: "Thiago Araki"
+    role: "Manager, LATAM Office of Technology"
+    company: "Red Hat"
+    URL: ""
+    intro: ""
+    photo: ""
+  - id: "santiago"
+    name: "Santiago Sinelnicof"
+    role: "Senior Solutions Architect"
+    company: "Red Hat"
+    URL: ""
+    intro: ""
+    photo: ""
+  - id: "trevor_quinn"
+    name: "Trevor Quinn"
+    role: "Manager"
     company: "Red Hat"
     URL: ""
     intro: ""
