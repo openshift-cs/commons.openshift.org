@@ -175,7 +175,7 @@ gatherings:
   - name: "BuenosAires 2018"
     menu: "hide"
     language: "Spanish"
-    date: "2018-9-02"
+    date: "2018-8-02"
     time: "8:00 am - 8:00 pm"
     location: "Buenos Aires, Argentina"
     google_maps_URL: >-
