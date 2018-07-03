@@ -28,7 +28,7 @@ description:  The OpenShift Commons community gets together and share experience
             <div class="navbar-collapse collapse navbar-col-centered">
               <ul class="nav navbar-nav">
                 <li><a href="#gathering-overview">Overview</a></li>
-                <li><a href="#gathering-sponsor">Sponsors</a></li>
+                <%= '<li><a href="#gathering-sponsor">Sponsors</a></li>' if gathering.sponsors.presence %>
                 <li><a href="#gathering-schedule">Schedule</a></li>
                 <li><a href="#gathering-speakers">Speakers</a></li>
                 <li><a href="#gathering-venue">Venue</a></li>
@@ -181,6 +181,7 @@ description:  The OpenShift Commons community gets together and share experience
 </section>
 
 <!-- Sponsors Section ---------------------------------------------------------------------------------------------------------------->
+<% if gathering.sponsors.presence %>
 <div id="gathering-sponsor"></div>
 <section class="section-gathering">
     <div class="container text-center">
@@ -191,7 +192,6 @@ description:  The OpenShift Commons community gets together and share experience
               <a href="<%= gathering.sponsoring_URL %>" target="_blank">Apply here.</a>
             </p>
             <% end %>
-            <% if gathering.sponsors.presence && gathering.sponsors.length > 0 %>
             <% gathering.sponsors.each do |sponsor| %>
               <!--Sponsor -->
               <div class="sponsor sponsor-height col-xs-6 col-md-3">
@@ -202,7 +202,6 @@ description:  The OpenShift Commons community gets together and share experience
                   </a>
                 </div>
               </div>
-            <% end %>
             <% end %>
             <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
             <div class="sponsor sponsor-height col-xs-6 col-md-3">
@@ -216,6 +215,7 @@ description:  The OpenShift Commons community gets together and share experience
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section>
+<% end %>
 
 <!-- Schedule Section ---------------------------------------------------------------------------------------------------------------->
 <div id="gathering-schedule"></div>
