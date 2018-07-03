@@ -98,8 +98,8 @@ gatherings:
     venue_URL: "https://keilaranta1.fi/palvelut-yhteiset-tilat/"
     venue_address: "Keilaranta 1, 02150 Espoo"
     calendar_event_URL: "calendar_link.html"
-    registration_text: ""
-    registration_URL: "https://www.regonline.com/registration/Checkin.aspx?EventID=2246960"
+    registration_text: "Opening soon"
+    registration_URL: "mailto:repo@redhat.com"
     pricing:
       - label: "Early Bird"
         price: "25 Euros"
@@ -116,7 +116,7 @@ gatherings:
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
       - name: "sponsor"
-    sponsoring_URL: "mailto:tanja.repo@redhat.com"
+    sponsoring_URL: "mailto:repo@redhat.com"
     schedule:
       - local_time: "9:00 am"
         session_name: "Registration Opens"
