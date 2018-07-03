@@ -10,7 +10,7 @@ gatherings:
     venue: "Washington State Convention Center"
     venue_URL: "https://www.wscc.com/"
     venue_address: "705 Pike St, Seattle, WA 98101, USA"
-    calendar_event_URL: "calendar_link.html"
+    calendar_event_URL:
     registration_text: ""
     registration_URL: "https://www.regonline.com/registration/Checkin.aspx?EventID=2246960"
     pricing:
@@ -28,7 +28,6 @@ gatherings:
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-      - name: "sponsor"
     sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
     schedule:
       - local_time: "8:00 am"
@@ -97,7 +96,7 @@ gatherings:
     venue: "Red Hat Office, Keilaranta 1"
     venue_URL: "https://keilaranta1.fi/palvelut-yhteiset-tilat/"
     venue_address: "Keilaranta 1, 02150 Espoo"
-    calendar_event_URL: "calendar_link.html"
+    calendar_event_URL:
     registration_text: "Opening soon"
     registration_URL: "mailto:repo@redhat.com"
     pricing:
@@ -115,7 +114,6 @@ gatherings:
       Red Hat Forum Finland 2018</a>.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-      - name: "sponsor"
     sponsoring_URL: "mailto:repo@redhat.com"
     schedule:
       - local_time: "9:00 am"
@@ -145,7 +143,7 @@ gatherings:
       - local_time: "12:00 am"
         session_name: "Upstream This! Panel - moderated by TBD"
       - local_time: "12:30 am"
-        session_name: "Lightning talks from sponsorts"
+        session_name: "Lightning talks from sponsors"
       - local_time: "1:00 pm"
         session_name: "Networking Lunch"
       - local_time: "2:00 pm"
@@ -186,7 +184,7 @@ gatherings:
     venue: "Red Hat Offices"
     venue_URL: ""
     venue_address: "C1416CJK, Cucha Cucha 1661, CABA Buenos Aires, Argentina"
-    calendar_event_URL: "calendar_link.html"
+    calendar_event_URL:
     registration_text: ""
     registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-buenos-aires-tickets-47432137801"
     pricing:
@@ -203,7 +201,6 @@ gatherings:
       support the OpenShift ecosystem and help bring LATAM cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-      - name: "sponsor"
     sponsoring_URL: "mailto:cpalomeq@redhat.com "
     schedule:
       - local_time: "8:00 am"
@@ -345,6 +342,6 @@ speakers:
     intro: ""
     photo: ""
 sponsors:
-  - name: "sponsor"
-    link: "sponsorl_link"
-    logo: "sponsor-logos/sponsor.png"
+  - name:
+    link:
+    logo:
