@@ -181,7 +181,6 @@ description:  The OpenShift Commons community gets together and share experience
 </section>
 
 <!-- Sponsors Section ---------------------------------------------------------------------------------------------------------------->
-<% if gathering.sponsors.presence %>
 <div id="gathering-sponsor"></div>
 <section class="section-gathering">
     <div class="container text-center">
@@ -192,6 +191,7 @@ description:  The OpenShift Commons community gets together and share experience
               <a href="<%= gathering.sponsoring_URL %>" target="_blank">Apply here.</a>
             </p>
             <% end %>
+            <% if gathering.sponsors.presence && gathering.sponsors.length > 0 %>
             <% gathering.sponsors.each do |sponsor| %>
               <!--Sponsor -->
               <div class="sponsor sponsor-height col-xs-6 col-md-3">
@@ -202,6 +202,7 @@ description:  The OpenShift Commons community gets together and share experience
                   </a>
                 </div>
               </div>
+            <% end %>
             <% end %>
             <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
             <div class="sponsor sponsor-height col-xs-6 col-md-3">
@@ -215,7 +216,6 @@ description:  The OpenShift Commons community gets together and share experience
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section>
-<% end %>
 
 <!-- Schedule Section ---------------------------------------------------------------------------------------------------------------->
 <div id="gathering-schedule"></div>
@@ -282,7 +282,7 @@ description:  The OpenShift Commons community gets together and share experience
           <% unless speaker_id.nil? %>
             <% speaker = data.gatherings.speakers.find{ |spkr| spkr.id == speaker_id["id"] } %>
             <% if speaker.URL.presence && speaker.URL.length > 0 %>
-            <a class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>" href="<%= speaker.URL %>">
+            <a class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>" href="<%= speaker.URL %>" style="cursor: pointer;">
             <% else %>
             <div class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>">
             <% end %>
