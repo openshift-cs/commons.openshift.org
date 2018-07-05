@@ -20,9 +20,7 @@ gatherings:
       The OpenShift Commons Gathering will be co-located in Seattle with <a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target="_blank">
       CNCF's KubeCon-NA</a> at the <a href="https://www.wscc.com/" target="_blank">Washington State Convention Center</a>!
     info_text: >-
-      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure.
+      El OpenShift Commons Gathering tendrá como eje las charlas a cargo de usuarios finales sobre implementaciones de OpenShift en modo de producción, en las que compartirán sus casos de uso, aprendizajes y buenas prácticas con expertos de todas partes del mundo. También analizará las tecnologías de contenedores, las buenas prácticas del desarrollo de aplicaciones nativas de la nube y los proyectos de software open source que apuntalan al ecosistema OpenShift para llevar a OpenShift al siguiente nivel del cloud computing nativo. El evento reunirá a desarrolladores, profesionales de DevOps y administradores de sistemas que explorarán y colaborarán para lograr que OpenShift y las tecnologías de contenedores sean exitosas y seguras a gran escala
     event_footer_text: >-
       By being co-located in Seattle with KubeCon at the Washington State Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
