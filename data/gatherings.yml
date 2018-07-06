@@ -182,14 +182,13 @@ gatherings:
       - label: "RSVP Required"
         price: "Free"
     lead_text: >-
-      This OpenShift Commons Gathering will be held in Buenos Aires at the <a href="https://www.wscc.com/" target="_blank">Washington State Convention Center</a>!
+      Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift.!
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The Buenos Aires event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure.
     event_footer_text: >-
-      By helod in Bueons Aires , the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
-      support the OpenShift ecosystem and help bring LATAM cloud native project communities together. We strongly encourage you to partake in the full week of events.
+      El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift. Lo invitamos a participar de este evento.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
     sponsoring_URL: "mailto:cpalomeq@redhat.com "
