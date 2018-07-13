@@ -188,11 +188,13 @@ gatherings:
       - label: "RSVP Required"
         price: "Free"
     lead_text: >-
-      Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift.!
+      Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift!
     info_text: >-
-      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift ecosystem. The Buenos Aires event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure.
+      El OpenShift Commons Gathering tendrá como eje las charlas a cargo de usuarios finales sobre implementaciones de OpenShift en modo de producción, en las que compartirán sus casos     
+      de uso, aprendizajes y buenas prácticas con expertos de todas partes del mundo. También analizará las tecnologías de contenedores, las buenas prácticas del desarrollo
+      de aplicaciones nativas de la nube y los proyectos de software open source que apuntalan al ecosistema OpenShift para llevar a OpenShift al siguiente nivel del cloud computing
+      nativo. El evento reunirá a desarrolladores, profesionales de DevOps y administradores de sistemas que explorarán y colaborarán para lograr que OpenShift y las tecnologías
+      de contenedores sean exitosas y seguras a gran escala.
     event_footer_text: >-
       El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift. Lo invitamos a participar de este evento.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
