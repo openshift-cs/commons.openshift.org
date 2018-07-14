@@ -190,7 +190,7 @@ gatherings:
     lead_text: >-
       Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift!
     info_text: >-
-      El OpenShift Commons Gathering tendrá como eje las charlas a cargo de usuarios finales sobre implementaciones de OpenShift en modo de producción, en las que compartirán sus casos     
+      El OpenShift Commons Gathering tendrá como eje las charlas a cargo de usuarios finales sobre implementaciones de OpenShift en modo de producción, en las que compartirán sus casos
       de uso, aprendizajes y buenas prácticas con expertos de todas partes del mundo. También analizará las tecnologías de contenedores, las buenas prácticas del desarrollo
       de aplicaciones nativas de la nube y los proyectos de software open source que apuntalan al ecosistema OpenShift para llevar a OpenShift al siguiente nivel del cloud computing
       nativo. El evento reunirá a desarrolladores, profesionales de DevOps y administradores de sistemas que explorarán y colaborarán para lograr que OpenShift y las tecnologías
@@ -224,30 +224,30 @@ gatherings:
         speakers:
           - id: "javier_barreiro"
       - local_time: "11:10 am"
-        session_name: "Case Study:GetUpCloud" 
+        session_name: "Case Study:GetUpCloud"
         speakers:
            - id: "mateus_caruccio"
       - local_time: "11:25 am"
-        session_name: "Case Study:Conservador de Bienes Raíces de Santiago"  
+        session_name: "Case Study:Conservador de Bienes Raíces de Santiago"
         speakers:
            - id: "enrique_villar"
       - local_time: "11:40 am"
-        session_name: "Case Study: Banco Itau" 
+        session_name: "Case Study: Banco Itau"
         speakers:
            - id: "martin_delia"
       - local_time: "12:00 pm"
-        session_name: "Case Study: Gestión Compartida" 
+        session_name: "Case Study: Gestión Compartida"
         speakers:
            - id: "graciela_araujo"
       - local_time: "12:20 pm"
-        session_name: "Case Study:Previred" 
-        speakers: 
+        session_name: "Case Study:Previred"
+        speakers:
            - id: "miguel_caceres"
       - local_time: "13:00 pm"
         session_name: "Lunch"
       - local_time: "14:20 pm"
         session_name: "Case Study: Banco Galicia"
-        speakers: 
+        speakers:
            -id: "tomas_moyano"
       - local_time: "14:4 pm"
         session_name: "Case Study: TBC"
@@ -382,58 +382,58 @@ speakers:
     intro: "Working Red Hat in San Francisco. Co-founded dotCloud (now docker), a Y-Combinator startup Built a PAAS platform from scratch Passionate about large scale platforms, developer tools, automation, open source, distributed systems and rock climbing"
     photo: ""
   - id: "reza"
-    name: “Reza Shafii”
-    company: “Red Hat”
-    URL: “https://openshift.com”
-    intro: “Vice President, GM - Platform Services - OpenShift at Red Hat”
+    name: "Reza Shafii"
+    company: "Red Hat"
+    URL: "https://openshift.com"
+    intro: "Vice President, GM - Platform Services - OpenShift at Red Hat"
   - id: "roldan"
-    name: “Cristian Roldán”
-    company: “Produban,España”
+    name: "Cristian Roldán"
+    company: "Produban,España"
     URL: ""
-    intro: “Paas Manager” 
-    photo: ""      
+    intro: "Paas Manager"
+    photo: ""
   - id: "javier_barreiro"
-    name: “Javier Barreiro"
-    company: "AGESIC,Uruguay”
+    name: "Javier Barreiro"
+    company: "AGESIC,Uruguay"
     URL: ""
     intro: "Technology Director"
     photo: ""
   - id: "mateus_caruccio"
-    name: “Mateus Caruccio"
-    company: "GetUpCloud" 
+    name: "Mateus Caruccio"
+    company: "GetUpCloud"
     URL: ""
-    intro: “Chief Technology Officer”
+    intro: "Chief Technology Officer"
     photo: ""
   - id: "enrique_villar"
-    name: “Enrique Villar"
-    company: "Conservador de Bienes Raíces de Santiago"  
+    name: "Enrique Villar"
+    company: "Conservador de Bienes Raíces de Santiago"
     URL: ""
     intro: "IT Manager"
     photo: ""
-  - id: "martin_delia"          
-    name: “Martín D'Elía"  
-    company: "Banco Itau,Argentina” 
+  - id: "martin_delia"
+    name: "Martín D'Elía"
+    company: "Banco Itau,Argentina"
     URL: ""
     intro: "CIO"
     photo: ""
   - id: "graciela_araujo"
-    name: “Graciela Araujo"
-    company: "Gestión Compartida, “Argentina 
+    name: "Graciela Araujo"
+    company: "Gestión Compartida, "Argentina
     URL: ""
     intro: "CIO"
     photo: ""
   - id: "miguel_caceres"
-    name: “Miguel Cáceres"
-    company: "Previred" 
+    name: "Miguel Cáceres"
+    company: "Previred"
     URL: ""
     intro: ""
-    photo: "" 
+    photo: ""
   -id: "tomas_moyano"
-   name: “Tomás Moyano"
+   name: "Tomás Moyano"
    company: "Banco Galicia"
    URL: ""
    intro: ""
-   photo: ""   
+   photo: ""
 sponsors:
   - name:
     link:
