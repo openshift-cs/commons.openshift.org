@@ -249,12 +249,10 @@ gatherings:
         session_name: "Case Study: Banco Galicia"
         speakers:
           - id: "tomas_moyano"
-      - local_time: "14:4 pm"
+      - local_time: "14:40 pm"
         session_name: "Case Study: TBC"
       - local_time: "15:00 pm"
-        session_name: "Case Study:TBC"
-      - local_time: "15:20 pm"
-        session_name: "Case Study:TBC"
+        session_name: "Panel de Banca. Experiencia de Usuarios OpenShift"
       - local_time: "16:40 pm"
         session_name: "The Road Ahead @ OpenShift"
         speakers:
