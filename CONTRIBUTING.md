@@ -88,16 +88,38 @@ gatherings:
         price: "$99"
       - label: "Standard"
         price: "$149"
+    head_text: >- (optional; if present, overrides the header text)
+      Where users, partners, customers, contributors and upstream project leads come together to collaborate and work together on OpenShift.
     lead_text: >- (optional; rendered as red intro text)
       The OpenShift Commons Gathering will be co-located in Seattle with CNCF's KubeCon-NA!
     info_text: >-
       The OpenShift Commons Gathering brings together experts (...)
     event_footer_text: >- (optional; this note is displayed below the event summary)
       By being co-located in Seattle with KubeCon (...)
+    schedule_leadin: >- (optional: if present, will replace the lead-in text for the schedules)
+      The day will have a mix of keynotes, panels, ted-style talks, SIG break-out sessions, plenty of time to 
+      network over local craft beers and be continuously fueled by local baristas.
+    videos_text: >- (optional; if present, will replace the text for the link to see gatherings videos)
+      See session video recordings from previous gatherings
     invite_link: "" (optional; a link to invite a friend)
     sponsors: (optional; sponsors are searched by name in participants.yml and in the sponsor list below)
       - name: "sponsor"
     sponsoring_URL: "foo" (optional; if present renders a button for sponsor registration)
+    sponsor_button_text: >- (optional; if present, overrides the sponsor application button text)
+      Apply to be a sponsor
+    overview_secion: (optional: if present, overrides the specified text)
+      where:
+      when:
+      price:
+      alternative_date_month:
+      alternative_date_day_of_week:
+      invite_a_friend:
+    headers: (optional; if present, overrides the text of the specified header)
+      overview: ""
+      sponsors: ""
+      schedule: ""
+      speakers: ""
+      venue: ""
     schedule: (required; to be chronologically ordered - the template does not re-order)
       - local_time: "8:00 am" (start time of the session)
         session_name: "Registration Opens"

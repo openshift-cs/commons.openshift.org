@@ -27,11 +27,11 @@ description:  The OpenShift Commons community gets together and share experience
             </div>
             <div class="navbar-collapse collapse navbar-col-centered">
               <ul class="nav navbar-nav">
-                <li><a href="#gathering-overview">Overview</a></li>
-                <%= '<li><a href="#gathering-sponsor">Sponsors</a></li>' if gathering.sponsors.presence %>
-                <li><a href="#gathering-schedule">Schedule</a></li>
-                <li><a href="#gathering-speakers">Speakers</a></li>
-                <li><a href="#gathering-venue">Venue</a></li>
+                <li><a href="#gathering-overview"><%= gathering.headers.presence && gathering.headers.overview.presence ? gathering.headers.overview : 'Overview' %></a></li>
+                <%= '<li><a href="#gathering-sponsor">' + (gathering.headers.presence && gathering.headers.sponsors.presence ? gathering.headers.sponsors : 'Sponsors') + '</a></li>' if gathering.sponsors.presence %>
+                <li><a href="#gathering-schedule"><%= gathering.headers.presence && gathering.headers.schedule.presence ? gathering.headers.schedule : 'Schedule' %></a></li>
+                <li><a href="#gathering-speakers"><%= gathering.headers.presence && gathering.headers.speakers.presence ? gathering.headers.speakers : 'Speakers' %></a></li>
+                <li><a href="#gathering-venue"><%= gathering.headers.presence && gathering.headers.venue.presence ? gathering.headers.venue : 'Venue' %></a></li>
               </ul>
             </div>
         </div>
@@ -49,7 +49,9 @@ description:  The OpenShift Commons community gets together and share experience
     <h1>
       OpenShift Commons Gathering<br>
       <span><%= gathering.location %></span><br><br>
-      <p>Where users, partners, customers, contributors and upstream project leads come together to collaborate and work together on OpenShift.</p>
+      <p>
+        <%= gathering.head_text.presence ? gathering.head_text : 'Where users, partners, customers, contributors and upstream project leads come together to collaborate and work together on OpenShift.' %>
+      </p>
     </h1>
   </div>
 </div>
@@ -80,7 +82,7 @@ description:  The OpenShift Commons community gets together and share experience
     <div class="col-sm-4">
       <div class="btn-event apply">
         <a href="<%= gathering.sponsoring_URL %>" target="_blank">
-          <p class="text-center">Apply to be a sponsor</p>
+          <p class="text-center"><%= gathering.sponsor_button_text.presence ? gathering.sponsor_button_text : 'Apply to be a sponsor' %></p>
         </a>
       </div>
     </div>
@@ -94,7 +96,7 @@ description:  The OpenShift Commons community gets together and share experience
   <div class="container">
     <div class="row">
       <div class="container">
-        <h3 class="text-center">Event Overview</h3><br>
+        <h3 class="text-center"><%= gathering.headers.presence && gathering.headers.overview.presence ? gathering.headers.overview : 'Event Overview' %></h3><br>
         <!-- Overview Box -->
         <div class="col-md-12 event-box">
           <!-- Left Col -->
@@ -126,12 +128,14 @@ description:  The OpenShift Commons community gets together and share experience
               </a>
             </div>
             <% if gathering.invite_link.presence && gathering.invite_link.length > 0 %>
-              <p class="text-center text-2-mobile event-invite"><a href="<%= gathering.invite_link %>" target="_blank"><strong>Invite a friend &gt;&gt;</strong></a></p>
+              <p class="text-center text-2-mobile event-invite"><a href="<%= gathering.invite_link %>" target="_blank">
+                <strong><%= gathering.overview_section.presence && gathering.overview_section.invite_a_friend.presence ? gathering.overview_section.invite_a_friend : 'Invite a friend' %> »</strong>
+              </a></p>
             <% end %>
           </div>
           <!-- Right Col -->
           <div class="col-md-6 text-center">
-            <h3 class="text-center">Where</h3>
+            <h3 class="text-center"><%= gathering.overview_section.presence && gathering.overview_section.where.presence ? gathering.overview_section.where : 'Where' %></h3>
             <p class="text-center">
              <span class="event-span-red"><%= gathering.location %></span><br>
              <% if gathering.venue_URL.presence && gathering.venue_URL.length > 0 %>
@@ -145,13 +149,13 @@ description:  The OpenShift Commons community gets together and share experience
             <hr>
             <div class="row">
              <div class="col-xs-6 <%= "col-xs-offset-3" unless gathering.pricing.presence %>">
-                <h3>When</h3>
+                <h3><%= gathering.overview_section.presence && gathering.overview_section.when.presence ? gathering.overview_section.when : 'When' %></h3>
                 <% if gathering.calendar_event_URL.presence && gathering.calendar_event_URL.length > 0 %>
                 <a href="<%= gathering.calendar_event_URL %>" target="_blank" class="calendar-animate">
                 <% end %>
                   <div class="calendar-icon">
-                    <em><%= gathering.date.to_time.strftime('%A') %></em>
-                    <strong><%= gathering.date.to_time.strftime('%B') %></strong>
+                    <em><%= gathering.overview_section.presence && gathering.overview_section.alternative_date_day_of_week.presence ? gathering.overview_section.alternative_date_day_of_week : gathering.date.to_time.strftime('%A') %></em>
+                    <strong><%= gathering.overview_section.presence && gathering.overview_section.alternative_date_month.presence ? gathering.overview_section.alternative_date_month : gathering.date.to_time.strftime('%B') %></strong>
                     <span><%= gathering.date.to_time.strftime('%d') %></span>
                   </div>
                 <% if gathering.calendar_event_URL.presence && gathering.calendar_event_URL.length > 0 %>
@@ -160,7 +164,7 @@ description:  The OpenShift Commons community gets together and share experience
              </div>
              <% if gathering.pricing.presence %>
              <div id="price" class="col-xs-6">
-               <h3>Price</h3>
+               <h3><%= gathering.overview_section.presence && gathering.overview_section.price.presence ? gathering.overview_section.price : 'Price' %></h3>
                  <% gathering.pricing.each do |price_point| %>
                  <p><span class="event-span-red event-invite"><%= price_point.label %>: <%= price_point.price %></span></p>
                  <% end %>
@@ -186,7 +190,7 @@ description:  The OpenShift Commons community gets together and share experience
 <section class="section-gathering">
     <div class="container text-center">
         <div class="row container text-center">
-            <h3>Sponsors</h3>
+            <h3><%= gathering.headers.presence && gathering.headers.sponsors.presence ? gathering.headers.sponsors : 'Sponsors' %></h3>
             <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
             <p class="text-center">Interested in sponsoring OpenShift Commons Gathering?
               <a href="<%= gathering.sponsoring_URL %>" target="_blank">Apply here.</a>
@@ -223,11 +227,13 @@ description:  The OpenShift Commons community gets together and share experience
     <div class="container">
         <div class="row">
             <div class="container">
-                <h3 class="text-center">Schedule</h3><br>
-                <p class="text-center">The day will have a mix of keynotes, panels, ted-style talks, SIG break-out sessions, plenty of time to network over local craft beers and be continuously fuelled by local baristas.</p>
+                <h3 class="text-center"><%= gathering.headers.presence && gathering.headers.schedule.presence ? gathering.headers.schedule : 'Schedule' %></h3><br>
+                <p class="text-center">
+                  <%= gathering.schedule_leadin.presence ? gathering.schedule_leadin : 'The day will have a mix of keynotes, panels, ted-style talks, SIG break-out sessions, plenty of time to network over local craft beers and be continuously fueled by local baristas.' %>
+                </p>
                 <br>
                 <p class="text-center">
-                  <a href="/videos.html"><strong>See session video recordings from previous gatherings »</strong></a>
+                  <a href="/videos.html"><strong><%= gathering.videos_text.presence ? gathering.videos_text : 'See session video recordings from previous gatherings' %> »</strong></a>
                 </p>
                 <br>
                 <!-- Schedule Box -->
@@ -274,7 +280,7 @@ description:  The OpenShift Commons community gets together and share experience
 <section class="section-gathering">
   <div class="container-fluid">
     <div class="row-fluid container text-center">
-      <h3>Speakers</h3>
+      <h3><%= gathering.headers.presence && gathering.headers.speakers.presence ? gathering.headers.speakers : 'Speakers' %></h3>
       <br>
       <!-- Speaker Row-->
       <div class="row-fluid inner">
@@ -321,7 +327,7 @@ description:  The OpenShift Commons community gets together and share experience
 <section class="section-gathering section-gathering-secondary text-center">
   <div class="container-fluid">
     <div class="row-fluid container">
-      <h3>Venue</h3>
+      <h3><%= gathering.headers.presence && gathering.headers.venue.presence ? gathering.headers.venue : 'Venue' %></h3>
       <p class="text-center"><%= gathering.date.to_time.strftime('%B %d, %Y') %> | <%= gathering.time %>
         <br>
         <% if gathering.venue_URL.presence && gathering.venue_URL.length > 0 %>
