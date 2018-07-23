@@ -178,15 +178,15 @@ gatherings:
     location: "Buenos Aires, Argentina"
     google_maps_URL: >-
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.045653429368!2d-58.4548288!3d-34.6038729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa4d807b2dfc1d0d!2sBubble+Studio!5e0!3m2!1sen!2sca!4v1529948005290" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Red Hat Offices"
+    venue: "Espacio Darwin"
     venue_URL: ""
-    venue_address: "C1416CJK, Cucha Cucha 1661, CABA Buenos Aires, Argentina"
+    venue_address: "Av. Cnel. Niceto Vega 5350, C.A.B.A."
     calendar_event_URL:
-    registration_text: ""
+    registration_text: "Confirme su asistencia"
     registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-buenos-aires-tickets-47432137801"
     pricing:
-      - label: "RSVP Required"
-        price: "Free"
+      - label: "RSVP Requerido"
+        price: "Sin costo"
     lead_text: >-
       Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift!
     info_text: >-
