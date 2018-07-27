@@ -266,7 +266,7 @@ gatherings:
         session_name: "Case Study:Previred"
         speakers:
           - id: "miguel_caceres"
-       - local_time: "17:00 am"
+      - local_time: "17:00 am"
         session_name: "Case Study: Ministerio de Modernización"
         speakers:
           - id: "mariano_vasallo"         
