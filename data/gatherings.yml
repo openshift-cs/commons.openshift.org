@@ -286,26 +286,26 @@ gatherings:
     date: "2019-1-30"
     time: "8:00 am - 8:00 pm"
     location: "London, England"
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.1780067236696!2d-0.12142398422992576!3d51.509950179635524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ca27203d8b%3A0xe19dbe082ea09376!2sIET+London%3A+Savoy+Place!5e0!3m2!1sen!2sca!4v1533071975442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.7503990355976!2d-122.33481828436932!3d47.61154287918504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab5090f3cc7%3A0x38d32c762126bc69!2sWashington+State+Convention+Center!5e0!3m2!1sen!2sus!4v1529684362169" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Washington State Convention Center"
-    venue_URL: "https://www.wscc.com/"
-    venue_address: "705 Pike St, Seattle, WA 98101, USA"
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.1780067236696!2d-0.12142398422992576!3d51.509950179635524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ca27203d8b%3A0xe19dbe082ea09376!2sIET+London%3A+Savoy+Place!5e0!3m2!1sen!2sca!4v1533071975442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    venue: "Savoy Place London"
+    venue_URL: "https://savoyplace.theiet.org/"
+    venue_address: "2 Savoy Pl, London"
     calendar_event_URL:
     registration_text: ""
-    registration_URL: "https://www.regonline.com/registration/Checkin.aspx?EventID=2246960"
+    registration_URL: "https://eventbrite.com/tbd"
     pricing:
       - label: "Early Bird"
-        price: "$99"
+        price: "99€"
     lead_text: >-
-      The OpenShift Commons Gathering will be co-located in Seattle with <a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target="_blank">
-      CNCF's KubeCon-NA</a> at the <a href="https://www.wscc.com/" target="_blank">Washington State Convention Center</a>!
+      This OpenShift Commons Gathering will be located in London at the <a href="https://savoyplace.theiet.org/" target="_blank">The Savoy Place</a>!
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure.
     event_footer_text: >-
-      By being co-located in Seattle with KubeCon at the Washington State Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
+      The OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
@@ -319,25 +319,11 @@ gatherings:
           - id: "diane"
       - local_time: "9:10 am"
         session_name: "Opening Keynote"
-        speakers:
-          - id: "chris_wright"
       - local_time: "9:30 am"
         session_name: "OpenShift 3.x - Features, Functions, Futures"
-        speakers:
-          - id: "clayton_coleman"
-          - id: "mike_barrett"
       - local_time: "10:00 am"
-        session_name: "Case Study"
-      - local_time: "10:20 am"
-        session_name: "Case Study"
-      - local_time: "10:40 am"
-        session_name: "Coffee Break"
-      - local_time: "11:10 am"
-        session_name: "Case Study"
-      - local_time: "11:30 am"
-        session_name: "Case Study"
-      - local_time: "11:50 am"
-        session_name: "Upstream This!"
+        session_name: "Production Case Studies"
+        session_name: "Upstream This! Panel"
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
@@ -349,17 +335,13 @@ gatherings:
       - local_time: "2:30 pm"
         session_name: "Coffee Break"
       - local_time: "2:45 pm"
-        session_name: "Case Study"
-      - local_time: "3:15 pm"
-        session_name: "Case Study"
-      - local_time: "3:45 pm"
-        session_name: "Case Study"
+        session_name: "Production Case Studies"
       - local_time: "4:15 pm"
         session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
         speakers:
           - id: "brian_gracely"
       - local_time: "5:00 pm"
-        session_name: "AMA Panel with OpenShift PM team members"
+        session_name: "AMA Panel with OpenShift PM team members and engineers"
         speakers:
           - id: "joe_f"
       - local_time: "5:30 pm"
