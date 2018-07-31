@@ -280,7 +280,7 @@ gatherings:
           - id: "santiago"
       - local_time: "18:15 pm"
         session_name: "Evening Reception and Networking Event"
-- name: "London 2019"
+  - name: "London 2019"
     menu: "hide"
     language: "English"
     date: "2019-1-30"
