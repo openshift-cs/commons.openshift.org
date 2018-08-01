@@ -286,7 +286,6 @@ gatherings:
     date: "2019-1-30"
     time: "8:00 am - 8:00 pm"
     location: "London, England"
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.1780067236696!2d-0.12142398422992576!3d51.509950179635524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ca27203d8b%3A0xe19dbe082ea09376!2sIET+London%3A+Savoy+Place!5e0!3m2!1sen!2sca!4v1533071975442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     google_maps_URL: >-
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.1780067236696!2d-0.12142398422992576!3d51.509950179635524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ca27203d8b%3A0xe19dbe082ea09376!2sIET+London%3A+Savoy+Place!5e0!3m2!1sen!2sca!4v1533071975442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     venue: "Savoy Place London"
