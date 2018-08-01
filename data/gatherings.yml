@@ -177,7 +177,7 @@ gatherings:
     time: "8:00 am - 8:00 pm"
     location: "Buenos Aires, Argentina"
     google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.045653429368!2d-58.4548288!3d-34.6038729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa4d807b2dfc1d0d!2sBubble+Studio!5e0!3m2!1sen!2sca!4v1529948005290" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.613479964827!2d-58.4389447847707!3d-34.588645480463356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58b85a68d79%3A0x83c5f65a09f47dc4!2sAv.+Cnel.+Niceto+Vega+5350%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1sen!2sca!4v1533139554294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     venue: "Espacio Darwin"
     venue_URL: ""
     venue_address: "Av. Cnel. Niceto Vega 5350, C.A.B.A."
