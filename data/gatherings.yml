@@ -29,6 +29,12 @@ gatherings:
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
+      - name: "StorageOS"
+        link: "https://storageos.com"
+        logo: "commons-logos/storageos.svg"
+      - name: "Tremolo Security"
+        link: "https://tremolo.io"
+        logo: "commons-logos/tremolo.png"
     sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
     schedule:
       - local_time: "8:00 am"
