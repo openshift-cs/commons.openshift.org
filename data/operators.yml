@@ -1,0 +1,43 @@
+vetted_operators:
+  - title: "operator title 1"
+    link: "http://www.google.com/"
+    logo: "operators/remove.png"
+    logo_link: "http://www.redhat.com/"
+    description: "A short operator description."
+  - title: "operator title 2"
+    link: "http://www.google.com/"
+    logo: "operators/remove.png"
+  - title: "operator title 3"
+    link: "http://www.google.com/"
+    logo: "operators/remove.png"
+    logo_link: "http://www.redhat.com/"
+    description: >-
+      A longer operator description:<br />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut est elit, rhoncus ac posuere eleifend, fermentum ac massa. Praesent vehicula
+      efficitur gravida. Nullam quam quam, porttitor eget sapien nec, eleifend imperdiet risus. Donec metus massa, posuere eu luctus ut, placerat
+      eget dolor. Sed enim lacus, consectetur et leo vitae, lobortis vehicula purus. Etiam vehicula dolor rutrum, lobortis mi sed, ultricies diam.
+      Pellentesque nec placerat odio. Mauris odio ex, rutrum vitae suscipit sit amet, vehicula eget risus. Nulla varius, magna eu consectetur malesuada,
+      nulla dui commodo purus, vitae eleifend diam neque in orci. Ut ut hendrerit nulla. Donec pellentesque orci pulvinar venenatis egestas.
+  - title: "Rook"
+    link: "https://github.com/rook/rook/tree/master/cluster/examples/kubernetes"
+    logo: "operators/remove.png"
+    description: "File, Block, and Object Storage Services for your Cloud-Native Environment"
+  - title: "ElasticSearch"
+    link: "https://github.com/upmc-enterprises/elasticsearch-operator"
+    logo: "operators/remove.png"
+    logo_link: "http://www.redhat.com/"
+    description: "Elasticsearch is a distributed, RESTful search and analytics engine. This operator manages one or more elastic search clusters on Kubernetes."
+  - title: "etcd"
+    link: "https://github.com/coreos/etcd-operator"
+    logo: "operators/remove.png"
+    logo_link: "http://www.redhat.com/"
+    description: "etcd is a distributed key-value (k/v) store. This operator manages etcd k/v database clusters on Kubernetes."
+  - title: "Prometheus"
+    link: "https://github.com/coreos/prometheus-operator"
+    logo: "operators/remove.png"
+    logo_link: "http://www.redhat.com/"
+    description: >-
+      Prometheus, a Cloud Native Computing Foundation project, is a systems and service monitoring system. It collects metrics from configured
+      targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be
+      true. The Prometheus Operator for Kubernetes provides easy monitoring definitions for Kubernetes services and deployment and management
+      of Prometheus instances.
