@@ -409,28 +409,26 @@ $(document).ready(function($) {
 
 	//================================ Participant Search ================================//
 
-	 var $participant_list = $('li', 'ul.participants');
-	 if ($participant_list.length > 0) {
-	    $('#participant-search').keyup(function(e) {
-	        var search_string = e.target.value.toLowerCase();
-	        if (search_string) {
-	 	 $participant_list.each(function(i, el) {
-	 	    var $el = $(el);
-	 	    if ($el.data('participantname').indexOf(search_string) < 0) {
-	 		$el.hide();
-		    }
-		    else {
-			$el.show();
-		    }
-		 });
-	       }
-	       else {
-	 	 $participant_list.each(function(i, el) {
-	 	    $(el).show();
-	 	 });
-	       }
+	 var $operator_list = $('li', 'ul.operators');
+	 if ($operator_list.length > 0) {
+	    $('#operator-search').keyup(function(e) {
+	      var search_string = e.target.value.toLowerCase();
+	      if (search_string) {
+	 	      $operator_list.each(function(i, el) {
+	 	        var $el = $(el);
+	 	        if ($el.data('operatortitle').indexOf(search_string) < 0) {
+	 		        $el.hide();
+		        } else {
+			        $el.show();
+		        }
+		      });
+	      } else {
+	 	      $operator_list.each(function(i, el) {
+	 	        $(el).show();
+	 	      });
+	      }
 	    });
-       }
+    }
 });
 
 	//================================ Participant Search & Filter Isotope ================================//
