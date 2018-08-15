@@ -284,7 +284,7 @@ gatherings:
       - local_time: "18:15 pm"
         session_name: "Evening Reception and Networking Event"
   - name: "London 2019"
-    menu: "hide"
+    menu: "show"
     language: "English"
     date: "2019-1-30"
     time: "8:00 am - 8:00 pm"
@@ -311,7 +311,7 @@ gatherings:
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-    sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
+    sponsoring_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_London_Sponsor.2019.pdf"
     schedule:
       - local_time: "8:00 am"
         session_name: "Registration Opens"
