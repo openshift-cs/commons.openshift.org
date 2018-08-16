@@ -142,9 +142,9 @@ gatherings:
         speakers:
           - id: "eero_arvonen"
       - local_time: "11:40 am"
-        session_name: "Case Study: TBD"
+        session_name: "Case Study: Elisa"
       - local_time: "12:00 am"
-        session_name: "Upstream This! Panel - moderated by Carol Chen (Red Hat)"
+        session_name: "User Panel - moderated by Carol Chen (Red Hat)"
       - local_time: "12:30 am"
         session_name: "Sponsor Lightning Talks"
       - local_time: "1:00 pm"
