@@ -168,7 +168,7 @@ gatherings:
         speakers:
           - id: "faz"
       - local_time: "4:00 pm"
-        session_name: "What's Next AMA Panel - moderated by Marek Jalen (Red Hat)"
+        session_name: "What's Next AMA Panel - moderated by Marek Jelen (Red Hat)"
       - local_time: "4:50 pm"
         session_name: "Road Ahead at OpenShift Wrap-Up"
         speakers:
