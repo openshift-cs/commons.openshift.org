@@ -563,7 +563,7 @@ speakers:
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
-    logo: "sponsor-logos/microsoft-helsinki.png"
+    logo: "commons-logos/microsoft-helsinki.png"
   - name: "newrelic-helsinki"
     link: "https://www.newrelic.com"
-    logo: "sponsor-logos/newrelic-helsinki.png"
+    logo: "commons-logos/newrelic-helsinki.png"
