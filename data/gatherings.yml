@@ -24,7 +24,7 @@ gatherings:
       the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure.
     event_footer_text: >-
-      Please note: Pre-registration is required AND You must have a pass for KubeCon to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your KubeCon + CloudNativeCon registration. 
+      Please note: Pre-registration is required AND You must have a pass for KubeCon to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your KubeCon + CloudNativeCon registration.
       By being co-located in Seattle with KubeCon at the Washington State Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
@@ -119,6 +119,8 @@ gatherings:
       Red Hat Forum Finland 2018</a>.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
+      - name: "microsoft-helsinki"
+      - name: "newrelic-helsinki"
     sponsoring_URL: "mailto:repo@redhat.com"
     schedule:
       - local_time: "9:00 am"
@@ -130,9 +132,9 @@ gatherings:
       - local_time: "10:00 am"
         session_name: "State of the Cloud: Update on OpenShift 3.x"
         speakers:
-          - id: "ssadeghi"
+          - id: "marek_jelen"
       - local_time: "10:30 am"
-        session_name: "Case Study: Moving Workloads to Openshift Online(GameRefinery)"
+        session_name: "Case Study: Moving Workloads to Openshift Online (GameRefinery)"
         speakers:
           - id: "tero"
       - local_time: "10:50 am"
@@ -142,17 +144,21 @@ gatherings:
         speakers:
           - id: "eero_arvonen"
       - local_time: "11:40 am"
-        session_name: "Case Study: TBD"
+        session_name: "Case Study: Elisa"
       - local_time: "12:00 am"
-        session_name: "Upstream This! Panel - moderated by Carol Chen (Red Hat)"
+        session_name: "User Panel - moderated by Carol Chen (Red Hat)"
       - local_time: "12:30 am"
         session_name: "Sponsor Lightning Talks"
       - local_time: "1:00 pm"
         session_name: "Networking Lunch"
       - local_time: "2:00 pm"
-        session_name: "Open Innovation Lab and Changing the Culture - Jeremy Brown, Red Hat"
+        session_name: "Open Innovation Lab and Changing the Culture"
+        speakers:
+          - id: "jeremy_brown"
       - local_time: "2:40 pm"
-        session_name: "Case Study 5 - TBD"
+        session_name: "Short glimpse to to future"
+        speakers:
+          - id: "tero_rh"
       - local_time: "3:00 pm"
         session_name: "Coffee break"
       - local_time: "3:20 pm"
@@ -164,7 +170,7 @@ gatherings:
         speakers:
           - id: "faz"
       - local_time: "4:00 pm"
-        session_name: "What's Next AMA Panel - moderated by Siamak Sadeghianfar(Red Hat)"
+        session_name: "What's Next AMA Panel - moderated by Marek Jelen (Red Hat)"
       - local_time: "4:50 pm"
         session_name: "Road Ahead at OpenShift Wrap-Up"
         speakers:
@@ -272,7 +278,7 @@ gatherings:
       - local_time: "17:00 am"
         session_name: "Case Study: Ministerio de Modernización"
         speakers:
-          - id: "mariano_vasallo"         
+          - id: "mariano_vasallo"
       - local_time: "17:30 am"
         session_name: "Case Study:Conservador de Bienes Raíces de Santiago"
         speakers:
@@ -351,7 +357,7 @@ gatherings:
         speakers:
           - id: "diane"
       - local_time: "6:00 pm"
-        session_name: "Evening Reception and Networking Event"        
+        session_name: "Evening Reception and Networking Event"
 speakers:
   - id: "diane"
     name: "Diane Mueller"
@@ -422,7 +428,14 @@ speakers:
     company: "GameRefinery"
     URL: "http://www.gamerefinery.com"
     intro: ""
-    photo: ""
+    photo: "speakers/tero_ahonen.jpg"
+  - id: "tero_rh"
+    name: "Tero Ahonen"
+    role: "Senior Specialist Solution Architect"
+    company: "Red Hat"
+    URL: "http://www.redhat.com"
+    intro: ""
+    photo: "speakers/tero_ahonen.jpg"
   - id: "ssadeghi"
     name: "Siamak Sadeghianfar"
     role: "Principal Technical Marketing Manager"
@@ -537,7 +550,22 @@ speakers:
     URL: ""
     intro: ""
     photo: ""
+  - id: "marek_jelen"
+    name: "Marek Jelen"
+    company: "Red Hat"
+    URL: "https://www.redhat.com"
+    intro: ""
+    photo: ""
+  - id: "jeremy_brown"
+    name: "Jeremy Brown"
+    company: "Red Hat"
+    URL: "https://www.redhat.com"
+    intro: ""
+    photo: ""
 sponsors:
-  - name:
-    link:
-    logo:
+  - name: "microsoft-helsinki"
+    link: "https://www.microsoft.com"
+    logo: "commons-logos/microsoft-helsinki.png"
+  - name: "newrelic-helsinki"
+    link: "https://www.newrelic.com"
+    logo: "commons-logos/newrelic-helsinki.png"
