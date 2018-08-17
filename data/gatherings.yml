@@ -108,15 +108,15 @@ gatherings:
       - label: "Early Bird"
         price: "25 Euros"
     lead_text: >-
-      The OpenShift Commons Gathering will be help in Helsinki (Espoo) just a day before  <a href="https://www.redhat.com/en/events/forum-finland" target="_blank">
-      Red Hat Forum Finland 2018</a> at the <a href="https://keilaranta1.fi/palvelut-yhteiset-tilat/" target="_blank"> Keilaranta 1 02150 Espoo, Finland Auditorium, ground floor</a>!
+      The OpenShift Commons Gathering will be held in Helsinki (Espoo) just a day before  <a href="https://www.redhat.com/en/events/forum-finland" target="_blank">
+      Red Hat Forum Finland 2018</a> at <a href="https://keilaranta1.fi/palvelut-yhteiset-tilat/" target="_blank"> Keilaranta 1 02150 Espoo, Finland Auditorium, ground floor</a>!
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The Helsinki event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure.
     event_footer_text: >-
-      Being just one day before Red Hat Forum Helsinki, you should book a hotel and extends your trip to also participate to<a href="https://www.redhat.com/en/events/forum-finland" target="_blank">
-      Red Hat Forum Finland 2018</a>.
+      Being just one day before Red Hat Forum Helsinki, you should book a hotel and extend your trip to participate in <a href="https://www.redhat.com/en/events/forum-finland" target="_blank">
+      Red Hat Forum Finland 2018</a> as well.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
       - name: "microsoft-helsinki"
@@ -134,7 +134,7 @@ gatherings:
         speakers:
           - id: "marek_jelen"
       - local_time: "10:30 am"
-        session_name: "Case Study: Moving Workloads to Openshift Online (GameRefinery)"
+        session_name: "Case Study: Moving Workloads to OpenShift Online (GameRefinery)"
         speakers:
           - id: "tero"
       - local_time: "10:50 am"
@@ -146,7 +146,7 @@ gatherings:
       - local_time: "11:40 am"
         session_name: "Case Study: Elisa"
       - local_time: "12:00 am"
-        session_name: "User Panel - moderated by Carol Chen (Red Hat)"
+        session_name: "User Panel - moderated by Diane Mueller (Red Hat)"
       - local_time: "12:30 am"
         session_name: "Sponsor Lightning Talks"
       - local_time: "1:00 pm"
@@ -156,21 +156,21 @@ gatherings:
         speakers:
           - id: "jeremy_brown"
       - local_time: "2:40 pm"
-        session_name: "Short glimpse to to future"
+        session_name: "Short Glimpse to the Future"
         speakers:
           - id: "tero_rh"
       - local_time: "3:00 pm"
         session_name: "Coffee break"
       - local_time: "3:20 pm"
-        session_name: "State of Serverless and Openshift"
+        session_name: "State of Serverless and OpenShift"
         speakers:
           - id: "natale_v"
       - local_time: "3:40 pm"
-        session_name: "Automation in the cloud native world"
+        session_name: "Automation in the Cloud Native World"
         speakers:
           - id: "faz"
       - local_time: "4:00 pm"
-        session_name: "What's Next AMA Panel - moderated by Marek Jelen (Red Hat)"
+        session_name: "What's Next AMA Panel - moderated by Carol Chen (Red Hat)"
       - local_time: "4:50 pm"
         session_name: "Road Ahead at OpenShift Wrap-Up"
         speakers:
