@@ -24,7 +24,7 @@ gatherings:
       the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure.
     event_footer_text: >-
-      Please note: Pre-registration is required AND You must have a pass for KubeCon to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your KubeCon + CloudNativeCon registration. 
+      Please note: Pre-registration is required AND You must have a pass for KubeCon to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your KubeCon + CloudNativeCon registration.
       By being co-located in Seattle with KubeCon at the Washington State Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
@@ -272,7 +272,7 @@ gatherings:
       - local_time: "17:00 am"
         session_name: "Case Study: Ministerio de Modernización"
         speakers:
-          - id: "mariano_vasallo"         
+          - id: "mariano_vasallo"
       - local_time: "17:30 am"
         session_name: "Case Study:Conservador de Bienes Raíces de Santiago"
         speakers:
@@ -296,10 +296,10 @@ gatherings:
     venue_address: "2 Savoy Pl, London"
     calendar_event_URL:
     registration_text: ""
-    registration_URL: "https://eventbrite.com/tbd"
+    registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-london-tickets-49186307570"
     pricing:
       - label: "Early Bird"
-        price: "99€"
+        price: "£99"
     lead_text: >-
       This OpenShift Commons Gathering will be located in London at the <a href="https://savoyplace.theiet.org/" target="_blank">The Savoy Place</a>!
     info_text: >-
@@ -326,6 +326,8 @@ gatherings:
       - local_time: "10:00 am"
         session_name: "Production Case Studies"
         session_name: "Upstream This! Panel"
+      - local_time: "10:30 am"
+        session_name: "Coffee Break"
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
@@ -351,7 +353,7 @@ gatherings:
         speakers:
           - id: "diane"
       - local_time: "6:00 pm"
-        session_name: "Evening Reception and Networking Event"        
+        session_name: "Evening Reception and Networking Event"
 speakers:
   - id: "diane"
     name: "Diane Mueller"
