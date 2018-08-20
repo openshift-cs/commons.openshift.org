@@ -302,10 +302,10 @@ gatherings:
     venue_address: "2 Savoy Pl, London"
     calendar_event_URL:
     registration_text: ""
-    registration_URL: "https://eventbrite.com/tbd"
+    registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-london-tickets-49186307570"
     pricing:
       - label: "Early Bird"
-        price: "99€"
+        price: "£99"
     lead_text: >-
       This OpenShift Commons Gathering will be located in London at the <a href="https://savoyplace.theiet.org/" target="_blank">The Savoy Place</a>!
     info_text: >-
@@ -332,6 +332,8 @@ gatherings:
       - local_time: "10:00 am"
         session_name: "Production Case Studies"
         session_name: "Upstream This! Panel"
+      - local_time: "10:30 am"
+        session_name: "Coffee Break"
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
