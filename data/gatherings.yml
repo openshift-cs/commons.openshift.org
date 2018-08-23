@@ -304,8 +304,11 @@ gatherings:
     registration_text: ""
     registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-london-tickets-49186307570"
     pricing:
+      - label: "Tickets"
+        price: "£100"
+        strikethrough: true
       - label: "Early Bird"
-        price: "£99"
+        price: "£60"
     lead_text: >-
       This OpenShift Commons Gathering will be located in London at the <a href="https://savoyplace.theiet.org/" target="_blank">The Savoy Place</a>!
     info_text: >-

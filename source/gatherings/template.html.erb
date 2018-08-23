@@ -165,9 +165,13 @@ description:  The OpenShift Commons community gets together and share experience
              <% if gathering.pricing.presence %>
              <div id="price" class="col-xs-6">
                <h3><%= gathering.overview_section.presence && gathering.overview_section.price.presence ? gathering.overview_section.price : 'Price' %></h3>
-                 <% gathering.pricing.each do |price_point| %>
-                 <p><span class="event-span-red event-invite"><%= price_point.label %>: <%= price_point.price %></span></p>
-                 <% end %>
+                  <% gathering.pricing.each do |price_point| %>
+                    <% if price_point.strikethrough.presence && (price_point.strikethrough || price_point.strikethrough == 'true') %>
+                    <p><s style="text-decoration-style: wavy;"><span class="event-span-red event-invite"><%= price_point.label %>: <%= price_point.price %></span></s></p>
+                    <% else %>
+                    <p><span class="event-span-red event-invite"><%= price_point.label %>: <%= price_point.price %></span></p>
+                    <% end %>
+                  <% end %>
              </div>
              <% end %>
            </div>
