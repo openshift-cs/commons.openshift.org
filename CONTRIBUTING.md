@@ -88,6 +88,7 @@ gatherings:
         price: "$99"
       - label: "Standard"
         price: "$149"
+        strikethrough: true (optional strikethrough boolean)
     head_text: >- (optional; if present, overrides the header text)
       Where users, partners, customers, contributors and upstream project leads come together to collaborate and work together on OpenShift.
     lead_text: >- (optional; rendered as red intro text)
