@@ -145,7 +145,9 @@ gatherings:
         speakers:
           - id: "eero_arvonen"
       - local_time: "11:40 am"
-        session_name: "Case Study: Elisa"
+        session_name: "OpenShift Architecture Evolution at Elisa"
+        speakers:
+          - id: "antti_seppala"
       - local_time: "12:00 am"
         session_name: "User Panel - moderated by Diane Mueller (Red Hat)"
       - local_time: "12:30 am"
@@ -157,7 +159,7 @@ gatherings:
         speakers:
           - id: "jeremy_brown"
       - local_time: "2:40 pm"
-        session_name: "Scale skills, gain speed"
+        session_name: "Scale Skills, Gain Speed"
         speakers:
           - id: "ilkka_tengvall"
       - local_time: "3:00 pm"
@@ -167,7 +169,7 @@ gatherings:
         speakers:
           - id: "natale_v"
       - local_time: "3:40 pm"
-        session_name: "Can I contain this?"
+        session_name: "Can I Contain This?"
         speakers:
           - id: "ed_seymour"
       - local_time: "4:00 pm"
@@ -580,6 +582,13 @@ speakers:
     URL: "https://www.redhat.com"
     intro: "I am catalyst for my customers and partners, enhancing productivity and ways to work. I mainly consider how to get quicker time to market and quickly adapt to business needs."
     photo: "speakers/ilkka_tengvall.jpg"
+  - id: "antti_seppala"
+    name: "Antti Seppälä"
+    role: "Service Manager"
+    company: "Elisa"
+    URL: "https://elisa.fi/"
+    intro: ""
+    photo: "speakers/antti_seppala.jpg"
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
