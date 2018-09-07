@@ -563,7 +563,7 @@ speakers:
     company: "Red Hat"
     URL: "https://www.redhat.com"
     intro: ""
-    photo: ""
+    photo: "speakers/marek_jelen.jpg"
   - id: "jeremy_brown"
     name: "Jeremy Brown"
     company: "Red Hat"
