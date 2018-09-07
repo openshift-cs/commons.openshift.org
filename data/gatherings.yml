@@ -31,6 +31,10 @@ gatherings:
     sponsors:
       - name: "StorageOS"
       - name: "Tremolo Security"
+      - name: "Instana"
+      - name: "Pure Storage"
+      - name: "ProphetStor"
+      - name: "Twistlock" 
     sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
     schedule:
       - local_time: "8:00 am"
