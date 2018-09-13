@@ -35,6 +35,7 @@ gatherings:
       - name: "Pure Storage"
       - name: "ProphetStor"
       - name: "Twistlock" 
+      - name: "CyberArk" 
     sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
     schedule:
       - local_time: "8:00 am"
