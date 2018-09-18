@@ -59,7 +59,7 @@ description:  A community of collaborators working together.
 <div class="container-fluid">
   <div class="grid"><!-- add extra container element for Masonry -->
     <div class="grid-sizer col-lg-4 col-xs-6"></div><!-- add sizing element for columnWidth -->
-      <%= partial "participants_list", :object => data.participants.participants %>
+      <%= partial "participants_list", :object => data.participants.participants.sort_by { | participant | participant[:name].downcase } %>
   </div>
 </div>
 
