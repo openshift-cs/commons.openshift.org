@@ -22,41 +22,23 @@ $ git fetch upstream
 
 ## Adding partners
 
-Currently the most common task is to add partners' information to the website, i.e., their logo, name, and url. You can check if any there's any logo waiting to be added on this repository's [issues](https://github.com/openshift/commons.openshift.org/issues).
-Before you start working on an issue, assign yourself to it.
+Currently the most common task is to add partners' information to the website, i.e., 
+their logo, name, and url. You can check if any there's any logo waiting to be added 
+on this repository's [issues](https://github.com/openshift-cs/commons.openshift.org/issues).
 
-Firstly, open the `data/participants.yml`file with any editor:
-
-```bash
-$ vim data/partipants.yml
-```
-
-Then, add the following code for each participant (note that list is alphabetically ordered):
-
-```yml
-- name: "Partner name"
-  link: "http://link-to-partner.com"
-  logo: "commons-logos/partner-name.png"
-```
-
-Then, open the logo image file with any image editor, e.g. GIMP, and:
-
-Resize it to a reasonable dimension, default to 120px width and variable height.
+There exists a shell script and Java program within the repository that automates the addition 
+of partners to OpenShift Commons. To use the script and program to add a partner, add an Issue 
+where the body is in the following format:
 
 ```
-# Using GIMP
-# Image > Scale Image
+Company: Company Name
+URL: URL of Company's Website
+Logo: URL of the Company's Logo (.jpg, .png, .svg, etc)
 ```
 
-Save it with to the `source/img/commons-logos/ folder, with **compression enabled**
-
-```
-# Using GIMP
-# File > Export As (Shift + Ctrl + E)
-# Choose PNG format, enable "Save background color" and add some compression level
-```
-
-Finally, after you've successfully tested the changes, using our [development guidelines](https://github.com/openshift/commons.openshift.org#development), submit a Pull Request using the guidelines bellow.
+Capitalization of the fields does not matter, however each need to be on different lines, 
+spelled correctly, and be followed with `:`. A "TBD" can act as a placeholder for any of 
+the three fields. The program will simply skip the issue entirely until the TBD is revised. 
 
 
 ## Adding Gathering Pages
