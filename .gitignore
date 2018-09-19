@@ -22,3 +22,4 @@ bundle
 .DS_Store
 
 resizer/*.class
+commit.txt
