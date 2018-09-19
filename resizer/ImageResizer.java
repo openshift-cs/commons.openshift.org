@@ -33,11 +33,12 @@ public class ImageResizer {
 
   /** Specific text String located in cURL command output on same line as body of Issues */
   private static final String ISSUE_FLAG = "\"body\": \"company";
+  private static final String ISSUE_NUMBER_FLAG = "\"number\": ";
 
   /** String located in GitHub issues for any piece of information*/
   private static final String ISSUE_SKIP_FLAG = " TBD";
 
-  /** Maximum pixel width for uploaded company logo */
+  /** Maximum pixel height for uploaded company logo */
   private static final float MAX_HEIGHT = 60;
 
   /**
@@ -78,6 +79,8 @@ public class ImageResizer {
     String bodyLine;
     String ymlLine;
     boolean addIssue;
+    boolean needFirstCommit = true;
+    String issue_number = "unknown";
     String company;
     String business_url;
     String link;
@@ -92,6 +95,15 @@ public class ImageResizer {
       out = new BufferedWriter(new FileWriter(f, true));
     } catch (IOException e) {
       System.out.println("Error: Could not write to `" + COMMONS_PATH + "/data/participants.yml`");
+      System.exit(1);
+    }
+
+    BufferedWriter commit_out = null;
+    File commit_f = new File(COMMONS_PATH + "/commit.txt");
+    try {
+      commit_out = new BufferedWriter(new FileWriter(commit_f, true));
+    } catch (IOException e) {
+      System.out.println("Error: Could not write to `" + COMMONS_PATH + "/commit.txt`");
       System.exit(1);
     }
 
@@ -167,6 +179,13 @@ public class ImageResizer {
                 out.newLine();
                 out.append("  logo: \"commons-logos/" + fileName + "\"");
                 out.newLine();
+
+                if (needFirstCommit) {
+                  commit_out.append("Participants: Auto-add participants from Issues\n\n");
+                  needFirstCommit = false;
+                }
+
+                commit_out.append("- Closes: #" + issue_number + "\n");
                 //Prints to the console which companies were added
                 System.out.println(companies_parsed + ". Company \"" + company + "\" added.");
               }
@@ -176,7 +195,11 @@ public class ImageResizer {
           } else {
             System.out.println(companies_parsed + ". Company \"" + company + "\" NOT added because of missing data (url: " + business_url + "; logo: " + link + ")");
           }
+
+          System.out.println("\t(From issue: https://github.com/openshift-cs/commons.openshift.org/issues/" + issue_number + ")");
         }
+      } else if (line.toLowerCase().startsWith(ISSUE_NUMBER_FLAG.toLowerCase())) {
+        issue_number = line.substring(10, line.length() - 1);
       }
     }
 
@@ -189,6 +212,7 @@ public class ImageResizer {
     System.out.println();
     System.out.println(companies_parsed + " companies have been processed.");
     out.close();
+    commit_out.close();
   }
 
   /**
