@@ -20,9 +20,9 @@ $ git fetch upstream
 ```
 
 
-## Adding partners
+## Adding New Members
 
-Currently the most common task is to add partners' information to the website, i.e., 
+Currently the most common task is to add members' information to the website, i.e., 
 their logo, name, and url. You can check if any there's any logo waiting to be added 
 on this repository's [issues](https://github.com/openshift-cs/commons.openshift.org/issues).
 
