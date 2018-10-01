@@ -783,7 +783,7 @@ ul.operators.list {
     overflow: hidden;
     min-height: 80px;
     font-size: 18px;
-    margin: 0;
+    margin: 1em 0 0;
     text-align: left;
 
     .logo {
@@ -805,6 +805,10 @@ ul.operators.list {
 	@media (max-width: $screen-sm-max) {
     li {
 			min-height: 110px;
+
+			img {
+				padding: 0 0 15px 0;
+			}
 		}
 	}
 }
