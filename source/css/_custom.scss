@@ -746,23 +746,29 @@ ul.participants.list {
 
 #operator-carousel {
 	margin: 0 auto;
+	min-height: 180px;
 
 	.operator-logo {
 		display: inline-block;
 		height: 120px;
 		margin: 5px 20px;
-		width: 180px;
+		width: 230px;
 
 		.operator-image {
 			font-size: 10pt;
+			height: 80px;
+			width: 190px;
 
 			img {
-			  max-height: 80px;
+				max-height: 80px;
+				max-width: 190px;
 			}
 		}
 
 		.operator-title {
 			font-size: 16px;
+			height: 80px;
+			width: 190px;
 		}
 	}
 }
