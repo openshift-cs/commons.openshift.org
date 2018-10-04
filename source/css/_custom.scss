@@ -750,7 +750,7 @@ ul.participants.list {
 
 	.operator-logo {
 		display: inline-block;
-		height: 120px;
+		height: 170px;
 		margin: 5px 20px;
 		width: 230px;
 
@@ -758,6 +758,7 @@ ul.participants.list {
 			font-size: 10pt;
 			height: 80px;
 			width: 190px;
+			margin: auto;
 
 			img {
 				max-height: 80px;
@@ -767,7 +768,10 @@ ul.participants.list {
 
 		.operator-title {
 			font-size: 16px;
-			height: 80px;
+			height: 60px;
+			line-height: normal;
+			margin: auto;
+			padding-top: 25px;
 			width: 190px;
 		}
 	}
