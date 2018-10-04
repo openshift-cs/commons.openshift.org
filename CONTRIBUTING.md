@@ -20,9 +20,9 @@ $ git fetch upstream
 ```
 
 
-## Adding partners
+## Adding New Members
 
-Currently the most common task is to add partners' information to the website, i.e., 
+Currently the most common task is to add members' information to the website, i.e., 
 their logo, name, and url. You can check if any there's any logo waiting to be added 
 on this repository's [issues](https://github.com/openshift-cs/commons.openshift.org/issues).
 
@@ -51,7 +51,8 @@ Most data about individual event pages is stored here:
 ```
 gatherings:
   - name: "Seattle 2018" (unique; used to build the html page name and the menu link)
-    menu: "show" (is not in the site menu, if there's not "show" here)
+    menu: "show" (is not in the site menu, if "show" is not here or the build date of this site is in future
+                 compared with the event date below)
     language: "English" (optional)
     date: "2018-12-10"
     time: "8:00 am - 5:30 pm"

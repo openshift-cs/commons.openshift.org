@@ -746,21 +746,33 @@ ul.participants.list {
 
 #operator-carousel {
 	margin: 0 auto;
+	min-height: 180px;
 
 	.operator-logo {
 		display: inline-block;
-		height: 120px;
+		height: 170px;
 		margin: 5px 20px;
-		width: 180px;
+		width: 230px;
 
 		.operator-image {
+			font-size: 10pt;
+			height: 80px;
+			width: 190px;
+			margin: auto;
+
 			img {
-			  max-height: 80px;
+				max-height: 80px;
+				max-width: 190px;
 			}
 		}
 
 		.operator-title {
 			font-size: 16px;
+			height: 60px;
+			line-height: normal;
+			margin: auto;
+			padding-top: 25px;
+			width: 190px;
 		}
 	}
 }
@@ -783,7 +795,7 @@ ul.operators.list {
     overflow: hidden;
     min-height: 80px;
     font-size: 18px;
-    margin: 0;
+    margin: 1em 0 0;
     text-align: left;
 
     .logo {
@@ -805,6 +817,10 @@ ul.operators.list {
 	@media (max-width: $screen-sm-max) {
     li {
 			min-height: 110px;
+
+			img {
+				padding: 0 0 15px 0;
+			}
 		}
 	}
 }
