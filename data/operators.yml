@@ -106,7 +106,7 @@ vetted_operators:
   description: "Strimzi provides a way to run an Apache Kafka cluster on Kubernetes or OpenShift in various deployment configurations."
 - title: "Vitess"
   link: "https://github.com/vitessio/vitess-operator "
-  logo: "operators/vitessstacked.png"
+  logo: "operators/vitessestacked.png"
   logo_link: "https://github.com/vitessio/vitess-operator /blob/master/README.md"
   description: "Vitess Operator provides automation that simplifies the administration of Vitess clusters on Kubernetes."
 - title: "Dask (alpha)"
