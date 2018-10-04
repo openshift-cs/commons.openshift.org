@@ -51,7 +51,8 @@ Most data about individual event pages is stored here:
 ```
 gatherings:
   - name: "Seattle 2018" (unique; used to build the html page name and the menu link)
-    menu: "show" (is not in the site menu, if there's not "show" here)
+    menu: "show" (is not in the site menu, if "show" is not here or the build date of this site is in future
+                 compared with the event date below)
     language: "English" (optional)
     date: "2018-12-10"
     time: "8:00 am - 5:30 pm"
