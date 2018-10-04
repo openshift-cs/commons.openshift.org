@@ -421,7 +421,7 @@ a.list-link {
   margin: 10px 0;
 }
 
-#participant-carousel {
+.logo-carousel {
 	width: 100%;
 	overflow: hidden;
 	font-size: 24px;
@@ -430,19 +430,12 @@ a.list-link {
 	margin: 2em auto;
 	text-align: center;
 
-	img {
+  img {
 		max-width: 140px;
 		max-height: 60px;
 	}
 
-	.participant-logo {
-		display: inline-block;
-		width: 140px;
-		height: 60px;
-		margin: 5px 20px;
-	}
-
-	&.carousel.slide {
+  &.carousel.slide {
 		max-width: 100%;
 	}
 
@@ -454,6 +447,15 @@ a.list-link {
 
 	.carousel-control {
 		background: none;
+	}
+}
+
+#participant-carousel {
+	.participant-logo {
+		display: inline-block;
+		width: 140px;
+		height: 60px;
+		margin: 5px 20px;
 	}
 }
 
@@ -741,6 +743,88 @@ ul.participants.list {
 		border: none;
   }
 }
+
+#operator-carousel {
+	margin: 0 auto;
+	min-height: 180px;
+
+	.operator-logo {
+		display: inline-block;
+		height: 170px;
+		margin: 5px 20px;
+		width: 230px;
+
+		.operator-image {
+			font-size: 10pt;
+			height: 80px;
+			width: 190px;
+			margin: auto;
+
+			img {
+				max-height: 80px;
+				max-width: 190px;
+			}
+		}
+
+		.operator-title {
+			font-size: 16px;
+			height: 60px;
+			line-height: normal;
+			margin: auto;
+			padding-top: 25px;
+			width: 190px;
+		}
+	}
+}
+
+// operator list
+
+#operator-search {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 10px 0 30px;
+}
+
+ul.operators.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    width: 100%;
+    overflow: hidden;
+    min-height: 80px;
+    font-size: 18px;
+    margin: 1em 0 0;
+    text-align: left;
+
+    .logo {
+      display: block;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 60px;
+    }
+
+		p.description {
+			font-size: 11pt;
+		}
+  }
+
+	@media (max-width: $screen-sm-max) {
+    li {
+			min-height: 110px;
+
+			img {
+				padding: 0 0 15px 0;
+			}
+		}
+	}
+}
+
 
 // blog feeds on SIG sign up form
 #blog-feed-sig {
