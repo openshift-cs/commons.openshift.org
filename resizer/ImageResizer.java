@@ -1,9 +1,6 @@
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
@@ -36,7 +33,7 @@ public class ImageResizer {
   private static final String ISSUE_NUMBER_FLAG = "\"number\": ";
 
   /** String located in GitHub issues for any piece of information*/
-  private static final String ISSUE_SKIP_FLAG = " TBD";
+  private static final String ISSUE_SKIP_FLAG = "tbd";
 
   /** Maximum pixel height for uploaded company logo */
   private static final float MAX_HEIGHT = 60;
@@ -71,6 +68,9 @@ public class ImageResizer {
     //Establishes input Scanners used to read piped-in cURL output and 'participants.yml' file
     Scanner inputReader = new Scanner(System.in);
 
+    /** Whether or not errors have occured */
+    boolean errors_encountered = false;
+
     /*
      * Following lines declare/initialize variables necessary for properly parsing
      * text input and extracting company name, url, and logo url
@@ -90,21 +90,12 @@ public class ImageResizer {
     URL company_url;
     int companies_parsed = 0;
 
-    //Establishes the BufferedWriter needed to append text to 'participants.yml'
-    BufferedWriter out = null;
-    File f = new File(COMMONS_PATH + "/data/participants.yml");
-    try {
-      out = new BufferedWriter(new FileWriter(f, true));
-    } catch (IOException e) {
-      System.out.println("Error: Could not write to `" + COMMONS_PATH + "/data/participants.yml`");
-      System.exit(1);
-    }
-
     BufferedWriter commit_out = null;
     File commit_f = new File(COMMONS_PATH + "/commit.txt");
     try {
       commit_out = new BufferedWriter(new FileWriter(commit_f, true));
     } catch (IOException e) {
+      errors_encountered = true;
       System.out.println("Error: Could not write to `" + COMMONS_PATH + "/commit.txt`");
       System.exit(1);
     }
@@ -137,11 +128,12 @@ public class ImageResizer {
             link = m.group("logo2");
           }
 
-          if (company != null && business_url != null && link != null && !bodyLine.contains(ISSUE_SKIP_FLAG)) {
+          if (company != null && business_url != null && link != null && !bodyLine.toLowerCase().contains(ISSUE_SKIP_FLAG)) {
 
             try {
               logo_url = new URL(link);
             } catch (MalformedURLException e) {
+              errors_encountered = true;
               System.out.println("Error: Invalid URL (" + link + ") - " + company);
               continue;
             }
@@ -154,46 +146,45 @@ public class ImageResizer {
             try {
               company_url = new URL(business_url);
             } catch (MalformedURLException e) {
+              errors_encountered = true;
               System.out.println("Error: Invalid company URL (" + business_url + ") - " + company);
               continue;
             }
 
-            Scanner participantsReader = new Scanner(new File(COMMONS_PATH + "/data/participants.yml"));
-
-            addIssue = true;
-            //Checks for duplicate
-            while (participantsReader.hasNextLine()) {
-              ymlLine = participantsReader.nextLine();
-              if (ymlLine.contains(company)) {
-                addIssue = false;
+            //If SVG file, do not resize image
+            switch (getExtension(logo_url)) {
+              case "svg":
+                fileName = saveImage(null, logo_url, company);
                 break;
-              }
+              case "":
+                errors_encountered = true;
+                System.out.println("Error: Unsupported URL - " + logo_url + " (" + company + ")");
+                continue issue_loop;
+              default:
+                fileName = resizeImage(logo_url, company);
+                break;
             }
-            participantsReader.close();
 
-            if (addIssue) {
-              //If SVG file, do not resize image
-              switch (getExtension(logo_url)) {
-                case "svg":
-                  fileName = saveImage(null, logo_url, company);
-                  break;
-                case "":
-                  System.out.println("Error: Unsupported URL - " + logo_url + " (" + company + ")");
-                  continue issue_loop;
-                default:
-                  fileName = resizeImage(logo_url, company);
-                  break;
-              }
+            if (fileName != null) {
+              if (deduplicateParticipants(company)) {
 
-              if (fileName != null) {
-                //Appends company and information to 'participants.yml'
-                out.append("- name: \"" + company + "\"");
-                out.newLine();
-                out.append("  link: \"" + company_url + "\"");
-                out.newLine();
-                out.append("  logo: \"commons-logos/" + fileName + "\"");
-                out.newLine();
-                participantsUpdated = true;
+                //Establishes the BufferedWriter needed to append text to 'participants.yml'
+                try {
+                  BufferedWriter out = new BufferedWriter(new FileWriter(new File(COMMONS_PATH + "/data/participants.yml"), true));
+
+                  //Appends company and information to 'participants.yml'
+                  out.newLine();
+                  out.append("- name: \"" + company + "\"");
+                  out.newLine();
+                  out.append("  link: \"" + company_url + "\"");
+                  out.newLine();
+                  out.append("  logo: \"commons-logos/" + fileName + "\"");
+                  out.close();
+                  participantsUpdated = true;
+                } catch (IOException e) {
+                  errors_encountered = true;
+                  System.out.println("Error: Could not write to `" + COMMONS_PATH + "/data/participants.yml`");
+                }
 
                 if (needFirstCommit) {
                   commit_out.append("Participants: Auto-add participants from Issues\n\n");
@@ -203,15 +194,13 @@ public class ImageResizer {
                 commit_out.append("- Closes: #" + issue_number + "\n");
                 //Prints to the console which companies were added
                 System.out.println(companies_parsed + ". Company \"" + company + "\" added.");
+              } else {
+                errors_encountered = true;
+                System.out.println("Problem deduplicate Participants in YAML");
               }
             } else {
-              System.out.println(companies_parsed + ". Company \"" + company + "\" NOT added because it's a duplicate.");
-              if (needFirstCommit) {
-                commit_out.append("Participants: Auto-add participants from Issues\n\n");
-                needFirstCommit = false;
-              }
-
-              commit_out.append("- Invalid issue: #" + issue_number + " (duplicate participant)\n");
+              errors_encountered = true;
+              System.out.println("Problem saving image file");
             }
           } else {
             if (business_url.toLowerCase() != "tbd" && link.toLowerCase() != "tbd")
@@ -231,17 +220,62 @@ public class ImageResizer {
       }
     }
 
-    /*
-     * Empty print line for console clarity, closes the inputReader, prints short message
-     * if no new participants were appended to 'participants.yml', and closes the
-     * BufferedWriter
-     */
     inputReader.close();
     System.out.println();
     System.out.println(companies_parsed + " companies have been processed.");
-    out.close();
+    if (errors_encountered) {
+      participantsUpdated = true;
+      commit_out.append("\nErrors encountered during processing. Check job log for details.");
+    }
     if (participantsUpdated) {
       commit_out.close();
+    }
+  }
+
+  /**
+   * Remove particpant from YAML file if they're going to be re-added in PR
+   * @param company_name The company name to check if it exists
+   * @return boolean The successful state of the operation
+   */
+  private static boolean deduplicateParticipants(String company_name) {
+    try {
+      File inputFile = new File(COMMONS_PATH + "/data/participants.yml");
+      File tempFile = new File(COMMONS_PATH + "/data/participants.yml.new");
+
+      BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+      BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile));
+
+      String currentLine;
+      String yamlData = "";
+
+
+      while((currentLine = reader.readLine()) != null) {
+        // Write the yaml header and skip it's processing as a yaml section
+        if (currentLine.startsWith("participants:")) {
+          writer.write(currentLine);
+          continue;
+        }
+
+        // '-' indicates a new yaml section, determine what to do with previous section
+        if (currentLine.startsWith("-") && yamlData != "") {
+          // Only save yaml section if it does not contain the company name to be replaced
+          if (!yamlData.toLowerCase().contains(company_name.toLowerCase())) {
+            writer.write(yamlData);
+          }
+          yamlData = "";
+        }
+
+        yamlData += System.getProperty("line.separator") + currentLine;
+      }
+      if (yamlData != "" && !yamlData.toLowerCase().contains(company_name.toLowerCase())) {
+        writer.write(yamlData);
+      }
+      writer.close();
+      reader.close();
+      return tempFile.renameTo(inputFile);
+    } catch (IOException e) {
+      System.out.println("Error deduplicating Participants YAML file");
+      return false;
     }
   }
 
