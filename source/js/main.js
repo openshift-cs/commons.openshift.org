@@ -34,7 +34,7 @@ $(document).ready(function($) {
 			case '/events.html':
 				elem.text = 'Briefing Events';
 				break;
-			case '/briefings.html':
+			case 'https://www.youtube.com/user/rhopenshift/playlists?flow=grid&view=1':
 				elem.text = 'Briefing Videos';
 				break;
 			case '/videos.html':

@@ -958,7 +958,18 @@ ul.operators.list {
 .ocg-img {
 	margin-bottom: 30px;
 }
+.section-gathering {
+	a.obsolete {
+		color: grey;
+		text-decoration: none;
+	}
+}
 .btn-event {
+
+  &.obsolete {
+		display: none;
+	}
+
 	padding:15px 10px;
 	margin-left:auto;
 	margin-right:auto;
@@ -989,6 +1000,11 @@ border: 2px solid rgb(100, 149, 237);
 background: #DB212F;
 border: 2px solid #DB212F;
 }
+#gathering-over-notice {
+	background-color: rgb(255, 210, 78);
+	display: none;
+	padding-top: 20px;
+}
 .event-box {
 border: 1px solid #eee;
 background: #FFF;
@@ -1007,6 +1023,9 @@ min-height: 138px;
 		width: 100%;
 	}
 }
+.sponsoring-invite.obsolete {
+	display: none;
+}
 .event-overview {
 font-size:18px;
 margin: 0 20px;
@@ -1014,9 +1033,15 @@ margin: 0 20px;
 .event-span-red {
 	color: #DB212F;
 	font-weight:700;
+	&.obsolete {
+		color: grey;
+	}
 }
 .event-invite {
 	font-size:1.2em;
+	a {
+		display: none;
+	}
 }
 
 #price {
@@ -1025,6 +1050,9 @@ margin: 0 20px;
 	}
   p {
 		margin-bottom: 10px;
+		&.obsolete {
+      text-decoration: line-through grey;
+		}
 	}
 }
 
@@ -1040,6 +1068,10 @@ margin: 0 20px;
 .section-gathering {
 	padding-bottom: 60px;
 	padding-top: 60px;
+
+	a.obsolete {
+		color: gray;
+	}
 
 	&>.event-footer-text {
 	  padding-top: 40px;
@@ -1097,7 +1129,7 @@ position:relative;
   -webkit-backface-visibility: hidden;
   -webkit-transform: rotate(0deg) skewY(0deg);
   -webkit-transform-origin: 50% 10%;
-  transform-origin: 50% 10%;
+	transform-origin: 50% 10%;
 
 	* {
 		display: block;
@@ -1116,6 +1148,10 @@ position:relative;
 		background-color: #DB212F;
 		outline-style: dotted;
 		box-shadow: 0 2px 0 red;
+		&.obsolete {
+			background-color: grey;
+			box-shadow: 0 2px 0 grey;
+		}
 	}
 
 	em {

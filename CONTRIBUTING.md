@@ -54,8 +54,11 @@ gatherings:
     menu: "show" (is not in the site menu, if "show" is not here or the build date of this site is in future
                  compared with the event date below)
     language: "English" (optional)
-    date: "2018-12-10"
+    date: "2018-12-10" (once this is detected to be in past, compared with user's local time, obsolete page sections
+                       are "disabled" and a notice is displayed)
     time: "8:00 am - 5:30 pm"
+    youtube_playlist_id: "PLaR6Rq6Z4IqcrUvqDVPe5DxNvJp5s8UXC" (optional; an ID of a youtube video playlist with
+                          talks' recordings to be linked to, if the event is over)
     location: "Seattle, Washington"
     google_maps_URL: >-
       Start content here

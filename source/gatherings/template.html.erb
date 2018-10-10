@@ -62,7 +62,7 @@ description:  The OpenShift Commons community gets together and share experience
     <% else %>
     <div class="col-sm-4 col-sm-offset-4">
     <% end %>
-      <div class="btn-event event-border buy">
+      <div class="btn-event event-border buy obsoletes">
         <a href="<%= gathering.registration_URL %>" target="_blank">
           <p class="text-center">
             <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
@@ -80,7 +80,7 @@ description:  The OpenShift Commons community gets together and share experience
     </div>
     <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
     <div class="col-sm-4">
-      <div class="btn-event apply">
+      <div class="btn-event apply obsoletes">
         <a href="<%= gathering.sponsoring_URL %>" target="_blank">
           <p class="text-center"><%= gathering.sponsor_button_text.presence ? gathering.sponsor_button_text : 'Apply to be a sponsor' %></p>
         </a>
@@ -90,6 +90,24 @@ description:  The OpenShift Commons community gets together and share experience
   </div><!-- /.row -->
 </div><!-- /.container-->
 <br>
+<!-- -->
+<section id="gathering-over-notice">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>
+          <strong>This event is now over</strong>!
+          <% if gathering.youtube_playlist_id.presence && gathering.youtube_playlist_id.length > 0 %>
+            All of the presenations were recorded and are available on
+            <a href="https://www.youtube.com/channel/UCZKMj3YI0wP-kq4QYpaKdEA" target="_blank">our Youtube channel</a> in
+            <a href="https://www.youtube.com/playlist?list=<%= gathering.youtube_playlist_id %>" target="_blank">
+            <strong>this playlist</strong></a>.
+          <% end %>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Overview Section ----------------------------------------------------------------------------------------------------------->
 <div id="gathering-overview"></div>
 <section class="section-gathering section-gathering-secondary">
@@ -98,7 +116,7 @@ description:  The OpenShift Commons community gets together and share experience
       <div class="container">
         <h3 class="text-center"><%= gathering.headers.presence && gathering.headers.overview.presence ? gathering.headers.overview : 'Event Overview' %></h3><br>
         <!-- Overview Box -->
-        <div class="col-md-12 event-box">
+        <div class="col-md-12 event-box obsoletes">
           <!-- Left Col -->
           <div class="col-md-6 text-center">
             <% if gathering.lead_text.presence && gathering.lead_text.length > 0 %>
@@ -196,7 +214,7 @@ description:  The OpenShift Commons community gets together and share experience
         <div class="row container text-center">
             <h3><%= gathering.headers.presence && gathering.headers.sponsors.presence ? gathering.headers.sponsors : 'Sponsors' %></h3>
             <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
-            <p class="text-center">Interested in sponsoring OpenShift Commons Gathering?
+            <p class="text-center sponsoring-invite obsoletes">Interested in sponsoring OpenShift Commons Gathering?
               <a href="<%= gathering.sponsoring_URL %>" target="_blank">Apply here.</a>
             </p>
             <% end %>
@@ -212,9 +230,9 @@ description:  The OpenShift Commons community gets together and share experience
               </div>
             <% end %>
             <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
-            <div class="sponsor sponsor-height col-xs-6 col-md-3">
+            <div class="sponsor sponsor-height col-xs-6 col-md-3 sponsoring-invite obsoletes">
               <div class="panel-body">
-                <a href = "<%= gathering.sponsoring_URL %>" target = "_blank">
+                <a href = "<%= gathering.sponsoring_URL %>" target = "_blank" class="obsoletes">
                   <strong>Your logo here?</strong>
                 </a>
               </div>
@@ -260,7 +278,7 @@ description:  The OpenShift Commons community gets together and share experience
               </div><!-- /.schedule box <-->
           </div><!-- /.container -->
           <br><br>
-          <div class="btn-event event-border buy">
+          <div class="btn-event event-border buy obsoletes">
             <a href="<%= gathering.registration_URL %>" target="_blank">
               <p class="text-center">
                 <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
@@ -373,5 +391,16 @@ description:  The OpenShift Commons community gets together and share experience
 
     // match height of speaker icons
     $('.speaker-container').matchHeight();
+
+    // grey out and "deactivate" obsolete elements if the event already started
+    var eventDate = new Date("<%= gathering.date.to_time.iso8601() %>");
+    if (Date.now() > eventDate) {
+      console.log("Detected event date: " + eventDate);
+      $(".obsoletes").addClass("obsolete");
+      $(".obsoletes").find("*").addClass("obsolete");
+      $(".obsoletes").find("a").removeAttr("href");
+      $("#gathering-over-notice").show();
+    }
+
   })
 </script>
