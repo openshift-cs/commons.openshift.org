@@ -393,9 +393,10 @@ description:  The OpenShift Commons community gets together and share experience
     $('.speaker-container').matchHeight();
 
     // grey out and "deactivate" obsolete elements if the event already started
-    var eventDate = new Date("<%= gathering.date.to_time.iso8601() %>");
-    if (Date.now() > eventDate) {
-      console.log("Detected event date: " + eventDate);
+    <% require 'active_support/time' %>
+    var eventDatePlusOne = new Date("<%= gathering.date.to_time.tomorrow.iso8601() %>");
+    if (Date.now() > eventDatePlusOne) {
+      console.log("Detected day following the event start date: " + eventDatePlusOne);
       $(".obsoletes").addClass("obsolete");
       $(".obsoletes").find("*").addClass("obsolete");
       $(".obsoletes").find("a").removeAttr("href");
