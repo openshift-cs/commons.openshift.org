@@ -78,11 +78,11 @@ gatherings:
       - local_time: "2:30 pm"
         session_name: "Coffee Break"
       - local_time: "2:45 pm"
-        session_name: "Case Study: OpenShift on Azure"
+        session_name: "Case Study: TBD"
       - local_time: "3:15 pm"
         session_name: "Case Study: TBD"
       - local_time: "3:45 pm"
-        session_name: "Case Study: TBD"
+        session_name: "Case Study: The Road to Kubernetes @ Ticketmaster"
       - local_time: "4:15 pm"
         session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
         speakers:
