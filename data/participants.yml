@@ -1298,3 +1298,6 @@ participants:
 - name: "Immaco"
   link: "http://immaco.fi/"
   logo: "commons-logos/immaco.png"
+- name: "PingCap"
+  link: "https://pingcap.com/en/"
+  logo: "commons-logos/pingcap.png"
