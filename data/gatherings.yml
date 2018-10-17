@@ -330,6 +330,9 @@ gatherings:
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
+      - name: "StorageOS"
+      - name: "Aqua Security"
+      - name: "Nginx"
     sponsoring_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_London_Sponsor.2019.pdf"
     schedule:
       - local_time: "8:00 am"
@@ -606,3 +609,4 @@ sponsors:
   - name: "arrow-helsinki"
     link: "https://ecs-fi.arrow.com"
     logo: "commons-logos/arrow-helsinki.png"
+    
