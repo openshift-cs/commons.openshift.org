@@ -59,7 +59,6 @@ gatherings:
         session_name: "Case Study: Vattenfall - Sustainable Data Centers - OpenShift on OpenStack"
         speakers:
           - id: "max_schulze"
-          - id: "raija_seppala"
       - local_time: "10:20 am"
         session_name: "Case Study: OpenShift @ GE Digital"
         speakers:
