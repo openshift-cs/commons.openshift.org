@@ -91,7 +91,7 @@ vetted_operators:
   description: "The Vitess Operator provides automation that simplifies the administration of Vitess clusters on Kubernetes."
 - title: "Crunchy PostgreSQL"
   link: "https://github.com/CrunchyData/postgres-operator"
-  logo: "operators/crunchy logo update"
+  logo: "operators/crunch.jpg"
   logo_link: "https://github.com/CrunchyData/postgres-operator/blob/develop/README.adoc"
   description: "The CrunchyData Postgres Operator is a controller that runs within a Kubernetes cluster that provides a means to deploy and manage PostgreSQL clusters."
 - title: "Confluent Apache Kafka"
