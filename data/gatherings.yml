@@ -75,9 +75,9 @@ gatherings:
           - id: "matthew_gartman"
           - id: "rick_bliss"
       - local_time: "11:30 am"
-        session_name: "Case Study: OpenShift @ HealthPartners"
+        session_name: "Case Study: The Road to Kubernetes @ Ticketmaster"
         speakers:
-          - id: "james_mcshane"
+          - id: "tim_nichols"
       - local_time: "11:50 am"
         session_name: "Users Talk Back! Panel"
       - local_time: "12:30 am"
@@ -101,9 +101,9 @@ gatherings:
         speakers:
           - id: "ankur_lamba"
       - local_time: "3:45 pm"
-        session_name: "Case Study: The Road to Kubernetes @ Ticketmaster"
+        session_name: "Case Study: OpenShift @ HealthPartners"
         speakers:
-          - id: "tim_nichols"
+          - id: "james_mcshane"
       - local_time: "4:15 pm"
         session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
         speakers:
