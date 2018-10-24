@@ -1301,3 +1301,6 @@ participants:
 - name: "PingCap"
   link: "https://pingcap.com/en/"
   logo: "commons-logos/pingcap.png"
+- name: "Kovarus"
+  link: "http://www.kovarus.com"
+  logo: "commons-logos/kovarus.png"
