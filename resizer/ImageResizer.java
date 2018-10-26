@@ -3,8 +3,11 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLConnection;
 import java.util.Scanner;
 import java.util.regex.*;
+import java.util.List;
+import java.util.Map;
 
 import javax.imageio.ImageIO;
 
@@ -55,6 +58,9 @@ public class ImageResizer {
    */
   private static final int TIMEOUT_MILLIS = 10000;
 
+  /** Sending user agent prevents 403's when getting images from some servers **/
+  private static final String USER_AGENT = "oscommonsbot/1.0";
+
   /**
    * Main method; contains most critical functionality of program including establishing
    * Scanner for piped input and extracting critical body information from cURL output
@@ -77,8 +83,6 @@ public class ImageResizer {
      */
     String line;
     String bodyLine;
-    String ymlLine;
-    boolean addIssue;
     boolean needFirstCommit = true;
     boolean participantsUpdated = false;
     String issue_number = "unknown";
@@ -286,15 +290,31 @@ public class ImageResizer {
    * @return the file extension of the image at the URL
    */
   private static String getExtension(URL url) {
+    URLConnection conn = null;
     String mimeType = null;
     try {
-      mimeType = url.openConnection().getContentType();
+      conn = url.openConnection();
+      // avoid 403's by setting the user agent request header
+      conn.setRequestProperty("User-Agent", USER_AGENT);
+      mimeType = conn.getContentType();
     } catch (IOException e) {
       System.out.println("Error: Unable to read the image at the specified URL (" + url + ")");
       return "";
     }
     if (!mimeType.startsWith("image")) {
       System.out.println("Error: MimeType of " + mimeType + " does not match expected 'image/*' MimeType");
+      try {
+        // print response headers if not getting "image" content type
+        Map<String, List<String>> map = conn.getHeaderFields();
+        System.out.println("---- Response headers ----");
+        for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+        System.out.println("---- End of response headers ----");
+      } catch (Exception e) {
+        System.out.println("Error: Unable to parse response headers (" + url + ")");
+        return "";
+      }
       return "";
     }
     try {
@@ -319,7 +339,10 @@ public class ImageResizer {
     BufferedImage logo;
 
     try {
-      logo = ImageIO.read(logoUrl);
+      URLConnection conn = logoUrl.openConnection();
+      // avoid 403's by setting the user agent request header
+      conn.setRequestProperty("User-Agent", USER_AGENT);
+      logo = ImageIO.read(conn.getInputStream());
     } catch (IOException e) {
       System.out.println("Error: Unable to read the image at the specified URL (" + logoUrl + ") - " + company);
       return null;
