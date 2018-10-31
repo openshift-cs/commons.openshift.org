@@ -351,7 +351,10 @@ public class ImageResizer {
     //Initializes dimensional variables for input logo image and whether image was resized
     int height = logo.getHeight();
     int width = logo.getWidth();
-    int type = logo.getType();
+    // produce only RGB and ARGB image types (not indexed, or other types
+    // that could lose the background transparency)
+    int type = (logo.getTransparency() == Transparency.OPAQUE) ? BufferedImage.TYPE_INT_RGB : BufferedImage.TYPE_INT_ARGB;
+
     BufferedImage outputLogo;
     Image scaledImage;
     //Calculates scale-down ratio
@@ -367,8 +370,7 @@ public class ImageResizer {
 
       scaledImage = logo.getScaledInstance(width, height, Image.SCALE_SMOOTH);
 
-
-      outputLogo = new BufferedImage(width, height, type == 0 ? BufferedImage.TYPE_INT_ARGB : type);
+      outputLogo = new BufferedImage(width, height, type);
       Graphics2D imageDrawer = outputLogo.createGraphics();
       imageDrawer.addRenderingHints(
         new RenderingHints(
