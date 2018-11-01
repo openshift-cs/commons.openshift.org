@@ -1310,3 +1310,6 @@ participants:
 - name: "Atomist"
   link: "https://atomist.com/"
   logo: "commons-logos/atomist.png"
+- name: "Foqal"
+  link: "https://www.foqal.io/"
+  logo: "commons-logos/foqal.png"
