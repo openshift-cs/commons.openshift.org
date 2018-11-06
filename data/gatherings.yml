@@ -38,6 +38,7 @@ gatherings:
       - name: "CyberArk"
       - name: "StackRox"
       - name: "influxdb"
+      - name: "Microsoft"
     sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
     schedule:
       - local_time: "8:00 am"
