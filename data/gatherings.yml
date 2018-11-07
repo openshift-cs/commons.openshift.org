@@ -39,6 +39,7 @@ gatherings:
       - name: "StackRox"
       - name: "influxdb"
       - name: "Microsoft"
+      - name: "Portworx"
     sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
     schedule:
       - local_time: "8:00 am"
