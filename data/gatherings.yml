@@ -735,7 +735,7 @@ speakers:
     company: "Rackspace"
     URL: "https://www.rackspace.com/"
     intro: ""
- - id: "rob_szumski"
+  - id: "rob_szumski"
     name: "Rob Szumski"
     role: "Product Manager"
     company: "Red Hat"
