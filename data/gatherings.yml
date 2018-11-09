@@ -89,6 +89,7 @@ gatherings:
         session_name: "State of the Operators: Framework, SDKs, and beyond"
         speakers:
           - id: "spahl"
+          - id: "rob_szumski"
       - local_time: "2:00 pm"
         session_name: "Upstream This! Panel"
       - local_time: "2:30 pm"
@@ -734,6 +735,12 @@ speakers:
     company: "Rackspace"
     URL: "https://www.rackspace.com/"
     intro: ""
+ - id: "rob_szumski"
+    name: "Rob Szumski"
+    role: "Product Manager"
+    company: "Red Hat"
+    URL: "https://www.openshift.com/"
+    intro: ""   
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
