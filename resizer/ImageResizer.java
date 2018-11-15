@@ -296,11 +296,21 @@ public class ImageResizer {
       conn = url.openConnection();
       // avoid 403's by setting the user agent request header
       conn.setRequestProperty("User-Agent", USER_AGENT);
-      mimeType = conn.getContentType();
+      // explicitly open connection to catch exceptions like SSL handshake errors
+      conn.connect(); 
+      mimeType = conn.getContentType();      
     } catch (IOException e) {
       System.out.println("Error: Unable to read the image at the specified URL (" + url + ")");
+      System.out.println(e);
       return "";
     }
+
+    // in case there is no connection exception thrown and the mimeType is unknown
+    if (mimeType == null) {
+      System.out.println("Error: Unknown MimeType when trying to read the image at the specified URL (" + url + ")");
+      return "";
+    }
+
     if (!mimeType.startsWith("image")) {
       System.out.println("Error: MimeType of " + mimeType + " does not match expected 'image/*' MimeType");
       try {
@@ -345,6 +355,7 @@ public class ImageResizer {
       logo = ImageIO.read(conn.getInputStream());
     } catch (IOException e) {
       System.out.println("Error: Unable to read the image at the specified URL (" + logoUrl + ") - " + company);
+      System.out.println(e);
       return null;
     }
 
