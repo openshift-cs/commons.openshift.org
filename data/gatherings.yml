@@ -355,8 +355,10 @@ gatherings:
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
+      - name: "Microsoft"
       - name: "Aqua Security"
       - name: "Portworx"
+      - name: "Secnix"
       - name: "Atos"
       - name: "Nginx"
       - name: "StorageOS"
