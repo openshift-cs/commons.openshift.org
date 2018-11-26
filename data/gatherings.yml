@@ -82,10 +82,11 @@ gatherings:
         speakers:
           - id: "tim_nichols"
       - local_time: "11:50 am"
-        session_name: "Knative, Kubernetes, Istio: The New Cloud Stack Panel"
+        session_name: "Knative, Kubernetes, Istio: A New Cloud Stack? Panel"
         speakers:
           - id: "mark_chmarny"
           - id: "paul_morie"
+          - id: "guests"
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
@@ -762,6 +763,11 @@ speakers:
     company: "Red Hat"
     URL: "https://www.openshift.com/"
     intro: ""
+  - id: "guests"
+    name: "and special guests"
+    role: ""
+    company" ""
+    URL: ""
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
