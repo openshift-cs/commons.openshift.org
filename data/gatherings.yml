@@ -86,6 +86,7 @@ gatherings:
         speakers:
           - id: "mark_chmarny"
           - id: "paul_morie"
+          - id: "klaus_deissner"
           - id: "guests"
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
@@ -768,6 +769,12 @@ speakers:
     role: ""
     company: ""
     URL: ""
+  - id: "klaus_deissner"
+    name: "Klaus Deissner"
+    role: "Development Architect"
+    company: "SAP"
+    URL: "https://www.spa.com/"
+    intro: ""
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
