@@ -751,7 +751,7 @@ speakers:
     company: "Red Hat"
     URL: "https://www.openshift.com/"
     intro: ""
-  - id: "mark_chmarny":
+  - id: "mark_chmarny"
     name: "Mark Chmarny"
     role: "Technical Program Manager for Serverless at Google"
     company: "Google"
@@ -766,7 +766,7 @@ speakers:
   - id: "guests"
     name: "and special guests"
     role: ""
-    company" ""
+    company: ""
     URL: ""
 sponsors:
   - name: "microsoft-helsinki"
