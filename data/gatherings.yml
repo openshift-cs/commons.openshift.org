@@ -96,7 +96,7 @@ gatherings:
           - id: "spahl"
           - id: "rob_szumski"
       - local_time: "2:00 pm"
-        session_name: "Upstream This! Panel"
+        session_name: "Deep Learning on OpenShift with GPUs - Panel"
       - local_time: "2:30 pm"
         session_name: "Coffee Break"
       - local_time: "2:45 pm"
