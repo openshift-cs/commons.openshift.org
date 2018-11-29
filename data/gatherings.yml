@@ -100,6 +100,7 @@ gatherings:
         speakers:
           - id: "tripti_singhal"
           - id: "tushar_katarki"
+          - id: "jose_palafox" 
       - local_time: "2:30 pm"
         session_name: "Coffee Break"
       - local_time: "2:45 pm"
@@ -788,6 +789,13 @@ speakers:
     role: "Sr. Principal Product Manager,OpenShift"
     company: "Nvidia"
     URL: "https://openshift.com"
+    intro: ""
+    jose.palafox@intel.com 
+  - id: "jose_palafox"
+    name: "Jose Palafox"
+    role: "Cloud Soultions Architect"
+    company: "Intel"
+    URL: "https://intel.com"
     intro: ""
 sponsors:
   - name: "microsoft-helsinki"
