@@ -790,7 +790,6 @@ speakers:
     company: "Nvidia"
     URL: "https://openshift.com"
     intro: ""
-    jose.palafox@intel.com 
   - id: "jose_palafox"
     name: "Jose Palafox"
     role: "Cloud Soultions Architect"
