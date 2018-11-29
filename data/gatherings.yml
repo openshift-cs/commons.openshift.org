@@ -110,7 +110,7 @@ gatherings:
           - id: "david_cain"
           - id: "jeremy_eder"
       - local_time: "3:15 pm"
-        session_name: "Case Study: OpenShift @ USAA"
+        session_name: "Case Study:Secrets Management on OpenShift @ USAA"
         speakers:
           - id: "ankur_lamba"
       - local_time: "3:45 pm"
