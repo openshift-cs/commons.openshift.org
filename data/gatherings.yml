@@ -136,6 +136,7 @@ gatherings:
     language: "English"
     date: "2018-9-10"
     time: "9:00 am - 8:00 pm"
+    youtube_playlist_id: "PLaR6Rq6Z4IqcrUvqDVPe5DxNvJp5s8UXC"
     location: "Helsinki, Finland"
     google_maps_URL: >-
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.1460258186596!2d24.82946665733454!3d60.17589808196301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df58ef3269a05%3A0xa379bbde9aacb411!2sKeilaranta+1%2C+02150+Espoo!5e0!3m2!1sen!2sfi!4v1530528575622" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -155,9 +156,6 @@ gatherings:
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The Helsinki event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure.
-    event_footer_text: >-
-      <strong>This event is now over</strong>, all of the presenations were recorded and are available on <a href="https://www.youtube.com/channel/UCZKMj3YI0wP-kq4QYpaKdEA" target="_blank">our Youtube channel</a>
-      in <a href="https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqcrUvqDVPe5DxNvJp5s8UXC" target="_blank"><strong>this playlist</strong></a>.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
       - name: "microsoft-helsinki"
