@@ -306,7 +306,7 @@ description:  The OpenShift Commons community gets together and share experience
       <br>
       <!-- Speaker Row-->
       <div class="row-fluid inner">
-        <% gathering.schedule.collect(&:speakers).flatten.uniq.reject { |s| s.to_s.empty? }.each do |speaker_id| %>
+        <% gathering.schedule.collect(&:speakers).flatten.uniq.reject { |s| s.to_s.empty? }.sort_by(&:id).each do |speaker_id| %>
           <% unless speaker_id.nil? %>
             <% speaker = data.gatherings.speakers.find{ |spkr| spkr.id == speaker_id["id"] } %>
             <% if speaker.URL.presence && speaker.URL.length > 0 %>
