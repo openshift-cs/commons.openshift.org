@@ -4,7 +4,7 @@ gatherings:
     language: "English"
     date: "2019-05-06"
     time: "8:00 am - 8:00 pm"
-    location: "Boston, Massachuesetts"
+    location: "Red Hat Summit/Boston, Massachuesetts"
     google_maps_URL: >-
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23590.946087646615!2d-71.046437!3d42.345332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c611a8552d64981!2sBoston+Convention+and+Exhibition+Center!5e0!3m2!1sen!2sus!4v1544046262520" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     venue: "Boston Convention and Exhibition Center"
