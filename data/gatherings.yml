@@ -1,4 +1,95 @@
 gatherings:
+  - name: "Boston 2019"
+    menu: "show"
+    language: "English"
+    date: "2019-05-06"
+    time: "8:00 am - 8:00 pm"
+    location: "Boston, Massachuesetts"
+    google_maps_URL: >-
+      <iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23590.946087646615!2d-71.046437!3d42.345332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c611a8552d64981!2sBoston+Convention+and+Exhibition+Center!5e0!3m2!1sen!2sus!4v1544046262520" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    venue: "Boston Convention and Exhibition Center"
+    venue_URL: "https://www.wscc.com/"
+    venue_address: "705 Pike St, Seattle, WA 98101, USA"
+    calendar_event_URL:
+    registration_text: ""
+    registration_URL: "https://reg.summit.redhat.com/"
+    pricing:
+      - label: "Early Bird"
+        price: "$99"
+    lead_text: >-
+      The OpenShift Commons Gathering will be co-located in Boston with <a href="" target="_blank">
+      Red Hat Summit</a> at the <a href="https://www.signatureboston.com/BCEC" target="_blank">Boston Convention and Exhibition Center</a>!
+    info_text: >-
+      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+      the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
+      the next steps in making container technologies successful and secure.
+    event_footer_text: >-
+      Please note: Pre-registration is required AND You must have a pass for Red Hat Summit to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your Red Hat Summit registration.
+      By being co-located in Boston with Red Hat Summit at the Boston Convention and Exhibition Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
+      support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
+    invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+    sponsors:
+    sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
+    schedule:
+      - local_time: "8:00 am"
+        session_name: "Registration Opens"
+      - local_time: "9:00 am"
+        session_name: "Welcome to the Commons: Making Collaboration that Works - Diane Mueller, Red Hat"
+        speakers:
+          - id: "diane"
+      - local_time: "9:10 am"
+        session_name: "Opening Keynotes"
+        speakers:
+          - id: "chris_wright"
+          - id: "reza"
+      - local_time: "9:30 am"
+        session_name: "OpenShift 3.x - Features, Functions, Futures"
+        speakers:
+          - id: "clayton_coleman"
+          - id: "mike_barrett"
+      - local_time: "10:00 am"
+        session_name: "Production OpenShift Case Study"
+      - local_time: "10:20 am"
+        session_name: "Production OpenShift Case Study"
+      - local_time: "10:40 am"
+        session_name: "Coffee Break"
+      - local_time: "11:10 am"
+        session_name: "Production OpenShift Case Study"
+      - local_time: "11:30 am"
+        session_name: "Production OpenShift Case Study"
+      - local_time: "11:50 am"
+        session_name: "Users Talk Back! Panel"
+      - local_time: "12:30 am"
+        session_name: "Networking Lunch"
+      - local_time: "1:30 pm"
+        session_name: "State of the Operators: Framework, SDKs, and beyond"
+        speakers:
+          - id: "spahl"
+          - id: "rob_szumski"
+      - local_time: "2:00 pm"
+        session_name: "Production OpenShift Case Study"
+      - local_time: "2:30 pm"
+        session_name: "Coffee Break"
+      - local_time: "2:45 pm"
+        session_name: "Production OpenShift Case Study"
+      - local_time: "3:15 pm"
+        session_name: "Production OpenShift Case Study"
+      - local_time: "3:45 pm"
+        session_name: "Production OpenShift Case Study"
+      - local_time: "4:15 pm"
+        session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
+        speakers:
+          - id: "brian_gracely"
+      - local_time: "5:00 pm"
+        session_name: "AMA Panel with OpenShift PM team members"
+        speakers:
+          - id: "joe_f"
+      - local_time: "5:30 pm"
+        session_name: "Closing"
+        speakers:
+          - id: "diane"
+      - local_time: "6:00 pm"
+        session_name: "Evening Reception and Networking Event"      
   - name: "Seattle 2018"
     menu: "show"
     language: "English"
