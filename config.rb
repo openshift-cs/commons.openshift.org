@@ -22,7 +22,9 @@ page "/sitemap.xml", layout: false
 # Generating individual dynamic Gathering pages from template
 ###
 data.gatherings.gatherings.each do |gathering|
-  proxy "/gatherings/#{gathering.name.gsub(" ","_")}.html", "/gatherings/template.html", :locals => { :gathering => gathering }, :ignore => true
+  if gathering.menu.presence
+    proxy "/gatherings/#{gathering.name.gsub(" ","_")}.html", "/gatherings/template.html", :locals => { :gathering => gathering }, :ignore => true
+  end
 end
 
 # Development-specific configuration
