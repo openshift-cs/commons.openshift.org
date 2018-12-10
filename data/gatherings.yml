@@ -372,6 +372,7 @@ gatherings:
       - name: "Tremolo Security"
       - name: "RedisLabs"
       - name: "Sysdig"
+      - name: "Dynatrace"
     sponsoring_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_London_Sponsor.2019.pdf"
     schedule:
       - local_time: "8:00 am"
