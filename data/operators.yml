@@ -81,7 +81,7 @@ vetted_operators:
   description: "Odoo Operator (alpha) using Red Hat's operator-framework to run Odoo Instances professionally at scale."
 - title: "Redis"
   link: "https://hub.docker.com/r/redislabs/operator/"
-  logo: "operators/redis.png"
+  logo: "operators/redis-labs-logo-default.png"
   logo_link: "https://redislabs.com/redis-enterprise-documentation/concepts-architecture/kubernetes/k8s-operator-based-deployments/"
   description: "The Redis Enterprise Operator is the fastest, most efficient way to deploy and maintain a Redis Enterprise Cluster in Kubernetes."
 - title: "Vitess - PlanetScale"
