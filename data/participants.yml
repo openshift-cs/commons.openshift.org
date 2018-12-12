@@ -934,7 +934,7 @@ participants:
   logo: "commons-logos/redapt.png"
 - name: "RedisLabs"
   link: "https://redislabs.com/"
-  logo: "commons-logos/redislabs.png"
+  logo: "commons-logos/redis-labs-logo-default.png"
 - name: "Rgen Solutions"
   link: "http://rgensolutions.com/openshift/"
   logo: "commons-logos/rgen.png"
