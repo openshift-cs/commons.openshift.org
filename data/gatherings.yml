@@ -482,6 +482,8 @@ gatherings:
         session_name: "OpenShift 4.0 - Features, Functions, Futures"
       - local_time: "10:00 am"
         session_name: "State of Container Security"
+        speakers:
+          - id: "dan_walsh"
       - local_time: "10:30 am"
         session_name: "Coffee Break"
       - local_time: "11:00 am"
@@ -928,6 +930,12 @@ speakers:
     company: "IBM"
     URL: "https://ibm.com"
     intro: ""
+  - id: "dan_walsh"
+    name: "Dan Walsh (Red Hat)"
+    role: "Consulting Engineer"
+    company: "Red Hat"
+    URL: "https://redhat.com"
+    intro: ""  
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
