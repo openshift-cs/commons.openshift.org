@@ -489,7 +489,9 @@ gatherings:
       - local_time: "10:30 am"
         session_name: "Coffee Break"
       - local_time: "11:00 am"
-        session_name: "Case Study:OpenShift @ Horizon Assets" 
+        session_name: "Case Study:OpenShift @ Horizon Assets"
+        speakers:
+          - id: "brian_saltzman"
       - local_time: "11:30 am"
         session_name: "Lightning Talks: Redis Labs, Microsoft, Portworx, Aqua Security, NGNIX, StorageOS, Tremolo Security, Sysdig, Dynatrace, ATOS"     
       - local_time: "12:30 am"
@@ -975,6 +977,12 @@ speakers:
     company: "Barclays"
     URL: "https://www.barclays.com/"
     intro: ""       
+  - id: "brian_saltzman"
+    name: "Brian Saltzman"
+    role: "Vice President of Development and Operations Engineering"
+    company: "Horizon Asset LLP "
+    URL: "https://www.horizon-asset.co.uk/"
+    intro: ""      
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
