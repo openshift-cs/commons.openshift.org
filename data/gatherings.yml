@@ -465,6 +465,8 @@ gatherings:
       - name: "Tremolo Security"
       - name: "RedisLabs"
       - name: "Sysdig"
+      - name: "Crunchy"
+      - name: "Devoteam"
       - name: "Dynatrace"
     sponsoring_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_London_Sponsor.2019.pdf"
     schedule:
@@ -1005,7 +1007,7 @@ speakers:
     role: "Enterprise Architect - Data(base) and DevOps"
     company: "Credit Suisse"
     URL: "https://www.credit-suisse.com"
-    intro: ""     
+    intro: ""
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
