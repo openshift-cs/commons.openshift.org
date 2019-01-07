@@ -43,7 +43,7 @@ the three fields. The program will simply skip the issue entirely until the TBD 
 
 ## Adding Gathering Pages and Videos
 
-Gathering pages summarizing information about a particular event can be generated automatically, based on information provided in the `/data/gatherings.yml` file. Details of the gathering event, sponsors and speakers are separated into three groups, explained below with in-line (comments in brackets). If not stated otherwise, the attribute is required and cannot be omitted for the page generation. However, if there are too many details omitted, the page may look plain; make sure to always check that the page is build to your liking, with the data provided in `gatherings.yml`.
+Gathering pages summarizing information about a particular event can be generated automatically, based on information provided in the `/data/gatherings.yml` file. Details of the gathering event, sponsors and speakers are separated into three groups, explained below with in-line (comments in brackets). If not stated otherwise, the attribute is required and cannot be omitted for the page generation. However, if there are too many details omitted, the page may look plain; make sure to always check that the page is built to your liking, with the data provided in `gatherings.yml`.
 
 **Gatherings**  
 Most data about individual event pages is stored here:
@@ -119,9 +119,9 @@ gatherings:
           - id: "diane" (a unique id defined in speakers list below)
 ```
 
-As mentioned in a comment above, this section is also used to reference **YouTube playlists** from past Gatherings. If a landing page does not need to be
-built for an older gathering, a simple record such as the following one would result in publishing videos from the given YouTube playlist on [the Gatherings
-Videos page](https://commons.openshift.org/videos.html):
+As mentioned in the  comment above, this section is also used to reference **YouTube playlists** from past Gatherings. See the `youtube_playlist_id` key description above. The videos are taken from the playlists with relevant details such as video order in the list, video thumbnail, video name and video description; if you need to edit any of these, it should be done in the YouTube playlist itself. When there are any changes made on youTube to a playlist that is already published, the changes will be in effect after the Commons site is re-deployed, as the videos are fetched on build time. Please contact repository maintainers, if you don't feel like waiting for the next site re-build and would like to have the changes deployed as soon as possible.
+
+If a whole landing page does not need to be built for an older gathering, a simple record, such as the following one, would result in publishing videos only from the given YouTube playlist on [the Gatherings Videos page](https://commons.openshift.org/videos.html):
 
 ```
 gatherings:
