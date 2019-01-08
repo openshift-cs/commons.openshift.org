@@ -499,9 +499,8 @@ gatherings:
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
-        session_name: "Panel: Open Banking on OpenShift "
+        session_name: "Panel: Banking on OpenShift "
         speakers:
-          - id: "simon_cashmore"
           - id: "tim_hooley"
           - id: "graham_zabel"
       - local_time: "2:00 pm"
