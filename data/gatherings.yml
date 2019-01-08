@@ -520,7 +520,9 @@ gatherings:
           - id: "michael_hrivnak"
           - id: "matt_dorn"
       - local_time: "3:50 pm"
-        session_name: "Case Study:OpenShift @ BP"  
+        session_name: "Case Study:OpenShift @ ATOS"  
+        speakers:
+          - id: "clive_grethe"
       - local_time: "4:20 pm"
         session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
         speakers:
@@ -1006,6 +1008,12 @@ speakers:
     role: "Enterprise Architect - Data(base) and DevOps"
     company: "Credit Suisse"
     URL: "https://www.credit-suisse.com"
+    intro: ""
+  - id: "clive_grethe"
+    name: "Clive Grethe (ATOS)"
+    role: "Head of Cloud Center of Excellence and Application Transformation"
+    company: "ATOS"
+    URL: "https://www.atos.net"
     intro: ""
 sponsors:
   - name: "microsoft-helsinki"
