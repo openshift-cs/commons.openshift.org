@@ -971,6 +971,7 @@ speakers:
     name: "Graham Zabel (Devoteam)"
     role: "Head of DevOps"
     company: "Devoteam"
+    photo: "speakers/Graham%20Zabel%20cropped%20small%20B%26W.png"
     URL: "https://www.devoteam.com/"
     intro: ""    
   - id: "tim_hooley"
