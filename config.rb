@@ -13,6 +13,9 @@ set :fonts_dir, 'fonts'
 set :images_dir, 'img'
 set :js_dir, 'js'
 
+# activate asset hashing to prevent obsolete cached assets be used
+activate :asset_hash
+
 ###
 # Page command
 ###
