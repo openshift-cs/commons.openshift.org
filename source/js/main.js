@@ -37,17 +37,17 @@ $(document).ready(function($) {
 			case 'https://www.youtube.com/user/rhopenshift/playlists?flow=grid&view=1':
 				elem.text = 'Briefing Videos';
 				break;
-			case '/videos.html':
+			case '/gatherings/videos.html':
 				elem.text = 'Gathering Videos';
 				break;
 		}
 
-		if (elem.value.includes('/gatherings/')) {
-			var compact = elem.text.slice(2).split(' - ');
-			var date = compact[1].split(" ");
-      compact = compact[0].concat(' Gathering (' + date[0].slice(0,3) + ' ' + date[1] + ')');
-			elem.text = compact;
-		}
+        if (elem.value.match(/\/gatherings\/(?!videos.html)/)) {
+            var compact = elem.text.slice(2).split(' - ');
+            var date = compact[1].split(" ");
+            compact = compact[0].concat(' Gathering (' + date[0].slice(0,3) + ' ' + date[1] + ')');
+            elem.text = compact;
+        }
 	});
 
 	//=================================== Sticky nav ===================================//
