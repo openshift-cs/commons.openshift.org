@@ -6,7 +6,8 @@ gatherings:
     time: "9:00 am - 8:00 pm"
     location: "Barcelona, Spain"
     google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1497.446191860622!2d2.126999190672017!3d41.35469278390305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a279649aa111%3A0xb0d0cc966887d153!2sFira+Barcelona+Gran+Via!5e0!3m2!1sen!2sca!4v1547162555672" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>    venue: "Barcelona, Spain"
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1497.446191860622!2d2.126999190672017!3d41.35469278390305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a279649aa111%3A0xb0d0cc966887d153!2sFira+Barcelona+Gran+Via!5e0!3m2!1sen!2sca!4v1547162555672" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    venue: "Barcelona, Spain"
     venue_URL: "http://www.firabarcelona.com/"
     venue_address: "Fira Barcelona Av. Joan Carles I, 64 08908 L’Hospitalet de Llobregat Barcelona, Spain"
     calendar_event_URL:
