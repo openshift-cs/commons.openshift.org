@@ -41,7 +41,8 @@ gatherings:
       - local_time: "10:30 am"
         session_name: "Case Study: OpenShift at Macquarie"
         speakers:
-          - id: "jason_oconnell"
+        # - id: "jason_oconnell"
+        # this is temporarily commented out, because Jason is not defined as a speaker below yet
       - local_time: "10:50 am"
         session_name: "Coffee Break"
       - local_time: "11:20 am"
@@ -526,9 +527,8 @@ gatherings:
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The London event will gather developers, devops professionals and sysadmins together to explore
       the next steps in making container technologies successful and secure. 
-
     event_footer_text: >-
-            In addition to the day-long Gathering, we will also be hosting a 1/2 day 
+      In addition to the day-long Gathering, we will also be hosting a 1/2 day 
       <a href="https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893" target="_blank">Kubernetes Operator Framework Hands-on Workshop</a> 
       from 8 am to noon. Workshop space is limited to 45 seats.
     invite_link: "https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893"
@@ -1035,21 +1035,21 @@ speakers:
     company: "Red Hat"
     URL: "https://redhat.com"
     intro: ""  
-    photo: "speakers/daniel_walsh.jpg"	
+    photo: "speakers/daniel_walsh.jpg"
   - id: "lucas_ponce"
     name: "Lucas Ponce (Red Hat)"
     role: "Software Engineer"
     company: "Red Hat"
     URL: "https://redhat.com"
     intro: ""  
-    photo: "speakers/lucas_ponce.jpeg"	
+    photo: "speakers/lucas_ponce.jpeg"
   - id: "matthias_wessendorf"
     name: "Matthias Wessendorf (Red Hat)"
     role: "Principal Software Engineer"
     company: "Red Hat"
     URL: "https://redhat.com"
     intro: ""    
-    photo: "speakers/matthias_wessendorf.png"	
+    photo: "speakers/matthias_wessendorf.png"
   - id: "graham_zabel"
     name: "Graham Zabel (Devoteam)"
     role: "Head of DevOps"
@@ -1083,28 +1083,28 @@ speakers:
     company: "Red Hat"
     URL: "https://www.openshift.com/"
     intro: ""
-    photo: "speakers/michael_hrivnak.jpeg"	
+    photo: "speakers/michael_hrivnak.jpeg"
   - id: "matt_dorn"
     name: "Matt Dorn (Red Hat)"
     role: "Senior Software Engineer"
     company: "Red Hat"
     URL: "https://www.openshift.com/"
     intro: ""
-    photo: "speakers/matt_dorn.jpeg"	
+    photo: "speakers/matt_dorn.jpeg"
   - id: "duncan_lawie"
     name: "Duncan Lawie (Credit Suisse)"
     role: "Enterprise Architect - Data(base) and DevOps"
     company: "Credit Suisse"
     URL: "https://www.credit-suisse.com"
     intro: ""
-    photo: "speakers/duncan_lawie.jpeg"	
+    photo: "speakers/duncan_lawie.jpeg"
   - id: "clive_grethe"
     name: "Clive Grethe (ATOS)"
     role: "Head of Cloud Center of Excellence and Application Transformation"
     company: "ATOS"
     URL: "https://www.atos.net"
     intro: ""
-    photo: "speakers/clive_grethe.jpeg"	
+    photo: "speakers/clive_grethe.jpeg"
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
