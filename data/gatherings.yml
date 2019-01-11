@@ -528,7 +528,10 @@ gatherings:
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The London event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure.
+      the next steps in making container technologies successful and secure. 
+      In addition to the day-long Gathering, we will also be hosting a 1/2 day 
+      <a href="https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893" target="_blank">Kubernetes Operator Framework Hands-on Workshop</a> 
+      from 8 am to noon. Workshop space is limited to 45 seats.
     event_footer_text: >-
       The OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
