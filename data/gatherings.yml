@@ -548,6 +548,8 @@ gatherings:
       - name: "Devoteam"
       - name: "Dynatrace"
     sponsoring_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_London_Sponsor.2019.pdf"
+    sponsor_button_text: >- 
+      Sponsorships are sold out!
     schedule:
       - local_time: "8:00 am"
         session_name: "Registration Opens"
