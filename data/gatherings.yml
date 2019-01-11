@@ -2,7 +2,7 @@ gatherings:
   - name: "Barcelona 2019"
     menu: "show"
     language: "English"
-    date: "2019-5-20"
+    date: "2019-05-20"
     time: "9:00 am - 8:00 pm"
     location: "Barcelona, Spain"
     google_maps_URL: >-
@@ -12,7 +12,7 @@ gatherings:
     venue_address: "Fira Barcelona Av. Joan Carles I, 64 08908 L’Hospitalet de Llobregat Barcelona, Spain"
     calendar_event_URL:
     registration_text: ""
-    registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-in-finland-helsinkiespoo-tickets-47832236507"
+    registration_URL: "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/register/"
     pricing:
       - label: "Early Bird"
         price: "99 Euros"
