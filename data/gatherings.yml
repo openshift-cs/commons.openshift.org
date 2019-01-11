@@ -24,9 +24,6 @@ gatherings:
       the next steps in making container technologies successful and secure.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-      - name: "tbd"
-      - name: "tbd"
-      - name: "tbd"
     sponsoring_URL: "mailto:dmueller@redhat.com"
     schedule:
       - local_time: "9:00 am"
