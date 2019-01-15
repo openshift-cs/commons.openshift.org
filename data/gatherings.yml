@@ -1107,7 +1107,7 @@ speakers:
     photo: "speakers/clive_grethe.jpeg"
   - id: "michael_sauter" 
     name: "Michael Sauter"
-    role: "
+    role: "Senior Backend Developer"
     company: "Boehringer Ingelheim"
     URL: "https://www.bix-digital.com"
     intro: ""
