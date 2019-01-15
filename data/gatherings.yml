@@ -574,7 +574,7 @@ gatherings:
         session_name: "Case Study:OpenShift @ Horizon Assets"
         speakers:
           - id: "brian_saltzman"
-      - local_time: "11:30 am"
+      - local_time: "11:25 am"
         session_name: "Lightning Talks: Redis Labs, Microsoft, Portworx, Aqua Security, NGINX, StorageOS, Tremolo Security, Sysdig, Dynatrace"     
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
@@ -594,7 +594,7 @@ gatherings:
         speakers:
           - id: "michael_sauter"
       - local_time: "3:05 pm"
-        session_name: "Case Study:OpenShift @ ATOS"  
+        session_name: "Case Study:OpenShift @ ATOS" 
         speakers:
           - id: "clive_grethe"    
       - local_time: "3:30 pm"
@@ -607,7 +607,7 @@ gatherings:
         speakers:
           - id: "michael_hrivnak"
           - id: "matt_dorn"
-      - local_time: "4:300 pm"
+      - local_time: "4:30 pm"
         session_name: "AMA Panel with OpenShift PM team members and engineers"
       - local_time: "5:00 pm"
         session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
