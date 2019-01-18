@@ -22,7 +22,7 @@ description:  OpenShift Commons Gathering Videos
           </li>
           <li>/</li>
           <li>
-            <a href="/videos.html">Videos</a>
+            <a href="/gatherings/videos.html">Gathering Videos</a>
           </li>
         </ul>
       </div>
@@ -46,7 +46,7 @@ description:  OpenShift Commons Gathering Videos
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <%= partial "videos", :object => data.gathering_videos.videos %>
+        <%= partial "videos", :object => data.gathering_videos.videos.sort_by { | gathering | gathering[:gathering_date] }.reverse! %>
       </div>
     </div>
   </div>
