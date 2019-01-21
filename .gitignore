@@ -23,3 +23,6 @@ bundle
 
 resizer/*.class
 commit.txt
+
+# Ignore gathering videos list that is fetched by s2i/assemble (or manually)
+/data/gathering_videos.yml
