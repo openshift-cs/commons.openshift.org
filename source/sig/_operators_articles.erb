@@ -1,38 +1,6 @@
 <% content_for :javascript do %>
 $(document).ready(function () {
-  var feedUrl = 'https://blog.openshift.com/tag/operators/feed/';
-  var numItems = 10;
-  var blogFeedContainer = $("#blog-feed-sig");
-
-  var blogItemHtml = function(link, title, author, date, description) {
-    var blogDate = new Date(date);
-    var dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
-    htmlTemplate = '<div class="col-xs-12 col-md-6"><div class="blog-article"><div class="blog-item"><i class="fa fa-newspaper-o"></i><h3><a href="' + link + '">' + title + '</a></h3><div class="blog-article-description"><p>' + description.split(/\s+/).slice(0,20).join(" ") + '&hellip;</p></div></div></div></div>';
-    return htmlTemplate;
-  };
-
-  $.ajax({
-    url: "https://query.yahooapis.com/v1/public/yql",
-    jsonp: "callback",
-    dataType: "jsonp",
-    data: {
-        q: 'select title, link, pubDate, dc:creator, description from rss(0,' + numItems.toString() + ') where url="' + feedUrl + '"',
-        format: "json"
-    },
-    error: function() {
-      console.log("Error occurred while getting blog RSS feed!");
-    },
-    success: function( response ) {
-      var output = '';
-      $(response.query.results.item).each(function(index, entry) {
-        output += blogItemHtml(entry.link, entry.title, entry.creator, entry.pubDate, entry.description);
-      });
-      blogFeedContainer.html(output);
-    },
-    complete: function() {
-      $("#blog-feed-sig .blog-article").matchHeight();
-    }
-  });
+  displayBlogPosts("https://blog.openshift.com/tag/operators/feed/", 10, $("#blog-feed-sig"));
 });
 <% end %>
 
