@@ -53,11 +53,6 @@ public class ImageResizer {
     "url:\\s*(?<url>.*(?= logo))\\s*" + // Match the second line as containing the "url" information, use lookahead to ensure we don't match "logo"
     "logo:\\s*(?:(?=!\\[)!\\[.*]\\((?<logo1>[^\"\\s]*)\\)|(?<logo2>[^\"\\s]*))(?:\"|\\s*.*)"; // Match the third line as containing the "logo" information. Using a conditional (as a non-capturing group), we're able to differentiate embedded images from logo URLs
 
-  /**
-   * Discretionary number of milliseconds the copyURLToFile method will run until timeout, 10 seconds
-   */
-  private static final int TIMEOUT_MILLIS = 10000;
-
   /** Sending user agent prevents 403's when getting images from some servers **/
   private static final String USER_AGENT = "oscommonsbot/1.0";
 
@@ -403,13 +398,17 @@ public class ImageResizer {
 
     try {
       if (image == null) {
-        FileUtils.copyURLToFile(url, imageFile, TIMEOUT_MILLIS, TIMEOUT_MILLIS);
+        // avoid 403's by setting the user agent request header
+        URLConnection conn = url.openConnection();
+        conn.setRequestProperty("User-Agent", USER_AGENT);
+        FileUtils.copyInputStreamToFile(conn.getInputStream(), imageFile);
       } else {
         ImageIO.write(image, getExtension(url), imageFile);
       }
       return fileName;
     } catch (IOException e) {
       System.out.println("Error: Unable to write image for " + url + " to " + filePath + fileName);
+      System.out.println(e);
       return null;
     }
   }

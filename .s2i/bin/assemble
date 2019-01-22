@@ -17,6 +17,10 @@ source ${STI_SCRIPTS_PATH}/assemble
 # You can write S2I scripts in any programming language, as long as the
 # scripts are executable inside the builder image.
 
+# Fetch gathering videos from specified playlists first and create the 
+# /data/gathering_videos.yml file
+bundle exec ruby fetch_gathering_videos.rb
+
 # Build the middleman static site and invalidate CDN cache
 bundle exec middleman build | egrep '^\s*(update|create)' | {
     files=""

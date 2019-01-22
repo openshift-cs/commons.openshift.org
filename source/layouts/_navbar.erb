@@ -29,7 +29,7 @@
           </li>
           <li>Gatherings
             <ul>
-              <% data.gatherings.gatherings.each do |gathering| %>
+              <% data.gatherings.gatherings.reverse!.each do |gathering| %>
                 <% if gathering.menu == "show" && Date.parse(gathering.date) >= Date.today %>
                 <li>
                   <a href="/gatherings/<%= gathering.name.gsub(" ", "_") %>.html">
@@ -40,7 +40,7 @@
               <% end %>
               <li>
                 <%# This text is override on Mobile in main.js %>
-                <a href="/videos.html"><i class="fa fa-video-camera"></i> Past Videos</a>
+                <a href="/gatherings/videos.html"><i class="fa fa-video-camera"></i> Past Videos</a>
               </li>
             </ul>
           </li>
