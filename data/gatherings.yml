@@ -374,6 +374,7 @@ gatherings:
       - name: "Sysdig"
       - name: "Crunchy"
       - name: "Devoteam"
+      - name: "Pure Storage"
       - name: "Dynatrace"
     sponsoring_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_London_Sponsor.2019.pdf"
     schedule:
