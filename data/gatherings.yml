@@ -575,15 +575,12 @@ gatherings:
         session_name: "Case Study:OpenShift @ Horizon Assets"
         speakers:
           - id: "brian_saltzman"
-      - local_time: "11:25 am"
-        session_name: "Lightning Talks: Pure Storage, Redis Labs, Microsoft, Portworx, Aqua Security, NGINX, StorageOS, Tremolo Security, Sysdig, Dynatrace"     
+      - local_time: "11:30 am"
+        session_name: "Lightning Talks: Devoteam, Pure Storage, Redis Labs, Microsoft, Portworx, Aqua Security"     
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
-        session_name: "Panel: Banking on OpenShift "
-        speakers:
-          - id: "tim_hooley"
-          - id: "graham_zabel"
+        session_name: "Lightning Talks: NGINX, StorageOS, Tremolo Security, Sysdig, Dynatrace"     
       - local_time: "2:00 pm"
         session_name: "Case Study: Open Source @ Credit Suisse"
         speakers:
