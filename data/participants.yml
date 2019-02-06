@@ -1406,3 +1406,6 @@ participants:
 - name: "Remod"
   link: "https://remod.fi/"
   logo: "commons-logos/remod.jpg"
+- name: "IBM"
+  link: "https://www.ibm.com/"
+  logo: "commons-logos/ibm.jpg"
