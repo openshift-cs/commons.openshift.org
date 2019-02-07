@@ -1409,3 +1409,6 @@ participants:
 - name: "IBM"
   link: "https://www.ibm.com/"
   logo: "commons-logos/ibm.jpg"
+- name: "Darumatic"
+  link: "https://darumatic.com/"
+  logo: "commons-logos/darumatic.png"
