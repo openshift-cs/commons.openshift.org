@@ -17,7 +17,7 @@ gatherings:
       - label: "Early Bird"
         price: "49 USD"
     lead_text: >-
-      The Silicon Valley OpenShift Commons Gathering's Theme is Operating at Scale and features guest speakers from Red Hat, Google, Facebook, Uber, Lyft. 
+      The Silicon Valley OpenShift Commons Gathering's Theme is Operating at Scale and features guest speakers from Red Hat, Google, Facebook, Uber, Lyft.
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift/Kuberenetes ecosystem. The Silicon Valley event will gather developers, devops professionals and sysadmins together to explore
@@ -35,11 +35,11 @@ gatherings:
       - local_time: "9:20 am"
         session_name: "Red Hat's Unified Hybrid Cloud Vision"
         speakers:
-          - id: "reza"    
+          - id: "reza"
       - local_time: "10:00 am"
         session_name: "OpenShift 4.0 - Operators all the way down! - Ali Mobrem (Red Hat)"
         speakers:
-          - id: "ali_mobrem"
+        #  - id: "ali_mobrem"
       - local_time: "10:30 am"
         session_name: "State of the Operators: Framework, SDKs, and beyond"
         speakers:
@@ -59,7 +59,7 @@ gatherings:
       - local_time: "2:00 pm"
         session_name: "State of Container Security - Urvashi Mohnani & Mrnual Patel(Red Hat)"
       - local_time: "2:30 pm"
-        session_name: "CRI-O at Lyft - Paul Fisher(Lyft)"   
+        session_name: "CRI-O at Lyft - Paul Fisher(Lyft)"
       - local_time: "3:00 pm"
         session_name: "Coffee break"
       - local_time: "3:30 pm"
@@ -92,7 +92,7 @@ gatherings:
       - label: "Early Bird"
         price: "99 Euros"
     lead_text: >-
-      The OpenShift Commons Gathering will be held in Barcelona Spain co-located with CNCF's Kubecon/EU. 
+      The OpenShift Commons Gathering will be held in Barcelona Spain co-located with CNCF's Kubecon/EU.
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The Barcelona event will gather developers, devops professionals and sysadmins together to explore
@@ -241,7 +241,7 @@ gatherings:
         speakers:
           - id: "diane"
       - local_time: "6:00 pm"
-        session_name: "Evening Reception and Networking Event"      
+        session_name: "Evening Reception and Networking Event"
   - name: "Seattle 2018"
     menu: "show"
     language: "English"
@@ -601,10 +601,10 @@ gatherings:
     info_text: >-
       The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
       the open source software projects that underpin the OpenShift ecosystem. The London event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure. 
+      the next steps in making container technologies successful and secure.
     event_footer_text: >-
-      In addition to the day-long Gathering, we will also be hosting a 1/2 day 
-      <a href="https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893" target="_blank">Kubernetes Operator Framework Hands-on Workshop</a> 
+      In addition to the day-long Gathering, we will also be hosting a 1/2 day
+      <a href="https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893" target="_blank">Kubernetes Operator Framework Hands-on Workshop</a>
       from 8 am to noon. Workshop space is limited to 45 seats.
     invite_link: "https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893"
     sponsors:
@@ -623,8 +623,8 @@ gatherings:
       - name: "Pure Storage"
       - name: "Dynatrace"
     sponsoring_URL: "https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893"
-    sponsor_button_text: >- 
-      Add-on Kubernetes Operator Workshop! 
+    sponsor_button_text: >-
+      Add-on Kubernetes Operator Workshop!
     schedule:
       - local_time: "8:00 am"
         session_name: "Registration Opens"
@@ -639,7 +639,7 @@ gatherings:
       - local_time: "9:30 am"
         session_name: "OpenShift 4.0 - Features, Functions, Futures"
         speakers:
-          - id: "mike_barrett"  
+          - id: "mike_barrett"
       - local_time: "10:00 am"
         session_name: "State of Container Security"
         speakers:
@@ -651,11 +651,11 @@ gatherings:
         speakers:
           - id: "brian_saltzman"
       - local_time: "11:30 am"
-        session_name: "Lightning Talks: Crunchy Data, Devoteam, Pure Storage, Redis Labs, Portworx, Aqua Security"     
+        session_name: "Lightning Talks: Crunchy Data, Devoteam, Pure Storage, Redis Labs, Portworx, Aqua Security"
       - local_time: "12:30 am"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
-        session_name: "Lightning Talks: Microsoft, NGINX, StorageOS, Tremolo Security, Sysdig, Dynatrace"     
+        session_name: "Lightning Talks: Microsoft, NGINX, StorageOS, Tremolo Security, Sysdig, Dynatrace"
       - local_time: "2:00 pm"
         session_name: "Case Study: Open Source @ Credit Suisse"
         speakers:
@@ -667,9 +667,9 @@ gatherings:
         speakers:
           - id: "michael_sauter"
       - local_time: "3:05 pm"
-        session_name: "Case Study:OpenShift @ ATOS" 
+        session_name: "Case Study:OpenShift @ ATOS"
         speakers:
-          - id: "clive_grethe"    
+          - id: "clive_grethe"
       - local_time: "3:30 pm"
         session_name: "State of Serverless: Kubernetes, Istio, Knative, Kiali and beyond"
         speakers:
@@ -700,7 +700,7 @@ gatherings:
     youtube_playlist_id: "PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K"
   - name: "Boston 2017"
     date: "2017-5-01"
-    youtube_playlist_id: "PLaR6Rq6Z4IqdDQ3prS7Ef91DeL1cu6Yqq"    
+    youtube_playlist_id: "PLaR6Rq6Z4IqdDQ3prS7Ef91DeL1cu6Yqq"
   - name: "Berlin 2017"
     date: "2017-3-28"
     youtube_playlist_id: "PLaR6Rq6Z4IqdHztUG96ldb6B6h-BuuQud"
@@ -736,7 +736,7 @@ speakers:
     URL: "https://www.openshift.com"
     intro: ""
     photo: ""
-  - id: "mike_barrett" 
+  - id: "mike_barrett"
     name: "Mike Barrett (Red Hat)"
     role: "Product Manager, OpenShift"
     company: "Red Hat"
@@ -1107,21 +1107,21 @@ speakers:
     role: "Consulting Engineer"
     company: "Red Hat"
     URL: "https://redhat.com"
-    intro: ""  
+    intro: ""
     photo: "speakers/daniel_walsh.jpg"
   - id: "lucas_ponce"
     name: "Lucas Ponce (Red Hat)"
     role: "Software Engineer"
     company: "Red Hat"
     URL: "https://redhat.com"
-    intro: ""  
+    intro: ""
     photo: "speakers/lucas_ponce.jpeg"
   - id: "matthias_wessendorf"
     name: "Matthias Wessendorf (Red Hat)"
     role: "Principal Software Engineer"
     company: "Red Hat"
     URL: "https://redhat.com"
-    intro: ""    
+    intro: ""
     photo: "speakers/matthias_wessendorf.png"
   - id: "graham_zabel"
     name: "Graham Zabel (Devoteam)"
@@ -1129,20 +1129,20 @@ speakers:
     company: "Devoteam"
     photo: "speakers/Graham%20Zabel%20cropped%20small%20B%26W.png"
     URL: "https://www.devoteam.com/"
-    intro: ""    
+    intro: ""
   - id: "tim_hooley"
     name: "Tim Hooley (Red Hat)"
     role: "Chief Technologist, EMEA FS"
     company: "Red Hat"
     URL: "https://www.redhat.com/"
-    intro: ""  
+    intro: ""
     photo: "speakers/tim_hooley.jpeg"
   - id: "simon_cashmore"
     name: "Simon Cashmore (Barclays)"
     role: "Distinguished Engineer/VP - Head of Platform as a Service Middleware Engineering"
     company: "Barclays"
     URL: "https://www.barclays.com/"
-    intro: ""       
+    intro: ""
   - id: "brian_saltzman"
     name: "Brian Saltzman (Horizon Asset)"
     role: "Vice President of Development and Operations Engineering"
@@ -1178,7 +1178,7 @@ speakers:
     URL: "https://www.atos.net"
     intro: ""
     photo: "speakers/clive_grethe.jpeg"
-  - id: "michael_sauter" 
+  - id: "michael_sauter"
     name: "Michael Sauter"
     role: "Senior Backend Developer"
     company: "Boehringer Ingelheim"
