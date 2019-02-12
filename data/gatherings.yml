@@ -11,7 +11,7 @@ gatherings:
     venue_URL: "https://santaclaraconventioncenter.org/"
     venue_address: "5001 Great America Pkwy, Santa Clara, CA 95054"
     calendar_event_URL:
-    registration_text: "Is Not Yet Open"
+    registration_text: "Registration is Not Yet Open"
     registration_URL: ""
     pricing:
       - label: "Early Bird"
