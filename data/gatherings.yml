@@ -11,8 +11,8 @@ gatherings:
     venue_URL: "https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_nam_clara"
     venue_address: "5001 Great America Pkwy, Santa Clara, CA 95054"
     calendar_event_URL:
-    registration_text: "Registration is Not Yet Open"
-    registration_URL: ""
+    registration_text: "Register Now"
+    registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-tickets-56536875316"
     pricing:
       - label: "Early Bird"
         price: "49 USD"
@@ -24,7 +24,7 @@ gatherings:
       the next steps in making container technologies successful and secure at scale.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-    sponsoring_URL: "mailto:ahollis@redhat.com"
+    sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_santaclara"
     schedule:
       - local_time: "8:00 am"
         session_name: "Registration Opens"
