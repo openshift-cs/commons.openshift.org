@@ -1418,3 +1418,6 @@ participants:
 - name: "Joget"
   link: "https://www.joget.com/"
   logo: "commons-logos/joget.png"
+- name: "Asiakastieto"
+  link: "https://www.asiakastieto.fi/web/en/"
+  logo: "commons-logos/asiakastieto.png"
