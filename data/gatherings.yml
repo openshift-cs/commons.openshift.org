@@ -1051,6 +1051,7 @@ speakers:
     company: "Red Hat"
     URL: "https://www.openshift.com/"
     intro: ""
+    photo: "speakers/rob_szumski.jpeg"  
   - id: "mark_chmarny"
     name: "Mark Chmarny (Google)"
     role: "Technical Program Manager for Serverless at Google"
