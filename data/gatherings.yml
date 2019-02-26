@@ -39,9 +39,9 @@ gatherings:
         speakers:
           - id: "reza"
       - local_time: "10:00 am"
-        session_name: "OpenShift 4.0 - Operators all the way down! - Ali Mobrem (Red Hat)"
+        session_name: "OpenShift 4.0 - Operators all the way down!"
         speakers:
-        #  - id: "ali_mobrem"
+          - id: "ali_mobrem"
       - local_time: "10:30 am"
         session_name: "State of the Operators: Framework, SDKs, and beyond"
         speakers:
@@ -1242,7 +1242,7 @@ speakers:
     URL: "https://www.redhat.com"
     intro: ""
     photo: "speakers/annette_clewett.jpeg"
-  - id: "travis_nielsen.jpeg"
+  - id: "travis_nielsen"
     name: "Travis Nielsen"
     role: ""
     company: "Rook/Red Hat"
