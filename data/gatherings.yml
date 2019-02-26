@@ -1256,7 +1256,7 @@ speakers:
     URL: "https://www.redhat.com"
     intro: ""
     photo: "speakers/mrunal_patel.jpg	"
-  - id: "urvashi_mohnani.jpeg"
+  - id: "urvashi_mohnani"
     name: "Urvashi Mohnani"
     role: ""
     company: "Red Hat"
