@@ -70,7 +70,7 @@ gatherings:
       - local_time: "1:00 pm"
         session_name: "Networking Lunch"
       - local_time: "2:00 pm"
-        session_name: "Nvidia: Deep Learning on OpenShift with GPUs"
+        session_name: "Production Deep Learning Inference on Nvidia GPUs"
         speakers:
           - id: "tripti_singhal" 
       - local_time: "2:30 pm"
