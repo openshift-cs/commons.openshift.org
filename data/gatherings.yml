@@ -86,7 +86,7 @@ gatherings:
         speakers:
           - id: "redbeard" 
       - local_time: "4:15 pm"
-        session_name: "Operating at Scale - Case Study"
+        session_name: "Operating at Scale - Case StudyL First Republic Bank"
       - local_time: "4:45 pm"
         session_name: "AMA Panel - Project Leads, Speakers and assorted Red Hat Engineers"
       - local_time: "5:15 pm"
