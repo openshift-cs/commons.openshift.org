@@ -263,7 +263,7 @@ vetted_operators:
   link: "https://www.operatorhub.io/operator/federationv2-community.v0.0.2"
   logo: "operators/operatoravatar.png"
   logo_link: "https://www.operatorhub.io/operator/federationv2-community.v0.0.2"
-  description: "Kubernetes Federation is a tool to sync (aka "federate") a set of Kubernetes objects from a "source" into a set of other clusters. Common use-cases include federating Namespaces across all of your clusters or rolling out an application across several geographically distributed clusters.."    
+  description: "Kubernetes Federation is a tool to sync (aka federate) a set of Kubernetes objects from a source into a set of other clusters. Common use-cases include federating Namespaces across all of your clusters or rolling out an application across several geographically distributed clusters."    
 - title: "AWS Service Operator"
   link: "https://www.operatorhub.io/operator/aws-service-operator.v0.0.1"
   logo: "operators/aws.png"
