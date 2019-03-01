@@ -251,7 +251,7 @@ vetted_operators:
   description: "Che Operator creates Eclipse Che k8s and OpenShift resources such as pvcs, services, deployments, routes, ingresses etc."  
 - title: "KeyCloak"
   link: "https://github.com/integr8ly/keycloak-operator"
-  logo: "operators/keycloak.png	"
+  logo: "operators/keycloak.png"
   logo_link: "https://github.com/integr8ly/keycloak-operator/blob/master/README.md"
   description: "A Kubernetes Operator based on the Operator SDK for syncing resources in Keycloak."  
 - title: "Gitea"
