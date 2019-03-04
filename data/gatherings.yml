@@ -142,7 +142,7 @@ gatherings:
       - local_time: "10:50 am"
         session_name: "Coffee Break"
       - local_time: "11:20 am"
-        session_name: "Case Study: OpenShift at TBD"
+        session_name: "Case Study: OpenShift at Six Group - Dominik Hahn (Six Group) and Marcel Haerri (Red Hat)"
       - local_time: "11:40 am"
         session_name: "Case Study: OpenShift at MOD/Israel - Itay Gabbay(IDF Mamram)"
       - local_time: "12:00 am"
