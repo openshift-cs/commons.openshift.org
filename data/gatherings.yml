@@ -135,7 +135,7 @@ gatherings:
           - id: "mike_barrett"
           - id: "derek_carr"
       - local_time: "10:30 am"
-        session_name: "Case Study: OpenShift at Macquarie"
+        session_name: "Case Study: OpenShift at Macquarie - Jason O'Connell (Maquarie Bank)"
         speakers:
         # - id: "jason_oconnell"
         # this is temporarily commented out, because Jason is not defined as a speaker below yet
