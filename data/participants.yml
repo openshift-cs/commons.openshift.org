@@ -1421,3 +1421,6 @@ participants:
 - name: "Asiakastieto"
   link: "https://www.asiakastieto.fi/web/en/"
   logo: "commons-logos/asiakastieto.png"
+- name: "Agesic"
+  link: "http://agesic.gub.uy/"
+  logo: "commons-logos/agesic.png"
