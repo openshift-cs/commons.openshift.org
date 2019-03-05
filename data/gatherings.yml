@@ -120,7 +120,7 @@ gatherings:
       the next steps in making container technologies successful and secure.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-    sponsoring_URL: "mailto:dmueller@redhat.com"
+    sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_barcelona"
     schedule:
       - local_time: "9:00 am"
         session_name: "Registration Opens"
