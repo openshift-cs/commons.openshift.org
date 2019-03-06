@@ -73,6 +73,7 @@ gatherings:
         session_name: "Production Deep Learning Inference on Nvidia GPUs"
         speakers:
           - id: "tripti_singhal" 
+          - id: "peter_macKinnon"
       - local_time: "2:30 pm"
         session_name: "The Future of Cgroups: A conversation with Red Hat, Google and Facebook"
         speakers:
@@ -1326,6 +1327,13 @@ speakers:
     URL: "https://www.firstrepublic.com"
     intro: ""
     photo: "speakers/paulvanlook.jpeg"  
+  - id: "peter_macKinnon"
+    name: "Peter MacKinnon"
+    role: "Principal Software Engineer"
+    company: "Red Hat"
+    URL: "https://www.redhat.com"
+    intro: ""
+    photo: "speakers/peter_mackinnon.jpeg"  
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
