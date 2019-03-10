@@ -26,7 +26,7 @@ gatherings:
       the next steps in making container technologies successful and secure at scale.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-      - name: "RedisLabs"
+      - name: "Portworx"
       - name: "Crunchy"
       - name: "IAS"
       - name: "Kovarus"
