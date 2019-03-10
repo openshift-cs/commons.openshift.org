@@ -39,13 +39,13 @@ gatherings:
         speakers:
           - id: "reza"
       - local_time: "10:00 am"
-        session_name: "OpenShift 4.0 - Operators all the way down!"
-        speakers:
-          - id: "ali_mobrem"
-      - local_time: "10:30 am"
         session_name: "State of the Operators: Framework, SDKs, and beyond"
         speakers:
           - id: "rob_szumski"
+      - local_time: "10:30 am"
+        session_name: "OpenShift 4.0 - Operators all the way down!"
+        speakers:
+          - id: "ali_mobrem"
       - local_time: "10:50 am"
         session_name: "Coffee Break"
       - local_time: "11:20 am"
