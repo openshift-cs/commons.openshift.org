@@ -170,7 +170,7 @@ gatherings:
       - local_time: "3:20 pm"
         session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
       - local_time: "3:40 pm"
-        session_name: "State of Container Security "
+        session_name: "State of Container Security"
         speakers:
           - id: "urvashi_mohani"
           - id: "sally_omalley"
@@ -212,7 +212,7 @@ gatherings:
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
-    sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
+    sponsoring_URL: "mailto:ahollis@redhat.com"
     schedule:
       - local_time: "8:00 am"
         session_name: "Registration Opens"
@@ -1342,7 +1342,7 @@ speakers:
     intro: ""
     photo: "speakers/peter_mackinnon.jpeg"  
   - id: "sally_omalley"
-    name: "Sally O'Malley "
+    name: "Sally O'Malley"
     role: "Principal Software Engineer"
     company: "Red Hat"
     URL: "https://www.redhat.com"
