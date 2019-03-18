@@ -212,6 +212,13 @@ gatherings:
       support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
     invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
     sponsors:
+      - name: "Sysdig"
+      - name: "Crunchy"
+      - name: "Diamanti"
+      - name: "Aqua Security"
+      - name: "Avi Networks"
+      - name: "Twistlock"
+      - name: "Lightbend"
     sponsoring_URL: "mailto:ahollis@redhat.com"
     schedule:
       - local_time: "8:00 am"
