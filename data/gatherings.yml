@@ -153,7 +153,7 @@ gatherings:
       - local_time: "11:40 am"
         session_name: "Case Study: OpenShift at MOD/Israel - Itay Gabbay(IDF Mamram)"
       - local_time: "12:00 am"
-        session_name: "User Panel - moderated by Diane Mueller (Red Hat)"
+        session_name: "Case Study: OpenShift at X by Orange - Jose Maria San Jose Juarez CTIO,(X by Orange)"
       - local_time: "12:30 am"
         session_name: "Sponsor Lightning Talks"
       - local_time: "1:00 pm"
@@ -162,7 +162,6 @@ gatherings:
         session_name: "State of the Operators: Framework, SDKs, and beyond"
         speakers:
           - id: "rob_szumski"
-          - id: "spahl"
       - local_time: "2:40 pm"
         session_name: "Operators in Action Panel - moderated by Daniel Messer (Red Hat)"
       - local_time: "3:00 pm"
