@@ -218,6 +218,7 @@ gatherings:
       - name: "Avi Networks"
       - name: "Twistlock"
       - name: "Lightbend"
+      - name: "StackRox"
     sponsoring_URL: "mailto:ahollis@redhat.com"
     schedule:
       - local_time: "8:00 am"
