@@ -296,8 +296,8 @@ gatherings:
         session_name: "AMA Panel with OpenShift PM team members"
         speakers:
           - id: "joe_f"
-      - local_time: "5:00 pm"
-        session_name: "Closing: Your Guide to Red Hat Summit - Commons PoV"
+      - local_time: "5:30 pm"
+        session_name: "Closing: The Opinionate Guide to Red Hat Summit"
         speakers:
           - id: "diane"
       - local_time: "5:30 pm"
