@@ -1587,7 +1587,7 @@ speakers:
     URL: "https://www.redhat.com/"
     intro: ""
     photo: ""   
-   -id: "Kevin Chiang"
+   -id: "kevin_chiang"
     name: "Kevin Chiang"
     role: "Lead System Engineer"
     company: "UPS"
