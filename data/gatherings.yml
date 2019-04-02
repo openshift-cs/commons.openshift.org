@@ -232,11 +232,11 @@ gatherings:
       - local_time: "8:00 am"
         session_name: "Registration Opens"
       - local_time: "9:00 am"
-        session_name: "Welcome to the Commons: Collaboration in Action - Diane Mueller, Red Hat"
+        session_name: "Welcome to the Commons: Collaboration in Action"
         speakers:
           - id: "diane"
       - local_time: "9:10 am"
-        session_name: "Fireside Chat with Red Hat's CEO Jim Whitehurst"
+        session_name: "Fireside Chat with Red Hat's CEO"
         speakers:
           - id: "jim_whitehurst"
       - local_time: "9:30 am"
