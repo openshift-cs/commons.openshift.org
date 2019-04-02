@@ -867,7 +867,7 @@ speakers:
     intro: ""
     photo: ""
   - id: "eero_arvonen"
-    name: "Eero Arvonen"
+    name: "Eero Arvonen (Asiakastieto)"
     role: "Application Architect"
     company: "Suomen Asiakastieto"
     URL: "https://www.asiakastieto.fi/web/fi/"
