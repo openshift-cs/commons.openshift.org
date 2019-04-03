@@ -313,6 +313,7 @@ gatherings:
         speakers:
           - id: "daniel_miranda"
           - id: "eero_arvonen"
+          - id: "raj_channa"
       - local_time: "4:40 pm"
         session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
         speakers:
