@@ -265,11 +265,17 @@ description:  The OpenShift Commons community gets together and share experience
                   <div class="row schedule-list">
                     <div class="col-xs-5 col-sm-2 text-center"><%= session.local_time %></div>
                     <div class="col-xs-7 col-sm-10 schedule-list-border-left"><%= session.session_name %>
-                    <% if session.speakers.presence %>
-                      <% session.speakers.each do |speaker| %>
-                      | <a href="#<%= speaker.id %>"><%= data.gatherings.speakers.find{ |spkr| speaker.id == spkr.id }.name %></a>&nbsp;
+                      <% if session.speakers.presence %>
+                        <div class="schedule-speakers"><p>
+                        <% session.speakers.each_with_index do |speaker, i| %>
+                        <% spkr = data.gatherings.speakers.find{ |spkr| speaker.id == spkr.id } %>
+                        <% if i > 0 %>
+                        &nbsp;|&nbsp;
+                        <% end %>
+                        <a href="#<%= speaker.id %>"><%= spkr.name %><% if spkr.company.presence && spkr.company.length > 0 %> (<%= spkr.company %>)<% end %></a>
+                        <% end %>
+                        </p></div>
                       <% end %>
-                    <% end %>
                     </div>
                   </div>
                   <%= "<hr>" unless index == gathering.schedule.size - 1 %>
