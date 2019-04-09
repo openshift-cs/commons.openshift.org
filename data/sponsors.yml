@@ -1,0 +1,14 @@
+sponsors:
+  - name: "microsoft-helsinki"
+    link: "https://www.microsoft.com"
+    logo: "commons-logos/microsoft-helsinki.png"
+  - name: "newrelic-helsinki"
+    link: "https://www.newrelic.com"
+    logo: "commons-logos/newrelic-helsinki.png"
+  - name: "arrow-helsinki"
+    link: "https://ecs-fi.arrow.com"
+    logo: "commons-logos/arrow-helsinki.png"
+  - name: "IAS"
+    link: "https://iarchive.com/"
+    logo: "commons-logos/ias_blue_logo_wp.png" 
+    
