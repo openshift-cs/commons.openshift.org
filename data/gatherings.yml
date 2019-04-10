@@ -1612,7 +1612,7 @@ speakers:
     company: "China Mobile Research Institute"
     URL: "https://www.chinamobileltd.com/en/global/home.php"
     intro: ""
-    photo: ""   
+    photo: "/speakers/Jia%20Xuan_China%20Mobile.png"   
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
