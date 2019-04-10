@@ -161,8 +161,12 @@ gatherings:
         speakers:
           - id: "jose_maria_san_jose_juarez"
       - local_time: "12:30 pm"
-        session_name: "Sponsor Lightning Talks"
-      - local_time: "1:00 pm"
+        session_name: "Case Study: OpenShift at China Mobile"
+        speakers:
+          - id: "xuan_jia"
+      - local_time: 12:50 pm"
+        session_name: "SponsorLightning Talks"
+      - local_time: "1:20 pm"
         session_name: "Networking Lunch"
       - local_time: "2:00 pm"
         session_name: "State of the Operators: Framework, SDKs, and beyond"
@@ -1600,6 +1604,13 @@ speakers:
     role: "Architect"
     company: "Red Hat"
     URL: "https://www.redhat.com/"
+    intro: ""
+    photo: ""   
+  - id: "xuan_jia"
+    name: "Xuan Jia"
+    role: "Project Manager and China Mobile Edge Computing 'Sigma' Platform Architect"
+    company: "China Mobile Research Institute"
+    URL: "https://www.chinamobileltd.com/en/global/home.php"
     intro: ""
     photo: ""   
 sponsors:
