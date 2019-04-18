@@ -292,7 +292,6 @@ gatherings:
       - local_time: "2:40 pm"
         session_name: "OpenShift in Telco Panel - Moderator: Paul Lancaster (Red Hat)"
         speakers:
-          - id: "erhan_savas"
           - id: "guillaume_poulet"
           - id: "paul_fischer"
           - id: "campbell_mcclean"
