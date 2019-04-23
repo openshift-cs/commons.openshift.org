@@ -173,7 +173,9 @@ gatherings:
         speakers:
           - id: "rob_szumski"
       - local_time: "2:40 pm"
-        session_name: "Operators in Action Panel - moderated by Daniel Messer (Red Hat)"
+        session_name: "Operators in Action Panel - moderated by Rob Szumski (Red Hat)"
+        speakers:
+          - id: "nestor_salcedaalonso"
       - local_time: "3:00 pm"
         session_name: "Coffee break"
       - local_time: "3:20 pm"
@@ -1628,6 +1630,12 @@ speakers:
     URL: "https://redhat.com"
     intro: ""
     photo: "" 
+  - id: "nestor_salcedaalonso"
+    name: "Nestor Salceda Alonso"
+    company: "Sysdig"
+    URL: "https://sysdig.com"
+    intro: ""
+    photo: ""
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
