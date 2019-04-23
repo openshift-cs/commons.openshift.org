@@ -156,6 +156,7 @@ gatherings:
         session_name: "Case Study: OpenShift at MOD/Israel"
         speakers:
           - id: "itay_gabbay"
+          - id: "tushar_katarki"
       - local_time: "12:00 pm"
         session_name: "Case Study: OpenShift at X by Orange"
         speakers:
