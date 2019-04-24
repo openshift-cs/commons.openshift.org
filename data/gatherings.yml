@@ -153,7 +153,7 @@ gatherings:
           - id: "dominik_hahn"
           - id: "marcel_haerri"
       - local_time: "11:40 am"
-        session_name: "Case Study: OpenShift at MOD/Israel"
+        session_name: "Case Study: ML on OpenShift with Nvidia DGX at MOD/Israel"
         speakers:
           - id: "itay_gabbay"
           - id: "tushar_katarki"
