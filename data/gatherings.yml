@@ -177,6 +177,7 @@ gatherings:
         session_name: "Operators in Action Panel - moderated by Rob Szumski (Red Hat)"
         speakers:
           - id: "nestor_salcedaalonso"
+          - id: "annette_clewett"
       - local_time: "3:00 pm"
         session_name: "Coffee break"
       - local_time: "3:20 pm"
