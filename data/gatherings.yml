@@ -1576,7 +1576,7 @@ speakers:
     URL: "https://www.redhat.com/"
     intro: ""
     photo: ""       
-  - id: "jamil_hmed"
+  - id: "jamil_ahmed"
     name: "Jamil Ahmed"
     role: "Senior OpenShift Infrastructure Analyst"
     company: "Best Buy Canada"
