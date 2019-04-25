@@ -178,6 +178,7 @@ gatherings:
         speakers:
           - id: "nestor_salcedaalonso"
           - id: "annette_clewett"
+          - id: "evan_pease"
       - local_time: "3:00 pm"
         session_name: "Coffee break"
       - local_time: "3:20 pm"
@@ -1638,6 +1639,12 @@ speakers:
     URL: "https://sysdig.com"
     intro: ""
     photo: ""
+  - id: "evan_pease"
+    name: "Evan Pease"
+    company: "Couchbase"
+    URL: "https://couchbase.com"
+    intro: ""
+    photo: ""   
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
