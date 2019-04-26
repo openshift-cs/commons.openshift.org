@@ -1421,7 +1421,7 @@ speakers:
     company: "Sabre"
     URL: "https://www.sabre.com"
     intro: "Evangelizing Cloud and Container Platform technologies to modernize Sabre’s platform at the center of travel"
-    photo: ""  
+    photo: "speakers/jim_anderson.png"  
   - id: "jason_oconnell"
     name: "Jason O'Connell"
     role: ""
