@@ -1651,7 +1651,7 @@ speakers:
     photo: ""   
   - id: "charu_chaubal"
     name: "Charu Chaubal"
-    company: "vmware"
+    company: "VMware"
     URL: "https://vmware.com"
     intro: "Director of Technical Marketing for the Cloud Platform Business Unit at VMware, and runs the team that works on the vSphere product line."
     photo: ""   
