@@ -330,7 +330,6 @@ gatherings:
           - id: "raj_channa"
           - id: "glen_rhodes"
           - id: "oliver_jennings"
- - id: "oliver_jennings"
       - local_time: "4:40 pm"
         session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
         speakers:
@@ -1469,7 +1468,7 @@ speakers:
     role: ""
     company: "Banco Hipotecario"
     URL: "https://hipotecario.com.ar/"
-    role: ""
+    intro: ""
     photo: ""
   - id: "ben_henshall"
     name: "Ben Henshall"
