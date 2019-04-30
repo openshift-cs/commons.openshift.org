@@ -1390,7 +1390,7 @@ speakers:
     photo: "speakers/jimwhitehurst.jpeg"   
   - id: "jim_zimmerman"
     name: "Jim Zimmerman"
-    role: "Principal Program Manager, Azure Red Hat OpenShift"
+    role: "Product Manager, Managed OpenShift on Azure, Azure Cloud Native Compute"
     company: "Microsoft"
     URL: "https://www.microsoft.com"
     intro: ""
