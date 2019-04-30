@@ -310,7 +310,7 @@ gatherings:
         session_name: "Case Study: OpenShift @ Thyssenkrupp Elevators"
         speakers:
           - id: "billy_holmes"
-          - id: "john_rinaldi"
+          - id: "joshua_bryant"
       - local_time: "3:30 pm"
         session_name: "Case Study: OpenShift @ Best Buy"
         speakers:
@@ -1569,9 +1569,9 @@ speakers:
     URL: "https://www.lilly.com/"
     intro: ""
     photo: ""    
-  - id: "john_rinaldi"
-    name: "John Rinaldi"
-    role: "Director Service Operations and Mobility at thyssenkrupp Elevator Americas"
+  - id: "joshua_bryant"
+    name: "Joshua Bryant"
+    role: "Solution Architect"
     company: "thyssenkrupp Elevator Americas"
     URL: "https://www.thyssenkrupp-elevator.com/en/"
     intro: ""
