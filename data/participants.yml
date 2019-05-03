@@ -1478,3 +1478,6 @@ participants:
 - name: "RBC"
   link: "https://www.rbc.com/about-rbc.html"
   logo: "commons-logos/rbc.svg"
+- name: "Honda"
+  link: "https://www.honda.com/"
+  logo: "commons-logos/honda.png"
