@@ -852,7 +852,7 @@ speakers:
     company: "Red Hat"
     URL: "https://www.openshift.com"
     intro: ""
-    photo: ""
+    photo: "speakers/derek_carr.jpeg"
   - id: "chris_wright"
     name: "Chris Wright"
     role: "Chief Technology Officer"
