@@ -254,6 +254,7 @@ gatherings:
         speakers:
           - id: "clayton_coleman"
           - id: "mike_barrett"
+          - id: "derek_carr"
       - local_time: "10:10 am"
         session_name: "Keynote: OpenShift at Nasa"
         speakers:
