@@ -279,15 +279,11 @@ gatherings:
            - id: "raj_channa"
            - id: "dhwanil_raval"
       - local_time: "12:10 pm"
-        session_name: "Case Study: OpenShift @ Eli Lilly" 
-        speakers:
-           - id: "dustin_jefford"
-      - local_time: "12:30 pm"
         session_name: "State of OpenShift on VMWare" 
         speakers:
            - id: "robbie_jerrom"
            - id: "charu_chaubal"
-      - local_time: "12:45 pm"
+      - local_time: "12:30 pm"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
         session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
