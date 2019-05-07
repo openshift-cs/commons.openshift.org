@@ -249,6 +249,7 @@ gatherings:
         session_name: "Fireside Chat with Red Hat's CEO"
         speakers:
           - id: "jim_whitehurst"
+          - id: "diane"
       - local_time: "9:30 am"
         session_name: "OpenShift 4.0 and beyond"
         speakers:
@@ -282,7 +283,6 @@ gatherings:
         session_name: "State of OpenShift on VMWare" 
         speakers:
            - id: "robbie_jerrom"
-           - id: "charu_chaubal"
       - local_time: "12:30 pm"
         session_name: "Networking Lunch"
       - local_time: "1:30 pm"
@@ -302,7 +302,7 @@ gatherings:
         speakers:
           - id: "guillaume_poulet"
           - id: "paul_fischer"
-          - id: "campbell_mcclean"
+          - id: "vasily_chekalkin"
       - local_time: "3:10 pm"
         session_name: "Case Study: OpenShift @ Thyssenkrupp Elevators"
         speakers:
@@ -1671,6 +1671,12 @@ speakers:
     URL: "https://BNZ.CO.NZ"
     role: "Product Owner – Containers INC,Enterprise Cloud Services"
     photo: ""       
+  - id: "vasily_chekalkin"
+    name: "Vasily_Chekalkin"
+    company: "Optus"
+    URL: "https://www.optus.com.au/"
+    role: "Principal Software Architect"
+    photo: "speakers/vasily_chekalkin.jpeg"
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
