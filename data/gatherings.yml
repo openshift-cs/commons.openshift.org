@@ -167,7 +167,9 @@ gatherings:
         speakers:
           - id: "xuan_jia"
       - local_time: 12:50 pm"
-        session_name: "SponsorLightning Talks"
+        session_name: "OpenStack & OpenShift on Power"
+        speakers:
+          - id: "manoj_kumar"
       - local_time: "1:20 pm"
         session_name: "Networking Lunch"
       - local_time: "2:00 pm"
@@ -1730,6 +1732,12 @@ speakers:
     URL: "https://www.opsmix.com/"
     role: ""
     photo: ""    
+  - id: "manoj_kumar"
+    name: "Manoj Kumar"
+    company: "IBM"
+    URL: "https://www.ibm.com/"
+    role: ""
+    photo: ""     
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
