@@ -167,7 +167,7 @@ gatherings:
         speakers:
           - id: "xuan_jia"
       - local_time: 12:50 pm"
-        session_name: "OpenStack & OpenShift on Power"
+        session_name: "OpenShift on Power"
         speakers:
           - id: "manoj_kumar"
       - local_time: "1:20 pm"
