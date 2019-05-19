@@ -1737,7 +1737,7 @@ speakers:
     company: "IBM"
     URL: "https://www.ibm.com/"
     role: ""
-    photo: ""
+    photo: "speakers/manoj_kumar.jpeg"
 sponsors:
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
