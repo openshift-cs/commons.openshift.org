@@ -222,7 +222,7 @@ description:  The OpenShift Commons community gets together and share experience
               <!--Sponsor -->
               <div class="sponsor sponsor-height col-xs-6 col-md-3">
                 <div class="panel-body">
-                  <% sponsor = data.participants.participants.find{ |participants| sponsor.name == participants.name } || data.gatherings.sponsors.find{ |sponsors| sponsor.name == sponsors.name } %>
+                  <% sponsor = data.participants.participants.find{ |participants| sponsor.name == participants.name } || data.sponsors.sponsors.find{ |sponsors| sponsor.name == sponsors.name } %>
                   <a href = "<%= sponsor.link %>" target = "_blank">
                     <%= image_tag sponsor.logo, :alt => sponsor.name %>
                   </a>
@@ -268,7 +268,7 @@ description:  The OpenShift Commons community gets together and share experience
                       <% if session.speakers.presence %>
                         <div class="schedule-speakers"><p>
                         <% session.speakers.each_with_index do |speaker, i| %>
-                        <% spkr = data.gatherings.speakers.find{ |spkr| speaker.id == spkr.id } %>
+                        <% spkr = data.speakers.speakers.find{ |spkr| speaker.id == spkr.id } %>
                         <% if i > 0 %>
                         &nbsp;|&nbsp;
                         <% end %>
@@ -314,7 +314,7 @@ description:  The OpenShift Commons community gets together and share experience
       <div class="row-fluid inner">
         <% gathering.schedule.collect(&:speakers).flatten.uniq.reject { |s| s.to_s.empty? }.sort_by(&:id).each do |speaker_id| %>
           <% unless speaker_id.nil? %>
-            <% speaker = data.gatherings.speakers.find{ |spkr| spkr.id == speaker_id["id"] } %>
+            <% speaker = data.speakers.speakers.find{ |spkr| spkr.id == speaker_id["id"] } %>
             <% if speaker.URL.presence && speaker.URL.length > 0 %>
             <a class="col-lg-3 col-md-6 col-sm-12 speaker-container" id="<%= speaker.id %>" href="<%= speaker.URL %>" style="cursor: pointer;">
             <% else %>
