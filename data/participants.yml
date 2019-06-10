@@ -1514,3 +1514,6 @@ participants:
 - name: "Bell"
   link: "https://www.bell.ca/"
   logo: "commons-logos/bell.png"
+- name: "Ally Financial"
+  link: "https://www.ally.com/"
+  logo: "commons-logos/allyfinancial.png"
