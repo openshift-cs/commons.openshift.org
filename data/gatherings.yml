@@ -92,820 +92,820 @@ gatherings:
         - id: "santiago"
     - local_time: "18:15 pm"
       session_name: "Evening Reception and Networking Event"
-  - name: "Santa Clara 2019"
-    menu: "show"
-    language: "English"
-    date: "2019-03-11"
-    time: "9:00 am - 8:00 pm"
-    youtube_playlist_id: "PLaR6Rq6Z4IqfwrlfB_Wn4mgtiJAIArO7v"
-    location: "Operating at Scale - Santa Clara, California"
-    google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.3724547241623!2d-121.97743568469295!3d37.40467057982852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc9c94dfa50b9%3A0xc1ebf7e60770d2e4!2ssanta+clara+convention+center!5e0!3m2!1sen!2sca!4v1549919802525" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Hyatt Regency Santa Clara,California"
-    venue_URL: "https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_nam_clara"
-    venue_address: "5001 Great America Pkwy, Santa Clara, CA 95054"
-    calendar_event_URL:
-    registration_text: "Register Now"
-    registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-tickets-56536875316"
-    pricing:
-      - label: "Early Bird"
-        price: "49 USD"
-    lead_text: >-
-      The Silicon Valley OpenShift Commons Gathering's Theme is Operating at Scale and features guest speakers from Red Hat, Google, Facebook, Uber, Splunk and Nvidia.
-    info_text: >-
-      This OpenShift Commons Gathering is all about "Operating at Scale" and features guest speakers from Red Hat, Google, Facebook, Nvidia, Uber, Rook.io and more. We'll be covering all the latest innovations in Kubernetes including Operators, Container Security, Serverless, Knative, Istio and all the way down to cgroups!
-      We are also hosting 2 Hands-On Developer workshops, Kubernetes Operator Framework and Deploying and Managing OpenShift Container Storage with Rook-Ceph Operator as add-ons to this Gathering. Workshop space is limited. You can add your workshop when you purchase your ticket to the Gathering.
-      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift/Kuberenetes ecosystem. The Silicon Valley event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure at scale.
-    invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-    sponsors:
-      - name: "Portworx"
-      - name: "Crunchy"
-      - name: "IAS"
-      - name: "Kovarus"
-    sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_santaclara"
-    schedule:
-      - local_time: "8:00 am"
-        session_name: "Registration Opens"
-      - local_time: "9:00 am"
-        session_name: "Welcome to the Commons: Collaboration in Action"
-        speakers:
-          - id: "diane"
-      - local_time: "9:20 am"
-        session_name: "Red Hat's Unified Hybrid Cloud Vision"
-        speakers:
-          - id: "reza"
-      - local_time: "10:00 am"
-        session_name: "State of the Operators: Framework, SDKs, and beyond"
-        speakers:
-          - id: "rob_szumski"
-      - local_time: "10:30 am"
-        session_name: "OpenShift 4.0 - Operators all the way down!"
-        speakers:
-          - id: "ali_mobrem"
-      - local_time: "10:50 am"
-        session_name: "Coffee Break"
-      - local_time: "11:20 am"
-        session_name: "Building Operators at Uber: M3DB"
-        speakers:
-          - id: "matt_schallert"
-          - id: "paul_schooss"
-      - local_time: "11:40 am"
-        session_name: "Splunk on Kubernetes: Connectors, Operators and beyond"
-        speakers:
-          - id: "matt_modestino"
-      - local_time: "12:00 pm"
-        session_name: "State of Container Security"
-        speakers:
-          - id: "urvashi_mohnani"
-          - id: "mrunal_patel"
-      - local_time: "12:30 pm"
-        session_name: "Rook: The Container Native Storage Operator for Kubernetes"
-        speakers:
-          - id: "travis_nielsen"
-          - id: "annette_clewett"
-      - local_time: "1:00 pm"
-        session_name: "Networking Lunch"
-      - local_time: "2:00 pm"
-        session_name: "Production Deep Learning Inference on Nvidia GPUs"
-        speakers:
-          - id: "tripti_singhal"
-          - id: "peter_macKinnon"
-      - local_time: "2:30 pm"
-        session_name: "The Future of Cgroups: A conversation with Red Hat, Google and Facebook"
-        speakers:
-          - id: "ben_breard"
-          - id: "filipe_brandenburger"
-          - id: "tejun_heo"
-      - local_time: "3:00 pm"
-        session_name: "Coffee break"
-      - local_time: "3:30 pm"
-        session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
-        speakers:
-          - id: "redbeard"
-      - local_time: "4:15 pm"
-        session_name: "Operating at Scale - Case Study: First Republic Bank"
-        speakers:
-          - id: "paul_vanloon"
-      - local_time: "4:45 pm"
-        session_name: "AMA Panel - Project Leads, Speakers and assorted Red Hat Engineers"
-      - local_time: "5:15 pm"
-        session_name: "Road Ahead at OpenShift Wrap-Up"
-        speakers:
-          - id: "diane"
-      - local_time: "5:00 pm"
-        session_name: "Evening Reception and Networking Event"
-  - name: "Barcelona 2019"
-    menu: "show"
-    language: "English"
-    date: "2019-05-20"
-    time: "9:00 am - 8:00 pm"
-    youtube_playlist_id: "PLaR6Rq6Z4Iqcfav2yXus9yasf89mDGG3g"
-    location: "Barcelona, Spain"
-    google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1497.446191860622!2d2.126999190672017!3d41.35469278390305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a279649aa111%3A0xb0d0cc966887d153!2sFira+Barcelona+Gran+Via!5e0!3m2!1sen!2sca!4v1547162555672" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Barcelona, Spain"
-    venue_URL: "http://www.firabarcelona.com/"
-    venue_address: "Fira Barcelona Av. Joan Carles I, 64 08908 L’Hospitalet de Llobregat Barcelona, Spain"
-    calendar_event_URL:
-    registration_text: ""
-    registration_URL: "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/register/"
-    pricing:
-      - label: "Early Bird"
-        price: "99 Euros"
-    lead_text: >-
-      The OpenShift Commons Gathering will be held in Barcelona Spain co-located with CNCF's Kubecon/EU.
-    info_text: >-
-      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift ecosystem. The Barcelona event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure.
-    invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-    sponsors:
-    sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_barcelona"
-    schedule:
-      - local_time: "9:00 am"
-        session_name: "Registration Opens"
-      - local_time: "9:30 am"
-        session_name: "Welcome to the Commons: Collaboration in Action"
-        speakers:
-          - id: "diane"
-      - local_time: "10:00 am"
-        session_name: "OpenShift 4 Release Update"
-        speakers:
-          - id: "daniel_messer"
-          - id: "ssadeghi"
-      - local_time: "10:30 am"
-        session_name: "Case Study: OpenShift at Macquarie"
-        speakers:
-          - id: "jason_oconnell"
-      - local_time: "10:50 am"
-        session_name: "Coffee Break"
-      - local_time: "11:20 am"
-        session_name: "Case Study: OpenShift at Six Group"
-        speakers:
-          - id: "dominik_hahn"
-          - id: "marcel_haerri"
-      - local_time: "11:40 am"
-        session_name: "Case Study: ML on OpenShift with Nvidia DGX at MOD/Israel"
-        speakers:
-          - id: "itay_gabbay"
-          - id: "tushar_katarki"
-      - local_time: "12:00 pm"
-        session_name: "Case Study: OpenShift at X by Orange"
-        speakers:
-          - id: "fernando_alvarez"
-      - local_time: "12:30 pm"
-        session_name: "Case Study: OpenShift at China Mobile"
-        speakers:
-          - id: "xuan_jia"
-      - local_time: 12:50 pm"
-        session_name: "OpenShift on Power"
-        speakers:
-          - id: "manoj_kumar"
-      - local_time: "1:20 pm"
-        session_name: "Networking Lunch"
-      - local_time: "2:00 pm"
-        session_name: "State of the Operators: Framework, SDKs, and beyond"
-        speakers:
-          - id: "rob_szumski"
-      - local_time: "2:40 pm"
-        session_name: "Operators in Action Panel - moderated by Rob Szumski (Red Hat)"
-        speakers:
-          - id: "nestor_salcedaalonso"
-          - id: "annette_clewett"
-          - id: "evan_pease"
-          - id: "marc_brugger"
-          - id: "matthias_luebken"
-          - id: "balaji_sivasubramanian"
-      - local_time: "3:00 pm"
-        session_name: "Coffee break"
-      - local_time: "3:20 pm"
-        session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
-        speakers:
-          - id: "markito"
-          - id: "markus_thoemmes"
-      - local_time: "3:40 pm"
-        session_name: "State of Container Security"
-        speakers:
-          - id: "urvashi_mohnani"
-          - id: "sally_omalley"
-      - local_time: "4:00 pm"
-        session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers & Product Managers"
-      - local_time: "4:50 pm"
-        session_name: "Road Ahead at OpenShift Wrap-Up"
-        speakers:
-          - id: "brian_gracely"
-      # - local_time: "5:00 pm"
-      #   session_name: "Evening Reception and Networking Event"
-  - name: "Boston 2019"
-    menu: "show"
-    language: "English"
-    date: "2019-05-06"
-    time: "8:00 am - 8:00 pm"
-    youtube_playlist_id: "PLaR6Rq6Z4IqclliES6msUxN97lamTCp5K"
-    location: "Red Hat Summit/Boston, Massachusetts"
-    google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23590.946087646615!2d-71.046437!3d42.345332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c611a8552d64981!2sBoston+Convention+and+Exhibition+Center!5e0!3m2!1sen!2sus!4v1544046262520" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Westin Waterfront Hotel at Boston Convention and Exhibition Center"
-    venue_URL: "https://www.marriott.com/hotels/travel/bosow-the-westin-boston-waterfront/"
-    venue_address: "425 Summer Street Boston, Massachusetts USA"
-    calendar_event_URL:
-    registration_text: ""
-    registration_URL: "https://reg.summit.redhat.com/"
-    pricing:
-      - label: "Early Bird"
-        price: "$99"
-    lead_text: >-
-      The OpenShift Commons Gathering will be co-located in Boston with <a href="https://www.redhat.com/en/summit/2019" target="_blank">
-      Red Hat Summit</a> at the Westin Waterfront Hotel at the <a href="https://www.signatureboston.com/BCEC" target="_blank">Boston Convention and Exhibition Center</a>!
-    info_text: >-
-      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift ecosystem. The Boston event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure.
-    event_footer_text: >-
-      Please note: Pre-registration is required AND You must have a pass for Red Hat Summit to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your Red Hat Summit registration.
-      By being co-located in Boston with Red Hat Summit at the Boston Convention and Exhibition Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
-      support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
-    invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-    sponsors:
-      - name: "Sysdig"
-      - name: "Crunchy"
-      - name: "Diamanti"
-      - name: "Aqua Security"
-      - name: "Avi Networks"
-      - name: "Twistlock"
-      - name: "Lightbend"
-      - name: "StackRox"
-    sponsoring_URL: "mailto:ahollis@redhat.com"
-    schedule:
-      - local_time: "8:00 am"
-        session_name: "Registration Opens"
-      - local_time: "9:00 am"
-        session_name: "Welcome to the Commons: Collaboration in Action"
-        speakers:
-          - id: "diane"
-      - local_time: "9:10 am"
-        session_name: "Fireside Chat with Red Hat's CEO"
-        speakers:
-          - id: "jim_whitehurst"
-          - id: "diane"
-      - local_time: "9:30 am"
-        session_name: "OpenShift 4.0 and beyond"
-        speakers:
-          - id: "clayton_coleman"
-          - id: "mike_barrett"
-          - id: "derek_carr"
-      - local_time: "10:10 am"
-        session_name: "Keynote: OpenShift at Nasa"
-        speakers:
-          - id: "jeff_walter"
-      - local_time: "10:40 am"
-        session_name: "Coffee Break"
-      - local_time: "11:10 am"
-        session_name: "Case Study: OpenShift @ Volkswagen"
-        speakers:
-          - id: "marcus_greul"
-          - id: "martin_reinke"
-          - id: "noel_oconnor"
-      - local_time: "11:30 am"
-        session_name: "Case Study: OpenShift @ National Geospatial-Intelligence Agency (NGA)"
-        speakers:
-          - id: "andrew_heifetz"
-          - id: "james_cherry"
-          - id: "nick_sabine"
-      - local_time: "11:50 am"
-        session_name: "Case Study: OpenShift @ Royal Bank of Canada (RBC)"
-        speakers:
-           - id: "raj_channa"
-           - id: "dhwanil_raval"
-      - local_time: "12:10 pm"
-        session_name: "State of OpenShift on VMWare"
-        speakers:
-           - id: "robbie_jerrom"
-      - local_time: "12:30 pm"
-        session_name: "Networking Lunch"
-      - local_time: "1:30 pm"
-        session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
-        speakers:
-          - id: "rob_szumski"
-      - local_time: "2:00 pm"
-        session_name: "State of OpenShift on Azure @ Sabre"
-        speakers:
-          - id: "jim_zimmerman"
-          - id: "jim_minter"
-          - id: "jim_anderson"
-      - local_time: "2:30 pm"
-        session_name: "Coffee Break"
-      - local_time: "2:40 pm"
-        session_name: "OpenShift in Telco Panel - Moderator: Paul Lancaster (Red Hat)"
-        speakers:
-          - id: "guillaume_poulet"
-          - id: "paul_fischer"
-          - id: "vasily_chekalkin"
-      - local_time: "3:10 pm"
-        session_name: "Case Study: OpenShift @ Thyssenkrupp Elevators"
-        speakers:
-          - id: "billy_holmes"
-          - id: "joshua_bryant"
-      - local_time: "3:30 pm"
-        session_name: "Case Study: OpenShift @ Best Buy"
-        speakers:
-          - id: "jamil_ahmed"
-          - id: "taneem_ibrahim"
-          - id: "andrew_block"
-      - local_time: "3:50 pm"
-        session_name: "Case Study: OpenShift @ UPS"
-        speakers:
-          - id: "freddy_montero"
-          - id: "kevin_chiang"
-      - local_time: "4:10 pm"
-        session_name: "OpenShift in Financial Services Panel moderated by Ben Henshall (Red Hat)"
-        speakers:
-          - id: "daniel_sanchez"
-          - id: "eero_arvonen"
+- name: "Santa Clara 2019"
+  menu: "show"
+  language: "English"
+  date: "2019-03-11"
+  time: "9:00 am - 8:00 pm"
+  youtube_playlist_id: "PLaR6Rq6Z4IqfwrlfB_Wn4mgtiJAIArO7v"
+  location: "Operating at Scale - Santa Clara, California"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.3724547241623!2d-121.97743568469295!3d37.40467057982852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc9c94dfa50b9%3A0xc1ebf7e60770d2e4!2ssanta+clara+convention+center!5e0!3m2!1sen!2sca!4v1549919802525" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "Hyatt Regency Santa Clara,California"
+  venue_URL: "https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_nam_clara"
+  venue_address: "5001 Great America Pkwy, Santa Clara, CA 95054"
+  calendar_event_URL:
+  registration_text: "Register Now"
+  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-tickets-56536875316"
+  pricing:
+    - label: "Early Bird"
+      price: "49 USD"
+  lead_text: >-
+    The Silicon Valley OpenShift Commons Gathering's Theme is Operating at Scale and features guest speakers from Red Hat, Google, Facebook, Uber, Splunk and Nvidia.
+  info_text: >-
+    This OpenShift Commons Gathering is all about "Operating at Scale" and features guest speakers from Red Hat, Google, Facebook, Nvidia, Uber, Rook.io and more. We'll be covering all the latest innovations in Kubernetes including Operators, Container Security, Serverless, Knative, Istio and all the way down to cgroups!
+    We are also hosting 2 Hands-On Developer workshops, Kubernetes Operator Framework and Deploying and Managing OpenShift Container Storage with Rook-Ceph Operator as add-ons to this Gathering. Workshop space is limited. You can add your workshop when you purchase your ticket to the Gathering.
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift/Kuberenetes ecosystem. The Silicon Valley event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure at scale.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+    - name: "Portworx"
+    - name: "Crunchy"
+    - name: "IAS"
+    - name: "Kovarus"
+  sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_santaclara"
+  schedule:
+    - local_time: "8:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:00 am"
+      session_name: "Welcome to the Commons: Collaboration in Action"
+      speakers:
+        - id: "diane"
+    - local_time: "9:20 am"
+      session_name: "Red Hat's Unified Hybrid Cloud Vision"
+      speakers:
+        - id: "reza"
+    - local_time: "10:00 am"
+      session_name: "State of the Operators: Framework, SDKs, and beyond"
+      speakers:
+        - id: "rob_szumski"
+    - local_time: "10:30 am"
+      session_name: "OpenShift 4.0 - Operators all the way down!"
+      speakers:
+        - id: "ali_mobrem"
+    - local_time: "10:50 am"
+      session_name: "Coffee Break"
+    - local_time: "11:20 am"
+      session_name: "Building Operators at Uber: M3DB"
+      speakers:
+        - id: "matt_schallert"
+        - id: "paul_schooss"
+    - local_time: "11:40 am"
+      session_name: "Splunk on Kubernetes: Connectors, Operators and beyond"
+      speakers:
+        - id: "matt_modestino"
+    - local_time: "12:00 pm"
+      session_name: "State of Container Security"
+      speakers:
+        - id: "urvashi_mohnani"
+        - id: "mrunal_patel"
+    - local_time: "12:30 pm"
+      session_name: "Rook: The Container Native Storage Operator for Kubernetes"
+      speakers:
+        - id: "travis_nielsen"
+        - id: "annette_clewett"
+    - local_time: "1:00 pm"
+      session_name: "Networking Lunch"
+    - local_time: "2:00 pm"
+      session_name: "Production Deep Learning Inference on Nvidia GPUs"
+      speakers:
+        - id: "tripti_singhal"
+        - id: "peter_macKinnon"
+    - local_time: "2:30 pm"
+      session_name: "The Future of Cgroups: A conversation with Red Hat, Google and Facebook"
+      speakers:
+        - id: "ben_breard"
+        - id: "filipe_brandenburger"
+        - id: "tejun_heo"
+    - local_time: "3:00 pm"
+      session_name: "Coffee break"
+    - local_time: "3:30 pm"
+      session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
+      speakers:
+        - id: "redbeard"
+    - local_time: "4:15 pm"
+      session_name: "Operating at Scale - Case Study: First Republic Bank"
+      speakers:
+        - id: "paul_vanloon"
+    - local_time: "4:45 pm"
+      session_name: "AMA Panel - Project Leads, Speakers and assorted Red Hat Engineers"
+    - local_time: "5:15 pm"
+      session_name: "Road Ahead at OpenShift Wrap-Up"
+      speakers:
+        - id: "diane"
+    - local_time: "5:00 pm"
+      session_name: "Evening Reception and Networking Event"
+- name: "Barcelona 2019"
+  menu: "show"
+  language: "English"
+  date: "2019-05-20"
+  time: "9:00 am - 8:00 pm"
+  youtube_playlist_id: "PLaR6Rq6Z4Iqcfav2yXus9yasf89mDGG3g"
+  location: "Barcelona, Spain"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1497.446191860622!2d2.126999190672017!3d41.35469278390305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a279649aa111%3A0xb0d0cc966887d153!2sFira+Barcelona+Gran+Via!5e0!3m2!1sen!2sca!4v1547162555672" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "Barcelona, Spain"
+  venue_URL: "http://www.firabarcelona.com/"
+  venue_address: "Fira Barcelona Av. Joan Carles I, 64 08908 L’Hospitalet de Llobregat Barcelona, Spain"
+  calendar_event_URL:
+  registration_text: ""
+  registration_URL: "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/register/"
+  pricing:
+    - label: "Early Bird"
+      price: "99 Euros"
+  lead_text: >-
+    The OpenShift Commons Gathering will be held in Barcelona Spain co-located with CNCF's Kubecon/EU.
+  info_text: >-
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. The Barcelona event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+  sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_barcelona"
+  schedule:
+    - local_time: "9:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:30 am"
+      session_name: "Welcome to the Commons: Collaboration in Action"
+      speakers:
+        - id: "diane"
+    - local_time: "10:00 am"
+      session_name: "OpenShift 4 Release Update"
+      speakers:
+        - id: "daniel_messer"
+        - id: "ssadeghi"
+    - local_time: "10:30 am"
+      session_name: "Case Study: OpenShift at Macquarie"
+      speakers:
+        - id: "jason_oconnell"
+    - local_time: "10:50 am"
+      session_name: "Coffee Break"
+    - local_time: "11:20 am"
+      session_name: "Case Study: OpenShift at Six Group"
+      speakers:
+        - id: "dominik_hahn"
+        - id: "marcel_haerri"
+    - local_time: "11:40 am"
+      session_name: "Case Study: ML on OpenShift with Nvidia DGX at MOD/Israel"
+      speakers:
+        - id: "itay_gabbay"
+        - id: "tushar_katarki"
+    - local_time: "12:00 pm"
+      session_name: "Case Study: OpenShift at X by Orange"
+      speakers:
+        - id: "fernando_alvarez"
+    - local_time: "12:30 pm"
+      session_name: "Case Study: OpenShift at China Mobile"
+      speakers:
+        - id: "xuan_jia"
+    - local_time: 12:50 pm"
+      session_name: "OpenShift on Power"
+      speakers:
+        - id: "manoj_kumar"
+    - local_time: "1:20 pm"
+      session_name: "Networking Lunch"
+    - local_time: "2:00 pm"
+      session_name: "State of the Operators: Framework, SDKs, and beyond"
+      speakers:
+        - id: "rob_szumski"
+    - local_time: "2:40 pm"
+      session_name: "Operators in Action Panel - moderated by Rob Szumski (Red Hat)"
+      speakers:
+        - id: "nestor_salcedaalonso"
+        - id: "annette_clewett"
+        - id: "evan_pease"
+        - id: "marc_brugger"
+        - id: "matthias_luebken"
+        - id: "balaji_sivasubramanian"
+    - local_time: "3:00 pm"
+      session_name: "Coffee break"
+    - local_time: "3:20 pm"
+      session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
+      speakers:
+        - id: "markito"
+        - id: "markus_thoemmes"
+    - local_time: "3:40 pm"
+      session_name: "State of Container Security"
+      speakers:
+        - id: "urvashi_mohnani"
+        - id: "sally_omalley"
+    - local_time: "4:00 pm"
+      session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers & Product Managers"
+    - local_time: "4:50 pm"
+      session_name: "Road Ahead at OpenShift Wrap-Up"
+      speakers:
+        - id: "brian_gracely"
+    # - local_time: "5:00 pm"
+    #   session_name: "Evening Reception and Networking Event"
+- name: "Boston 2019"
+  menu: "show"
+  language: "English"
+  date: "2019-05-06"
+  time: "8:00 am - 8:00 pm"
+  youtube_playlist_id: "PLaR6Rq6Z4IqclliES6msUxN97lamTCp5K"
+  location: "Red Hat Summit/Boston, Massachusetts"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23590.946087646615!2d-71.046437!3d42.345332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c611a8552d64981!2sBoston+Convention+and+Exhibition+Center!5e0!3m2!1sen!2sus!4v1544046262520" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "Westin Waterfront Hotel at Boston Convention and Exhibition Center"
+  venue_URL: "https://www.marriott.com/hotels/travel/bosow-the-westin-boston-waterfront/"
+  venue_address: "425 Summer Street Boston, Massachusetts USA"
+  calendar_event_URL:
+  registration_text: ""
+  registration_URL: "https://reg.summit.redhat.com/"
+  pricing:
+    - label: "Early Bird"
+      price: "$99"
+  lead_text: >-
+    The OpenShift Commons Gathering will be co-located in Boston with <a href="https://www.redhat.com/en/summit/2019" target="_blank">
+    Red Hat Summit</a> at the Westin Waterfront Hotel at the <a href="https://www.signatureboston.com/BCEC" target="_blank">Boston Convention and Exhibition Center</a>!
+  info_text: >-
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. The Boston event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure.
+  event_footer_text: >-
+    Please note: Pre-registration is required AND You must have a pass for Red Hat Summit to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your Red Hat Summit registration.
+    By being co-located in Boston with Red Hat Summit at the Boston Convention and Exhibition Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
+    support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+    - name: "Sysdig"
+    - name: "Crunchy"
+    - name: "Diamanti"
+    - name: "Aqua Security"
+    - name: "Avi Networks"
+    - name: "Twistlock"
+    - name: "Lightbend"
+    - name: "StackRox"
+  sponsoring_URL: "mailto:ahollis@redhat.com"
+  schedule:
+    - local_time: "8:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:00 am"
+      session_name: "Welcome to the Commons: Collaboration in Action"
+      speakers:
+        - id: "diane"
+    - local_time: "9:10 am"
+      session_name: "Fireside Chat with Red Hat's CEO"
+      speakers:
+        - id: "jim_whitehurst"
+        - id: "diane"
+    - local_time: "9:30 am"
+      session_name: "OpenShift 4.0 and beyond"
+      speakers:
+        - id: "clayton_coleman"
+        - id: "mike_barrett"
+        - id: "derek_carr"
+    - local_time: "10:10 am"
+      session_name: "Keynote: OpenShift at Nasa"
+      speakers:
+        - id: "jeff_walter"
+    - local_time: "10:40 am"
+      session_name: "Coffee Break"
+    - local_time: "11:10 am"
+      session_name: "Case Study: OpenShift @ Volkswagen"
+      speakers:
+        - id: "marcus_greul"
+        - id: "martin_reinke"
+        - id: "noel_oconnor"
+    - local_time: "11:30 am"
+      session_name: "Case Study: OpenShift @ National Geospatial-Intelligence Agency (NGA)"
+      speakers:
+        - id: "andrew_heifetz"
+        - id: "james_cherry"
+        - id: "nick_sabine"
+    - local_time: "11:50 am"
+      session_name: "Case Study: OpenShift @ Royal Bank of Canada (RBC)"
+      speakers:
           - id: "raj_channa"
-          - id: "glen_rhodes"
-          - id: "walid_saleh"
-      - local_time: "4:40 pm"
-        session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
-        speakers:
-          - id: "brian_gracely"
-      - local_time: "5:00 pm"
-        session_name: "AMA Panel with OpenShift PM team members"
-        speakers:
-          - id: "joe_f"
-      - local_time: "5:40 pm"
-        session_name: "Closing: The Opinionate Guide to Red Hat Summit"
-        speakers:
-          - id: "diane"
-      - local_time: "6:00 pm"
-        session_name: "Evening Reception and Networking Event"
-  - name: "Seattle 2018"
-    menu: "show"
-    language: "English"
-    date: "2018-12-10"
-    time: "8:00 am - 8:00 pm"
-    youtube_playlist_id: "PLaR6Rq6Z4IqctmZiEgyO64ymwcfC77Nmv"
-    location: "Seattle, Washington"
-    google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.7503990355976!2d-122.33481828436932!3d47.61154287918504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab5090f3cc7%3A0x38d32c762126bc69!2sWashington+State+Convention+Center!5e0!3m2!1sen!2sus!4v1529684362169" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Washington State Convention Center"
-    venue_URL: "https://www.wscc.com/"
-    venue_address: "705 Pike St, Seattle, WA 98101, USA"
-    calendar_event_URL:
-    registration_text: ""
-    registration_URL: "https://www.regonline.com/registration/Checkin.aspx?EventID=2246960"
-    pricing:
-      - label: "Early Bird"
-        price: "$99"
-    lead_text: >-
-      The OpenShift Commons Gathering will be co-located in Seattle with <a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target="_blank">
-      CNCF's KubeCon-NA</a> at the <a href="https://www.wscc.com/" target="_blank">Washington State Convention Center</a>!
-    info_text: >-
-      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure.
-    event_footer_text: >-
-      Please note: Pre-registration is required AND You must have a pass for KubeCon to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your KubeCon + CloudNativeCon registration.
-      By being co-located in Seattle with KubeCon at the Washington State Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
-      support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
-    invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-    sponsors:
-      - name: "StorageOS"
-      - name: "Tremolo Security"
-      - name: "Instana"
-      - name: "Pure Storage"
-      - name: "ProphetStor"
-      - name: "Twistlock"
-      - name: "CyberArk"
-      - name: "StackRox"
-      - name: "influxdb"
-      - name: "Microsoft"
-      - name: "Portworx"
-    sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
-    schedule:
-      - local_time: "8:00 am"
-        session_name: "Registration Opens"
-      - local_time: "9:00 am"
-        session_name: "Welcome to the Commons: Making Collaboration that Works - Diane Mueller, Red Hat"
-        speakers:
-          - id: "diane"
-      - local_time: "9:10 am"
-        session_name: "Opening Keynotes"
-        speakers:
-          - id: "chris_wright"
-          - id: "reza"
-      - local_time: "9:30 am"
-        session_name: "OpenShift - Features, Functions, Futures"
-        speakers:
-          - id: "steve_speicher"
-          - id: "dirk_herrmann"
-          - id: "christian_vogel"
-          - id: "duncan_hardie"
-      - local_time: "10:00 am"
-        session_name: "Case Study: Vattenfall - Sustainable Data Centers - OpenShift on OpenStack"
-        speakers:
-          - id: "max_schulze"
-      - local_time: "10:20 am"
-        session_name: "Case Study: OpenShift @ GE Digital"
-        speakers:
-          - id: "jackie_chute"
-          - id: "timothy_oliver"
-          - id: "jay_ryan"
-      - local_time: "10:40 am"
-        session_name: "Coffee Break"
-      - local_time: "11:10 am"
-        session_name: "Case Study: OpenShift @ Progressive - Migrating Monoliths to OpenShift"
-        speakers:
-          - id: "brandon_sedgwick"
-          - id: "matthew_gartman"
-          - id: "rick_bliss"
-      - local_time: "11:30 am"
-        session_name: "Case Study: The Road to Kubernetes @ Ticketmaster"
-        speakers:
-          - id: "tim_nichols"
-      - local_time: "11:50 am"
-        session_name: "Knative, Kubernetes, Istio: A New Cloud Stack? Panel"
-        speakers:
-          - id: "mark_chmarny"
-          - id: "paul_morie"
-          - id: "klaus_deissner"
-          - id: "idit_levine"
-          - id: "doug_davis"
-      - local_time: "12:30 pm"
-        session_name: "Networking Lunch"
-      - local_time: "1:30 pm"
-        session_name: "State of the Operators: Framework, SDKs, and beyond"
-        speakers:
-          - id: "spahl"
-          - id: "rob_szumski"
-      - local_time: "2:00 pm"
-        session_name: "Deep Learning on OpenShift with GPUs"
-        speakers:
-          - id: "tripti_singhal"
-          - id: "tushar_katarki"
-          - id: "tripti_singhal"
-      - local_time: "2:30 pm"
-        session_name: "Coffee Break"
-      - local_time: "2:45 pm"
-        session_name: "State of OpenShift on Bare Metal: Intel PoV"
-        speakers:
-          - id: "jose_palafox"
-          - id: "david_cain"
-          - id: "jeremy_eder"
-      - local_time: "3:15 pm"
-        session_name: "Case Study:Secrets Management on OpenShift @ USAA"
-        speakers:
-          - id: "ankur_lamba"
-      - local_time: "3:45 pm"
-        session_name: "Case Study: OpenShift @ HealthPartners"
-        speakers:
-          - id: "james_mcshane"
-      - local_time: "4:15 pm"
-        session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
-        speakers:
-          - id: "brian_gracely"
-      - local_time: "5:00 pm"
-        session_name: "AMA Panel with OpenShift PM team members"
-        speakers:
-          - id: "joe_f"
-      - local_time: "5:30 pm"
-        session_name: "Closing"
-        speakers:
-          - id: "diane"
-      - local_time: "6:00 pm"
-        session_name: "Evening Reception and Networking Event"
-  - name: "Helsinki 2018"
-    menu: "show"
-    language: "English"
-    date: "2018-09-10"
-    time: "9:00 am - 8:00 pm"
-    youtube_playlist_id: "PLaR6Rq6Z4IqcrUvqDVPe5DxNvJp5s8UXC"
-    location: "Helsinki, Finland"
-    google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.1460258186596!2d24.82946665733454!3d60.17589808196301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df58ef3269a05%3A0xa379bbde9aacb411!2sKeilaranta+1%2C+02150+Espoo!5e0!3m2!1sen!2sfi!4v1530528575622" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Red Hat Office, Keilaranta 1"
-    venue_URL: "https://keilaranta1.fi/palvelut-yhteiset-tilat/"
-    venue_address: "Keilaranta 1 02150 Espoo, Finland Auditorium, ground floor"
-    calendar_event_URL:
-    registration_text: ""
-    registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-in-finland-helsinkiespoo-tickets-47832236507"
-    pricing:
-      - label: "Early Bird"
-        price: "25 Euros"
-    lead_text: >-
-      The OpenShift Commons Gathering will be held in Helsinki (Espoo) just a day before  <a href="https://www.redhat.com/en/events/forum-finland" target="_blank">
-      Red Hat Forum Finland 2018</a> at <a href="https://keilaranta1.fi/palvelut-yhteiset-tilat/" target="_blank"> Keilaranta 1 02150 Espoo, Finland Auditorium, ground floor</a>!
-    info_text: >-
-      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift ecosystem. The Helsinki event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure.
-    invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-    sponsors:
-      - name: "microsoft-helsinki"
-      - name: "newrelic-helsinki"
-      - name: "arrow-helsinki"
-    sponsoring_URL: "mailto:repo@redhat.com"
-    schedule:
-      - local_time: "9:00 am"
-        session_name: "Registration Opens"
-      - local_time: "9:30 am"
-        session_name: "Welcome to the Commons: Making Collaboration that Works"
-        speakers:
-          - id: "diane"
-      - local_time: "10:00 am"
-        session_name: "State of the Cloud: Update on OpenShift 3.x"
-        speakers:
-          - id: "marek_jelen"
-      - local_time: "10:30 am"
-        session_name: "Case Study: Moving Workloads to OpenShift Online (GameRefinery)"
-        speakers:
-          - id: "tero"
-      - local_time: "10:50 am"
-        session_name: "Coffee Break"
-      - local_time: "11:20 am"
-        session_name: "Case Study: Suomen Asiakastieto"
-        speakers:
-          - id: "eero_arvonen"
-      - local_time: "11:40 am"
-        session_name: "OpenShift Architecture Evolution at Elisa"
-        speakers:
-          - id: "antti_seppala"
-      - local_time: "12:00 pm"
-        session_name: "User Panel - moderated by Diane Mueller (Red Hat)"
-      - local_time: "12:30 pm"
-        session_name: "Sponsor Lightning Talks"
-      - local_time: "1:00 pm"
-        session_name: "Networking Lunch"
-      - local_time: "2:00 pm"
-        session_name: "Open Innovation Lab and Changing the Culture"
-        speakers:
-          - id: "jeremy_brown"
-      - local_time: "2:40 pm"
-        session_name: "Scale Skills, Gain Speed"
-        speakers:
-          - id: "ilkka_tengvall"
-      - local_time: "3:00 pm"
-        session_name: "Coffee break"
-      - local_time: "3:20 pm"
-        session_name: "State of Serverless and OpenShift"
-        speakers:
-          - id: "natale_v"
-      - local_time: "3:40 pm"
-        session_name: "Can I Contain This?"
-        speakers:
-          - id: "ed_seymour"
-      - local_time: "4:00 pm"
-        session_name: "What's Next AMA Panel - moderated by Carol Chen (Red Hat)"
-      - local_time: "4:50 pm"
-        session_name: "Road Ahead at OpenShift Wrap-Up"
-        speakers:
-          - id: "diane"
-      - local_time: "5:00 pm"
-        session_name: "Evening Reception and Networking Event with Mustan Virran Panimo"
-        speakers:
-          - id: "mustan_virra_panimo"
-  - name: "Buenos Aires 2018"
-    menu: "show"
-    language: "Spanish"
-    date: "2018-08-02"
-    time: "8:00 am - 8:00 pm"
-    youtube_playlist_id: "PLaR6Rq6Z4IqeRZjo0YgY1N7pcvzf5-9el"
-    location: "Buenos Aires, Argentina"
-    google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.613479964827!2d-58.4389447847707!3d-34.588645480463356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58b85a68d79%3A0x83c5f65a09f47dc4!2sAv.+Cnel.+Niceto+Vega+5350%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1sen!2sca!4v1533139554294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Espacio Darwin"
-    venue_URL: ""
-    venue_address: "Av. Cnel. Niceto Vega 5350, C.A.B.A."
-    calendar_event_URL:
-    registration_text: "Confirme su asistencia"
-    registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-buenos-aires-tickets-47432137801"
-    head_text: >-
-      Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift.
-    headers:
-      overview: Descripción del Evento
-      schedule: Agenda
-      speakers: Disertantes
-      venue: Sede del Evento
-    overview_section:
-      where: DÓNDE
-      when: CUÁNDO
-      price: COSTO
-      alternative_date_month: Agosto
-      alternative_date_day_of_week: Jueves
-      invite_a_friend: Invita a un amigo
-    pricing:
-      - label: "RSVP Requerido"
-        price: "Sin costo"
-    lead_text: >-
-      Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift!
-    info_text: >-
-      El OpenShift Commons Gathering tendrá como eje las charlas a cargo de usuarios finales sobre implementaciones de OpenShift en modo de producción, en las que compartirán sus casos
-      de uso, aprendizajes y buenas prácticas con expertos de todas partes del mundo. También analizará las tecnologías de contenedores, las buenas prácticas del desarrollo
-      de aplicaciones nativas de la nube y los proyectos de software open source que apuntalan al ecosistema OpenShift para llevar a OpenShift al siguiente nivel del cloud computing
-      nativo. El evento reunirá a desarrolladores, profesionales de DevOps y administradores de sistemas que explorarán y colaborarán para lograr que OpenShift y las tecnologías
-      de contenedores sean exitosas y seguras a gran escala.
-    schedule_leadin: >-
-      La jornada ofrecerá una serie de disertaciones, paneles y charlas al estilo TED así como también espacios de networking.
-    videos_text: >-
-      Vea las ediciones anteriores de otros OpenShift Commons
-    event_footer_text: >-
-      El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift. Lo invitamos a participar de este evento.
-    invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-    sponsors:
-    sponsoring_URL: "mailto:cpalomeq@redhat.com"
-    sponsor_button_text: Aplicar para ser un patrocinador
-    schedule:
-      - local_time: "9:00 am"
-        session_name: "Registration Opens"
-      - local_time: "9:30 am"
-        session_name: "Welcome to OpenShift Commons: Collaboration that Works"
-        speakers:
-          - id: "santiago"
-      - local_time: "9:40 am"
-        session_name: "State of the Union: OpenShift 3.10/Kubernetes 1.11 Release Road Map"
-        speakers:
-          - id: "reza"
-      - local_time: "10:30 am"
-        session_name: "Main Keynote: The Online Bank (Produban)"
-        speakers:
-          - id: "roldan"
-      - local_time: "11:30 am"
-        session_name: "Coffee Break"
-      - local_time: "11:45 am"
-        session_name: "Container Adoption Program (Red Hat)"
-        speakers:
-          - id: "trevor_quinn"
-      - local_time: "12:30 pm"
-        session_name: "Case Study: Dirección Nacional de Migraciones"
-        speakers:
-          - id: "maximiliano_rinaldi"
-      - local_time: "13:00 pm"
-        session_name: "Lunch"
-      - local_time: "14:00 pm"
-        session_name: "PRESENTACIÓN INTEL"
-      - local_time: "14:15 pm"
-        session_name: "Case Study:GetUpCloud"
-        speakers:
-          - id: "mateus_caruccio"
-      - local_time: "14:45 pm"
-        session_name: "Panel de Banca. Experiencia de Usuarios OpenShift"
-      - local_time: "15:30 pm"
-        session_name: "Case Study:AGESIC"
-        speakers:
-          - id: "javier_barreiro"
-      - local_time: "16:00 pm"
-        session_name: "Case Study: Banco Itau"
-        speakers:
-          - id: "martin_delia"
-      - local_time: "16:30 pm"
-        session_name: "Case Study:Previred"
-        speakers:
-          - id: "miguel_caceres"
-      - local_time: "17:00 pm"
-        session_name: "Case Study: Ministerio de Modernización"
-        speakers:
-          - id: "mariano_vasallo"
-      - local_time: "17:30 pm"
-        session_name: "Case Study:Conservador de Bienes Raíces de Santiago"
-        speakers:
-          - id: "enrique_villar"
-      - local_time: "18:00 pm"
-        session_name: "The Road Ahead @ OpenShift"
-        speakers:
-          - id: "santiago"
-      - local_time: "18:15 pm"
-        session_name: "Evening Reception and Networking Event"
-  - name: "London 2019"
-    menu: "show"
-    language: "English"
-    date: "2019-01-30"
-    time: "8:00 am - 8:00 pm"
-    youtube_playlist_id: "PLaR6Rq6Z4IqeYG1ZiB3fytUbcedVScGtV"
-    location: "London, England"
-    google_maps_URL: >-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.1780067236696!2d-0.12142398422992576!3d51.509950179635524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ca27203d8b%3A0xe19dbe082ea09376!2sIET+London%3A+Savoy+Place!5e0!3m2!1sen!2sca!4v1533071975442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    venue: "Savoy Place London"
-    venue_URL: "https://savoyplace.theiet.org/"
-    venue_address: "2 Savoy Pl, London"
-    calendar_event_URL:
-    registration_text: ""
-    registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-london-tickets-49186307570"
-    pricing:
-      - label: "Tickets"
-        price: "£100"
-        strikethrough: true
-      - label: "Early Bird"
-        price: "£60"
-    lead_text: >-
-      This OpenShift Commons Gathering will be located in London at the <a href="https://savoyplace.theiet.org/" target="_blank">The Savoy Place</a>!
-    info_text: >-
-      The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-      the open source software projects that underpin the OpenShift ecosystem. The London event will gather developers, devops professionals and sysadmins together to explore
-      the next steps in making container technologies successful and secure.
-    event_footer_text: >-
-      In addition to the day-long Gathering, we will also be hosting a 1/2 day
-      <a href="https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893" target="_blank">Kubernetes Operator Framework Hands-on Workshop</a>
-      from 8 am to noon. Workshop space is limited to 45 seats.
-    invite_link: "https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893"
-    sponsors:
-      - name: "Microsoft"
-      - name: "Aqua Security"
-      - name: "Portworx"
-      - name: "Secnix"
-      - name: "Atos"
-      - name: "Nginx"
-      - name: "StorageOS"
-      - name: "Tremolo Security"
-      - name: "RedisLabs"
-      - name: "Sysdig"
-      - name: "Crunchy"
-      - name: "Devoteam"
-      - name: "Pure Storage"
-      - name: "Dynatrace"
-    sponsoring_URL: "https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893"
-    sponsor_button_text: >-
-      Add-on Kubernetes Operator Workshop!
-    schedule:
-      - local_time: "8:00 am"
-        session_name: "Registration Opens"
-      - local_time: "9:00 am"
-        session_name: "Welcome to the Commons: Making Collaboration that Works - Diane Mueller, Red Hat"
-        speakers:
-          - id: "diane"
-      - local_time: "9:10 am"
-        session_name: "Keynote: State of the Union - OpenShift and the Unified Hybrid Cloud"
-        speakers:
-          - id: "brian_gracely"
-      - local_time: "9:30 am"
-        session_name: "OpenShift 4.0 - Features, Functions, Futures"
-        speakers:
-          - id: "mike_barrett"
-      - local_time: "10:00 am"
-        session_name: "State of Container Security"
-        speakers:
-          - id: "dan_walsh"
-      - local_time: "10:30 am"
-        session_name: "Coffee Break"
-      - local_time: "11:00 am"
-        session_name: "Case Study:OpenShift @ Horizon Assets"
-        speakers:
-          - id: "brian_saltzman"
-      - local_time: "11:30 am"
-        session_name: "Lightning Talks: Crunchy Data, Devoteam, Pure Storage, Redis Labs, Portworx, Aqua Security"
-      - local_time: "12:30 pm"
-        session_name: "Networking Lunch"
-      - local_time: "1:30 pm"
-        session_name: "Lightning Talks: Microsoft, NGINX, StorageOS, Tremolo Security, Sysdig, Dynatrace"
-      - local_time: "2:00 pm"
-        session_name: "Case Study: Open Source @ Credit Suisse"
-        speakers:
-          - id: "duncan_lawie"
-      - local_time: "2:30 pm"
-        session_name: "Coffee Break"
-      - local_time: "2:45 pm"
-        session_name: "Case Study: OpenShift @ BIX"
-        speakers:
-          - id: "michael_sauter"
-      - local_time: "3:05 pm"
-        session_name: "Case Study:OpenShift @ ATOS"
-        speakers:
-          - id: "clive_grethe"
-      - local_time: "3:30 pm"
-        session_name: "State of Serverless: Kubernetes, Istio, Knative, Kiali and beyond"
-        speakers:
-          - id: "matthias_wessendorf"
-          - id: "lucas_ponce"
-      - local_time: "4:00 pm"
-        session_name: "State of the Operators: Framework, SDK, and beyond"
-        speakers:
-          - id: "michael_hrivnak"
-          - id: "matt_dorn"
-      - local_time: "4:30 pm"
-        session_name: "AMA Panel with OpenShift PM team members and engineers"
-      - local_time: "5:00 pm"
-        session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
-        speakers:
-          - id: "diane"
-      - local_time: "6:00 pm"
-        session_name: "Evening Reception and Networking Event"
-  # gatherings referencing YouTube video playlists only
-  - name: "London 2018"
-    date: "2018-01-31"
-    youtube_playlist_id: "PLaR6Rq6Z4IqfhzC5ds3sMju7KKNzdd0xy"
-  - name: "San Francisco 2018"
-    date: "2018-05-09"
-    youtube_playlist_id: "PLaR6Rq6Z4Iqe5zqMhgvStXJB9d83rKRHf"
-  - name: "Austin 2017"
-    date: "2017-12-05"
-    youtube_playlist_id: "PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K"
-  - name: "Boston 2017"
-    date: "2017-05-01"
-    youtube_playlist_id: "PLaR6Rq6Z4IqdDQ3prS7Ef91DeL1cu6Yqq"
-  - name: "Berlin 2017"
-    date: "2017-03-28"
-    youtube_playlist_id: "PLaR6Rq6Z4IqdHztUG96ldb6B6h-BuuQud"
-  - name: "Seattle 2016"
-    date: "2016-11-07"
-    youtube_playlist_id: "PLaR6Rq6Z4Iqfahozh6X_RJwGYx0i94qXc" 
+          - id: "dhwanil_raval"
+    - local_time: "12:10 pm"
+      session_name: "State of OpenShift on VMWare"
+      speakers:
+          - id: "robbie_jerrom"
+    - local_time: "12:30 pm"
+      session_name: "Networking Lunch"
+    - local_time: "1:30 pm"
+      session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
+      speakers:
+        - id: "rob_szumski"
+    - local_time: "2:00 pm"
+      session_name: "State of OpenShift on Azure @ Sabre"
+      speakers:
+        - id: "jim_zimmerman"
+        - id: "jim_minter"
+        - id: "jim_anderson"
+    - local_time: "2:30 pm"
+      session_name: "Coffee Break"
+    - local_time: "2:40 pm"
+      session_name: "OpenShift in Telco Panel - Moderator: Paul Lancaster (Red Hat)"
+      speakers:
+        - id: "guillaume_poulet"
+        - id: "paul_fischer"
+        - id: "vasily_chekalkin"
+    - local_time: "3:10 pm"
+      session_name: "Case Study: OpenShift @ Thyssenkrupp Elevators"
+      speakers:
+        - id: "billy_holmes"
+        - id: "joshua_bryant"
+    - local_time: "3:30 pm"
+      session_name: "Case Study: OpenShift @ Best Buy"
+      speakers:
+        - id: "jamil_ahmed"
+        - id: "taneem_ibrahim"
+        - id: "andrew_block"
+    - local_time: "3:50 pm"
+      session_name: "Case Study: OpenShift @ UPS"
+      speakers:
+        - id: "freddy_montero"
+        - id: "kevin_chiang"
+    - local_time: "4:10 pm"
+      session_name: "OpenShift in Financial Services Panel moderated by Ben Henshall (Red Hat)"
+      speakers:
+        - id: "daniel_sanchez"
+        - id: "eero_arvonen"
+        - id: "raj_channa"
+        - id: "glen_rhodes"
+        - id: "walid_saleh"
+    - local_time: "4:40 pm"
+      session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
+      speakers:
+        - id: "brian_gracely"
+    - local_time: "5:00 pm"
+      session_name: "AMA Panel with OpenShift PM team members"
+      speakers:
+        - id: "joe_f"
+    - local_time: "5:40 pm"
+      session_name: "Closing: The Opinionate Guide to Red Hat Summit"
+      speakers:
+        - id: "diane"
+    - local_time: "6:00 pm"
+      session_name: "Evening Reception and Networking Event"
+- name: "Seattle 2018"
+  menu: "show"
+  language: "English"
+  date: "2018-12-10"
+  time: "8:00 am - 8:00 pm"
+  youtube_playlist_id: "PLaR6Rq6Z4IqctmZiEgyO64ymwcfC77Nmv"
+  location: "Seattle, Washington"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.7503990355976!2d-122.33481828436932!3d47.61154287918504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab5090f3cc7%3A0x38d32c762126bc69!2sWashington+State+Convention+Center!5e0!3m2!1sen!2sus!4v1529684362169" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "Washington State Convention Center"
+  venue_URL: "https://www.wscc.com/"
+  venue_address: "705 Pike St, Seattle, WA 98101, USA"
+  calendar_event_URL:
+  registration_text: ""
+  registration_URL: "https://www.regonline.com/registration/Checkin.aspx?EventID=2246960"
+  pricing:
+    - label: "Early Bird"
+      price: "$99"
+  lead_text: >-
+    The OpenShift Commons Gathering will be co-located in Seattle with <a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target="_blank">
+    CNCF's KubeCon-NA</a> at the <a href="https://www.wscc.com/" target="_blank">Washington State Convention Center</a>!
+  info_text: >-
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. The Seattle event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure.
+  event_footer_text: >-
+    Please note: Pre-registration is required AND You must have a pass for KubeCon to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your KubeCon + CloudNativeCon registration.
+    By being co-located in Seattle with KubeCon at the Washington State Convention Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
+    support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+    - name: "StorageOS"
+    - name: "Tremolo Security"
+    - name: "Instana"
+    - name: "Pure Storage"
+    - name: "ProphetStor"
+    - name: "Twistlock"
+    - name: "CyberArk"
+    - name: "StackRox"
+    - name: "influxdb"
+    - name: "Microsoft"
+    - name: "Portworx"
+  sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application"
+  schedule:
+    - local_time: "8:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:00 am"
+      session_name: "Welcome to the Commons: Making Collaboration that Works - Diane Mueller, Red Hat"
+      speakers:
+        - id: "diane"
+    - local_time: "9:10 am"
+      session_name: "Opening Keynotes"
+      speakers:
+        - id: "chris_wright"
+        - id: "reza"
+    - local_time: "9:30 am"
+      session_name: "OpenShift - Features, Functions, Futures"
+      speakers:
+        - id: "steve_speicher"
+        - id: "dirk_herrmann"
+        - id: "christian_vogel"
+        - id: "duncan_hardie"
+    - local_time: "10:00 am"
+      session_name: "Case Study: Vattenfall - Sustainable Data Centers - OpenShift on OpenStack"
+      speakers:
+        - id: "max_schulze"
+    - local_time: "10:20 am"
+      session_name: "Case Study: OpenShift @ GE Digital"
+      speakers:
+        - id: "jackie_chute"
+        - id: "timothy_oliver"
+        - id: "jay_ryan"
+    - local_time: "10:40 am"
+      session_name: "Coffee Break"
+    - local_time: "11:10 am"
+      session_name: "Case Study: OpenShift @ Progressive - Migrating Monoliths to OpenShift"
+      speakers:
+        - id: "brandon_sedgwick"
+        - id: "matthew_gartman"
+        - id: "rick_bliss"
+    - local_time: "11:30 am"
+      session_name: "Case Study: The Road to Kubernetes @ Ticketmaster"
+      speakers:
+        - id: "tim_nichols"
+    - local_time: "11:50 am"
+      session_name: "Knative, Kubernetes, Istio: A New Cloud Stack? Panel"
+      speakers:
+        - id: "mark_chmarny"
+        - id: "paul_morie"
+        - id: "klaus_deissner"
+        - id: "idit_levine"
+        - id: "doug_davis"
+    - local_time: "12:30 pm"
+      session_name: "Networking Lunch"
+    - local_time: "1:30 pm"
+      session_name: "State of the Operators: Framework, SDKs, and beyond"
+      speakers:
+        - id: "spahl"
+        - id: "rob_szumski"
+    - local_time: "2:00 pm"
+      session_name: "Deep Learning on OpenShift with GPUs"
+      speakers:
+        - id: "tripti_singhal"
+        - id: "tushar_katarki"
+        - id: "tripti_singhal"
+    - local_time: "2:30 pm"
+      session_name: "Coffee Break"
+    - local_time: "2:45 pm"
+      session_name: "State of OpenShift on Bare Metal: Intel PoV"
+      speakers:
+        - id: "jose_palafox"
+        - id: "david_cain"
+        - id: "jeremy_eder"
+    - local_time: "3:15 pm"
+      session_name: "Case Study:Secrets Management on OpenShift @ USAA"
+      speakers:
+        - id: "ankur_lamba"
+    - local_time: "3:45 pm"
+      session_name: "Case Study: OpenShift @ HealthPartners"
+      speakers:
+        - id: "james_mcshane"
+    - local_time: "4:15 pm"
+      session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
+      speakers:
+        - id: "brian_gracely"
+    - local_time: "5:00 pm"
+      session_name: "AMA Panel with OpenShift PM team members"
+      speakers:
+        - id: "joe_f"
+    - local_time: "5:30 pm"
+      session_name: "Closing"
+      speakers:
+        - id: "diane"
+    - local_time: "6:00 pm"
+      session_name: "Evening Reception and Networking Event"
+- name: "Helsinki 2018"
+  menu: "show"
+  language: "English"
+  date: "2018-09-10"
+  time: "9:00 am - 8:00 pm"
+  youtube_playlist_id: "PLaR6Rq6Z4IqcrUvqDVPe5DxNvJp5s8UXC"
+  location: "Helsinki, Finland"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.1460258186596!2d24.82946665733454!3d60.17589808196301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df58ef3269a05%3A0xa379bbde9aacb411!2sKeilaranta+1%2C+02150+Espoo!5e0!3m2!1sen!2sfi!4v1530528575622" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "Red Hat Office, Keilaranta 1"
+  venue_URL: "https://keilaranta1.fi/palvelut-yhteiset-tilat/"
+  venue_address: "Keilaranta 1 02150 Espoo, Finland Auditorium, ground floor"
+  calendar_event_URL:
+  registration_text: ""
+  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-in-finland-helsinkiespoo-tickets-47832236507"
+  pricing:
+    - label: "Early Bird"
+      price: "25 Euros"
+  lead_text: >-
+    The OpenShift Commons Gathering will be held in Helsinki (Espoo) just a day before  <a href="https://www.redhat.com/en/events/forum-finland" target="_blank">
+    Red Hat Forum Finland 2018</a> at <a href="https://keilaranta1.fi/palvelut-yhteiset-tilat/" target="_blank"> Keilaranta 1 02150 Espoo, Finland Auditorium, ground floor</a>!
+  info_text: >-
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. The Helsinki event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+    - name: "microsoft-helsinki"
+    - name: "newrelic-helsinki"
+    - name: "arrow-helsinki"
+  sponsoring_URL: "mailto:repo@redhat.com"
+  schedule:
+    - local_time: "9:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:30 am"
+      session_name: "Welcome to the Commons: Making Collaboration that Works"
+      speakers:
+        - id: "diane"
+    - local_time: "10:00 am"
+      session_name: "State of the Cloud: Update on OpenShift 3.x"
+      speakers:
+        - id: "marek_jelen"
+    - local_time: "10:30 am"
+      session_name: "Case Study: Moving Workloads to OpenShift Online (GameRefinery)"
+      speakers:
+        - id: "tero"
+    - local_time: "10:50 am"
+      session_name: "Coffee Break"
+    - local_time: "11:20 am"
+      session_name: "Case Study: Suomen Asiakastieto"
+      speakers:
+        - id: "eero_arvonen"
+    - local_time: "11:40 am"
+      session_name: "OpenShift Architecture Evolution at Elisa"
+      speakers:
+        - id: "antti_seppala"
+    - local_time: "12:00 pm"
+      session_name: "User Panel - moderated by Diane Mueller (Red Hat)"
+    - local_time: "12:30 pm"
+      session_name: "Sponsor Lightning Talks"
+    - local_time: "1:00 pm"
+      session_name: "Networking Lunch"
+    - local_time: "2:00 pm"
+      session_name: "Open Innovation Lab and Changing the Culture"
+      speakers:
+        - id: "jeremy_brown"
+    - local_time: "2:40 pm"
+      session_name: "Scale Skills, Gain Speed"
+      speakers:
+        - id: "ilkka_tengvall"
+    - local_time: "3:00 pm"
+      session_name: "Coffee break"
+    - local_time: "3:20 pm"
+      session_name: "State of Serverless and OpenShift"
+      speakers:
+        - id: "natale_v"
+    - local_time: "3:40 pm"
+      session_name: "Can I Contain This?"
+      speakers:
+        - id: "ed_seymour"
+    - local_time: "4:00 pm"
+      session_name: "What's Next AMA Panel - moderated by Carol Chen (Red Hat)"
+    - local_time: "4:50 pm"
+      session_name: "Road Ahead at OpenShift Wrap-Up"
+      speakers:
+        - id: "diane"
+    - local_time: "5:00 pm"
+      session_name: "Evening Reception and Networking Event with Mustan Virran Panimo"
+      speakers:
+        - id: "mustan_virra_panimo"
+- name: "Buenos Aires 2018"
+  menu: "show"
+  language: "Spanish"
+  date: "2018-08-02"
+  time: "8:00 am - 8:00 pm"
+  youtube_playlist_id: "PLaR6Rq6Z4IqeRZjo0YgY1N7pcvzf5-9el"
+  location: "Buenos Aires, Argentina"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.613479964827!2d-58.4389447847707!3d-34.588645480463356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58b85a68d79%3A0x83c5f65a09f47dc4!2sAv.+Cnel.+Niceto+Vega+5350%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1sen!2sca!4v1533139554294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "Espacio Darwin"
+  venue_URL: ""
+  venue_address: "Av. Cnel. Niceto Vega 5350, C.A.B.A."
+  calendar_event_URL:
+  registration_text: "Confirme su asistencia"
+  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-buenos-aires-tickets-47432137801"
+  head_text: >-
+    Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift.
+  headers:
+    overview: Descripción del Evento
+    schedule: Agenda
+    speakers: Disertantes
+    venue: Sede del Evento
+  overview_section:
+    where: DÓNDE
+    when: CUÁNDO
+    price: COSTO
+    alternative_date_month: Agosto
+    alternative_date_day_of_week: Jueves
+    invite_a_friend: Invita a un amigo
+  pricing:
+    - label: "RSVP Requerido"
+      price: "Sin costo"
+  lead_text: >-
+    Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift!
+  info_text: >-
+    El OpenShift Commons Gathering tendrá como eje las charlas a cargo de usuarios finales sobre implementaciones de OpenShift en modo de producción, en las que compartirán sus casos
+    de uso, aprendizajes y buenas prácticas con expertos de todas partes del mundo. También analizará las tecnologías de contenedores, las buenas prácticas del desarrollo
+    de aplicaciones nativas de la nube y los proyectos de software open source que apuntalan al ecosistema OpenShift para llevar a OpenShift al siguiente nivel del cloud computing
+    nativo. El evento reunirá a desarrolladores, profesionales de DevOps y administradores de sistemas que explorarán y colaborarán para lograr que OpenShift y las tecnologías
+    de contenedores sean exitosas y seguras a gran escala.
+  schedule_leadin: >-
+    La jornada ofrecerá una serie de disertaciones, paneles y charlas al estilo TED así como también espacios de networking.
+  videos_text: >-
+    Vea las ediciones anteriores de otros OpenShift Commons
+  event_footer_text: >-
+    El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift. Lo invitamos a participar de este evento.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+  sponsoring_URL: "mailto:cpalomeq@redhat.com"
+  sponsor_button_text: Aplicar para ser un patrocinador
+  schedule:
+    - local_time: "9:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:30 am"
+      session_name: "Welcome to OpenShift Commons: Collaboration that Works"
+      speakers:
+        - id: "santiago"
+    - local_time: "9:40 am"
+      session_name: "State of the Union: OpenShift 3.10/Kubernetes 1.11 Release Road Map"
+      speakers:
+        - id: "reza"
+    - local_time: "10:30 am"
+      session_name: "Main Keynote: The Online Bank (Produban)"
+      speakers:
+        - id: "roldan"
+    - local_time: "11:30 am"
+      session_name: "Coffee Break"
+    - local_time: "11:45 am"
+      session_name: "Container Adoption Program (Red Hat)"
+      speakers:
+        - id: "trevor_quinn"
+    - local_time: "12:30 pm"
+      session_name: "Case Study: Dirección Nacional de Migraciones"
+      speakers:
+        - id: "maximiliano_rinaldi"
+    - local_time: "13:00 pm"
+      session_name: "Lunch"
+    - local_time: "14:00 pm"
+      session_name: "PRESENTACIÓN INTEL"
+    - local_time: "14:15 pm"
+      session_name: "Case Study:GetUpCloud"
+      speakers:
+        - id: "mateus_caruccio"
+    - local_time: "14:45 pm"
+      session_name: "Panel de Banca. Experiencia de Usuarios OpenShift"
+    - local_time: "15:30 pm"
+      session_name: "Case Study:AGESIC"
+      speakers:
+        - id: "javier_barreiro"
+    - local_time: "16:00 pm"
+      session_name: "Case Study: Banco Itau"
+      speakers:
+        - id: "martin_delia"
+    - local_time: "16:30 pm"
+      session_name: "Case Study:Previred"
+      speakers:
+        - id: "miguel_caceres"
+    - local_time: "17:00 pm"
+      session_name: "Case Study: Ministerio de Modernización"
+      speakers:
+        - id: "mariano_vasallo"
+    - local_time: "17:30 pm"
+      session_name: "Case Study:Conservador de Bienes Raíces de Santiago"
+      speakers:
+        - id: "enrique_villar"
+    - local_time: "18:00 pm"
+      session_name: "The Road Ahead @ OpenShift"
+      speakers:
+        - id: "santiago"
+    - local_time: "18:15 pm"
+      session_name: "Evening Reception and Networking Event"
+- name: "London 2019"
+  menu: "show"
+  language: "English"
+  date: "2019-01-30"
+  time: "8:00 am - 8:00 pm"
+  youtube_playlist_id: "PLaR6Rq6Z4IqeYG1ZiB3fytUbcedVScGtV"
+  location: "London, England"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.1780067236696!2d-0.12142398422992576!3d51.509950179635524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ca27203d8b%3A0xe19dbe082ea09376!2sIET+London%3A+Savoy+Place!5e0!3m2!1sen!2sca!4v1533071975442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "Savoy Place London"
+  venue_URL: "https://savoyplace.theiet.org/"
+  venue_address: "2 Savoy Pl, London"
+  calendar_event_URL:
+  registration_text: ""
+  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-london-tickets-49186307570"
+  pricing:
+    - label: "Tickets"
+      price: "£100"
+      strikethrough: true
+    - label: "Early Bird"
+      price: "£60"
+  lead_text: >-
+    This OpenShift Commons Gathering will be located in London at the <a href="https://savoyplace.theiet.org/" target="_blank">The Savoy Place</a>!
+  info_text: >-
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. The London event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure.
+  event_footer_text: >-
+    In addition to the day-long Gathering, we will also be hosting a 1/2 day
+    <a href="https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893" target="_blank">Kubernetes Operator Framework Hands-on Workshop</a>
+    from 8 am to noon. Workshop space is limited to 45 seats.
+  invite_link: "https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893"
+  sponsors:
+    - name: "Microsoft"
+    - name: "Aqua Security"
+    - name: "Portworx"
+    - name: "Secnix"
+    - name: "Atos"
+    - name: "Nginx"
+    - name: "StorageOS"
+    - name: "Tremolo Security"
+    - name: "RedisLabs"
+    - name: "Sysdig"
+    - name: "Crunchy"
+    - name: "Devoteam"
+    - name: "Pure Storage"
+    - name: "Dynatrace"
+  sponsoring_URL: "https://www.eventbrite.com/e/kubernetes-operators-framework-workshop-openshift-commons-gathering-tickets-54133545893"
+  sponsor_button_text: >-
+    Add-on Kubernetes Operator Workshop!
+  schedule:
+    - local_time: "8:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:00 am"
+      session_name: "Welcome to the Commons: Making Collaboration that Works - Diane Mueller, Red Hat"
+      speakers:
+        - id: "diane"
+    - local_time: "9:10 am"
+      session_name: "Keynote: State of the Union - OpenShift and the Unified Hybrid Cloud"
+      speakers:
+        - id: "brian_gracely"
+    - local_time: "9:30 am"
+      session_name: "OpenShift 4.0 - Features, Functions, Futures"
+      speakers:
+        - id: "mike_barrett"
+    - local_time: "10:00 am"
+      session_name: "State of Container Security"
+      speakers:
+        - id: "dan_walsh"
+    - local_time: "10:30 am"
+      session_name: "Coffee Break"
+    - local_time: "11:00 am"
+      session_name: "Case Study:OpenShift @ Horizon Assets"
+      speakers:
+        - id: "brian_saltzman"
+    - local_time: "11:30 am"
+      session_name: "Lightning Talks: Crunchy Data, Devoteam, Pure Storage, Redis Labs, Portworx, Aqua Security"
+    - local_time: "12:30 pm"
+      session_name: "Networking Lunch"
+    - local_time: "1:30 pm"
+      session_name: "Lightning Talks: Microsoft, NGINX, StorageOS, Tremolo Security, Sysdig, Dynatrace"
+    - local_time: "2:00 pm"
+      session_name: "Case Study: Open Source @ Credit Suisse"
+      speakers:
+        - id: "duncan_lawie"
+    - local_time: "2:30 pm"
+      session_name: "Coffee Break"
+    - local_time: "2:45 pm"
+      session_name: "Case Study: OpenShift @ BIX"
+      speakers:
+        - id: "michael_sauter"
+    - local_time: "3:05 pm"
+      session_name: "Case Study:OpenShift @ ATOS"
+      speakers:
+        - id: "clive_grethe"
+    - local_time: "3:30 pm"
+      session_name: "State of Serverless: Kubernetes, Istio, Knative, Kiali and beyond"
+      speakers:
+        - id: "matthias_wessendorf"
+        - id: "lucas_ponce"
+    - local_time: "4:00 pm"
+      session_name: "State of the Operators: Framework, SDK, and beyond"
+      speakers:
+        - id: "michael_hrivnak"
+        - id: "matt_dorn"
+    - local_time: "4:30 pm"
+      session_name: "AMA Panel with OpenShift PM team members and engineers"
+    - local_time: "5:00 pm"
+      session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
+      speakers:
+        - id: "diane"
+    - local_time: "6:00 pm"
+      session_name: "Evening Reception and Networking Event"
+# gatherings referencing YouTube video playlists only
+- name: "London 2018"
+  date: "2018-01-31"
+  youtube_playlist_id: "PLaR6Rq6Z4IqfhzC5ds3sMju7KKNzdd0xy"
+- name: "San Francisco 2018"
+  date: "2018-05-09"
+  youtube_playlist_id: "PLaR6Rq6Z4Iqe5zqMhgvStXJB9d83rKRHf"
+- name: "Austin 2017"
+  date: "2017-12-05"
+  youtube_playlist_id: "PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K"
+- name: "Boston 2017"
+  date: "2017-05-01"
+  youtube_playlist_id: "PLaR6Rq6Z4IqdDQ3prS7Ef91DeL1cu6Yqq"
+- name: "Berlin 2017"
+  date: "2017-03-28"
+  youtube_playlist_id: "PLaR6Rq6Z4IqdHztUG96ldb6B6h-BuuQud"
+- name: "Seattle 2016"
+  date: "2016-11-07"
+  youtube_playlist_id: "PLaR6Rq6Z4Iqfahozh6X_RJwGYx0i94qXc" 
