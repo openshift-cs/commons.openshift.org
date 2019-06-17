@@ -819,7 +819,7 @@ speakers:
     company: "Red Hat"
     URL: "https://redhat.com"
     intro: ""
-    photo: ""
+    photo: "speakers/markito.jpeg"
   - id: "markus_thoemmes"
     name: "Markus Thoemmes"
     role: "Principal Software Engineer Red Hat Serverless"
