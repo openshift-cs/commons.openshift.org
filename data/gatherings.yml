@@ -2,7 +2,7 @@ gatherings:
 - name: "BuenosAires 2019"
   menu: "show"
   language: "Spanish"
-  date: "2019-08-10"
+  date: "2019-08-08"
   time: "8:00 am - 8:00 pm"
   youtube_playlist_id: "PLaR6Rq6Z4IqeRZjo0YgY1N7pcvzf5-9el"
   location: "Buenos Aires, Argentina"
@@ -30,7 +30,7 @@ gatherings:
     invite_a_friend: Invita a un amigo
   pricing:
     - label: "RSVP Requerido"
-      price: "Sin costo"
+      price: "tbd"
   lead_text: >-
     Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift!
   info_text: >-
@@ -47,45 +47,42 @@ gatherings:
     El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift. Lo invitamos a participar de este evento.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
-  sponsoring_URL: "mailto:cpalomeq@redhat.com"
+  sponsoring_URL: "mailto:mterrera@redhat.com"
   sponsor_button_text: Aplicar para ser un patrocinador
   schedule:
     - local_time: "9:00 am"
       session_name: "Registration Opens"
     - local_time: "9:30 am"
-      session_name: "Welcome to OpenShift Commons: Collaboration that Works"
+      session_name: "Welcome to OpenShift Commons: Collaboration in Action"
       speakers:
         - id: "santiago"
     - local_time: "9:40 am"
-      session_name: "State of the Union: OpenShift 4 Release Update"
-    - local_time: "10:30 am"
-      session_name: "Main Customer Keynote"
+      session_name: "State of the Union: Unified Hybrid Cloud Vision"
       speakers:
-        - id: "roldan"
+        - id: "reza"
+    - local_time: "10:30 am"
+      session_name: "Customer Keynote - TBD"
     - local_time: "11:30 am"
       session_name: "Coffee Break"
     - local_time: "11:45 am"
-      session_name: "State of the Operators: Framework, SDKs, and beyond"
+      session_name: "OpenShift 4.1 Release Update and Road Map"
+      speakers:
+        - id: "thiago"
+        - id: "markito"
     - local_time: "12:30 pm"
-      session_name: "OpenShift Customer Case Study"
+      session_name: "State of the Operators: Frameworks, SDKs, Hubs and more"
+      speakers:
+        - id: "maltron"
     - local_time: "13:00 pm"
       session_name: "Lunch"
     - local_time: "14:00 pm"
-      session_name: "OpenShift Customer Case Study"
+      session_name: "OpenShift on Azure Update"
     - local_time: "14:15 pm"
-      session_name: "OpenShift Customer Case Study"
+      session_name: "OpenShift on Azure Customer Case Study"
     - local_time: "14:45 pm"
       session_name: "Panel de Banca. Experiencia de Usuarios OpenShift"
     - local_time: "15:30 pm"
-      session_name: "OpenShift Customer Case Study"
-    - local_time: "16:00 pm"
-      session_name: "OpenShift Customer Case Study"
-    - local_time: "16:30 pm"
-      session_name: "OpenShift Customer Case Study"
-    - local_time: "17:00 pm"
-      session_name: "OpenShift Customer Case Study"
-    - local_time: "17:30 pm"
-      session_name: "OpenShift Customer Case Study"
+      session_name: "OpenShift Customer Case Studies"
     - local_time: "18:00 pm"
       session_name: "The Road Ahead @ OpenShift"
       speakers:
