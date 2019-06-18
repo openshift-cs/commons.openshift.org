@@ -5,12 +5,12 @@ gatherings:
   date: "2019-09-18"
   time: "9:00 am - 8:00 pm"
   youtube_playlist_id: "PLaR6Rq6Z4IqfwrlfB_Wn4mgtiJAIArO7v"
-  location: "Operating at Scale - Santa Clara, California"
+  location: "Milan, Italy"
   google_maps_URL: >-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.3724547241623!2d-121.97743568469295!3d37.40467057982852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc9c94dfa50b9%3A0xc1ebf7e60770d2e4!2ssanta+clara+convention+center!5e0!3m2!1sen!2sca!4v1549919802525" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  venue: "Hyatt Regency Santa Clara,California"
-  venue_URL: "https://www.hyatt.com/en-US/hotel/california/hyatt-regency-santa-clara/clara?src=corp_lclb_gmb_seo_nam_clara"
-  venue_address: "5001 Great America Pkwy, Santa Clara, CA 95054"
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5594.567747767709!2d9.206135!3d45.484228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeae2b70a466c21d1!2sHotel+Michelangelo+Milan!5e0!3m2!1sen!2sit!4v1560821354259!5m2!1sen!2sit" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "Hotel Michelangelo Milano"
+  venue_URL: "https://www.michelangelohotelmilan.com/"
+  venue_address: "Piazza Luigi di Savoia, 6, 20124 Milano MI "
   calendar_event_URL:
   registration_text: "Register Now"
   registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-tickets-56536875316"
@@ -18,12 +18,10 @@ gatherings:
     - label: "Early Bird"
       price: "TBD"
   lead_text: >-
-    The Milan OpenShift Commons Gathering's Theme is Operating at Scale and features guest speakers from Red Hat, Google, Facebook, Uber, Splunk and Nvidia.
+    The Milan OpenShift Commons Gathering features speakers from Red Hat, Microsoft and OpenShift Commons member organizations.
   info_text: >-
-    This OpenShift Commons Gathering is all about "Operating at Scale" and features guest speakers from Red Hat, Google, Facebook, Nvidia, Uber, Rook.io and more. We'll be covering all the latest innovations in Kubernetes including Operators, Container Security, Serverless, Knative, Istio and all the way down to cgroups!
-    We are also hosting 2 Hands-On Developer workshops, Kubernetes Operator Framework and Deploying and Managing OpenShift Container Storage with Rook-Ceph Operator as add-ons to this Gathering. Workshop space is limited. You can add your workshop when you purchase your ticket to the Gathering.
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-    the open source software projects that underpin the OpenShift/Kuberenetes ecosystem. The Silicon Valley event will gather developers, devops professionals and sysadmins together to explore
+    the open source software projects that underpin the OpenShift/Kuberenetes ecosystem. The Milan event will gather developers, devops professionals and sysadmins together to explore
     the next steps in making container technologies successful and secure at scale.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
