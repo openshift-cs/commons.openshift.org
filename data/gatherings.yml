@@ -13,7 +13,7 @@ gatherings:
   venue_address: "Piazza Luigi di Savoia, 6, 20124 Milano MI "
   calendar_event_URL:
   registration_text: "Register Now"
-  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-tickets-56536875316"
+  registration_URL: "mailto:apalladi@redhat.com"
   pricing:
     - label: "Early Bird"
       price: "TBD"
@@ -26,7 +26,7 @@ gatherings:
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
     - name: "Microsoft"
-  sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_santaclara"
+  sponsoring_URL: "mailto:apalladi@redhat.com"
   schedule:
     - local_time: "8:00 am"
       session_name: "Registration Opens"
@@ -36,66 +36,32 @@ gatherings:
         - id: "diane"
     - local_time: "9:20 am"
       session_name: "Red Hat's Unified Hybrid Cloud Vision"
-      speakers:
-        - id: "reza"
     - local_time: "10:00 am"
-      session_name: "State of the Operators: Framework, SDKs, and beyond"
-      speakers:
-        - id: "rob_szumski"
+      session_name: "OpenShift 4.1 Release Update and Road Map"
     - local_time: "10:30 am"
-      session_name: "OpenShift 4.0 - Operators all the way down!"
-      speakers:
-        - id: "ali_mobrem"
-    - local_time: "10:50 am"
+      session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
+    - local_time: "11:00 am"
       session_name: "Coffee Break"
-    - local_time: "11:20 am"
-      session_name: "Building Operators at Uber: M3DB"
-      speakers:
-        - id: "matt_schallert"
-        - id: "paul_schooss"
-    - local_time: "11:40 am"
-      session_name: "Splunk on Kubernetes: Connectors, Operators and beyond"
-      speakers:
-        - id: "matt_modestino"
-    - local_time: "12:00 pm"
-      session_name: "State of Container Security"
-      speakers:
-        - id: "urvashi_mohnani"
-        - id: "mrunal_patel"
+    - local_time: "11:30 am"
+      session_name: "OpenShift Case Studies"
     - local_time: "12:30 pm"
-      session_name: "Rook: The Container Native Storage Operator for Kubernetes"
-      speakers:
-        - id: "travis_nielsen"
-        - id: "annette_clewett"
+      session_name: "State of Container Security"
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
-      session_name: "Production Deep Learning Inference on Nvidia GPUs"
-      speakers:
-        - id: "tripti_singhal"
-        - id: "peter_macKinnon"
+      session_name: "OpenShift on Azure Update"
     - local_time: "2:30 pm"
-      session_name: "The Future of Cgroups: A conversation with Red Hat, Google and Facebook"
-      speakers:
-        - id: "ben_breard"
-        - id: "filipe_brandenburger"
-        - id: "tejun_heo"
+      session_name: "OpenShift Case Studies"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
       session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
-      speakers:
-        - id: "redbeard"
     - local_time: "4:15 pm"
-      session_name: "Operating at Scale - Case Study: First Republic Bank"
-      speakers:
-        - id: "paul_vanloon"
+      session_name: "OpenShift Case Studies"
     - local_time: "4:45 pm"
       session_name: "AMA Panel - Project Leads, Speakers and assorted Red Hat Engineers"
     - local_time: "5:15 pm"
       session_name: "Road Ahead at OpenShift Wrap-Up"
-      speakers:
-        - id: "diane"
     - local_time: "5:00 pm"
       session_name: "Evening Reception and Networking Event"
 - name: "BuenosAires 2019"
