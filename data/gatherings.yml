@@ -27,23 +27,27 @@ gatherings:
   sponsors:
   sponsoring_URL: "mailto:apalladi@redhat.com"
   schedule:
-    - local_time: "8:00 am"
+    - local_time: "8:30 am"
       session_name: "Registration Opens"
-    - local_time: "9:00 am"
+    - local_time: "9:30 am"
       session_name: "Welcome to the Commons: Collaboration in Action"
       speakers:
         - id: "diane"
-    - local_time: "9:20 am"
+    - local_time: "9:50 am"
       session_name: "Red Hat's Unified Hybrid Cloud Vision"
       speakers:
         - id: "reza"
-    - local_time: "10:00 am"
-      session_name: "OpenShift 4.1 Release Update and Road Map"
     - local_time: "10:30 am"
-      session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
+      session_name: "OpenShift 4.1 Release Update and Road Map"
+      speakers:
+        - id: "daniel_messer"
     - local_time: "11:00 am"
-      session_name: "Coffee Break"
+      session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
+      speakers:
+        - id: "guil_barros"
     - local_time: "11:30 am"
+      session_name: "Coffee Break"
+    - local_time: "11:50 am"
       session_name: "OpenShift Case Studies"
     - local_time: "12:30 pm"
       session_name: "State of Container Security"
@@ -63,8 +67,6 @@ gatherings:
       session_name: "AMA Panel - Project Leads, Speakers and assorted Red Hat Engineers"
     - local_time: "5:15 pm"
       session_name: "Road Ahead at OpenShift Wrap-Up"
-    - local_time: "5:00 pm"
-      session_name: "Evening Reception and Networking Event"
 - name: "BuenosAires 2019"
   menu: "show"
   language: "Spanish"
