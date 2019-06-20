@@ -35,6 +35,8 @@ gatherings:
         - id: "diane"
     - local_time: "9:20 am"
       session_name: "Red Hat's Unified Hybrid Cloud Vision"
+      speakers:
+        - id: "reza"
     - local_time: "10:00 am"
       session_name: "OpenShift 4.1 Release Update and Road Map"
     - local_time: "10:30 am"
@@ -123,7 +125,7 @@ gatherings:
     - local_time: "9:40 am"
       session_name: "State of the Union: Unified Hybrid Cloud Vision"
       speakers:
-        - id: "reza"
+        - id: "julio_tapia"
     - local_time: "10:30 am"
       session_name: "Customer Keynote - TBD"
     - local_time: "11:30 am"
