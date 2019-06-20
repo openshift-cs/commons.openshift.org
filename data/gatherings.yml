@@ -13,7 +13,7 @@ gatherings:
   venue_address: "Piazza Luigi di Savoia, 6, 20124 Milano MI "
   calendar_event_URL:
   registration_text: "Register Now"
-  registration_URL: "mailto:apalladi@redhat.com"
+  registration_URL: "https://events.redhat.com/profile/form/index.cfm?PKformID=0x67907abcd"
   pricing:
     - label: "Early Bird"
       price: "TBD"
