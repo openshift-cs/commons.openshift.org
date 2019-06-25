@@ -15,8 +15,8 @@ gatherings:
   registration_text: "Register Now"
   registration_URL: "https://events.redhat.com/profile/form/index.cfm?PKformID=0x67907abcd%20t"
   pricing:
-    - label: "Early Bird"
-      price: "TBD"
+    - label: "Pre-Registration Required"
+      price: "Free"
   lead_text: >-
     The Milan OpenShift Commons Gathering features speakers from Red Hat, Microsoft and OpenShift Commons member organizations.
   info_text: >-
