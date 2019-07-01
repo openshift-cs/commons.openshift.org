@@ -75,10 +75,10 @@ gatherings:
   youtube_playlist_id: "PLaR6Rq6Z4IqeRZjo0YgY1N7pcvzf5-9el"
   location: "Buenos Aires, Argentina"
   google_maps_URL: >-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.613479964827!2d-58.4389447847707!3d-34.588645480463356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58b85a68d79%3A0x83c5f65a09f47dc4!2sAv.+Cnel.+Niceto+Vega+5350%2C+Buenos+Aires%2C+Argentina!5e0!3m2!1sen!2sca!4v1533139554294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  venue: "TBD"
-  venue_URL: ""
-  venue_address: "TBD."
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.017574441629!2d-58.42272988519615!3d-34.578421863666264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59cd6452553%3A0x6b521307d135059a!2sThe+Rural!5e0!3m2!1sen!2sca!4v1562007664906!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "El Central de La Rural"
+  venue_URL: "http://www.larural.com.ar/nuestros-espacios"
+  venue_address: "Av. Sarmiento 2704, C1425FGP CABA, Argentina"
   calendar_event_URL:
   registration_text: "Confirme su asistencia"
   registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-buenos-aires-tickets-47432137801"
