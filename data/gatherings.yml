@@ -17,7 +17,7 @@ gatherings:
     - label: "Early Bird"
       price: "49 USD"
   lead_text: >-
-    The Silicon Valley OpenShift Commons Gathering focus is on Enabling Machine Learning and AI workloads on OpenShift is co-located with ODSC/West and features guest speakers from accross the ML/AI ecosystem.
+    This Bay Area OpenShift Commons Gathering focus is on Enabling Machine Learning and AI workloads on OpenShift is co-located with ODSC/West and features guest speakers from accross the ML/AI ecosystem.
   info_text: >-
     This OpenShift Commons Gathering is all about "Machine Learning and AI on OpenShift" and features guest speakers from Red Hat and more. We'll be covering all the latest innovations in running ML & AI workloads on Kubernetes !
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
@@ -69,9 +69,9 @@ gatherings:
   location: "San Diego, California"
   google_maps_URL: >-
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1497.446191860622!2d2.126999190672017!3d41.35469278390305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a279649aa111%3A0xb0d0cc966887d153!2sFira+Barcelona+Gran+Via!5e0!3m2!1sen!2sca!4v1547162555672" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  venue: "Barcelona, Spain"
-  venue_URL: "http://www.firabarcelona.com/"
-  venue_address: "Hornblower San Diego, California"
+  venue: "Hornblower, San Diego, California"
+  venue_URL: "https://www.hornblower.com/san-diego/corporate-events/company-meeting-venues/"
+  venue_address: "970 N Harbor Dr, San Diego, CA 92101, USA "
   calendar_event_URL:
   registration_text: "Registration Opens Soon"
   registration_URL: ""
@@ -79,89 +79,54 @@ gatherings:
     - label: "Early Bird"
       price: "$49 USD"
   lead_text: >-
-    The OpenShift Commons Gathering will be held in Barcelona Spain co-located with CNCF's Kubecon/EU.
+    The OpenShift Commons Gathering will be held in San Diego, California and co-located once again with CNCF's Kubecon/NA.
   info_text: >-
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. The San Diego event will gather developers, devops professionals and sysadmins together to explore
-    the next steps in making container technologies successful and secure.
+    the next steps in making container technologies successful and secure. For this gathering, we've secured the Admiral Hornblower to the the dock for a day-long peer-to-peer event. 
+    The boat boasts a 540 seat auditorium and while it will not be setting sailing, we'll get to enjoy this unique outdoor venue for our evening reception as well.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
-  sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_barcelona"
+  sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_santaclara"
   schedule:
-    - local_time: "9:00 am"
+    - local_time: "8:00 am"
       session_name: "Registration Opens"
-    - local_time: "9:30 am"
+    - local_time: "9:00 am"
       session_name: "Welcome to the Commons: Collaboration in Action"
       speakers:
         - id: "diane"
+    - local_time: "9:15 am"
+      session_name: "Keynote: On the Road to Unified Hybrid Cloud"
+      speakers:
+        - id: "reza"
+    - local_time: "9:30 am"
+      session_name: "Customer Keynote"
     - local_time: "10:00 am"
-      session_name: "OpenShift 4 Release Update"
-      speakers:
-        - id: "daniel_messer"
-        - id: "ssadeghi"
-    - local_time: "10:30 am"
-      session_name: "Case Study: OpenShift at Macquarie"
-      speakers:
-        - id: "jason_oconnell"
+      session_name: "OpenShift 4 Release and Road Map Update"
     - local_time: "10:50 am"
       session_name: "Coffee Break"
     - local_time: "11:20 am"
-      session_name: "Case Study: OpenShift at Six Group"
-      speakers:
-        - id: "dominik_hahn"
-        - id: "marcel_haerri"
-    - local_time: "11:40 am"
-      session_name: "Case Study: ML on OpenShift with Nvidia DGX at MOD/Israel"
-      speakers:
-        - id: "itay_gabbay"
-        - id: "tushar_katarki"
-    - local_time: "12:00 pm"
-      session_name: "Case Study: OpenShift at X by Orange"
-      speakers:
-        - id: "fernando_alvarez"
-    - local_time: "12:30 pm"
-      session_name: "Case Study: OpenShift at China Mobile"
-      speakers:
-        - id: "xuan_jia"
-    - local_time: 12:50 pm"
-      session_name: "OpenShift on Power"
-      speakers:
-        - id: "manoj_kumar"
+      session_name: "OpenShift in Action - Production Customer Case Studies"
+    - local_time: 12:30 pm"
+      session_name: "Lightning Talks"
     - local_time: "1:20 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
       session_name: "State of the Operators: Framework, SDKs, and beyond"
-      speakers:
-        - id: "rob_szumski"
-    - local_time: "2:40 pm"
-      session_name: "Operators in Action Panel - moderated by Rob Szumski (Red Hat)"
-      speakers:
-        - id: "nestor_salcedaalonso"
-        - id: "annette_clewett"
-        - id: "evan_pease"
-        - id: "marc_brugger"
-        - id: "matthias_luebken"
-        - id: "balaji_sivasubramanian"
+    - local_time: "2:30 pm"
+      session_name: "Operators in Action Panel - Builders, Users and Maintainers"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:20 pm"
-      session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
-      speakers:
-        - id: "markito"
-        - id: "markus_thoemmes"
-    - local_time: "3:40 pm"
-      session_name: "State of Container Security"
-      speakers:
-        - id: "urvashi_mohnani"
-        - id: "sally_omalley"
+      session_name: "OpenShift in Action - More Production Customer Case Studies"
     - local_time: "4:00 pm"
-      session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers & Product Managers"
+      session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers, Project Leads & Product Managers"
     - local_time: "4:50 pm"
       session_name: "Road Ahead at OpenShift Wrap-Up"
       speakers:
         - id: "brian_gracely"
-    # - local_time: "5:00 pm"
-    #   session_name: "Evening Reception and Networking Event"
+    - local_time: "5:00 pm"
+      session_name: "Evening Reception and Networking Event"
 - name: "Milan Italy 2019"
   menu: "show"
   language: "English"
