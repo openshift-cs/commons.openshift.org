@@ -226,7 +226,7 @@ gatherings:
     invite_a_friend: Invita a un amigo
   pricing:
     - label: "RSVP Requerido"
-      price: "tbd"
+      price: "GRATIS"
   lead_text: >-
     Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift!
   info_text: >-
