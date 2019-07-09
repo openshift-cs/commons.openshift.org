@@ -1,9 +1,9 @@
 speakers:
   - id: "diane"
     name: "Diane Mueller"
-    role: "Director, Community Development, Cloud Platform, Red Hat"
+    role: "Director, Community Development, Cloud Platform"
     company: "Red Hat"
-    URL: "https://www.openshift.com"
+    URL: "https://commons.openshift.org"
     intro: ""
     photo: "speakers/diane.jpg"
   - id: "julio_tapia"
