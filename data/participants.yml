@@ -1517,3 +1517,6 @@ participants:
 - name: "Ally Financial"
   link: "https://www.ally.com/"
   logo: "commons-logos/allyfinancial.png"
+- name: "NTS Retail"
+  link: "https://www.ntsretail.com/"
+  logo: "commons-logos/ntsretail.png"
