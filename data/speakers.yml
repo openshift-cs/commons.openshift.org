@@ -941,7 +941,7 @@ speakers:
     name: "Daniel Messer"
     company: "Red Hat"
     URL: "https://www.redhat.com/"
-    role: ""
+    role: "Product Manager, OpenShift Container Platform"
     photo: "speakers/daniel_messer.jpeg"
   - id: "maltron"
     name: "Maltron Leal"
