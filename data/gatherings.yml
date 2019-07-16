@@ -263,14 +263,14 @@ gatherings:
       speakers:
         - id: "julio_tapia"
     - local_time: "10:30 am"
-      session_name: "Customer Keynote - TBD"
+      session_name: "Customer Keynote - Banco Galicia"
     - local_time: "11:30 am"
       session_name: "Coffee Break"
     - local_time: "11:45 am"
       session_name: "OpenShift 4.1 Release Update and Road Map"
       speakers:
         - id: "thiago"
-        - id: "markito"
+        - id: "ali_mobrem"
     - local_time: "12:30 pm"
       session_name: "State of the Operators: Frameworks, SDKs, Hubs and more"
       speakers:
