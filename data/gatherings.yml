@@ -287,6 +287,8 @@ gatherings:
       session_name: "Lunch"
     - local_time: "14:45 pm"
       session_name: "OpenShift @ Ministerio de Salud"
+      speakers:
+        - id: "alejandro_lopez_osornio"
     - local_time: "15:15 pm"
       session_name: "OpenShift @ TBC"
     - local_time: "15:45 pm"
