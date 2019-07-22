@@ -107,7 +107,7 @@ gatherings:
       session_name: "Coffee Break"
     - local_time: "11:20 am"
       session_name: "OpenShift in Action - Production Customer Case Studies"
-    - local_time: 12:30 pm"
+    - local_time: "12:30 pm"
       session_name: "Lightning Talks"
     - local_time: "1:20 pm"
       session_name: "Networking Lunch"
@@ -464,7 +464,7 @@ gatherings:
       session_name: "Case Study: OpenShift at China Mobile"
       speakers:
         - id: "xuan_jia"
-    - local_time: 12:50 pm"
+    - local_time: "12:50 pm"
       session_name: "OpenShift on Power"
       speakers:
         - id: "manoj_kumar"
