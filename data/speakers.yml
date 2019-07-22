@@ -971,6 +971,7 @@ speakers:
     company: "Colombiana de Comercio S.A"
     URL: ""
     role: "Coordinador de Aplicaciones"
+    photo: "speakers/andres_sanpedro.png"
   - id: "kadu_barral"
     name: "Kadu Barral"
     company: "SulAmérica"
