@@ -302,7 +302,7 @@ gatherings:
       speakers:
         - id: "pedro_cabello_salazar"
     - local_time: "17:15 pm"
-      session_name: "The Road Ahead @ OpenShift"
+      session_name: "Closing Wrap Up: The Road Ahead at OpenShift"
       speakers:
         - id: "santiago"
     - local_time: "17:30 pm"
