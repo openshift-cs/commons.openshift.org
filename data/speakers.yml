@@ -953,6 +953,7 @@ speakers:
     name: "Gonzalo Gomez"
     company: "Banco Galicia"
     URL: ""
+    photo: "speakers/gomez.jpeg"
     role: "Arquitecto de Transformación Digital"
   - id: "miguel_angel_billelo"
     name: "Miguel Angel Billelo"
