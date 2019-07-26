@@ -1520,3 +1520,6 @@ participants:
 - name: "NTS Retail"
   link: "https://www.ntsretail.com/"
   logo: "commons-logos/ntsretail.png"
+- name: "Robin.io"
+  link: "https://robin.io/"
+  logo: "commons-logos/robin.io.png"
