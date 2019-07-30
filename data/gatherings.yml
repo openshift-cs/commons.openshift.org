@@ -271,6 +271,11 @@ gatherings:
         - id: "ali_mobrem"
     - local_time: "11:00 am"
       session_name: "Customer Keynote: ExxonMobil"
+      speakers:
+        - id: "mauro_aragunde"
+        - id: "ezequiel_campos"
+        - id: "lucas_aglia"
+        - id: "block"
     - local_time: "11:45 am"
       session_name: "Coffee Break"
     - local_time: "12:15 am"
