@@ -275,6 +275,7 @@ gatherings:
         - id: "mauro_aragunde"
         - id: "ezequiel_campos"
         - id: "lucas_aglia"
+        - id: "sebastian_madrazo"
         - id: "block"
     - local_time: "11:45 am"
       session_name: "Coffee Break"
