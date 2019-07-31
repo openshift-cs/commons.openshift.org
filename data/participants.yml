@@ -1523,3 +1523,6 @@ participants:
 - name: "Robin.io"
   link: "https://robin.io/"
   logo: "commons-logos/robin.io.png"
+- name: "Blue Cross and Blue Shield of Alabama"
+  link: "https://www.bcbsal.org"
+  logo: "commons-logos/bluecrossandblueshieldofalabama.svg"
