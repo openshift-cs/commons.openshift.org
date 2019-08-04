@@ -296,13 +296,17 @@ gatherings:
       speakers:
         - id: "osornio"
     - local_time: "15:15 pm"
-      session_name: "OpenShift @ TBC"
+      session_name: "OpenShift @ AGESIC"
+      speakers:
+        - id: "maximiliano_maneiro"
     - local_time: "15:45 pm"
       session_name: "OpenShift @ ANSES"
       speakers:
         - id: "miguel_angel_billelo"
     - local_time: "16:15 pm"
-      session_name: "OpenShift @ TBC"
+      session_name: "OpenShift @ Medife"
+      speakers:
+        - id: "facundo_trillo"
     - local_time: "16:45 pm"
       session_name: "OpenShift @ Banco Hipotecario"
       speakers:
