@@ -1020,7 +1020,7 @@ speakers:
     name: "Maximiliano Maneiro"
     company: "Agesic"
     URL: "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/"
-    role: "Gerente de Tecnologías Emergentes"    
+    role: "Gerente de Tecnologías Emergentes "    
     photo: "maximiliano_maneiro.png"
   - id: "facundo_trillo"
     name: "Facundo Trillo"
