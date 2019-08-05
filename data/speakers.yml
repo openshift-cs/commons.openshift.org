@@ -1027,4 +1027,5 @@ speakers:
     name: "Facundo Trillo"
     company: "Medifé"
     URL: "https://www.medife.com.ar/"
-    role: "CIO"   
+    role: "CIO"
+    photo: "speakers/Facundo_Trillo.png"
