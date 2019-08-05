@@ -270,6 +270,12 @@ gatherings:
         - id: "thiago"
         - id: "ali_mobrem"
     - local_time: "11:00 am"
+      session_name: "OpenShift @ Sulamerica"
+      speakers:
+        - id: "kadu_barral"
+    - local_time: "11:30 am"
+      session_name: "Coffee Break"
+    - local_time: "12:00 am"
       session_name: "Customer Keynote: ExxonMobil"
       speakers:
         - id: "mauro_aragunde"
@@ -277,14 +283,10 @@ gatherings:
         - id: "lucas_aglia"
         - id: "sebastian_madrazo"
         - id: "block"
-    - local_time: "11:30 am"
-      session_name: "Coffee Break"
-    - local_time: "12:00 am"
-      session_name: "OpenShift @ Colombiana de Comercio S.A"
-      speakers:
-        - id: "andres_alberto_sanpedro"
     - local_time: "12:40 am"
-      session_name: "OpenShift @ TBC"
+      session_name: "OpenShift @ AGESIC"
+      speakers:
+        - id: "maximiliano_maneiro"
     - local_time: "13:00 pm"
       session_name: "OpenShift @ Banco Galicia"
       speakers:
@@ -296,9 +298,9 @@ gatherings:
       speakers:
         - id: "osornio"
     - local_time: "15:30 pm"
-      session_name: "OpenShift @ AGESIC"
+      session_name: "OpenShift @ Colombiana de Comercio S.A"
       speakers:
-        - id: "maximiliano_maneiro"
+        - id: "andres_alberto_sanpedro"
     - local_time: "16:00 pm"
       session_name: "OpenShift @ ANSES"
       speakers:
