@@ -71,7 +71,7 @@ speakers:
     photo: "speakers/thiago.jpeg"
   - id: "santiago"
     name: "Santiago Sinelnicof"
-    role: "Principal Solutions Architect"
+    role: "Principal Solution Architect"
     company: "Red Hat"
     URL: "https://www.redhat.com"
     intro: ""
