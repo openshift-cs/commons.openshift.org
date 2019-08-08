@@ -180,7 +180,7 @@ gatherings:
       speakers:
         - id: "salvatoredariominonne"
     - local_time: "12:30 pm"
-      session_name: "State of Container Security"
+      session_name: "Update on OKD4 and Fedora CoreOS"
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
