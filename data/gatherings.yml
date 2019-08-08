@@ -170,17 +170,21 @@ gatherings:
       speakers:
         - id: "daniel_messer"
     - local_time: "11:00 am"
-      session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
+      session_name: "Customer Keynote: OpenShift @ Amadeus"
       speakers:
-        - id: "guil_barros"
+        - id: "salvatoredariominonne"
     - local_time: "11:30 am"
       session_name: "Coffee Break"
     - local_time: "12:00 am"
-      session_name: "OpenShift @ Amadeus"
+      session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
       speakers:
-        - id: "salvatoredariominonne"
+        - id: "guil_barros"
     - local_time: "12:30 pm"
       session_name: "Update on OKD4 and Fedora CoreOS"
+      speakers:
+        - id: "antonio_murdaca"
+        - id: "christian_glombek"
+      
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
