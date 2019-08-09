@@ -151,7 +151,7 @@ Sponsors are primarily searched by name in the `/data/participants.yml` list. If
 sponsors:
   - name: "sponsor" (unique)
     link: "sponsorl_link"
-    logo: "sponsor-logos/spensor.png"
+    logo: "sponsor-logos/sponsor.png"
 ```
 
 
