@@ -132,7 +132,6 @@ gatherings:
   language: "English"
   date: "2019-09-18"
   time: "9:00 am - 8:00 pm"
-  youtube_playlist_id: "PLaR6Rq6Z4IqfwrlfB_Wn4mgtiJAIArO7v"
   location: "Milan, Italy"
   google_maps_URL: >-
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5594.567747767709!2d9.206135!3d45.484228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeae2b70a466c21d1!2sHotel+Michelangelo+Milan!5e0!3m2!1sen!2sit!4v1560821354259!5m2!1sen!2sit" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -212,7 +211,6 @@ gatherings:
   language: "Spanish"
   date: "2019-08-08"
   time: "8:00 am - 8:00 pm"
-  youtube_playlist_id: "PLaR6Rq6Z4IqeRZjo0YgY1N7pcvzf5-9el"
   location: "Buenos Aires, Argentina"
   google_maps_URL: >-
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.017574441629!2d-58.42272988519615!3d-34.578421863666264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59cd6452553%3A0x6b521307d135059a!2sThe+Rural!5e0!3m2!1sen!2sca!4v1562007664906!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
