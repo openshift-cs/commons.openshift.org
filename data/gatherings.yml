@@ -190,6 +190,10 @@ gatherings:
       session_name: "OpenShift on Azure Update"
     - local_time: "2:30 pm"
       session_name: "Open Banking with Microservices Architectures and Apache Kafka on OpenShift"
+      speakers:
+        - id: "paolo_gigante"
+        - id: "pierluigi_sforza"
+        - id: "paolo_patierno"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
