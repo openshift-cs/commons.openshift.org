@@ -189,7 +189,7 @@ gatherings:
     - local_time: "2:00 pm"
       session_name: "OpenShift on Azure Update"
     - local_time: "2:30 pm"
-      session_name: "More OpenShift Case Studies"
+      session_name: "Open Banking with Microservices Architectures and Apache Kafka on OpenShift"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
