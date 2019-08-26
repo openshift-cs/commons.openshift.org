@@ -199,7 +199,7 @@ gatherings:
     - local_time: "3:30 pm"
       session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
     - local_time: "4:15 pm"
-      session_name: "OpenShift case at SIA Spa"
+      session_name: "Case Study: OpenShift @ SIA"
     - local_time: "4:45 pm"
       session_name: "Road Ahead at OpenShift"
       speakers:
