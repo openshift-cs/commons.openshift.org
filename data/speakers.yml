@@ -1057,3 +1057,8 @@ speakers:
     URL: "https://www.redhat.com"
     role: "Principal Software Engineer"
     photo: "speakers/paolo_patierno.png"
+  - id: "nicola_nicolotti"
+    name: "Nicola Nicolotti"
+    company: "SIA Spa"
+    URL: "https://www.sia.eu/en"
+    role: "Senior System Administrator"
