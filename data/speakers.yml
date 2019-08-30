@@ -1068,3 +1068,8 @@ speakers:
     company: "Red Hat"
     URL: "https://redhat.com"
     role: "Sr. Director, Artificial Intelligence CoE, Office of the CTO"
+  - id: "giuseppe_bonocore"
+    name: "Giuseppe Bonocore"
+    company: "Red Hat"
+    URL: "https://redhat.com"
+    role: "Senior Solution Architect"
