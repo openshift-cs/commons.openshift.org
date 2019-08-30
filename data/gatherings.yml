@@ -203,13 +203,11 @@ gatherings:
     - local_time: "4:15 pm"
       session_name: "Case Study: OpenShift @ SIA"
     - local_time: "4:45 pm"
-      session_name: "Road Ahead at OpenShift"
-      speakers:
-        - id: "diane"
+      session_name: "Case Study: TBD"
     - local_time: "5:00 pm"
       session_name: "AMA Panel - Red Hat Project Leads, Product Managers and Engineers"
     - local_time: "5:30 pm"
-      session_name: "Closing Wrap Up"
+      session_name: "Closing: Road Ahead at OpenShift"
       speakers:
         - id: "diane"
 - name: "BuenosAires 2019"
