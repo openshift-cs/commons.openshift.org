@@ -100,7 +100,7 @@ gatherings:
     - local_time: "9:15 am"
       session_name: "Keynote: On the Road to Unified Hybrid Cloud"
       speakers:
-        - id: "reza"
+        - id: "julio_tapia"
     - local_time: "9:30 am"
       session_name: "Customer Keynote"
     - local_time: "10:00 am"
