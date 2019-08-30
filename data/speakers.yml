@@ -1063,3 +1063,8 @@ speakers:
     URL: "https://www.sia.eu/en"
     role: "Senior System Administrator"
     photo: "speakers/nicola_nicolotti.jpeg"
+  - id: "riek"
+    name: "Daniel Riek"
+    company: "Red Hat"
+    URL: "https://redhat.com"
+    role: "Sr. Director, Artificial Intelligence CoE, Office of the CTO"
