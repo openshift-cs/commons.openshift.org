@@ -200,10 +200,12 @@ gatherings:
       session_name: "Coffee break"
     - local_time: "3:30 pm"
       session_name: "State of Serverless: Knative, Istio, Kiali and OpenShift"
-    - local_time: "4:15 pm"
       speakers:
         - id: "giuseppe_bonocore"
+    - local_time: "4:15 pm"
       session_name: "Case Study: OpenShift @ SIA"
+      speakers:
+        - id: "nicola_nicolotti"
     - local_time: "4:45 pm"
       session_name: "Case Study: TBD"
     - local_time: "5:00 pm"
