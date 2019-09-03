@@ -78,12 +78,9 @@ gatherings:
     - label: "Early Bird"
       price: "$49 USD"
   lead_text: >-
-    The OpenShift Commons Gathering will be held in San Diego, California and co-located once again with CNCF's Kubecon/NA.
+    The OpenShift Commons Gathering will be held in San Diego, California, co-located with CNCF's Kubecon/NA.
   info_text: >-
-    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-    the open source software projects that underpin the OpenShift ecosystem. The San Diego event will gather developers, devops professionals and sysadmins together to explore
-    the next steps in making container technologies successful and secure. For this gathering, we've secured the Admiral Hornblower to the the dock for a day-long peer-to-peer event. 
-    The boat boasts a 540 seat auditorium and while it will not be setting sailing, we'll get to enjoy this unique outdoor venue for our evening reception as well.
+    The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift ecosystem. The San Diego event will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure. This gathering will take place on the Inspiration Hornblower, docked for a day-long peer-to-peer event. The boat features a 540 seat auditorium, as well as a unique outdoor venue for the evening reception.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_sandiego"
