@@ -22,6 +22,10 @@ gatherings:
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift/Kubernetes ecosystem. The Bay Area event will focus on enabling Machine Learning and AI workloads on OpenShift and will feature guest speakers from across the AI/ML ecosystem and Red Hat. 
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
+    - name: "Portworx"
+    - name: "Crunchy"
+    - name: "StackRox"
+    - name: "Diamanti"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_sanfrancisco"
   schedule:
     - local_time: "8:00 am"
@@ -81,6 +85,10 @@ gatherings:
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift ecosystem. The San Diego event will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure. This gathering will take place on the Inspiration Hornblower, docked for a day-long peer-to-peer event. The boat features a 540 seat auditorium, as well as a unique outdoor venue for the evening reception.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
+    - name: "Portworx"
+    - name: "Crunchy"
+    - name: "StackRox"
+    - name: "Diamanti"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_sandiego"
   schedule:
     - local_time: "8:00 am"
