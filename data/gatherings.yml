@@ -75,8 +75,8 @@ gatherings:
   venue_URL: "https://www.hornblower.com/san-diego/corporate-events/company-meeting-venues/"
   venue_address: "Seaport Village Pier, 879 West Harbor Drive, San Diego, California 92101, USA"
   calendar_event_URL:
-  registration_text: "Registration Opens Soon"
-  registration_URL: ""
+  registration_text: "Register Now"
+  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-san-diego-2019-tickets-64647448258"
   pricing:
     - label: "Early Bird"
       price: "$49 USD"
