@@ -1084,3 +1084,8 @@ speakers:
     company: "Red Hat"
     URL: "https://www.openshift.com"
     role: "Software Engineer"
+  - id: "sherard_griffin"
+    name: "Sherard Griffin"
+    company: "Red Hat"
+    URL: "https://www.openshift.com"
+    role: "Senior Manager, Software Engineering"
