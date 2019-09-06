@@ -40,6 +40,8 @@ gatherings:
         - id: "riek"
     - local_time: "10:00 am"
       session_name: "Open Data Hub: Machine-Learning-As-A-Service Platform Deep Dive"
+      speakers:
+        - id: "sherard_griffin"
     - local_time: "11:00 am"
       session_name: "Coffee Break"
     - local_time: "11:20 am"
