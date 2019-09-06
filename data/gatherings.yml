@@ -173,8 +173,8 @@ gatherings:
     - local_time: "10:30 am"
       session_name: "OpenShift 4.1 Release Update and Road Map"
       speakers:
-        - id: "daniel_messer"
         - id: "markito"
+        - id: "christopher_blum"
     - local_time: "11:00 am"
       session_name: "Customer Keynote: OpenShift @ Amadeus"
       speakers:
