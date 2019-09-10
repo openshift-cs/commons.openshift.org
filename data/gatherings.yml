@@ -190,9 +190,7 @@ gatherings:
     - local_time: "12:30 pm"
       session_name: "Update on OKD4 and Fedora CoreOS"
       speakers:
-        - id: "antonio_murdaca"
         - id: "christian_glombek"
-      
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
