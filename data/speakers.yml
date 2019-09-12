@@ -1089,3 +1089,8 @@ speakers:
     company: "Red Hat"
     URL: "https://www.openshift.com"
     role: "Senior Manager, Software Engineering"
+  - id: "marco_dangelo"
+    name: "Marco D’Angelo"
+    company: "Microsoft"
+    URL: "https://www.microsoft.com"
+    role: "Developers Relationship Manager, Western Europe at Microsoft"
