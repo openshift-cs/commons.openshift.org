@@ -178,11 +178,11 @@ gatherings:
         - id: "markito"
         - id: "christopher_blum"
     - local_time: "11:00 am"
+      session_name: "Coffee Break"
+    - local_time: "11:30 am"
       session_name: "Customer Keynote: OpenShift @ Amadeus"
       speakers:
         - id: "salvatoredariominonne"
-    - local_time: "11:30 am"
-      session_name: "Coffee Break"
     - local_time: "12:00 am"
       session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
       speakers:
