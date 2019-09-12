@@ -194,7 +194,9 @@ gatherings:
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
-      session_name: "OpenShift on Azure Update"
+      session_name: "OpenShift Managed su Azure"
+      speakers:
+        - id: "marco_dangelo"
     - local_time: "2:30 pm"
       session_name: "Open Banking with Microservices Architectures and Apache Kafka on OpenShift"
       speakers:
