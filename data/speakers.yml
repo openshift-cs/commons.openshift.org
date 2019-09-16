@@ -1094,3 +1094,8 @@ speakers:
     company: "Microsoft"
     URL: "https://www.microsoft.com"
     role: "Developers Relationship Manager, Western Europe at Microsoft"
+  - id: "matteo_combi"
+    name: "Matteo Combi"
+    company: "SIA S.p.A."
+    URL: "https://www.sia.eu/en"
+    role: "Solution Architect"
