@@ -214,6 +214,7 @@ gatherings:
       session_name: "Case Study: OpenShift @ SIA"
       speakers:
         - id: "nicola_nicolotti"
+        - id: "matteo_combi"
     - local_time: "4:45 pm"
       session_name: "Case Study: TBD"
     - local_time: "5:00 pm"
