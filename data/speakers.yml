@@ -1100,3 +1100,8 @@ speakers:
     company: "SIA S.p.A."
     URL: "https://www.sia.eu/en"
     role: "Solution Architect"
+  - id: "repo"
+    name: "Tanja Repo"
+    company: "Red Hat"
+    URL: "https://www.commons.openshift.org"
+    role: "Community Development, "
