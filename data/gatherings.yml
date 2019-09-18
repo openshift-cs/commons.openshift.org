@@ -225,6 +225,7 @@ gatherings:
       session_name: "Closing: Road Ahead at OpenShift"
       speakers:
         - id: "diane"
+        - id: "repo"
 - name: "BuenosAires 2019"
   menu: "show"
   language: "Spanish"
