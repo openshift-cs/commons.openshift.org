@@ -1104,4 +1104,5 @@ speakers:
     name: "Tanja Repo"
     company: "Red Hat"
     URL: "https://www.commons.openshift.org"
-    role: "Community Development, "
+    role: "Community Development, EMEA "
+    photo: "speakers/repo.jpeg"
