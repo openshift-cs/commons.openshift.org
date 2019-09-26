@@ -1,4 +1,88 @@
 gatherings:
+- name: "Red Hat Summit 2020"
+  menu: "show"
+  language: "English"
+  date: "2020-04-26"
+  time: "8:00 am - 8:00 pm"
+  location: "Red Hat Summit/San Francisco, California"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11901783.237823999!2d-130.89998018536667!3d43.25752449035873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807ded297e89%3A0xd9553880aa393c6c!2sMoscone%20Center!5e0!3m2!1sen!2sca!4v1569532691405!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  venue: "Moscone Convention and Exhibition Center"
+  venue_URL: "https://www.marriott.com/hotels/travel/bosow-the-westin-boston-waterfront/"
+  venue_address: "425 Summer Street Boston, Massachusetts USA"
+  calendar_event_URL:
+  registration_text: ""
+  registration_URL: "https://reg.summit.redhat.com/"
+  pricing:
+    - label: "Early Bird"
+      price: "$99"
+  lead_text: >-
+    The OpenShift Commons Gathering will be co-located in San Francisco with <a href="https://www.redhat.com/en/summit" target="_blank">
+    Red Hat Summit</a> at the <a href="http://www.moscone.com/site/do/index" target="_blank">Moscone Convention and Exhibition Center</a>!
+  info_text: >-
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure.
+  event_footer_text: >-
+    Please note: Pre-registration is required AND You must have a pass for Red Hat Summit to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your Red Hat Summit registration.
+    By being co-located in San Francisco with Red Hat Summit at the Moscone Convention and Exhibition Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
+    support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+  sponsoring_URL: "mailto:mbecker@redhat.com"
+  schedule:
+    - local_time: "8:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:00 am"
+      session_name: "Welcome to the Commons: Collaboration in Action"
+      speakers:
+        - id: "diane"
+    - local_time: "9:10 am"
+      session_name: "Fireside Chat with Red Hat's CTO"
+    - local_time: "9:30 am"
+      session_name: "OpenShift 4.0 and beyond"
+      speakers:
+        - id: "clayton_coleman"
+        - id: "mike_barrett"
+        - id: "derek_carr"
+    - local_time: "10:10 am"
+      session_name: "Customer Keynote"
+    - local_time: "10:40 am"
+      session_name: "Coffee Break"
+    - local_time: "11:10 am"
+      session_name: "Round 1: Production OpenShift Case Studies"
+    - local_time: "12:10 pm"
+      session_name: "State of OpenShift: Open Hybrid Clouds Everywhere"
+    - local_time: "12:30 pm"
+      session_name: "Networking Lunch"
+    - local_time: "1:30 pm"
+      session_name: "State of the Operators: Framework, SDKs, Hubs and beyond"
+      speakers:
+        - id: "rob_szumski"
+    - local_time: "2:00 pm"
+      session_name: "State of Containers Update"
+    - local_time: "2:30 pm"
+      session_name: "Coffee Break"
+    - local_time: "2:40 pm"
+      session_name: "OpenShift 4.X in Production Panel"
+    - local_time: "3:10 pm"
+      session_name: "Round 2: Production OpenShift Case Studies"
+    - local_time: "4:10 pm"
+      session_name: "Machine Learing on OpenShift Panel "
+    - local_time: "4:40 pm"
+      session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
+      speakers:
+        - id: "brian_gracely"
+    - local_time: "5:00 pm"
+      session_name: "AMA Panel with OpenShift PM and Engineering team members"
+      speakers:
+        - id: "joe_f"
+    - local_time: "5:40 pm"
+      session_name: "Closing: The Opinionate Guide to Red Hat Summit"
+      speakers:
+        - id: "diane"
+    - local_time: "6:00 pm"
+      session_name: "Evening Reception and Networking Event"
 - name: "London 2020"
   menu: "hide"
   language: "English"
