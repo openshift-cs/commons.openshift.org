@@ -18,8 +18,6 @@ gatherings:
   info_text: >-
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift/Kubernetes ecosystem.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-  sponsors:
-    - name: ""
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_sanfrancisco"
   schedule:
     - local_time: "8:00 am"
@@ -34,14 +32,10 @@ gatherings:
         - id: "julio_tapia"
     - local_time: "10:00 am"
       session_name: "OpenShift 4.X Release Update and Road Map"
-      speakers:
-        - id: ""
     - local_time: "11:00 am"
       session_name: "Coffee Break"
     - local_time: "11:20 am"
       session_name: "OpenShift Case Story"
-      speakers: 
-        - id: ""
     - local_time: "11:45 am"
       session_name: "OpenShift Case Study @ TBD"   
     - local_time: "12:30 pm"
