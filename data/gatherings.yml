@@ -4,22 +4,19 @@ gatherings:
   language: "English"
   date: "2020-01-29"
   time: "9:00 am - 8:00 pm"
-  location: "London, UK"
+  location: "London,UK"
   google_maps_URL: >-
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.996432505643!2d-122.3726236848858!3d37.60224297979119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7628c1c83987%3A0xe08eb1332b9d3688!2sSan+Francisco+Airport+Marriott+Waterfront!5e0!3m2!1sen!2sca!4v1562103826101!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  venue: "San Francisco Airport Marriott Waterfront"
-  venue_URL: "https://www.marriott.com/hotels/travel/sfobg-san-francisco-airport-marriott-waterfront/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
-  venue_address: "1800 Old Bayshore Highway, Burlingame, California 94010 USA"
+  venue: "TBA"
+  venue_URL: ""
+  venue_address: "TBA"
   calendar_event_URL:
-  registration_text: "Register Now"
-  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-san-francisco-2019-tickets-64651818329"
-  pricing:
-    - label: "Early Bird"
-      price: "49 USD"
+  registration_text: "Registration opens soon"
+  registration_URL: ""
   lead_text: >-
-    The OpenShift Commons Gathering will be held in San Francisco, California, co-located with ODSC/West and features guest speakers from accross the AI/ML ecosystem.
+    The OpenShift Commons Gathering will be held in London, UK, and features guest speakers from local customers and users.
   info_text: >-
-    The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift/Kubernetes ecosystem. The Bay Area event will focus on enabling Machine Learning and AI workloads on OpenShift and will feature guest speakers from across the AI/ML ecosystem and Red Hat. 
+    The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift/Kubernetes ecosystem.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
     - name: "Portworx"
