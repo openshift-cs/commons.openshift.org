@@ -1,4 +1,67 @@
 gatherings:
+- name: "Amsterdam 2020"
+  menu: "hide"
+  language: "English"
+  date: "2020-03-30"
+  time: "9:00 am - 7:00 pm"
+  location: "Amsterdam, The Netherlands - co-located with Kubecon/Europe"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.6118810731264!2d4.886432415800818!3d52.34118677978073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60a1f63d57e25%3A0xa08f37a724d09338!2sAmsterdam%20RAI!5e0!3m2!1sen!2sfi!4v1569573957926!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  venue: "RAI Amsterdam"
+  venue_URL: "https://www.rai.nl/"
+  venue_address: "Europaplein 24, 1078 GZ Amsterdam , The Netherlands"
+  calendar_event_URL:
+  registration_text: "Registration opens soons"
+  registration_URL: ""
+  pricing:
+    - label: "Early Bird"
+      price: "$49 USD"
+  lead_text: >-
+    The OpenShift Commons Gathering will be held in Amsterdam, The Netherlands, co-located with CNCF's Kubecon/Europe.
+  info_text: >-
+    The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift ecosystem. The San Diego event will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure. This gathering will take place on the Inspiration Hornblower, docked for a day-long peer-to-peer event. The boat features a 540 seat auditorium, as well as a unique outdoor venue for the evening reception.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+  sponsoring_URL: "mailto:mbecker@redhat.com"
+  schedule:
+    - local_time: "8:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:00 am"
+      session_name: "Welcome to the Commons: Collaboration in Action"
+      speakers:
+        - id: "diane"
+    - local_time: "9:15 am"
+      session_name: "Keynote: On the Road to Unified Hybrid Cloud"
+      speakers:
+        - id: "julio_tapia"
+    - local_time: "9:30 am"
+      session_name: "Customer Keynote"
+    - local_time: "10:00 am"
+      session_name: "OpenShift 4 Release and Road Map Update"
+    - local_time: "10:50 am"
+      session_name: "Coffee Break"
+    - local_time: "11:20 am"
+      session_name: "OpenShift in Action - Production Customer Case Studies"
+    - local_time: "12:30 pm"
+      session_name: "Lightning Talks"
+    - local_time: "1:20 pm"
+      session_name: "Networking Lunch"
+    - local_time: "2:00 pm"
+      session_name: "State of the Operators: Framework, SDKs, and beyond"
+    - local_time: "2:30 pm"
+      session_name: "Operators in Action Panel - Builders, Users and Maintainers"
+    - local_time: "3:00 pm"
+      session_name: "Coffee break"
+    - local_time: "3:20 pm"
+      session_name: "OpenShift in Action - More Production Customer Case Studies"
+    - local_time: "4:00 pm"
+      session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers, Project Leads & Product Managers"
+    - local_time: "4:50 pm"
+      session_name: "Road Ahead at OpenShift Wrap-Up"
+      speakers:
+        - id: "brian_gracely"
+    - local_time: "5:00 pm"
+      session_name: "Evening Reception and Networking Event"
 - name: "Red Hat Summit 2020"
   menu: "show"
   language: "English"
