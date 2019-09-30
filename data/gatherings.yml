@@ -217,6 +217,10 @@ gatherings:
         - id: "diane"
     - local_time: "5:00 pm"
       session_name: "Evening Reception and Networking Event"
+    - local_time: "9:00 am - 12:00 noon"
+      session_name: "Hands-On OpenShift UX Design Workshop - space limited to 20 OpenShift users request an invite <a href="mailto:schizari@redhat.com">schizari@redhat.com</a>"
+      speakers:
+        - id: "redhat_uxd_research_team"    
 - name: "San Diego 2019"
   menu: "show"
   language: "English"
