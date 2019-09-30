@@ -242,6 +242,9 @@ gatherings:
     - name: "Crunchy"
     - name: "StackRox"
     - name: "Diamanti"
+    - name: "Snyk"
+    - name: "Instana"
+    - name: "Coda Global"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_sandiego"
   schedule:
     - local_time: "8:00 am"
