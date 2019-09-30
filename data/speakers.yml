@@ -1136,3 +1136,7 @@ speakers:
     URL: "https://discover.com/"
     role: "Director, Data Science Technology" 
     photo: "speakers/brandon_harris.jpeg"  
+   - id: "redhat_uxd_research_team"
+    name: "Red Hat UX Design Research Team"
+    company: "Red Hat"
+    URL: "https://blog.openshift.com/design-for-users-by-users-design-thinking-red-hat-sara-chirzari-red-hat-ux-research-team-openshift-commons-briefing/?preview_id=20959&preview_nonce=217fb4e128&post_format=standard&_thumbnail_id=-1&preview=true"
