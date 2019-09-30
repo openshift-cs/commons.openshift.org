@@ -121,7 +121,7 @@ gatherings:
     - local_time: "11:20 am"
       session_name: "OpenShift Case Story"
     - local_time: "11:45 am"
-      session_name: "OpenShift Case Study @ TBD"   
+      session_name: "OpenShift Case Study @ TBD"
     - local_time: "12:30 pm"
       session_name: "Lightning Talks"
     - local_time: "1:00 pm"
@@ -162,7 +162,7 @@ gatherings:
   info_text: >-
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift/Kubernetes ecosystem. The Bay Area event will focus on enabling Machine Learning and AI workloads on OpenShift and will feature guest speakers from across the AI/ML ecosystem and Red Hat.
     Also co-located at the Commons Gathering, the Red Hat UX Research team hosting a hands-on OpenShift UX Design workshop. Space is limited to 20 existing OpenShift users. To request an invite <a href="mailto:schizari@redhat.com">schizari@redhat.com</a>
-    
+
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
     - name: "Portworx"
@@ -188,18 +188,18 @@ gatherings:
     - local_time: "11:00 am"
       session_name: "Coffee Break"
     - local_time: "11:20 am"
-      session_name: "Delivering On-Demand Analytics Environments for Data Scientists at Discover"   
-      speakers: 
+      session_name: "Delivering On-Demand Analytics Environments for Data Scientists at Discover"
+      speakers:
         - id: "brandon_harris"
         - id: "anirudh_pathe"
     - local_time: "11:50 am"
       session_name: "Deep Learning Workloads with NVIDIA GPUs on OpenShift"
-      speakers: 
+      speakers:
         - id: "mehnaz_mahbub"
         - id: "mayur_shetty"
     - local_time: "12:20 pm"
       session_name: "ML/AI and Operators Case Study: Databricks, Azure and Kubernetes"
-      speakers: 
+      speakers:
         - id: "azadeh_khojandi"
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
@@ -217,10 +217,10 @@ gatherings:
         - id: "diane"
     - local_time: "5:00 pm"
       session_name: "Evening Reception and Networking Event"
-    - local_time: "9:00 pm"
+    - local_time: "9:00 am - 12:00 noon"
       session_name: "Hands-On OpenShift UX Design Workshop-test"
       speakers:
-        - id: "redhat_uxd_research_team"  
+        - id: "redhat_uxd_research_team"
 - name: "San Diego 2019"
   menu: "show"
   language: "English"
@@ -1313,4 +1313,4 @@ gatherings:
   youtube_playlist_id: "PLaR6Rq6Z4IqdHztUG96ldb6B6h-BuuQud"
 - name: "Seattle 2016"
   date: "2016-11-07"
-  youtube_playlist_id: "PLaR6Rq6Z4Iqfahozh6X_RJwGYx0i94qXc" 
+  youtube_playlist_id: "PLaR6Rq6Z4Iqfahozh6X_RJwGYx0i94qXc"
