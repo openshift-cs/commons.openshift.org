@@ -397,6 +397,7 @@ speakers:
     company: "Red Hat"
     URL: "https://openshift.com"
     intro: ""
+    photo: "speakers/tushar.jpeg"
   - id: "jose_palafox"
     name: "Jose Palafox"
     role: "Cloud Soultions Architect"
