@@ -287,7 +287,7 @@ gatherings:
         - id: "sunny"
         - id: "tushar_katarki"
     - local_time: "3:55 pm"
-      session_name: "Panel: The Future and Ethics of AI - moderator Daniel Riek (Red Hat)"
+      session_name: "Panel: The Future and Ethics of AI - moderator Diane Mueller (Red Hat)"
       speakers: 
          -id: "daniel_jeffries"
          -id: "alex_housely"
