@@ -267,7 +267,7 @@ gatherings:
     - local_time: "12:00 am" 
       session_name: "Panel: Building Kuberenetes Operators for AI & ML Workloads - moderator: Sherard Griffin"
     - local_time: "12:45 am" 
-      session_name: Lightning Talks"
+      session_name: "Lightning Talks"
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
@@ -301,7 +301,7 @@ gatherings:
     - local_time: "5:30 pm"
       session_name: "Evening Reception and Networking Event"
     - local_time: "9:00 am - 12:00 noon"
-      session_name: "Hands-On OpenShift UX Design Workshop-test"
+      session_name: "Hands-On OpenShift UX Design Workshop"
       speakers:
         - id: "redhat_uxd_research_team"
 - name: "San Diego 2019"
