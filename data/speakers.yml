@@ -1089,6 +1089,7 @@ speakers:
     company: "Red Hat"
     URL: "https://www.openshift.com"
     role: "Senior Manager, Software Engineering"
+    photo: "speakers/sherard_griffin.jpeg"
   - id: "marco_dangelo"
     name: "Marco D’Angelo"
     company: "Microsoft"
