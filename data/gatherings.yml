@@ -250,12 +250,20 @@ gatherings:
         - id: "sherard_griffin"
     - local_time: "10:20 am"
       session_name: "Delivering On-Demand Analytics Environments for Data Scientists at Discover"
+      speakers:
+        - id: "brandon_harris"
+        - id: "anirudh_pathe"  
     - local_time: "10:45 am"
       session_name: "Coffee Break"       
     - local_time: "11:10 am"
       session_name: "Deep Learning Workloads with NVIDIA GPUs on OpenShift"
+      speakers:
+        - id: "mehnaz_mahbub"
+        - id: "mayur_shetty"
     - local_time: "11:30 am"
       session_name: "ML/AI and Operators Case Study: Databricks, Azure and Kubernetes"
+      speakers:
+        - id: "azadeh_khojandi"
     - local_time: "12:10 pm" 
       session_name: "Panel: Building Kuberenetes Operators for AI & ML Workloads - moderator: Sherard Griffin"
     - local_time: "12:45 pm" 
