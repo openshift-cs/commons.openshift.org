@@ -302,6 +302,8 @@ gatherings:
       session_name: "Evening Reception and Networking Event"
     - local_time: "9:00 am - 12:00 noon"
       session_name: "Hands-On OpenShift UX Design Workshop - Space Limited"
+      speakers:
+        - id: "redhat_uxd_research_team"
 - name: "San Diego 2019"
   menu: "show"
   language: "English"
