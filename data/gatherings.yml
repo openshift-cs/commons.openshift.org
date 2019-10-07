@@ -265,7 +265,7 @@ gatherings:
       speakers:
         - id: "azadeh_khojandi"
     - local_time: "12:00 am" 
-      session_name: "Panel: Building Kuberenetes Operators for AI & ML Workloads - moderator: Sherard Griffin"
+      session_name: "Panel: Building Kubernetes Operators for AI & ML Workloads - moderator: Sherard Griffin"
     - local_time: "12:45 am" 
       session_name: "Lightning Talks"
     - local_time: "1:00 pm"
@@ -287,7 +287,7 @@ gatherings:
         - id: "sunny"
         - id: "tushar_katarki"
     - local_time: "3:55 pm"
-      session_name: "Panel: The Future and Ethics of AI - moderator Diane Mueller (Red Hat)"
+      session_name: "Panel: The Future and Ethics of AI - moderator Erin Boyd (Red Hat)"
       speakers: 
          - id: "daniel_jeffries"
          - id: "alex_housely"
