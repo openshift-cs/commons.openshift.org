@@ -1131,6 +1131,7 @@ speakers:
     company: "Discover Financial Services"
     URL: "https://discover.com/"
     role: "Senior Manager, Analytics"
+    photo: "speakers/anirudh_pathe.jpeg"
   - id: "brandon_harris"
     name: "Brandon Harris"
     company: "Discover Financial Services"
