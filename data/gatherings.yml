@@ -273,7 +273,7 @@ gatherings:
     - local_time: "2:00 pm"
       session_name: "OpenShift and Machine Learing at ExxonMobil"
       speakers:
-        -id: "cory_latschkowski"
+        - id: "cory_latschkowski"
     - local_time: "2:30 pm"
       session_name: "Big Fast SQL with Presto on OpenShift"
       speakers:
@@ -289,9 +289,9 @@ gatherings:
     - local_time: "3:55 pm"
       session_name: "Panel: The Future and Ethics of AI - moderator Diane Mueller (Red Hat)"
       speakers: 
-         -id: "daniel_jeffries"
-         -id: "alex_housely"
-         -id: "riek"
+         - id: "daniel_jeffries"
+         - id: "alex_housely"
+         - id: "riek"
     - local_time: "4:40 pm"
       session_name: "AMA Panel - Upstream Project Leads, Speakers and assorted Red Hat Data Scientists & Engineers"
     - local_time: "5:10 pm"
