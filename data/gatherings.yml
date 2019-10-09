@@ -194,7 +194,7 @@ gatherings:
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
-      session_name: "Panel: Industry panel with TBD"
+      session_name: "OKD Roadmap"
     - local_time: "4:00 pm"
       session_name: "AMA Panel - Upstream Project Leads, Speakers and assorted Red Hat Data Scientists & Engineers"
     - local_time: "4:30 pm"
@@ -202,7 +202,7 @@ gatherings:
       speakers:
         - id: "repo"
     - local_time: "4:45 pm"
-      session_name: "Evening Reception and Networking"
+      session_name: "Afternoon Reception and Networking"
 - name: "San Francisco 2019"
   menu: "show"
   language: "English"
