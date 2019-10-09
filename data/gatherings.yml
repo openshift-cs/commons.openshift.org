@@ -184,7 +184,9 @@ gatherings:
     - local_time: "11:20 am"
       session_name: "OpenShift Case Story"
     - local_time: "11:45 am"
-      session_name: "Future Finance Data Innovations with Open Banking and PSD2"
+      session_name: "Future Finance Data Innovations with Open Banking and PSD2 - OpenShift @ Asiakastieto"
+      speakers:
+        - id: "eero_arvonen"
     - local_time: "12:30 pm"
       session_name: "Lightning Talks"
     - local_time: "1:00 pm"
