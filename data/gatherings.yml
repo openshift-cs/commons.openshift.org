@@ -234,6 +234,9 @@ gatherings:
     - name: "Crunchy"
     - name: "StackRox"
     - name: "Diamanti"
+    - name: "Rafay"
+    - name: "PerceptiLabs"
+    - name: "CognitiveScale"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_sanfrancisco"
   schedule:
     - local_time: "8:00 am"
