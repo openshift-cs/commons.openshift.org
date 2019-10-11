@@ -1183,6 +1183,6 @@ speakers:
   - id: "navdeep_gill"
     name: "Navdeep Gill"
     company: "H2O.ai"
-    URL: "https://h20.ai"
+    URL: "https://www.h2o.ai/"
     role: "Senior Data Scientist"
     photo: "speakers/navdeep_gill.jpeg"      
