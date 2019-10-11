@@ -297,6 +297,7 @@ gatherings:
          - id: "daniel_jeffries"
          - id: "alex_housely"
          - id: "riek"
+         - id: "navdeep_gill"
     - local_time: "4:40 pm"
       session_name: "AMA Panel - Upstream Project Leads, Speakers and assorted Red Hat Data Scientists & Engineers"
     - local_time: "5:10 pm"
