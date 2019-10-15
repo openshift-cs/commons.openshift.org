@@ -237,6 +237,7 @@ gatherings:
     - name: "Rafay"
     - name: "PerceptiLabs"
     - name: "CognitiveScale"
+    - name: "Tigera"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_sanfrancisco"
   schedule:
     - local_time: "8:00 am"
