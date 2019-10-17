@@ -277,7 +277,7 @@ gatherings:
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
-      session_name: "OpenShift and Machine Learing at ExxonMobil"
+      session_name: "OpenShift and Machine Learning at ExxonMobil"
       speakers:
         - id: "cory_latschkowski"
     - local_time: "2:30 pm"
