@@ -272,6 +272,11 @@ gatherings:
         - id: "azadeh_khojandi"
     - local_time: "12:00 am" 
       session_name: "Panel: Building Kubernetes Operators for AI & ML Workloads - moderator: Sherard Griffin"
+      speakers:
+        - id: "azadeh_khojandi"
+        - id: "pramod_ramarao"
+        - id: "kamil_bajda" 
+        - id: "sunny"
     - local_time: "12:45 am" 
       session_name: "Lightning Talks"
     - local_time: "1:00 pm"
