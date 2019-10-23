@@ -147,7 +147,7 @@ gatherings:
     - local_time: "6:00 pm"
       session_name: "Evening Reception and Networking Event"
 - name: "London 2020"
-  menu: "hide"
+  menu: "show"
   language: "English"
   date: "2020-01-29"
   time: "9:00 am - 8:00 pm"
@@ -158,8 +158,8 @@ gatherings:
   venue_URL: "https://skillsmatter.com/event-space"
   venue_address: "10 South Pl, London EC2M 7EB, United Kingdom"
   calendar_event_URL:
-  registration_text: "Registration opens soon"
-  registration_URL: ""
+  registration_text: "Register now"
+  registration_URL: "https://events.redhat.com/profile/form/index.cfm?PKformID=0x108073abcd"
   lead_text: >-
     The OpenShift Commons Gathering will be held in London, UK, and features guest speakers from local customers and users.
   info_text: >-
