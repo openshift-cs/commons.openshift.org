@@ -183,6 +183,8 @@ gatherings:
       session_name: "Coffee Break"
     - local_time: "11:20 am"
       session_name: "OpenShift Hive at Worldpay"
+      speakers:
+        - id: "bernd_malmqvist"
     - local_time: "11:45 am"
       session_name: "Future Finance Data Innovations with Open Banking and PSD2 - OpenShift @ Asiakastieto"
       speakers:
