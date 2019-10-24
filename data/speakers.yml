@@ -1192,7 +1192,7 @@ speakers:
     URL: "https://www.nvidia.com/"
     role: "Senior Product Manager"   
     photo: "speakers/pramod_ramarao .jpg"  
-- id: "bernd_malmqvist"
+  - id: "bernd_malmqvist"
     name: "Bernd Malmqvist"
     company: "Worldpay"
     URL: "https://www.worldpay.com"
