@@ -280,6 +280,7 @@ gatherings:
         - id: "kamil_bajda" 
         - id: "sunny"
         - id: "ryan_dawson"
+        - id: "gopal_krishnan"
     - local_time: "12:45 am" 
       session_name: "Lightning Talks"
     - local_time: "1:00 pm"
