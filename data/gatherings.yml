@@ -279,6 +279,7 @@ gatherings:
         - id: "pramod_ramarao"
         - id: "kamil_bajda" 
         - id: "sunny"
+        - id: "ryan_dawson"
     - local_time: "12:45 am" 
       session_name: "Lightning Talks"
     - local_time: "1:00 pm"
