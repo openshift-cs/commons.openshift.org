@@ -380,8 +380,15 @@ gatherings:
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
       session_name: "State of the Operators: Framework, SDKs, and beyond"
+      speakers:
+        - id: "rob_szumski"
     - local_time: "2:30 pm"
       session_name: "Operators in Action Panel - Builders, Users and Maintainers"
+      speakers:
+        - id: "michael_ferranti"
+        - id: "evan_pease"
+        - id: "simon_croome"
+        - id: "peter_hack"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
