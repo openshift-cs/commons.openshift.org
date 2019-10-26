@@ -366,6 +366,10 @@ gatherings:
       session_name: "Customer Keynote: TBD"
     - local_time: "10:00 am"
       session_name: "OpenShift 4 Release and Road Map Update"
+      speakers:
+        - id: "clayton_coleman"
+        - id: "mike_barrett"
+        - id: "derek_carr"
     - local_time: "10:50 am"
       session_name: "Coffee Break"
     - local_time: "11:20 am"
@@ -392,7 +396,9 @@ gatherings:
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
-      session_name: "State of the Serverless"
+      session_name: "State of the Serverless and beyond"
+      speakers:
+        - id: "markito"
     - local_time: "3:50 pm"
       session_name: "OpenShift @ Broadcom"
       speakers:
