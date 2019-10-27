@@ -407,7 +407,9 @@ gatherings:
     - local_time: "3:50 pm"
       session_name: "OpenShift @ Omnitracs Case Study"
     - local_time: "4:15 pm"
-      session_name: "and Yet Another OpenShift Case Study"  
+      session_name: "How to Deliver OpenShift-As-A-Service (just like Red Hat)"  
+      speakers:
+      - id: "jeremy_eder"
     - local_time: "4:35 pm"
       session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers, Project Leads & Product Managers"
     - local_time: "5:00 pm"
