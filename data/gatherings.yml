@@ -374,8 +374,13 @@ gatherings:
       session_name: "Coffee Break"
     - local_time: "11:20 am"
       session_name: "OpenShift @ ING Case Study"
+      speakers:
+        - id: "thijs_ebbers"
     - local_time: "11:40 am"
-      session_name: "OpenShift @ Omnitracs Case Study"
+      session_name: "OpenShift @ Broadcom"
+      speakers:
+        - id: "jose_chavez"
+        - id: "ganesh_janakiraman"
     - local_time: "12:00 am"
       session_name: "OpenShift @ Weather.com Case Study"
     - local_time: "12:30 pm"
@@ -400,10 +405,7 @@ gatherings:
       speakers:
         - id: "markito"
     - local_time: "3:50 pm"
-      session_name: "OpenShift @ Broadcom"
-      speakers:
-        - id: "jose_chavez"
-        - id: "ganesh_janakiraman"
+      session_name: "OpenShift @ Omnitracs Case Study"
     - local_time: "4:15 pm"
       session_name: "and Yet Another OpenShift Case Study"  
     - local_time: "4:35 pm"
