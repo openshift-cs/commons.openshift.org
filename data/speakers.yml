@@ -1236,3 +1236,8 @@ speakers:
     URL: "https://www.dynatrace.com/"
     role: "Sr. Technical Partner Manager"   
     photo: "speakers/peter_hack.jpeg"
+  - id: "thijs_ebbers"
+    name: "M.F. Thijs Ebbers"
+    company: "ING"
+    URL: "https://www.ing.com/"
+    role: "Cloud Native Architect"  
