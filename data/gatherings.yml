@@ -309,11 +309,11 @@ gatherings:
          - id: "riek"
          - id: "navdeep_gill"
     - local_time: "4:40 pm"
-      session_name: "AMA Panel - Upstream Project Leads, Speakers and assorted Red Hat Data Scientists & Engineers"
+      session_name: "AMA Panel - Red Hat Project Leads, PMs, Data Scientists & Engineers - moderated by Julio Tapia (Red Hat)"
     - local_time: "5:10 pm"
       session_name: "Road Ahead for AI/ML on OpenShift Wrap-Up"
       speakers:
-        - id: "julio_tapia"
+        - id: "diane"
     - local_time: "5:30 pm"
       session_name: "Evening Reception and Networking Event"
     - local_time: "9:00 am - 12:00 noon"
