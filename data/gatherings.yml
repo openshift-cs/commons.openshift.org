@@ -350,6 +350,7 @@ gatherings:
     - name: "Snyk"
     - name: "Instana"
     - name: "Coda Global"
+    - name: "Trilio"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_sandiego"
   schedule:
     - local_time: "8:00 am"
