@@ -364,7 +364,12 @@ gatherings:
       speakers:
         - id: "julio_tapia"
     - local_time: "9:30 am"
-      session_name: "Customer Keynote: TBD"
+      session_name: "Panel: Navigating Devops Transformation in the Enterprise - moderated by Joe Fernandes (Red Hat)"
+      speakers:
+        - id: "kevin_behr"
+        - id: "john_willis"
+        - id: "jabe_bloom"
+        - id: "littleidea"
     - local_time: "10:00 am"
       session_name: "OpenShift 4 Release and Road Map Update"
       speakers:
