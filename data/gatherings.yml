@@ -370,7 +370,7 @@ gatherings:
         - id: "john_willis"
         - id: "jabe_bloom"
         - id: "littleidea"
-    - local_time: "10:00 am"
+    - local_time: "10:10 am"
       session_name: "OpenShift 4 Release and Road Map Update"
       speakers:
         - id: "clayton_coleman"
