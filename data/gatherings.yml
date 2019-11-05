@@ -423,7 +423,7 @@ gatherings:
     - local_time: "4:35 pm"
       session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers, Project Leads & Product Managers"
       speakers:
-         - id: "joe_f"
+        - id: "joe_f"
     - local_time: "5:00 pm"
       session_name: "Road Ahead at OpenShift Wrap-Up"
       speakers:
