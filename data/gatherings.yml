@@ -387,7 +387,7 @@ gatherings:
       speakers:
         - id: "jose_chavez"
         - id: "ganesh_janakiraman"
-    - local_time: "12:00 am"
+    - local_time: "12:00 pm"
       session_name: "OpenShift @ Weather.com Case Study"
       speakers:
         - id: "claude_ballew"
