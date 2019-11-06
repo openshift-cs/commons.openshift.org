@@ -365,8 +365,9 @@ gatherings:
       speakers:
         - id: "julio_tapia"
     - local_time: "9:30 am"
-      session_name: "Panel: Navigating Devops Transformation in the Enterprise - moderated by Joe Fernandes (Red Hat)"
+      session_name: "Panel: Navigating Devops Transformation in the Enterprise - moderated by Diane Mueller (Red Hat)"
       speakers:
+        - id: "kris_pennella"
         - id: "kevin_behr"
         - id: "john_willis"
         - id: "jabe_bloom"
@@ -393,7 +394,11 @@ gatherings:
       speakers:
         - id: "claude_ballew"
     - local_time: "12:30 pm"
-      session_name: "Lightning Talks"
+      session_name: "Lightning Talks: ML Workloads with GPUs on OpenShift, OKD4, & ProjectQuay.io"
+      speakers:
+        - id: "diane_feddema"
+        - id: "christian_glombek"
+        - id: "joseph_schorr"
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
