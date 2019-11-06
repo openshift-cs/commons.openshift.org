@@ -417,6 +417,9 @@ gatherings:
         - id: "steve_dake"
     - local_time: "3:50 pm"
       session_name: "OpenShift @ Omnitracs Case Study"
+      speakers:
+        - id: "andrew_harrison"
+        - id: "brian_tomlinson"
     - local_time: "4:15 pm"
       session_name: "OpenShift and Machine Learning at ExxonMobil"
       speakers:
