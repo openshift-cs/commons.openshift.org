@@ -186,7 +186,7 @@ gatherings:
       speakers:
         - id: "bernd_malmqvist"
         - id: "matt_simons"
-    - local_time: "11:45 am"
+    - local_time: "11:50 am"
       session_name: "Future Finance Data Innovations with Open Banking and PSD2 - OpenShift Case Study @ Asiakastieto"
       speakers:
         - id: "eero_arvonen"
