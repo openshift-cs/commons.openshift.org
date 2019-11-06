@@ -417,18 +417,23 @@ gatherings:
     - local_time: "3:50 pm"
       session_name: "OpenShift @ Omnitracs Case Study"
     - local_time: "4:15 pm"
+      session_name: "OpenShift and Machine Learning at ExxonMobil"
+      speakers:
+        - id: "cory_latschkowski"
+        - id: "audrey_reznik"
+    - local_time: "4:40 pm"
       session_name: "How to Deliver OpenShift-As-A-Service (just like Red Hat)"  
       speakers:
         - id: "jeremy_eder"
-    - local_time: "4:35 pm"
+    - local_time: "5:05 pm"
       session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers, Project Leads & Product Managers"
       speakers:
         - id: "joe_f"
-    - local_time: "5:00 pm"
+    - local_time: "5:35 pm"
       session_name: "Road Ahead at OpenShift Wrap-Up"
       speakers:
         - id: "brian_gracely"
-    - local_time: "5:00 pm"
+    - local_time: "6:00 pm"
       session_name: "Evening Reception and Networking Event"
 - name: "Milan Italy 2019"
   menu: "show"
