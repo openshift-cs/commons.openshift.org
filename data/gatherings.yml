@@ -412,6 +412,7 @@ gatherings:
         - id: "evan_pease"
         - id: "simon_croome"
         - id: "peter_hack"
+        - id: "jason_mimick"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
