@@ -1321,7 +1321,7 @@ speakers:
     name: "Christian Glombek"
     company: "Red Hat"
     URL: "https://www.redhat.com/en"
-    role: "OKD Working Group, Co-Chair"   
+    role: "OKD Working Group,Co-Chair"   
     photo: "speakers/christian_glombek.jpeg"
   - id: "joseph_schorr"
     name: "Joseph Schorr"
