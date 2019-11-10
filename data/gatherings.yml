@@ -421,20 +421,20 @@ gatherings:
         - id: "markito"
         - id: "redbeard"
         - id: "steve_dake"
-    - local_time: "3:50 pm"
+    - local_time: "4:00 pm"
+      session_name: "How to Deliver OpenShift-As-A-Service (just like Red Hat)"  
+      speakers:
+        - id: "jeremy_eder"
+    - local_time: "4:25 pm"
       session_name: "OpenShift @ Omnitracs Case Study"
       speakers:
         - id: "andrew_harrison"
         - id: "brian_tomlinson"
-    - local_time: "4:15 pm"
+    - local_time: "4:50 pm"
       session_name: "OpenShift and Machine Learning at ExxonMobil"
       speakers:
         - id: "cory_latschkowski"
         - id: "audrey_reznik"
-    - local_time: "4:40 pm"
-      session_name: "How to Deliver OpenShift-As-A-Service (just like Red Hat)"  
-      speakers:
-        - id: "jeremy_eder"
     - local_time: "5:05 pm"
       session_name: "What's Next AMA Panel with Red Hat OpenShift Engineers, Project Leads & Product Managers"
       speakers:
