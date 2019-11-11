@@ -408,7 +408,7 @@ gatherings:
     - local_time: "2:30 pm"
       session_name: "Operators in Action Panel - Builders, Users and Maintainers"
       speakers:
-        - id: "michael_ferranti"
+        - id: "piyush_nimbalkar"
         - id: "evan_pease"
         - id: "simon_croome"
         - id: "peter_hack"
