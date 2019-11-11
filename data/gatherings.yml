@@ -196,6 +196,7 @@ gatherings:
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
       session_name: "State of Operators"
+      speakers:
         - id: "guil_barros"
     - local_time: "2:30 pm"
       session_name: "OpenShift Case Study"
