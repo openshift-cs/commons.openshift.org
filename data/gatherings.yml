@@ -153,10 +153,10 @@ gatherings:
   time: "9:00 am - 8:00 pm"
   location: "London, UK"
   google_maps_URL: >-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.70421142994!2d-0.08820038422961306!3d51.51864237963696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cac6aabb2fb%3A0x91b283e2f67d1dbb!2sCodeNode!5e0!3m2!1sen!2sfi!4v1571654382533!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-  venue: "CodeNode London"
-  venue_URL: "https://skillsmatter.com/event-space"
-  venue_address: "10 South Pl, London EC2M 7EB, United Kingdom"
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.2037111085306!2d-0.12256608422994895!3d51.509478579635406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ca27203d8b%3A0xe19dbe082ea09376!2sIET%20London%3A%20Savoy%20Place!5e0!3m2!1sen!2ses!4v1573470651006!5m2!1sen!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  venue: "Savoy Place London"
+  venue_URL: "https://savoyplace.theiet.org/"
+  venue_address: "2 Savoy Pl, London WC2R 0BL, United Kingdom"
   calendar_event_URL:
   registration_text: "Register now"
   registration_URL: "https://events.redhat.com/profile/form/index.cfm?PKformID=0x108073abcd"
