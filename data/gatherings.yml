@@ -398,8 +398,9 @@ gatherings:
       speakers:
         - id: "claude_ballew"
     - local_time: "12:30 pm"
-      session_name: "Lightning Talks: ML Workloads with GPUs on OpenShift, OKD4, & ProjectQuay.io"
+      session_name: "Lightning Talks: Hyperconverged Infrastructure, (HCI), ML Workloads with GPUs on OpenShift, OKD4, & ProjectQuay.io"
       speakers:
+        - id: "hiral_patel"
         - id: "diane_feddema"
         - id: "christian_glombek"
         - id: "joseph_schorr"
