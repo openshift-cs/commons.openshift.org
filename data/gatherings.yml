@@ -364,11 +364,8 @@ gatherings:
       session_name: "Welcome to the Commons: Collaboration in Action"
       speakers:
         - id: "diane"
-    - local_time: "9:15 am"
-      session_name: "Keynote: On the Road to Unified Hybrid Cloud"
-      speakers:
         - id: "julio_tapia"
-    - local_time: "9:30 am"
+    - local_time: "9:20 am"
       session_name: "Panel: Navigating Devops Transformation in the Enterprise - moderated by Diane Mueller (Red Hat)"
       speakers:
         - id: "kris_pennella"
@@ -376,7 +373,7 @@ gatherings:
         - id: "john_willis"
         - id: "jabe_bloom"
         - id: "littleidea"
-    - local_time: "10:10 am"
+    - local_time: "10:00 am"
       session_name: "OpenShift 4 Release and Road Map Update"
       speakers:
         - id: "clayton_coleman"
@@ -536,11 +533,17 @@ gatherings:
         - id: "christopher_blum"
     - local_time: "5:10 pm"
       session_name: "AMA Panel - Red Hat Project Leads, Product Managers and Engineers"
-    - local_time: "5:30 pm"
+    - local_time: "5:40 pm"
       session_name: "Closing: Road Ahead at OpenShift"
       speakers:
         - id: "diane"
         - id: "repo"
+    - local_time: "5:55 pm"
+      session_name: "Reception Sponsor Lightning Talk: Deploying OpenShift on Hyperconverged Infrastructure(HCI)"
+      speakers:
+        - id: "hiral_patel"
+    - local_time: "6:00 pm"
+      session_name: "Reception on Upper Decks until 8:00 pm"    
 - name: "BuenosAires 2019"
   menu: "show"
   language: "Spanish"
