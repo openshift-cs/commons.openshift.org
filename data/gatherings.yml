@@ -395,9 +395,8 @@ gatherings:
       speakers:
         - id: "claude_ballew"
     - local_time: "12:30 pm"
-      session_name: "Lightning Talks: Hyperconverged Infrastructure, (HCI), ML Workloads with GPUs on OpenShift, OKD4, & ProjectQuay.io"
+      session_name: "Lightning Talks: ML Workloads with GPUs on OpenShift, OKD4, & ProjectQuay.io"
       speakers:
-        - id: "hiral_patel"
         - id: "diane_feddema"
         - id: "christian_glombek"
         - id: "joseph_schorr"
@@ -445,8 +444,12 @@ gatherings:
       session_name: "Road Ahead at OpenShift Wrap-Up"
       speakers:
         - id: "brian_gracely"
+    - local_time: "5:50 pm"
+      session_name: "Reception Sponsor Lightning Talk: Deploying OpenShift on Hyperconverged Infrastructure (Diamanti)"
+      speakers:
+        - id: "hiral_patel"
     - local_time: "6:00 pm"
-      session_name: "Evening Reception and Networking Event"
+      session_name: "Evening Reception and Networking Event until 8:00 pm on Upper Decks"
 - name: "Milan Italy 2019"
   menu: "show"
   language: "English"
@@ -538,12 +541,6 @@ gatherings:
       speakers:
         - id: "diane"
         - id: "repo"
-    - local_time: "5:55 pm"
-      session_name: "Reception Sponsor Lightning Talk: Deploying OpenShift on Hyperconverged Infrastructure(HCI)"
-      speakers:
-        - id: "hiral_patel"
-    - local_time: "6:00 pm"
-      session_name: "Reception on Upper Decks until 8:00 pm"    
 - name: "BuenosAires 2019"
   menu: "show"
   language: "Spanish"
