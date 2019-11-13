@@ -15,7 +15,7 @@ gatherings:
   registration_URL: ""
   pricing:
     - label: "Early Bird"
-      price: "$49 USD"
+      price: "49€"
   lead_text: >-
     The OpenShift Commons Gathering will be held in Amsterdam, The Netherlands, co-located with CNCF's Kubecon/Europe.
   info_text: >-
