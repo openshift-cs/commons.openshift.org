@@ -419,7 +419,7 @@ gatherings:
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
-      session_name: "State of the Platform Services: Serverless and beyond"
+      session_name: "State of the Platform Services: Service Mesh and Beyond"
       speakers:
         - id: "redbeard"
         - id: "steve_dake"
