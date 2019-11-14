@@ -446,7 +446,7 @@ gatherings:
       speakers:
         - id: "brian_gracely"
     - local_time: "5:50 pm"
-      session_name: "Reception Sponsor Lightning Talk: Deploying OpenShift on Hyperconverged Infrastructure (Diamanti)"
+      session_name: "Reception Sponsor Lightning Talk: Bare Metal HCI for Red Hat OpenShift "
       speakers:
         - id: "hiral_patel"
     - local_time: "6:00 pm"
