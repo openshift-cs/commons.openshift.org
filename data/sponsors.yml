@@ -1,4 +1,7 @@
 sponsors:
+  - name: "IBM-Cloud"
+    link: "https://www.ibm.com/cloud"
+    logo: ""commons-logos/IBM_Cloud.png" 
   - name: "microsoft-helsinki"
     link: "https://www.microsoft.com"
     logo: "commons-logos/microsoft-helsinki.png"
