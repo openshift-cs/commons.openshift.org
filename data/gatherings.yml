@@ -450,7 +450,7 @@ gatherings:
         - id: "hiral_patel"
     - local_time: "6:00 pm"
       session_name: "Evening Reception and Networking Event until 8:00 pm on Upper Decks"
-- name: "Milan Italy 2019"
+- name: "Milan 2019"
   menu: "show"
   language: "English"
   date: "2019-09-18"
