@@ -455,6 +455,7 @@ gatherings:
   language: "English"
   date: "2019-09-18"
   time: "9:00 am - 8:00 pm"
+  youtube_playlist_id: "PLaR6Rq6Z4Iqd1zqmQNUcGjc8wN8ofAVag"
   location: "Milan, Italy"
   google_maps_URL: >-
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5594.567747767709!2d9.206135!3d45.484228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeae2b70a466c21d1!2sHotel+Michelangelo+Milan!5e0!3m2!1sen!2sit!4v1560821354259!5m2!1sen!2sit" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
