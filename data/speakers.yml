@@ -1338,7 +1338,7 @@ speakers:
   - id: "piyush_nimbalkar"
     name: "Piyush Nimbalkar"
     company: "Portworx"
-    URL: "https://www.mongodb.com/"
+    URL: "https://www.portworx.com/"
     role: "Developer"   
     photo: "speakers/piyush_nimbalkar.jpeg"  
   - id: "hiral_patel"
