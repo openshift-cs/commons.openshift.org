@@ -371,7 +371,6 @@ gatherings:
       session_name: "Panel: Navigating Devops Transformation in the Enterprise - moderated by Diane Mueller (Red Hat)"
       speakers:
         - id: "kris_pennella"
-        - id: "kevin_behr"
         - id: "john_willis"
         - id: "jabe_bloom"
         - id: "littleidea"
