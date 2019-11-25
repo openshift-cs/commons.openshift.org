@@ -179,6 +179,8 @@ gatherings:
         - id: "julio_tapia"
     - local_time: "10:00 am"
       session_name: "OpenShift 4 Release Update and Road Map"
+      speakers:
+        - id: "duncan_hardie"
     - local_time: "11:00 am"
       session_name: "Coffee Break"
     - local_time: "11:20 am"
