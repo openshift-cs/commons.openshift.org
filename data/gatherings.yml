@@ -1,6 +1,6 @@
 gatherings:
 - name: "Amsterdam 2020"
-  menu: "hide"
+  menu: "show"
   language: "English"
   date: "2020-03-30"
   time: "9:00 am - 7:00 pm"
