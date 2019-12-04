@@ -165,6 +165,8 @@ gatherings:
   info_text: >-
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift/Kubernetes ecosystem.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+    - name: "Crunchy"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_london"
   schedule:
     - local_time: "8:00 am"
