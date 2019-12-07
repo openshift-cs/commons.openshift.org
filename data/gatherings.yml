@@ -170,6 +170,7 @@ gatherings:
   sponsors:
     - name: "Aqua Security"
     - name: "Crunchy"
+    - name: "Portworx"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_london"
   schedule:
     - local_time: "8:00 am"
