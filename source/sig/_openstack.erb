@@ -1,8 +1,8 @@
-<% content_for:% javascript>
-$ (document) .ready (function () {
-  displayBlogPosts ("https://blog.openshift.com/tag/openstack/feed/", 10, $ ("# blog-feed-sig"));
+<% content_for :javascript do %>
+$(document).ready(function () {
+  displayBlogPosts("https://blog.openshift.com/tag/openstack/feed/", 10, $("#blog-feed-sig"));
 });
-<% end%>
+<% end %>
 
 <div id = "blog-feed-sig">
   <div class = "row">
