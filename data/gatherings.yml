@@ -202,7 +202,7 @@ gatherings:
       speakers:
         - id: "eero_arvonen"
     - local_time: "12:30 pm"
-      session_name: "Lightning Talks: Co-host Sponsor Lightning Talk: Aqua Security; Reception Sponsor Lighning Talk: Sysdig"
+      session_name: "Lightning Talks: Aqua Security (Co-host Sponsor), Sysdig (Reception Sponsor)"
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
