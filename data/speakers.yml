@@ -1359,4 +1359,9 @@ speakers:
     URL: "https://www.gov.uk/government/organisations/public-health-england"
     role: "HPC and Cloud Solution Architect"   
     photo: "speakers/francesco_giannoccaro.jpeg"
-
+  - id: "karena_angell"
+    name: "Karena Angell"
+    company: "Red Hat"
+    URL: "https://www.redhat.com/en"
+    role: "Principal Product Marketing Manager, OpenShift Container Storag"   
+    photo: "speakers/karena_angell.jpeg"
