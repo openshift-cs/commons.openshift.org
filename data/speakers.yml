@@ -1353,3 +1353,10 @@ speakers:
     URL: "https://www.redhat.com/en"
     role: "OpenShift Developer Advocates Manager"   
     photo: "speakers/jan_kleinert.jpg"
+  - id: "francesco_giannoccaro"
+    name: "Francesco Giannoccaro"
+    company: "Public Health England"
+    URL: "https://www.gov.uk/government/organisations/public-health-england"
+    role: "HPC and Cloud Solution Architect"   
+    photo: "speakers/francesco_giannoccaro.jpeg"
+
