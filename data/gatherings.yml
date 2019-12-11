@@ -173,6 +173,7 @@ gatherings:
     - name: "Portworx"
     - name: "Sysdig"
     - name: "StorageOS"
+    - name: "Snyk"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_london"
   schedule:
     - local_time: "8:00 am"
