@@ -1595,3 +1595,6 @@ participants:
 - name: "Authenteq"
   link: "https://www.authenteq.com/"
   logo: "commons-logos/Authenteq.png"
+- name: "Trilio"
+  link: "https://www.trilio.io/"
+  logo: "commons-logos/Trilio.png"
