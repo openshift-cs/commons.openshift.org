@@ -1592,3 +1592,6 @@ participants:
 - name: "APIMatic "
   link: "https://www.apimatic.io/"
   logo: "commons-logos/apimatic.png"
+- name: "Authenteq"
+  link: "https://www.authenteq.com/"
+  logo: "commons-logos/authenteq.png"
