@@ -212,7 +212,7 @@ gatherings:
       speakers:
         - id: "guil_barros"
     - local_time: "2:30 pm"
-      session_name: "OpenShift Case Study"
+      session_name: "OpenShift at Deutsche Bank"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
