@@ -1598,3 +1598,6 @@ participants:
 - name: "Trilio"
   link: "https://www.trilio.io/"
   logo: "commons-logos/Trilio.png"
+- name: "Unicorn"
+  link: "https://unicorn.com/cs/"
+  logo: "commons-logos/unicorn.png"
