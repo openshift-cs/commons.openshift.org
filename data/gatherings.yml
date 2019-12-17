@@ -213,6 +213,8 @@ gatherings:
         - id: "guil_barros"
     - local_time: "2:30 pm"
       session_name: "Deutsche Bank advances to hybrid Cloud with OpenShift"
+      speakers:
+        - id: "jeremy_crawford"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
