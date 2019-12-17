@@ -219,7 +219,7 @@ gatherings:
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
-      session_name: "OpenShift Case Study"
+      session_name: "OpenShift in Public Health England"
     - local_time: "4:00 pm"
       session_name: "AMA Panel - Upstream Project Leads, Speakers and assorted Red Hat Data Scientists & Engineers"
     - local_time: "4:30 pm"
