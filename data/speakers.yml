@@ -1371,3 +1371,9 @@ speakers:
     URL: "https://www.db.com/"
     role: "Platform as a Service (PaaS) Engineering Lead"   
     photo: "speakers/jeremy_crawford.jpeg"
+  - id: "dipesh_patel"
+    name: "Dipesh Patel"
+    company: "Deutsche Bank"
+    URL: "https://www.db.com/"
+    role: "Finance Director, Global Credit Trading"   
+    
