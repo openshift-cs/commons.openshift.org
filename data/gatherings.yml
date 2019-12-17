@@ -182,19 +182,27 @@ gatherings:
     - local_time: "9:00 am"
       session_name: "Welcome to the Commons: Community in Action"
       speakers:
-        - id: "repo"
-    - local_time: "9:20 am"
+        - id: "diane"
+    - local_time: "9:15 am"
       session_name: "State of the Union: Unified Hybrid Cloud Vision"
       speakers:
         - id: "julio_tapia"
-    - local_time: "10:00 am"
+    - local_time: "9:40 am"
       session_name: "OpenShift 4 Release Update and Road Map"
       speakers:
         - id: "duncan_hardie"
         - id: "jan_kleinert"
+    - local_time: "10:20 am"
+      session_name: "OKD4 Release Update & Road Map"
+      speakers:
+        - id: "christian_glombek"    
+    - local_time: "10:20 am"
+      session_name: "State of DevSecOps"
+      speakers:
+        - id: "john_willis"      
     - local_time: "11:00 am"
       session_name: "Coffee Break"
-    - local_time: "11:20 am"
+    - local_time: "11:30 am"
       session_name: "Case Study: OpenShift Hive at Worldpay"
       speakers:
         - id: "bernd_malmqvist"
@@ -212,16 +220,18 @@ gatherings:
       speakers:
         - id: "guil_barros"
     - local_time: "2:30 pm"
-      session_name: "Deutsche Bank advances to hybrid Cloud with OpenShift"
+      session_name: "Hybrid Cloud Case Study: OpenShift at Deutsche Bank"
       speakers:
         - id: "jeremy_crawford"
         - id: "dipesh_patel"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
-      session_name: "OpenShift in Public Health England"
+      session_name: "Case Study: OpenShift at Public Health England"
+      speakers:
+        - id: "francesco_giannoccaro"
     - local_time: "4:00 pm"
-      session_name: "AMA Panel - Upstream Project Leads, Speakers and assorted Red Hat Data Scientists & Engineers"
+      session_name: "AMA Panel - Red Hat Upstream Project Leads, Engineers and Product Managers"
     - local_time: "4:30 pm"
       session_name: "Closing: Road Ahead & Wrap-Up"
       speakers:
