@@ -215,6 +215,7 @@ gatherings:
       session_name: "Deutsche Bank advances to hybrid Cloud with OpenShift"
       speakers:
         - id: "jeremy_crawford"
+        - id: "dipesh_patel"
     - local_time: "3:00 pm"
       session_name: "Coffee break"
     - local_time: "3:30 pm"
