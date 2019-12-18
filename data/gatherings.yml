@@ -196,7 +196,7 @@ gatherings:
       session_name: "OKD4 Release Update & Road Map"
       speakers:
         - id: "christian_glombek"    
-    - local_time: "10:20 am"
+    - local_time: "10:40 am"
       session_name: "State of DevSecOps"
       speakers:
         - id: "john_willis"      
