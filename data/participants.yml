@@ -1610,3 +1610,6 @@ participants:
 - name: "OnGres"
   link: "https://ongres.com/"
   logo: "commons-logos/ongres.svg"
+- name: "Anthem"
+  link: "https://www.anthem.com"
+  logo: "commons-logos/anthem.svg"
