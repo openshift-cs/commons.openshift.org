@@ -1322,7 +1322,7 @@ speakers:
     company: "Red Hat"
     URL: "https://www.redhat.com/en"
     role: "OKD Working Group,Co-Chair"   
-    photo: "speakers/christian_glombek.jpeg"
+    photo: "speakers/christian_glombek.png"
   - id: "joseph_schorr"
     name: "Joseph Schorr"
     company: "Red Hat"
