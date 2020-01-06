@@ -219,6 +219,7 @@ gatherings:
       session_name: "State of Operators"
       speakers:
         - id: "guil_barros"
+        - id: "jason_dobies"
     - local_time: "2:30 pm"
       session_name: "Hybrid Cloud Case Study: OpenShift at Deutsche Bank"
       speakers:
