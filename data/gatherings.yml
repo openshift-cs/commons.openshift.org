@@ -239,7 +239,7 @@ gatherings:
     - local_time: "4:30 pm"
       session_name: "Closing: Road Ahead & Wrap-Up"
       speakers:
-        - id: "repo"
+        - id: "diane"
     - local_time: "4:45 pm"
       session_name: "Afternoon Reception and Networking"
 - name: "San Francisco 2019"
