@@ -1358,7 +1358,7 @@ speakers:
     company: "Public Health England"
     URL: "https://www.gov.uk/government/organisations/public-health-england"
     role: "HPC and Cloud Solution Architect"   
-    photo: "speakers/francesco_giannoccaro.jpeg"
+    photo: "speakers/%20francesco_giannoccaro.jpeg"
   - id: "karena_angell"
     name: "Karena Angell"
     company: "Red Hat"
