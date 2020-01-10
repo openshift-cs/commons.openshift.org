@@ -210,27 +210,53 @@ description:  The OpenShift Commons community gets together and share experience
 <% if gathering.sponsors.presence %>
 <div id="gathering-sponsor"></div>
 <section class="section-gathering">
-    <div class="container text-center">
-        <div class="row container text-center">
-            <h3><%= gathering.headers.presence && gathering.headers.sponsors.presence ? gathering.headers.sponsors : 'Sponsors' %></h3>
-            <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
-            <p class="text-center sponsoring-invite obsoletes">Interested in sponsoring OpenShift Commons Gathering?
-              <a href="<%= gathering.sponsoring_URL %>" target="_blank">Apply here.</a>
-            </p>
+    <div class="container">
+        <div class="row text-center sponsor-heading">
+          <h3><%= gathering.headers.presence && gathering.headers.sponsors.presence ? gathering.headers.sponsors : 'Sponsors' %></h3>
+          <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
+          <p class="text-center sponsoring-invite obsoletes">Interested in sponsoring OpenShift Commons Gathering?
+            <a href="<%= gathering.sponsoring_URL %>" target="_blank">Apply here.</a>
+          </p>
+          <% end %>
+        </div>
+          <% if gathering.sponsors[1].label.presence && gathering.sponsors[1].level.presence %>
+            <%# sponsors with variable levels %>
+            <% gathering.sponsors.map { |sponsor| sponsor.level }.uniq.sort.each do |sponsor_level| %>
+            <%# iterate through numerical sponsor levels, rendering the lowest number as the first group %>
+              <% sample_sponsor = gathering.sponsors.find { |sponsor| sponsor.level == sponsor_level } %>
+                <div class="row sponsor-level-label">
+                  <div class="col-12 text-center">
+                    <h4><%= sample_sponsor.label %></h4>
+                  </div>
+                </div>  
+                <%# iterate through group level memebers %>
+                  <div class="sponsor-group">
+                  <% gathering.sponsors.find_all { |sponsor| sponsor.level == sponsor_level }.each do |s| %>
+                    <!-- Sponsor -->
+                    <div class="sponsor">
+                      <% sponsor = data.participants.participants.find{ |participants| s.name == participants.name } || data.sponsors.sponsors.find{ |sponsors| s.name == sponsors.name } %>
+                      <a href = "<%= sponsor.link %>" target = "_blank">
+                        <%= image_tag sponsor.logo, :alt => sponsor.name %>
+                      </a>
+                    </div>
+                  <% end %>
+                  </div>
             <% end %>
+            <%# The "Your logo here?" is not rendered as it's unclear which level(s) this should be advertised in. %>
+          <% else %>
+            <%# uniform level sponsors %>
+            <div class="sponsor-group">
             <% gathering.sponsors.each do |sponsor| %>
-              <!--Sponsor -->
-              <div class="sponsor sponsor-height col-xs-6 col-md-3">
-                <div class="panel-body">
-                  <% sponsor = data.participants.participants.find{ |participants| sponsor.name == participants.name } || data.sponsors.sponsors.find{ |sponsors| sponsor.name == sponsors.name } %>
-                  <a href = "<%= sponsor.link %>" target = "_blank">
-                    <%= image_tag sponsor.logo, :alt => sponsor.name %>
-                  </a>
-                </div>
+              <!-- Sponsor -->
+              <div class="sponsor">
+                <% sponsor = data.participants.participants.find{ |participants| sponsor.name == participants.name } || data.sponsors.sponsors.find{ |sponsors| sponsor.name == sponsors.name } %>
+                <a href = "<%= sponsor.link %>" target = "_blank">
+                  <%= image_tag sponsor.logo, :alt => sponsor.name %>
+                </a>
               </div>
             <% end %>
             <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
-            <div class="sponsor sponsor-height col-xs-6 col-md-3 sponsoring-invite obsoletes">
+            <div class="sponsor sponsoring-invite obsoletes">
               <div class="panel-body">
                 <a href = "<%= gathering.sponsoring_URL %>" target = "_blank" class="obsoletes">
                   <strong>Your logo here?</strong>
@@ -238,7 +264,8 @@ description:  The OpenShift Commons community gets together and share experience
               </div>
             </div>
             <% end %>
-        </div><!-- /.row -->
+            </div>
+          <% end %>
     </div><!-- /.container -->
 </section>
 <% end %>

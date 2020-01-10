@@ -94,6 +94,8 @@ gatherings:
     invite_link: "" (optional; a link to invite a friend)
     sponsors: (optional; sponsors are searched by name in participants.yml and in the sponsor list below)
       - name: "sponsor"
+        level: 1 (optional; this can be omitted if all sponsors are to be rendered in the same group, defines group display order)
+        label: "Main Sponsor" (optional; sponsor group label; use plural form, if there are multiple sponsors in the same group)
     sponsoring_URL: "foo" (optional; if present renders a button for sponsor registration)
     sponsor_button_text: >- (optional; if present, overrides the sponsor application button text)
       Apply to be a sponsor
