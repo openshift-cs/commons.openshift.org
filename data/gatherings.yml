@@ -169,12 +169,26 @@ gatherings:
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
     - name: "Aqua Security"
+      label: "Co-Host"
+      level: 1
     - name: "Crunchy"
+      label: "Table Sponsors"
+      level: 3
     - name: "Portworx"
+      label: "Table Sponsors"
+      level: 3
     - name: "Sysdig"
+      label: "Reception Sponsor"
+      level: 2
     - name: "StorageOS"
+      label: "Table Sponsors"
+      level: 3
     - name: "Snyk"
+      label: "Table Sponsors"
+      level: 3
     - name: "Accenture"
+      label: "Table Sponsors"
+      level: 3
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_london"
   schedule:
     - local_time: "8:00 am"
