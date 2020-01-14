@@ -189,6 +189,15 @@ gatherings:
     - name: "Accenture"
       label: "Table Sponsors"
       level: 3
+    - name: "Couchbase"
+      label: "Table Sponsors"
+      level: 3
+    - name: "Prolifics"
+      label: "Table Sponsors"
+      level: 3
+    - name: "UKCloud"
+      label: "Table Sponsors"
+      level: 3
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_london"
   schedule:
     - local_time: "8:00 am"
