@@ -250,8 +250,13 @@ gatherings:
       speakers:
         - id: "francesco_giannoccaro"
     - local_time: "4:00 pm"
+      session_name: "OpenShift Hosted Serivces Update"
+      speakers:
+        - id: "andrew_cathrow"
+        - id: "patrick_strick"
+    - local_time: "4:20 pm"
       session_name: "AMA Panel - Red Hat Upstream Project Leads, Engineers and Product Managers"
-    - local_time: "4:30 pm"
+    - local_time: "4:50 pm"
       session_name: "Closing: Road Ahead & Wrap-Up"
       speakers:
         - id: "diane"
