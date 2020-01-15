@@ -259,7 +259,7 @@ gatherings:
       speakers:
         - id: "francesco_giannoccaro"
     - local_time: "4:00 pm"
-      session_name: "OpenShift Hosted Serivces Update"
+      session_name: "OpenShift Hosted Services Update"
       speakers:
         - id: "andrew_cathrow"
         - id: "patrick_strick"
@@ -269,7 +269,7 @@ gatherings:
       session_name: "Closing: Road Ahead & Wrap-Up"
       speakers:
         - id: "diane"
-    - local_time: "4:45 pm"
+    - local_time: "5:00 pm"
       session_name: "Afternoon Reception and Networking"
 - name: "San Francisco 2019"
   menu: "show"
