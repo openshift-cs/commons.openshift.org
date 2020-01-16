@@ -1613,3 +1613,6 @@ participants:
 - name: "Anthem"
   link: "https://www.anthem.com"
   logo: "commons-logos/anthem.svg"
+- name: "Syndic8"
+  link: "https://syndic8.io/"
+  logo: "commons-logos/syndic8.png"
