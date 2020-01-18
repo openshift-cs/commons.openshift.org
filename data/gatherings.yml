@@ -146,6 +146,10 @@ gatherings:
       session_name: "Closing: The Opinionate Guide to Red Hat Summit"
       speakers:
         - id: "diane"
+    - local_time: "1:30 pm"
+      session_name: "OpenStack Track:"
+      speakers:
+        - id: "diane"     
     - local_time: "6:00 pm"
       session_name: "Evening Reception and Networking Event"
 - name: "London 2020"
