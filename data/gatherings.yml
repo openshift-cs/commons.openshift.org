@@ -147,9 +147,41 @@ gatherings:
       speakers:
         - id: "diane"
     - local_time: "1:30 pm"
-      session_name: "OpenStack Track:"
+      session_name: "OpenStack Track: Welcome to the Commons"
       speakers:
-        - id: "diane"     
+        - id: "rain"     
+    - local_time: "1:35 pm"
+      session_name: "OpenStack Track: Keynote Customer Case Study"  
+    - local_time: "2:00 pm"
+      session_name: "OpenStack Track: RHOSP New Life Cycle and Road Map"
+      speakers:
+        - id: "sean_cohen"     
+    - local_time: "2:40 pm"
+      session_name: "OpenStack Track: OpenShift on OpenStack Case Study"
+    - local_time: "3:10 pm"
+      session_name: "OpenStack Track: OpenStack Migration and Upgrades Panel"
+      speakers:
+        - id: "gordon_tillmore"     
+    - local_time: "3:30 pm"
+      session_name: "OpenStack Track: OpenShift on OpenStack Case Study"
+    - local_time: "3:50 pm"
+      session_name: "OpenStack Track: RDO and Community Updates"
+      speakers:
+        - id: "rain"     
+    - local_time: "4:20 pm"
+      session_name: "OpenStack Track: Telco Stories"
+      speakers:
+        - id: "august_simonelli"    
+    - local_time: "5:00 pm"
+      session_name: "OpenStack Track: OpenShift on OpenStack Case Study"
+    - local_time: "5:20 pm"
+      session_name: "OpenStack Track: Edge and NFV/5G Update"
+      speakers:
+        - id: "sandro_mazziotta"   
+    - local_time: "5:50 pm"
+      session_name: "OpenStack Track: An OpenStacker's Guide to Red Hat Summit"
+      speakers:
+        - id: "chuck_dubuque"          
     - local_time: "6:00 pm"
       session_name: "Evening Reception and Networking Event"
 - name: "London 2020"
