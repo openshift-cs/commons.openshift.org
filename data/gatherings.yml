@@ -9,7 +9,7 @@ gatherings:
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.6118810731264!2d4.886432415800818!3d52.34118677978073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60a1f63d57e25%3A0xa08f37a724d09338!2sAmsterdam%20RAI!5e0!3m2!1sen!2sfi!4v1569573957926!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   venue: "Postillion Convention Centre Amsterdam"
   venue_URL: "https://www.postillionhotels.com/en-gb/conferenties-events/amsterdam"
-  venue_address: "Europaplein 24, 1078 GZ Amsterdam , The Netherlands"
+  venue_address: "Paul van Vlissingenstraat 8, 1096 BK Amsterdam, Netherlands"
   calendar_event_URL:
   registration_text: "Registration opens soons"
   registration_URL: ""
@@ -22,7 +22,7 @@ gatherings:
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift ecosystem. The Amsterdam event will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure. This gathering will take place on RAI conference center for a day-long peer-to-peer event.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
-  sponsoring_URL: "mailto:mbecker@redhat.com"
+  sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_amsterdam"
   schedule:
     - local_time: "8:00 am"
       session_name: "Registration Opens"
