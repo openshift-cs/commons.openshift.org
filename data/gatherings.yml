@@ -4,7 +4,7 @@ gatherings:
   language: "English"
   date: "2020-03-30"
   time: "9:00 am - 7:00 pm"
-  location: "Amsterdam, The Netherlands - co-located with Kubecon/Europe"
+  location: "Amsterdam, Netherlands - co-located with KubeCon Europe"
   google_maps_URL: >-
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.6118810731264!2d4.886432415800818!3d52.34118677978073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60a1f63d57e25%3A0xa08f37a724d09338!2sAmsterdam%20RAI!5e0!3m2!1sen!2sfi!4v1569573957926!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   venue: "Postillion Convention Centre Amsterdam"
@@ -17,7 +17,7 @@ gatherings:
     - label: "Early Bird"
       price: "49€"
   lead_text: >-
-    The OpenShift Commons Gathering will be held in Amsterdam, The Netherlands, co-located with CNCF's Kubecon/Europe.
+    The OpenShift Commons Gathering will be held in Amsterdam, Netherlands, co-located with CNCF's KubeCon Europe.
   info_text: >-
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift ecosystem. The Amsterdam event will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure. This Gathering will take place at the Postillion Convention Centre Amsterdam for a day-long peer-to-peer event.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
