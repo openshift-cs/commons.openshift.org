@@ -228,13 +228,13 @@ description:  The OpenShift Commons community gets together and share experience
                   <div class="col-12 text-center">
                     <h4><%= sample_sponsor.label %></h4>
                   </div>
-                </div>  
+                </div>
                 <%# iterate through group level memebers %>
                   <div class="sponsor-group">
                   <% gathering.sponsors.find_all { |sponsor| sponsor.level == sponsor_level }.each do |s| %>
                     <!-- Sponsor -->
                     <div class="sponsor">
-                      <% sponsor = data.participants.participants.find{ |participants| s.name == participants.name } || data.sponsors.sponsors.find{ |sponsors| s.name == sponsors.name } %>
+                      <% sponsor = data.sponsors.sponsors.find{ |sponsors| s.name == sponsors.name } || data.participants.participants.find{ |participants| s.name == participants.name } %>
                       <a href = "<%= sponsor.link %>" target = "_blank">
                         <%= image_tag sponsor.logo, :alt => sponsor.name %>
                       </a>
