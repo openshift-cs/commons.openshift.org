@@ -371,7 +371,7 @@ ul.social {
 		top: -14px;
 		width: 18px;
 		height: 18px;
-		border: 5px solid #DB212F;
+		border: 5px solid rgb(204, 0, 0);
 	}
 }
 
@@ -610,14 +610,14 @@ ul.participants.list {
 
     &:before {
       content: '"';
-      color: #DB212F;
+      color: rgb(204, 0, 0);
       font-size: 40px;
       margin-left: -10px;
       padding-left: 15px;
     }
     &:after {
       content: '"';
-      color: #DB212F;
+      color: rgb(204, 0, 0);
       font-size: 40px;
       margin-right: -10px;
       padding-right: 15px;
@@ -1010,8 +1010,8 @@ background: rgb(100, 149, 237);
 border: 2px solid rgb(100, 149, 237);
 }
 .buy {
-background: #DB212F;
-border: 2px solid #DB212F;
+background: rgb(204, 0, 0);
+border: 2px solid rgb(204, 0, 0);
 }
 #gathering-over-notice {
 	background-color: rgb(255, 210, 78);
@@ -1019,11 +1019,11 @@ border: 2px solid #DB212F;
 	padding-top: 20px;
 }
 .event-box {
-border: 1px solid #eee;
+border: 1px solid lightgrey;
 background: #FFF;
 padding: 20px 0px;
 text-align: left;
-box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
+// box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23);
 }
 
 .sponsor-heading {
@@ -1066,7 +1066,7 @@ font-size:18px;
 margin: 0 20px;
 }
 .event-span-red {
-	color: #DB212F;
+	color: rgb(204, 0, 0);
 	font-weight:700;
 	&.obsolete {
 		color: grey;
@@ -1094,16 +1094,79 @@ margin: 0 20px;
 .event-cal-img {
 	width:120px;
 }
+
+.schedule-tabs {
+	display: flex;
+	flex-wrap: wrap-reverse;
+
+	&>li {
+		border: 1px solid lightgray;
+
+		&>a.schedule-tab-link {
+			border-radius: 0;
+			background-color: white;
+			color: black;
+			margin: 0;
+		}
+
+		&>a.schedule-tab-link:hover {
+			background-color: rgba(204, 0, 0, 0.3);
+		}
+		
+		&.active {
+			border-color: rgb(204, 0, 0);
+
+			&>a.schedule-tab-link, &>a.schedule-tab-link:focus {
+				color: white;
+				background-color: rgb(204, 0, 0);
+				border-color: rgb(204, 0, 0);
+		
+				&:hover {
+					color: white;
+					background-color: rgb(204, 0, 0);
+				}
+			}
+		}
+	}
+}
+
 .schedule-list {
-	padding: 0 20px;
+	margin: 0;
+	padding: 15px;
 
 	p {
 		margin: 0;
+	}
+
+	&:not(:last-child) {
+		border-bottom: 1px solid lightgray;
+	}
+	
+	.session-track {
+		border-radius: 3px;
+		color: white;
+		display: inline-block;
+		font-size: 0.7em;
+		line-height: 0.8em;
+		padding: 5px;
 	}
 }
 .schedule-list-border-left {
 	border-left:2px solid #eee;
 }
+
+// workshops are listed as schedule tabs
+.workshop-card {
+	padding: 2em;
+	border: 1px solid lightgrey;
+	background: #FFF;
+	// box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23);
+
+	p {
+		padding: 0.7em 0;
+	}
+}
+
 .section-gathering {
 	padding-bottom: 60px;
 	padding-top: 60px;
@@ -1189,7 +1252,7 @@ position:relative;
 		top: 0;
 		padding: 0.05em 0;
 		color: #fff;
-		background-color: #DB212F;
+		background-color: rgb(204, 0, 0);
 		outline-style: dotted;
 		box-shadow: 0 2px 0 red;
 		&.obsolete {
