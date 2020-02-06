@@ -929,6 +929,19 @@ ul.operators.list {
   #blog-feed-wrapper {
 		border: 1px solid #e6e6e6;
 		background-color: white;
+		margin-bottom: 1.5em;
+
+		.blog-item {
+			font-size: 16pt;
+			margin: 0 0 20px;
+			.blog-pubDate {
+				font-size: 10pt;
+				margin: 0;
+			}
+			.blog-description {
+				font-size: 12pt;
+			}
+		}
 	}
 
 }

@@ -2,13 +2,13 @@
 // fetch openshift-commons tagged articles only
 $(document).ready(function () {
   var feedUrl = 'https://blog.openshift.com/category/openshift-commons/feed/';
-  var maxItems = 6;
+  var maxItems = 5;
   var blogFeedContainer = $("#blog-feed");
 
-  var blogItemHtml = function(link, title, date) {
+  var blogItemHtml = function(link, title, date, description) {
     var blogDate = new Date(date);
     var dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
-    htmlTemplate = '<div class="col-xs-12"><div class="blog-article"><div class="row"><div class="blog-item"><a href="' + link + '">' + title + '</a><p class="small">' + blogDate.toLocaleDateString("en-us", dateFormat) + '</p></div></div></div></div>';
+    htmlTemplate = '<div class="col-xs-12"><div class="blog-article"><div class="row"><div class="blog-item"><a href="' + link + '">' + title + '</a><p class="blog-pubDate"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;' + blogDate.toLocaleDateString("en-us", dateFormat) + '</p><div class="blog-description">' + description + '</div></div></div></div></div>';
     return htmlTemplate;
   };
 
@@ -26,7 +26,9 @@ $(document).ready(function () {
       var output = "";
       $(response).find("item").slice(0, maxItems).each(function () {
 				var el = $(this);
-        output += blogItemHtml(el.find("link").text(), el.find("title").text(), el.find("pubDate").text())
+        var intro = el.find("description").text().split("</p>")[0].replace("<p>","");
+        console.log(intro);
+        output += blogItemHtml(el.find("link").text(), el.find("title").text(), el.find("pubDate").text(), intro);
       });
       blogFeedContainer.html(output);
     }
