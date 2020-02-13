@@ -112,13 +112,24 @@ gatherings:
       schedule: ""
       speakers: ""
       venue: ""
-    schedule: (required; to be chronologically ordered - the template does not re-order)
-      - local_time: "8:00 am" (start time of the session)
+    schedule: (required; reordered according to local time)
+      - local_time: "8:00 am" (start time of the session; this string is parsed in attempt to order by time)
         session_name: "Registration Opens"
       - local_time: "9:00 am"
         session_name: "Welcome to the Commons: Making Collaboration that Works"
+        track: "OpenShift" (optional name of track, used for grouping sessions in tabs)
         speakers: (optional; if present at least one speaker id is expected)
           - id: "diane" (a unique id defined in speakers list below)
+    workshops: (optional section; shown as individual schedule tabs)
+    - start_time: "1:30 pm" (required)
+      end_time: "6:00 pm" (required)
+      room: "1" (requried)
+      title: "Quay Workshop" (required)
+      registration_URL: "https://www.redhat.com/" (optional registration button)
+      description: >- (reqruied; multi line text expected; single empty line = line break, double empty line = new paragraph)
+        You're gona lear a ton during this workshop.
+      speakers: (optional; referecned by id's, same as in the schedule section)
+        - id: "august_simonelli"
 ```
 
 As mentioned in the  comment above, this section is also used to reference **YouTube playlists** from past Gatherings. See the `youtube_playlist_id` key description above. The videos are taken from the playlists with relevant details such as video order in the list, video thumbnail, video name and video description; if you need to edit any of these, it should be done in the YouTube playlist itself. When there are any changes made on youTube to a playlist that is already published, the changes will be in effect after the Commons site is re-deployed, as the videos are fetched on build time. Please contact repository maintainers, if you don't feel like waiting for the next site re-build and would like to have the changes deployed as soon as possible.
@@ -131,6 +142,15 @@ gatherings:
     date: "2017-12-05"
     youtube_playlist_id: "PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K"
 ```
+
+**Schedule tracks and Workshops**
+Specifying a `track` for any session indicates that a multi-track schedule is expected. The tracks will be rendered as individual
+tabs of the schedule. If there are tracks defined for some sessions, but some of the sessions do not have the track specified, it 
+is assumed that such a session belongs into all tracks (that can be used for even reception, registration, coffee breaks, etc.). The 
+order of individual track tabs is based on order of occurence when the track appears in the schedule for the first time, in the `gatherings.yml`,
+irrelevant of the actual time of that session (sessions themselves are ordered chronologically in the rendered schedule though).
+The workshops defined under the `workshops` section render as individual tabs right after tracks in the schedule area. The order of
+the workshop tabs is based on the start time of those workshops.
 
 **Speakers**  
 Speaker details that are referenced by `id` in the schedule are kept in this form:

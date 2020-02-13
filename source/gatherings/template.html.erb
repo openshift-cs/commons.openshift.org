@@ -284,14 +284,157 @@ description:  The OpenShift Commons community gets together and share experience
                 <p class="text-center">
                   <a href="https://www.youtube.com/user/rhopenshift/playlists?search_query=gathering"><strong><%= gathering.videos_text.presence ? gathering.videos_text : 'See session video recordings from previous gatherings' %> »</strong></a>
                 </p>
-                <br>
+                <br />
+
+                <%# display schedule tabs if there are more tracks or at least one workshop %>
+                <% tracks = []
+                   gathering.schedule.each do |s|
+                     if s.track.presence
+                       tracks.append(s.track)
+                     end
+                   end
+                   tracks.uniq!
+                %>
+                <% if ((gathering.workshops.presence && gathering.workshops.length > 0) || tracks.length > 0) %>
+                <ul class="nav nav-tabs schedule-tabs">
+                  <%# iterate through tracks %>
+                  <% if tracks.length > 0 %>
+                    <% tracks.each_with_index do |track, i| %>
+                      <% if i == 0 %>
+                      <li class="active">
+                      <% else %>
+                      <li>
+                      <% end %>
+                        <a class="schedule-tab-link" data-toggle="tab" href="#<%= track.gsub(/\s+/, "") %>-tab"><i class="fa fa-calendar"></i> <%= track %></a>
+                      </li>
+                    <% end %>
+                  <% else %>
+                  <%# only a single track, but at least one workshop too %>
+                    <li class="active">
+                      <a class="schedule-tab-link" data-toggle="tab" href="#schedule-only-tab"><i class="fa fa-calendar"></i> Schedule</a>
+                    </li>
+                  <% end %>
+                  <%# iterate through workshops %>
+                  <% if (gathering.workshops.presence && gathering.workshops.length > 0) %>
+                    <% gathering.workshops.sort_by{ |w| w.start_time.to_time }.each do |workshop| %>
+                    <li>
+                      <a class="schedule-tab-link" data-toggle="tab" href="#<%= workshop.title.gsub(/\s+/, "") %>"><i class="fa fa-cogs"></i> <%= workshop.title.to_s %></a>
+                    </li>
+                    <% end %>
+                  <% end %>
+                </ul>
+                <!-- Schedule tabs content -->
+                <div class="tab-content">
+                  <%# start with schedule, or its first track %>
+                  <% if tracks.length > 0 %>
+                    <% tracks.each_with_index do |track, i| %>
+                        <% if i == 0 %>
+                        <div id="<%= track.gsub(/\s+/, "") %>-tab" class="schedule-tab tab-pane fade in active">
+                        <% else %>
+                        <div id="<%= track.gsub(/\s+/, "") %>-tab" class="schedule-tab tab-pane fade in">
+                        <% end %>
+                          <!-- Schedule Box -->
+                          <div class="col-xs-12 event-box">
+                            <!-- Items -->
+                            <% gathering.schedule.sort_by{|s| s.local_time.to_time}.each_with_index do |session, index| %>
+                              <% if !session.track.presence || session.track == track %>
+                              <%# display only items for this track and anything that has no track defined (assume universal) %>
+                              <div class="row schedule-list">
+                                <div class="col-xs-5 col-sm-2 text-center"><%= session.local_time %></div>
+                                <div class="col-xs-7 col-sm-10 schedule-list-border-left">
+                                  <%= session.session_name %>
+                                  <% if session.speakers.presence %>
+                                    <div class="schedule-speakers"><p>
+                                    <% session.speakers.each_with_index do |speaker, i| %>
+                                    <% spkr = data.speakers.speakers.find{ |spkr| speaker.id == spkr.id } %>
+                                      <% if i > 0 %>
+                                      &nbsp;|&nbsp;
+                                      <% end %>
+                                    <a href="#<%= speaker.id %>"><%= spkr.name %><% if spkr.company.presence && spkr.company.length > 0 %> (<%= spkr.company %>)<% end %></a>
+                                    <% end %>
+                                    </p></div>
+                                  <% end %>
+                                </div>
+                              </div>            
+                              <% end %>
+                            <% end %>
+                            <!-- /.item-->
+                          </div><!-- /.schedule box -->
+                        </div><!-- ./schedule-tab -->
+                      <% end %>
+                  <% else %>
+                  <div id="schedule-only-tab" class="schedule-tab tab-pane fade in active">
+                    <!-- Schedule Box -->
+                    <div class="col-xs-12 event-box">
+                      <!-- Items -->
+                      <% gathering.schedule.sort_by{|s| s.local_time.to_time}.each_with_index do |session, index| %>
+                        <div class="row schedule-list">
+                          <div class="col-xs-5 col-sm-2 text-center"><%= session.local_time %></div>
+                          <div class="col-xs-7 col-sm-10 schedule-list-border-left">
+                            <%= session.session_name %>
+                            <% if session.speakers.presence %>
+                              <div class="schedule-speakers"><p>
+                              <% session.speakers.each_with_index do |speaker, i| %>
+                              <% spkr = data.speakers.speakers.find{ |spkr| speaker.id == spkr.id } %>
+                                <% if i > 0 %>
+                                &nbsp;|&nbsp;
+                                <% end %>
+                              <a href="#<%= speaker.id %>"><%= spkr.name %><% if spkr.company.presence && spkr.company.length > 0 %> (<%= spkr.company %>)<% end %></a>
+                              <% end %>
+                              </p></div>
+                            <% end %>
+                          </div>
+                        </div>            
+                      <% end %>
+                    </div><!-- /.schedule box -->
+                  </div>
+                  <% end %>
+                  <%# workshop tab content; a workshop tab is never first %>
+                  <% if (gathering.workshops.presence && gathering.workshops.length > 0) %>
+                    <% gathering.workshops.sort_by{ |w| w.start_time.to_time }.each do |workshop| %>
+                    <div id="<%= workshop.title.gsub(/\s+/, "") %>" class="schedule-tab tab-pane fade in">
+                      <div class="workshop-card">
+                        <div class="workshop-time">
+                          <i class="fa fa-clock-o"></i> <%= workshop.start_time %> - <%= workshop.end_time %>
+                        </div>
+                        <div class="workshop-room">
+                          <i class="fa fa-map-marker"></i> <i>Room:</i> <%= workshop.room %>
+                        </div>
+                        <% if workshop.speakers.presence && workshop.speakers.length > 0 %>
+                        <div class="workshop-speakers">
+                          <i class="fa fa-user"></i> <i>Speakers:</i>
+                          <% workshop.speakers.each_with_index do |speaker, i| %>
+                            <% spkr = data.speakers.speakers.find{ |spkr| speaker.id == spkr.id } %>
+                            <% if i > 0 %>, <% end %>
+                            <%= spkr.name %><% if spkr.company.presence && spkr.company.length > 0 %> (<%= spkr.company %>)<% end %>
+                          <% end %>
+                        </div>
+                        <% end %>
+                        <div class="workshop-description">
+                          <%= simple_format(workshop.description) %>
+                        </div>
+                        <% if workshop.registration_URL.presence && workshop.registration_URL.length > 0 %>
+                        <div class="workshop-signup text-right">
+                          <a class="btn btn-success" href="<%= workshop.registration_URL %>" target="_blank"><i class="fa fa-sign-in"></i> Sign me up</a>
+                        </div>
+                        <% end %>
+                      </div>
+                    </div>
+                    <% end %>
+                  <% end %>
+                <% else %>
+                <%# there is only a single track schedule without any workshops -> schedule without tabs %>
                 <!-- Schedule Box -->
                 <div class="col-xs-12 event-box">
-                  <!-- Item -->
-                  <% gathering.schedule.each_with_index do |session, index| %>
-                  <div class="row schedule-list">
+                  <!-- Items -->
+                  <% gathering.schedule.sort_by{|s| s.local_time.to_time}.each_with_index do |session, index| %>
+                  <div class="row schedule-list <% if session.track.presence %><%= "track-" + session.track %><% end %>">
                     <div class="col-xs-5 col-sm-2 text-center"><%= session.local_time %></div>
-                    <div class="col-xs-7 col-sm-10 schedule-list-border-left"><%= session.session_name %>
+                    <div class="col-xs-7 col-sm-10 schedule-list-border-left">
+                    <% if session.track.presence %>
+                      <div class="schedule session-track track-color-<%= tracks.index(session.track) + 1 %>"><%= session.track %></div>
+                    <% end %>
+                      <%= session.session_name %>
                       <% if session.speakers.presence %>
                         <div class="schedule-speakers"><p>
                         <% session.speakers.each_with_index do |speaker, i| %>
@@ -304,29 +447,29 @@ description:  The OpenShift Commons community gets together and share experience
                         </p></div>
                       <% end %>
                     </div>
-                  </div>
-                  <%= "<hr>" unless index == gathering.schedule.size - 1 %>
+                  </div>                  
                   <% end %>
                   <!-- /.item-->
-              </div><!-- /.schedule box <-->
-          </div><!-- /.container -->
-          <br><br>
-          <div class="btn-event event-border buy obsoletes">
-            <a href="<%= gathering.registration_URL %>" target="_blank">
-              <p class="text-center">
-                <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
-                  <%= gathering.registration_text %>
-                <% else %>
-                  <% if gathering.pricing.presence %>
-                    Purchase tickets Now
-                  <% else %>
-                    Register Now
-                  <% end %>
+                </div><!-- /.schedule box -->
                 <% end %>
-              </p>
-            </a>
-          </div>
+          </div><!-- /.container -->
         </div><!-- /.row -->
+        <br><br>
+        <div class="btn-event event-border buy obsoletes">
+          <a href="<%= gathering.registration_URL %>" target="_blank">
+            <p class="text-center">
+              <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
+                <%= gathering.registration_text %>
+              <% else %>
+                <% if gathering.pricing.presence %>
+                  Purchase tickets Now
+                <% else %>
+                  Register Now
+                <% end %>
+              <% end %>
+            </p>
+          </a>
+        </div>
       </div><!-- /.container -->
 </section>
 
@@ -435,6 +578,5 @@ description:  The OpenShift Commons community gets together and share experience
       $(".obsoletes").find("a").removeAttr("href");
       $("#gathering-over-notice").show();
     }
-
   })
 </script>
