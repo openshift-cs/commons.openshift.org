@@ -85,8 +85,7 @@ gatherings:
       title: "OpenShift Container Storage for Admins: Hands-On Workshop"
       description: >-
       This OpenShift Container Storage for Admins Hands-On Workshop provides Ops Admins a unique hands-on experience for deploying and managing containerized cloud-native applications with OpenShift Container Storage using industry-standard open source technologies.
-      
-      When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + OpenShift Container Storage for Admins: Hands-On Workshop" ticket to register for this workshop.
+      When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + OpenShift Container Storage for Admins Hands-On Workshop" ticket to register for this workshop.
 - name: "Red Hat Summit 2020"
   menu: "show"
   language: "English"
