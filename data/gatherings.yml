@@ -356,7 +356,7 @@ gatherings:
     - local_time: "1:00 pm"
       session_name: "Networking Lunch"
     - local_time: "2:00 pm"
-      session_name: "State of Operators"
+      session_name: "State of Operators: Framework, SDKs, Hubs and beyond"
       speakers:
         - id: "guil_barros"
         - id: "jason_dobies"
