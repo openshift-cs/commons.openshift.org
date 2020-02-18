@@ -93,7 +93,7 @@ gatherings:
     - start_time: "9:00 am"
       end_time: "5:00 pm"
       room: "3+4"
-      title: "Kubernetes Operators: Hands-On Workshop"
+      title: "Kubernetes Operators Workshop"
       description: >-
         The Kubernetes Operators Hands-on Workshop is for both application developers and system administrators interested in building and managing Operators for Kubernetes environments. It is designed for those who have a basic knowledge of Kubernetes and want to learn how to apply domain or application-specific knowledge to automate common operational tasks.
 
@@ -102,7 +102,7 @@ gatherings:
     - start_time: "9:00 am"
       end_time: "5:00 pm"
       room: "1+2"
-      title: "Cloud-Native CI/CD with Tekton: Hands-On Workshop"
+      title: "Cloud-Native CI/CD with Tekton Workshop"
       description: >-
         The Cloud-Native CI/CD with Tekton Hands-On Workshop introduces the key concepts of Tekton, a flexible, Kubernetes-native CI/CD framework that enables the automation of deployments across multiple platforms - including Kubernetes, serverless, and VMs - by abstracting away the underlying details. 
 
@@ -111,7 +111,7 @@ gatherings:
     - start_time: "1:00 pm"
       end_time: "5:00 pm"
       room: "16"
-      title: "OpenShift Container Storage for Admins: Hands-On Workshop"
+      title: "OpenShift Container Storage for Admins Workshop"
       description: >-
         This OpenShift Container Storage for Admins Hands-On Workshop provides Ops Admins a unique hands-on experience for deploying and managing containerized cloud-native applications with OpenShift Container Storage using industry-standard open source technologies.
 
