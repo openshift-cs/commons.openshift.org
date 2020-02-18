@@ -40,6 +40,8 @@ gatherings:
         - id: "clayton_coleman"
     - local_time: "10:15 am"
       session_name: "Customer Keynote: Dutch Tax Office"
+      speakers:
+        - id: "jeroen_wolff"
     - local_time: "10:45 am"
       session_name: "Coffee Break"
     - local_time: "11:15 am"
@@ -48,10 +50,17 @@ gatherings:
         - id: "erin_boyd"
     - local_time: "11:35 1m"
       session_name: "Case Study: OpenShift @ Deutsche Bahn"
+      speakers:
+        - id: "thomas_krause"
     - local_time: "12:00 pm"
       session_name: "Case Study: OpenShift @ Intesa Sanpaolo"
+      speakers:
+        - id: "nicola_carotti"
     - local_time: "12:25 pm"
       session_name: "Case Study: OpenShift @ Dutch Courts"
+      speakers:
+        - id: "jan_kappert"
+      
     - local_time: "12:50 pm"
       session_name: "Lightning Talk: IBM Cloud"  
     - local_time: "1:00 pm"
@@ -76,7 +85,7 @@ gatherings:
       speakers:
         - id: "daniel_messer"
     - local_time: "4:00 pm"
-      session_name: "Choose your own Adventure: OKD4 on Fedora CoreOS"
+      session_name: "OKD4 on Fedora CoreOS Update"
       speakers:
          - id: "christian_glombek"
     - local_time: "4:20 pm"
