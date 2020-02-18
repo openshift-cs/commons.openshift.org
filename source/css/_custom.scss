@@ -1096,8 +1096,9 @@ margin: 0 20px;
 }
 
 .schedule-tabs {
-	display: flex;
-	flex-wrap: wrap-reverse;
+	/* multiple schedule tabs may look better when ordered in reverse on desktop */
+	// display: flex;
+	// flex-wrap: wrap-reverse;
 
 	&>li {
 		border: 1px solid lightgray;
@@ -1164,6 +1165,7 @@ margin: 0 20px;
 
 	p {
 		padding: 0.7em 0;
+		margin-bottom: 0;
 	}
 }
 

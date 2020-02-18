@@ -95,22 +95,28 @@ gatherings:
       room: "9-10"
       title: "OpenShift Customer Empathy Workshops"
       description: >-
-      Have you ever wondered how product teams decide what features to build and what changes to make? Learn how the Red Hat User Experience Design and Research team is applying design thinking to real product development challenges, from problem discovery to testing and validating ideas, during one of their three workshops.
+        Have you ever wondered how product teams decide what features to build and what changes to make? Learn how the Red Hat User Experience Design and Research team is applying design thinking to real product development challenges, from problem discovery to testing and validating ideas, during one of their three workshops.
+              
+        During each session you will get a chance to engage with product management to drive the future of OpenShift, collaborate with other members of the community, and help impact the OpenShift user experience. 
       
-      During each session you will get a chance to engage with product management to drive the future of OpenShift, collaborate with other members of the community, and help impact the OpenShift user experience. 
+
+        Focus on Storage, 8:30am - 10:30am
+
+        Focus on CICD, 11:00am - 1:00pm
+
+        Focus on Logging, 2:00pm - 4:00pm
       
-      Focus on Storage, 8:30am - 10:30am
-      Focus on CICD, 11:00am - 1:00pm
-      Focus on Logging, 2:00pm - 4:00pm
-      
-      When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + Customer Empathy Workshops" ticket to register for this workshop.
+
+        When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + Customer Empathy Workshops" ticket to register for this workshop.
     - start_time: "1:00 pm"
       end_time: "5:00 pm"
       room: "16"
       title: "OpenShift Container Storage for Admins: Hands-On Workshop"
       description: >-
-      This OpenShift Container Storage for Admins Hands-On Workshop provides Ops Admins a unique hands-on experience for deploying and managing containerized cloud-native applications with OpenShift Container Storage using industry-standard open source technologies.
-      When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + OpenShift Container Storage for Admins Hands-On Workshop" ticket to register for this workshop.
+        This OpenShift Container Storage for Admins Hands-On Workshop provides Ops Admins a unique hands-on experience for deploying and managing containerized cloud-native applications with OpenShift Container Storage using industry-standard open source technologies.
+
+        
+        When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + OpenShift Container Storage for Admins Hands-On Workshop" ticket to register for this workshop.
 - name: "Red Hat Summit 2020"
   menu: "show"
   language: "English"

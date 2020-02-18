@@ -305,7 +305,7 @@ description:  The OpenShift Commons community gets together and share experience
                       <% else %>
                       <li>
                       <% end %>
-                        <a class="schedule-tab-link" data-toggle="tab" href="#<%= track.gsub(/\s+/, "") %>-tab"><i class="fa fa-calendar"></i> <%= track %></a>
+                        <a class="schedule-tab-link" data-toggle="tab" href="#<%= track.gsub(/[^0-9A-Za-z]/, "") %>-tab"><i class="fa fa-calendar"></i> <%= track %></a>
                       </li>
                     <% end %>
                   <% else %>
@@ -318,7 +318,7 @@ description:  The OpenShift Commons community gets together and share experience
                   <% if (gathering.workshops.presence && gathering.workshops.length > 0) %>
                     <% gathering.workshops.sort_by{ |w| w.start_time.to_time }.each do |workshop| %>
                     <li>
-                      <a class="schedule-tab-link" data-toggle="tab" href="#<%= workshop.title.gsub(/\s+/, "") %>"><i class="fa fa-cogs"></i> <%= workshop.title.to_s %></a>
+                      <a class="schedule-tab-link" data-toggle="tab" href="#<%= workshop.title.gsub(/[^0-9A-Za-z]/, "") %>"><i class="fa fa-cogs"></i> <%= workshop.title.to_s %></a>
                     </li>
                     <% end %>
                   <% end %>
@@ -329,9 +329,9 @@ description:  The OpenShift Commons community gets together and share experience
                   <% if tracks.length > 0 %>
                     <% tracks.each_with_index do |track, i| %>
                         <% if i == 0 %>
-                        <div id="<%= track.gsub(/\s+/, "") %>-tab" class="schedule-tab tab-pane fade in active">
+                        <div id="<%= track.gsub(/[^0-9A-Za-z]/, "") %>-tab" class="schedule-tab tab-pane fade in active">
                         <% else %>
-                        <div id="<%= track.gsub(/\s+/, "") %>-tab" class="schedule-tab tab-pane fade in">
+                        <div id="<%= track.gsub(/[^0-9A-Za-z]/, "") %>-tab" class="schedule-tab tab-pane fade in">
                         <% end %>
                           <!-- Schedule Box -->
                           <div class="col-xs-12 event-box">
@@ -392,7 +392,7 @@ description:  The OpenShift Commons community gets together and share experience
                   <%# workshop tab content; a workshop tab is never first %>
                   <% if (gathering.workshops.presence && gathering.workshops.length > 0) %>
                     <% gathering.workshops.sort_by{ |w| w.start_time.to_time }.each do |workshop| %>
-                    <div id="<%= workshop.title.gsub(/\s+/, "") %>" class="schedule-tab tab-pane fade in">
+                    <div id="<%= workshop.title.gsub(/[^0-9A-Za-z]/, "") %>" class="schedule-tab tab-pane fade in">
                       <div class="workshop-card">
                         <div class="workshop-time">
                           <i class="fa fa-clock-o"></i> <%= workshop.start_time %> - <%= workshop.end_time %>
