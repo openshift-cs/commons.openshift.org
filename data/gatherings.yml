@@ -11,8 +11,8 @@ gatherings:
   venue_URL: "https://www.postillionhotels.com/en-gb/conferenties-events/amsterdam"
   venue_address: "Paul van Vlissingenstraat 8, 1096 BK Amsterdam, Netherlands"
   calendar_event_URL:
-  registration_text: "Registration opens soons"
-  registration_URL: ""
+  registration_text: "Register Now!"
+  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-amsterdam-2020-and-hands-on-workshops-tickets-90817929873"
   pricing:
     - label: "Early Bird"
       price: "49€"
