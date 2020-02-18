@@ -102,7 +102,6 @@ gatherings:
       speakers:
         - id: "Jay_Dobies"
         - id: "Matt_Dorn"
-        - id: "Camila_Macedo"
       - start_time: "9:00 am"
       end_time: "5:00 pm"
       room: "1+2"
@@ -114,7 +113,6 @@ gatherings:
         When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + Cloud-Native CI/CD with Tekton Workshop" ticket to register for this workshop.
       speakers:
         - id: "Jan_Kleinert"
-        - id: "Mark_Morneault"
       - start_time: "1:00 pm"
       end_time: "5:00 pm"
       room: "16"
