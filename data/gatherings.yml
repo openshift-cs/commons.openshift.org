@@ -90,7 +90,7 @@ gatherings:
     - local_time: "5:00 pm"
       session_name: "Evening Reception and Networking Event"
   workshops:
-      - start_time: "9:00 am"
+    - start_time: "9:00 am"
       end_time: "5:00 pm"
       room: "3+4"
       title: "Kubernetes Operators: Hands-On Workshop"
@@ -99,16 +99,16 @@ gatherings:
 
         
         When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + Kubernetes Operator Workshop" ticket to register for this workshop.
-      - start_time: "9:00 am"
+    - start_time: "9:00 am"
       end_time: "5:00 pm"
       room: "1+2"
       title: "Cloud-Native CI/CD with Tekton: Hands-On Workshop"
       description: >-
         The Cloud-Native CI/CD with Tekton Hands-On Workshop introduces the key concepts of Tekton, a flexible, Kubernetes-native CI/CD framework that enables the automation of deployments across multiple platforms - including Kubernetes, serverless, and VMs - by abstracting away the underlying details. 
 
-        
+
         When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + Cloud-Native CI/CD with Tekton Workshop" ticket to register for this workshop.
-      - start_time: "1:00 pm"
+    - start_time: "1:00 pm"
       end_time: "5:00 pm"
       room: "16"
       title: "OpenShift Container Storage for Admins: Hands-On Workshop"
@@ -123,16 +123,16 @@ gatherings:
       title: "OpenShift Customer Empathy Workshops"
       description: >-
         Have you ever wondered how product teams decide what features to build and what changes to make? Learn how the Red Hat User Experience Design and Research team is applying design thinking to real product development challenges, from problem discovery to testing and validating ideas, during one of their three workshops.
-              
+            
         During each session you will get a chance to engage with product management to drive the future of OpenShift, collaborate with other members of the community, and help impact the OpenShift user experience. 
-      
+
 
         Focus on Storage, 8:30am - 10:30am
 
         Focus on CICD, 11:00am - 1:00pm
 
         Focus on Logging, 2:00pm - 4:00pm
-      
+
 
         When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + Customer Empathy Workshops" ticket to register for this workshop.
 - name: "Red Hat Summit 2020"
