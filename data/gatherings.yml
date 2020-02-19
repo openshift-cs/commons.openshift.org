@@ -125,7 +125,7 @@ gatherings:
         
         
         When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + OpenShift Operator Certification workshop" ticket to register for this workshop.
-- start_time: "1:00 pm"
+    - start_time: "1:00 pm"
       end_time: "5:00 pm"
       room: "16"
       title: "OpenShift Container Storage for Admins Workshop"
@@ -153,7 +153,7 @@ gatherings:
         
         
         When registering for the OpenShift Commons Gathering, make sure to select the "OpenShift Commons Gathering Admission + KubeVirt Users and Developers F2F" ticket to register for this workshop.
-- start_time: "8:30 am"
+    - start_time: "8:30 am"
       end_time: "4:00 pm"
       room: "9+10"
       title: "OpenShift Customer Empathy Workshops"
