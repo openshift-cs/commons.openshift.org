@@ -311,12 +311,12 @@ description:  The OpenShift Commons community gets together and share experience
                   <% else %>
                   <%# only a single track, but at least one workshop too %>
                     <li class="active">
-                      <a class="schedule-tab-link" data-toggle="tab" href="#schedule-only-tab"><i class="fa fa-calendar"></i> Schedule</a>
+                      <a class="schedule-tab-link" data-toggle="tab" href="#schedule-only-tab"><i class="fa fa-calendar"></i> Main Stage</a>
                     </li>
                   <% end %>
                   <%# iterate through workshops %>
                   <% if (gathering.workshops.presence && gathering.workshops.length > 0) %>
-                    <% gathering.workshops.sort_by{ |w| w.start_time.to_time }.each do |workshop| %>
+                    <% gathering.workshops.each do |workshop| %>
                     <li>
                       <a class="schedule-tab-link" data-toggle="tab" href="#<%= workshop.title.gsub(/[^0-9A-Za-z]/, "") %>"><i class="fa fa-cogs"></i> <%= workshop.title.to_s %></a>
                     </li>
@@ -391,7 +391,7 @@ description:  The OpenShift Commons community gets together and share experience
                   <% end %>
                   <%# workshop tab content; a workshop tab is never first %>
                   <% if (gathering.workshops.presence && gathering.workshops.length > 0) %>
-                    <% gathering.workshops.sort_by{ |w| w.start_time.to_time }.each do |workshop| %>
+                    <% gathering.workshops.each do |workshop| %>
                     <div id="<%= workshop.title.gsub(/[^0-9A-Za-z]/, "") %>" class="schedule-tab tab-pane fade in">
                       <div class="workshop-card">
                         <div class="workshop-time">

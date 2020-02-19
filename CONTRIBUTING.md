@@ -150,7 +150,7 @@ is assumed that such a session belongs into all tracks (that can be used for eve
 order of individual track tabs is based on order of occurence when the track appears in the schedule for the first time, in the `gatherings.yml`,
 irrelevant of the actual time of that session (sessions themselves are ordered chronologically in the rendered schedule though).
 The workshops defined under the `workshops` section render as individual tabs right after tracks in the schedule area. The order of
-the workshop tabs is based on the start time of those workshops.
+workshop tabs is based on the order of appearance of those workshops in the `gatherings.yml` file.
 
 **Speakers**  
 Speaker details that are referenced by `id` in the schedule are kept in this form:
