@@ -578,5 +578,22 @@ description:  The OpenShift Commons community gets together and share experience
       $(".obsoletes").find("a").removeAttr("href");
       $("#gathering-over-notice").show();
     }
+
+    // enable using tab anchors in direct links
+    const anchor = window.location.hash;
+    var tab = $('a[href="'+anchor+'"].schedule-tab-link');
+    if (tab.length > 0) {
+      tab.tab('show');
+      setTimeout(function() { window.scrollTo($('ul.schedule-tabs:first').offset()); }, 200);
+    }
+    // change the hash in address bar (and fool the browser not to scroll anywhere)
+    $('a.schedule-tab-link').on('click', function(e) {
+      var href = this.getAttribute('href');      
+      var temp = $(href);
+      temp.id = null;
+      window.location.hash = href;
+      temp.id = href;
+    });
+
   })
 </script>
