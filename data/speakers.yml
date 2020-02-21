@@ -1452,6 +1452,7 @@ speakers:
     photo: "speakers/thomas_krause.jpeg"
   - id: "stefan_vanoirschot" 
     name: "Stefan van Oirschot"
+    company: "Red Hat"
     role: "Solution Architect "
     photo: "speakers/stefan_vanoirschot.jpeg"
 
