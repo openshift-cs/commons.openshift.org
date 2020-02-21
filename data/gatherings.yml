@@ -56,6 +56,7 @@ gatherings:
       session_name: "Case Study: OpenShift @ Intesa Sanpaolo"
       speakers:
         - id: "nicola_carotti"
+        - id: "hiral_patel"
     - local_time: "12:25 pm"
       session_name: "Case Study: OpenShift @ Dutch Courts"
       speakers:
