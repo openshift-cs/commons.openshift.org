@@ -1450,3 +1450,8 @@ speakers:
     URL: "https://www.bahn.com/en/view/index.shtml"
     role: "Senior Cloud Architect bei DB Systel GmbH"  
     photo: "speakers/thomas_krause.jpeg"
+  - id: "stefan_vanoirschot" 
+    name: "Stefan van Oirschot"
+    role: "Solution Architect "
+    photo: "speakers/stefan_vanoirschot.jpeg"
+
