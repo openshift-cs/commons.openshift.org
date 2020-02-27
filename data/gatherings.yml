@@ -210,7 +210,7 @@ gatherings:
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
     - name: "Crunchy"
-      label: "Sponsors"
+      label: "Table Sponsors"
       level: 1
   sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
