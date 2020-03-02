@@ -3,22 +3,26 @@ gatherings:
   menu: "show"
   language: "English"
   date: "2020-03-30"
-  time: "9:00 am - 7:00 pm"
-  location: "Amsterdam, Netherlands - co-located with KubeCon Europe"
+  time: "9:00 am - 5:00 pm"
+  location: "Important OSCG Amsterdam 2020 Update. Please Read."
   google_maps_URL: >-
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.007984043944!2d4.919547115959823!3d52.334001257749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60bd1f888758f%3A0x6d537b27986086d!2sPostillion%20Convention%20Center%20Amsterdam!5e0!3m2!1sen!2scz!4v1581510029984!5m2!1sen!2scz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-  venue: "Postillion Convention Centre Amsterdam"
+  venue: "Virtual Gathering"
   venue_URL: "https://www.postillionhotels.com/en-gb/conferenties-events/amsterdam"
-  venue_address: "Paul van Vlissingenstraat 8, 1096 BK Amsterdam, Netherlands"
+  venue_address: ""
   calendar_event_URL:
-  registration_text: "Register Now!"
-  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-amsterdam-2020-and-hands-on-workshops-tickets-90817929873"
+  registration_text: "Register for the Virtual Gathering Now!"
+  registration_URL: "  https://www.redhat.com/en/events/webinar/openshift-commons-gathering"
   pricing:
-    - label: "Early Bird"
-      price: "49€"
+    - label: "PreRegistration Required"
+      price: "Free"
   lead_text: >-
-    The OpenShift Commons Gathering will be held in Amsterdam, Netherlands, co-located with CNCF's KubeCon Europe.
+    Important OSCG Amsterdam 2020 Update. Please Read. The OpenShift Commons Gathering was be held in Amsterdam co-located with CNCF's KubeCon Europe .
   info_text: >-
+    As the coronavirus situation is not improving, we’re turning OSCG/Amsterdam into a digital conference rather than a live event. We will still share all of our main stage sessions including OpenShift 4.5 and Kubernetes Road Updates with Clayton Coleman, and all of our engineering project leads will still be delivering their “State of” Deep Dive talks. We’re working to ensure all our case study speakers and other guest speakers can share their talks as well.  
+    We’re going to deliver it online, live with Q&A and take this Gathering to a global audience.   
+    We will provide updates here soon, and you can register for the virtual event and get notified with further details via email about when you can tune in and how to do so.
+    If you’ve purchased a pass to the Gathering and any of the workshops, you will receive a full refund.
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift ecosystem. The Amsterdam event will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure. This Gathering will take place at the Postillion Convention Centre Amsterdam for a day-long peer-to-peer event.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
