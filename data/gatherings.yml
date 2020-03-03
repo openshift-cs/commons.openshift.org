@@ -33,20 +33,17 @@ gatherings:
       level: 1
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_amsterdam"
   schedule:
-    - local_time: "8:00 am"
-      session_name: "Registration Opens"
     - local_time: "9:00 am"
       session_name: "Welcome to the Commons: Collaboration in Action"
       speakers:
         - id: "diane"
-    - local_time: "9:15 am"
-      session_name: "Keynote: On the Road to Unified Hybrid Cloud - Julio Tapia (Red Hat)"
-      speakers:
-         - id: "julio_tapia"
+        - id: "julio_tapia"
     - local_time: "9:30 am"
       session_name: "OpenShift 4 Release and Road Map Update"
       speakers:
         - id: "clayton_coleman"
+        - id: "derek_carr"
+        - id: "mike_barrett"  
     - local_time: "10:15 am"
       session_name: "Customer Keynote: Dutch Tax Office"
       speakers:
@@ -83,6 +80,7 @@ gatherings:
       session_name: "State of the Platform Services: Service Mesh and Beyond"
       speakers:
          - id: "markito"
+         - id: "ssadeghi"
     - local_time: "2:40 pm"
       session_name: "State of Container Security"
       speakers:
@@ -94,6 +92,7 @@ gatherings:
       session_name: "State of Operators: Frameworks, SDKs, Hubs and Beyond"
       speakers:
         - id: "daniel_messer"
+        - id: "jason_dobies"
     - local_time: "4:00 pm"
       session_name: "OKD4 on Fedora CoreOS Update"
       speakers:
