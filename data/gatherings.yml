@@ -20,13 +20,6 @@ gatherings:
     We will provide updates here soon, you can register now for the virtual event and get notified with further details via email about when you can tune in and how to do so.
     If you’ve purchased a pass to the Gathering and any of the workshops, you will receive a full refund.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-  sponsors:
-    - name: "Portworx"
-      label: "Table Sponsors"
-      level: 1
-    - name: "Trilio"
-      label: "Table Sponsors"
-      level: 1
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_amsterdam"
   schedule:
     - local_time: "9:00 am"
