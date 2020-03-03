@@ -278,7 +278,9 @@ description:  The OpenShift Commons community gets together and share experience
             <div class="container">
                 <h3 class="text-center"><%= gathering.headers.presence && gathering.headers.schedule.presence ? gathering.headers.schedule : 'Schedule' %></h3><br>
                 <p class="text-center">
-                  <%= gathering.schedule_leadin.presence ? gathering.schedule_leadin : 'The day will have a mix of keynotes, panels, ted-style talks, SIG break-out sessions, plenty of time to network over local craft beers and be continuously fueled by local baristas.' %>
+                  <%= gathering.schedule_leadin.presence ? gathering.schedule_leadin : 'The OpenShift Commons Gatherings bring together experts from all over the world 
+                  to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift 
+                  ecosystem. This Gathering will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure.' %>
                 </p>
                 <br>
                 <p class="text-center">
@@ -539,6 +541,7 @@ description:  The OpenShift Commons community gets together and share experience
         <br /><%= gathering.location %>
         <br><br>
       </p>
+      <% if (gathering.google_maps_URL.presence && gathering.google_maps_URL.lenght > 0) || (gathering.venue_address.presence && gathering.venue_address.lenght > 0) %>
       <div class="map-box">
         <% if gathering.google_maps_URL.presence && gathering.google_maps_URL.length > 0 %>
         <%= gathering.google_maps_URL.gsub(/width="[0-9%]*"/, 'width="100%"').gsub(/height="[0-9%]*"/, 'height="450"') %>
@@ -546,6 +549,7 @@ description:  The OpenShift Commons community gets together and share experience
         <iframe src="https://www.google.com/maps?q=<%= ERB::Util.url_encode(gathering.venue + "," + gathering.location) %>&output=embed" width="100%" height="450" frameborder="0" allowfullscreen=""></iframe>
         <% end %>
       </div>
+      <% end %>
     </div><!-- /.row-fluid -->
   </div><!-- /.container-fluid -->
 </section>
