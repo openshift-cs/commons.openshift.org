@@ -12,18 +12,17 @@ gatherings:
   venue_address: ""
   calendar_event_URL:
   registration_text: "Register for the Virtual Gathering Now!"
-  registration_URL: "  https://www.redhat.com/en/events/webinar/openshift-commons-gathering"
+  registration_URL: "https://www.redhat.com/en/events/webinar/openshift-commons-gathering"
   pricing:
-    - label: "PreRegistration Required"
+    - label: "Registration Required"
       price: "Free"
   lead_text: >-
     Important OSCG Amsterdam 2020 Update. Please Read.
   info_text: >-
     We’re turning OSCG/Amsterdam into a digital conference rather than a live event. We will still share all of our main stage sessions including OpenShift 4.5 and Kubernetes Road Updates with Clayton Coleman, and all of our engineering project leads will still be delivering their “State of” Deep Dive talks. We’re working to ensure all our case study speakers and other guest speakers can share their talks as well.  
-    We’re going to deliver it online, live with Q&A and take this Gathering to a global audience.   
-    We will provide updates here soon, and you can register for the virtual event and get notified with further details via email about when you can tune in and how to do so.
+    We’re going to deliver it live online with Q&A and take this Gathering to a global audience.   
+    We will provide updates here soon, you can register now for the virtual event and get notified with further details via email about when you can tune in and how to do so.
     If you’ve purchased a pass to the Gathering and any of the workshops, you will receive a full refund.
-    The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift ecosystem. The Amsterdam event will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure. This Gathering will take place at the Postillion Convention Centre Amsterdam for a day-long peer-to-peer event.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsors:
     - name: "Portworx"
