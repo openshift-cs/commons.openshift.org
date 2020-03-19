@@ -100,9 +100,9 @@ gatherings:
 - name: "Red Hat Summit 2020"
   menu: "show"
   language: "English"
-  date: "2020-04-26"
-  time: "8:00 am - 8:00 pm"
-  location: "Red Hat Summit San Francisco, California"
+  date: "2020-04-27"
+  time: "9:00 am - 8:00 pm"
+  location: "Now part of the Virtual Red Hat Summit"
   google_maps_URL: >-
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2437246169225!2d-122.40287868439188!3d37.784327619382296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807ded297e89%3A0xd9553880aa393c6c!2sMoscone%20Center!5e0!3m2!1sen!2scz!4v1581515769487!5m2!1sen!2scz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   venue: "Moscone Convention and Exhibition Center"
@@ -110,19 +110,19 @@ gatherings:
   venue_address: "747 Howard St, San Francisco, CA USA"
   calendar_event_URL:
   registration_text: ""
-  registration_URL: "https://reg.summit.redhat.com/"
+  registration_URL: "https://reg.summit.redhat.com/account/login?signin=189042c2327dcf3c98e56dd7d9c268d5"
   pricing:
-    - label: "Early Bird"
-      price: "$99"
+    - label: "Registration Required"
+      price: "Free!"
   lead_text: >-
-    The OpenShift Commons Gathering will be co-located in San Francisco with <a href="https://www.redhat.com/en/summit" target="_blank">
-    Red Hat Summit</a> at the <a href="http://www.moscone.com/site/do/index" target="_blank">Moscone Convention and Exhibition Center</a>!
+    The OpenShift Commons Gathering will now be virtually co-located in San Francisco with <a href="https://www.redhat.com/en/summit" target="_blank">
+    Red Hat Summit</a> on April 27th!
   info_text: >-
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
     the next steps in making container technologies successful and secure.
   event_footer_text: >-
-    Please note: Pre-registration is required AND You must have a pass for Red Hat Summit to attend this event. To register, add the OpenShift Commons Gathering as a co-located event during your Red Hat Summit registration.
+    Please note: Pre-registration is required. To register, add the OpenShift Commons Gathering as a co-located event during your Red Hat Summit registration.
     By being co-located in San Francisco with Red Hat Summit at the Moscone Convention and Exhibition Center, the OpenShift Commons Gathering will provide a platform for showcasing a full range of technologies that
     support the OpenShift ecosystem and help bring cloud native project communities together. We strongly encourage you to partake in the full week of events.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
