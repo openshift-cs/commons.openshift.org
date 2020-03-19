@@ -278,8 +278,8 @@ description:  The OpenShift Commons community gets together and share experience
             <div class="container">
                 <h3 class="text-center"><%= gathering.headers.presence && gathering.headers.schedule.presence ? gathering.headers.schedule : 'Schedule' %></h3><br>
                 <p class="text-center">
-                  <%= gathering.schedule_leadin.presence ? gathering.schedule_leadin : 'The OpenShift Commons Gatherings bring together experts from all over the world 
-                  to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift 
+                  <%= gathering.schedule_leadin.presence ? gathering.schedule_leadin : 'The OpenShift Commons Gatherings bring together experts from all over the world
+                  to discuss container technologies, best practices for cloud native application developers and the open source software projects that underpin the OpenShift
                   ecosystem. This Gathering will gather developers, DevOps professionals, and sysadmins together to explore the next steps in making container technologies successful and secure.' %>
                 </p>
                 <br>
@@ -357,7 +357,7 @@ description:  The OpenShift Commons community gets together and share experience
                                     </p></div>
                                   <% end %>
                                 </div>
-                              </div>            
+                              </div>
                               <% end %>
                             <% end %>
                             <!-- /.item-->
@@ -386,7 +386,7 @@ description:  The OpenShift Commons community gets together and share experience
                               </p></div>
                             <% end %>
                           </div>
-                        </div>            
+                        </div>
                       <% end %>
                     </div><!-- /.schedule box -->
                   </div>
@@ -449,7 +449,7 @@ description:  The OpenShift Commons community gets together and share experience
                         </p></div>
                       <% end %>
                     </div>
-                  </div>                  
+                  </div>
                   <% end %>
                   <!-- /.item-->
                 </div><!-- /.schedule box -->
@@ -541,7 +541,7 @@ description:  The OpenShift Commons community gets together and share experience
         <br /><%= gathering.location %>
         <br><br>
       </p>
-      <% if (gathering.google_maps_URL.presence && gathering.google_maps_URL.lenght > 0) || (gathering.venue_address.presence && gathering.venue_address.lenght > 0) %>
+      <% if (gathering.google_maps_URL.presence && gathering.google_maps_URL.length > 0) || (gathering.venue_address.presence && gathering.venue_address.length > 0) %>
       <div class="map-box">
         <% if gathering.google_maps_URL.presence && gathering.google_maps_URL.length > 0 %>
         <%= gathering.google_maps_URL.gsub(/width="[0-9%]*"/, 'width="100%"').gsub(/height="[0-9%]*"/, 'height="450"') %>
@@ -592,7 +592,7 @@ description:  The OpenShift Commons community gets together and share experience
     }
     // change the hash in address bar (and fool the browser not to scroll anywhere)
     $('a.schedule-tab-link').on('click', function(e) {
-      var href = this.getAttribute('href');      
+      var href = this.getAttribute('href');
       var temp = $(href);
       temp.id = null;
       window.location.hash = href;
