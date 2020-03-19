@@ -153,7 +153,7 @@ gatherings:
     - local_time: "11:30 am"
       session_name: "Production OpenShift Case Study #2"
       track: "Virtual Stage"
-   - local_time: "12:00 pm"
+    - local_time: "12:00 pm"
       session_name: "Production OpenShift Case Study #3"  
       track: "Virtual Stage"
     - local_time: "12:30 pm"
