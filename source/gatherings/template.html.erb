@@ -535,7 +535,7 @@ description:  The OpenShift Commons community gets together and share experience
         <% else %>
           <strong><%= gathering.venue %></strong>
         <% end %>
-        <% if gathering.venue_URL.presence && gathering.venue_address.length > 0 %>
+        <% if gathering.venue_address.presence && gathering.venue_address.length > 0 %>
           <%= "<br />" + gathering.venue_address %>
         <% end %>
         <br /><%= gathering.location %>
