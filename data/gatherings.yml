@@ -148,7 +148,7 @@ gatherings:
       session_name: "Production OpenShift Case Study #1"
       track: "Virtual Stage"
     - local_time: "11:30 am"
-      session_name: "Production OpenShift Case Study #2"
+      session_name: "Production OpenShift Case Study:Deutsche Bahn"
       track: "Virtual Stage"
     - local_time: "12:00 pm"
       session_name: "Production OpenShift Case Study: DTCC"  
