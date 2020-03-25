@@ -64,14 +64,14 @@ description: The principal purpose of the .NET Special Interest Group is to disc
   <div class="row info_title wow fadeInUp">
     <div class="info_vertical animated">
       <h1>
-        OpenShift Microsoft
+        OpenShift .NET
         <span>Articles</span>
       </h1>
     </div>
   </div>
   <div class="container wow fadeInUp">
     <div class="row-fluid">
-      <%= partial "sig/dotnet_articles" %>
+      <%= partial("sig/rss_articles", :locals => { :tag => "dotnet", :article_limit => 8}) %>
     </div>
   </div>
 </section>

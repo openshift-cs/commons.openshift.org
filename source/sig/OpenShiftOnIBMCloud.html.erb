@@ -121,7 +121,7 @@ description: Collaborate and share information around best practices for operati
 
 <div class="container wow fadeInUp">
   <div class="row-fluid">
-    <%= partial "sig/ibmcloud_articles" %>
+    <%= partial("sig/rss_articles", :locals => { :tag => "ibm-cloud", :article_limit => 4}) %>
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
       <div class="service-03">

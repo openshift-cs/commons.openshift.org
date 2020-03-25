@@ -1,6 +1,11 @@
 // this function is used for rendering blog post links on SIG pages only
 function displayBlogPosts(feedUrl, maxItems, blogFeedContainer) {
 
+  function strip(html) {
+    var doc = new DOMParser().parseFromString(html, 'text/html');
+    return doc.body.textContent || "";
+  };
+
   var blogItemHtml = function(link, title, date, description) {
     htmlTemplate = '<div class="col-xs-12 col-md-6"><div class="blog-article"><div class="blog-item"><i class="fa fa-newspaper-o"></i><h3><a href="' + link + '">' + title + '</a></h3><div class="blog-article-description"><p>' + description.split(/\s+/).slice(0,20).join(" ") + '&hellip;</p></div></div></div></div>';
     return htmlTemplate;
@@ -20,7 +25,7 @@ function displayBlogPosts(feedUrl, maxItems, blogFeedContainer) {
       var output = "";
       $(response).find("item").slice(0, maxItems).each(function () {
         var el = $(this);
-        output += blogItemHtml(el.find("link").text(), el.find("title").text(), el.find("pubDate").text(), el.find("description").text())
+        output += blogItemHtml(el.find("link").text(), el.find("title").text(), el.find("pubDate").text(), strip(el.find("description").text()));
       });
       blogFeedContainer.html(output);
     },

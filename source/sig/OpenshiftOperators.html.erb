@@ -104,7 +104,7 @@ description: The Operator Framework is an open source toolkit to manage Kubernet
   </div>
   <div class="container wow fadeInUp">
     <div class="row-fluid">
-      <%= partial "sig/operators_articles" %>
+      <%= partial("sig/rss_articles", :locals => { :tag => "operators", :article_limit => 10}) %>
     </div>
   </div>
 </section>
