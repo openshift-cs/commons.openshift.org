@@ -132,7 +132,7 @@ gatherings:
         - id: "diane"
       track: "Virtual Stage"
     - local_time: "9:00 am"
-      session_name: "Fireside Chat with Red Hat's CTO"
+      session_name: "Fireside Chat with Jim Whitehurst, President and CEO (Red Hat)"
       track: "Virtual Stage"
     - local_time: "9:30 am"
       session_name: "OpenShift 4.0 and beyond"
