@@ -161,7 +161,7 @@ gatherings:
       speakers:
         - id: "sean_cohen"     
     - local_time: "1:00 pm"
-      session_name: "Production OpenShift on OpenStack Case Study: Bosch"
+      session_name: "Production OpenShift on OpenStack Case Study: BBVA"
       track: "Virtual Stage"
     - local_time: "1:30 pm"
       session_name: "AMA Panel with OpenShift PM and Engineering team members"
