@@ -149,6 +149,8 @@ gatherings:
       track: "Virtual Stage"
     - local_time: "11:30 am"
       session_name: "Production OpenShift Case Study:Deutsche Bahn"
+      speakers:
+        - id: "thomas_krause"
       track: "Virtual Stage"
     - local_time: "12:00 pm"
       session_name: "Production OpenShift Case Study: DTCC"  
@@ -162,14 +164,11 @@ gatherings:
       session_name: "Production OpenShift on OpenStack Case Study: Bosch"
       track: "Virtual Stage"
     - local_time: "1:30 pm"
-      session_name: "Production OpenShift on OpenStack Case Study: BBVA"
-      track: "Virtual Stage"
-    - local_time: "2:00 pm"
       session_name: "AMA Panel with OpenShift PM and Engineering team members"
       track: "Virtual Stage"
       speakers:
         - id: "joe_f"
-    - local_time: "3:00 pm"
+    - local_time: "2:30 pm"
       session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
       track: "Virtual Stage"
       speakers:
