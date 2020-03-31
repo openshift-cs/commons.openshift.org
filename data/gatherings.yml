@@ -112,7 +112,7 @@ gatherings:
     - label: "Registration Required"
       price: "Free!"
   lead_text: >-
-    The OpenShift Commons Gathering will now be virtually co-located in San Francisco with <a href="https://www.redhat.com/en/summit" target="_blank">
+    The OpenShift Commons Gathering will now be virtually co-located with <a href="https://www.redhat.com/en/summit" target="_blank">
     Red Hat Summit</a> on April 27th!
   info_text: >-
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
