@@ -127,6 +127,7 @@ gatherings:
     - local_time: "9:00 am"
       session_name: "Fireside Chat with Jim Whitehurst"
       speakers:
+        - id: "jim_whitehurst"
         - id: "diane"
       track: "Virtual Stage"
     - local_time: "9:20 am"
