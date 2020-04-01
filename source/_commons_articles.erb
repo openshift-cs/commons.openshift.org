@@ -1,7 +1,7 @@
 <% content_for :javascript do %>
 // fetch openshift-commons tagged articles only
 $(document).ready(function () {
-  var feedUrl = 'https://blog.openshift.com/category/openshift-commons/feed/';
+  var feedUrl = 'https://www.openshift.com/blog/tag/openshift-commons/rss.xml';
   var maxItems = 5;
   var blogFeedContainer = $("#blog-feed");
 
@@ -10,6 +10,11 @@ $(document).ready(function () {
     var dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
     htmlTemplate = '<div class="col-xs-12"><div class="blog-article"><div class="row"><div class="blog-item"><a href="' + link + '">' + title + '</a><p class="blog-pubDate"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;' + blogDate.toLocaleDateString("en-us", dateFormat) + '</p><div class="blog-description">' + description + '</div></div></div></div></div>';
     return htmlTemplate;
+  };
+
+   function strip(html) {
+    var doc = new DOMParser().parseFromString(html, 'text/html');
+    return doc.body.textContent || "";
   };
 
   $.ajax({
@@ -26,7 +31,7 @@ $(document).ready(function () {
       var output = "";
       $(response).find("item").slice(0, maxItems).each(function () {
 				var el = $(this);
-        var intro = el.find("description").text().split("</p>")[0].replace("<p>","");
+        var intro = strip(el.find("description").text().split("</p>")[0].replace("<p>",""));
         console.log(intro);
         output += blogItemHtml(el.find("link").text(), el.find("title").text(), el.find("pubDate").text(), intro);
       });

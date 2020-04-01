@@ -1,6 +1,6 @@
 <% content_for :javascript do %>
 $(document).ready(function () {
-  displayBlogPosts("https://blog.openshift.com/tag/Quay/feed/", 10, $("#blog-feed-sig"));
+  displayBlogPosts("https://www.openshift.com/blog/tag/<%= tag %>/rss.xml", <%= article_limit %>, $("#blog-feed-sig"));
 });
 <% end %>
 

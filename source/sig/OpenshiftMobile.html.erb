@@ -65,14 +65,14 @@ description: Discuss, develop and disseminate best practices for deploying and m
   <div class="row info_title wow fadeInUp">
     <div class="info_vertical animated">
       <h1>
-        OpenShift 3
+        OpenShift Container Platform
         <span>Articles</span>
       </h1>
     </div>
   </div>
   <div class="container wow fadeInUp">
     <div class="row-fluid">
-      <%= partial "sig/v3_articles" %>
+      <%= partial("sig/rss_articles", :locals => { :tag => "openshift-container-platform", :article_limit => 10}) %>
     </div>
   </div>
 </section>
