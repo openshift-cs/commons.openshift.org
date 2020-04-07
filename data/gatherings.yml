@@ -7,19 +7,19 @@ gatherings:
   location: "Important OSCG Amsterdam 2020 Update. Please Read."
   venue: "TBD"
   calendar_event_URL: ""
-  registration_text: "Registration Re-opening Soon"
-  registration_URL: "https://www.eventbrite.com/e/openshift-commons-gathering-amsterdam-2020-and-hands-on-workshops-tickets-90817929873"
+  registration_text: "Merged with Virtual Gathering at Red Hat Summit"
+  registration_URL: "https://commons.openshift.org/gatherings/Red_Hat_Summit_2020.html"
   pricing:
     - label: "Pricing"
-      price: "TBD"
+      price: "Free"
   lead_text: >-
     Important OSCG Amsterdam 2020 Update.Please.Read.
   info_text: >-
-    The OpenShift Commons Gathering/Amsterdam will be rescheduled to align with the soon-to-be announced new dates for CNCF/Kubecon/EU 
-    KubeCon + CloudNativeCon Europe (originally set for March 30 to April 2, 2020) has been postponed to instead be held in July or August 2020. The CNCF is finalizing the date and will announce it shortly.  We expect that by mid-summer, there will be more clarity on the effectiveness of control measures to enable safe travel to industry events.
-    We are looking forward to still delivering all of our sessions and workshops, including the OpenShift4Kubernetes Release Updates and Road Map, and all of our engineering project leads will still be delivering their “State of” Deep Dive talks. We’re working with our case study speakers and other guest speakers to ensure they can adjust their schedules (and vacation plans) to share their talks as well.
+    The OpenShift Commons Gathering/Amsterdam content will be merged into the upcoming Virtual Red Hat Summit Gathering on April 27th and the CNCF/Kubecon/NA in Boston.
+    We are looking forward to still delivering all of our sessions and workshops, including the OpenShift 4/Kubernetes Release Updates and Road Map, and all of our engineering project 
+    leads will still be delivering their “State of” Deep Dive talks as part of the Virtual Gathering on April 27th. We’re working with our case study speakers and other guest speakers to ensure they can adjust their schedules (and vacation plans) to share their talks as well.
     We will provide updates here soon, you can register now for the virtual event and get notified with further details via email about when you can tune in and how to do so.
-    If you’ve purchased a pass to the Gathering and any of the workshops, you will receive a full refund.
+    If you’ve purchased a pass to the Amsterdam Gathering and any of the workshops, you will receive a full refund.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   sponsoring_URL: "https://openshiftgathering.com/openshiftgathering_sponsors_application_amsterdam"
   schedule:
@@ -125,7 +125,7 @@ gatherings:
   sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
     - local_time: "9:00 am"
-      session_name: "Fireside Chat with Jim Whitehurst"
+      session_name: "Fireside Chat with IBM President Jim Whitehurst"
       speakers:
         - id: "jim_whitehurst"
         - id: "diane"
@@ -172,7 +172,29 @@ gatherings:
       session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
       track: "Virtual Stage"
       speakers:
-        - id: "diane"    
+        - id: "diane" 
+    - local_time: "1:00 pm"
+      session_name: "State of OKD4"
+      track: "On-Demand"
+      speakers:
+        - id: "christian_glombek"        
+    - local_time: "1:30 pm"
+      session_name: "State of Operator Framework"
+      track: "On-Demand"
+      speakers:
+        - id: "daniel_messer"   
+    - local_time: "2:00 pm"
+      session_name: "State of Platform Services"
+      track: "On-Demand"
+      speakers:
+        - id: "markito"
+        - id: "rob_szumski"
+        - id: "redbeard"
+    - local_time: "2:30 pm"
+      session_name: "State of Container Storage"
+      track: "On-Demand"
+      speakers:
+        - id: "duncan_hardie"   
 - name: "London 2020"
   menu: "show"
   language: "English"
