@@ -1455,7 +1455,7 @@ speakers:
     company: "Red Hat"
     role: "Solution Architect "
     photo: "speakers/stefan_vanoirschot.jpeg"
-  - id: "john_rzeszotarski" 
+  - id: "John Rzeszotarski" 
     name: "john_rzeszotarski"
     company: "PNC"
     URL: "https://www.pnc.com/en/about-pnc.html"
