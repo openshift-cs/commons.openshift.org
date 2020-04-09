@@ -189,7 +189,7 @@ gatherings:
       speakers:
         - id: "markito"
         - id: "rob_szumski"
-        - id: "redbeard"
+        - id: "ssadeghi"
     - local_time: "2:30 pm"
       session_name: "State of Container Storage"
       track: "On-Demand"
