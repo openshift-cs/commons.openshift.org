@@ -194,7 +194,8 @@ gatherings:
       session_name: "State of Container Storage"
       track: "On-Demand"
       speakers:
-        - id: "duncan_hardie"   
+        - id: "duncan_hardie" 
+        - id: "eran_tamir" 
     - local_time: "3:00 pm"
       session_name: "State of Container Security"
       track: "On-Demand"
