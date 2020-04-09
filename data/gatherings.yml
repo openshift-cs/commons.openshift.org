@@ -195,6 +195,12 @@ gatherings:
       track: "On-Demand"
       speakers:
         - id: "duncan_hardie"   
+    - local_time: "3:00 pm"
+      session_name: "State of Container Security"
+      track: "On-Demand"
+      speakers:
+        - id: "urvashi_mohnani"
+        - id: "sally_omalley"   
 - name: "London 2020"
   menu: "show"
   language: "English"
