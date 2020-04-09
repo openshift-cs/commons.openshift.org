@@ -132,6 +132,10 @@ gatherings:
       track: "Virtual Stage"
     - local_time: "9:20 am"
       session_name: "OpenShift 4.x and beyond"
+      speakers:
+        - id: "jessica_forrester" 
+        - id: "marc_curry"   
+        - id: "alex_crawford" 
       track: "Virtual Stage"
     - local_time: "10:20 am"
       session_name: "Customer Keynote: Public Health England"
