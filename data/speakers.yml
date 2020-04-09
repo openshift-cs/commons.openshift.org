@@ -1472,4 +1472,13 @@ speakers:
     company: "Red Hat"
     URL: "https://www.redhat.com"
     role: "Product Manager"
-    photo: "speakers/ramonacedo.jpeg"    
+    photo: "speakers/ramonacedo.jpeg"  
+  - id: "alex_crawford" 
+    name: "Alex Crawford"
+    company: "Red Hat"
+    URL: "https://www.redhat.com"
+    role: "Senior Principal Software Engineerr"   
+    
+    
+    
+    
