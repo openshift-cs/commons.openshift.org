@@ -159,6 +159,8 @@ gatherings:
       track: "Virtual Stage"
     - local_time: "12:50 pm"
       session_name: "State of OpenShift on OpenStack"
+      speakers:
+        - id: "ramonacedo" 
       track: "Virtual Stage"   
     - local_time: "1:20 pm"
       session_name: "Production OpenShift on OpenStack Case Study - BBVA"
