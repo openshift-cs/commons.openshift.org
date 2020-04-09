@@ -1483,5 +1483,10 @@ speakers:
     name: "Marc Curry"
     company: "Red Hat"
     URL: "https://www.redhat.com"
-    role: "OpenShift Senior Principal Product Manager
+    role: "OpenShift Senior Principal Product Manager"
     photo: "speakers/marc_curry.jpeg"     
+  - id: "alex_crawford" 
+    name: "Alex Crawford"
+    company: "Red Hat"
+    URL: "https://www.redhat.com"
+    role: "Senior Principal Software Engineer"   
