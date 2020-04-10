@@ -168,6 +168,9 @@ gatherings:
       track: "Virtual Stage"   
     - local_time: "1:20 pm"
       session_name: "Production OpenShift on OpenStack Case Study - BBVA"
+      speakers:
+        - id: "mikel_olasagasti_uranga" 
+        - id: "daniel_parkes" 
       track: "Virtual Stage"
     - local_time: "1:50 pm"
       session_name: "AMA Panel with OpenShift PM and Engineering team members"
