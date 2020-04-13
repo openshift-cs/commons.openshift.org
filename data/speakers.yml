@@ -8,7 +8,7 @@ speakers:
     photo: "speakers/diane.jpg"
   - id: "paul_cormier"
     name: "Paul Cormier"
-    role: "President"
+    role: "President and CEO"
     company: "Red Hat"
     URL: "https://redhat.com"
     intro: ""
