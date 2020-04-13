@@ -125,7 +125,7 @@ gatherings:
   sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
     - local_time: "9:00 am"
-      session_name: "Fireside Chat with Red Hat President Paul Cormier"
+      session_name: "Fireside Chat with Red Hat President and CEO Paul Cormier"
       speakers:
         - id: "paul_cormier"
         - id: "diane"
