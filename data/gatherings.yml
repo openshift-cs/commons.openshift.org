@@ -125,9 +125,9 @@ gatherings:
   sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
     - local_time: "9:00 am"
-      session_name: "Fireside Chat with IBM President Jim Whitehurst"
+      session_name: "Fireside Chat with Red Hat President Paul Cormier"
       speakers:
-        - id: "jim_whitehurst"
+        - id: "paul_cormier"
         - id: "diane"
       track: "Virtual Stage"
     - local_time: "9:20 am"
