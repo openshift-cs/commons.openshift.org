@@ -15,7 +15,7 @@ speakers:
     photo: "speakers/abrar_chisti.jpeg"      
   - id: "matt_hicks"
     name: "Matt Hicks"
-    role: "SVP, Software Engineering"
+    role: "Executive Vice President, Products & Technologies"
     company: "Red Hat"
     URL: "https://redhat.com"
     intro: ""
