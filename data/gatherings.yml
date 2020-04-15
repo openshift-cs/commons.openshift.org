@@ -125,7 +125,7 @@ gatherings:
   sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
     - local_time: "9:00 am"
-      session_name: "Fireside Chat with Red Hat's Executive Vice President of Products & Technologies"
+      session_name: "Fireside Chat with Red Hat's Executive Vice President, Products & Technologies"
       speakers:
         - id: "matt_hicks"
         - id: "diane"
