@@ -159,7 +159,6 @@ gatherings:
       session_name: "State of DevSecOps and Business Continuity"  
       speakers:
         - id: "john_willis" 
-        - id: "john_rzeszotarski"
       track: "Virtual Stage"
     - local_time: "12:50 pm"
       session_name: "State of OpenShift on OpenStack"
