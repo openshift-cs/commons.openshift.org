@@ -1520,7 +1520,7 @@ speakers:
     URL: "https://www.dtcc.com/"
     role: "Associate Director SRE - Infrastructure Services Architect"
     photo: "speakers/jason_olmstead.jpeg"
-  - id: "jyochay_ettun"
+  - id: "yochay_ettun"
     name: "Yochay Ettun"
     company: "cnvrg.io"
     URL: "hhttps://cnvrg.io/"
