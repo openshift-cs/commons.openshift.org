@@ -145,6 +145,7 @@ gatherings:
     - local_time: "10:50 am"
       session_name: "OpenShift Case Study - FeverMap.Net - Hacking the Crisis Finland"
       speakers:
+        - id: "matias_huhta"
         - id: "tero"
         - id : "ilkka_tengvall"
       track: "Virtual Stage"
