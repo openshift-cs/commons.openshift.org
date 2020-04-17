@@ -165,7 +165,7 @@ gatherings:
         - id: "john_willis" 
       track: "Virtual Stage"
     - local_time: "12:50 pm"
-      session_name: "Production OpenShift Case Study - AMEX"
+      session_name: "Production OpenShift Case Study - cnvrg.io"
       track: "Virtual Stage"      
     - local_time: "1:20 pm"
       session_name: "State of OpenShift on OpenStack"
