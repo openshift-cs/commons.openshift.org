@@ -1514,3 +1514,8 @@ speakers:
     company: "Red Hat"
     URL: "https://www.redhat.com"
     role: "Cloud and Storage Architect"
+  - id: "jason_olmstead"
+    name: "Jason Olmstead"
+    company: "The Depository Trust & Clearing Corporation (DTCC)"
+    URL: "https://www.dtcc.com/"
+    role: "Associate Director SRE - Infrastructure Services Architect"
