@@ -152,9 +152,12 @@ gatherings:
       session_name: "Production OpenShift Case Study - Deutsche Bahn"
       speakers:
         - id: "thomas_krause"
+        - id: "jason_olmstead"
       track: "Virtual Stage"
     - local_time: "11:50 am"
-      session_name: "Production OpenShift Case Study - DTCC"
+      session_name: "Production OpenShift Case Study - The Depository Trust & Clearing Corporation (DTCC)"
+      speakers: 
+        - id: "jason_olmstead"
       track: "Virtual Stage"
     - local_time: "12:20 pm"
       session_name: "State of DevSecOps and Business Continuity"  
