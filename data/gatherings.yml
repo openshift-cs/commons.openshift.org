@@ -143,9 +143,10 @@ gatherings:
         - id: "francesco_giannoccaro"
       track: "Virtual Stage"
     - local_time: "10:50 am"
-      session_name: "Production OpenShift Case Study - SulAmérica"
+      session_name: "OpenShift Case Study - FeverMap.Net - Hacking the Crisis Finland"
       speakers:
-        - id: "kadu_barral"
+        - id: "tero"
+        - id : "ilkka_tengvall"
       track: "Virtual Stage"
     - local_time: "11:20 am"
       session_name: "Production OpenShift Case Study - Deutsche Bahn"
