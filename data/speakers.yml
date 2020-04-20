@@ -1514,6 +1514,7 @@ speakers:
     company: "Red Hat"
     URL: "https://www.redhat.com"
     role: "Cloud and Storage Architect"
+    photo: "speakers/Mikel_Olasagasti.png"
   - id: "jason_olmstead"
     name: "Jason Olmstead"
     company: "The Depository Trust & Clearing Corporation (DTCC)"
