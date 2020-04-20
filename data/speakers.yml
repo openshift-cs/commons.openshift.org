@@ -253,6 +253,7 @@ speakers:
     photo: "speakers/ed_seymour.jpg"
   - id: "ilkka_tengvall"
     name: "Ilkka Tengvall"
+    role: "Senior Solutions Architect"
     company: "Red Hat"
     URL: "https://www.redhat.com"
     intro: "I am catalyst for my customers and partners, enhancing productivity and ways to work. I mainly consider how to get quicker time to market and quickly adapt to business needs."
