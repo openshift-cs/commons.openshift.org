@@ -153,6 +153,7 @@ gatherings:
       session_name: "Production OpenShift Case Study - Deutsche Bahn"
       speakers:
         - id: "thomas_krause"
+        - id: "gualter_baptista"
       track: "Virtual Stage"
     - local_time: "11:50 am"
       session_name: "Production OpenShift Case Study - The Depository Trust & Clearing Corporation (DTCC)"
