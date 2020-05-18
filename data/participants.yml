@@ -1631,3 +1631,6 @@ participants:
 - name: "Kasten"
   link: "https://www.kasten.io/"
   logo: "commons-logos/kasten.png"
+- name: "Blue Cross and Blue Shield of Florida"
+  link: "https://www.floridablue.com/"
+  logo: "commons-logos/bluecrossandblueshieldofflorida.png"
