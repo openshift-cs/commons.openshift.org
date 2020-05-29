@@ -2,7 +2,7 @@ gatherings:
 - name: "Community Development 2020"
   menu: "show"
   language: "English"
-  date: "2020-06-01"
+  date: "2020-06-15"
   time: "9:00 am - 3:00 pm Eastern"
   location: "Virtual Gathering on Community Development"
   venue: "Virtual"
@@ -14,8 +14,7 @@ gatherings:
     - label: "No Registration Required"
       price: "Free, Open!"
   lead_text: >-
-    The OpenShift Commons Gathering is now included in the <a href="https://www.redhat.com/en/summit" target="_blank">
-    Red Hat Summit Virtual Experience</a> on June 15th!
+    The next Virtual OpenShift Commons Gathering will be held on June 15th with a focus on community development and best practices for driving community engagement and measuring community health!
   info_text: >-
     The OpenShift Commons Gathering is bringing together community development experts from across the cloud native ecosystem to  share best practices and lessons learned building engaged and healthy open source communities. 
     Come hear open source community leaders from the open source software projects that underpin the Cloud Natice ecosystem. 
