@@ -9,7 +9,7 @@ gatherings:
   venue_URL: "https://www.twitch.tv/redhatopenshift"
   calendar_event_URL:
   registration_text: "Register Today!"
-  registration_URL: "https://tbd.com"
+  registration_URL: "https://eventbrite.com/e/openshift-commons-gathering-on-community-development-virtual-tickets-107274872030"
   pricing:
     - label: "No Registration Required"
       price: "Free, Open!"
