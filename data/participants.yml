@@ -1688,3 +1688,6 @@ participants:
 - name: "Button"
   link: "https://www.button.is"
   logo: "commons-logos/button.png"
+- name: "Epsagon"
+  link: "https://epsagon.com/"
+  logo: "commons-logos/epsagon.png"
