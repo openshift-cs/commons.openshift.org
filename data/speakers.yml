@@ -19,7 +19,7 @@ speakers:
     company: "University of Nebraska at Omaha"
     URL: "https://www.unomaha.edu/"
     intro: "Dr. Matt Germonprez is an active open source community researcher and member with a particular focus on that changing nature of open source engagement. The National Science Foundation, Alfred P. Sloan Foundation, Texas Instruments, Hewlett Packard, and Union Pacific have funded his applied and basic research work in this area."
-    photo: "speakersmatt_germonprez.jepg"
+    photo: "speakers/matt_germonprez.jpeg"
   - id: "joshua_simmons"
     name: "Joshua Simmons"
     role: "President, Open Source Initiative (OSI)"
