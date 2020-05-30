@@ -7,7 +7,7 @@ speakers:
     intro: "Diane Mueller is the founder of OpenShift Commons, co-chairs the OKD-WG, the Community Distribution of Kubernetes that powers Red Hat OpenShift."
     photo: "speakers/diane.jpg"
   - id: "joshua_simmons"
-    name: "Diane Mueller"
+    name: "Joshua Simmons"
     role: "President, Open Source Initiative (OSI)"
     company: "Open Source Initiative (OSI)"
     URL: "https://opensource.org"
