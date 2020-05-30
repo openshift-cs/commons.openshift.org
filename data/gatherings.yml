@@ -62,7 +62,7 @@ gatherings:
       track: "Virtual Stage"
       speakers:
         - id: "diane"
-    - local_time: "12:30 am"
+    - local_time: "12:30 pm"
       session_name: "Lessons Learned on the DevRel Road"
       speakers:
         - id: "tamao_nakahara"
