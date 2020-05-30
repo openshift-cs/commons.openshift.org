@@ -22,7 +22,6 @@ gatherings:
   event_footer_text: >-
     Please note: Pre-registration is required. Your Red Hat Summit Virtual Experience registration grants you access to the Virtual OpenShift Commons Gathering, on April 27 from 9 a.m. - 6 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   invite_link: "https://reg.summit.redhat.com/account/login?signin=189042c2327dcf3c98e56dd7d9c268d5"
-
   schedule:
     - local_time: "9:00 am"
       session_name: "Fireside Chat with Red Hat's Diane Mueller and Bitergia's Daniel Izquiredo"
@@ -39,7 +38,9 @@ gatherings:
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
+        - id: "liz_rice" 
         - id: "diane"
+        - id: "erin_boyd"
     - local_time: "10:30 am"
       session_name: "Keynote: ReCommoning Communities"
       speakers:
@@ -88,10 +89,11 @@ gatherings:
       speakers:
         - id: "diane"
     - local_time: "4:00 pm"
-      session_name: "The Road Ahead: The Science of Community Development"
+      session_name: "Community Development in the Age of Continuous Connection"
       track: "Virtual Stage"
       speakers:
         - id: "diane" 
+        - id: "daniel_izquierdo"
 - name: "Amsterdam 2020"
   menu: "show"
   language: "English"
