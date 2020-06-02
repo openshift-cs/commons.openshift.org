@@ -102,6 +102,7 @@ gatherings:
       speakers:
         - id: "joshua_simmons" 
         - id: "hongphuc_dang"
+        - id: "elana_hashman"
         - id: "daniel_izquierdo"
     - local_time: "3:30 pm"
       session_name: "Community Development in the Age of Continuous Connection"
