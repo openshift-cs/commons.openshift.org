@@ -103,13 +103,13 @@ gatherings:
         - id: "joshua_simmons" 
         - id: "hongphuc_dang"
         - id: "daniel_izquierdo"
-    - local_time: "4:00 pm"
+    - local_time: "3:30 pm"
       session_name: "Community Development in the Age of Continuous Connection"
       track: "Virtual Stage"
       speakers:
         - id: "diane" 
         - id: "daniel_izquierdo"
-    - local_time: "3:00 pm"
+    - local_time: "4:00 pm"
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
