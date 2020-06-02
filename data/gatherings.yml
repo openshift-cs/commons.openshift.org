@@ -101,7 +101,8 @@ gatherings:
       track: "Virtual Stage"
       speakers:
         - id: "joshua_simmons" 
-        - id: "diane"
+        - id: "hongphuc_dang"
+        - id: "daniel_izquierdo"
     - local_time: "4:00 pm"
       session_name: "Community Development in the Age of Continuous Connection"
       track: "Virtual Stage"
