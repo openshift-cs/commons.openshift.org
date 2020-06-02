@@ -39,7 +39,8 @@ gatherings:
       track: "Virtual Stage"
       speakers:
         - id: "liz_rice" 
-        - id: "diane"
+        - id: "alois_reitbauer"
+        - id: "bryan_liles"
         - id: "erin_boyd"
     - local_time: "10:30 am"
       session_name: "Keynote: ReCommoning Communities"
@@ -50,6 +51,7 @@ gatherings:
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
+        - id: "jabe_bloom"
         - id: "diane"
     - local_time: "11:30 am"
       session_name: "Measuring Community Health - CHAOSS"
@@ -61,7 +63,9 @@ gatherings:
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
-        - id: "diane"
+        - id: "daniel_izquierdo"
+        - id: "georg_link"
+        - id: "matt_germonprez"
     - local_time: "12:30 pm"
       session_name: "Lessons Learned on the DevRel Road"
       speakers:
@@ -71,7 +75,10 @@ gatherings:
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
-        - id: "diane"  
+        - id: "tamao_nakahara"
+        - id: "ryanj"  
+        - id: "gina_rosenthal"
+        - id: "toni_willberg"
     - local_time: "1:30 pm"
       session_name: "Lessons Learned under the Big Tent: The OpenStack Journey"
       speakers: 
@@ -80,7 +87,9 @@ gatherings:
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
+        - id: "thierry_carrez"
         - id: "diane"
+        - id: "lisamarie_namphy"
       track: "Virtual Stage"
     - local_time: "2:30 pm"
       session_name: "Building Bridges Between Open Source Communities"  
@@ -90,6 +99,7 @@ gatherings:
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
+        - id: "joshua_simmons" 
         - id: "diane"
     - local_time: "4:00 pm"
       session_name: "Community Development in the Age of Continuous Connection"
@@ -97,6 +107,12 @@ gatherings:
       speakers:
         - id: "diane" 
         - id: "daniel_izquierdo"
+    - local_time: "3:00 pm"
+      session_name: "AMA Live Chat with Speaker, Panelists and Community"
+      track: "Virtual Stage"
+      speakers:
+        - id: "daniel_izquierdo" 
+        - id: "diane"
 - name: "Amsterdam 2020"
   menu: "show"
   language: "English"
