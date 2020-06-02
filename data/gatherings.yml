@@ -88,8 +88,9 @@ gatherings:
       track: "Virtual Stage"
       speakers:
         - id: "thierry_carrez"
-        - id: "diane"
+        - id: "amy_marrich"
         - id: "lisamarie_namphy"
+        - id: "diane"
       track: "Virtual Stage"
     - local_time: "2:30 pm"
       session_name: "Building Bridges Between Open Source Communities"  
