@@ -63,6 +63,7 @@ gatherings:
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
+        - id: "vicky_brasseur"
         - id: "daniel_izquierdo"
         - id: "georg_link"
         - id: "matt_germonprez"
