@@ -108,7 +108,7 @@ speakers:
     name: "Joshua Simmons"
     role: "President, Open Source Initiative (OSI)"
     company: "SalesForce"
-    URL: "https://saleforce.org"
+    URL: "https://opensource.salesforce.com"
     intro: "Joshua Simmons helps companies, nonprofits, and public institutions get the most out of free and open source software (FOSS), be good open source citizens, and maintain great relationships with FOSS communities."
     photo: "speakers/joshua_simmons.jpg" 
   - id: "daniel_izquierdo"
