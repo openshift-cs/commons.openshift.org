@@ -30,7 +30,7 @@ gatherings:
         - id: "daniel_izquierdo"
       track: "Virtual Stage"
     - local_time: "9:30 am"
-      session_name: "Lessons Learned: Incubating Cloud Native Projects"
+      session_name: "Keynote Lessons Learned: Incubating Cloud Native Projects"
       speakers:
         - id: "liz_rice" 
       track: "Virtual Stage"
@@ -46,12 +46,14 @@ gatherings:
       session_name: "Keynote: ReCommoning Communities"
       speakers:
         - id: "jabe_bloom"
+        - id: "dimeji_onafuwa"
       track: "Virtual Stage"
     - local_time: "11:00 am"
       session_name: "AMA Live Chat with Speaker, Panelists and Community"
       track: "Virtual Stage"
       speakers:
         - id: "jabe_bloom"
+        - id: "dimeji_onafuwa"
         - id: "diane"
     - local_time: "11:30 am"
       session_name: "Measuring Community Health - CHAOSS"
