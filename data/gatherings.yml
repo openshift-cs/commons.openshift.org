@@ -113,12 +113,6 @@ gatherings:
       speakers:
         - id: "diane" 
         - id: "daniel_izquierdo"
-    - local_time: "4:00 pm"
-      session_name: "AMA Live Chat with Speaker, Panelists and Community"
-      track: "Virtual Stage"
-      speakers:
-        - id: "daniel_izquierdo" 
-        - id: "diane"
 - name: "Amsterdam 2020"
   menu: "show"
   language: "English"
