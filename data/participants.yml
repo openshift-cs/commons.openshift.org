@@ -1739,3 +1739,6 @@ participants:
 - name: "Proxy"
   link: "https://www.proxy.nl/"
   logo: "commons-logos/proxy.png"
+- name: "U.S. Bureau of Labor Statistics"
+  link: "https://www.bls.gov/"
+  logo: "commons-logos/u.s.bureauoflaborstatistics.png"
