@@ -1742,3 +1742,6 @@ participants:
 - name: "U.S. Bureau of Labor Statistics"
   link: "https://www.bls.gov/"
   logo: "commons-logos/u.s.bureauoflaborstatistics.png"
+- name: "BigID"
+  link: "https://bigid.com/"
+  logo: "commons-logos/bigid.png"
