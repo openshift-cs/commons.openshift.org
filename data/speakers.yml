@@ -1577,7 +1577,7 @@ speakers:
     photo: "speakers/gordon_tillmore.jpeg"
   - id: "chuck_dubuque"
     name: "Chuck Dubuque"
-    company: "Red Hat"Rain is an active technical contributor with RDO, Fedora Project, OpenStack, TripleO, and DjangoGirls.
+    company: "Red Hat"
     URL: "https://www.packet.com"
     role: "Product Marketing, Red Hat Cloud Infrastructure"
     photo: "speakers/chuck_dubuque.jpeg"
