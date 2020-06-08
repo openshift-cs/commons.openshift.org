@@ -93,8 +93,6 @@ gatherings:
         - id: "thierry_carrez"
         - id: "amy_marrich"
         - id: "lisamarie_namphy"
-        - id: "rain"
-        - id: "lee"
       track: "Virtual Stage"
     - local_time: "2:30 pm"
       session_name: "Building Bridges Between Open Source Communities"  
