@@ -30,7 +30,7 @@ speakers:
   - id: "vicky_brasseur"
     name: "VM Brasseur"
     role: "Open Source Business Strategist, Author of 'Forge Your Future with Open Source'"
-    company: "Shoeless Consulting"
+    company: "Independent"
     URL: "https://fossforge.com"
     intro: "VM Brasseur has spent 20+ years in the tech industry leading software development departments and teams, and providing technical management and leadership consulting for small and medium businesses; and has nearly 30 years of free and open source software experience and advises companies about free/open source, technology, community, business, and the intersections between them."
     photo: "speakers/vicky_brasseur.jpeg" 
