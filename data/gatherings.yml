@@ -11,8 +11,8 @@ gatherings:
   registration_text: "Join Us on Twitch Today!"
   registration_URL: "https://www.twitch.tv/redhatopenshift"
   pricing:
-    - label: "Pre-registration is requested"
-      price: "Free, Open and Livestreaming!"
+    - label: "Free"
+      price: "Livestreaming on twitch.tv/redhatopenshift!"
   lead_text: >-
     The next Virtual OpenShift Commons Gathering will be held on June 15th with a focus on community development and best practices for driving community engagement and measuring community health!
   info_text: >-
@@ -20,7 +20,7 @@ gatherings:
     Come hear open source community leaders from the open source software projects that underpin the Cloud Natice ecosystem. 
     This event will gather community leads, engineers, developers, and devops professionals together to explore ideas on building the foundations for future collaborations across communities
   event_footer_text: >-
-    Please note: Pre-registration is requested, not required. This event will livestream on twitch.tv, youtube and facebook. This forum will feature a discussion of best practices and lessons learned driving community engagment and measuring community health for the open source projects that support OpenShift and Kubernetes--all from community leads across the Cloud Native ecosystem. 
+    Please note: Register to stay in touch. This event will livestream on twitch.tv, youtube and facebook. This forum will feature a discussion of best practices and lessons learned driving community engagment and measuring community health for the open source projects that support OpenShift and Kubernetes--all from community leads across the Cloud Native ecosystem. 
   invite_link: "https://eventbrite.com/e/openshift-commons-gathering-on-community-development-virtual-tickets-107274872030"
   schedule:
     - local_time: "9:00 am"
