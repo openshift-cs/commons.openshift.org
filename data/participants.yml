@@ -1745,3 +1745,6 @@ participants:
 - name: "BigID"
   link: "https://bigid.com/"
   logo: "commons-logos/bigid.png"
+- name: "Paloalto Networks"
+  link: "https://www.paloaltonetworks.com/"
+  logo: "commons-logos/paloaltonetworks.png"
