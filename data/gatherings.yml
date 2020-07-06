@@ -1,10 +1,10 @@
 gatherings:
-- name: "Building MicroServices on OpenShift for Cloud Natives Hands-on Workshop"
+- name: "Building Microservices on OpenShift for Cloud Natives Hands-on Workshop"
   menu: "show"
   language: "English"
   date: "2020-07-29"
   time: "9:00 am - 3:00 pm Eastern"
-  location: "Gathering on Building MicroServices with OpenShift for Cloud Natives (Virtual)"
+  location: "Gathering on Building Microservices with OpenShift for Cloud Natives (Virtual)"
   venue: "Virtual via Hopin.to and LiveStreaming on Youtube, Facebook and Twitch"
   venue_URL: "https://www.twitch.tv/redhatopenshift"
   calendar_event_URL:
@@ -16,7 +16,7 @@ gatherings:
   lead_text: >-
     This Hands-on OpenShift Commons Workshop will be held on July 29th and co-hosted with IBM Cloud. Join us for a day of live panels, hands-on labs and live AMA sessions and get your Cloud Native journey started.  
   info_text: >-
-    Join us for a hands-on interactive workshop on deploying MicroServices for Cloud Natives on OpenShift 4.3 on IBM Cloud. 
+    Join us for a hands-on interactive workshop on deploying Microservices for Cloud Natives on OpenShift 4.3 on IBM Cloud. 
     You will learn how to deployand scale a microservice, use an operator to deploy IBM Cloudant and bind to a microservice, Observe the cluster using Log Analysis with LogDNA and using IBM Cloud Monitoring with Sysdig. 
     You'll get step-by-step guidance from leading Cloud Native experts from IBM Cloud and access to hands-on virtual labs on IBM Cloud.
   event_footer_text: >-
