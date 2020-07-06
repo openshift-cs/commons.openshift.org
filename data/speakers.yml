@@ -1688,7 +1688,7 @@ speakers:
     URL: "https://fevermap.net/"
     role: "Co-Founder and CTO of Simplr"
     photo: "speakers/matus_fevermap.jpg"
-    - id: "zach"
+  - id: "zach"
     name: "Zachary Reed"
     company: "IBM Cloud"
     role: "Product Marketing Team Lead"
