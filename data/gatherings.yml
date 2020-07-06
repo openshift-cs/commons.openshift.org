@@ -1,4 +1,68 @@
 gatherings:
+- name: "Build MicroServices on OpenShift for Cloud Natives Hands-on Workshop"
+  menu: "show"
+  language: "English"
+  date: "2020-07-29"
+  time: "9:00 am - 3:00 pm Eastern"
+  location: "Gathering on Community Development (Virtual)"
+  venue: "Virtual via Hopin.to and LiveStreaming on Youtube, Facebook and Twitch"
+  venue_URL: "https://www.twitch.tv/redhatopenshift"
+  calendar_event_URL:
+  registration_text: "REGISTRATION COMING SOON!"
+  registration_URL: "https://commons.openshift.org"
+  pricing:
+    - label: "Pre-Registration Required"
+      price: "Free"
+  lead_text: >-
+    The next Virtual OpenShift Commons Gathering will be held on July 29th with a day-long hands-on interative workshop on deploying MicroServices for Cloud Natives on OpenShift 4.3 on IBM Cloud"
+  info_text: >-
+    The OpenShift Commons Gathering is bringing together Cloud Native experts from the IBM Cloud team to share best practices forbuilding Microservices on OpenShift deployed on IBM Cloud. 
+    Come hear open source community leaders from the open source software projects that underpin the Cloud Native ecosystem. 
+    This event will gather community leads, engineers, developers, and devops professionals together to explore ideas on building the foundations for future collaborations across communities
+  event_footer_text: >-
+    Please note: Register to stay in touch. This event will livestream on twitch.tv, youtube and facebook. This forum will feature a discussion of best practices and lessons learned driving community engagment and measuring community health for the open source projects that support OpenShift and Kubernetes--all from community leads across the Cloud Native ecosystem. 
+  invite_link: "https://eventbrite.com/e/openshift-commons-gathering-on-community-development-virtual-tickets-107274872030"
+  schedule:
+    - local_time: "9:00 am"
+      session_name: "Fireside Chat with Red Hat's Diane Mueller and IBM Cloud's Zachary Reed"
+      speakers:
+        - id: "diane"
+      track: "Virtual Stage"
+    - local_time: "9:30 am"
+      session_name: "Build it with OpenShift Panel: Sai Vennam, Nigel Brown, Josh Mintz, Peter Klenk, Ram Vennam"
+      track: "Virtual Stage"
+    - local_time: "10:30 am"
+      session_name: "Hands-On Workshop: Deploying Microservice with OpenShift on IBM Cloud: Ram Vennam, Chris Rosen, Alex Parker"
+      track: "Virtual Stage"
+    - local_time: "1:00 pm"
+      session_name: "Recap: Lessons Learned/Live AMA/Feedback on Workshop with participants and workshop leads"
+      track: "Virtual Stage"
+    - local_time: "1:30 pm"
+      session_name: "Panel: What's New in Open Source at IBM: Dave Tropeano (IBM Cloud Satellite) and Doug Davis (IBM Cloud Code Engine)"
+      track: "Virtual Stage"
+    - local_time: "2:00 pm"
+      session_name: "Close: Additional Resources and Next Steps with Red Hat's Diane Mueller and IBM Cloud's Zachary Reed"
+      speakers:
+        - id: "diane"
+      track: "Virtual Stage"
+    - local_time: "10:00 am"
+      session_name: "IBM + Red Hat - Sai Vennam"
+      track: "On Demand"
+    - local_time: "10:30 pm"
+      session_name: "Hybrid Multi-Cloud Use Cases - Sai Vennam"
+      track: "On Demand"
+    - local_time: "11:00 am"
+      session_name: "What is OpenShift - Sai Vennam"
+      track: "On Demand"
+    - local_time: "11:30 am"
+      session_name: "Kubernetes and OpenShift: What's the Difference - Sai Vennam"
+      track: "On Demand"
+    - local_time: "11:00 am"
+      session_name: "Intro to OpenShift on IBM Cloud - Sai Vennam"
+      track: "On Demand"
+    - local_time: "11:30 am"
+      session_name: "Guided Tour of OpenShift on IBM Cloud Sai Vennam"
+      track: "On Demand"
 - name: "Community Development 2020"
   menu: "show"
   language: "English"
