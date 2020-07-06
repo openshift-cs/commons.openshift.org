@@ -1,10 +1,10 @@
 gatherings:
-- name: "Build MicroServices on OpenShift for Cloud Natives Hands-on Workshop"
+- name: "Building MicroServices on OpenShift for Cloud Natives Hands-on Workshop"
   menu: "show"
   language: "English"
   date: "2020-07-29"
   time: "9:00 am - 3:00 pm Eastern"
-  location: "Gathering on Community Development (Virtual)"
+  location: "Gathering on Building MicroServices with OpenShift for Cloud Natives (Virtual)"
   venue: "Virtual via Hopin.to and LiveStreaming on Youtube, Facebook and Twitch"
   venue_URL: "https://www.twitch.tv/redhatopenshift"
   calendar_event_URL:
