@@ -14,9 +14,12 @@ gatherings:
     - label: "Pre-Registration Required"
       price: "Free"
   lead_text: >-
-    The next Virtual OpenShift Commons Gathering will be held on July 29th with a day-long hands-on interative workshop on deploying MicroServices for Cloud Natives on OpenShift 4.3 on IBM Cloud"
+    This Hands-on OpenShift Commons Workshop will be held on July 29th and co-hosted with IBM Cloud.  
+    Join us for a day-long hands-on interactive workshop on deploying MicroServices for Cloud Natives on OpenShift 4.3 on IBM Cloud. 
+    OpenShift Commons is bringing Cloud Native and OpenShift experts from the IBM Cloud team to share best practices and practical hands-on advice for building Microservices with OpenShift. 
+    Join us for a day of live panels, hands-on labs and live AMA sessions and get your Cloud Native journey started. 
   info_text: >-
-    The OpenShift Commons Gathering is bringing together Cloud Native experts from the IBM Cloud team to share best practices forbuilding Microservices on OpenShift deployed on IBM Cloud. 
+    The OpenShift Commons Virtual Hands-on Workshop is bringing together Cloud Native experts from the IBM Cloud team to share best practices for building Microservices on OpenShift deployed on IBM Cloud. 
     Come hear open source community leaders from the open source software projects that underpin the Cloud Native ecosystem. 
     This event will gather community leads, engineers, developers, and devops professionals together to explore ideas on building the foundations for future collaborations across communities
   event_footer_text: >-
