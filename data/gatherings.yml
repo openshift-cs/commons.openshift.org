@@ -69,7 +69,7 @@ gatherings:
       speakers: 
         - id: "sai_vennam"
       track: "On Demand"
-    - local_time: "10:30 pm"
+    - local_time: "10:30 am"
       session_name: "Hybrid Multi-Cloud Use Cases"
       speakers: 
         - id: "sai_vennam"
@@ -84,8 +84,13 @@ gatherings:
       speakers: 
         - id: "sai_vennam"
       track: "On Demand"
-    - local_time: "11:00 am"
+    - local_time: "12:00 am"
       session_name: "Intro to OpenShift on IBM Cloud"
+      speakers: 
+        - id: "sai_vennam"
+      track: "On Demand"
+    - local_time: "12:30 pm"
+      session_name: "What's new in Red Hat OpenShift 4.3?"
       speakers: 
         - id: "sai_vennam"
       track: "On Demand"
