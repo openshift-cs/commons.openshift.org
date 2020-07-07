@@ -84,7 +84,7 @@ gatherings:
       speakers: 
         - id: "sai_vennam"
       track: "On Demand"
-    - local_time: "12:00 am"
+    - local_time: "12:00 pm"
       session_name: "Intro to OpenShift on IBM Cloud"
       speakers: 
         - id: "sai_vennam"
@@ -94,7 +94,7 @@ gatherings:
       speakers: 
         - id: "sai_vennam"
       track: "On Demand"
-    - local_time: "11:30 am"
+    - local_time: "1:00 pm"
       session_name: "Guided Tour of OpenShift on IBM Cloud"
       speakers: 
         - id: "sai_vennam"
