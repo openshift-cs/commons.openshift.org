@@ -37,6 +37,7 @@ gatherings:
         - id: "josh_mintz"
         - id: "peter_klenk"
         - id: "ram_vennam"
+        - id: "doug"
       track: "Virtual Stage"
     - local_time: "10:30 am"
       session_name: "Hands-On Workshop: Deploying Microservice with OpenShift 4 on IBM Cloud: "
@@ -53,12 +54,6 @@ gatherings:
         - id: "ram_vennam"
       track: "Virtual Stage"
     - local_time: "1:30 pm"
-      session_name: "Panel: What's New in Open Source at IBM: Dave Tropeano (IBM Cloud Satellite) and Doug Davis (IBM Cloud Code Engine)"
-      speakers: 
-         - id: "david_tropeano"
-         - id: "doug"
-      track: "Virtual Stage"
-    - local_time: "2:00 pm"
       session_name: "Close: Additional Resources and Next Steps with Red Hat's Diane Mueller and IBM Cloud's Zachary Reed"
       speakers:
         - id: "diane"
