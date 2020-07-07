@@ -20,7 +20,7 @@ gatherings:
     You will learn how to deployand scale a microservice, use an operator to deploy IBM Cloudant and bind to a microservice, Observe the cluster using Log Analysis with LogDNA and using IBM Cloud Monitoring with Sysdig. 
     You'll get step-by-step guidance from leading Cloud Native experts from IBM Cloud and access to hands-on virtual labs on IBM Cloud.
   event_footer_text: >-
-    Please note: Register to stay in touch. This event will livestream on twitch.tv, youtube and facebook. This forum will feature a discussion of best practices and lessons learned driving community engagment and measuring community health for the open source projects that support OpenShift and Kubernetes--all from community leads across the Cloud Native ecosystem. 
+    Please note: Register to stay in touch. This event will livestream on twitch.tv, youtube and facebook. The Hands-on Workshop will cover deploying microservices to an OpenShift cluster, viewing logs and metrics, and the use of an operator to provision IBM Cloud services. You'll get step-by-step guidance on Initializing an OpenShift application with a repository URL resulting in a Builder, Deployment, and Service. Services covered:  OpenShift, IBM Cloudant,  LogDNA and  IBM Cloud Monitoring with Sysdig.     
   invite_link: "https://commons.openshift.org"
   schedule:
     - local_time: "9:00 am"
