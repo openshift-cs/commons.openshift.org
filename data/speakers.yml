@@ -1691,7 +1691,7 @@ speakers:
   - id: "zach"
     name: "Zachary Reed"
     company: "IBM Cloud"
-    role: "Product Marketing Team Lead"
+    role: "OpenShift Evangelist"
     photo: "speakers/zach_reed.jpg"
   - id: "sai_vennam"
     name: "Sai Vennam"
