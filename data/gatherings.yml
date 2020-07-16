@@ -11,7 +11,7 @@ gatherings:
   registration_text: "REGISTER NOW"
   registration_URL: "https://hopin.to/events/openshift-commons-gathering-building-microservices-with-openshift-4-for-cloud-natives"
   pricing:
-    - label: "Pricing:"
+    - label: "Pricing"
       price: "Free"
   lead_text: >-
     The OpenShift Commons Gathering will be live virtually on July 29th, co-hosted with IBM Cloud. This Gathering features a hands-on interactive workshop as well as live panels and AMA sessions to get your Cloud Native journey started.  
