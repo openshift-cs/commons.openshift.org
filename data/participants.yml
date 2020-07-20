@@ -1771,3 +1771,6 @@ participants:
 - name: "SIX"
   link: "https://www.six-group.com/en/home.html"
   logo: "commons-logos/six.svg"
+- name: "Starburst"
+  link: "https://www.starburstdata.com/"
+  logo: "commons-logos/starburst.png"
