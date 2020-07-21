@@ -1,4 +1,86 @@
 gatherings:
+- name: "LATAM 2020"
+  menu: "show"
+  language: "Spanish"
+  date: "2020-09-21"
+  time: "8:00 am - 6:00 pm"
+  location: "Virtual"
+  google_maps_URL: >-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.017574441629!2d-58.42272988519615!3d-34.578421863666264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59cd6452553%3A0x6b521307d135059a!2sThe+Rural!5e0!3m2!1sen!2sca!4v1562007664906!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  venue: "El Central de La Rural"
+  venue_URL: "http://commons.openshift.org"
+  venue_address: ""
+  calendar_event_URL:
+  registration_text: "Confirme su asistencia"
+  registration_URL: "http://commons.openshift.org"
+  head_text: >-
+    Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift.
+  headers:
+    overview: Descripción del Evento
+    schedule: Agenda
+    speakers: Disertantes
+    venue: Sede del Evento
+  overview_section:
+    where: DÓNDE
+    when: CUÁNDO
+    price: COSTO
+    alternative_date_month: Agosto
+    alternative_date_day_of_week: Jueves
+    invite_a_friend: Invita a un amigo
+  pricing:
+    - label: "RSVP Requerido"
+      price: "GRATIS"
+  lead_text: >-
+    Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift!
+  info_text: >-
+    El OpenShift Commons Gathering tendrá como eje las charlas a cargo de usuarios finales sobre implementaciones de OpenShift en modo de producción, en las que compartirán sus casos
+    de uso, aprendizajes y buenas prácticas con expertos de todas partes del mundo. También analizará las tecnologías de contenedores, las buenas prácticas del desarrollo
+    de aplicaciones nativas de la nube y los proyectos de software open source que apuntalan al ecosistema OpenShift para llevar a OpenShift al siguiente nivel del cloud computing
+    nativo. El evento reunirá a desarrolladores, profesionales de DevOps y administradores de sistemas que explorarán y colaborarán para lograr que OpenShift y las tecnologías
+    de contenedores sean exitosas y seguras a gran escala.
+  schedule_leadin: >-
+    La jornada ofrecerá una serie de disertaciones, paneles y charlas al estilo TED así como también espacios de networking.
+  videos_text: >-
+    Vea las ediciones anteriores de otros OpenShift Commons
+  event_footer_text: >-
+    El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift. Lo invitamos a participar de este evento.
+  invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
+  sponsors:
+  sponsoring_URL: "mailto:mterrera@redhat.com"
+  sponsor_button_text: Aplicar para ser un patrocinador
+  schedule:
+    - local_time: "9:00 am"
+      session_name: "Registration Opens"
+    - local_time: "9:30 am"
+      session_name: "Welcome to OpenShift Commons: Collaboration in Action"
+      speakers:
+        - id: "santiago"
+        - id: "diane"
+    - local_time: "9:45 am"
+      session_name: "State of the Union: Unified Hybrid Cloud Vision"
+      speakers:
+        - id: "julio_tapia"
+    - local_time: "10:30 am"
+      session_name: "OpenShift 4.5 Release Update and Road Map"
+    - local_time: "11:00 am"
+      session_name: "Case Study #1"
+    - local_time: "12:00 am"
+      session_name: "Case Study #2"
+    - local_time: "12:40 am"
+      session_name: "Case Study #3"
+    - local_time: "13:00 pm"
+      session_name: "Case Study #4"
+    - local_time: "15:00 pm"
+      session_name: "Case Study #5"
+    - local_time: "15:30 pm"
+      session_name: "Case Study #6"
+    - local_time: "16:00 pm"
+      session_name: "Case Study #7"
+    - local_time: "16:30 pm"
+      session_name: "Closing Wrap Up: The Road Ahead at OpenShift"
+      speakers:
+        - id: "santiago"
+        - id: "diane"
 - name: "Building Microservices on OpenShift for Cloud Natives Hands-on Workshop"
   menu: "show"
   language: "English"
