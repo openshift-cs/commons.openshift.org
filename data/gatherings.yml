@@ -9,7 +9,7 @@ gatherings:
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.017574441629!2d-58.42272988519615!3d-34.578421863666264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59cd6452553%3A0x6b521307d135059a!2sThe+Rural!5e0!3m2!1sen!2sca!4v1562007664906!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   venue: "LATAM"
   venue_URL: "http://commons.openshift.org"
-  venue_address: ""
+  venue_address: "LATAM"
   calendar_event_URL:
   registration_text: "Confirme su asistencia"
   registration_URL: "http://commons.openshift.org"
@@ -50,21 +50,19 @@ gatherings:
   sponsor_button_text: Aplicar para ser un patrocinador
   schedule:
     - local_time: "9:00 am"
-      session_name: "Registration Opens"
-    - local_time: "9:30 am"
       session_name: "Welcome to OpenShift Commons: Collaboration in Action"
       speakers:
         - id: "santiago"
         - id: "diane"
-    - local_time: "9:45 am"
+    - local_time: "9:30 am"
       session_name: "State of the Union: Unified Hybrid Cloud Vision"
       speakers:
         - id: "julio_tapia"
-    - local_time: "10:30 am"
+    - local_time: "10:00 am"
       session_name: "OpenShift 4.5 Release Update and Road Map"
     - local_time: "11:00 am"
       session_name: "Case Study #1"
-    - local_time: "12:00 am"
+    - local_time: "12:00 pm"
       session_name: "Case Study #2"
     - local_time: "12:30 pm"
       session_name: "Case Study #3"
