@@ -54,14 +54,14 @@ gatherings:
       speakers:
         - id: "santiago"
         - id: "diane"
-    - local_time: "9:30 am"
+    - local_time: "9:15 am"
       session_name: "Shifting Culture: Transformation with DevOps "
       speakers:
         - id: "littleidea"
     - local_time: "10:00 am"
-      session_name: "Case Study: Telecom Argentina"
+      session_name: "Case Study: Telecom"
     - local_time: "10:30 am"
-      session_name: "Case Study: Banco Santander Chile"
+      session_name: "Case Study: Financial Services"
     - local_time: "11:00 am"
       session_name: "Round Table on Cultural Transformation and Modernización"
     - local_time: "12:00 pm"
@@ -80,7 +80,7 @@ gatherings:
       session_name: "Case Study: Argentina"
     - local_time: "15:00 pm"
       session_name: "Ask-Me-Anything AMA Session with Red Hat Product Managers, Engineers and Guest Speakers"
-    - local_time: "15:30 pm"
+    - local_time: "15:45 pm"
       session_name: "Closing Wrap Up: The Road Ahead at OpenShift"
       speakers:
         - id: "santiago"
