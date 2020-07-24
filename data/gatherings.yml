@@ -17,7 +17,7 @@ gatherings:
     Donde se congregan usuarios, socios, clientes, colaboradores y líderes de proyectos de desarrollo para colaborar y trabajar codo a codo con OpenShift.
   headers:
     overview: Descripción del Evento
-    schedule: Agenda
+    schedule: Schedule - Argentina Standard Time (ART)
     speakers: Disertantes
     venue: Sede del Evento
   overview_section:
