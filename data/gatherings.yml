@@ -45,9 +45,6 @@ gatherings:
   event_footer_text: >-
     El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift. Lo invitamos a participar de este evento.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
-  sponsors:
-  sponsoring_URL: "mailto:mterrera@redhat.com"
-  sponsor_button_text: Aplicar para ser un patrocinador
   schedule:
     - local_time: "9:00 am"
       session_name: "Welcome to OpenShift Commons: Collaboration in Action"
