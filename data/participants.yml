@@ -1774,3 +1774,6 @@ participants:
 - name: "Starburst"
   link: "https://www.starburstdata.com/"
   logo: "commons-logos/starburst.png"
+- name: "Solutions StudIO"
+  link: "https://solstud.io/"
+  logo: "commons-logos/solutionsstudio.png"
