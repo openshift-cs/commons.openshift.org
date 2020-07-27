@@ -87,11 +87,11 @@ gatherings:
   language: "English"
   date: "2020-07-29"
   time: "9:00 am - 3:00 pm Eastern"
-  location: "Building Microservices with OpenShift 4 for Cloud Natives"
+  location: "Building Microservices with OpenShift 4 for Cloud Natives - Postponed"
   venue: "Virtual Interactive Experience"
   venue_URL: "https://hopin.to/events/openshift-commons-gathering-building-microservices-with-openshift-4-for-cloud-natives"
   calendar_event_URL:
-  registration_text: "REGISTER NOW"
+  registration_text: "Postponed"
   registration_URL: "https://hopin.to/events/openshift-commons-gathering-building-microservices-with-openshift-4-for-cloud-natives"
   pricing:
     - label: "Pricing"
@@ -99,7 +99,7 @@ gatherings:
   lead_text: >-
     The OpenShift Commons Gathering will be live virtually on July 29th, co-hosted with IBM Cloud. This Gathering features a hands-on interactive workshop as well as live panels and AMA sessions to get your Cloud Native journey started.  
   info_text: >-
-    Join us for a hands-on interactive workshop on deploying Microservices for Cloud Natives on OpenShift 4.3 on IBM Cloud. 
+    This event has been postponed due to technical/logistics issue. Check back soon for a new date/time and join us for a hands-on interactive workshop on deploying Microservices for Cloud Natives on OpenShift 4.3 on IBM Cloud. 
     You will learn how to deploy and scale a microservice, use an operator to deploy IBM Cloud and bind to a microservice, Observe the cluster using Log Analysis with LogDNA and using IBM Cloud Monitoring with Sysdig. 
     You'll get step-by-step guidance from leading Cloud Native experts from IBM Cloud and access to hands-on virtual labs on IBM Cloud.
   event_footer_text: >-
