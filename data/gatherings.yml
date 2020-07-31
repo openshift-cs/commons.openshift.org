@@ -1,4 +1,106 @@
 gatherings:
+- name: "Kubecon North America Virtual OpenShift Commons Gathering 2020"
+  menu: "show"
+  language: "English"
+  date: "2020-11-17"
+  time: "9:00 am - 8:00 pm"
+  location: "Virtual Gathering - Day Zero at Kubecon North America"
+  venue: "Red Hat Summit Virtual Experience"
+  venue_URL: "https://www.redhat.com/en/summit"
+  calendar_event_URL:
+  registration_text: "Registration Opens Soon!"
+  registration_URL: "https://commons.openshift.org/events.html"
+  pricing:
+    - label: "Registration Required"
+      price: "Free!"
+  lead_text: >-
+    The OpenShift Commons Gathering is a Day Zero event co-located with Kubecon North America</a> on November 17th!
+  info_text: >-
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure.
+  event_footer_text: >-
+    Please note: Pre-registration is required. Your Red Hat Summit Virtual Experience registration grants you access to the Virtual OpenShift Commons Gathering, on April 27 from 9 a.m. - 6 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
+  invite_link: "https://commons.openshift.org/events.html"
+  sponsors:
+  sponsoring_URL: "mailto:mbecker@redhat.com"
+  schedule:
+    - local_time: "9:00 am"
+      session_name: "Fireside Chat with Red Hat's Executive Vice President, Products & Technologies"
+      speakers:
+        - id: "matt_hicks"
+        - id: "diane"
+      track: "Virtual Stage"
+    - local_time: "9:20 am"
+      session_name: "OpenShift 4.x and beyond"
+      speakers:
+        - id: "jessica_forrester" 
+        - id: "marc_curry"   
+        - id: "alex_crawford" 
+      track: "Virtual Stage"
+    - local_time: "10:20 am"
+      session_name: "Customer Keynote"
+      track: "Virtual Stage"
+    - local_time: "10:50 am"
+      session_name: "OpenShift Case Study"
+      track: "Virtual Stage"
+    - local_time: "11:20 am"
+      session_name: "Production OpenShift Case Study "
+      track: "Virtual Stage"
+    - local_time: "11:50 am"
+      session_name: "Production OpenShift Case Study"
+      track: "Virtual Stage"
+    - local_time: "12:20 pm"
+      session_name: "Shifting Culture: Transforming your Organization"  
+      track: "Virtual Stage"
+    - local_time: "12:50 pm"
+      session_name: "OpenShift Case Study"
+      track: "Virtual Stage"      
+    - local_time: "1:20 pm"
+      session_name: "State of OpenShift: Release Update and Road Map"
+      track: "Virtual Stage"   
+    - local_time: "1:50 pm"
+      session_name: "Cloud Native Upstream Project Lead Roundtable"
+      track: "Virtual Stage"
+    - local_time: "2:20 pm"
+      session_name: "AMA Panel with OpenShift PM and Engineering team members"
+      track: "Virtual Stage"
+      speakers:
+        - id: "joe_f"
+    - local_time: "3:00 pm"
+      session_name: "The Road Ahead: OpenShift, Kubernetes and Beyond"
+      track: "Virtual Stage"
+      speakers:
+        - id: "diane" 
+    - local_time: "1:00 pm"
+      session_name: "State of OKD4"
+      track: "On-Demand"
+      speakers:
+        - id: "christian_glombek"        
+    - local_time: "1:30 pm"
+      session_name: "State of Operator Framework"
+      track: "On-Demand"
+      speakers:
+        - id: "daniel_messer"   
+    - local_time: "2:00 pm"
+      session_name: "State of Platform Services"
+      track: "On-Demand"
+      speakers:
+        - id: "markito"
+        - id: "rob_szumski"
+        - id: "ssadeghi"
+    - local_time: "2:30 pm"
+      session_name: "State of Container Storage"
+      track: "On-Demand"
+      speakers:
+        - id: "duncan_hardie" 
+        - id: "eran_tamir" 
+    - local_time: "3:00 pm"
+      session_name: "State of Container Security"
+      track: "On-Demand"
+      speakers:
+        - id: "urvashi_mohnani"
+        - id: "sally_omalley"   
 - name: "LATAM OpenShift Commons Gathering 2020"
   menu: "show"
   language: "Spanish"
