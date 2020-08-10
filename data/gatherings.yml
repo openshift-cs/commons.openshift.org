@@ -148,20 +148,20 @@ gatherings:
     El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   schedule:
-    - local_time: "10:00 am"
+    - local_time: "10.00 am"
       session_name: "Bienvenidos al OpenShift Commons: Colaboración en Acción"
       speakers:
         - id: "santiago"
         - id: "diane"
-    - local_time: "10:15 am"
+    - local_time: "10.15 am"
       session_name: "DevOps: Una Transformación Cultural"
       speakers:
         - id: "littleidea"
-    - local_time: "11:00 am"
+    - local_time: "11.00 am"
       session_name: "Caso de Éxito: Telecom Argentina - Flow"
-    - local_time: "11:20 am"
-      session_name: "Caso de Éxito: Banco Santander Chile"
-    - local_time: "11:40 am"
+    - local_time: "11.20 am"
+      session_name: "Caso de Éxito: Banco Santander Argentina"
+    - local_time: "11.40 am"
       session_name: "Round Table: Transformación Cultural y Modernización"
     - local_time: "12.30 pm"
       session_name: "Una nueva visión sobre la Nube Híbrida & Multi Cloud"
@@ -178,7 +178,7 @@ gatherings:
     - local_time: "14.30 pm"
       session_name: "Caso de Éxito: Argentina"
     - local_time: "14.50 pm"
-      session_name: "Ask-Me-Anything AMA Session with Red Hat Product Managers, Engineers and Guest Speakers"
+      session_name: "Ask the Expert Sessions"
     - local_time: "15.50 pm"
       session_name: "Próximos pasos en el Openshift Journey"
       speakers:
