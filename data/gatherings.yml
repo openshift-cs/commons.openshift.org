@@ -114,7 +114,7 @@ gatherings:
   venue_address: "LATAM"
   calendar_event_URL:
   registration_text: "Confirme su asistencia"
-  registration_URL: "http://commons.openshift.org"
+  registration_URL: "https://onlinexperiences.com/scripts/Server.nxp?LASCmd=AI:4;F:QS!10100&ShowUUID=0D42DF90-3980-4D3F-934F-A2ACC9C755F6&LangLocaleID=1034&GroupID=Spanish-Registration"
   head_text: >-
     El espacio que congrega usuarios, socios, clientes y líderes de proyectos de desarrollo para colaborar y codear con OpenShift.
   headers:
