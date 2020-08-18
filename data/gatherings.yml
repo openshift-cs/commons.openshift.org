@@ -126,8 +126,8 @@ gatherings:
     where: DÓNDE
     when: CUÁNDO
     price: COSTO
-    alternative_date_month: Agosto
-    alternative_date_day_of_week: Jueves
+    alternative_date_month: Septiembre
+    alternative_date_day_of_week: Lunes
     invite_a_friend: Invita a un amigo
   pricing:
     - label: "RSVP Requerido"
