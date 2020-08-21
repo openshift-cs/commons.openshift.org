@@ -107,8 +107,6 @@ gatherings:
   date: "2020-09-21"
   time: "8:00 am - 6:00 pm"
   location: "LATAM - Virtual - Spanish"
-  google_maps_URL: >-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.017574441629!2d-58.42272988519615!3d-34.578421863666264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59cd6452553%3A0x6b521307d135059a!2sThe+Rural!5e0!3m2!1sen!2sca!4v1562007664906!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   venue: "LATAM"
   venue_URL: "http://commons.openshift.org"
   venue_address: "LATAM"
