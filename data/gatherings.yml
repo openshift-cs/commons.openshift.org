@@ -157,10 +157,20 @@ gatherings:
         - id: "littleidea"
     - local_time: "11:00 am"
       session_name: "Caso de Éxito: Telecom Argentina - Flow"
+      speakers:
+        - id: "exequiel_fernandez"
     - local_time: "11:20 am"
       session_name: "Caso de Éxito: Banco Santander Argentina"
+      speakers:
+        - id: "alexis_superi"	
     - local_time: "11:40 am"
       session_name: "Panel de Transformación Cultural y Modernización, conducido por Jorge Payró, Country Sales Director de Red Hat Argentina"
+      speakers:
+        - id: "diego_salama" 
+        - id: "pablo_esses"
+        - id: "juan_manuel_palacios"	
+        - id: "federico_ferrea"	
+        - id: "william_flores"
     - local_time: "12:30 pm"
       session_name: "Una nueva visión sobre la Nube Híbrida & Multi Cloud"
       speakers:
@@ -172,12 +182,20 @@ gatherings:
         - id: "miguel_perez_colino"
     - local_time: "13:30 pm"
       session_name: "Case de Éxito: CIELO"
+      speakers:
+        - id: "marcos_albino_rodrigues"	
     - local_time: "13:50 pm"
       session_name: "Case de Éxito: La Segunda"
+      speakers:
+        - id: "alejandro_capitanelli"	
     - local_time: "14:10 pm"
       session_name: "Case de Éxito: Banco Internacional de Chile"
+      speakers:
+        - id: "rolando_rodriguez"	
     - local_time: "14:30 pm"
       session_name: "Plan Federal de Salud Digital"
+      speakers:
+        - id: "fernando_nunez" 	
     - local_time: "14:50 pm"
       session_name: "Ask the Expert Sessions"
       speakers:
