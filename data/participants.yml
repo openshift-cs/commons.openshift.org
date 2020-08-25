@@ -1777,3 +1777,6 @@ participants:
 - name: "Solutions StudIO"
   link: "https://solstud.io/"
   logo: "commons-logos/solutionsstudio.png"
+- name: "Telenet"
+  link: "https://www2.telenet.be/nl/"
+  logo: "commons-logos/telenet.png"
