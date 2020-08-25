@@ -167,6 +167,9 @@ gatherings:
         - id: "julio_tapia"
     - local_time: "12:45 pm"
       session_name: "OpenShift 4.5: Road Map & New Features"
+      speakers:
+        - id: "maria_bracho" 
+        - id: "miguel_perez_colino"
     - local_time: "13:30 pm"
       session_name: "Case de Éxito: CIELO"
     - local_time: "13:50 pm"
