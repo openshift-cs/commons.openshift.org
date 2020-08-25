@@ -160,7 +160,7 @@ gatherings:
     - local_time: "11:20 am"
       session_name: "Caso de Éxito: Banco Santander Argentina"
     - local_time: "11:40 am"
-      session_name: "Panel de Transformación Cultural y Modernización", conducido por Jorge Payró, Country Sales Director de Red Hat Argentina"
+      session_name: "Panel de Transformación Cultural y Modernización, conducido por Jorge Payró, Country Sales Director de Red Hat Argentina"
     - local_time: "12:30 pm"
       session_name: "Una nueva visión sobre la Nube Híbrida & Multi Cloud"
       speakers:
