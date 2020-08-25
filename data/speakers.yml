@@ -1801,3 +1801,6 @@ speakers:
   - id: "fernando_nunez" 	
     name: "Fernando Nuñez" 	
     company: "Min. de Salud"
+  - id: "exequiel_fernandez"
+    name: "Exequiel Fernandez"
+    company: "Telecom"
