@@ -177,6 +177,11 @@ gatherings:
       session_name: "Plan Federal de Salud Digital"
     - local_time: "14:50 pm"
       session_name: "Ask the Expert Sessions"
+      speakers:
+        - id: "santiago"
+        - id: "markito"
+        - id: "christian_hernandez"
+        - id: "jimmy_alvarez"
     - local_time: "15:50 pm"
       session_name: "Próximos pasos en el Openshift Journey"
       speakers:
