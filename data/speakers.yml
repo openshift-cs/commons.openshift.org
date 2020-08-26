@@ -1786,7 +1786,7 @@ speakers:
     role: "CIO"
     company: "Telecom Argentina"
     URl: "https://hogares.telecom.com.ar/"
-    photo: "speakers/pablo_esses.jpg"
+    photo: "speakers/pablo_esses_sm.jpeg"
   - id: "juan_manuel_palacios"	
     name: "Juan Manuel Palacios"	
     company: "Invima" 
