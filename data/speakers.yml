@@ -1805,7 +1805,7 @@ speakers:
     company: "CIELO"
     photo: "speakers/marcos_albino_rodrigues.jpeg"
   - id: "alejandro_capitanelli"	
-    name: "Guillermo Andres Capitanelli"	
+    name: "Guillermo Capitanelli"	
     role: "Team Leader Arquitectura e Integraciones"
     company: "La Segunda"
     URL: "https://www.lasegunda.com.ar/home"
