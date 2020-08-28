@@ -1780,3 +1780,6 @@ participants:
 - name: "Telenet"
   link: "https://www2.telenet.be/nl/"
   logo: "commons-logos/telenet.png"
+- name: "Cockroach Labs"
+  link: "https://www.cockroachlabs.com/"
+  logo: "commons-logos/cockroachlabs.png"
