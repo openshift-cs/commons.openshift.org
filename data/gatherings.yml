@@ -180,10 +180,6 @@ gatherings:
       speakers:
         - id: "maria_bracho" 
         - id: "miguel_perez_colino"
-    - local_time: "13:30 pm"
-      session_name: "Case de Éxito: CIELO"
-      speakers:
-        - id: "marcos_albino_rodrigues"	
     - local_time: "13:50 pm"
       session_name: "Case de Éxito: APIs y Cultura Organizacional - La Segunda"
       speakers:
