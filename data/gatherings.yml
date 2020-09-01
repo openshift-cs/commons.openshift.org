@@ -156,11 +156,11 @@ gatherings:
       speakers:
         - id: "littleidea"
     - local_time: "11:00 am"
-      session_name: "Caso de Éxito: Telecom Argentina - Flow"
+      session_name: "Caso de Éxito: Journey Flow DevOps - Telecom Argentina"
       speakers:
         - id: "exequiel_fernandez"
     - local_time: "11:20 am"
-      session_name: "Caso de Éxito: Banco Santander Argentina"
+      session_name: "Caso de Éxito: Pan con Manteca - Banco Santander Argentina"
       speakers:
         - id: "alexis_superi"	
     - local_time: "11:40 am"
@@ -185,15 +185,15 @@ gatherings:
       speakers:
         - id: "marcos_albino_rodrigues"	
     - local_time: "13:50 pm"
-      session_name: "Case de Éxito: La Segunda"
+      session_name: "Case de Éxito: APIs y Cultura Organizacional - La Segunda"
       speakers:
         - id: "alejandro_capitanelli"	
     - local_time: "14:10 pm"
-      session_name: "Case de Éxito: Banco Internacional de Chile"
+      session_name: "Case de Éxito: Cultura y desarrollo ágil para nuevo sitio internet - Banco Internacional de Chile"
       speakers:
         - id: "rolando_rodriguez"	
     - local_time: "14:30 pm"
-      session_name: "Plan Federal de Salud Digital"
+      session_name: "Plan Federal de Salud Digital - Ministerio de Salud de la Nación Argentina"
       speakers:
         - id: "fernando_nunez" 	
     - local_time: "14:50 pm"
