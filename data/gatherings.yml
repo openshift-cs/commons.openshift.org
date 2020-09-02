@@ -214,10 +214,6 @@ gatherings:
         - id: "juan_manuel_palacios"	
         - id: "federico_ferrea"	
         - id: "william_flores"
-    - local_time: "12:30 pm"
-      session_name: "Una nueva visión sobre la Nube Híbrida & Multi Cloud"
-      speakers:
-        - id: "julio_tapia"
     - local_time: "12:45 pm"
       session_name: "OpenShift 4.5: Road Map & New Features"
       speakers:
