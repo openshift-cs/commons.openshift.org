@@ -1814,6 +1814,7 @@ speakers:
     name: "Rolando Rodríguez"	
     company: "Banco Internacional"
     photo: "speakers/rolando_rodriguez.jpg"
+    URL: "https://www.bancointernacional.cl/"
   - id: "fernando_nunez" 	
     name: "Fernando Nuñez" 	
     company: "Min. de Salud"
