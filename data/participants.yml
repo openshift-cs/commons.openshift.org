@@ -1783,3 +1783,6 @@ participants:
 - name: "Cockroach Labs"
   link: "https://www.cockroachlabs.com/"
   logo: "commons-logos/cockroachlabs.png"
+- name: "ATS"
+  link: "https://atsgen.com"
+  logo: "commons-logos/ats.png"
