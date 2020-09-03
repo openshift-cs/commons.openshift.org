@@ -1780,7 +1780,7 @@ speakers:
     role: "CTO"
     company: "Santander Argentina"
     URL: "https://www.santander.com.ar/banco/online/personas"
-    photo: "speakers/diego_salama.jpg"
+    photo: "speakers/diego_salama_sq.png"
   - id: "pablo_esses"
     name: "Pablo Esses"
     role: "CTO"
