@@ -1815,7 +1815,7 @@ speakers:
   - id: "rolando_rodriguez"	
     name: "Rolando Rodríguez"	
     company: "Banco Internacional"
-    photo: "speakers/rolando_rodriguez.jpg"
+    photo: "speakers/rolando_rodriguez_sq.png"
     URL: "https://www.bancointernacional.cl/"
     role: "Jefe Departamento Arquitectura y Proyectos"
   - id: "fernando_nunez" 	
