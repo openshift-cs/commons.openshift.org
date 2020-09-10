@@ -1,26 +1,26 @@
 gatherings:
-- name: "Virtual OpenShift Commons Gathering on ML and AI"
+- name: "Virtual OpenShift Commons Gathering on AI/ML"
   menu: "show"
   language: "English"
   date: "2020-10-08"
   time: "9:00 am - 8:00 pm"
-  location: "Virtual Gathering at NVIDIA/GTC"
-  venue: "NVIDIA/GTC"
+  location: "Virtual Gathering at NVIDIA's GTC"
+  venue: "virtual at NVIDIA's GTC"
   venue_URL: "https://www.nvidia.com/en-us/gtc/"
   calendar_event_URL:
-  registration_text: "Registration Opens Soon!"
+  registration_text: "Registration opening soon!"
   registration_URL: "https://reg.rainfocus.com/flow/nvidia/gtcfall20/reg/login"
   pricing:
-    - label: "Registration Required"
-      price: "Included in your NVIDIA/GTC Registration"
+    - label: "Registration required"
+      price: "Included in your GTC Registration"
   lead_text: >-
-    This OpenShift Commons Gathering on Machine Learing and AI is co-located with NVIDIA's GTC Virtual event </a> on October 8th!
+    This OpenShift Commons Gathering on AI and Machine Learing is co-located with NVIDIA's GTC virtual event </a> on October 8th!
   info_text: >-
-    The OpenShift Commons Gatherings bring together experts from all over the world to discuss  container technologies, best practices for cloud native application developers and
+    The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, data scientists, devops professionals and sysadmins together to explore
     the next steps in making container technologies successful and secure for your ML and AI workloads.
   event_footer_text: >-
-    Please note: Pre-registration is required. Your NVIDIA/GTV registration grants you access to the Virtual OpenShift Commons Gathering, on October 8 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
+    Please note: Pre-registration is required. Your GTC registration grants you access to the virtual OpenShift Commons Gathering on October 8 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   invite_link: "https://commons.openshift.org/events.html"
   sponsors:
   sponsoring_URL: "mailto:mbecker@redhat.com"
@@ -49,28 +49,28 @@ gatherings:
     - local_time: "12:50 pm"
       session_name: "Shifting Culture: Transforming your Organization with AI"
       track: "Virtual Stage"      
-- name: "Kubecon North America Virtual OpenShift Commons Gathering 2020"
+- name: "Virtual OpenShift Commons Gathering at Kubecon North America 2020"
   menu: "show"
   language: "English"
   date: "2020-11-17"
   time: "9:00 am - 8:00 pm"
-  location: "Virtual Gathering - Day Zero at Kubecon North America"
-  venue: "Red Hat Summit Virtual Experience"
-  venue_URL: "https://www.redhat.com/en/summit"
+  location: "Virtual Gathering, Day Zero at Kubecon North America"
+  venue: "Virtual Experience"
+  venue_URL: "https://commons.openshift.org/gatherings/Kubecon_North_America_Virtual_OpenShift_Commons_Gathering_2020.html"
   calendar_event_URL:
-  registration_text: "Registration Opens Soon!"
+  registration_text: "Registration opening soon!"
   registration_URL: "https://commons.openshift.org/events.html"
   pricing:
     - label: "Registration Required"
       price: "Free!"
   lead_text: >-
-    The OpenShift Commons Gathering is a Day Zero event co-located with Kubecon North America</a> on November 17th!
+    This OpenShift Commons Gathering is a Day Zero event co-located with Kubecon North America</a> on November 17th!
   info_text: >-
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
     the next steps in making container technologies successful and secure.
   event_footer_text: >-
-    Please note: Pre-registration is required. Your Red Hat Summit Virtual Experience registration grants you access to the Virtual OpenShift Commons Gathering, on April 27 from 9 a.m. - 6 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
+    Please note: Pre-registration is required.
   invite_link: "https://commons.openshift.org/events.html"
   sponsors:
   sponsoring_URL: "mailto:mbecker@redhat.com"
@@ -195,7 +195,7 @@ gatherings:
         - id: "santiago"
         - id: "diane"
     - local_time: "10:15 am"
-      session_name: "DevOps: Una Transformación Cultural"
+      session_name: "DevOps: The Triumph of the Commons"
       speakers:
         - id: "littleidea"
     - local_time: "11:00 am"
