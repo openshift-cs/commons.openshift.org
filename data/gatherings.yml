@@ -189,25 +189,25 @@ gatherings:
     El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   schedule:
-    - local_time: "10:00 am"
+    - local_time: "10:02 am"
       session_name: "Bienvenidos al OpenShift Commons: Colaboración en Acción"
       speakers:
         - id: "santiago"
         - id: "diane"
-    - local_time: "10:15 am"
+    - local_time: "10:25 am"
       session_name: "DevOps: The Triumph of the Commons"
       speakers:
         - id: "littleidea"
-    - local_time: "11:00 am"
+    - local_time: "11:15 am"
       session_name: "Caso de Éxito: Journey Flow DevOps - Telecom Argentina"
       speakers:
         - id: "exequiel_fernandez"
         - id: "juanp_nicodemos"
-    - local_time: "11:20 am"
+    - local_time: "11:33 am"
       session_name: "Caso de Éxito: Pan con Manteca - Banco Santander Argentina"
       speakers:
         - id: "alexis_superi"	
-    - local_time: "11:40 am"
+    - local_time: "12:00 pm"
       session_name: "Panel de Transformación Cultural y Modernización, conducido por Jorge Payró, Country Sales Director de Red Hat Argentina"
       speakers:
         - id: "diego_salama" 
@@ -215,24 +215,24 @@ gatherings:
         - id: "juan_manuel_palacios"	
         - id: "federico_ferrea"	
         - id: "william_flores"
-    - local_time: "12:45 pm"
+    - local_time: "13:00 pm"
       session_name: "Lo Nuevo de Openshift 4.5"
       speakers:
         - id: "maria_bracho" 
         - id: "miguel_perez_colino"
-    - local_time: "13:50 pm"
+    - local_time: "13:45 pm"
       session_name: "Case de Éxito: APIs y Cultura Organizacional - La Segunda"
       speakers:
         - id: "alejandro_capitanelli"	
-    - local_time: "14:10 pm"
+    - local_time: "14:07 pm"
       session_name: "Case de Éxito: Cultura y desarrollo ágil para nuevo sitio de internet - Banco Internacional de Chile"
       speakers:
         - id: "rolando_rodriguez"	
-    - local_time: "14:30 pm"
+    - local_time: "14:25 pm"
       session_name: "Caso de Éxito: Plan Federal de Salud Digital - Ministerios de Salud de la Nación Argentina"
       speakers:
         - id: "fernando_nunez" 	
-    - local_time: "14:50 pm"
+    - local_time: "14:51 pm"
       session_name: "Ask the Expert Sessions"
       speakers:
         - id: "santiago"
