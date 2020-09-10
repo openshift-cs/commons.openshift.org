@@ -1800,6 +1800,7 @@ speakers:
     photo: "speakers/federico_ferrea.jpeg"
     company: "Grupo Asegurador La Segunda"
     role: "Gerente de Sistemas"
+    URL: "https://www.lasegunda.com.ar/home"
   - id: "william_flores"
     name: "William Flores"
     role: "Gerente de Arquitectura Tecnológica"
