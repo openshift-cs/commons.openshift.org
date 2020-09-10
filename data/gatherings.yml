@@ -202,6 +202,7 @@ gatherings:
       session_name: "Caso de Éxito: Journey Flow DevOps - Telecom Argentina"
       speakers:
         - id: "exequiel_fernandez"
+        - id: "juanp_nicodemos"
     - local_time: "11:20 am"
       session_name: "Caso de Éxito: Pan con Manteca - Banco Santander Argentina"
       speakers:
