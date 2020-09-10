@@ -49,7 +49,7 @@ gatherings:
     - local_time: "12:50 pm"
       session_name: "Shifting Culture: Transforming your Organization with AI"
       track: "Virtual Stage"      
-- name: "KubeCon North America Virtual OpenShift Commons Gathering 2020"
+- name: "Kubecon North America Virtual OpenShift Commons Gathering 2020"
   menu: "show"
   language: "English"
   date: "2020-11-17"
