@@ -215,7 +215,7 @@ gatherings:
         - id: "federico_ferrea"	
         - id: "william_flores"
     - local_time: "12:45 pm"
-      session_name: "OpenShift 4.5: Road Map & New Features"
+      session_name: "Lo Nuevo de Openshift 4.5"
       speakers:
         - id: "maria_bracho" 
         - id: "miguel_perez_colino"
@@ -224,11 +224,11 @@ gatherings:
       speakers:
         - id: "alejandro_capitanelli"	
     - local_time: "14:10 pm"
-      session_name: "Case de Éxito: Cultura y desarrollo ágil para nuevo sitio internet - Banco Internacional de Chile"
+      session_name: "Case de Éxito: Cultura y desarrollo ágil para nuevo sitio de internet - Banco Internacional de Chile"
       speakers:
         - id: "rolando_rodriguez"	
     - local_time: "14:30 pm"
-      session_name: "Plan Federal de Salud Digital - Ministerio de Salud de la Nación Argentina"
+      session_name: "Caso de Éxito: Plan Federal de Salud Digital - Ministerios de Salud de la Nación Argentina"
       speakers:
         - id: "fernando_nunez" 	
     - local_time: "14:50 pm"
