@@ -1836,7 +1836,7 @@ speakers:
     photo: "speakers/exequiel_fernandez.jpeg"
   - id: "juanp_nicodemos"
     name: "Juan Pablo Nicodemo"
-    role: "Rol Manager de Planificación e Implementación Flow"
+    role: "Manager de Planificación e Implementación Flow"
     URl: "https://hogares.telecom.com.ar/"
     company: "Telecom Argentina"
     photo: "speakers/JuanPabloNicodemo.jpeg"
