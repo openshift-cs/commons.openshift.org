@@ -14,7 +14,7 @@ gatherings:
     - label: "Registration required"
       price: "Included in your GTC Registration"
   lead_text: >-
-    This OpenShift Commons Gathering on AI and Machine Learing is co-located with NVIDIA's GTC virtual event </a> on October 8th!
+    This OpenShift Commons Gathering on AI and Machine Learning is co-located with NVIDIA's GTC virtual event </a> on October 8th!
   info_text: >-
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, data scientists, devops professionals and sysadmins together to explore
