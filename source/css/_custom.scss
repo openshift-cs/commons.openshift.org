@@ -187,6 +187,22 @@ footer {
 	}
 }
 
+#powered-by-footer {
+	@media (max-width: $screen-md-min) {
+		display: none;
+	}
+
+	.text {
+		font-size: 0.6em;
+		font-weight: 200;
+		line-height: 0.65em;
+	}
+
+	img {
+		max-width: 180px;
+	}
+}
+
 ul.social {
 	li {
 		display: inline;
