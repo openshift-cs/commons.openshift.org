@@ -21,9 +21,6 @@ gatherings:
     the next steps in making container technologies successful and secure for your ML and AI workloads.
   event_footer_text: >-
     Please note: Pre-registration is required. Your GTC registration grants you access to the virtual on-demand OpenShift Commons Gathering talks on October 5-9 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
-  invite_link: "https://commons.openshift.org/events.html"
-  sponsors:
-  sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
     - local_time: "9:00 am"
       session_name: "A22354: The Enterprise Neurosystem Initiative: The Connective Intelligence of Enterprise AI"
