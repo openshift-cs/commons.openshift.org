@@ -1813,7 +1813,7 @@ speakers:
     photo: "speakers/marcos_albino_rodrigues.jpeg"
   - id: "alejandro_capitanelli"	
     name: "Guillermo Capitanelli"	
-    role: "Jefe de área de Arquitectura de Integraciones"
+    role: "Líder de Proyecto"
     company: "La Segunda"
     URL: "https://www.lasegunda.com.ar/home"
     photo: "speakers/capitanelli.jpg"
