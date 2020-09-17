@@ -8,47 +8,47 @@ gatherings:
   venue: "virtual at NVIDIA's GTC"
   venue_URL: "https://www.nvidia.com/en-us/gtc/"
   calendar_event_URL:
-  registration_text: "Registration opening soon!"
+  registration_text: "Registration Open!"
   registration_URL: "https://reg.rainfocus.com/flow/nvidia/gtcfall20/reg/login"
   pricing:
     - label: "Registration required"
       price: "Included in your GTC Registration"
   lead_text: >-
-    This OpenShift Commons Gathering on AI and Machine Learning is co-located with NVIDIA's GTC virtual event </a> on October 8th!
+    This OpenShift Commons Gathering on AI and Machine Learning is co-located with NVIDIA's GTC virtual event </a> on October 5-9, 2020!
   info_text: >-
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, data scientists, devops professionals and sysadmins together to explore
     the next steps in making container technologies successful and secure for your ML and AI workloads.
   event_footer_text: >-
-    Please note: Pre-registration is required. Your GTC registration grants you access to the virtual OpenShift Commons Gathering on October 8 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
+    Please note: Pre-registration is required. Your GTC registration grants you access to the virtual on-demand OpenShift Commons Gathering talks on October 5-9 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   invite_link: "https://commons.openshift.org/events.html"
   sponsors:
   sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
     - local_time: "9:00 am"
-      session_name: "Welcome with Red Hat's Director of Community Development"
-      track: "Virtual Stage"
-    - local_time: "9:20 am"
-      session_name: "The Enterprise Neurosystem Initiative: The connective intelligence of Enterprise AI"
-      track: "Virtual Stage"
+      session_name: "A22354: The Enterprise Neurosystem Initiative: The Connective Intelligence of Enterprise AI"
+      track: "Virtual On-Demand Stage"
+    - local_time: "9:30 am"
+      session_name: "A22354: AIOps vs MLOps vs DevOps"
+      track: "Virtual On-Demand Stage"
     - local_time: "10:00 am"
-      session_name: "AIOps vs MLOps vs DevOps"
-      track: "Virtual Stage"
+      session_name: "A22353: GPU-Accelerated Machine Learning with OpenShift Container Platform"
+      track: "Virtual On-Demand Stage"
     - local_time: "10:30 am"
-      session_name: "GPU-Accelerated Machine Learning with OpenShift Container Platform"
-      track: "Virtual Stage"
+      session_name: "A22353: Using MPI operator to run GPU-accelerated scientific workloads on Red Hat OpenShift with Lustre FS"
+      track: "Virtual On-Demand Stage"
     - local_time: "11:00 am"
-      session_name: "Production OpenShift Case Study"
-      track: "Virtual Stage"
+      session_name: "A22352: Using GPUs for Data Science & Optimization Containers in OpenShift"
+      track: "Virtual On-Demand Stage"
     - local_time: "11:30 am"
-      session_name: "Enabling AI on the Edge"
-      track: "Virtual Stage"
+      session_name: "A22352: Applying AIOps to Kubernetes Telemetry Data with Open Data Hub at OpenShift"  
+      track: "Virtual On-Demand Stage"
     - local_time: "12:00 pm"
-      session_name: "OpenDataHub and OpenShift Telemetry"  
-      track: "Virtual Stage"
-    - local_time: "12:50 pm"
-      session_name: "Shifting Culture: Transforming your Organization with AI"
-      track: "Virtual Stage"      
+      session_name: "A22351: Accelerating AI on the Edge"
+      track: "Virtual On-Demand Stage"     
+    - local_time: "12:30 pm"
+      session_name: "A22351: Data driven insights with SQL Server Big Data Clusters and OpenShift"
+      track: "Virtual On-Demand Stage"     
 - name: "Kubecon North America Virtual OpenShift Commons Gathering 2020"
   menu: "show"
   language: "English"
