@@ -23,12 +23,12 @@ gatherings:
     Please note: Pre-registration is required. Your GTC registration grants you access to the virtual on-demand OpenShift Commons Gathering talks on October 5-9 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   schedule:
     - local_time: "9:00 am"
-      session_name: "A22354: The Enterprise Neurosystem Initiative: The Connective Intelligence of Enterprise AI"
+      session_name: "[A22354](https://acl.com)The Enterprise Neurosystem Initiative: The Connective Intelligence of Enterprise AI"
       speakers:
         - id: "bill_wright"
       track: "Virtual On-Demand Stage"
     - local_time: "9:30 am"
-      session_name: "A22354: AIOps vs MLOps vs DevOps"
+      session_name: "[A22354](https://acl.com) AIOps vs MLOps vs DevOps"
       speakers:
         - id: "zak_berrie"
       track: "Virtual On-Demand Stage"
