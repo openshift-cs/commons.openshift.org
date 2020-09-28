@@ -24,7 +24,7 @@ gatherings:
   schedule:
     - local_time: "9:02 am"
       session_name: >- 
-         <a href="https://www.link-for-the-session.com/" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative The Connective Intelligence of Enterprise AI
+         <a href="https://www.link-for-the-session.com/" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative - The Connective Intelligence of Enterprise AI
       speakers:
         - id: "bill_wright"
       track: "Virtual On-Demand Stage"
