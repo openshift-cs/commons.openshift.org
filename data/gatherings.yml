@@ -33,7 +33,7 @@ gatherings:
         - id: "zak_berrie"
       track: "Virtual On-Demand Stage"
     - local_time: "10:00 am"
-      session_name: [A22353] GPU-Accelerated Machine Learning with OpenShift Container Platform"
+      session_name: "[A22353] GPU-Accelerated Machine Learning with OpenShift Container Platform"
       speakers:
         - id: "diane_feddema"
         - id: "michael_bennett"
