@@ -22,8 +22,9 @@ gatherings:
   event_footer_text: >-
     Please note: Pre-registration is required. Your GTC registration grants you access to the virtual on-demand OpenShift Commons Gathering talks on October 5-9 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   schedule:
-    - local_time: "9:01 am"
-      session_name: "The Enterprise Neurosystem Initiative: The Connective Intelligence of Enterprise AI"
+    - local_time: "9:03 am"
+          session_name: >- 
+         <a href="https://www.link-for-the-session.com/" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative The Connective Intelligence of Enterprise AI	         <a href="https://www.link-for-the-session.com/" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative - The Connective Intelligence of Enterprise AI
       speakers:
         - id: "bill_wright"
       track: "Virtual On-Demand Stage"
