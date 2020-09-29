@@ -29,46 +29,46 @@ gatherings:
         - id: "bill_wright"
       track: "Virtual On-Demand Stage"
     - local_time: "9:30 am"
-       session_name: >-
+      session_name: >-
         <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22354&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22354]</a> AIOps vs MLOps vs DevOps
       speakers:
         - id: "zak_berrie"
       track: "Virtual On-Demand Stage"
     - local_time: "10:00 am"
-        session_name: >-
+      session_name: >-
         <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22353&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22353]</a> GPU-Accelerated Machine Learning with OpenShift Container Platform
       speakers:
         - id: "diane_feddema"
         - id: "michael_bennett"
       track: "Virtual On-Demand Stage"
     - local_time: "10:30 am"
-        session_name: >-
+      session_name: >-
         <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22353&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22353]</a> Using MPI operator to run GPU-accelerated scientific workloads on Red Hat OpenShift with Lustre FS
       speakers:
         - id: "david_gray"
       track: "Virtual On-Demand Stage"
     - local_time: "11:00 am"
-        session_name: >-
+      session_name: >-
         <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22352&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22352]</a> Using GPUs for Data Science & Optimization Containers in OpenShift
       speakers:
         - id: "cory_latschkowski"
       track: "Virtual On-Demand Stage"
     - local_time: "11:30 am"
-        session_name: >-
+      session_name: >-
         <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22352&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22352]</a> Applying AIOps to Kubernetes Telemetry Data with Open Data Hub at OpenShift
       speakers:
         - id: "alex_corvin"
         - id: "ivan_necas"
       track: "Virtual On-Demand Stage"
     - local_time: "12:00 pm"
-        session_name: >-
+      session_name: >-
         <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22351&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22351]</a> Accelerating AI on the Edge
       speakers:
         - id: "nick_barcet"
         - id: "kevin_jones"
       track: "Virtual On-Demand Stage"     
     - local_time: "12:31 pm"
-       session_name: >-
+      session_name: >-
         <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22351&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22351]</a> Data driven insights with SQL Server Big Data Clusters and OpenShift
       speakers:
         - id: "buck_woody"
