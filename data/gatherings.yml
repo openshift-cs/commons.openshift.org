@@ -23,8 +23,8 @@ gatherings:
     Please note: Pre-registration is required. Your GTC registration grants you access to the virtual on-demand OpenShift Commons Gathering talks on October 5-9 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   schedule:
     - local_time: "9:03 am"
-          session_name: >- 
-         <a href="https://www.link-for-the-session.com/" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative The Connective Intelligence of Enterprise AI	         <a href="https://www.link-for-the-session.com/" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative - The Connective Intelligence of Enterprise AI
+      session_name: >-
+        <a href="https://www.link-for-the-session.com/" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative
       speakers:
         - id: "bill_wright"
       track: "Virtual On-Demand Stage"
@@ -223,14 +223,14 @@ gatherings:
     - local_time: "11:33 am"
       session_name: "Caso de Éxito: Pan con Manteca - Banco Santander Argentina"
       speakers:
-        - id: "alexis_superi"	
+        - id: "alexis_superi"
     - local_time: "12:00 pm"
       session_name: "Panel de Transformación Cultural y Modernización, conducido por Jorge Payró, Country Sales Director de Red Hat Argentina"
       speakers:
         - id: "diego_salama" 
         - id: "pablo_esses"
-        - id: "juan_manuel_palacios"	
-        - id: "federico_ferrea"	
+        - id: "juan_manuel_palacios"
+        - id: "federico_ferrea"
         - id: "william_flores"
     - local_time: "13:00 pm"
       session_name: "Lo Nuevo de Openshift 4.5"
@@ -240,15 +240,15 @@ gatherings:
     - local_time: "13:45 pm"
       session_name: "Case de Éxito: APIs y Cultura Organizacional - La Segunda"
       speakers:
-        - id: "alejandro_capitanelli"	
+        - id: "alejandro_capitanelli"
     - local_time: "14:07 pm"
       session_name: "Case de Éxito: Cultura y desarrollo ágil para nuevo sitio de internet - Banco Internacional de Chile"
       speakers:
-        - id: "rolando_rodriguez"	
+        - id: "rolando_rodriguez"
     - local_time: "14:25 pm"
       session_name: "Caso de Éxito: Plan Federal de Salud Digital - Ministerios de Salud de la Nación Argentina"
       speakers:
-        - id: "fernando_nunez" 	
+        - id: "fernando_nunez"
     - local_time: "14:51 pm"
       session_name: "Ask the Expert Sessions"
       speakers:
