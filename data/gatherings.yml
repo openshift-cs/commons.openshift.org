@@ -24,7 +24,7 @@ gatherings:
   schedule:
     - local_time: "9:00 am"
       session_name: >-
-        <a href="https://www.link-for-the-session.com/" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22354&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative
       speakers:
         - id: "bill_wright"
       track: "Virtual On-Demand Stage"
