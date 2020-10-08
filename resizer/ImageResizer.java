@@ -258,7 +258,7 @@ public class ImageResizer {
         // '-' indicates a new yaml section, determine what to do with previous section
         if (currentLine.startsWith("-") && yamlData != "") {
           // Only save yaml section if it does not contain the company name to be replaced
-          if (!yamlData.toLowerCase().contains(company_name.toLowerCase())) {
+          if (!yamlData.toLowerCase().contains("- name: \"" + company_name.toLowerCase() + "\"")) {
             writer.write(yamlData);
           }
           yamlData = "";
@@ -266,7 +266,7 @@ public class ImageResizer {
 
         yamlData += System.getProperty("line.separator") + currentLine;
       }
-      if (yamlData != "" && !yamlData.toLowerCase().contains(company_name.toLowerCase())) {
+      if (yamlData != "" && !yamlData.toLowerCase().contains("- name: \"" + company_name.toLowerCase() + "\"")) {
         writer.write(yamlData);
       }
       writer.close();
