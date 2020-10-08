@@ -1802,3 +1802,6 @@ participants:
 - name: "Cloudera"
   link: "https://www.cloudera.com/"
   logo: "commons-logos/cloudera.png"
+- name: "Kong"
+  link: "https://konghq.com/"
+  logo: "commons-logos/kong.png"
