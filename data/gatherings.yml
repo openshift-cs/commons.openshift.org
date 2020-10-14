@@ -114,7 +114,7 @@ gatherings:
         - id: "mike_barrett"
         - id: "clayton_coleman"
         - id: "jessica_forrester"
-        - id: ""derek_carr"
+        - id: "derek_carr"
       track: "Main Stage"
     - local_time: "11:00 am"
       session_name: "OpenShift Case Study: Building an Enterprise Neurosystem at America Movil"
