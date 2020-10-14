@@ -140,6 +140,11 @@ gatherings:
       track: "Main Stage"
       speakers: 
         - id: "paul_morie"
+        - id: "jamie_longmuir"
+        - id: "dan_berg"
+        - id: "lin_sun"
+        - id: "brenda_chan"
+        - id: "nick_young"
     - local_time: "1:30 pm"
       session_name: "Deep Dive into OpenShift on AWS"
       track: "Main Stage"      
@@ -148,6 +153,7 @@ gatherings:
       track: "Main Stage"   
       speakers:
         - id: "jason_dobies"
+        - id: "josh_wood"
     - local_time: "2:30 pm"
       session_name: "Empowering The End Users"
       track: "Main Stage"
