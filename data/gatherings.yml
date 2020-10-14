@@ -160,7 +160,7 @@ gatherings:
       speakers:
         - id: "diane"
         - id: "priyanka_sharma"
-        - id: "greg_moore"
+        - id: "todd_moore"
     - local_time: "9:00 am"
       session_name: "State of OKD4: The OpenShift Community Kubernetes Distribution"
       track: "On-Demand Track"
