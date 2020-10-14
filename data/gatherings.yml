@@ -174,7 +174,7 @@ gatherings:
       track: "On-Demand Track"
     - local_time: "11:00 am"
       session_name: "Move2Kube/Konveyor"
-      track: "On-Demand Stage"
+      track: "On-Demand Track"
 - name: "LATAM OpenShift Commons Gathering 2020"
   menu: "show"
   language: "Spanish"
