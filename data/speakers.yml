@@ -537,7 +537,7 @@ speakers:
     URL: "https://www.google.com"
     intro: ""
   - id: "paul_morie"
-    name: "Paul Morie (Red Hat)"
+    name: "Paul Morie"
     role: "Principal Software Engineer"
     company: "Red Hat"
     URL: "https://www.openshift.com/"
