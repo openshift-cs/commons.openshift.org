@@ -1939,7 +1939,7 @@ speakers:
     company: "VMware"
   - id: "priyanka_sharma"
     name: "Priyanka Sharma"
-    role: "General Manager, Cloud Native Computing Foundation (CNCF)"
+    role: "General Manager"
     URL: "https://cncf.io"
     company: "Cloud Native Computing Foundation (CNCF)"
     photo: "speakers/priyanka_sharma.jpeg"      
