@@ -147,6 +147,9 @@ gatherings:
         - id: "nick_young"
     - local_time: "1:30 pm"
       session_name: "Deep Dive into OpenShift on AWS"
+      speakers:
+        - id: "andrew_cathrow"
+        - id: "patrick_strick"
       track: "Main Stage"      
     - local_time: "2:00 pm"
       session_name: "Operators Everywhere"
