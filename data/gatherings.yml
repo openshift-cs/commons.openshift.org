@@ -190,8 +190,11 @@ gatherings:
         - id: "christy_norman"
         - id: "marcel_mitran"
     - local_time: "11:00 am"
-      session_name: "Move2Kube/Konveyor"
+      session_name: "Konveyor Community Update and Move2Kube Deep Dive"
       track: "On-Demand Track"
+      speakers: 
+        - id: "amith_singhee"
+        - id: "james_labocki"      
 - name: "LATAM OpenShift Commons Gathering 2020"
   menu: "show"
   language: "Spanish"
