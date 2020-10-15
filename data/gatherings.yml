@@ -182,9 +182,13 @@ gatherings:
       track: "On-Demand Track"
       speakers:
         - id: "karena_angell"
+        - id: "andre_tost"
     - local_time: "10:30 am"
       session_name: "Deploying OpenShift on Power/Z"
       track: "On-Demand Track"
+      speakers:
+        - id: "christy_norman"
+        - id: "marcel_mitran"
     - local_time: "11:00 am"
       session_name: "Move2Kube/Konveyor"
       track: "On-Demand Track"
