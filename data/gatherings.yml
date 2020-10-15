@@ -168,7 +168,9 @@ gatherings:
       session_name: "State of OKD4: The OpenShift Community Kubernetes Distribution"
       track: "On-Demand Track"
       speakers:
-        - id: "christian_glombek"     
+        - id: "christian_glombek" 
+        - id: "vadim"
+        - id: "charro_gruver.jpeg"
     - local_time: "9:30 am"
       session_name: "GPU Enabling OpenShift for AI and ML workloads"
       track: "On-Demand Track"
