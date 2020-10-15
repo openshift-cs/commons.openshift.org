@@ -190,7 +190,7 @@ gatherings:
         - id: "christy_norman"
         - id: "marcel_mitran"
     - local_time: "11:00 am"
-      session_name: "Konveyor Community Update and Move2Kube Deep Dive"
+      session_name: "Konveyor Community Update: Move2Kube Deep Dive"
       track: "On-Demand Track"
       speakers: 
         - id: "amith_singhee"
