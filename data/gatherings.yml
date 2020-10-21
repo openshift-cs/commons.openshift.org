@@ -6,12 +6,12 @@ gatherings:
   time: "9:00 am - 8:00 pm"
   location: "Japan OpenShift Commons Gathering 2020"
   venue: "Virtual Experience"
-  venue_URL: "https://commons.openshift.org/gatherings/Kubecon_North_America_Virtual_OpenShift_Commons_Gathering_2020.html"
+  venue_URL: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2020.html"
   calendar_event_URL:
-  registration_text: "Register now"
-  registration_URL: "https://onlinexperiences.com/scripts/Server.nxp?LASCmd=AI:4;F:QS!10100&ShowUUID=561B938B-5F53-4FE5-A9BE-76EF77A16AA2"
+  registration_text: "Registration Opening Soon"
+  registration_URL: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2020.html
   pricing:
-    - label: "Registration Required"
+    - label: "Registration Opening Soon"
       price: "Free!"
   lead_text: >-
     This Japan Regional OpenShift Commons Gathering will be delivered in Japanese on December 10th on Japan Standard Time!
@@ -21,7 +21,7 @@ gatherings:
     the next steps in making container technologies successful and secure.
   event_footer_text: >-
     Please note: Pre-registration is required.
-  invite_link: "https://commons.openshift.org/events.html"
+  invite_link: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2020.html"
   sponsors:
   sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
