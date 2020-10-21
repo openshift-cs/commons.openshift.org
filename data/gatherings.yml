@@ -27,6 +27,7 @@ gatherings:
   schedule:
     - local_time: "9:00 am"
       session_name: "Welcome to the Commons - Diane Mueller, Director Community Development (Red Hat)"
+      track: "Main Stage"
     - local_time: "9:10 am"
       session_name: "Enabling Innovation Everywhere: Red Hat's Hybrid Multi-Cloud Road Map"
       session_name: "Keynote:  - Ashesh Badani, Senior Vice President, Cloud Platforms (Red Hat)"
