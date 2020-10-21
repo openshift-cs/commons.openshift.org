@@ -14,7 +14,7 @@ gatherings:
     - label: "Registration Required"
       price: "Free!"
   lead_text: >-
-    This Japan Regional OpenShift Commons Gathering will be delivered in Japanese on December 10th!
+    This Japan Regional OpenShift Commons Gathering will be delivered in Japanese on December 10th on Japan Standard Time!
   info_text: >-
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
@@ -26,105 +26,44 @@ gatherings:
   sponsoring_URL: "mailto:mbecker@redhat.com"
   schedule:
     - local_time: "9:00 am"
-      session_name: "Welcome to the Commons"
-      speakers:
-        - id: "diane"
+      session_name: "Welcome to the Commons - Diane Mueller, Director Community Development (Red Hat)"
     - local_time: "9:10 am"
-      session_name: "Keynote: Better Together - OpenShift and RHEL"
-      speakers:
-        - id: "stefanie_chiras"
+      session_name: "Enabling Innovation Everywhere: Red Hat's Hybrid Multi-Cloud Road Map"
+      session_name: "Keynote:  - Ashesh Badani, Senior Vice President, Cloud Platforms (Red Hat)"
       track: "Main Stage"
     - local_time: "9:30 am"
-      session_name: "OpenShift 4.6 and beyond: New Release Deep Dives and Road Ahead"
-      speakers: 
-        - id: "mike_barrett"
-        - id: "clayton_coleman"
-        - id: "jessica_forrester"
-        - id: "derek_carr"
+      session_name: "Partner Keynote - Takeshi Kaneko , Senior Director (Red Hat)"
       track: "Main Stage"
     - local_time: "11:00 am"
-      session_name: "OpenShift Case Study: Building an Enterprise Neurosystem at América Móvil"
+      session_name: "OpenShift 4.6 and beyond: New Release Deep Dives and Road Ahead"
       track: "Main Stage"
-      speakers:
-        - id: "karlo_piceno"
-        - id: "raul_reyes"
-        - id: "bill_wright"
     - local_time: "11:30 am"
-      session_name: "OpenShift Case Study: Deploying OpenShift for Supercomputing"
+      session_name: "OpenShift AWS Case Study"
       track: "Main Stage"
-      speakers:
-        - id: "david_gray"
-    - local_time: "12:00 pm"
-      session_name: "Enabling Innovation Everywhere: Red Hat's Hybrid Multi-Cloud Road Map"
-      track: "Main Stage"
-      speakers:
-        - id: "matt_hicks"
     - local_time: "12:30 pm"
-      session_name: "Deep Dive on OpenShift Serverless"
+      session_name: "OpenShift NEC Case Study"
       track: "Main Stage"
-      speakers:
-        - id: "paul_morie"
-        - id: "markito"
     - local_time: "1:00 pm"
-      session_name: "To Serve or Not to Serve: Serverless, Microservices and Service Mesh Ecosystem"  
+      session_name: "OpenShift Accenture Case Study"  
       track: "Main Stage"
-      speakers: 
-        - id: "paul_morie"
-        - id: "jamie_longmuir"
-        - id: "dan_berg"
-        - id: "lin_sun"
-        - id: "brenda_chan"
-        - id: "nick_young"
     - local_time: "1:30 pm"
-      session_name: "Deep Dive into OpenShift on AWS"
-      speakers:
-        - id: "andrew_cathrow"
-        - id: "patrick_strick"
+      session_name: "Wrap-Up - Takeshi Kaneko , Senior Director (Red Hat)"
       track: "Main Stage"      
-    - local_time: "2:00 pm"
-      session_name: "Operators Everywhere"
-      track: "Main Stage"   
-      speakers:
-        - id: "jason_dobies"
-        - id: "josh_wood"
-    - local_time: "2:30 pm"
-      session_name: "Empowering The End Users"
-      track: "Main Stage"
-      speakers:
-        - id: "diane"
-        - id: "priyanka_sharma"
-        - id: "todd_moore"
     - local_time: "9:00 am"
       session_name: "State of OKD4: The OpenShift Community Kubernetes Distribution"
       track: "Track 1"
-      speakers:
-        - id: "christian_glombek" 
-        - id: "vadim"
-        - id: "charro_gruver"
     - local_time: "9:30 am"
       session_name: "GPU Enabling OpenShift for AI and ML workloads"
       track: "Track 1"
-      speakers:
-        - id: "diane_feddema"  
-        - id: "michael_bennett"
     - local_time: "10:00 am"
       session_name: "Creating Custom Operator Catalogs for OpenShift"
       track: "Track 2"
-      speakers:
-        - id: "karena_angell"
-        - id: "andre_tost"
     - local_time: "10:30 am"
       session_name: "Deploying OpenShift on Power/Z"
       track: "Track 2"
-      speakers:
-        - id: "christy_norman"
-        - id: "marcel_mitran"
     - local_time: "11:00 am"
       session_name: "Konveyor Community Update: Move2Kube Deep Dive"
-      track: "Track 2"
-      speakers: 
-        - id: "amith_singhee"
-        - id: "james_labocki"      
+      track: "Track 2"   
 - name: "Virtual OpenShift Commons Gathering on AI/ML"
   menu: "show"
   language: "English"
