@@ -9,7 +9,7 @@ gatherings:
   venue_URL: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2020.html"
   calendar_event_URL:
   registration_text: "Registration Opening Soon"
-  registration_URL: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2020.html
+  registration_URL: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2020.html"
   pricing:
     - label: "Registration Opening Soon"
       price: "Free!"
