@@ -122,8 +122,10 @@ gatherings:
       speakers:
         - id: "bill_wright"
     - local_time: "11:30 am"
-      session_name: "OpenShift Case Study: Federated Insurance"
+      session_name: "OpenShift Case Study: Deploying OpenShift for Supercomputing"
       track: "Main Stage"
+      speakers:
+        - id: "david_gray"
     - local_time: "12:00 pm"
       session_name: "Enabling Innovation Everywhere: Red Hat's Hybrid Multi-Cloud Road Map"
       track: "Main Stage"
