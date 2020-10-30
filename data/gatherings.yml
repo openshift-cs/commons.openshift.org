@@ -219,7 +219,6 @@ gatherings:
       session_name: "Deep Dive into Red Hat OpenShift on AWS (ROSA)"
       speakers:
         - id: "andrew_cathrow"
-        - id: "patrick_strick"
       track: "Main Stage"      
     - local_time: "1:50 pm"
       session_name: "Operators Everywhere"
