@@ -194,7 +194,7 @@ gatherings:
       track: "Main Stage"
       speakers:
         - id: "david_gray"
-    - local_time: "11:52 pm"
+    - local_time: "11:52 am"
       session_name: "Open Hybrid Cloud: Enabling Innovation"
       track: "Main Stage"
       speakers:
