@@ -238,7 +238,6 @@ gatherings:
       track: "On-Demand Track"
       speakers:
         - id: "christian_glombek" 
-        - id: "vadim"
         - id: "charro_gruver"
     - local_time: "9:30 am"
       session_name: "GPU Enabling OpenShift for AI and ML workloads"
