@@ -1805,3 +1805,6 @@ participants:
 - name: "Kong"
   link: "https://konghq.com/"
   logo: "commons-logos/kong.png"
+- name: "Northwestern University"
+  link: "https://www.northwestern.edu/"
+  logo: "commons-logos/northwesternuniversity.gif"
