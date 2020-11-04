@@ -115,7 +115,6 @@ gatherings:
         <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22353&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22353]</a> Using MPI operator to run GPU-accelerated scientific workloads on Red Hat OpenShift with Lustre FS
       speakers:
         - id: "david_gray"
-        - id: "kevin_pouget"
       track: "Virtual On-Demand Stage"
     - local_time: "11:00 am"
       session_name: >-
@@ -195,6 +194,7 @@ gatherings:
       track: "Main Stage"
       speakers:
         - id: "david_gray"
+        - id: "kevin_pouget"
     - local_time: "11:52 am"
       session_name: "Open Hybrid Cloud: Enabling Innovation"
       track: "Main Stage"
