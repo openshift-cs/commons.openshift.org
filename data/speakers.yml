@@ -1945,6 +1945,7 @@ speakers:
     role: ""
     URL: "https://vmware.com"
     company: "VMware"
+    photo: "speakers/Brenda-Chan.png"
   - id: "priyanka_sharma"
     name: "Priyanka Sharma"
     role: "General Manager"
