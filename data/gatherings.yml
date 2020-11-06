@@ -217,7 +217,7 @@ gatherings:
         - id: "brenda_chan"
         - id: "nick_young"
     - local_time: "1:20 pm"
-      session_name: "Deep Dive into Red Hat OpenShift on AWS (ROSA)"
+      session_name: "Deep Dive into Red Hat OpenShift on AWS"
       speakers:
         - id: "andrew_cathrow"
       track: "Main Stage"      
