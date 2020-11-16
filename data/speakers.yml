@@ -1990,7 +1990,7 @@ speakers:
     photo: "speakers/marcel_mitran.jpeg"  
   - id: "christy_norman"
     name: "Christy Norman"
-    role: "Advisory Software Engineer, Cloud & Container Development for Cognitive Systems"
+    role: "Senior Software Engineer, Cloud & Container Development for Cognitive Systems"
     URL: "https://ibm.com"
     company: "IBM"
     photo: "speakers/christy_norman.jpeg"  
