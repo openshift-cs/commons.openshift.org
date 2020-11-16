@@ -1534,7 +1534,7 @@ speakers:
     name: "Karena Angell"
     company: "Red Hat"
     URL: "https://www.redhat.com/en"
-    role: "Principal Product Marketing Manager, OpenShift Container Storag"   
+    role: "Principal Product Manager, Cloud Paks"   
     photo: "speakers/karena_angell.jpeg"
   - id: "jeremy_crawford"
     name: "Jeremy Crawford"
