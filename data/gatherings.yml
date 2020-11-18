@@ -76,7 +76,7 @@ gatherings:
     - local_time: "15:35 pm"
       session_name: "Best Practice of OpenShift on Hybrid - Kei Omizo, Cloud Cloud Solution Architect (Microsoft)"
       track: "Technical Track"  
-     - local_time: "16:15 pm"
+    - local_time: "16:15 pm"
       session_name: "TBU (HPE Confirmed) Muneyasu Harada (Hewlett-Packard Enterprise)"
       track: "Technical Track"  
     - local_time: "16:55 pm"
