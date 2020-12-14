@@ -1,4 +1,78 @@
 gatherings:
+- name: "OpenShift Commons Gathering on Data Science"
+  menu: "show"
+  language: "English"
+  date: "2021-01-28"
+  time: "9:00 am - 2:00 pm"
+  location: "Virtual "
+  venue: "virtual"
+  venue_URL: "https://primetime.bluejeans.com/a2m/live-event/jvxjgyxb"
+  calendar_event_URL:
+  registration_text: "Registration Open!"
+  registration_URL: "https://primetime.bluejeans.com/a2m/register/ewypbbgr"
+  pricing:
+    - label: "Registration required"
+      price: "Free and Open to All"
+  lead_text: >-
+    This OpenShift Commons Gathering on Data Science </a> on January 28, 2021!
+  info_text: >-
+    The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, data scientists, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure for your Data Science workloads.
+  event_footer_text: >-
+    Please note: Pre-registration is required. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
+  schedule:
+    - local_time: "9:00 am"
+      session_name: >-
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22354&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative
+      speakers:
+        - id: "bill_wright"
+      track: "Virtual On-Demand Stage"
+    - local_time: "9:30 am"
+      session_name: >-
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22354&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22354]</a> AIOps vs MLOps vs DevOps
+      speakers:
+        - id: "zak_berrie"
+      track: "Virtual On-Demand Stage"
+    - local_time: "10:00 am"
+      session_name: >-
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22353&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22353]</a> GPU-Accelerated Machine Learning with OpenShift Container Platform
+      speakers:
+        - id: "diane_feddema"
+        - id: "michael_bennett"
+      track: "Virtual On-Demand Stage"
+    - local_time: "10:30 am"
+      session_name: >-
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22353&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22353]</a> Using MPI operator to run GPU-accelerated scientific workloads on Red Hat OpenShift with Lustre FS
+      speakers:
+        - id: "david_gray"
+      track: "Virtual On-Demand Stage"
+    - local_time: "11:00 am"
+      session_name: >-
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22352&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22352]</a> Using GPUs for Data Science & Optimization Containers in OpenShift
+      speakers:
+        - id: "cory_latschkowski"
+      track: "Virtual On-Demand Stage"
+    - local_time: "11:30 am"
+      session_name: >-
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22352&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22352]</a> Applying AIOps to Kubernetes Telemetry Data with Open Data Hub at OpenShift
+      speakers:
+        - id: "alex_corvin"
+        - id: "ivan_necas"
+      track: "Virtual On-Demand Stage"
+    - local_time: "12:00 pm"
+      session_name: >-
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22351&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22351]</a> Accelerating AI on the Edge
+      speakers:
+        - id: "nick_barcet"
+        - id: "kevin_jones"
+      track: "Virtual On-Demand Stage"     
+    - local_time: "12:31 pm"
+      session_name: >-
+        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22351&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22351]</a> Data driven insights with SQL Server Big Data Clusters and OpenShift
+      speakers:
+        - id: "buck_woody"
+      track: "Virtual On-Demand Stage" 
 - name: "Japan OpenShift Commons Gathering 2020"
   menu: "show"
   language: "English"
