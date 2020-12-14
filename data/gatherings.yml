@@ -4,8 +4,8 @@ gatherings:
   language: "English"
   date: "2021-01-28"
   time: "9:00 am - 2:00 pm"
-  location: "on Data Science"
-  venue: "virtual"
+  location: "Data Science Edition (Virtual)"
+  venue: "Virtual"
   venue_URL: "https://primetime.bluejeans.com/a2m/live-event/jvxjgyxb"
   calendar_event_URL:
   registration_text: "Registration Open!"
