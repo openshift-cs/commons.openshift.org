@@ -4,7 +4,7 @@ gatherings:
   language: "English"
   date: "2021-01-28"
   time: "9:00 am - 2:00 pm"
-  location: "Virtual "
+  location: "on Data Science"
   venue: "virtual"
   venue_URL: "https://primetime.bluejeans.com/a2m/live-event/jvxjgyxb"
   calendar_event_URL:
@@ -14,7 +14,7 @@ gatherings:
     - label: "Registration required"
       price: "Free and Open to All"
   lead_text: >-
-    This OpenShift Commons Gathering on Data Science </a> on January 28, 2021!
+    This OpenShift Commons Gathering will held on January 28, 2021 and focus on Data Science covering AI/ML topics ranging from AIOps, OpenDataHub to Machine Learning Best Practices on OpenShift. 
   info_text: >-
     The OpenShift Commons Gatherings bring together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, data scientists, devops professionals and sysadmins together to explore
