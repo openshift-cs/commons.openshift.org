@@ -8,8 +8,8 @@ gatherings:
   venue: "Virtual"
   venue_URL: "https://primetime.bluejeans.com/a2m/live-event/jvxjgyxb"
   calendar_event_URL:
-  registration_text: "Registration Open!"
-  registration_URL: "https://primetime.bluejeans.com/a2m/register/ewypbbgr"
+  registration_text: "Registration opening soon!"
+  registration_URL: "https://commons.openshift.org/index.html"
   pricing:
     - label: "Registration required"
       price: "Free and Open to All"
