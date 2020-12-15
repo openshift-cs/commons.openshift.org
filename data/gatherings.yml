@@ -23,56 +23,48 @@ gatherings:
     Please note: Pre-registration is required. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   schedule:
     - local_time: "9:00 am"
-      session_name: >-
-        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22354&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22354]</a> The Enterprise Neurosystem Initiative
+      session_name: "Welcome to the Commons"
+      speakers:
+        - id: "diane"
+        - id: "audrey_resnick"
+      track: "Main Stage"
+    - local_time: "9:10 am"
+      session_name: "Guest Keynote: TBD"
+      track: "Main Stage"    
+    - local_time: "9:30 am"
+      session_name: "Red Hat Keynote - Sherard Griffin (Red Hat)"
+      track: "Main Stage"       
+    - local_time: "10:00 am"
+      session_name: "The Enterprise Neurosystem Initiative - Raul Reyes Gonzalez and Karlo Piceno Diaz (America Movil)"
       speakers:
         - id: "bill_wright"
-      track: "Virtual On-Demand Stage"
-    - local_time: "9:30 am"
-      session_name: >-
-        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22354&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22354]</a> AIOps vs MLOps vs DevOps
-      speakers:
-        - id: "zak_berrie"
-      track: "Virtual On-Demand Stage"
-    - local_time: "10:00 am"
-      session_name: >-
-        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22353&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22353]</a> GPU-Accelerated Machine Learning with OpenShift Container Platform
+      track: "Main Stage"
+    - local_time: "10:30 am"
+      session_name: "MLCommons: Accelerating Machine Learning with Benchmarks, Datasets and beyond - David Kanter (MLCommons) and Peter Matteson (Google)"
       speakers:
         - id: "diane_feddema"
-        - id: "michael_bennett"
-      track: "Virtual On-Demand Stage"
-    - local_time: "10:30 am"
-      session_name: >-
-        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22353&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22353]</a> Using MPI operator to run GPU-accelerated scientific workloads on Red Hat OpenShift with Lustre FS
-      speakers:
-        - id: "david_gray"
-      track: "Virtual On-Demand Stage"
+      track: "Main Stage"
     - local_time: "11:00 am"
-      session_name: >-
-        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22352&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22352]</a> Using GPUs for Data Science & Optimization Containers in OpenShift
+      session_name: "OpenDataHub: The Open Source Toolbox for Data Scientists"
       speakers:
-        - id: "cory_latschkowski"
-      track: "Virtual On-Demand Stage"
+        - id: "audrey_resnick"
+      track: "Main Stage"
     - local_time: "11:30 am"
-      session_name: >-
-        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22352&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22352]</a> Applying AIOps to Kubernetes Telemetry Data with Open Data Hub at OpenShift
-      speakers:
-        - id: "alex_corvin"
-        - id: "ivan_necas"
-      track: "Virtual On-Demand Stage"
+      session_name: "Building an Edge Intelligence Application - Ganesh Harinath and Dennis O'Connell (Verizon Media Group)"
+      track: "Main Stage"
     - local_time: "12:00 pm"
-      session_name: >-
-        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22351&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22351]</a> Accelerating AI on the Edge
+      session_name: "Open Source for Data Scientists - Marcel Hild (Red Hat)"
+      track: "Main Stage"     
+    - local_time: "12:30 pm"
+      session_name: "How to Build Data Science Pipelines with OpenShift using Ceph, Kafka and Knative - Guillaume Moutier (Red Hat)"
+      track: "Main Stage" 
+    - local_time: "12:30 pm"
+      session_name: "Data Scientists and Red Hat - Better Together"
       speakers:
-        - id: "nick_barcet"
-        - id: "kevin_jones"
-      track: "Virtual On-Demand Stage"     
-    - local_time: "12:31 pm"
-      session_name: >-
-        <a href="https://www.nvidia.com/en-us/gtc/session-catalog/?search.language=1594320459782001LCjF&search=A22351&tab.catalogtabfields=1600209910618002Tlxt" target="_blank">[A22351]</a> Data driven insights with SQL Server Big Data Clusters and OpenShift
-      speakers:
-        - id: "buck_woody"
-      track: "Virtual On-Demand Stage" 
+        - id: "diane"
+        - id: "audrey_resnick"
+      speakers: 
+      track: "Main Stage"   
 - name: "Japan OpenShift Commons Gathering 2020"
   menu: "show"
   language: "English"
@@ -174,7 +166,7 @@ gatherings:
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, data scientists, devops professionals and sysadmins together to explore
     the next steps in making container technologies successful and secure for your ML and AI workloads.
   event_footer_text: >-
-    Please note: Pre-registration is required. Your GTC registration grants you access to the virtual on-demand OpenShift Commons Gathering talks on October 5-9 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
+    Please note: Pre-registration is required. Your GTC registration grants you access to the virtual on-demand OpenShift Commons Gathering talks on October 5-9 from 9 a.m. - 1 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   schedule:
     - local_time: "9:00 am"
       session_name: >-
@@ -778,7 +770,7 @@ gatherings:
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
     the next steps in making container technologies successful and secure.
   event_footer_text: >-
-    Please note: Pre-registration is required. Your Red Hat Summit Virtual Experience registration grants you access to the Virtual OpenShift Commons Gathering, on April 27 from 9 a.m. - 6 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
+    Please note: Pre-registration is required. Your Red Hat Summit Virtual Experience registration grants you access to the Virtual OpenShift Commons Gathering, on April 27 from 9 a.m. - 6 p.m. ET. This forum will feature a discussion of best practices, lessons learned, and the open source projects that support OpenShift and Kubernetes--all from project leads with production enterprise deployments. 
   invite_link: "https://reg.summit.redhat.com/account/login?signin=189042c2327dcf3c98e56dd7d9c268d5"
   sponsors:
   sponsoring_URL: "mailto:mbecker@redhat.com"
