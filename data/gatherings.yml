@@ -35,12 +35,12 @@ gatherings:
       session_name: "Red Hat Keynote - Sherard Griffin (Red Hat)"
       track: "Main Stage"       
     - local_time: "10:00 am"
-      session_name: "The Enterprise Neurosystem Initiative - Raul Reyes Gonzalez and Karlo Piceno Diaz (America Movil)
+      session_name: "The Enterprise Neurosystem Initiative - Raul Reyes Gonzalez and Karlo Piceno Diaz (America Movil)"
       speakers:
         - id: "bill_wright"
       track: "Main Stage"
     - local_time: "10:30 am"
-      session_name: "MLCommons: Accelerating Machine Learning Innovation with Benchmarks, Datasets and beyond - David Kanter (MLCommons), Peter Matteson (Google)"
+      session_name: "MLCommons: Accelerating Machine Learning with Benchmarks, Datasets and beyond - David Kanter (MLCommons), Peter Matteson (Google)"
       speakers:
         - id: "diane_feddema"
       track: "Main Stage"
