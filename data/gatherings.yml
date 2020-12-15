@@ -26,7 +26,7 @@ gatherings:
       session_name: "Welcome to the Commons"
       speakers:
         - id: "diane"
-        - id: "audrey_resnick"
+        - id: "audrey_reznik"
       track: "Main Stage"
     - local_time: "9:10 am"
       session_name: "Guest Keynote: TBD"
@@ -47,7 +47,7 @@ gatherings:
     - local_time: "11:00 am"
       session_name: "OpenDataHub: The Open Source Toolbox for Data Scientists"
       speakers:
-        - id: "audrey_resnick"
+        - id: "audrey_reznik"
       track: "Main Stage"
     - local_time: "11:30 am"
       session_name: "Building an Edge Intelligence Application - Ganesh Harinath and Dennis O'Connell (Verizon Media Group)"
