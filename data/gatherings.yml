@@ -29,7 +29,7 @@ gatherings:
         - id: "audrey_resnick"
       track: "Main Stage"
     - local_time: "9:10 am"
-      session_name: "Guest Keynote: "
+      session_name: "Guest Keynote: TBD"
       track: "Main Stage"    
     - local_time: "9:30 am"
       session_name: "Red Hat Keynote - Sherard Griffin (Red Hat)"
