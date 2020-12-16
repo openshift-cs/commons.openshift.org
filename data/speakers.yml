@@ -2026,7 +2026,7 @@ speakers:
     photo: "speakers/raul_reyes.jpeg"        
   - id: "kate_saenko"
     name: "Kate Saenko"
-    role: "Associate Professor of Computer Science at Boston University and a consulting professor for the MIT-IBM Watson AI Lab"
+    role: "Associate Professor of Computer Science"
     URL: "https://mitibmwatsonailab.mit.edu/people/kate-saenko/"
     company: "Boston University/MIT-IBM Watson AI Lab"
     photo: "speakers/kate_saenko.jpg"  
