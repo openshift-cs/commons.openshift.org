@@ -34,7 +34,7 @@ gatherings:
         - id: "kate_saenko"
       track: "Main Stage"    
     - local_time: "9:35 am"
-      session_name: "Guest Keynote: TBD
+      session_name: "Guest Keynote: TBD"
       track: "Main Stage"       
     - local_time: "10:00 am"
       session_name: "The Enterprise Neurosystem Initiative at America Movil"
