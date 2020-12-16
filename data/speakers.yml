@@ -2060,7 +2060,7 @@ speakers:
     URL: "https://www.redhat.com/"
     company: "Red Hat"
     photo: "speakers/sherard_griffin.jpeg"  
-   - id: "guillaume_moutier.jpeg"
+  - id: "guillaume_moutier"
     name: "Guillaume Moutier"
     role: "Senior Principal Technical Evangelist"
     URL: "https://www.redhat.com/"
