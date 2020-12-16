@@ -66,6 +66,7 @@ gatherings:
       session_name: "NVIDIA GPU Operator: Simplifying GPU Management in Kubernetes"
       speakers:
         - id: "kevin_jones"
+      track: "Main Stage"  
     - local_time: "12:30 pm"
       session_name: "Beyond AIOps: How to Open Source Operations"
       speakers:
