@@ -27,6 +27,7 @@ gatherings:
       speakers:
         - id: "diane"
         - id: "audrey_reznik"
+        - id: "sherard_griffin"
       track: "Main Stage"
     - local_time: "9:10 am"
       session_name: "Guest Keynote on Diversity and AI Ethics"
@@ -61,14 +62,24 @@ gatherings:
         - id: "dennis_oconnell"
         - id: "ganesh_harinath"
       track: "Main Stage"
-    - local_time: "12:00 pm"
-      session_name: "Beyond AIOps: How to Open Source Operations - Marcel Hild (Red Hat)"
+    - local_time: "12:30 pm"
+      session_name: "NVIDIA GPU Operator: Simplifying GPU Management in Kubernetes"
+      speakers:
+        - id: "kevin_jones"
+    - local_time: "12:30 pm"
+      session_name: "Beyond AIOps: How to Open Source Operations"
+      speakers:
+        - id: "marcel_hild"
       track: "Main Stage"     
+    - local_time: "9:10 am"
+      session_name: "How to Build Data Science Pipelines with OpenShift using Ceph, Kafka and Knative"
+      speakers:
+        - id: "guillaume_moutier"
+      track: "On Demand" 
     - local_time: "12:30 pm"
-      session_name: "How to Build Data Science Pipelines with OpenShift using Ceph, Kafka and Knative - Guillaume Moutier (Red Hat)"
-      track: "Main Stage" 
-    - local_time: "12:30 pm"
-      session_name: "Data Scientists and Red Hat - Better Together - Sherard Griffin (Red Hat)"
+      session_name: "Data Scientists and Red Hat - Better Together"
+      speakers:
+        - id: "sherard_griffin"
       track: "Main Stage"   
 - name: "Japan OpenShift Commons Gathering 2020"
   menu: "show"
