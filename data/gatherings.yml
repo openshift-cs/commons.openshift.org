@@ -56,7 +56,10 @@ gatherings:
         - id: "audrey_reznik"
       track: "Main Stage"
     - local_time: "11:30 am"
-      session_name: "Building an Edge Intelligence Application - Ganesh Harinath and Dennis O'Connell (Verizon Media Group)"
+      session_name: "Building an Edge Intelligence Application at Verizon Media"
+      speakers:
+        - id: "dennis_oconnell"
+        - id: "ganesh_harinath"
       track: "Main Stage"
     - local_time: "12:00 pm"
       session_name: "Beyond AIOps: How to Open Source Operations - Marcel Hild (Red Hat)"
