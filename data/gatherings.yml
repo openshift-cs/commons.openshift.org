@@ -42,7 +42,7 @@ gatherings:
       speakers:
         - id: "karlo_piceno"
         - id: "raul_reyes"
-        - id: "bill_wright"
+        - id: "william_wright"
       track: "Main Stage"
     - local_time: "10:30 am"
       session_name: "MLCommons: Accelerating Machine Learning with Benchmarks, Datasets and beyond"
