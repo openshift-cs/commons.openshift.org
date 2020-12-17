@@ -30,7 +30,7 @@ gatherings:
         - id: "sherard_griffin"
       track: "Main Stage"
     - local_time: "9:10 am"
-      session_name: "Overcoming Dataset Bias in Machine Learning""
+      session_name: "Overcoming Dataset Bias in Machine Learning"
       speakers:
         - id: "kate_saenko"
       track: "Main Stage"    
