@@ -30,7 +30,7 @@ gatherings:
         - id: "sherard_griffin"
       track: "Main Stage"
     - local_time: "9:10 am"
-      session_name: "Guest Keynote on Diversity and AI Ethics"
+      session_name: "Overcoming Dataset Bias in Machine Learning""
       speakers:
         - id: "kate_saenko"
       track: "Main Stage"    
