@@ -62,12 +62,12 @@ gatherings:
         - id: "dennis_oconnell"
         - id: "ganesh_harinath"
       track: "Main Stage"
-    - local_time: "12:30 pm"
+    - local_time: "12:00 pm"
       session_name: "NVIDIA GPU Operator: Simplifying GPU Management in Kubernetes"
       speakers:
         - id: "kevin_jones"
       track: "Main Stage"  
-    - local_time: "12:30 pm"
+    - local_time: "12:25 pm"
       session_name: "Beyond AIOps: How to Open Source Operations"
       speakers:
         - id: "marcel_hild"
@@ -77,7 +77,7 @@ gatherings:
       speakers:
         - id: "guillaume_moutier"
       track: "On Demand" 
-    - local_time: "12:30 pm"
+    - local_time: "12:50 pm"
       session_name: "Data Scientists and Red Hat - Better Together"
       speakers:
         - id: "sherard_griffin"
