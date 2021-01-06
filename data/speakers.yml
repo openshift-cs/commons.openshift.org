@@ -2073,7 +2073,7 @@ speakers:
     company: "Red Hat"
     photo: "speakers/marcel_hild.jpeg"   
   - id: "paul_mclachlan"
-    name: "Paul_Mclachlan"
+    name: "Paul Mclachlan"
     role: "Artificial Intelligence Research Lead"
     URL: "https://www.ericsson.com/en"
     company: "Ericsson Research"
