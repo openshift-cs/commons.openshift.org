@@ -2037,7 +2037,7 @@ speakers:
     company: "Google"
     photo: "speakers/peter_mattson.jpeg"  
   - id: "david_kantor"
-    name: "David Kantor"
+    name: "David Kanter"
     role: "Executive Director at MLCommons"
     URL: "https://mlcommons.org/"
     company: "MLCommons"
