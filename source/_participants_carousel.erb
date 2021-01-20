@@ -11,7 +11,7 @@
       <% slice.each do |participant| %>
       <div class="participant-logo">
         <a href="<%= participant.link %>" title="<%= participant.name %>">
-          <%= image_tag participant.logo, :alt => participant.name %>
+          <%= image_tag participant.logo, :alt => participant.name, :loading => "lazy" %>
         </a>
       </div>
       <% end %>

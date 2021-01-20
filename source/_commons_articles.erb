@@ -32,7 +32,6 @@ $(document).ready(function () {
       $(response).find("item").slice(0, maxItems).each(function () {
 				var el = $(this);
         var intro = strip(el.find("description").text().split("</p>")[0].replace("<p>",""));
-        console.log(intro);
         output += blogItemHtml(el.find("link").text(), el.find("title").text(), el.find("pubDate").text(), intro);
       });
       blogFeedContainer.html(output);

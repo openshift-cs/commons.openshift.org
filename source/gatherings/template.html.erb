@@ -4,12 +4,14 @@ description:  The OpenShift Commons community gets together and share experience
 ---
 
 <% content_for :header do %>
-<h1 class="animated fadeInDown delay">
-  OpenShift Commons Gathering
-</h1>
-<p class="animated fadeInUp delay">
-  <%= gathering.date.to_time.strftime('%B %d, %Y') %> | <%= gathering.location %>
-</p>
+<div class="row text-center" style="padding-top: 30px;">
+  <h1 class="animated fadeInDown delay">
+    OpenShift Commons Gathering
+  </h1>
+  <p class="animated fadeInUp delay">
+    <%= gathering.date.to_time.strftime('%B %d, %Y') %> | <%= gathering.location %>
+  </p>
+</div>
 <% end %>
 
 <!-- gathering sub navigation -->
@@ -228,7 +230,7 @@ description:  The OpenShift Commons community gets together and share experience
                   <div class="col-12 text-center">
                     <h4><%= sample_sponsor.label %></h4>
                   </div>
-                </div>  
+                </div>
                 <%# iterate through group level memebers %>
                   <div class="sponsor-group">
                   <% gathering.sponsors.find_all { |sponsor| sponsor.level == sponsor_level }.each do |s| %>
