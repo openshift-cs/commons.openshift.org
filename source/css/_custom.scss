@@ -43,11 +43,6 @@ Author: breather https://unsplash.com/breather
 License: https://unsplash.com/license
 ---------------------------------------------------------------*/
 
-.image_06_parallax{
-	background-image: url("../img/parallax/commons-full-2.jpg");
-	background-repeat: repeat-x;
-}
-
 .opacy_bg_02{
   background:rgba(0, 61, 110, 0.34);
   text-shadow: 1px 1px 0 rgba(0,0,0,.5);
@@ -648,10 +643,15 @@ ul.participants.list {
   }
 }
 
+.index_static section p {
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 @media (min-width: $screen-md-min) {
 	.opacy_bg_02, .opacy_bg_05 {
-		padding: 70px 0 130px;
+		padding: 40px 0 100px;
 	}
 
 	.bg_parallax {
@@ -684,7 +684,7 @@ ul.participants.list {
 	.tinynav {
 		top: -7px;
 		border-radius: 5px;
-	}
+  }
 	.nav_logo {
 		background-color: transparent;
 		top: 0;
@@ -1067,7 +1067,7 @@ text-align: left;
 		height: auto;
 		margin: auto;
 		max-width:140px;
-		padding:0px;		
+		padding:0px;
 		position: relative;
 		width: 100%;
 		top: 50%;
@@ -1129,7 +1129,7 @@ margin: 0 20px;
 		&>a.schedule-tab-link:hover {
 			background-color: rgba(204, 0, 0, 0.3);
 		}
-		
+
 		&.active {
 			border-color: rgb(204, 0, 0);
 
@@ -1137,7 +1137,7 @@ margin: 0 20px;
 				color: white;
 				background-color: rgb(204, 0, 0);
 				border-color: rgb(204, 0, 0);
-		
+
 				&:hover {
 					color: white;
 					background-color: rgb(204, 0, 0);
@@ -1158,7 +1158,7 @@ margin: 0 20px;
 	&:not(:last-child) {
 		border-bottom: 1px solid lightgray;
 	}
-	
+
 	.session-track {
 		border-radius: 3px;
 		color: white;
