@@ -37,12 +37,21 @@
             <section class="opacy_bg_05 paddings">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-12">
+                  <div class="col-md-6 d-sm-none d-md-block">
                     <div class="logo wow fadeIn delay">
                       <a href="/index.html" title="Back to Home">
-                        <%= image_tag "Logo-Red_Hat-OpenShift-A-Reverse-RGB.svg", { :class => "logo_img", :alt => "OpenShift Logo", :style => "margin-bottom: 30px;" } %>
+                        <%= image_tag "2020_OSC_Logo__Vert_R_Reverse.png", { :class => "logo_img", :alt => "OpenShift Logo", :style => "margin-bottom: 30px;" } %>
                       </a>
                     </div>
+                   </div>
+                   <div class="col-md-6 d-sm-none d-md-block">
+                    <div class="logo wow fadeIn delay">
+                      <a href="/index.html" title="Back to Home">
+                        <%= image_tag "2020_OSC__WHMC_Reverse.png", { :class => "logo_img", :alt => "OpenShift Logo", :style => "margin-bottom: 30px;" } %>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
                     <%= yield_content(:header) %>
                   </div>
                 </div>
