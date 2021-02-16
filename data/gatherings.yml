@@ -14,7 +14,7 @@ gatherings:
     - label: "Registration Opening Soon"
       price: "Free!"
   lead_text: >-
-    This OpenShift Commons Gathering will be heldo on May 4th on Central European Standard Time (CEST)!
+    This OpenShift Commons Gathering will be held on May 4th on Central European Standard Time (CEST)!
   info_text: >-
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
