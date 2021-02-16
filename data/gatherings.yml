@@ -14,7 +14,7 @@ gatherings:
     - label: "Registration Opening Soon"
       price: "Free!"
   lead_text: >-
-    This OpenShift Commons Gathering will be held on May 4th on Central European Standard Time (CEST)!
+    This OpenShift Commons Gathering will be held on May 4th in Central European Standard Time (CEST)!
   info_text: >-
     The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
     the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
@@ -78,19 +78,17 @@ gatherings:
   time: "12:00 pm - 5:30 pm"
   location: "Red Hat Summit 2021"
   venue: "Virtual Experience"
-  venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
+  venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Red_Hat_Summit_2021.html"
   calendar_event_URL:
   registration_text: "Registration Opening Soon"
-  registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
+  registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Red_Hat_Summit_2021.html"
   pricing:
     - label: "Registration Opening Soon"
       price: "Free!"
   lead_text: >-
-    This OpenShift Commons Gathering will be held on June 14th on Eastern Standard Time (EST)!
+    This OpenShift Commons Gathering will be held on June 14th in Eastern Standard Time (EST)!
   info_text: >-
-    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
-    the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
-    the next steps in making container technologies successful and secure.
+    The OpenShift Commons Gathering at Red Hat Summit 2021 will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. This event will gather developers, DevOps professionals and sysadmins together to learn about best practices from upstream project leads and cloud native technology practitioners from all over the world.
   event_footer_text: >-
     Please note: Pre-registration is required.
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
