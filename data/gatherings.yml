@@ -34,7 +34,9 @@ gatherings:
         - id: "mike_barrett"
       track: "Main Stage"
     - local_time: "13:00 pm"
-      session_name: "End User Keynote"
+      session_name: "End User Keynote: Lessons Learned Migrating Container Platform at Scale - Dr. Roland Bader (BMW Group)"
+      speakers:
+        - id: "roland_bader"
       track: "Main Stage"   
     - local_time: "13:25 pm"
       session_name: "Welcome"
