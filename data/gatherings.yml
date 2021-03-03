@@ -11,8 +11,8 @@ gatherings:
   registration_text: "Register now"
   registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-eu"
   pricing:
-    - label: "Registration Opening Soon"
-      price: "Free!"
+    - label: "Register now"
+      price: "Free"
   lead_text: >-
     This OpenShift Commons Gathering will be held on May 4th in Central European Standard Time (CEST)!
   info_text: >-
@@ -90,17 +90,17 @@ gatherings:
   venue: "Virtual Experience"
   venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Red_Hat_Summit_2021.html"
   calendar_event_URL:
-  registration_text: "Registration Opening Soon"
-  registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Red_Hat_Summit_2021.html"
+  registration_text: "Register now"
+  registration_URL: "https://www.redhat.com/en/summit"
   pricing:
-    - label: "Registration Opening Soon"
-      price: "Free!"
+    - label: "Register now"
+      price: "Free"
   lead_text: >-
     This OpenShift Commons Gathering will be held on June 14th in Eastern Standard Time (EST)!
   info_text: >-
     The OpenShift Commons Gathering at Red Hat Summit 2021 will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. This event will gather developers, DevOps professionals and sysadmins together to learn about best practices from upstream project leads and cloud native technology practitioners from all over the world.
   event_footer_text: >-
-    Please note: Pre-registration is required.
+    Please note: Registration for Red Hat Summit 2021 is required, and includes access to OpenShift Commons Gathering.
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
   schedule:
     - local_time: "12:00 pm"
