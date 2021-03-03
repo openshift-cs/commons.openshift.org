@@ -22,7 +22,7 @@ gatherings:
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
   schedule:
     - local_time: "12:00 pm"
-      session_name: "Welcome to the Commons"
+      session_name: "Welcome to the Commons: Unlock the Potential"
       speakers:
         - id: "diane"
       track: "Main Stage"
