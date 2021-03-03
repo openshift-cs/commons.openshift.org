@@ -16,7 +16,7 @@ gatherings:
   lead_text: >-
     This OpenShift Commons Gathering will be held on May 4th in Central European Standard Time (CEST)!
   info_text: >-
-    The OpenShift Commons End User Gathering, Day Zero at KubeCon EU, will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
+    The OpenShift Commons Gathering, Day Zero at KubeCon EU, will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
   event_footer_text: >-
     Please note: Registration is required.
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
