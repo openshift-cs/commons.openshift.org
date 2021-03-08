@@ -4,25 +4,25 @@ gatherings:
   language: "English"
   date: "2021-05-04"
   time: "12:00 pm - 5:30 pm"
-  location: "End User Edition at Kubecon EU"
+  location: "Kubecon EU"
   venue: "Virtual Experience"
   venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
   calendar_event_URL:
-  registration_text: "Registration Opening Soon"
-  registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
+  registration_text: "Register now"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-eu"
   pricing:
-    - label: "Registration Opening Soon"
-      price: "Free!"
+    - label: "Register now"
+      price: "Free"
   lead_text: >-
-    This OpenShift Commons Gathering will be held on May 4th in Central European Standard Time (CEST)!
+    This OpenShift Commons End User Gathering will be held on May 4th in Central European Standard Time (CEST)!
   info_text: >-
-    The OpenShift Commons Gathering at KubeCon EU will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
+    The OpenShift Commons End User Gathering at KubeCon EU, will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
   event_footer_text: >-
-    Please note: Pre-registration is required.
+    Please note: Registration is required.
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
   schedule:
     - local_time: "12:00 pm"
-      session_name: "Welcome to the Commons"
+      session_name: "Welcome to the Commons: Unlock the Potential"
       speakers:
         - id: "diane"
       track: "Main Stage"
@@ -58,18 +58,22 @@ gatherings:
       track: "Track 1"    
     - local_time: "13:25 pm"
       session_name: "Welcome"
+      speakers: 
+        - id: "diane"
       track: "Track 2"
     - local_time: "13:30 pm"
-      session_name: "OpenShift End User Case Study: TBD"
+      session_name: "Using Text Analytics and AI to reduce GDPR risk (Version 1)"
+      speakers:
+        - id: "john_bolger"
       track: "Track 2"
     - local_time: "14:10 pm"
-      session_name: "OpenShift End User Case Study: TBD"
+      session_name: "Banking App Modernization via the IBM Cloud Pak for Automation on OpenShift Container Platform (Bank of Oklahoma)"
       track: "Track 2"
     - local_time: "14:50 pm"
-      session_name: "OpenShift End User Case Study: TBD"
+      session_name: "OpenShift OKD to OCP Case Study: (Rohde & Schwartz)"
       track: "Track 2"  
     - local_time: "15:35 pm"
-      session_name: "OpenShift End User Case Study: TBD"
+      session_name: "Lessons Learned Adopting RHEL Container Tools: Podman, Buildah, Quay, Skopeo, Clair and S2I (Take Off Labs)"
       track: "Track 2"  
     - local_time: "16:15 pm"
       session_name: "OpenShift End User Case Study: TBD"
@@ -86,17 +90,17 @@ gatherings:
   venue: "Virtual Experience"
   venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Red_Hat_Summit_2021.html"
   calendar_event_URL:
-  registration_text: "Registration Opening Soon"
-  registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Red_Hat_Summit_2021.html"
+  registration_text: "Register now"
+  registration_URL: "https://www.redhat.com/en/summit"
   pricing:
-    - label: "Registration Opening Soon"
-      price: "Free!"
+    - label: "Register now"
+      price: "Free"
   lead_text: >-
     This OpenShift Commons Gathering will be held on June 14th in Eastern Standard Time (EST)!
   info_text: >-
     The OpenShift Commons Gathering at Red Hat Summit 2021 will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. This event will gather developers, DevOps professionals and sysadmins together to learn about best practices from upstream project leads and cloud native technology practitioners from all over the world.
   event_footer_text: >-
-    Please note: Pre-registration is required.
+    Please note: Registration for Red Hat Summit 2021 is required, and includes access to OpenShift Commons Gathering.
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
   schedule:
     - local_time: "12:00 pm"
