@@ -40,21 +40,33 @@ gatherings:
       track: "Main Stage"   
     - local_time: "13:25 pm"
       session_name: "Welcome"
+      speakers:
+        - id: "diane"
       track: "Track 1"
     - local_time: "13:30 pm"
-      session_name: "Streamlining the OpenShift Developer Experience by Building an Enterprise Helm Chart Repository (Discover Financial Services)"
+      session_name: "Streamlining the OpenShift Developer Experience by Building an Enterprise Helm Chart Repository"
+      speakers:
+        - id: "sachin_chavda"
       track: "Track 1"
     - local_time: "14:10 pm"
-      session_name: "End to End OCP 4 clusters deployment automation in IT context (Amadeus)"
+      session_name: "End to End OCP 4 clusters deployment automation in IT context"
+      speakers:
+        - id: "thibaud_castaing"
       track: "Track 1"
     - local_time: "14:50 pm"
-      session_name: "ODCN’s journey to connecting OpenShift clusters securely and transparently with Submariner (ODC-Noord)"
+      session_name: "ODCN’s journey to connecting OpenShift clusters securely and transparently with Submariner"
+      speakers:
+        - id: "martijn_straatman"
       track: "Track 1"    
     - local_time: "15:35 pm"
-      session_name: "Cost and Resource management of Modern CI/CD Infrastructure with OpenShift (SIX Digital Exchange)"
+      session_name: "Cost and Resource management of Modern CI/CD Infrastructure with OpenShift"
+      speakers:
+        - id: "saulius_prasmantas"
       track: "Track 1" 
     - local_time: "16:15 pm"
       session_name: "Next Steps"
+      speakers:
+        - id: "diane"
       track: "Track 1"    
     - local_time: "13:25 pm"
       session_name: "Welcome"
