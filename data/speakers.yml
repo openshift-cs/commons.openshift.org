@@ -2084,7 +2084,7 @@ speakers:
     URL: "https://www.bmw.de"
     company: "BMW Group"
     photo: "speakers/roland_bader.jpeg"  
-  - id: "sachin_chavda.jpeg"
+  - id: "sachin_chavda"
     name: "Sachin Chavda"
     role: "Technical Architect"
     URL: "https://www.discover.com/company/"
