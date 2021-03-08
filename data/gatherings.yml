@@ -47,21 +47,27 @@ gatherings:
       session_name: "Streamlining the OpenShift Developer Experience by Building an Enterprise Helm Chart Repository"
       speakers:
         - id: "sachin_chavda"
+        - id: "austin_dewey"
       track: "Track 1"
     - local_time: "14:10 pm"
       session_name: "End to End OCP 4 clusters deployment automation in IT context"
       speakers:
         - id: "thibaud_castaing"
+        - id: "maria_emmanuelli"
+        - id: "vincent_bronikowski"
       track: "Track 1"
     - local_time: "14:50 pm"
       session_name: "ODCN’s journey to connecting OpenShift clusters securely and transparently with Submariner"
       speakers:
         - id: "martijn_straatman"
+        - id: "stephen_kitt"
       track: "Track 1"    
     - local_time: "15:35 pm"
       session_name: "Cost and Resource management of Modern CI/CD Infrastructure with OpenShift"
       speakers:
         - id: "saulius_prasmantas"
+        - id: "radu_domnu"
+        - id: "marcel_haerri"
       track: "Track 1" 
     - local_time: "16:15 pm"
       session_name: "Next Steps"
@@ -82,6 +88,7 @@ gatherings:
       session_name: "Banking App Modernization via the IBM Cloud Pak for Automation on OpenShift Container Platform"
       speakers:
         - id: "lance_preston"
+        - id: "brant_eliasen"
       track: "Track 2"
     - local_time: "14:50 pm"
       session_name: "Journey from OpenShift OKD to OCP on Azure"
