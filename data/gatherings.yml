@@ -91,7 +91,7 @@ gatherings:
         - id: "brant_eliasen"
       track: "Track 2"
     - local_time: "14:50 pm"
-      session_name: "Journey from OpenShift OKD to OCP on Azure"
+      session_name: "Rohde & Schwarz's Journey to OpenShift 4:From OKD to ARO (Azure Red Hat OpenShift)"
       speakers:
         - id: "josef_meier"
       track: "Track 2"  
