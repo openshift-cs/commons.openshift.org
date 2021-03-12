@@ -14,9 +14,9 @@ gatherings:
     - label: "Register now"
       price: "Free"
   lead_text: >-
-    This OpenShift Commons End User Gathering will be held on May 4th in Central European Standard Time (CEST)!
+    This OpenShift Commons Gathering focused on End Users will be held on May 4th in Central European Standard Time (CEST)!
   info_text: >-
-    The OpenShift Commons End User Gathering at KubeCon EU, will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
+    The OpenShift Commons Gathering at KubeCon EU, will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
   event_footer_text: >-
     Please note: Registration is required.
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
