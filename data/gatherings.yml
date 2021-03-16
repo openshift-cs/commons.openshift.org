@@ -77,7 +77,7 @@ gatherings:
     - local_time: "13:25 pm"
       session_name: "Welcome"
       speakers: 
-        - id: "diane"
+        - id: "stu"
       track: "Track 2"
     - local_time: "13:30 pm"
       session_name: "Using Text Analytics and AI to reduce GDPR risk (Version 1)"
