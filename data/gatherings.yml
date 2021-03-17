@@ -119,7 +119,7 @@ gatherings:
   venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Red_Hat_Summit_2021.html"
   calendar_event_URL:
   registration_text: "Register now"
-  registration_URL: "https://www.redhat.com/en/summit"
+  registration_URL: "https://reg.rainfocus.com/rc/redhat/sum21/oscg"
   pricing:
     - label: "Register now"
       price: "Free"
