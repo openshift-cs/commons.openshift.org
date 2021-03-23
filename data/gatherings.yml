@@ -37,6 +37,7 @@ gatherings:
       session_name: "Kubernetes as the Control Plane for the Hybrid Cloud"
       speakers: 
         - id: "clayton_coleman"
+      track: "Main Stage"  
     - local_time: "13:25 pm"
       session_name: "Welcome"
       speakers:
