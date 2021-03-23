@@ -18,7 +18,7 @@ gatherings:
   info_text: >-
     The OpenShift Commons Gathering at KubeCon EU, will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
   event_footer_text: >-
-    Please note: Registration is required.
+    Please note: Pre-Registration is Required and the Gathering will be held on Central European Standard Time (CEST)!
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU.html"
   schedule:
     - local_time: "12:00 pm"
