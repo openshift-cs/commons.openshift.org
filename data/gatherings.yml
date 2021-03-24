@@ -150,6 +150,10 @@ gatherings:
       track: "Main Stage"
     - local_time: "13:25 pm"
       session_name: "Using Open Source and Open Data To Address Educational Disparities Tyler	Whittenberg (Southern Coalition for Social Justice)"
+      speakers:
+        - id: "tyler_whittenberg"
+        - id: "clarence_clayton"
+        - id: "christopher_tate"
       track: "Main Stage"   
     - local_time: "13:45 pm"
       session_name: "Isbank Enables GPU usage for Machine learning with OpenShift and Ceph Storage - (Isbank)"
