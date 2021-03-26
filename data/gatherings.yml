@@ -102,12 +102,7 @@ gatherings:
         - id: "mihai_criveti"
       track: "Track 2"  
     - local_time: "16:15 pm"
-      session_name: "OpenShift End User Case Study: TBD"
-      track: "Track 2"  
-    - local_time: "16:55 pm"
-      session_name: "Road Ahead for OpenShift and Beyond"
-      speakers:
-        - id: "joe_f"
+      session_name: "HealthOS: Enabling Standards-Based Healthcare Interoperability with Cloud Native and Zero Trust (Anthem)"
       track: "Track 2"  
 - name: "OpenShift Commons Gathering at Red Hat Summit 2021"
   menu: "show"
