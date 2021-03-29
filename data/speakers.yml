@@ -2169,7 +2169,7 @@ speakers:
     role: "Cloud Consultant "
     URL: "https://www.redhat.com/"
     company: "Red Hat"    
-    photo: "speakers/radu.jpeg"  
+    photo: "speakers/radu_sq.png"  
   - id: "stu"
     name: "Stu Miniman"
     role: "Director,Market Insights,Red Hat Cloud Platforms"
