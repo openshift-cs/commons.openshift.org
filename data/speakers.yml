@@ -2242,3 +2242,7 @@ speakers:
     URL: "https://www.Anthem.ai/"
     company: "Anthem"    
     photo: "speakers/bobby_samuels.jpeg"  
+  - id: "filippo_sassi"
+    name: "Filippo Sassi"
+    URL: "https://www.version1.com/"
+    company: "Version1"     
