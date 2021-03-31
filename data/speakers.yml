@@ -2244,5 +2244,7 @@ speakers:
     photo: "speakers/bobby_samuels.jpeg"  
   - id: "filippo_sassi"
     name: "Filippo Sassi"
+    role: "Senior Software Engineer"
     URL: "https://www.version1.com/"
-    company: "Version1"     
+    company: "Version1"  
+    photo: "speakers/robyn_alexander.jpeg"  
