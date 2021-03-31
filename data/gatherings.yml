@@ -82,7 +82,6 @@ gatherings:
     - local_time: "13:30 pm"
       session_name: "Using Text Analytics and AI to reduce GDPR risk (Version 1)"
       speakers:
-        - id: "john_bolger"
         - id: "filippo_sassi"
       track: "Track 2"
     - local_time: "14:10 pm"
