@@ -29,7 +29,7 @@ gatherings:
     - local_time: "12:10 pm"
       session_name: "Enabling Innovation Everywhere: Red Hat's Hybrid Multi-Cloud Road Map and OpenShift Release Update"
       speakers: 
-        - id: "clayton_coleman"
+        - id: "rob_szumski" 
         - id: "derek_carr"
         - id: "mike_barrett"
       track: "Main Stage"
@@ -37,6 +37,7 @@ gatherings:
       session_name: "Kubernetes as the Control Plane for the Hybrid Cloud"
       speakers: 
         - id: "clayton_coleman"
+        - id: "joe_f"
       track: "Main Stage"  
     - local_time: "13:25 pm"
       session_name: "Welcome"
