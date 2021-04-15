@@ -2119,6 +2119,7 @@ speakers:
     role: "Senior Systems Engineer"
     URL: "https://www.bankofoklahoma.com/"
     company: "Bank of Oklahoma"  
+    photo: "speakers/lance_preston.png" 
   - id: "elif"
     name: "Elif Mosessohn-Samedin"
     role: "DevOps Engineer"
