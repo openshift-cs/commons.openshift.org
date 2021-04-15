@@ -90,7 +90,7 @@ gatherings:
       session_name: "Banking App Modernization via the IBM Cloud Pak for Automation on OpenShift Container Platform"
       speakers:
         - id: "lance_preston"
-        - id: "brant_eliasen"
+        - id: "faizal_khader"
       track: "Track 2"
     - local_time: "14:50 pm"
       session_name: "Rohde & Schwarz's Journey to OpenShift 4:From OKD to ARO (Azure Red Hat OpenShift)"
