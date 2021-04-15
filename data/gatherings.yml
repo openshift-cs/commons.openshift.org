@@ -106,6 +106,9 @@ gatherings:
     - local_time: "16:15 pm"
       session_name: "HealthOS: Enabling Standards-Based Healthcare Interoperability with Cloud Native and Zero Trust (Anthem)"
       track: "Track 2"  
+      speakers: 
+        - id: "frederick_kautz"
+        - id: "bobby_samuel"
 - name: "OpenShift Commons Gathering at Red Hat Summit 2021"
   menu: "show"
   language: "English"
