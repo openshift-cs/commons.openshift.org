@@ -179,7 +179,8 @@ gatherings:
       session_name: "Migrating from Oracle SOA Suite to Microservices On OpenShift at InnovaPost"
       track: "Track 1" 
       speakers:
-        -id: "craig_young"
+        - id: "craig_young"
+        - id: "rajith_attapattu"
     - local_time: "13:45 pm"
       session_name: "Scaled Self Service in a Highly Regulated Environment - Bernd	Malmqvist (WorldPay)"
       track: "Track 2"
