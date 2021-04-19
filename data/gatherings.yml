@@ -158,7 +158,11 @@ gatherings:
         - id: "christopher_tate"
       track: "Main Stage"   
     - local_time: "13:45 pm"
-      session_name: "Isbank Enables GPU usage for Machine learning with OpenShift and Ceph Storage - (Isbank)"
+      session_name: "İşbank Enables GPU usage for Machine learning with OpenShift and Ceph Storage"
+      speakers: 
+        - id: "suha_ondokuzmayis"
+        - id: "yener_yumlu"
+        - id: "caglar_gulseni"  
       track: "Track 1"
     - local_time: "14:15 pm"
       session_name: "Keeping Your OpenShift Platforms Continuously Compliant and Transparent - Oliver	Guggenbühl (Six Group)"
