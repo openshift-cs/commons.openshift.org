@@ -151,9 +151,9 @@ gatherings:
         - id: "joe_f"
       track: "Main Stage"
     - local_time: "13:25 pm"
-      session_name: "Using Open Source and Open Data To Address Educational Disparities Tyler	Whittenberg (Southern Coalition for Social Justice)"
+      session_name: "Using Open Source and Open Data To Address Educational Disparities at Southern Coalition for Social Justice"
       speakers:
-        - id: "tyler_whittenberg"
+        - id: "ryan_roberson" 
         - id: "clarence_clayton"
         - id: "christopher_tate"
       track: "Main Stage"   
