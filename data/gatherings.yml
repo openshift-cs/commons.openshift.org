@@ -170,7 +170,7 @@ gatherings:
         - id: "oliver_guggenbuhl"
       track: "Track 1"
     - local_time: "14:45 pm"
-      session_name: "Multi-Cloud, Multi-Architecture PaaS in Government: It Can Be Done - Robert Powell (Services Australia)"
+      session_name: "Multi-Cloud, Multi-Architecture PaaS in Government: It Can Be Done"
       track: "Track 1"   
       speakers:
         - id: "robert_powell"
