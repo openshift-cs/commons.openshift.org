@@ -2294,3 +2294,10 @@ speakers:
     URL: "https://redhat.com"
     company: "Red Hat"    
     photo: "speakers/johannes_wanepoel.jpeg"
+  - id: "rajith_attapattu"
+    name: "Rajith	Attapattu"
+    role: " "
+    URL: "https://redhat.com"
+    company: "Red Hat"    
+    photo: "speakers/rajith_attapattu.jpeg"
+
