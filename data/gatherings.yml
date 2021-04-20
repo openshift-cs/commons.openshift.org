@@ -204,6 +204,7 @@ gatherings:
       session_name: "AI  HPC at PayPal: Machine Learning at Scale for Financial Services"
       speakers:
         - id: "lohit_giri"
+        - id: "krishnan_prasanna"
       track: "Track 2"  
 - name: "OpenShift Commons Gathering on Data Science"
   menu: "show"
