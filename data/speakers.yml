@@ -2331,3 +2331,8 @@ speakers:
     name: "Murali	Achanta"
     URL: "https://www.wellsfargo.com/"
     company: "Wells Fargo"     
+  - id: "krishnan_prasanna"
+    name: "Krishnan	Prasanna"
+    URL: "https://www.redhat.com"
+    company: "Red Hat"    
+    photo: "speakers/krishnan_prasanna.jpeg"   
