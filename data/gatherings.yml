@@ -187,6 +187,8 @@ gatherings:
       session_name: "Scaled Self Service in a Highly Regulated Environment"
       speakers:
         - id: "bernd_malmqvist"
+        - id: "paul_mcdonald"
+        - id: "matt_simons"
       track: "Track 2"
     - local_time: "14:15 pm"
       session_name: "Towards a Semi-Automated Migration to K8s/OpenShift with Tools and Fitness Functions at Wells Fargo"
