@@ -190,12 +190,18 @@ gatherings:
       session_name: "Towards a Semi-Automated Migration to K8s/OpenShift with Tools and Fitness Functions at Wells Fargo"
       speakers:
         - id: "robyn_alexander"
+        - id: "murali_kaundinya"
+        - id: "murali_achanta"
       track: "Track 2"
     - local_time: "14:45 pm"
-      session_name: "Verizon Journey to OpenShift 4 - Robert Fisher (Verizon)"
+      session_name: "Verizon Journey to OpenShift 4"
+      speakers:
+        - id: "rob_fisher" 
+        - id: "jay_huddleston"
+        - id: "michael_zamot"
       track: "Track 2"  
     - local_time: "15:15 pm"
-      session_name: "AI  HPC at PayPal: Machine Learning at Scale for Financial Services - Lohit	Giri (PayPal)"
+      session_name: "AI  HPC at PayPal: Machine Learning at Scale for Financial Services"
       speakers:
         - id: "lohit_giri"
       track: "Track 2"  
