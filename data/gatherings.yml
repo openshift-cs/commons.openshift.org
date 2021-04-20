@@ -169,6 +169,7 @@ gatherings:
       speakers:
         - id: "oliver_guggenbuhl"
         - id: "marcel_haerri"
+        - id: "ricardo_lourenco"
       track: "Track 1"
     - local_time: "14:45 pm"
       session_name: "Multi-Cloud, Multi-Architecture PaaS in Government: It Can Be Done"
