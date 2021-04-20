@@ -2336,3 +2336,8 @@ speakers:
     URL: "https://www.redhat.com"
     company: "Red Hat"    
     photo: "speakers/krishnan_prasanna.jpeg"   
+  - id: "ricardo_lourenco"
+    name: "Ricardo Lourenco"
+    URL: "https://www.redhat.com"
+    company: "Red Hat"    
+    photo: "speakers/ricardo_lourenco.jpeg"   
