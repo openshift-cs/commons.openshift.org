@@ -82,7 +82,7 @@ gatherings:
         - id: "stu"
       track: "Track 2"
     - local_time: "13:30 pm"
-      session_name: "Using Text Analytics and AI to reduce GDPR risk (Version 1)"
+      session_name: "Using Text Analytics and AI to reduce GDPR risk)"
       speakers:
         - id: "filippo_sassi"
       track: "Track 2"
@@ -98,13 +98,13 @@ gatherings:
         - id: "josef_meier"
       track: "Track 2"  
     - local_time: "15:35 pm"
-      session_name: "Lessons Learned Adopting RHEL Container Tools: Podman, Buildah, Quay, Skopeo, Clair and S2I (Take Off Labs)"
+      session_name: "Lessons Learned Adopting RHEL Container Tools: Podman, Buildah, Quay, Skopeo, Clair and S2I "
       speakers:
         - id: "elif"
         - id: "mihai_criveti"
       track: "Track 2"  
     - local_time: "16:15 pm"
-      session_name: "HealthOS: Enabling Standards-Based Healthcare Interoperability with Cloud Native and Zero Trust (Anthem)"
+      session_name: "HealthOS: Enabling Standards-Based Healthcare Interoperability with Cloud Native and Zero Trust"
       track: "Track 2"  
       speakers: 
         - id: "frederick_kautz"
