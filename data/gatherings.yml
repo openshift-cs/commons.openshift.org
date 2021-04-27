@@ -86,7 +86,7 @@ gatherings:
       speakers:
         - id: "lance_preston"
         - id: "faizal_khader"
-      track: "Track 2"
+      track: "Track 1"
     - local_time: "14:50 pm"
       session_name: "Rohde & Schwarz's Journey to OpenShift 4:From OKD to ARO (Azure Red Hat OpenShift)"
       speakers:
@@ -100,7 +100,7 @@ gatherings:
       track: "Track 2"  
     - local_time: "16:15 pm"
       session_name: "HealthOS: Enabling Standards-Based Healthcare Interoperability with Cloud Native and Zero Trust"
-      track: "Track 2"  
+      track: "Track 1"  
       speakers: 
         - id: "frederick_kautz"
         - id: "bobby_samuel"
