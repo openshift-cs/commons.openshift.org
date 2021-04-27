@@ -64,7 +64,7 @@ gatherings:
         - id: "martijn_straatman"
         - id: "stephen_kitt"
       track: "Track 1"    
-    - local_time: "15:35 pm"
+    - local_time: "14:15 pm"
       session_name: "Cost and Resource management of Modern CI/CD Infrastructure with OpenShift"
       speakers:
         - id: "saulius_prasmantas"
@@ -98,7 +98,7 @@ gatherings:
         - id: "elif"
         - id: "mihai_criveti"
       track: "Track 2"  
-    - local_time: "16:15 pm"
+    - local_time: "15:05 pm"
       session_name: "HealthOS: Enabling Standards-Based Healthcare Interoperability with Cloud Native and Zero Trust"
       track: "Track 1"  
       speakers: 
