@@ -70,7 +70,7 @@ gatherings:
         - id: "saulius_prasmantas"
         - id: "radu_domnu"
         - id: "marcel_haerri"
-      track: "Track 1"    
+      track: "Track 2"    
     - local_time: "13:25 pm"
       session_name: "Welcome"
       speakers: 
