@@ -70,11 +70,6 @@ gatherings:
         - id: "saulius_prasmantas"
         - id: "radu_domnu"
         - id: "marcel_haerri"
-      track: "Track 1" 
-    - local_time: "16:15 pm"
-      session_name: "Road Ahead for OpenShift and beyond"
-      speakers:
-        - id: "joe_f"
       track: "Track 1"    
     - local_time: "13:25 pm"
       session_name: "Welcome"
