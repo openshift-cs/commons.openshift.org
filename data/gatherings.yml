@@ -63,14 +63,14 @@ gatherings:
       speakers:
         - id: "martijn_straatman"
         - id: "stephen_kitt"
-      track: "Track 1"    
+      track: "Track 2"    
     - local_time: "14:15 pm"
       session_name: "Cost and Resource management of Modern CI/CD Infrastructure with OpenShift"
       speakers:
         - id: "saulius_prasmantas"
         - id: "radu_domnu"
         - id: "marcel_haerri"
-      track: "Track 2"    
+      track: "Track 1"    
     - local_time: "13:25 pm"
       session_name: "Welcome"
       speakers: 
@@ -87,7 +87,7 @@ gatherings:
         - id: "lance_preston"
         - id: "faizal_khader"
       track: "Track 1"
-    - local_time: "14:50 pm"
+    - local_time: "14:00 pm"
       session_name: "Rohde & Schwarz's Journey to OpenShift 4:From OKD to ARO (Azure Red Hat OpenShift)"
       speakers:
         - id: "josef_meier"
