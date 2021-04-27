@@ -1853,3 +1853,6 @@ participants:
 - name: "Densify"
   link: "https://www.densify.com/"
   logo: "commons-logos/densify.jpg"
+- name: "Take off Labs"
+  link: "https://www.takeofflabs.com/"
+  logo: "commons-logos/takeofflabs.png"
