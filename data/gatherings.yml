@@ -58,7 +58,7 @@ gatherings:
         - id: "maria_emmanuelli"
         - id: "vincent_bronikowski"
       track: "Track 1"
-    - local_time: "14:50 pm"
+    - local_time: "15:00 pm"
       session_name: "ODCN’s journey to connecting OpenShift clusters securely and transparently with Submariner"
       speakers:
         - id: "martijn_straatman"
@@ -92,7 +92,7 @@ gatherings:
       speakers:
         - id: "josef_meier"
       track: "Track 2"  
-    - local_time: "15:35 pm"
+    - local_time: "14:27 pm"
       session_name: "Lessons Learned Adopting RHEL Container Tools: Podman, Buildah, Quay, Skopeo, Clair and S2I "
       speakers:
         - id: "elif"
