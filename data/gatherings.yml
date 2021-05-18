@@ -292,7 +292,7 @@ gatherings:
       speakers:
         - id: "sherard_griffin"
       track: "Main Stage"   
-- name: "Japan 2020"
+- name: "Japan OpenShift Commons Gathering 2020"
   menu: "show"
   language: "English"
   date: "2020-12-10"
@@ -373,7 +373,7 @@ gatherings:
     - local_time: "16:55 pm"
       session_name: "Will you be an Certified Specialist in OpenShift? - Osamu Matsuhashi, Manager, Global Learning Services (Red Hat)"
       track: "Track 2"  
-- name: "AI/ML 2020"
+- name: "Virtual OpenShift Commons Gathering on AI/ML"
   menu: "show"
   language: "English"
   date: "2020-10-09"
@@ -448,7 +448,7 @@ gatherings:
       speakers:
         - id: "buck_woody"
       track: "Virtual On-Demand Stage"     
-- name: "Kubecon North America 2020"
+- name: "Kubecon North America Virtual OpenShift Commons Gathering 2020"
   menu: "show"
   language: "English"
   date: "2020-11-17"
@@ -571,7 +571,7 @@ gatherings:
       speakers: 
         - id: "amith_singhee"
         - id: "james_labocki"      
-- name: "LATAM 2020"
+- name: "LATAM OpenShift Commons Gathering 2020"
   menu: "show"
   language: "Spanish"
   date: "2020-09-21"
