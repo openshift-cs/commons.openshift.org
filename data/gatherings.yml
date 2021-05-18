@@ -292,7 +292,7 @@ gatherings:
       speakers:
         - id: "sherard_griffin"
       track: "Main Stage"   
-- name: "Japan OpenShift Commons Gathering 2020"
+- name: "Japan X 2020"
   menu: "show"
   language: "English"
   date: "2020-12-10"
@@ -2492,6 +2492,6 @@ gatherings:
 - name: "Japan 2020"
   date: "2020-12-11"
   youtube_playlist_id: "PLaR6Rq6Z4IqeNLyWM4J_IyOgSofhJ-RAo"
-- name: "Data Science/NVIDIA GTC 2020"
+- name: "Data Science at NVIDIA GTC 2020"
   date: "2020-10-10"
   youtube_playlist_id: "PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L"
