@@ -26,7 +26,7 @@ page "/sitemap.xml", layout: false
 ###
 data.gatherings.gatherings.each do |gathering|
   if gathering.menu.presence
-    proxy "/gatherings/#{gathering.name.gsub(" ","_")}.html", "/gatherings/template.html", :locals => { :gathering => gathering }, :ignore => true
+    proxy "/gatherings/#{gathering.name.gsub(/[ \/\\\:\*\?\"\<\>\|]/,"_")}.html", "/gatherings/template.html", :locals => { :gathering => gathering }, :ignore => true
   end
 end
 
