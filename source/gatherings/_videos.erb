@@ -19,7 +19,9 @@
     <div id="<%= gathering.gathering_name.to_s.gsub(/\s+/, "") %>" class="videos tab-pane fade in">
     <% end %>
       <% gathering.gathering_videos.each do |video| %>
-        <%= partial "video", :object => video, :locals => { :gathering_name => gathering.gathering_name.to_s } %>
+        <% if video.thumbnails.length > 0 %>
+          <%= partial "video", :object => video, :locals => { :gathering_name => gathering.gathering_name.to_s } %>
+        <% end %>
       <% end %>
     </div>
   <% end %>  

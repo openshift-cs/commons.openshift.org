@@ -2,8 +2,10 @@
   <h4 class="title"><%= video.title %></h4>
     <% if video.thumbnails.standard %>
       <div class="video-thumbnail" id="<%= video.resourceId.videoId %>" style="background-image: url('<%= video.thumbnails.standard.url %>');">
-    <% else %>
+    <% elsif video.thumbnails.high %>
       <div class="video-thumbnail" id="<%= video.resourceId.videoId %>" style="background-image: url('<%= video.thumbnails.high.url %>');">
+    <% else %>
+      <div class="video-thumbnail" id="<%= video.resourceId.videoId %>" style="background-image: url('<%= video.thumbnails.default.url %>');">
     <% end %>
     <div class="video-btn">Watch Here&nbsp;&nbsp;&#9658;</div>
   </div>

@@ -245,7 +245,7 @@ description:  The OpenShift Commons community gets together and share experience
                   </div>
             <% end %>
             <%# The "Your logo here?" is not rendered as it's unclear which level(s) this should be advertised in. %>
-          <% else %>
+          <% elsif gathering.sponsors.presence && gathering.sponsors.length > 0 %>
             <%# uniform level sponsors %>
             <div class="sponsor-group">
             <% gathering.sponsors.each do |sponsor| %>
