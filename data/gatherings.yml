@@ -200,12 +200,6 @@ gatherings:
         - id: "jay_huddleston"
         - id: "michael_zamot"
       track: "Track 2"  
-    - local_time: "15:15 pm"
-      session_name: "AI  HPC at PayPal: Machine Learning at Scale for Financial Services"
-      speakers:
-        - id: "lohit_giri"
-        - id: "krishnan_prasanna"
-      track: "Track 2"  
 - name: "Data Science 2021"
   menu: "show"
   language: "English"
