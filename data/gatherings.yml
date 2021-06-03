@@ -191,7 +191,6 @@ gatherings:
       speakers:
         - id: "robyn_alexander"
         - id: "murali_kaundinya"
-        - id: "murali_achanta"
       track: "Track 2"
     - local_time: "14:45 pm"
       session_name: "Verizon Journey to OpenShift 4"
