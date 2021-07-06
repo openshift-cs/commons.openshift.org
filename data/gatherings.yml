@@ -1,4 +1,61 @@
 gatherings:
+- name: "OpenShift Commons Gathering at Kubecon North America 2021"
+  menu: "show"
+  language: "English"
+  date: "2021-10-14"
+  time: "12:00 pm - 5:30 pm PST"
+  location: "Kubecon NA/Los Angeles, Regional Watch Parties and OpenShift.tv!"
+  venue: "The Hybrid Experience"
+  venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
+  calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
+  registration_text: "Registration Opening Soon"
+  registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
+  pricing:
+    - label: "Registration Opening Soon"
+      price: "Free"
+  lead_text: >-
+    This OpenShift Commons Gathering focused on End Users will be held on October 14th in Pacific Standard Time (PST)!
+  info_text: >-
+    The OpenShift Commons Gathering at KubeCon EU, will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
+  event_footer_text: >-
+    Please note: Pre-Registration is Required and the Gathering will be held on Pacific Standard Time (PST)!
+  invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
+  schedule:
+    - local_time: "12:00 pm"
+      session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      speakers:
+        - id: "diane"
+      track: "Main Stage"
+    - local_time: "12:10 pm"
+      session_name: "Red Hat's Hybrid Multi-Cloud Road Map and OpenShift Release Update"
+      speakers: 
+        - id: "rob_szumski" 
+        - id: "michael_elder"
+      track: "Main Stage"
+    - local_time: "13:00 pm"
+      session_name: "Upstream Keynote: Kubernetes as the Control Plane for the Hybrid Cloud"
+      speakers: 
+        - id: "clayton_coleman"
+        - id: "joe_f"
+      track: "Main Stage"  
+    - local_time: "13:30 pm"
+      session_name: "End User Keynote: TBD"
+      track: "Main Stage"  
+    - local_time: "13:30 pm"
+      session_name: "End User Talks from around the world"
+      track: "Main Stage"    
+    - local_time: "17:30 pm"
+      session_name: "Live Q/A with Guest Speakers and Red Hatters"
+      track: "Kubernetes 101"
+    - local_time: "14:00 pm"
+      session_name: "Getting Started with the Basics - Kubernetes Fundamental Concepts"
+      track: "Kubernetes 101"
+    - local_time: "15:00 pm"
+      session_name: "Application Development on Kubernetes"
+      track: "Kubernetes 101"
+    - local_time: "17:00 pm"
+      session_name: "What's Next? Beyond the Basics"
+      track: "Kubernetes 101"
 - name: "OpenShift Commons Gathering at Kubecon EU"
   menu: "show"
   language: "English"
