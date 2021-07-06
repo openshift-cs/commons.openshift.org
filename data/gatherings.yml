@@ -2,7 +2,7 @@ gatherings:
 - name: "OpenShift Commons Gathering at Kubecon North America 2021"
   menu: "show"
   language: "English"
-  date: "2021-10-14"
+  date: "2021-10-11"
   time: "12:00 pm - 5:30 pm PST"
   location: "Kubecon NA/Los Angeles, Regional Watch Parties and OpenShift.tv!"
   venue: "The Hybrid Experience"
@@ -14,7 +14,7 @@ gatherings:
     - label: "Registration Opening Soon"
       price: "Free"
   lead_text: >-
-    This OpenShift Commons Gathering focused on End Users will be held on October 14th in Pacific Standard Time (PST)!
+    This OpenShift Commons Gathering focused on End Users will be held on October 11th in Pacific Standard Time (PST)!
   info_text: >-
     The OpenShift Commons Gathering at KubeCon EU, will focus on talks from end users with production deployments of OpenShift sharing their use cases and lessons learned. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and future technologies.
   event_footer_text: >-
