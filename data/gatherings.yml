@@ -38,7 +38,7 @@ gatherings:
         - id: "clayton_coleman"
         - id: "joe_f"
       track: "Main Stage"  
-   - local_time: "13:30 pm"
+    - local_time: "13:30 pm"
       session_name: "End User Keynote: TBD"
       track: "Main Stage"  
     - local_time: "13:50 pm"
