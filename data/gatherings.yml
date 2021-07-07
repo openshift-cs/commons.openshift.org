@@ -52,11 +52,8 @@ gatherings:
       speakers:
         - id: "diane"
       track: "Main Stage"   
-    - local_time: "1:30 pm"
-      session_name: "Live Q/A with Guest Speakers and Red Hatters From Around the World"
-      track: "Main Stage"    
-    - local_time: "17:30 pm"
-      session_name: "Live Q/A with Guest Speakers and Red Hatters (back to the Main Stage)"
+    - local_time: "17:20 pm"
+      session_name: "Wrap Up and Additional Resources"
       track: "Kubernetes 101"
     - local_time: "14:00 pm"
       session_name: "Getting Started with the Basics - Kubernetes Fundamental Concepts"
