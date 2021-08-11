@@ -38,7 +38,7 @@ gatherings:
         - id: "clayton_coleman"
       track: "Main Stage"  
     - local_time: "10:30 am"
-      session_name: "DevOps Black Belts"
+      session_name: "Site Reliability Engineering, Managed Services, and the path to the future"
       speakers:
         - id: "divineops"
       track: "Main Stage"  
