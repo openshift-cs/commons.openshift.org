@@ -25,6 +25,7 @@ gatherings:
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
       speakers:
         - id: "diane"
+        - id: "stu"
       track: "Main Stage"
     - local_time: "9:10 am"
       session_name: "OpenShift Release Update and Road Map"
@@ -54,9 +55,10 @@ gatherings:
       session_name: "4 x End User Case Studies"
       track: "Main Stage"  
     - local_time: "1:30 pm"
-      session_name: "Cloud.Next: Where to We Go from Here? Q/A with Guest Speakers & Red Hatters"
+      session_name: "AMA Session: Live Q/A with Guest Speakers & Red Hat Engineers and Product Managers"
       speakers:
         - id: "diane"
+        - id: "stu"
       track: "Main Stage"   
     - local_time: "17:20 pm"
       session_name: "Wrap Up and Additional Resources"
