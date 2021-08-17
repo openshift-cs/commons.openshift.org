@@ -29,9 +29,10 @@ gatherings:
       track: "Main Stage"
     - local_time: "9:10 am"
       session_name: "OpenShift Release Update and Road Map"
-      speakers: 
-        - id: "rob_szumski" 
+      speakers:
         - id: "karena_angell"
+        - id: "rob_szumski" 
+        - id: "christian_hernandez"
       track: "Main Stage"
     - local_time: "10:00 am"
       session_name: "Upstream Keynote: Kubernetes as the Control Plane for the Hybrid Cloud"
@@ -56,6 +57,7 @@ gatherings:
       speakers:
         - id: "billy_foss"
         - id: "jose_chavez"
+        - id: "nitin_kalra"
       track: "Main Stage"  
     - local_time: "11:30 am"
       session_name: "Plus 3 more End User Case Studies to be confirmed shortly! "
