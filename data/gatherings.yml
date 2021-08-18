@@ -8,17 +8,17 @@ gatherings:
   venue: "The Hybrid Experience"
   venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
-  registration_text: "Registration Opening Soon"
-  registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
+  registration_text: "Registration Open"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-na-2021"
   pricing:
-    - label: "Registration Opening Soon"
-      price: "Free"
+    - label: "Registration Now Open"
+      price: "Free Virtual Attendance; In-Person attendance requires Kubecon/NA registration and adherence to CNCF Covid Protocols"
   lead_text: >-
     This OpenShift Commons Gathering focused on End Users will be held on October 12th in Pacific Standard Time (PST)!
   info_text: >-
     This OpenShift Commons Gathering will be held live in Los Angeles and broadcast live to regional watch parties around the globe. As always, our focus is on creating a space for peer-to-peer interactions and we'll be going hybrid, so if you are unable to attend in person, join us online. This Gathering will focus on talks from and by End Users with production deployments of OpenShift sharing their use cases, insights into their workloads and  lessons learned along the way. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and new technology initiatives on the Edge and in Data Science . We'll have a keynote and update from Red Hat's Clayton Colemen on all things Hybrid Cloud and Kubernetes Control Plane along with an Update/Road Map on the latest release of OpenShift with deep dive live demos and Q/A with Red Hat engineers & upstream leads. Red Hat's DevOps Black Belt Sasha Rosenbaum on SRE+Managed Services, and an update on latest Red Hat OpenShift Data Science initiatives from Red Hat's Data Scientist Audrey Reznik . The event is free and registration for the virtual event is open to all. In person event is limited to the first 300 registrants, register today if you are coming to Los Angeles!
   event_footer_text: >-
-    Please note: Pre-Registration is Required and the Gathering will be held on Pacific Standard Time (PST)!
+    Please note: Pre-Registration is Required, In-Person attendance requires Kubecon/NA registration and adherence to CNCF Covid Protocol; The Gathering will be held on Pacific Standard Time (PST)!
   invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
   schedule:
     - local_time: "09:00 am"
