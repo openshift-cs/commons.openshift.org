@@ -88,7 +88,7 @@ gatherings:
       track: "Kubernetes 101 Boot Camp"
       speakers:
         - id: "jason_dobies"
-        - id: "josh_wood
+        - id: "josh_wood"
     - local_time: "15:00 pm"
       session_name: "Boot Camp Wrap Up and Additional Resources"
       track: "Kubernetes 101 Boot Camp"
