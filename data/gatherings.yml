@@ -62,6 +62,9 @@ gatherings:
     - local_time: "12:00 pm"
       session_name: "TIAA Case Study"
       track: "Main Stage"  
+      speakers: 
+        - id: "aradhna_chetal"   
+        - id: "jayashree_ramanathan"
     - local_time: "12:30 pm"
       session_name: "Plus 2 more End User Production Case Studies to be confirmed shortly! "
       track: "Main Stage"  
