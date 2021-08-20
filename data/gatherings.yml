@@ -5,10 +5,10 @@ gatherings:
   date: "2021-10-12"
   time: "9:00 am - 5:00 pm PST"
   location: "Live from Kubecon NA in Los Angeles, Regional Watch Parties and OpenShift.tv!"
-  venue: "The Hybrid Experience"
-  venue_URL: "https://bit.ly/2XEGhNP"
+  venue: "For In-Person Attendance, Please Register via CNCF Kubecon Registration Portal"
+  venue_URL: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
-  registration_text: "Registration Open"
+  registration_text: "Virtual Registration Open"
   registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-na-2021"
   pricing:
     - label: "Registration Now Open"
@@ -21,9 +21,9 @@ gatherings:
     This OpenShift Commons Gathering will be held on Pacific Standard Time (PST)!
     Please note -> All in-person attendees must also be registered for Kubecon/NA, all COVID protocals required by CNCF must be followed for this co-located event.
     In-Person Seating is limited to 300! 
-    <a href="https://bit.ly/2XEGhNP" target="_blank">[FOR IN-PERSON ATTENDANCE, Please register via the KUBECON Registration Portal here]</a>
+    <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/" target="_blank">[FOR IN-PERSON ATTENDANCE, Please register via the KUBECON Registration Portal here]</a>
     Reception is Open to all registered Kubecon/NA attendees and starts at 3:00 pm.
-  invite_link: "https://bit.ly/2XEGhNP"
+  invite_link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/"
   schedule:
     - local_time: "09:00 am"
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
