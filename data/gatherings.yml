@@ -6,7 +6,7 @@ gatherings:
   time: "9:00 am - 5:00 pm PST"
   location: "Live from Kubecon NA in Los Angeles, Regional Watch Parties and OpenShift.tv!"
   venue: "The Hybrid Experience"
-  venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
+  venue_URL: "https://bit.ly/2XEGhNP"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
   registration_text: "Registration Open"
   registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-na-2021"
@@ -18,8 +18,9 @@ gatherings:
   info_text: >-
     This OpenShift Commons Gathering will be held live in Los Angeles and broadcast live to regional watch parties around the globe. As always, our focus is on creating a space for peer-to-peer interactions and we'll be going hybrid, so if you are unable to attend in person, join us online. This Gathering will focus on talks from and by End Users with production deployments of OpenShift sharing their use cases, insights into their workloads and  lessons learned along the way. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and new technology initiatives on the Edge and in Data Science . We'll have a keynote and update from Red Hat's Clayton Colemen on all things Hybrid Cloud and Kubernetes Control Plane along with an Update/Road Map on the latest release of OpenShift with deep dive live demos and Q/A with Red Hat engineers & upstream leads. Red Hat's DevOps Black Belt Sasha Rosenbaum on SRE+Managed Services, and an update on latest Red Hat OpenShift Data Science initiatives from Red Hat's Data Scientist Audrey Reznik . The event is free and registration for the virtual event is open to all. In person event is limited to the first 300 registrants, register today if you are coming to Los Angeles!
   event_footer_text: >-
-    Please note: Pre-Registration is Required, In-Person attendance requires Kubecon/NA registration and adherence to CNCF Covid Protocol; The Gathering will be held on Pacific Standard Time (PST)!
-  invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
+    This OpenShift Commons Gathering will be held on Pacific Standard Time (PST)!
+    Please note -> All in-person attendees must also be registered for Kubecon/NA, all COVID protocals required by CNCF must be followed for this co-located event. Seating is limited to 300; Reception is Open to all registered Kubecon/NA attendees and starts at 3:00 pm.
+  invite_link: "https://bit.ly/2XEGhNP"
   schedule:
     - local_time: "09:00 am"
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
