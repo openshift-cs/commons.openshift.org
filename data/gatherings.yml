@@ -10,6 +10,10 @@ gatherings:
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
   registration_text: "Virtual Registration Open"
   registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-na-2021"
+  registration_text2: "In Person Registration"
+  registration_URL2: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/"
+  registration_text3: "Kubernetes 101 BootCamp"
+  registration_URL3: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-na-2021?code=bwfXHbgMIIARZbJj4DDMCy8VI"
   pricing:
     - label: "Registration Now Open"
       price: "Free Virtual Attendance; In-Person attendance requires Kubecon/NA registration and adherence to CNCF Covid Protocols"
