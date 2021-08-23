@@ -5,7 +5,7 @@ gatherings:
   date: "2021-10-12"
   time: "9:00 am - 5:00 pm PST"
   location: "Live from Kubecon NA in Los Angeles, Regional Watch Parties and OpenShift.tv!"
-  venue: "For In-Person Attendance, Please Register via CNCF Kubecon Registration Portal"
+  venue: "For In-Person Attendance, Please register via CNCF Kubecon Registration Portal"
   venue_URL: "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/register/"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_NA.html"
   registration_text: "Virtual Registration Open"
