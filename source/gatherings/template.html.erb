@@ -59,35 +59,75 @@ description:  The OpenShift Commons community gets together and share experience
 </div>
 <div class="container">
   <div class="row">
-    <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
-    <div class="col-sm-4 col-sm-offset-2">
+    <% if gathering.registration_text2 && gathering.registration_text2 > 0 && gathering.registration_URL2 && gathering.registration_URL2 > 0 
+        && gathering.registration_text3 && gathering.registration_text3 > 0 && gathering.registration_URL3 && gathering.registration_URL3 > 0%>
+
+        <div class="col-sm-4">
+          <div class="btn-event event-border buy obsoletes">
+            <a href="<%= gathering.registration_URL %>" target="_blank">
+              <p class="text-center">
+                  <%= gathering.registration_text %>
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="btn-event event-border buy obsoletes">
+            <a href="<%= gathering.registration_URL2 %>" target="_blank">
+              <p class="text-center">
+                  <%= gathering.registration_text2 %>
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="btn-event event-border buy obsoletes">
+            <a href="<%= gathering.registration_URL3 %>" target="_blank">
+              <p class="text-center">
+                  <%= gathering.registration_text3 %>
+              </p>
+            </a>
+          </div>
+        </div>
+
     <% else %>
-    <div class="col-sm-4 col-sm-offset-4">
-    <% end %>
-      <div class="btn-event event-border buy obsoletes">
-        <a href="<%= gathering.registration_URL %>" target="_blank">
-          <p class="text-center">
-            <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
-              <%= gathering.registration_text %>
-            <% else %>
-              <% if gathering.pricing.presence %>
-                Purchase tickets Now
+
+
+    
+      <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
+      <div class="col-sm-4 col-sm-offset-2">
+
+      <% else %>
+      <div class="col-sm-4 col-sm-offset-4">
+      <% end %>
+        <div class="btn-event event-border buy obsoletes">
+          <a href="<%= gathering.registration_URL %>" target="_blank">
+            <p class="text-center">
+              <% if gathering.registration_text.presence && gathering.registration_text.length > 0 %>
+                <%= gathering.registration_text %>
               <% else %>
-                Register Now
+                <% if gathering.pricing.presence %>
+                  Purchase tickets Now
+                <% else %>
+                  Register Now
+                <% end %>
               <% end %>
-            <% end %>
-          </p>
-        </a>
+            </p>
+          </a>
+        </div>
       </div>
-    </div>
-    <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
-    <div class="col-sm-4">
-      <div class="btn-event apply obsoletes">
-        <a href="<%= gathering.sponsoring_URL %>" target="_blank">
-          <p class="text-center"><%= gathering.sponsor_button_text.presence ? gathering.sponsor_button_text : 'Apply to be a sponsor' %></p>
-        </a>
+      <% if gathering.sponsoring_URL.presence && gathering.sponsoring_URL.length > 0 %>
+      <div class="col-sm-4">
+        <div class="btn-event apply obsoletes">
+          <a href="<%= gathering.sponsoring_URL %>" target="_blank">
+            <p class="text-center"><%= gathering.sponsor_button_text.presence ? gathering.sponsor_button_text : 'Apply to be a sponsor' %></p>
+          </a>
+        </div>
       </div>
-    </div>
+      <% end %>
+
     <% end %>
   </div><!-- /.row -->
 </div><!-- /.container-->
