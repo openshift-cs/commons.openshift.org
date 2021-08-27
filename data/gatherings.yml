@@ -74,7 +74,12 @@ gatherings:
         - id: "aradhna_chetal"   
         - id: "jayashree_ramanathan"
     - local_time: "12:30 pm"
-      session_name: "Plus 2 more End User Production Case Studies to be confirmed shortly! "
+      session_name: "Deploying Microservices with OKD at MarketAmerica|SHOP.COM "
+      speakers:
+        - id: "john_fortin" 
+      track: "Main Stage"   
+    - local_time: "12:30 pm"
+      session_name: "Plus 1 more End User Production Case Studies to be confirmed shortly! "
       track: "Main Stage"  
     - local_time: "1:30 pm"
       session_name: "AMA Session: Live Q/A with Guest Speakers & Red Hat Engineers and Product Managers"
