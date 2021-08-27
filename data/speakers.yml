@@ -2385,7 +2385,7 @@ speakers:
     company: "Red Hat"
     photo: "speakers/jayashree_ramanathan.jpeg"
   - id: "john_fortin"
-    name: "Joh Fortin"
+    name: "John Fortin"
     role: "Senior Systems Architect"
     URL: "https://www.marketamerica.com/"
     company: "MarketAmerica|SHOP.COM"
