@@ -2389,6 +2389,7 @@ speakers:
     role: "Senior Systems Architect"
     URL: "https://www.marketamerica.com/"
     company: "MarketAmerica|SHOP.COM"
+    photo: "speakers/john_fortin.jpg"
   - id: "stephen_boyd"
     name: "Stephen Boyd"
     role: "IT Architect"
