@@ -2389,4 +2389,10 @@ speakers:
     role: "Senior Systems Architect"
     URL: "https://www.marketamerica.com/"
     company: "MarketAmerica|SHOP.COM"
+  - id: "stephen_boyd"
+    name: "Stephen Boyd"
+    role: "IT Architect"
+    URL: "http://electricaltrainingalliance.org/"
+    company: "electrical training ALLIANCE"
+    photo: "speakers/stephen_boyd.jpeg"
 
