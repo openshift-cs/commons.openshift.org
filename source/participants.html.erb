@@ -48,10 +48,21 @@ description:  A community of collaborators working together.
 <section class="content_info">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-8">
         <div class="search">
           <!--<input id="participant-search" placeholder="Search participants">-->
-          <input type="text" id="quicksearch" placeholder="Search participants" />
+          <input type="text" id="quicksearch" placeholder="Search participants">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="filter">
+          <select id="filter" style="margin: 10px; padding: 7px 10px; width: 100%;">
+            <option value = "">Participant Type</option>
+            <option value = "all">All</option>
+            <option value = "enduser">End User</option>
+            <option value = "partner">Partner</option>
+            <option value = "other">Other</option>
+          </select>  
         </div>
       </div>
     </div>
