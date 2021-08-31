@@ -465,6 +465,35 @@ $(document).ready(function($) {
 				}) );
 
 
+//=================================== Participation Filter =====================================//
+		        var filterTargetRegex;
+		        var $gridPart = $('.grid').isotope({
+		          itemSelector: '.grid-item',
+		          percentPosition: true,
+		          masonry: {
+		            columnWidth: '.grid-sizer'
+		                    },
+		          filter: function() {
+		            var listElem = $(this).find('li')
+		            var participantUserType = listElem.attr('data-participantusertype')
+		            return filterTargetRegex ? participantUserType.match(filterTargetRegex) : true
+		          },
+		        });
+
+		        var participationSelector = $('#filter');
+
+		        participationSelector.on('change', function() {
+
+		          var selectedIndex = $(this).prop('selectedIndex');
+		          var selectedOption = $(this).children()[selectedIndex]
+		          var selectedText = $(selectedOption).val()
+		          // If 'All' is selected, return false so that the entire grid is repopulated.
+		          filterTargetRegex = selectedText === 'all' ? false : new RegExp( selectedText, 'gi');
+		          $gridPart.isotope()
+
+		        });
+
+
 				// change is-checked class on buttons
 				$('.button-group').each( function( i, buttonGroup ) {
 				var $buttonGroup = $( buttonGroup );
