@@ -165,6 +165,8 @@ gatherings:
         - id: "clayton_coleman"
     - local_time: "10:30 am"
       session_name: "Customer Keynote: Banking and Financial Services Group de Macquarie"
+      speakers:
+        - id: "luis_papagni"
     - local_time: "11:00 am"
       session_name: "Site Reliability Engineering, Managed Services, and the path to the future"
       speakers:
@@ -175,6 +177,9 @@ gatherings:
         - id: "audrey_reznik"
     - local_time: "11:30 am"
       session_name: "Visión de los líderes: Las perspectivas de la transformación cultural"
+      speakers:
+        - id: "mario_herane"
+        - id: "sandra_dagostino"
     - local_time: "11:45 am"
       session_name: "Lo Nuevo de Openshift 4.8"
       speakers:
@@ -182,10 +187,16 @@ gatherings:
         - id: "rob_szumski" 
     - local_time: "12:15 pm"
       session_name: "Case de Éxito: Medifé"
+      speakers:
+        - id: "facundo_trillo"
     - local_time: "12:30 pm"
-      session_name: "Caso de Éxito: Telecom"
+      session_name: "Caso de Éxito: Telecom Argentina"
+      speakers:
+        - id: "sofia_baggini"
     - local_time: "12:45 pm"
       session_name: "Caso de Éxito: Innovacion"
+      speakers:
+        - id: "luis_papagni"
     - local_time: "13:00 pm"
       session_name: "Caso de Éxito: TBD"
     - local_time: "13:15 pm"
