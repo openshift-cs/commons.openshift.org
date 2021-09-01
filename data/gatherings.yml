@@ -139,7 +139,7 @@ gatherings:
     - label: "RSVP Requerido"
       price: "GRATIS"
   lead_text: >-
-    ¡Virtual Openshift Commons Gathering LATAM 2020!
+    ¡Virtual Openshift Commons Gathering LATAM 2021!
   info_text: >-
     El OpenShift Commons Gathering es el evento de comunidad más grande de usuarios y colaboradores de Openshift, un espacio en el que se comparten casos de éxito, aprendizajes y buenas prácticas de la mano de expertos de todas partes del mundo. 
     
@@ -154,32 +154,21 @@ gatherings:
     El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   schedule:
-    - local_time: "10:02 am"
+    - local_time: "10:00 am"
       session_name: "Bienvenidos al OpenShift Commons: Colaboración en Acción"
       speakers:
         - id: "santiago"
         - id: "diane"
-    - local_time: "10:25 am"
-      session_name: "DevOps: The Triumph of the Commons"
+    - local_time: "10:10 am"
+      session_name: "Keynote: Hybrid Cloud and Kubernetes Control Plane"
       speakers:
-        - id: "littleidea"
+        - id: "clayton_coleman"
     - local_time: "11:15 am"
-      session_name: "Caso de Éxito: Journey Flow DevOps - Telecom Argentina"
-      speakers:
-        - id: "exequiel_fernandez"
-        - id: "juanp_nicodemos"
+      session_name: "Banking and Financial Services Group de Macquarie"
     - local_time: "11:33 am"
-      session_name: "Caso de Éxito: Pan con Manteca - Banco Santander Argentina"
-      speakers:
-        - id: "alexis_superi"
+      session_name: "Site Reliability Engineering, Managed Services, and the path to the future""
     - local_time: "12:00 pm"
-      session_name: "Panel de Transformación Cultural y Modernización, conducido por Jorge Payró, Country Sales Director de Red Hat Argentina"
-      speakers:
-        - id: "diego_salama" 
-        - id: "pablo_esses"
-        - id: "juan_manuel_palacios"
-        - id: "federico_ferrea"
-        - id: "william_flores"
+      session_name: "Managed Data Science Services"
     - local_time: "13:00 pm"
       session_name: "Lo Nuevo de Openshift 4.5"
       speakers:
