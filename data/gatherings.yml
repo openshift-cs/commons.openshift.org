@@ -175,15 +175,13 @@ gatherings:
         - id: "audrey_reznik"
     - local_time: "11:30 am"
       session_name: "Visión de los líderes: Las perspectivas de la transformación cultural"
-    - local_time: "11:45 pm"
+    - local_time: "11:45 am"
       session_name: "Lo Nuevo de Openshift 4.8"
       speakers:
         - id: "karena_angell"
         - id: "rob_szumski" 
-    - local_time: "12:15 am"
+    - local_time: "12:15 pm"
       session_name: "Case de Éxito: Medifé"
-      speakers:
-        - id: "rolando_rodriguez"
     - local_time: "12:30 pm"
       session_name: "Caso de Éxito: Telecom"
     - local_time: "12:45 pm"
