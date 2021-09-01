@@ -166,9 +166,13 @@ gatherings:
     - local_time: "11:15 am"
       session_name: "Banking and Financial Services Group de Macquarie"
     - local_time: "11:33 am"
-      session_name: "Site Reliability Engineering, Managed Services, and the path to the future""
+      session_name: "Site Reliability Engineering, Managed Services, and the path to the future"
+      speakers:
+        - id: "divineops"
     - local_time: "12:00 pm"
-      session_name: "Managed Data Science Services"
+      session_name: "Data Science as a Managed Service on OpenShift"
+      speakers:
+        - id: "audrey_reznik"
     - local_time: "13:00 pm"
       session_name: "Lo Nuevo de Openshift 4.5"
       speakers:
