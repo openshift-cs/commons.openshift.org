@@ -109,7 +109,7 @@ gatherings:
     - local_time: "15:00 pm"
       session_name: "Boot Camp Wrap Up and Additional Resources"
       track: "Kubernetes 101 Boot Camp"
-- name: "LATAM OpenShift Commons Gathering 2021 - ES"
+- name: "LATAM OpenShift Commons Gathering 2021 ES"
   menu: "show"
   language: "Spanish"
   date: "2021-10-06"
