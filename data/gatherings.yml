@@ -81,7 +81,7 @@ gatherings:
         - id: "john_fortin" 
       track: "Main Stage"   
     - local_time: "2:00 pm"
-      session_name: "Electrical Training ALLIANCE Case Study"
+      session_name: "Electrical Training Alliance Case Study"
       speakers:
          - id: "stephen_boyd"
       track: "Main Stage"  
