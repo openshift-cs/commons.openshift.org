@@ -267,6 +267,10 @@ participants:
   link: "http://www.cdw.com/"
   logo: "commons-logos/cdw.png"
   metatag1: "partner"
+  metatags:
+    tag1: "partner"
+    tag2: "Technology Reseller"
+    tag3: "Solution Provider"
 - name: "CentOS"
   link: "https://www.centos.org/"
   logo: "commons-logos/centos.png"
