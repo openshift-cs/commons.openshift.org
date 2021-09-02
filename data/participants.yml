@@ -431,6 +431,8 @@ participants:
   link: "http://crossvale.com/"
   logo: "commons-logos/crossvale.png"
   metatag1: "partner"
+  partner_tag1: "Service/Cloud Provider"
+  partner_tag2: "Solution Provider"
 - name: "Crunchy"
   link: "http://crunchydatasolutions.com/"
   logo: "commons-logos/CrunchyData.png"
