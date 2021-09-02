@@ -120,7 +120,7 @@ gatherings:
   venue_address: "LATAM"
   calendar_event_URL:
   registration_text: "Confirme su asistencia"
-  registration_URL: "http://commons.openshift.org"
+  registration_URL: "https://www.redhat.com/es/forums/latam"
   head_text: >-
     El espacio que congrega usuarios, socios, clientes y líderes de proyectos de desarrollo para colaborar y codear con OpenShift.
   headers:
