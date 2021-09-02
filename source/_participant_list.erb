@@ -1,6 +1,6 @@
 <div class="grid-item col-lg-4 col-xs-6"><!-- items use Bootstrap .col- classes -->
   <div class="grid-item-content"><!-- wrap item content in its own element -->
-    <li data-participantName="<%= participant_list.name.downcase %>" data-participantUserType="<%= participant_list.metatag1 if participant_list.metatag1 %>">
+    <li data-participantName="<%= participant_list.name.downcase %>" data-participantUserType="<%= participant_list.metatag1 if participant_list.metatag1 %>" data-participantTag2="<%= participant_list.metatags.tag2 if participant_list.metatags.tag2 %>">
       <div class="col-sm-5 logo">
         <%= image_tag participant_list.logo, :alt => participant_list.name %>
       </div>
