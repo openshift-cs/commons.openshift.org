@@ -434,64 +434,86 @@ $(document).ready(function($) {
 	//================================ Participant Search & Filter Isotope ================================//
 
 
-				// quick search regex
-				var qsRegex;
-				var buttonFilter;
+    // quick search regex
 
-				// init Isotope
-				var $grid = $('.grid').isotope({
-				itemSelector: '.grid-item',
-				percentPosition: true,
-				masonry: {
-					columnWidth: '.grid-sizer'
-									},
-				filter: function() {
-				  var $this = $(this);
-				  var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
-				  var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
-				  return searchResult && buttonResult;
-				}
-				});
+	var qsRegex;
+    var buttonFilter;
+    function filterBySearch() {  
+      var $this = $(this);
+      var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+      var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+      return searchResult && buttonResult;
+    }
 
-				$('#filters').on( 'click', 'button', function() {
-				buttonFilter = $( this ).attr('data-filter');
-				$grid.isotope();
-				});
+    // init Isotope
+    var $grid = $('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
+      columnWidth: '.grid-sizer'
+              },
+    
+    });
 
-				// use value of search field to filter
-				var $quicksearch = $('#quicksearch').keyup( debounce( function() {
-				qsRegex = new RegExp( $quicksearch.val(), 'gi' );
-				$grid.isotope();
-				}) );
+    $('#filters').on( 'click', 'button', function() {
+    buttonFilter = $( this ).attr('data-filter');
+    $grid.isotope({filter: filterBySearch});
+    });
+
+    // use value of search field to filter
+    var $quicksearch = $('#quicksearch').keyup( debounce( function() {
+    qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+    $grid.isotope({filter: filterBySearch});
+    }) );
 
 
-//=================================== Participation Filter =====================================//
-		        var filterTargetRegex;
-		        var $gridPart = $('.grid').isotope({
-		          itemSelector: '.grid-item',
-		          percentPosition: true,
-		          masonry: {
-		            columnWidth: '.grid-sizer'
-		                    },
-		          filter: function() {
-		            var listElem = $(this).find('li')
-		            var participantUserType = listElem.attr('data-participantusertype')
-		            return filterTargetRegex ? participantUserType.match(filterTargetRegex) : true
-		          },
-		        });
+    // change is-checked class on buttons
+    $('.button-group').each( function( i, buttonGroup ) {
+    var $buttonGroup = $( buttonGroup );
+    $buttonGroup.on( 'click', 'button', function() {
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      $( this ).addClass('is-checked');
+    });
+    });
 
-		        var participationSelector = $('#filter');
 
-		        participationSelector.on('change', function() {
+    // debounce so filtering doesn't happen every millisecond
+    function debounce( fn, threshold ) {
+    var timeout;
+    threshold = threshold || 100;
+    return function debounced() {
+      clearTimeout( timeout );
+      var args = arguments;
+      var _this = this;
+      function delayed() {
+        fn.apply( _this, args );
+      }
+      timeout = setTimeout( delayed, threshold );
+    };
+    }
 
-		          var selectedIndex = $(this).prop('selectedIndex');
-		          var selectedOption = $(this).children()[selectedIndex]
-		          var selectedText = $(selectedOption).val()
-		          // If 'All' is selected, return false so that the entire grid is repopulated.
-		          filterTargetRegex = selectedText === 'all' ? false : new RegExp( selectedText, 'gi');
-		          $gridPart.isotope()
+  	//=================================== Participation Filter =====================================//
+  	        
+    function filterBySelection() {
+      var listElem = $(this).find('li')
+      var participantUserType = listElem.attr('data-participantusertype')
+      return filterTargetRegex ? participantUserType.match(filterTargetRegex) : true
+    }
 
-		        });
+    var filterTargetRegex;
+
+    var participationSelector = $('#filter');
+
+    participationSelector.on('change', function() {
+
+      var selectedIndex = $(this).prop('selectedIndex');
+      var selectedOption = $(this).children()[selectedIndex]
+      var selectedText = $(selectedOption).val()
+      // If 'All' is selected, return false so that the entire grid is repopulated.
+      filterTargetRegex = selectedText === 'all' ? false : new RegExp( selectedText, 'gi');
+      $grid.isotope({filter: filterBySelection})
+
+    });
 
 
 				// change is-checked class on buttons
