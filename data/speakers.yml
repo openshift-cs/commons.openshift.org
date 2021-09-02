@@ -2413,6 +2413,7 @@ speakers:
     role: "title"
     URL: "http://tbd.org/"
     company: "Gob Prov Bs As"
+    photo: "speakers/sandra_dagostino.jpg"
   - id: "facundo_trillo"
     name: "Facundo Trillo"
     role: "CIO"
