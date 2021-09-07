@@ -96,6 +96,7 @@ gatherings:
         - id: "hugo_guerrero"
         - id: "divineops"
         - id: "audrey_reznik"
+        - id: "andrew_block"
       track: "Main Stage"   
     - local_time: "3:00 pm"
       session_name: "OpenShift Commons Reception & Partner Lightning Talks"
