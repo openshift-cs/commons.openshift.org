@@ -97,6 +97,8 @@ gatherings:
         - id: "divineops"
         - id: "audrey_reznik"
         - id: "andrew_block"
+        - id: "aakanksha_duggal"
+        - id: "oindrilla_chatterjee"
       track: "Main Stage"   
     - local_time: "3:00 pm"
       session_name: "OpenShift Commons Reception & Partner Lightning Talks"
@@ -105,6 +107,7 @@ gatherings:
       session_name: "Kubernetes 101 Boot Camp (virtual only) pre-registration required (space limited to 100)"
       track: "Kubernetes 101 Boot Camp"
       speakers:
+        - id: "dewan"
         - id: "jason_dobies"
         - id: "josh_wood"
     - local_time: "15:00 pm"
