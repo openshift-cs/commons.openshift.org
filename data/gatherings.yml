@@ -170,7 +170,7 @@ gatherings:
     - local_time: "10:30 am"
       session_name: "Customer Keynote: Banca y Servicios Financieros del Grupo Macquarie"
       speakers:
-        - id: "luis_papagni"
+        - id: "luis_uguina"
     - local_time: "11:00 am"
       session_name: "Site Reliability Engineering, Managed Services, and the path to the future"
       speakers:
