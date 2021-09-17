@@ -164,11 +164,11 @@ gatherings:
         - id: "santiago"
         - id: "diane"
     - local_time: "10:10 am"
-      session_name: "Red Hat Keynote: Hybrid Cloud and Kubernetes Control Planes"
+      session_name: "Red Hat Keynote: Planos de control de nube híbrida y Kubernetes"
       speakers:
         - id: "clayton_coleman"
     - local_time: "10:30 am"
-      session_name: "Customer Keynote: Banking and Financial Services Group de Macquarie"
+      session_name: "Customer Keynote: Banca y Servicios Financieros del Grupo Macquarie"
       speakers:
         - id: "luis_papagni"
     - local_time: "11:00 am"
@@ -185,12 +185,12 @@ gatherings:
         - id: "mario_herane"
         - id: "sandra_dagostino"
     - local_time: "11:45 am"
-      session_name: "Lo Nuevo de Openshift 4.8"
+      session_name: "What's Next on Openshift?"
       speakers:
         - id: "karena_angell"
         - id: "rob_szumski" 
     - local_time: "12:15 pm"
-      session_name: "Case de Éxito: Medifé"
+      session_name: "Caso Medifé: Transformación digital en contexto COVID19 con Openshift"
       speakers:
         - id: "facundo_trillo"
     - local_time: "12:30 pm"
@@ -198,16 +198,11 @@ gatherings:
       speakers:
         - id: "sofia_baggini"
     - local_time: "12:45 pm"
-      session_name: "Caso de Éxito: Innovacion"
+      session_name: "Caso Secretaría de Innovación: Transformación Pública Digital"
       speakers:
         - id: "luis_papagni"
     - local_time: "13:00 pm"
       session_name: "Caso de Éxito: TBD"
-    - local_time: "13:15 pm"
-      session_name: "Próximos pasos en el Openshift Journey"
-      speakers:
-        - id: "santiago"
-        - id: "diane"
 - name: "OpenShift Commons Gathering at Kubecon EU"
   menu: "show"
   language: "English"
