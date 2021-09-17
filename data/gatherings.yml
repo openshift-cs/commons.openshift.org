@@ -126,7 +126,7 @@ gatherings:
   registration_text: "Confirme su asistencia"
   registration_URL: "https://www.redhat.com/es/forums/latam"
   head_text: >-
-    El espacio que congrega usuarios, socios, clientes y líderes de proyectos de desarrollo para colaborar y codear con OpenShift.
+    Donde usuarios, socios, clientes y líderes de proyectos se unen para colaborar y escuchar acerca del ecosistema OpenShift.
   headers:
     overview: Descripción del Evento
     schedule: Agenda - Argentina Standard Time (ART)
@@ -145,11 +145,9 @@ gatherings:
   lead_text: >-
     Openshift Commons Gathering Latin America 2021
   info_text: >-
-    El OpenShift Commons Gathering es el evento de comunidad más grande de usuarios y colaboradores de Openshift, un espacio en el que se comparten casos de éxito, aprendizajes y buenas prácticas de la mano de expertos de todas partes del mundo. 
+    El OpenShift Commons Gathering es el evento de organizaciones y usuarios de OpenShift más grande de la región. Un espacio para crear conexiones, en el que se comparten experiencias, casos de éxito y buenas prácticas de la mano de ejecutivos, expertos y pares de todas partes del mundo. 
     
-    Dentro del evento, se analizarán los últimos features en contenedores mientras la comunidad ofrece un recorrido en primera persona sobre los proyectos de software Open Source que apuntan a llevar al ecosistema Openshift al siguiente nivel del Cloud Native Nativo.
-    
-    El evento reunirá a desarrolladores, profesionales de DevOps y administradores de sistemas que explorarán y colaborarán para lograr que OpenShift y las tecnologías de contenedores sean exitosas y seguras a gran escala.
+    Este año conoceremos en detalle las novedades y el roadmap de la plataforma, mientras la comunidad ofrece un recorrido en primera persona acerca de las mejores prácticas para la transformación digital y el desarrollo de aplicaciones nativas de nube bajo el paradigma de Nube Híbrida Abierta.
   schedule_leadin: >-
     La jornada ofrecerá una serie de disertaciones, paneles y charlas al estilo TED así como también espacios de networking.
   videos_text: >-
