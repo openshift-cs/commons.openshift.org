@@ -172,11 +172,11 @@ gatherings:
       speakers:
         - id: "luis_uguina"
     - local_time: "11:00 am"
-      session_name: "Site Reliability Engineering, Managed Services, and the path to the future"
+      session_name: "Ingeniería de confiabilidad del sitio, servicios administrados y el camino hacia el futuro"
       speakers:
         - id: "divineops"
     - local_time: "11:15 am"
-      session_name: "Data Science as a Managed Service on OpenShift"
+      session_name: "Ciencia de datos como servicio gestionado en OpenShift"
       speakers:
         - id: "audrey_reznik"
     - local_time: "11:30 am"
@@ -202,7 +202,7 @@ gatherings:
       speakers:
         - id: "luis_papagni"
     - local_time: "13:00 pm"
-      session_name: "Caso de Éxito: TBD"
+      session_name: "Caso BAPRO"
 - name: "OpenShift Commons Gathering at Kubecon EU"
   menu: "show"
   language: "English"
