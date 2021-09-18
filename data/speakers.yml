@@ -2455,6 +2455,7 @@ speakers:
     role: "Coordinador de equipos - Gerencia de Producción"
     URL: https://www.bancoprovincia.com.ar/web"
     company: "Banco de la Provincia de Buenos Aires"
+    photo: "speakers/federico_milovic.jpg"
   - id: "claudia_castilla"
     name: "Claudia Castilla"
     role: "Subgerenta del Área de Tecnología y Procesos de Banco Provincia"
