@@ -200,7 +200,7 @@ gatherings:
       speakers:
         - id: "luis_papagni"
     - local_time: "13:00 pm"
-      session_name: "Caso Banco de la Provincia de Buenos Aires"
+      session_name: "Caso Banco de la Provincia de Buenos Aires: Transformación digital, camino al Bicentenario."
       speakers:
         - id: "federico_milovic"   
         - id: "claudia_castilla"
