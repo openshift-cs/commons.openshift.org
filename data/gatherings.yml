@@ -129,7 +129,7 @@ gatherings:
     Donde usuarios, socios, clientes y líderes de proyectos se unen para colaborar y escuchar acerca del ecosistema OpenShift.
   headers:
     overview: Descripción del Evento
-    schedule: Agenda - Argentina Standard Time (ART)
+    schedule: Agenda
     speakers: Disertantes
     venue: Sede del Evento
   overview_section:
