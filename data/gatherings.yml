@@ -118,8 +118,8 @@ gatherings:
   language: "Spanish"
   date: "2021-10-06"
   time: "10:00 am - 3:00 pm"
-  location: "Experiencia virtual"
-  venue: "Virtual"
+  location: "Latin America"
+  venue: "Experiencia virtual"
   venue_URL: "http://commons.openshift.org"
   venue_address: "Virtual"
   calendar_event_URL:
