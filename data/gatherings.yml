@@ -58,7 +58,7 @@ gatherings:
     - local_time: "16:00 pm"
       session_name: "Closing: OpenShift Road Ahead"
       track: "Main Stage"    
- - name: "OpenShift Commons Gathering at Kubecon North America 2021"
+- name: "OpenShift Commons Gathering at Kubecon North America 2021"
   menu: "show"
   language: "English"
   date: "2021-10-12"
