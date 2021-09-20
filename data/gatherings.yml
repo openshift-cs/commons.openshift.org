@@ -1,5 +1,64 @@
 gatherings:
-- name: "OpenShift Commons Gathering at Kubecon North America 2021"
+- name: "Japan OpenShift Commons Gathering 2021"
+  menu: "show"
+  language: "English"
+  date: "2021-12-02"
+  time: "12:00 pm - 5:30 pm"
+  location: "Japan OpenShift Commons Gathering 2021"
+  venue: "Virtual Experience"
+  venue_URL: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2021.html"
+  calendar_event_URL:
+  registration_text: "Registration Opening Soon"
+  registration_URL: "https://www.redhat.com/ja/explore/openshift/commons-gathering-ja"
+  pricing:
+    - label: "参加費： 無料"
+      price: "Free!"
+  lead_text: >-
+    This Japan Regional OpenShift Commons Gathering will be delivered in Japanese on December 2nd on Japan Standard Time!
+  info_text: >-
+    The OpenShift Commons Gathering brings together experts from all over the world to discuss container technologies, best practices for cloud native application developers and
+    the open source software projects that underpin the OpenShift ecosystem. This event will gather developers, devops professionals and sysadmins together to explore
+    the next steps in making container technologies successful and secure.
+  event_footer_text: >-
+    Please note: Pre-registration is required.
+  invite_link: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2021.html"
+  sponsors:
+  sponsoring_URL: "mailto:mamorita@redhat.com"
+  schedule:
+    - local_time: "12:00 pm"
+      session_name: "Welcome to the OpenShift Commons"
+      track: "Main Stage"
+    - local_time: "12:10 pm"
+      session_name: "Keynote: Enabling Innovation Everywhere: Red Hat's Hybrid Multi-Cloud Road Map"
+      track: "Main Stage"
+    - local_time: "12:30 pm"
+      session_name: "Guest Speaker Introductions"
+      track: "Main Stage"
+    - local_time: "12:35 pm"
+      session_name: "OpenShift End User Case Study"
+      track: "Main Stage"
+    - local_time: "12:50 pm"
+      session_name: "OpenShift End User Case Study"
+      track: "Main Stage"   
+    - local_time: "13:25 pm"
+      session_name: "Break"
+      track: "Main Stage"
+    - local_time: "13:30 pm"
+      session_name: "OpenShift as a Cloud Native Application Platform"
+      track: "Main Stage"
+    - local_time: "14:10 pm"
+      session_name: "OpenShift End User Case Study"
+      track: "Main Stage"
+    - local_time: "14:50 pm"
+      session_name: "OpenShift End User Case Study"
+      track: "Main Stage"    
+    - local_time: "15:35 pm"
+      session_name: "OpenShift and IBM Hybrid Cloud Strategy"
+      track: "Main Stage" 
+    - local_time: "16:00 pm"
+      session_name: "Closing: OpenShift Road Ahead"
+      track: "Main Stage"    
+ - name: "OpenShift Commons Gathering at Kubecon North America 2021"
   menu: "show"
   language: "English"
   date: "2021-10-12"
