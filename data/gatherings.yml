@@ -1,10 +1,10 @@
 gatherings:
-- name: "Japan OpenShift Commons Gathering 2021"
+- name: "Japan 2021"
   menu: "show"
   language: "English"
   date: "2021-12-02"
   time: "12:00 pm - 5:30 pm"
-  location: "Japan OpenShift Commons Gathering 2021"
+  location: "Japan"
   venue: "Virtual Experience"
   venue_URL: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2021.html"
   calendar_event_URL:
