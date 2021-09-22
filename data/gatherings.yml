@@ -215,51 +215,51 @@ gatherings:
     El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   schedule:
-    - local_time: "10:00 am"
+    - local_time: "09:50 am"
       session_name: "Bienvenidos al OpenShift Commons: Colaboración en Acción"
       speakers:
         - id: "santiago"
         - id: "diane"
-    - local_time: "10:30 am"
+    - local_time: "10:00 am"
       session_name: "Customer Keynote: Banca y Servicios Financieros del Grupo Macquarie"
       speakers:
         - id: "luis_uguina"
-    - local_time: "11:00 am"
-      session_name: "Ingeniería de confiabilidad del sitio, servicios administrados y el camino hacia el futuro"
-      speakers:
-        - id: "divineops"
-    - local_time: "11:15 am"
-      session_name: "Ciencia de datos como servicio gestionado en OpenShift"
-      speakers:
-        - id: "audrey_reznik"
-    - local_time: "11:30 am"
-      session_name: "Visión de los líderes: Las perspectivas de la transformación cultural"
-      speakers:
-        - id: "mario_herane"
-        - id: "sandra_dagostino"
-    - local_time: "11:45 am"
+    - local_time: "10:30 am"
       session_name: "Lo Nuevo de Openshift 4.8"
       speakers:
         - id: "karena_angell"
         - id: "rob_szumski" 
-    - local_time: "12:15 pm"
+    - local_time: "10:45 am"
+      session_name: "Visión de los líderes: Las perspectivas de la transformación cultural"
+      speakers:
+        - id: "mario_herane"
+        - id: "sandra_dagostino"
+    - local_time: "11:00 am"
       session_name: "Caso Medifé: Transformación digital en contexto COVID19 con Openshift"
       speakers:
         - id: "facundo_trillo"
-    - local_time: "12:30 pm"
-      session_name: "Caso de Éxito: Telecom Argentina"
+    - local_time: "11:35 am"
+      session_name: "Data Science como servicio gestionado en OpenShift"
       speakers:
-        - id: "sofia_baggini"
-    - local_time: "12:45 pm"
+        - id: "audrey_reznik"
+    - local_time: "11:50 am"
       session_name: "Caso Secretaría de Innovación: Transformación Pública Digital"
       speakers:
         - id: "luis_papagni"
-    - local_time: "13:00 pm"
+    - local_time: "12:10 pm"
+      session_name: "Caso de Éxito: Telecom Argentina"
+      speakers:
+        - id: "sofia_baggini"
+    - local_time: "12:25 pm"
       session_name: "Caso Banco de la Provincia de Buenos Aires: Transformación digital, camino al Bicentenario."
       speakers:
         - id: "federico_milovic"   
         - id: "claudia_castilla"
-    - local_time: "13:05 pm"
+    - local_time: "12:45 pm"
+      session_name: "Ingeniería de confiabilidad del sitio, servicios administrados y el camino hacia el futuro"
+      speakers:
+        - id: "divineops"
+    - local_time: "13:00 pm"
       session_name: "Demo en vivo"
 - name: "OpenShift Commons Gathering at Kubecon EU"
   menu: "show"
