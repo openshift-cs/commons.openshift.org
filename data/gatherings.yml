@@ -247,7 +247,7 @@ gatherings:
       speakers:
         - id: "luis_papagni"
     - local_time: "12:10 pm"
-      session_name: "Caso de Éxito: Telecom Argentina"
+      session_name: "Caso Telecom: Prácticas DevOps"
       speakers:
         - id: "sofia_baggini"
     - local_time: "12:25 pm"
