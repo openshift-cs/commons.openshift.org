@@ -220,10 +220,6 @@ gatherings:
       speakers:
         - id: "santiago"
         - id: "diane"
-    - local_time: "10:10 am"
-      session_name: "Red Hat Keynote: Planos de control de nube híbrida y Kubernetes"
-      speakers:
-        - id: "clayton_coleman"
     - local_time: "10:30 am"
       session_name: "Customer Keynote: Banca y Servicios Financieros del Grupo Macquarie"
       speakers:
@@ -242,7 +238,7 @@ gatherings:
         - id: "mario_herane"
         - id: "sandra_dagostino"
     - local_time: "11:45 am"
-      session_name: "What's Next on Openshift?"
+      session_name: "Lo Nuevo de Openshift 4.8"
       speakers:
         - id: "karena_angell"
         - id: "rob_szumski" 
@@ -263,6 +259,8 @@ gatherings:
       speakers:
         - id: "federico_milovic"   
         - id: "claudia_castilla"
+    - local_time: "13:05 pm"
+      session_name: "Demo en vivo"
 - name: "OpenShift Commons Gathering at Kubecon EU"
   menu: "show"
   language: "English"
