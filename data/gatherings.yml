@@ -125,7 +125,7 @@ gatherings:
       session_name: "Broadcom Case Study: GitOps in Action"
       speakers:
         - id: "billy_foss"
-        - id: "jose_chavez"
+        - id: "anil_sharma"
         - id: "nitin_kalra"
       track: "Main Stage"  
     - local_time: "1:00 pm"
