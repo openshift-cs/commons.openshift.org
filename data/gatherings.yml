@@ -4,7 +4,7 @@ gatherings:
   language: "Portuguese"
   date: "2021-10-06"
   time: "10:00 am - 3:00 pm"
-  location: "Latinoamérica"
+  location: "Latinoamérica - Português"
   venue: "Experiencia virtual - Português"
   venue_URL: "https://www.redhat.com/es/forums/latam"
   venue_address: "Latinoamérica"
@@ -29,7 +29,7 @@ gatherings:
     - label: "RSVP necessário."
       price: "Sem custo. Grátis." 
   lead_text: >-
-    Openshift Commons Gathering Latinoamérica 2021
+    Openshift Commons Gathering Latinoamérica 2021 - Português
   info_text: >-
     O OpenShift Commons Gathering é o maior evento para usuários e contribuidores do OpenShift na região. Um espaço para criar conexões, onde experiências, histórias de sucesso e boas práticas são compartilhadas por especialistas e pares de todo o mundo. 
     
@@ -251,8 +251,8 @@ gatherings:
   language: "Spanish"
   date: "2021-10-06"
   time: "10:00 am - 3:00 pm"
-  location: "Latinoamérica"
-  venue: "Experiencia virtual"
+  location: "Latinoamérica - Español"
+  venue: "Experiencia virtual- Español"
   venue_URL: "https://www.redhat.com/es/forums/latam"
   venue_address: "Latinoamérica"
   calendar_event_URL:
@@ -276,7 +276,7 @@ gatherings:
     - label: "RSVP requerido"
       price: "Sin costo" 
   lead_text: >-
-    Openshift Commons Gathering Latinoamérica 2021
+    Openshift Commons Gathering Latinoamérica 2021 - Español
   info_text: >-
     El OpenShift Commons Gathering es el evento de organizaciones y usuarios de OpenShift más grande de la región. Un espacio para crear conexiones, en el que se comparten experiencias, casos de éxito y buenas prácticas de la mano de ejecutivos, expertos y pares de todas partes del mundo. 
     
