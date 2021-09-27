@@ -43,11 +43,15 @@ gatherings:
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   schedule:
     - local_time: "09:50 am"
-      session_name: "Bem-vindo ao OpenShift Commons: Colaboração em ação - Edson Yanaga (Red Hat)"
+      session_name: "Bem-vindo ao OpenShift Commons: Colaboração em ação"
       speakers:
+        - id: "edson_yanaga"
         - id: "diane"
     - local_time: "10:00 am"
       session_name: "Customer Keynote: Desacoplando o negócio digital com Openshift"
+      speakers: 
+        - id: "fred_ferreira"
+        - id: "rodrigo_canhissare"  
     - local_time: "10:30 am"
       session_name: "Lo Nuevo de Openshift 4.8"
       speakers:
@@ -55,6 +59,8 @@ gatherings:
         - id: "rob_szumski" 
     - local_time: "10:45 am"
       session_name: "OpenShift e Sulamérica: uma jornada de sucesso - Emerson Levi"
+      speakers:
+        - id: "emerson_levi"
     - local_time: "11:00 am"
       session_name: "Caso de sucesso: TBD"
     - local_time: "11:35 am"
@@ -63,6 +69,8 @@ gatherings:
         - id: "audrey_reznik"
     - local_time: "11:50 am"
       session_name: "Jornada Banco #Original de Microsseerviços Luiz Paulo Leite Machado - Consultor de Infraestrutura - Banco Original"
+      speakers:
+        - id: "luiz_paulo_leite_machado"
     - local_time: "12:10 pm"
       session_name: "Caso de sucesso"
     - local_time: "12:25 pm"
