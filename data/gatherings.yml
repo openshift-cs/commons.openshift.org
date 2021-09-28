@@ -58,7 +58,7 @@ gatherings:
         - id: "karena_angell"
         - id: "rob_szumski" 
     - local_time: "10:45 am"
-      session_name: "OpenShift e Sulamérica: uma jornada de sucesso - Emerson Levi"
+      session_name: "OpenShift e Sulamérica: uma jornada de sucesso"
       speakers:
         - id: "emerson_levi"
     - local_time: "11:00 am"
@@ -81,6 +81,10 @@ gatherings:
         - id: "divineops"
     - local_time: "13:00 pm"
       session_name: "Jogos clássicos. Demo ao vivo."
+       speakers:
+         - id: "tomas_gubeli"
+         - id: "paulo_seguel"
+         - id: "vinicius_ferraz"
 - name: "Japan 2021"
   menu: "show"
   language: "English"
