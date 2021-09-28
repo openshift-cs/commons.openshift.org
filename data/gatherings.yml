@@ -27,7 +27,7 @@ gatherings:
     invite_a_friend: Invita a un amigo
   pricing:
     - label: "RSVP necessário."
-      price: "Sem custo. Grátis." 
+      price: "Sem custo." 
   lead_text: >-
     Openshift Commons Gathering Latinoamérica 2021 - Português
   info_text: >-
@@ -64,11 +64,11 @@ gatherings:
     - local_time: "11:00 am"
       session_name: "Caso de sucesso"
     - local_time: "11:35 am"
-      session_name: "Data Science como servicio gestionado en OpenShift"
+      session_name: "Data Science como serviço gerenciado em OpenShift"
       speakers:
         - id: "audrey_reznik"
     - local_time: "11:50 am"
-      session_name: "Jornada Banco #Original de Microsseerviços"
+      session_name: "Jornada Banco #Original de Microsserviços"
       speakers:
         - id: "luiz_paulo_leite_machado"
     - local_time: "12:10 pm"
