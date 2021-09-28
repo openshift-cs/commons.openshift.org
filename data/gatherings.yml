@@ -81,6 +81,11 @@ gatherings:
         - id: "divineops"
     - local_time: "13:00 pm"
       session_name: "Jogos clássicos. Demo ao vivo."
+      speakers:
+        - id: "tomas_gubeli"
+        - id: "paulo_seguel"
+        - id: "vinicius_ferraz"
+        - id: "glauco_stephan"
 - name: "Japan 2021"
   menu: "show"
   language: "English"
