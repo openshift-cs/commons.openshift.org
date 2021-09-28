@@ -5,19 +5,19 @@ gatherings:
   date: "2021-10-06"
   time: "10:00 am - 3:00 pm"
   location: "Latinoamérica - Português"
-  venue: "Experiencia virtual - Português"
-  venue_URL: "https://www.redhat.com/es/forums/latam"
+  venue: "Experiência virtual - Português"
+  venue_URL: "https://www.redhat.com/pt-br/forums/latam"
   venue_address: "Latinoamérica"
   calendar_event_URL:
   registration_text: "CONFIRME SUA PRESENÇA"
-  registration_URL: "https://www.redhat.com/es/forums/latam"
+  registration_URL: "https://www.redhat.com/pt-br/forums/latam"
   head_text: >-
     Onde usuários, parceiros, clientes, contribuidores e líderes de projetos se reúnem para colaborar e trabalhar juntos em todo o ecossistema OpenShift Cloud Native.
   headers:
-    overview: Descripción del Evento
+    overview: Descrição do evento
     schedule: Agenda
-    speakers: Disertantes
-    venue: Sede del Evento
+    speakers: Palestrantes
+    venue: Local do evento
   overview_section:
     where: ONDE
     when: QUANDO
@@ -35,11 +35,11 @@ gatherings:
     
     Este ano, aprenderemos sobre os recursos em contêineres mais recentes, à medida que a comunidade oferece um tour em primeira pessoa das melhores práticas para desenvolvedores de aplicativos nativos em nuvem e os projetos de software de código aberto que sustentam o ecossistema OpenShift.
   schedule_leadin: >-
-    Todos los horarios se muestran en GMT-3 (zona horaria Argentina / Chile)
+    Todos os horários são mostrados no fuso horário de Brasília
   videos_text: >-
-    Vea las ediciones anteriores de otros OpenShift Commons
+    Veja edições anteriores de OpenShift Commons
   event_footer_text: >-
-    El OpenShift Commons Gathering será el escenario ideal para exhibir un amplio rango de tecnologías que apuntalan al ecosistema OpenShift.
+    O OpenShift Commons Gathering será o cenário ideal para apresentar uma ampla gama de tecnologias que sustentam o ecossistema OpenShift.
   invite_link: "https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform"
   schedule:
     - local_time: "09:50 am"
@@ -53,22 +53,22 @@ gatherings:
         - id: "fred_ferreira"
         - id: "rodrigo_canhissare"  
     - local_time: "10:30 am"
-      session_name: "Lo Nuevo de Openshift 4.8"
+      session_name: "O que há de novo no Openshift 4.8"
       speakers:
         - id: "karena_angell"
         - id: "rob_szumski" 
     - local_time: "10:45 am"
-      session_name: "OpenShift e Sulamérica: uma jornada de sucesso - Emerson Levi"
+      session_name: "OpenShift e Sulamérica: uma jornada de sucesso"
       speakers:
         - id: "emerson_levi"
     - local_time: "11:00 am"
-      session_name: "Caso de sucesso: TBD"
+      session_name: "Caso de sucesso"
     - local_time: "11:35 am"
       session_name: "Data Science como servicio gestionado en OpenShift"
       speakers:
         - id: "audrey_reznik"
     - local_time: "11:50 am"
-      session_name: "Jornada Banco #Original de Microsseerviços Luiz Paulo Leite Machado - Consultor de Infraestrutura - Banco Original"
+      session_name: "Jornada Banco #Original de Microsseerviços"
       speakers:
         - id: "luiz_paulo_leite_machado"
     - local_time: "12:10 pm"
