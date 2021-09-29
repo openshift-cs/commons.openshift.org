@@ -216,7 +216,7 @@ gatherings:
         - id: "nitin_kalra"
       track: "Main Stage"  
     - local_time: "1:00 pm"
-      session_name: "TIAA Case Study"
+      session_name: "TIAA Case Study: Why Policy Management? - Cloud Security and Governance"
       track: "Main Stage"  
       speakers: 
         - id: "aradhna_chetal"   
