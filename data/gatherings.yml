@@ -61,8 +61,6 @@ gatherings:
       session_name: "OpenShift e Sulamérica: uma jornada de sucesso"
       speakers:
         - id: "emerson_levi"
-    - local_time: "11:00 am"
-      session_name: "Caso de sucesso"
     - local_time: "11:35 am"
       session_name: "Data Science como serviço gerenciado em OpenShift"
       speakers:
@@ -72,9 +70,9 @@ gatherings:
       speakers:
         - id: "luiz_paulo_leite_machado"
     - local_time: "12:10 pm"
-      session_name: "Caso de sucesso"
+      session_name: "Hospital Albert Einstein: Desafios e conquistas - Aprimorando a produtividade e promovendo a inovação"
     - local_time: "12:25 pm"
-      session_name: "Caso de sucesso"
+      session_name: "Claro Brasil: Mudança de mentalidade e cultura devops Como o OpenShift nos ajudou a mudar nossa cultura"
     - local_time: "12:45 pm"
       session_name: "Engenharia de confiabilidade do local, serviços gerenciados e o caminho para o futuro"
       speakers:
