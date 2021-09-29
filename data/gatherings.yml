@@ -71,6 +71,8 @@ gatherings:
         - id: "luiz_paulo_leite_machado"
     - local_time: "12:10 pm"
       session_name: "Hospital Albert Einstein: Desafios e conquistas - Aprimorando a produtividade e promovendo a inovação"
+      speakers:
+        - id: "henrique_xavier_goulart"
     - local_time: "12:25 pm"
       session_name: "Claro Brasil: Mudança de mentalidade e cultura devops Como o OpenShift nos ajudou a mudar nossa cultura"
     - local_time: "12:45 pm"
