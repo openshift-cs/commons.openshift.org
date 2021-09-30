@@ -75,6 +75,9 @@ gatherings:
         - id: "henrique_xavier_goulart"
     - local_time: "12:25 pm"
       session_name: "Claro Brasil: Mudança de mentalidade e cultura devops Como o OpenShift nos ajudou a mudar nossa cultura"
+      speakers:
+        - id: "rodrigo_sandrini"     
+        - id: "vitor_martins_dos_anjos"
     - local_time: "12:45 pm"
       session_name: "Engenharia de confiabilidade do local, serviços gerenciados e o caminho para o futuro"
       speakers:
