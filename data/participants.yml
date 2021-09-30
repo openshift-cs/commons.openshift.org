@@ -1312,6 +1312,7 @@ participants:
   logo: "commons-logos/nuage.png"
   metatag1: "partner"
   metatag2: "Service Cloud Provider"
+  metatag3: "ISV"
 - name: "Nudge"
   link: "http://level5.fr/"
   logo: "commons-logos/nudge.png"
