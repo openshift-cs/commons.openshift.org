@@ -438,7 +438,7 @@ $(document).ready(function($) {
 
 	var qsRegex;
     var buttonFilter;
-    function filterBySearch() {  
+    function filterBySearch() {
       var $this = $(this);
       var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
       var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
@@ -452,7 +452,7 @@ $(document).ready(function($) {
     masonry: {
       columnWidth: '.grid-sizer'
               },
-    
+
     });
 
     $('#filters').on( 'click', 'button', function() {
@@ -493,12 +493,27 @@ $(document).ready(function($) {
     }
 
   	//=================================== Participation Filter =====================================//
-  	        
+
     function filterBySelection() {
       var listElem = $(this).find('li')
       var participantUserType = listElem.attr('data-participantusertype')
       return filterTargetRegex ? participantUserType.match(filterTargetRegex) : true
     }
+
+    function filterByPartnerTag() {
+      var listElem = $(this).find('li')
+      var participantTag2 = listElem.attr('data-participanttag2')
+
+      console.log({participantTag2, filterTargetRegex});
+
+
+
+      var result = filterTargetRegex ? participantTag2.match(filterTargetRegex) : true
+	    console.log({result});
+
+	    return result;
+    }
+
 
     var filterTargetRegex;
 
@@ -506,14 +521,41 @@ $(document).ready(function($) {
 
     participationSelector.on('change', function() {
 
+
+
       var selectedIndex = $(this).prop('selectedIndex');
       var selectedOption = $(this).children()[selectedIndex]
       var selectedText = $(selectedOption).val()
+
+      if(selectedText == 'partner'){
+        $('#tagfilter-container').show();
+        $('#filter-container').removeClass('col-md-4');
+        $('#filter-container').addClass('col-md-2');
+      }
+      else{
+        $('#tagfilter-container').hide();
+        $('#filter-container').removeClass('col-md-2');
+        $('#filter-container').addClass('col-md-4');
+      }
       // If 'All' is selected, return false so that the entire grid is repopulated.
       filterTargetRegex = selectedText === 'all' ? false : new RegExp( selectedText, 'gi');
-      $grid.isotope({filter: filterBySelection})
+      $grid.isotope({filter: filterBySelection});
 
     });
+
+    var tagFilter = $('#tagfilter');
+
+	tagFilter.on('change', function(event) {
+      
+		var selectedIndex = $(this).prop('selectedIndex');
+      		var selectedOption = $(this).children()[selectedIndex]
+      		var selectedText = $(selectedOption).val()
+      	
+		filterTargetRegex = selectedText === 'all' ? false : new RegExp( selectedText, 'gi');
+		
+		$grid.isotope({filter: filterByPartnerTag});
+		
+	});
 
 
 				// change is-checked class on buttons
