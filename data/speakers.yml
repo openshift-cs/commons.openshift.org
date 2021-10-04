@@ -985,7 +985,7 @@ speakers:
     photo: "speakers/taneem_ibrahim.jpeg"
   - id: "andrew_block"
     name: "Andrew Block"
-    role: "Senior Principal Consultant"
+    role: "Distinguished Architect"
     company: "Red Hat"
     URL: "https://www.redhat.com/"
     intro: ""
