@@ -318,42 +318,42 @@ gatherings:
       session_name: "Customer Keynote: Banca y Servicios Financieros del Grupo Macquarie"
       speakers:
         - id: "luis_uguina"
-    - local_time: "10:30 am"
+    - local_time: "10:35 am"
       session_name: "Lo Nuevo de Openshift 4.8"
       speakers:
         - id: "karena_angell"
         - id: "rob_szumski" 
-    - local_time: "10:45 am"
+    - local_time: "11:10 am"
       session_name: "Visión de los líderes: Las perspectivas de la transformación cultural"
       speakers:
         - id: "mario_herane"
         - id: "sandra_dagostino"
-    - local_time: "11:00 am"
+    - local_time: "11:25 am"
       session_name: "Caso Medifé: Transformación digital en contexto COVID19 con Openshift"
       speakers:
         - id: "facundo_trillo"
-    - local_time: "11:35 am"
+    - local_time: "11:45 am"
       session_name: "Data Science como servicio gestionado en OpenShift"
       speakers:
         - id: "audrey_reznik"
-    - local_time: "11:50 am"
+    - local_time: "12:20 pm"
       session_name: "Caso Secretaría de Innovación: Transformación Pública Digital"
       speakers:
         - id: "luis_papagni"
-    - local_time: "12:10 pm"
+    - local_time: "12:40 pm"
       session_name: "Caso Telecom: Prácticas DevOps"
       speakers:
         - id: "sofia_baggini"
-    - local_time: "12:25 pm"
+    - local_time: "13:00 pm"
       session_name: "Caso Banco de la Provincia de Buenos Aires: Transformación digital, camino al Bicentenario."
       speakers:
         - id: "federico_milovic"   
         - id: "claudia_castilla"
-    - local_time: "12:45 pm"
+    - local_time: "13:15 pm"
       session_name: "Ingeniería de confiabilidad del sitio, servicios administrados y el camino hacia el futuro"
       speakers:
         - id: "divineops"
-    - local_time: "13:00 pm"
+    - local_time: "13:30 pm"
       session_name: "Demo en vivo"
       speakers:
         - id: "tomas_gubeli"
