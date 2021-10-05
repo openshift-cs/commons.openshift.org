@@ -2601,3 +2601,8 @@ speakers:
     role: "Director, Product Marketing"
     URL: "https://sysdig.com/"
     company: "Sysdig"
+  - id: "michael_waite"
+    name: "Michael Waite"
+    role: "Senior Principal Product Marketing"
+    URL: "https://redhat.com/"
+    company: "Red Hat"
