@@ -90,8 +90,9 @@ gatherings:
         - id: "vinicius_ferraz"
         - id: "glauco_stephan"
     - local_time: "14:00 pm"
-      session_name: "Projeto de atualização tecnológica das Aplicações na Usiminas -Fernando Simonetti (Usiminas)"     
-      
+      session_name: "Projeto de atualização tecnológica das Aplicações na Usiminas"     
+      speakers:
+        - id: "fernando_simonetti"
 - name: "Japan 2021"
   menu: "show"
   language: "English"
