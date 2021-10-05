@@ -2526,7 +2526,7 @@ speakers:
     name: "Henrique Xavier Goulart"
     role: "Senior Site Reliability Engineer(SRE),DevOps "
     URL: "https://www.einstein.br/Pages/Home.aspx"
-    company: "Hospital Albert Einstein"
+    company: "Hospital Israelita Albert Einstein"
     photo: "speakers/henrique_xavier_goulart.jpeg"
   - id: "rodrigo_sandrini"
     name: "Rodrigo Sandrini"
