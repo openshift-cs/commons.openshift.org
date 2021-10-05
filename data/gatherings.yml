@@ -269,7 +269,6 @@ gatherings:
         - id: "brad_bignall"
         - id: "suda_srinivasan"
         - id: "eric_carter"
-        - local_time: "3:00 pm"
     - local_time: "12:00 pm"
       session_name: "Kubernetes 101 Boot Camp (virtual only) pre-registration required (space limited to 100)"
       track: "Kubernetes 101 Boot Camp"
