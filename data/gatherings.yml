@@ -259,8 +259,9 @@ gatherings:
       track: "Main Stage"  
       speakers:
         - id: "michael_waite"
-        - id: "rob_jahn"
+        - id: "raveesh_dewan"
         - id: "lee_choo_yee"
+        - id: "rob_jahn"
         - id: "alexander_hanway"
         - id: "keith_mcclellan"
         - id: "sitaram_iyer"
@@ -285,8 +286,9 @@ gatherings:
       track: "Partner Lightning Talks and Reception"  
       speakers:
         - id: "michael_waite"
-        - id: "rob_jahn"
+        - id: "raveesh_dewan"
         - id: "lee_choo_yee"
+        - id: "rob_jahn"
         - id: "alexander_hanway"
         - id: "keith_mcclellan"
         - id: "sitaram_iyer"
@@ -301,6 +303,7 @@ gatherings:
       track: "Partner Lightning Talks and Reception"  
       speakers:
         - id: "lee_choo_yee"
+        - id: "raveesh_dewan"
     - local_time: "3:15 pm"
       session_name: "Dynatrace: Porsche Informatik accelerates innovation"
       track: "Partner Lightning Talks and Reception"  
