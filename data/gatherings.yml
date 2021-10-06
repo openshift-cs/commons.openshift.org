@@ -297,15 +297,15 @@ gatherings:
         - id: "suda_srinivasan"
         - id: "eric_carter"    
     - local_time: "3:10 pm"
+      session_name: "Joget & Alliance Bank: Accelerate Digitization with Low Code Platforms"
+      track: "Partner Lightning Talks and Reception"  
+      speakers:
+        - id: "lee_choo_yee"
+    - local_time: "3:15 pm"
       session_name: "Dynatrace: Porsche Informatik accelerates innovation"
       track: "Partner Lightning Talks and Reception"  
       speakers:
-        - id: "rob_jahn"     
-    - local_time: "3:15 pm"
-      session_name: "Joget: Accelerate Digitization with Low Code Platforms"
-      track: "Partner Lightning Talks and Reception"  
-      speakers:
-        - id: "lee_choo_yee"   
+        - id: "rob_jahn"      
     - local_time: "3:20 pm"
       session_name: "Thales: Fast, Trusted Development with Thales HSMs"
       track: "Partner Lightning Talks and Reception"  
