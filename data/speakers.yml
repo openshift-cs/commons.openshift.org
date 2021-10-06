@@ -2612,9 +2612,10 @@ speakers:
     URL: "https://sysdig.com/"
     company: "Sysdig"
     photo: "speakers/eric_carter.jpg"
-    photo: "speakers/vitor_martins_dos_anjos.jpg"
   - id: "michael_waite"
     name: "Michael Waite"
     role: "Senior Principal Product Marketing"
     URL: "https://redhat.com/"
     company: "Red Hat"
+    photo: "speakers/michael_waite.jpeg"
+
