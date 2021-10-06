@@ -2618,4 +2618,9 @@ speakers:
     URL: "https://redhat.com/"
     company: "Red Hat"
     photo: "speakers/micheal_waite_lake.png"
-
+  - id: "raveesh_dewan"
+    name: "Raveesh Dewan"
+    role: "Chief Executive Officer"
+    URL: "https://joget.com/"
+    company: "Joget"
+    photo: "speakers/raveesh_dewan.jpg"
