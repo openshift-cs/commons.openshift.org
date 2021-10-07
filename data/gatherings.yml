@@ -350,7 +350,7 @@ gatherings:
       track: "Partner Lightning Talks and Reception"  
       speakers:
         - id: "eric_carter"  
-     - local_time: "4:00 pm"
+    - local_time: "4:00 pm"
       session_name: "Closing Words and Partner Swag Raffle Results "
       track: "Partner Lightning Talks and Reception"  
       speakers:
