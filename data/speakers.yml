@@ -2362,7 +2362,7 @@ speakers:
     photo: "speakers/billy_foss.jpeg"
   - id: "anil_sharma"
     name: "Anil Sharma"
-    role: "SaaS Ops & Delivery Engineer"
+    role: "SaaS Platform Engineering Architect"
     URL: "https://broadcom.com" 
     company: "Broadcom"
     photo: "speakers/anil_sharma.jpg"
