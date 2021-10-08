@@ -240,7 +240,7 @@ gatherings:
          - id: "stephen_boyd"
       track: "Main Stage"  
     - local_time: "2:30 pm"
-      session_name: "AMA Session: Live Q/A with Guest Speakers & Red Hat Engineers and Product Managers"
+      session_name: "AMA Session: Live Q/A with Guest Speakers & Red Hat Engineers, Data Scientists and Product Managers"
       speakers:
         - id: "diane"
         - id: "stu"
