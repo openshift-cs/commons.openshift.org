@@ -356,6 +356,7 @@ gatherings:
       speakers:
         - id: "michael_waite"  
         - id: "stu"
+        - id: "diane"
 - name: "LATAM OpenShift Commons Gathering 2021 ES"
   menu: "show"
   language: "Spanish"
