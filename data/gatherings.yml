@@ -201,8 +201,12 @@ gatherings:
         - id: "clayton_coleman"
       track: "Main Stage"  
     - local_time: "10:30 am"
-      session_name: "Coffee Break"
-      track: "Main Stage"     
+      session_name: "Coffee Break - live from Paris - OpenShift Meetup Shouts"
+      track: "Main Stage"  
+      speakers: 
+          - id: "yacine_kheddache"
+          - id: "dewan"
+          - id: "diane"
     - local_time: "11:00 am"
       session_name: "Site Reliability Engineering, Managed Services, and the path to the future"
       speakers:
