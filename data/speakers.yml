@@ -2624,3 +2624,8 @@ speakers:
     URL: "https://joget.com/"
     company: "Joget"
     photo: "speakers/raveesh_dewan.jpg"
+  - id: "yacine_kheddache"
+    name: "Yacine Kheddache"
+    role: "Specialist Solution Architect Manager"
+    URL: "https://redhat.com"
+    company: "Red Hat"
