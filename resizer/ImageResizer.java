@@ -15,7 +15,6 @@ import org.apache.commons.io.FileUtils;
 import org.apache.tika.mime.MimeTypeException;
 import org.apache.tika.mime.MimeTypes;
 
-
 /**
  * Java program responsible for extracting necessary information from cURL command, resizing
  * and re-uploading the picture at the provided link to the correct size, and appending the new
