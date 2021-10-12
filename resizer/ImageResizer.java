@@ -15,12 +15,6 @@ import org.apache.commons.io.FileUtils;
 import org.apache.tika.mime.MimeTypeException;
 import org.apache.tika.mime.MimeTypes;
 
-//import org.jsoup.Jsoup;
-//import org.jsoup.helper.Validate;
-//import org.jsoup.nodes.Document;
-//import org.jsoup.nodes.Element;
-//import org.jsoup.select.Elements;
-
 
 /**
  * Java program responsible for extracting necessary information from cURL command, resizing
@@ -36,7 +30,7 @@ public class ImageResizer {
    * System's COMMONS_PATH environmental variable, which leads to the root directory
    * of the project's GitHub repo
    */
-  private static final String COMMONS_PATH = "/var/www/commons.openshift.org"; //System.getenv("COMMONS_PATH");
+  private static final String COMMONS_PATH = System.getenv("COMMONS_PATH");
 
   /** Specific text String located in cURL command output on same line as body of Issues */
   private static final String ISSUE_FLAG = "\"body\": \"company";
