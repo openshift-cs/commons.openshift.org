@@ -72,21 +72,6 @@ public class ImageResizer {
 
     //Establishes input Scanners used to read piped-in cURL output and 'participants.yml' file
 
-// /var/www/commons.openshift.org
-
-    //Scanner inputReader = null;
-
-    //String data = "\"body\": \"company: Momox url: https://momox.biz/ logo: ![momox](https://user-images.githubusercontent.com/4029488/45434382-2bf08280-b663-11e8-900e-85b3c362daa1.png) tag1: Partner tag2: Solutions Provider\"";
-//    InputStream stdin = System.in;
-//    try {
-//      System.setIn(new ByteArrayInputStream(data.getBytes()));
-//      inputReader = new Scanner(System.in);
-//      // System.out.println(scanner.nextLine());
-//      // scanner.close();
-//    } finally {
-//      System.setIn(stdin);
-//    }
-
 
      Scanner inputReader = new Scanner(System.in);
 
