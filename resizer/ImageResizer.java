@@ -47,11 +47,14 @@ public class ImageResizer {
    *
    * Full Regex: company:\s*(?<company>.*(?= url))\s*url:\s*(?<url>.*(?= logo))\s*logo:\s*(?:(?=!\[)!\[.*]\((?<logo1>[^"\s]*)\)|(?<logo2>[^"\s]*))(?:"|\s*.*)
    * https://regex101.com/r/KpF6m3/2
+   *
+   * New regex:
+   * https://regex101.com/r/PK8mQA/2
+   *
    */
-  private static final String REGEX_PATTERN =
-    "company:\\s*(?<company>.*(?= url))\\s*" + // Match the first line as containing the "company" information, use lookahead to ensure we don't match "url"
-    "url:\\s*(?<url>.*(?= logo))\\s*" + // Match the second line as containing the "url" information, use lookahead to ensure we don't match "logo"
-    "logo:\\s*(?:(?=!\\[)!\\[.*]\\((?<logo1>[^\"\\s]*)\\)|(?<logo2>[^\"\\s]*))(?:\"|\\s*.*)"; // Match the third line as containing the "logo" information. Using a conditional (as a non-capturing group), we're able to differentiate embedded images from logo URLs
+
+  //private static final String REGEX_PATTERN = "company:\\s*(?<company>\\w*(?= url))\\s*url:\\s*(?<url>.*(?= tag1))\\s*tag1: (?<tag1>\\w*\\W*\\w*(?= tag2)\\s*)tag2: (?<tag2>\\w*\\W*\\w*(?= tag3))\\s*tag3: (?<tag3>\\w*\\W*\\w*(?= tag4))\\s*tag4: (?<tag4>\\w*\\W*\\w*(?= tag5))\\s*tag5: (?<tag5>\\w*\\W*\\w*(?= logo))\\s*logo:\\s*(?:(?=!\\[)!\\[.*]\\((?<logo1>[^\"\\s]*)\\)|(?<logo2>[^\"\\s]*))(?:\"|\\s*.*)";
+  private static final String REGEX_PATTERN = "company:\\s*(?<company>\\w*(?= url))\\s*url:\\s*(?<url>.*(?= tag1)\\s*)tag1:\\s*(?<tag1>\\s*\\w*(\\W*|\\s*)\\w*\\s*(?= tag2)\\s*)tag2:\\s*(?<tag2>\\s*\\w*(\\W*|\\s*)\\w*\\s*(?= tag3)\\s*)tag3:\\s*(?<tag3>\\s*\\w*(\\W*|\\s*)\\w*\\s*(?= tag4)\\s*)tag4:\\s*(?<tag4>\\s*\\w*(\\W*|\\s*)\\w*\\s*(?= tag5)\\s*)tag5:\\s*(?<tag5>\\s*\\w*(\\W*|\\s*)\\w*\\s*(?= logo)\\s*)logo:\\s*(?:(?=!\\[)!\\[.*]\\((?<logo1>[^\"\\s]*)\\)|(?<logo2>[^\"\\s]*))(?:\"|\\s*.*)";
 
   /** Sending user agent prevents 403's when getting images from some servers **/
   private static final String USER_AGENT = "oscommonsbot/1.0";
@@ -67,7 +70,9 @@ public class ImageResizer {
     System.out.println("Processing GitHub issues for new Commons participants:\n");
 
     //Establishes input Scanners used to read piped-in cURL output and 'participants.yml' file
-    Scanner inputReader = new Scanner(System.in);
+
+
+     Scanner inputReader = new Scanner(System.in);
 
     /** Whether or not errors have occured */
     boolean errors_encountered = false;
@@ -82,9 +87,15 @@ public class ImageResizer {
     boolean participantsUpdated = false;
     String issue_number = "unknown";
     String company;
+    //String name;
     String business_url;
     String link;
     String fileName;
+    String tag1;
+    String tag2;
+    String tag3;
+    String tag4;
+    String tag5;
     URL logo_url;
     URL company_url;
     int companies_parsed = 0;
@@ -96,10 +107,14 @@ public class ImageResizer {
     } catch (IOException e) {
       errors_encountered = true;
       System.out.println("Error: Could not write to `" + COMMONS_PATH + "/commit.txt`");
-      System.exit(1);
+      // System.exit(1);
     }
 
     Pattern bodyRegex = Pattern.compile(REGEX_PATTERN, Pattern.CASE_INSENSITIVE);
+
+    // System.out.println("bodyRegex START");
+    // System.out.println(bodyRegex);
+    // System.out.println("bodyRegex END");
 
     /*
      * The main functionality of the program; processes through the GitHub Issue looking for
@@ -109,19 +124,50 @@ public class ImageResizer {
      * 'participants.yml' file at the end of the list and calls on the proper method to
      * process and resize the image file at the URL stored in the "link" String
      */
+
+    // System.println("InputReader: " + inputReader);
+
     issue_loop:
     while (inputReader.hasNextLine()) {
       line = inputReader.nextLine().trim();
-      if (line.toLowerCase().startsWith(ISSUE_FLAG.toLowerCase())) {
+      System.out.println("line: " + line);
+      System.out.println("ISSUE_FLAG: " + ISSUE_FLAG.toLowerCase());
+      System.out.println("Line starts with issue flag: " + line.toLowerCase().startsWith(ISSUE_FLAG.toLowerCase()));
+      System.out.println(ISSUE_FLAG.toLowerCase());
+      //if (line.toLowerCase().startsWith(ISSUE_FLAG.toLowerCase())) {
+	if(true) {
+        System.out.println("Issue Flag recognized");
         companies_parsed++;
         bodyLine = line.trim().replace("\\r\\n", " ");
         Matcher m = bodyRegex.matcher(bodyLine);
 
+	//System.out.println("Found: " + m.find());
+
         if (m.find()) {
 
+	System.out.println("Now we're here...");
+
           company = m.group("company");
+//	  name = m.group("name");
           business_url = m.group("url");
           link = m.group("logo1");
+          tag1 = m.group("tag1");
+          tag2 = m.group("tag2");
+          tag3 = m.group("tag3");
+          tag4 = m.group("tag4");
+          tag5 = m.group("tag5");
+
+
+
+          System.out.println("Company: " + company);
+	  //System.out.println("Name: " + name);
+          System.out.println("URL :" + business_url);
+          System.out.println("Logo: " + link);
+          System.out.println("Tag1: " + tag1);
+          System.out.println("Tag2: " + tag2);
+          System.out.println("Tag3: " + tag3);
+          System.out.println("Tag4: " + tag4);
+          System.out.println("Tag5: " + tag5);
 
           if (link == null) {
             link = m.group("logo2");
@@ -164,7 +210,9 @@ public class ImageResizer {
                 break;
             }
 
+	    System.out.println("Filename: " + fileName);
             if (fileName != null) {
+	      System.out.println("Deduped: " + deduplicateParticipants(company));
               if (deduplicateParticipants(company)) {
 
                 //Establishes the BufferedWriter needed to append text to 'participants.yml'
@@ -178,6 +226,16 @@ public class ImageResizer {
                   out.append("  link: \"" + company_url + "\"");
                   out.newLine();
                   out.append("  logo: \"commons-logos/" + fileName + "\"");
+                  out.newLine();
+                  out.append("  tag1: \"" + tag1 + "\"");
+                  out.newLine();
+                  out.append("  tag2: \"" + tag2 + "\"");
+                  out.newLine();
+                  out.append("  tag3: \"" + tag3 + "\"");
+                  out.newLine();
+                  out.append("  tag4: \"" + tag4 + "\"");
+                  out.newLine();
+                  out.append("  tag5: \"" + tag5 + "\"");
                   out.close();
                   participantsUpdated = true;
                 } catch (IOException e) {
@@ -292,8 +350,8 @@ public class ImageResizer {
       // avoid 403's by setting the user agent request header
       conn.setRequestProperty("User-Agent", USER_AGENT);
       // explicitly open connection to catch exceptions like SSL handshake errors
-      conn.connect(); 
-      mimeType = conn.getContentType();      
+      conn.connect();
+      mimeType = conn.getContentType();
     } catch (IOException e) {
       System.out.println("Error: Unable to read the image at the specified URL (" + url + ")");
       System.out.println(e);
@@ -402,9 +460,13 @@ public class ImageResizer {
         URLConnection conn = url.openConnection();
         conn.setRequestProperty("User-Agent", USER_AGENT);
         FileUtils.copyInputStreamToFile(conn.getInputStream(), imageFile);
+        System.out.println("The file has been saved!");
       } else {
         ImageIO.write(image, getExtension(url), imageFile);
       }
+
+
+
       return fileName;
     } catch (IOException e) {
       System.out.println("Error: Unable to write image for " + url + " to " + filePath + fileName);
