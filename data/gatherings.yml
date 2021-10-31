@@ -152,8 +152,6 @@ gatherings:
       session_name: "Lunch Break | Hackathon Summary"
     - local_time: "13:00 pm"
       session_name: "Demo Session"
-    - local_time: "13:00 pm"
-      session_name: "Demo Session"
     - local_time: "13:35 pm"
       session_name: "OpenShift Use Case #2"
     - local_time: "14:00 pm"
