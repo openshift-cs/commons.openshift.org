@@ -118,7 +118,7 @@ gatherings:
   invite_link: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2021.html"
   sponsors:
   sponsoring_URL: "mailto:mamorita@redhat.com"
-schedule:
+  schedule:
     - local_time: "9:00 am"
       session_name: "Welcome to the Commons"
       speakers:
