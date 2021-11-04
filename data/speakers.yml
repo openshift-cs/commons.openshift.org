@@ -2672,3 +2672,8 @@ speakers:
     URL: "https://redhat.com"
     company: "Red Hat"
     photo: "speakers/shingo_kitayama.jpeg"
+  - id: "kenjiro_nakayama"
+    name: "Kenjiro Nakayama"
+    role: "Senior Software Engineer, Contributor: Kubernetes, Knative, Envoy, Istio"
+    URL: "https://redhat.com"
+    company: "Red Hat"
