@@ -120,11 +120,11 @@ gatherings:
   sponsoring_URL: "mailto:mamorita@redhat.com"
   schedule:
     - local_time: "9:00 am"
-      session_name: "Welcome to the Commons"
+      session_name: "Welcome to the Commons: Collaboration in Action"
       speakers:
         - id: "diane"
     - local_time: "9:15 am"
-      session_name: "Hybrid Cloud Platform Update"
+      session_name: "Keynote: The Road to Hybrid Cloud"
       speakers:
         - id: "joe_f"
     - local_time: "9:45 am"
