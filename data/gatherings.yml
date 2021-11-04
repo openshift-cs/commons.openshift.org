@@ -164,6 +164,7 @@ gatherings:
       session_name: "What's new on OpenShift"
       speakers:
         - id: "nobuhiro_sue"
+        - id: "kenjiro_nakayama"
         - id: "shingo_kitayama"  
 - name: "OpenShift Commons Gathering at Kubecon North America 2021"
   menu: "show"
