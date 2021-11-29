@@ -151,6 +151,8 @@ gatherings:
         - id: "yuki_hanada"
     - local_time: "12:00 pm"
       session_name: "The Challenge of Shifting Large-Scale Legacy Systems to Cloud-Native"
+      speakers:
+        - id: "takanori_nagahara"
     - local_time: "12:25 pm"
       session_name: "What's the deal with Managed Services & Model Delivery"
       speakers:
@@ -159,14 +161,24 @@ gatherings:
       session_name: "Lunch Break | Hackathon Summary"
     - local_time: "13:20 pm"
       session_name: "Demo Session :Legacy Modernization with OpenShift and Red Hat Middleware"
+      speakers:
+        - id: "kazuya_mori"
     - local_time: "13:55 pm"
       session_name: "Study on the Application of CMOS Annealing, Hitachi's Unique Combinatorial Optimization Technology on Red Hat OpenShift"
+      speakers:
+        - id: "jun_ogawa"
     - local_time: "14:20 pm"
       session_name: "Nutanix x Red Hat: Vision of the thorough hybrid cloud platform"
+      speakers:
+        - id: "sho_uchida"
     - local_time: "14:55 pm"
       session_name: "What are the keys to design Enterprise production architecture using ROSA (Red Hat OpenShift Service on AWS)?"
+      speakers:
+        - id: "masahiro_abe"
     - local_time: "15:45 pm"
       session_name: "Where you might stuck when you operate systems on OpenShift and how to solve the problem"
+      speakers:
+        - id: "nobuhiko_nagataki"
     - local_time: "16:10 pm"
       session_name: "OpenShift NEXT"
       speakers:
