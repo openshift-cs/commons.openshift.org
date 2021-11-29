@@ -142,7 +142,7 @@ gatherings:
         - id: "shuhei_senno"
     - local_time: "11:15 am"
       session_name: "OpenShift Managed Practice Partner Panel Session"
-    - local_time: "12:00 am"
+    - local_time: "12:00 pm"
       session_name: "The Challenge of Shifting Large-Scale Legacy Systems to Cloud-Native"
     - local_time: "12:25 pm"
       session_name: "What's the deal with Managed Services & Model Delivery"
@@ -160,7 +160,7 @@ gatherings:
       session_name: "What are the keys to design Enterprise production architecture using ROSA (Red Hat OpenShift Service on AWS)?"
     - local_time: "15:45 pm"
       session_name: "Where you might stuck when you operate systems on OpenShift and how to solve the problem"
-    - local_time: "15:25 pm"
+    - local_time: "16:10 pm"
       session_name: "OpenShift NEXT"
       speakers:
         - id: "nobuhiro_sue"
