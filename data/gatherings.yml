@@ -141,7 +141,14 @@ gatherings:
       speakers:
         - id: "shuhei_senno"
     - local_time: "11:15 am"
-      session_name: "OpenShift Managed Practice Partner Panel Session"
+      session_name: "OpenShift Managed Practice Partner Panel Session: The Expansion of Managed Services and Future Prospects"
+      speakers:
+        - id: "masakazu_deguchi"	
+        - id: "kenichi_ishii"
+        - id: "seiji_aguchi"
+        - id: "masahisa_ichimada"
+        - id: "ikuro_sato"
+        - id: "yuki_hanada"
     - local_time: "12:00 pm"
       session_name: "The Challenge of Shifting Large-Scale Legacy Systems to Cloud-Native"
     - local_time: "12:25 pm"
