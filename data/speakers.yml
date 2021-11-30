@@ -2641,7 +2641,7 @@ speakers:
     role: "APAC Office of Technology GTM Strategist"
     URL: "https://redhat.com"
     company: "Red Hat"
-    photo: ""
+    photo: "speakers/hiroaki_okashita.jpg"
   - id: "shingo_kitayama"
     name: "Shingo Kitayama"
     role: "Cloud Specialist Solution Architect"
