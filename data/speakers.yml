@@ -2659,7 +2659,7 @@ speakers:
     role: "Manager, Channel Infrastructure"
     URL: "https://www.it.mufg.jp"
     company: "Mitsubishi UFJ Information Technology"
-    photo: ""
+    photo: "speakers/shuhei_senno.jpeg"
   - id: "nobuhiro_sue"
     name: "Nobuhiro Sue"
     role: "Manager, Application Services Specialist Solution Architect"
@@ -2730,3 +2730,4 @@ speakers:
     name: "Takeshi Motoda"
     URL: "https://www.nri.com/en"
     company: "Nomura Research Institute"	
+    photo: "/speakers/takeshi_motoda.jpg"
