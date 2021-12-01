@@ -103,7 +103,7 @@ gatherings:
   venue_URL: "https://commons.openshift.org/gatherings/Japan_OpenShift_Commons_Gathering_2021.html"
   calendar_event_URL:
   registration_text: "Register Today"
-  registration_URL: "https://events.redhat.com/profile/form/index.cfm?PKformID=0x463335abcd"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-japan-2021"
   pricing:
     - label: "参加費： 無料"
       price: "Free!"
@@ -116,8 +116,6 @@ gatherings:
   event_footer_text: >-
     Please note: Pre-registration is required.
   invite_link: "https://events.redhat.com/profile/form/index.cfm?PKformID=0x463335abcd"
-  sponsors:
-  sponsoring_URL: "mailto:mamorita@redhat.com"
   schedule:
     - local_time: "9:30 am"
       session_name: "Welcome to the Commons: Collaboration in Action"
