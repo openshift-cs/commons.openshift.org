@@ -4,7 +4,7 @@ gatherings:
   language: "English"
   date: "2022-02-09"
   time: "9:00 am - 12:00 pm PST"
-  location: "Live via Hopin"
+  location: "GitOps"
   venue: "Hopin and Youtube Live"
   venue_URL: "https://hopin.com/events/openshift-commons-gathering-on-gitops"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_GitOps.html"
@@ -14,9 +14,9 @@ gatherings:
     - label: "Registration Now Open"
       price: "Free"
   lead_text: >-
-    This OpenShift Commons Gathering focused on GitOps will be held on February 9th in Pacific Standard Time (PST)!
+    This OpenShift Commons Gathering on GitOps will be held on February 9th in Pacific Standard Time (PST)!
   info_text: >-
-    This OpenShift Commons Gathering will be held live  and broadcast live around the globe. As always, our focus is on creating a space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
+    This OpenShift Commons Gathering will be held live  and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
   event_footer_text: >-
     This OpenShift Commons Gathering on GitOps will be held on Pacific Standard Time (PST)!
     <a href="https://hopin.com/events/openshift-commons-gathering-on-gitops" target="_blank">[Please register via the Hopin Registration Portal here]</a>
