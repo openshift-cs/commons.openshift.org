@@ -1,4 +1,59 @@
 gatherings:
+- name: "OpenShift Commons Gathering on GitOps"
+  menu: "show"
+  language: "English"
+  date: "2022-02-09"
+  time: "9:00 am - 12:00 pm PST"
+  location: "Live via Hopin"
+  venue: "Hopin and Youtube Live"
+  venue_URL: "https://hopin.com/events/openshift-commons-gathering-on-gitops"
+  calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_GitOps.html"
+  registration_text: "Registration Open"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-on-gitops"
+  pricing:
+    - label: "Registration Now Open"
+      price: "Free"
+  lead_text: >-
+    This OpenShift Commons Gathering focused on GitOps will be held on February 9th in Pacific Standard Time (PST)!
+  info_text: >-
+    This OpenShift Commons Gathering will be held live  and broadcast live around the globe. As always, our focus is on creating a space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
+  event_footer_text: >-
+    This OpenShift Commons Gathering on GitOps will be held on Pacific Standard Time (PST)!
+    <a href="https://hopin.com/events/openshift-commons-gathering-on-gitops" target="_blank">[Please register via the Hopin Registration Portal here]</a>
+  invite_link: "https://hopin.com/events/openshift-commons-gathering-on-gitops"
+  schedule:
+    - local_time: "09:00 am"
+      session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      speakers:
+        - id: "diane"
+        - id: "christian_hernandez"
+      track: "Main Stage"
+    - local_time: "9:10 am"
+      session_name: "The Path to GitOps: How to Started with GitOps"
+      speakers:
+        - id: "christian_hernandez"
+      track: "Main Stage"
+    - local_time: "9:30 am"
+      session_name: "A Brief History of GitOps - Cornelia Davis (Amazon)"
+      track: "Main Stage"  
+    - local_time: "09:50 am"
+      session_name: "GitOps Working Group Upstream Update - Dan Garfield (CodeFresh)"
+      track: "Main Stage"  
+    - local_time: "10:10 am"
+      session_name: "GitOps in Action at University of Michigan - Jaime Magiera (UMich)"
+      track: "Main Stage"  
+    - local_time: "10:30 am"
+      session_name: "What's Next in GitOps at Red Hat: Argo, Tekton, Operators, Pipelines and more"
+      speakers:
+        - id: "ssadeghi"
+      track: "Main Stage"   
+    - local_time: "11:00 am"
+      session_name: "GitOps AMA Session: Live Q/A with Guest Speakers & Project Leads"
+      speakers:
+        - id: "diane"
+        - id: "christian_hernandez"
+        - id: "ssadeghi"
+      track: "Main Stage"    
 - name: "LATAM OpenShift Commons Gathering 2021 PT"
   menu: "show"
   language: "Portuguese"
