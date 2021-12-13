@@ -64,6 +64,55 @@ gatherings:
         - id: "dan_garfield"
         - id: "cornelia_davis"
       track: "Main Stage"    
+- name: "OpenShift Commons Gathering on Databases"
+  menu: "show"
+  language: "English"
+  date: "2022-02-23"
+  time: "9:00 am - 12:00 pm PST"
+  topic: "Databases"
+  location: "Virtual"
+  venue: "Hopin"
+  venue_URL: "https://hopin.com/events/openshift-commons-gathering-on-databases"
+  calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html"
+  registration_text: "Registration Open"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-on-databases"
+  pricing:
+    - label: "Registration Now Open"
+      price: "Free"
+  lead_text: >-
+    This OpenShift Commons Gathering on Databases will be held on February 9th in Pacific Standard Time (PST)!
+  info_text: >-
+    This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
+  event_footer_text: >-
+    This OpenShift Commons Gathering on GitOps will be held on Pacific Standard Time (PST)!
+    <a href="https://hopin.com/events/openshift-commons-gathering-on-databases" target="_blank">[Please register via the Hopin Registration Portal here]</a>
+  invite_link: "https://hopin.com/events/openshift-commons-gathering-on-databases"
+  schedule:
+    - local_time: "09:00 am"
+      session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      speakers:
+        - id: "diane"
+      track: "Main Stage"
+    - local_time: "9:10 am"
+      session_name: "Keynote"
+      track: "Main Stage"
+    - local_time: "9:30 am"
+      session_name: "A Brief History of Database and Kubernetes"
+      track: "Main Stage"  
+    - local_time: "09:50 am"
+      session_name: "Upstream Updates"
+      track: "Main Stage"  
+    - local_time: "10:10 am"
+      session_name: "Databases in Action: BC.Gov Case Study"
+      track: "Main Stage"  
+    - local_time: "10:30 am"
+      session_name: "What's Next for Scaling Data for Cloud Natives"
+      track: "Main Stage"   
+    - local_time: "11:00 am"
+      session_name: "Databases AMA Session: Live Q/A with Guest Speakers & Project Leads"
+      speakers:
+        - id: "diane"
+      track: "Main Stage"          
 - name: "LATAM OpenShift Commons Gathering 2021 PT"
   menu: "show"
   language: "Portuguese"
