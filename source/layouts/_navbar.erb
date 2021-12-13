@@ -42,7 +42,7 @@
                 <% if gathering.menu == "show" && Date.parse(gathering.date) >= Date.today %>
                 <li>
                   <a href="/gatherings/<%= gathering.name.gsub(" ", "_") %>.html">
-                    <%= gathering.location.gsub(/\,.*$/, "") + " - " + gathering.date.to_time.strftime('%B %d') %>
+                    <%= gathering.topic.gsub(/\,.*$/, "") + " - " + gathering.date.to_time.strftime('%B %d') %>
                   </a>
                 </li>
                 <% end %>
