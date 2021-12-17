@@ -139,6 +139,9 @@ gatherings:
   schedule:
     - local_time: "09:00 am"
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      speakers:
+        - id: "diane"
+        - id: "franz_meyer"
       track: "Main Stage"
     - local_time: "9:10 am"
       session_name: "Keynote: Automotive Industry Update"
@@ -154,11 +157,18 @@ gatherings:
       track: "Main Stage"  
     - local_time: "11:10 am"
       session_name: "What's Next for Automotive Cloud Natives on the Edge"
+      speakers:
+        - id: "francis_chow"
       track: "Main Stage"   
     - local_time: "11:30 am"
       session_name: "Automotive AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
       speakers:
         - id: "diane"
+        - id: "franz_meyer"
+        - id: "harald_ruckriegel"
+        - id: "nischal_muchakani"
+        - id: "dirk_weihrauch"
+        - id: "francis_chow"
       track: "Main Stage"
 - name: "OpenShift Commons Gathering Israel"
   menu: "show"
