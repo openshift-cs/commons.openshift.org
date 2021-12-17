@@ -133,7 +133,7 @@ gatherings:
   info_text: >-
     This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
   event_footer_text: >-
-    This OpenShift Commons Gathering on GitOps will be held on Pacific Standard Time (PST)!
+    This OpenShift Commons Gathering on Automotive will be held on Pacific Standard Time (PST)!
     <a href="https://hopin.com/events/openshift-commons-gathering-on-automotive" target="_blank">[Please register via the Hopin Registration Portal here]</a>
   invite_link: "https://hopin.com/events/openshift-commons-gathering-on-automotive"
   schedule:
@@ -141,10 +141,10 @@ gatherings:
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
       track: "Main Stage"
     - local_time: "9:10 am"
-      session_name: "Keynote: Industry Update"
+      session_name: "Keynote: Automotive Industry Update"
       track: "Main Stage"
     - local_time: "9:30 am"
-      session_name: "A Brief History of Automotive Work Loads and Kubernetes at Red Hat"
+      session_name: "A Brief History of Automotive Work Loads and Kubernetes at the Edge"
       track: "Main Stage"  
     - local_time: "09:50 am"
       session_name: "Technology Updates from the field"
