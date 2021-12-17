@@ -112,7 +112,54 @@ gatherings:
       session_name: "Databases AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
       speakers:
         - id: "diane"
-      track: "Main Stage"          
+      track: "Main Stage"    
+- name: "OpenShift Commons Gathering on Automotive"
+  menu: "show"
+  language: "English"
+  date: "2022-04-06"
+  time: "9:00 am - 12:00 pm PST"
+  topic: "Databases"
+  location: "Virtual"
+  venue: "Hopin"
+  venue_URL: "https://hopin.com/events/openshift-commons-gathering-on-automotive"
+  calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html"
+  registration_text: "Registration Open"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-on-automotive"
+  pricing:
+    - label: "Registration Now Open"
+      price: "Free"
+  lead_text: >-
+    This OpenShift Commons Gathering on Automotive will be held on February 9th in Pacific Standard Time (PST)!
+  info_text: >-
+    This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
+  event_footer_text: >-
+    This OpenShift Commons Gathering on GitOps will be held on Pacific Standard Time (PST)!
+    <a href="https://hopin.com/events/openshift-commons-gathering-on-automotive" target="_blank">[Please register via the Hopin Registration Portal here]</a>
+  invite_link: "https://hopin.com/events/openshift-commons-gathering-on-automotive"
+  schedule:
+    - local_time: "09:00 am"
+      session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      track: "Main Stage"
+    - local_time: "9:10 am"
+      session_name: "Industry Keynote"
+      track: "Main Stage"
+    - local_time: "9:30 am"
+      session_name: "A Brief History of Automotive work loads and Kubernetes at Red Hat"
+      track: "Main Stage"  
+    - local_time: "09:50 am"
+      session_name: "Technology Updates"
+      track: "Main Stage"  
+    - local_time: "10:10 am"
+      session_name: "End User Case Studies"
+      track: "Main Stage"  
+    - local_time: "10:30 am"
+      session_name: "What's Next for Automotive Cloud Natives"
+      track: "Main Stage"   
+    - local_time: "11:00 am"
+      session_name: "Databases AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
+      speakers:
+        - id: "diane"
+      track: "Main Stage"                
 - name: "LATAM OpenShift Commons Gathering 2021 PT"
   menu: "show"
   language: "Portuguese"
