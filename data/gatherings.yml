@@ -159,7 +159,52 @@ gatherings:
       session_name: "Databases AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
       speakers:
         - id: "diane"
-      track: "Main Stage"                
+      track: "Main Stage"
+- name: "OpenShift Commons Gathering Israel"
+  menu: "show"
+  language: "English"
+  date: "2022-04-06"
+  time: "9:00 am - 4:00 pm IST"
+  topic: "Tel Aviv"
+  location: "Virtual"
+  venue: "Hopin"
+  venue_URL: "https://hopin.com/events/openshift-commons-gathering-israel"
+  calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
+  registration_text: "Registration Open"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-israel"
+  pricing:
+    - label: "Registration Now Open"
+      price: "Free"
+  lead_text: >-
+    This OpenShift Commons Gathering will be held on February 9th live in Tel Aviv, Israel!
+  info_text: >-
+    This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
+  event_footer_text: >-
+    This OpenShift Commons Gathering will be held on Israel Standard Time (IST)!
+    <a href="https://hopin.com/events/openshift-commons-gathering-israel" target="_blank">[Please register via the Hopin Registration Portal here]</a>
+  invite_link: "https://hopin.com/events/openshift-commons-gathering-israel"
+  schedule:
+    - local_time: "09:00 am"
+      session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      track: "Main Stage"
+    - local_time: "9:10 am"
+      session_name: "Keynotes and Industry Updates"
+      track: "Main Stage"
+    - local_time: "12:00 pm"
+      session_name: "Lunch and Networking"
+      track: "Main Stage"  
+    - local_time: "01:00 pm"
+      session_name: "Technology Updates from the field"
+      track: "Main Stage"  
+    - local_time: "1:30 pm"
+      session_name: "End User/Start-up Case Studies"
+      track: "Main Stage"  
+    - local_time: "3:00 pm"
+      session_name: "What's Next for Cloud Natives Living on the Edge"
+      track: "Main Stage"   
+    - local_time: "3:30 pm"
+      session_name: "AMA Session: Live Q/A with Guest Speakers, Red Hat Engineers & Project Leads"
+      track: "Main Stage"                      
 - name: "LATAM OpenShift Commons Gathering 2021 PT"
   menu: "show"
   language: "Portuguese"
