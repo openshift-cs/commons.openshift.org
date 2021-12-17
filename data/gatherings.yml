@@ -156,7 +156,7 @@ gatherings:
       session_name: "What's Next for Automotive Cloud Natives on the Edge"
       track: "Main Stage"   
     - local_time: "11:30 am"
-      session_name: "Databases AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
+      session_name: "Automotive AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
       speakers:
         - id: "diane"
       track: "Main Stage"
