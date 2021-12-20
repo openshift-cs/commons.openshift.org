@@ -80,7 +80,7 @@ gatherings:
     - label: "Registration Now Open"
       price: "Free"
   lead_text: >-
-    This OpenShift Commons Gathering on Databases will be held on February 9th in Pacific Standard Time (PST)!
+    This OpenShift Commons Gathering on Databases will be held on February 23rd in Pacific Standard Time (PST)!
   info_text: >-
     This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
   event_footer_text: >-
@@ -129,7 +129,7 @@ gatherings:
     - label: "Registration Now Open"
       price: "Free"
   lead_text: >-
-    This OpenShift Commons Gathering on Automotive will be held on February 9th in Pacific Standard Time (PST)!
+    This OpenShift Commons Gathering on Automotive will be held on April 6th in Pacific Standard Time (PST)!
   info_text: >-
     This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
   event_footer_text: >-
@@ -173,7 +173,7 @@ gatherings:
 - name: "OpenShift Commons Gathering Israel"
   menu: "show"
   language: "English"
-  date: "2022-04-06"
+  date: "2022-03-29"
   time: "9:00 am - 4:00 pm IST"
   topic: "Israel"
   location: "Tel Aviv"
@@ -186,7 +186,7 @@ gatherings:
     - label: "Registration Now Open"
       price: "Free"
   lead_text: >-
-    This OpenShift Commons Gathering will be held on February 9th live in Tel Aviv, Israel!
+    This OpenShift Commons Gathering will be held on March 29th live in Tel Aviv, Israel!
   info_text: >-
     This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
   event_footer_text: >-
