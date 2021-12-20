@@ -84,7 +84,7 @@ gatherings:
   info_text: >-
     This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
   event_footer_text: >-
-    This OpenShift Commons Gathering on GitOps will be held on Pacific Standard Time (PST)!
+    This OpenShift Commons Gathering on Databases will be held on Pacific Standard Time (PST)!
     <a href="https://hopin.com/events/openshift-commons-gathering-on-databases" target="_blank">[Please register via the Hopin Registration Portal here]</a>
   invite_link: "https://hopin.com/events/openshift-commons-gathering-on-databases"
   schedule:
@@ -183,7 +183,7 @@ gatherings:
   registration_text: "Registration Open"
   registration_URL: "https://hopin.com/events/openshift-commons-gathering-israel"
   pricing:
-    - label: "Registration Now Open"
+    - label: "Pre-registration Now Open"
       price: "Free"
   lead_text: >-
     This OpenShift Commons Gathering will be held on March 29th live in Tel Aviv, Israel!
