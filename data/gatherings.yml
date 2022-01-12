@@ -40,7 +40,7 @@ gatherings:
         - id: "cornelia_davis"
       track: "Main Stage"  
     - local_time: "09:50 am"
-      session_name: "GitOps Working Group Upstream Update"
+      session_name: "OpenGitOps Community Update"
       speakers:
         - id: "dan_garfield"
       track: "Main Stage"  
