@@ -110,7 +110,10 @@ gatherings:
          - id: "stephen_boyd"
       track: "Main Stage"    
     - local_time: "10:30 am"
-      session_name: "Pathfinding Next Generation Database Services in BC Gov - Jeff Card, Justin Hewitt, and Olena Mitovska (BC Provincial Government)"
+      session_name: "Pathfinding Next Generation Database Services in BC Provincial Government"
+      speakers:
+         - id: "jeff card"
+         - id: "olena_mitovska"
       track: "Main Stage"  
     - local_time: "11:00 am"
       session_name: "What's Next for Scaling Data for Cloud Natives on OpenShift"
