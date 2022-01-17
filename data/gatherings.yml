@@ -92,9 +92,12 @@ gatherings:
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
       speakers:
         - id: "diane"
+        - id: "jehlum"
       track: "Main Stage"
     - local_time: "9:10 am"
-      session_name: "Keynote: Simplifying Database Cloud Service Access with RHODA - Mike Piech (Red Hat)"
+      session_name: "Keynote: Simplifying Database Cloud Service Access with RHODA"
+      speakers:
+        - id: "mike_piech"
       track: "Main Stage"
     - local_time: "9:35 am"
       session_name: "Cloud Native Disaster Recovery with Multi-Region Databases on OpenShift"
