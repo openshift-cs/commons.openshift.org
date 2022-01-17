@@ -97,7 +97,7 @@ gatherings:
       session_name: "Keynote: Simplifying Database Cloud Service Access with RHODA - Mike Piech (Red Hat)"
       track: "Main Stage"
     - local_time: "9:35 am"
-      session_name: Multi-region Kubernetes Database with Red Hat OpenShift"
+      session_name: "Cloud Native Disaster Recovery with Multi-Region Databases on OpenShift"
       speakers:
          - id: "raffaele_spazzoli"
       track: "Main Stage"  
