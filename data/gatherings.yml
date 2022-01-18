@@ -112,7 +112,7 @@ gatherings:
     - local_time: "10:30 am"
       session_name: "Pathfinding Next Generation Database Services in British Columbia Provincial Government (Canada) "
       speakers:
-         - id: "jeff card"
+         - id: "jeff_card"
          - id: "olena_mitovska"
       track: "Main Stage"  
     - local_time: "11:00 am"
