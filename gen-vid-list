@@ -1,0 +1,29 @@
+#!/bin/bash
+# Get all of the YouTube playlists from the gatherings then get the
+# info for each video from YouTube.
+#
+# A valid YouTube API key is required by fetch_gathering_videos.rb.
+# Set YT_API_KEY environment variable to the API key.
+
+PLAYLISTS="videos.yml"
+
+# Scan all of the gatherings and get a list of the files that have YouTube playlists.
+FILES=`find ./src/content/gatherings/ -name index.mdx -exec grep -l youtube_playlist_id {} \;`
+
+# Now create the gatherings list containing title, date, and youtube_playlist_id to feed to the
+# next section.
+echo -e "---\ngatherings:" > $PLAYLISTS
+
+for f in $FILES
+do
+  TITLE=`egrep "^title: " $f`
+  DATE=`egrep "^date: " $f`
+  PLAYLIST=`egrep "^youtube_playlist_id: " $f`
+  echo -e "  - $TITLE\n    $DATE\n    $PLAYLIST" >> $PLAYLISTS
+done
+
+echo -e "---" >> $PLAYLISTS
+
+# Run the Ruby script that will get the info for each video from YouTube.
+./fetch_gathering_videos.rb
+
