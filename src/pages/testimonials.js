@@ -37,26 +37,26 @@ export default function TestimonialsPage() {
       src="../images/red-hat-logo.svg"
       alt=""
       width="160"
-      className={`hidden dark:block ${imageStyle}`}
+      className={`!hidden dark:!block ${imageStyle}`}
     />
   )
 
   const headingStyle = 'font-headings text-3xl lg:text-5xl text-base-800 mb-2 lg:mb-4'
 
-  const quoteStyle = 'max-w-[70ch] text-lg md:text-xl lg:text-2xl italic'
+  const quoteStyle = 'mt-10 max-w-[70ch] text-lg md:text-xl lg:text-2xl italic'
 
   const quotePStyle = 'mb-6 md:mb-8 lg:mb-10'
 
   const quoteFooter = 'before:content-["—"] not-italic text-right'
 
-  const imageStyle = 'float-left mr-8 mt-2 mb-4'
+  const imageStyle = 'float-left mr-4 lg:mr-8 mt-2 mb-2 lg:mb-4'
 
   return (
     <>
       <Seo title="Testimonials" />
       <div className="overflow-hidden py-12 md:py-16 lg:pb-24">
         <div className="flex flex-col items-center space-y-32 page-wrapper">
-          <section className="flex flex-col items-center space-y-8 w-full max-w-screen-lg relative z-0">
+          <section className="max-w-screen-lg">
             <h1 className={`${headingStyle} text-center`}>Testimonials</h1>
 
             <blockquote className={quoteStyle}>
