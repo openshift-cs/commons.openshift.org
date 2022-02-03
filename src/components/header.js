@@ -32,6 +32,10 @@ export const Header = ({ siteTitle }) => {
       path: '/sigs/',
       title: 'SIGs',
     },
+    {
+      path: '/testimonials/',
+      title: 'Testimonials',
+    },
   ]
 
   return (
@@ -83,12 +87,7 @@ export const Header = ({ siteTitle }) => {
                 ))}
               </Dropdown>
               <div className="hidden">
-                <Dropdown
-                  state={Open}
-                  overflow
-                  search
-                  onClick={onDropDownClick}
-                >
+                <Dropdown state={Open} overflow search onClick={onDropDownClick}>
                   <SearchBar state={Open} onClick={onDropDownClick} />
                 </Dropdown>
               </div>

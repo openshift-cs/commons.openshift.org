@@ -62,9 +62,8 @@ export default function GatheringPage({ data, ...props }) {
   const headingStyle =
     'text-center font-headings text-xl md:text-3xl lg:text-4xl text-base-800 mb-4 lg:mb-8'
   const subheadingStyle =
-    'font-headings text-lg md:text-xl lg:text-2xl text-accent-600 dark:text-accent-400 my-2 md:mt-4 md:mb-2'
-  const ledeStyle =
-    'mb-2 lg:mb-4 mt-2 text-primary-700 text-base lg:text-lg max-w-[56ch]'
+    'font-headings text-lg md:text-xl lg:text-2xl text-accent-600 dark:text-accent-600 my-2 md:mt-4 md:mb-2'
+  const ledeStyle = 'mb-2 lg:mb-4 mt-2 text-primary-700 text-base lg:text-lg max-w-[56ch]'
   const aStyle =
     'underline text-primary-700 visited:text-primary-900 focus:ring-2 focus:ring-primary-600 hover:text-warning-700'
 
@@ -86,11 +85,7 @@ export default function GatheringPage({ data, ...props }) {
 
         <div className="max-w-screen-xl page-wrapper">
           <div className="flex justify-between border-b border-base-300 py-4 text-base-500">
-            <ShareButtons
-              title={title}
-              url={url}
-              twitterHandle="openshiftcommon"
-            />
+            <ShareButtons title={title} url={url} twitterHandle="openshiftcommon" />
           </div>
 
           <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8">
@@ -104,9 +99,7 @@ export default function GatheringPage({ data, ...props }) {
   let speakersList = schedule
     ?.filter((session) => session.speakers)
     .map((session) =>
-      session?.speakers
-        ?.filter((speaker) => speaker.id)
-        .map((speaker) => speaker?.id),
+      session?.speakers?.filter((speaker) => speaker.id).map((speaker) => speaker?.id),
     )
 
   // Flatten the array of arrays and just keep the unique ones.
@@ -132,9 +125,7 @@ export default function GatheringPage({ data, ...props }) {
 
   let tracks = []
 
-  tracks = schedule
-    ?.filter((event) => event.track !== null)
-    .map((event) => event.track)
+  tracks = schedule?.filter((event) => event.track !== null).map((event) => event.track)
   // Just keep the unique ones.
   tracks = [...new Set(tracks)]
 
@@ -154,11 +145,7 @@ export default function GatheringPage({ data, ...props }) {
 
       <div className="max-w-screen-xl page-wrapper">
         <div className="flex justify-between border-b border-base-300 py-4 text-base-500">
-          <ShareButtons
-            title={title}
-            url={url}
-            twitterHandle="openshiftcommon"
-          />
+          <ShareButtons title={title} url={url} twitterHandle="openshiftcommon" />
         </div>
 
         <section className="flex flex-col items-center my-8 md:my-16">
@@ -166,19 +153,14 @@ export default function GatheringPage({ data, ...props }) {
             <p className={`${ledeStyle} text-center`}>{head_text}</p>
           ) : (
             <p className={`${ledeStyle} text-center`}>
-              Where users, partners, customers, contributors and upstream
-              project leads come together to collaborate and work together
-              across the OpenShift Cloud Native ecosystem.
+              Where users, partners, customers, contributors and upstream project leads come
+              together to collaborate and work together across the OpenShift Cloud Native ecosystem.
             </p>
           )}
           <div className="mt-4 flex flex-wrap justify-center gap-2 md:gap-4">
             <IconBox title={registration_text} url={registration_URL} />
-            {registration_text2 && (
-              <IconBox title={registration_text2} url={registration_URL2} />
-            )}
-            {registration_text3 && (
-              <IconBox title={registration_text3} url={registration_URL3} />
-            )}
+            {registration_text2 && <IconBox title={registration_text2} url={registration_URL2} />}
+            {registration_text3 && <IconBox title={registration_text3} url={registration_URL3} />}
             {sponsoring_URL &&
               (sponsoring_text ? (
                 <IconBox title={sponsoring_text} url={sponsoring_URL} />
@@ -190,14 +172,10 @@ export default function GatheringPage({ data, ...props }) {
 
         <section className="my-8 md:my-16">
           <h2 className={headingStyle}>
-            {translate_overview ? (
-              <>{translate_overview}</>
-            ) : (
-              <>Event Overview</>
-            )}
+            {translate_overview ? <>{translate_overview}</> : <>Event Overview</>}
           </h2>
 
-          <div className="mb-4 lg:mb-8 grid md:grid-cols-2 gap-8">
+          <div className="mb-4 lg:mb-8 grid md:grid-cols-2 gap-6">
             <div>
               <p className={`${ledeStyle}`}>{lead_text}</p>
               <p className="max-w-[56ch]">{info_text}</p>
@@ -212,7 +190,7 @@ export default function GatheringPage({ data, ...props }) {
                   ))}
               </div>
             </div>
-            <div>
+            <div className="bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
               <h3 className={`${subheadingStyle} md:text-center`}>
                 {translate_where ? <>{translate_where}</> : <>Where</>}
               </h3>
@@ -222,12 +200,7 @@ export default function GatheringPage({ data, ...props }) {
                 {location}
                 <br />
                 {venue_URL ? (
-                  <a
-                    className={aStyle}
-                    href={venue_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a className={aStyle} href={venue_URL} target="_blank" rel="noopener noreferrer">
                     {venue}
                   </a>
                 ) : (
@@ -255,9 +228,7 @@ export default function GatheringPage({ data, ...props }) {
             </div>
           </div>
 
-          <p className={`${ledeStyle} mx-auto text-center`}>
-            {event_footer_text}
-          </p>
+          <p className={`${ledeStyle} mx-auto text-center`}>{event_footer_text}</p>
         </section>
 
         {sponsors && (
@@ -283,9 +254,7 @@ export default function GatheringPage({ data, ...props }) {
                 .sort((a, b) => (a > b ? 1 : -1))
                 .map((lvl) => (
                   <div key={lvl}>
-                    <h3 className={`${subheadingStyle} text-center`}>
-                      {sponsorLabels[lvl]}
-                    </h3>
+                    <h3 className={`${subheadingStyle} text-center`}>{sponsorLabels[lvl]}</h3>
                     <ul className="mt-4 mb-8 mx-auto flex flex-wrap justify-center items-center gap-4 md:gap-8">
                       {sponsors
                         .filter((sponsor) => sponsor.level === lvl)
@@ -315,20 +284,16 @@ export default function GatheringPage({ data, ...props }) {
               {translate_schedule ? <>{translate_schedule}</> : <>Schedule</>}
             </h2>
             {schedule_leadin ? (
-              <p className={`${ledeStyle} mx-auto text-center`}>
-                {schedule_leadin}
-              </p>
+              <p className={`${ledeStyle} mx-auto text-center`}>{schedule_leadin}</p>
             ) : (
               <p className={`${ledeStyle} mx-auto`}>
-                Code of Conduct: We follow the Code of Conduct of other events
-                such as KubeCon. Similarly we are dedicated to providing a
-                harassment-free experience for participants at all of our
-                events, whether they are held in person or virtually. All event
-                participants, whether they are attending an in-person event or a
-                virtual event, are expected to behave in accordance with
-                professional standards, with both this Code of Conduct as well
-                as their respective employer's policies governing appropriate
-                workplace behavior and applicable laws.
+                Code of Conduct: We follow the Code of Conduct of other events such as KubeCon.
+                Similarly we are dedicated to providing a harassment-free experience for
+                participants at all of our events, whether they are held in person or virtually. All
+                event participants, whether they are attending an in-person event or a virtual
+                event, are expected to behave in accordance with professional standards, with both
+                this Code of Conduct as well as their respective employer's policies governing
+                appropriate workplace behavior and applicable laws.
               </p>
             )}
             <p className="mt-8 text-center">
@@ -348,10 +313,7 @@ export default function GatheringPage({ data, ...props }) {
             </p>
 
             {tracks[0] ? (
-              <Tabs.Root
-                defaultValue={encodeURIComponent(tracks[0])}
-                className="my-8 md:my-16"
-              >
+              <Tabs.Root defaultValue={encodeURIComponent(tracks[0])} className="my-8 md:my-16">
                 <Tabs.List
                   aria-label="schedule of events"
                   className="overflow-hidden rounded-t-lg border-2 border-b-0 border-secondary-400 inline-flex divide-x-2 divide-secondary-400"
@@ -398,21 +360,14 @@ export default function GatheringPage({ data, ...props }) {
         </section>
 
         <section id="gathering-venue" className="my-8 md:my-16 text-center">
-          <h2 className={headingStyle}>
-            {translate_venue ? <>{translate_venue}</> : <>Venue</>}
-          </h2>
+          <h2 className={headingStyle}>{translate_venue ? <>{translate_venue}</> : <>Venue</>}</h2>
           <p className="mb-4 font-semibold text-tertiary-900 text-lg lg:text-xl">
             <DateString date={date} language={language} /> | {time}
           </p>
 
           <p className={`${ledeStyle} max-w-none text-center mx-auto`}>
             {venue_URL ? (
-              <a
-                className={aStyle}
-                href={venue_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a className={aStyle} href={venue_URL} target="_blank" rel="noopener noreferrer">
                 {venue}
               </a>
             ) : (
