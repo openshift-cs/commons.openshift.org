@@ -16,7 +16,7 @@ const Vid = ({ title, desc, id }) => {
           allowfullscreen
         ></iframe>
       </div>
-      <p>{desc}</p>
+      <p className="break-words">{desc}</p>
     </div>
   )
 }
