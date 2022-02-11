@@ -246,13 +246,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `office-hours`,
-        path: `${__dirname}/src/content/office-hours`,
-      },
-    },
-    {
       resolve: `gatsby-source-rss-feed`,
       options: {
         url: `https://www.openshift.com/blog/tag/openshift-commons/rss.xml`,

@@ -1,7 +1,6 @@
 const path = require('path')
 const fse = require('fs-extra')
 const { paginate } = require('gatsby-awesome-pagination')
-const { DateTime } = require('luxon')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ actions, graphql }) => {
@@ -26,17 +25,6 @@ exports.createPages = async ({ actions, graphql }) => {
           slug
         }
       }
-
-      officeHours: mdx(
-        fileAbsolutePath: { regex: "/office-hours/index.mdx/" }
-      ) {
-        frontmatter {
-          title
-          date
-          time
-          link
-        }
-      }
     }
   `)
 
@@ -57,52 +45,6 @@ exports.createPages = async ({ actions, graphql }) => {
     pathPrefix: '/gatherings', // Creates pages like `/gatherings`, `/gatherings/2`, etc
     component: gatheringIndexTemplate,
   })
-
-  // Create ical file for Office Hours event.
-  const now = DateTime.now()
-  const nowStr =
-    now.toUTC().toFormat('yLLdd') + 'T' + now.toUTC().toFormat('HHmmss') + 'Z'
-  let d = DateTime.fromISO(
-    query.data.officeHours.frontmatter.date +
-      'T' +
-      query.data.officeHours.frontmatter.time,
-  )
-  const dtstart = d.toISO({ format: 'basic' }).substring(0, 15)
-  const dtend = d.plus({ hours: 1 }).toISO({ format: 'basic' }).substring(0, 15)
-  const link = query.data.officeHours.frontmatter.link
-  const iCal = `BEGIN:VCALENDAR
-VERSION:2.0
-CALSCALE:GREGORIAN
-BEGIN:VTIMEZONE
-TZID:America/Los_Angeles
-TZURL:http://tzurl.org/zoneinfo-outlook/America/Los_Angeles
-X-LIC-LOCATION:America/Los_Angeles
-BEGIN:DAYLIGHT
-TZOFFSETFROM:-0800
-TZOFFSETTO:-0700
-TZNAME:PDT
-DTSTART:19700308T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:-0700
-TZOFFSETTO:-0800
-TZNAME:PST
-DTSTART:19701101T020000
-RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-DTSTAMP:${nowStr}
-UID:${now.toMillis()}@stackrox.io
-DTSTART;TZID=America/Los_Angeles:${dtstart}
-DTEND;TZID=America/Los_Angeles:${dtend}
-SUMMARY:StackRox Office Hours: ${query.data.officeHours.frontmatter.title}
-DESCRIPTION:Join our StackRox Office Hours at 1:00 pm PT / 4:00 pm ET: ${link}
-LOCATION:${link}
-END:VEVENT
-END:VCALENDAR`
-  await fse.writeFile('./public/office-hours.ics', iCal)
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
