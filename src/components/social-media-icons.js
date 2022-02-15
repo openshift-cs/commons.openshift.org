@@ -36,7 +36,7 @@ const SocialMediaIcons = () => {
           return <Slack alt="Slack" className={iconClass} />
 
         case 'github':
-          return <GitHub alt="Slack" className={iconClass} />
+          return <GitHub alt="GitHub" className={iconClass} />
 
         case 'rss':
           return <Rss alt="RSS" className={iconClass} />
