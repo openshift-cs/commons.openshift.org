@@ -112,7 +112,10 @@ gatherings:
          - id: "cem_omurtak"
       track: "Main Stage"     
     - local_time: "11:00 am"
-      session_name: "Backup and DR for databases on OpenShift with Kasten by Veeam"
+      session_name: "Backup and DR for databases on OpenShift"
+      speakers:
+         - id: "gaurav_rishi" 
+         - id: "michael_courcy"
       track: "Main Stage"  
     - local_time: "11:30 am"
       session_name: "Databases AMA Session: Live Q/A with Guest Speakers, Red Hat Engineers & Project Leads"
