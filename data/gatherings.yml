@@ -100,23 +100,28 @@ gatherings:
         - id: "mike_piech"
       track: "Main Stage"
     - local_time: "9:35 am"
-      session_name: "Cloud Native Disaster Recovery with Multi-Region Databases on OpenShift"
+      session_name: "Building the Ignite AI Platform using PostgreSQL and Kafka on OpenShift"
       speakers:
          - id: "raffaele_spazzoli"
       track: "Main Stage"  
     - local_time: "10:00 am"
+      session_name: "Sahibinden's Cloud Transformation: Deploying MySQL, Cassandra, MongoDB using OpenShift Virtualization"
+      speakers:
+         - id: "raffaele_spazzoli"
+      track: "Main Stage"    
+    - local_time: "10:30 am"
       session_name: "Electrical Training Alliance Case Study:How the Move to Microservices and Containerized Databases Benefitted the Electrical Training Industry"
       speakers:
          - id: "stephen_boyd"
       track: "Main Stage"    
-    - local_time: "10:30 am"
-      session_name: "Pathfinding Next Generation Database Services in British Columbia Provincial Government (Canada) "
+    - local_time: "11:00 am"
+      session_name: "Backup and DR for databases on OpenShift with Kasten by Veeam"
       speakers:
          - id: "jeff_card"
          - id: "olena_mitovska"
       track: "Main Stage"  
-    - local_time: "11:00 am"
-      session_name: "What's Next for Scaling Data for Cloud Natives on OpenShift"
+    - local_time: "11:30 am"
+      session_name: "Databases AMA Session: Live Q/A with Guest Speakers, Red Hat Engineers & Project Leads"
       speakers:
          - id: "rob_szumski"
       track: "Main Stage"   
