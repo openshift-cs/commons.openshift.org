@@ -108,13 +108,9 @@ gatherings:
     - local_time: "10:00 am"
       session_name: "Sahibinden's Cloud Transformation: Deploying MySQL, Cassandra, MongoDB using OpenShift Virtualization"
       speakers:
-         - id: "raffaele_spazzoli"
-      track: "Main Stage"    
-    - local_time: "10:30 am"
-      session_name: "Electrical Training Alliance Case Study:How the Move to Microservices and Containerized Databases Benefitted the Electrical Training Industry"
-      speakers:
-         - id: "stephen_boyd"
-      track: "Main Stage"    
+         - id: "erkan_ercan" 
+         - id: "cem_omurtak"
+      track: "Main Stage"     
     - local_time: "11:00 am"
       session_name: "Backup and DR for databases on OpenShift with Kasten by Veeam"
       track: "Main Stage"  
