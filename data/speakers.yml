@@ -2862,3 +2862,8 @@ speakers:
     URL: "https://www.kpmg.com/"
     company: "KPMG"
     role: "Specialist Director, Big Data SW Engineer, Lighthouse"
+  - id: "babak_mozaffari"
+    name: "Babak Mozaffari"
+    URL: "https://www.redhat.com/"
+    company: "Red Hat"
+    role: "Distinguished Software Engineer"
