@@ -102,7 +102,8 @@ gatherings:
     - local_time: "9:35 am"
       session_name: "Building the Ignite AI Platform using PostgreSQL and Kafka on OpenShift"
       speakers:
-         - id: "raffaele_spazzoli"
+         - id: "kevin_martelli" 
+         - id: "hongfei_cao"
       track: "Main Stage"  
     - local_time: "10:00 am"
       session_name: "Sahibinden's Cloud Transformation: Deploying MySQL, Cassandra, MongoDB using OpenShift Virtualization"
@@ -122,6 +123,7 @@ gatherings:
       speakers:
         - id: "rob_szumski"
         - id: "austin_macdonald"
+        - id: "babak_mozaffari"
       track: "Main Stage"    
 - name: "OpenShift Commons Gathering on Automotive"
   menu: "show"
