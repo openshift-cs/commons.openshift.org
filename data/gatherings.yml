@@ -116,21 +116,11 @@ gatherings:
       track: "Main Stage"    
     - local_time: "11:00 am"
       session_name: "Backup and DR for databases on OpenShift with Kasten by Veeam"
-      speakers:
-         - id: "jeff_card"
-         - id: "olena_mitovska"
       track: "Main Stage"  
     - local_time: "11:30 am"
       session_name: "Databases AMA Session: Live Q/A with Guest Speakers, Red Hat Engineers & Project Leads"
       speakers:
-         - id: "rob_szumski"
-      track: "Main Stage"   
-    - local_time: "11:30 am"
-      session_name: "Databases AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
-      speakers:
         - id: "rob_szumski"
-        - id: "raffaele_spazzoli"
-        - id: "brian_manning"
         - id: "austin_macdonald"
       track: "Main Stage"    
 - name: "OpenShift Commons Gathering on Automotive"
