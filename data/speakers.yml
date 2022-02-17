@@ -2869,6 +2869,7 @@ speakers:
     URL: "https://www.redhat.com/"
     company: "Red Hat"
     role: "Distinguished Software Engineer"
+    photo: "speakers/babak_mozaffari.jpg"
   - id: "erkan_ercan"
     name: "Erkan Ercan"
     URL: "https://www.redhat.com/"
