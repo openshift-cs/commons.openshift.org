@@ -28,27 +28,20 @@ const Mugshot = ({ image, alt, innerClassName, ...other }) => {
 }
 
 const Speaker = ({ id, className, link = false }) => {
-  const { mdx } = useStaticQuery(
+  const { allSpeakersYaml } = useStaticQuery(
     graphql`
       query {
-        mdx(fileAbsolutePath: { regex: "/speakers/index.mdx/" }) {
-          frontmatter {
-            speakers {
-              id
-              name
-              role
-              company
-              url
-              intro
-              photo {
-                childImageSharp {
-                  gatsbyImageData(
-                    layout: FIXED
-                    height: 175
-                    aspectRatio: 1
-                    formats: [AUTO, WEBP]
-                  )
-                }
+        allSpeakersYaml {
+          nodes {
+            speaker_id
+            name
+            role
+            company
+            url
+            intro
+            photo {
+              childImageSharp {
+                gatsbyImageData(layout: FIXED, height: 175, aspectRatio: 1, formats: [AUTO, WEBP])
               }
             }
           }
@@ -57,7 +50,7 @@ const Speaker = ({ id, className, link = false }) => {
     `,
   )
 
-  const speaker = mdx.frontmatter.speakers.find((s) => s.id === id)
+  const speaker = allSpeakersYaml.nodes.find((s) => s.speaker_id === id)
 
   if (!speaker) {
     return <></>

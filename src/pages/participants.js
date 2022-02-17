@@ -31,7 +31,6 @@ const Participants = ({ onClick }) => {
   const [typeInput, setTypeInput] = useState('')
 
   const typeQuery = (evt) => {
-    const query = evt.target.value
     setTypeInput(evt.target.value)
   }
 
@@ -45,21 +44,19 @@ const Participants = ({ onClick }) => {
     <StaticQuery
       query={graphql`
         {
-          mdx(fileAbsolutePath: { regex: "/participants/index.mdx/" }) {
-            frontmatter {
-              participants {
-                name
-                link
-                logo {
-                  childImageSharp {
-                    gatsbyImageData(height: 80, formats: [AUTO, WEBP])
-                  }
-                  extension
-                  publicURL
+          allParticipantsYaml {
+            nodes {
+              name
+              link
+              logo {
+                childImageSharp {
+                  gatsbyImageData(height: 80, formats: [AUTO, WEBP])
                 }
-                metatag1
-                metatag2
+                extension
+                publicURL
               }
+              metatag1
+              metatag2
             }
           }
         }
@@ -89,7 +86,7 @@ const Participants = ({ onClick }) => {
                 </div>
               </div>
               <div>
-                <label for="filtertype" className="">
+                <label htmlFor="filtertype">
                   <span className="sr-only">Participant Type</span>
                 </label>
                 <select
@@ -108,7 +105,7 @@ const Participants = ({ onClick }) => {
               </div>
               {typeInput === 'partner' && (
                 <div>
-                  <label for="filtersubtype" className="">
+                  <label htmlFor="filtersubtype" className="">
                     <span className="sr-only">Subtype</span>
                   </label>
                   <select
@@ -133,7 +130,7 @@ const Participants = ({ onClick }) => {
           </div>
 
           <ul className="flex flex-wrap items-center gap-4 md:gap-8">
-            {data.mdx.frontmatter.participants
+            {data.allParticipantsYaml.nodes
               .filter((p) => typeInput === '' || typeInput === 'all' || p.metatag1 === typeInput)
               .filter(
                 (p) =>

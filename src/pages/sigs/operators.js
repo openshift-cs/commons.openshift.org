@@ -27,17 +27,15 @@ const Operators = ({ onClick }) => {
     <StaticQuery
       query={graphql`
         {
-          mdx(fileAbsolutePath: { regex: "/operators/index.mdx/" }) {
-            frontmatter {
-              vetted_operators {
-                title
-                description
-                link
-                src_link
-                logo {
-                  childImageSharp {
-                    gatsbyImageData(width: 192, formats: [AUTO, WEBP])
-                  }
+          allOperatorsYaml {
+            nodes {
+              title
+              description
+              link
+              src_link
+              logo {
+                childImageSharp {
+                  gatsbyImageData(width: 192, formats: [AUTO, WEBP])
                 }
               }
             }
@@ -52,10 +50,7 @@ const Operators = ({ onClick }) => {
                 className="pl-2 w-6 h-6 absolute transform left-0 pointer-events-none"
                 htmlFor="filterbox"
               >
-                <SearchIcon
-                  alt=""
-                  className="text-base-600 absolute w-full h-full"
-                />
+                <SearchIcon alt="" className="text-base-600 absolute w-full h-full" />
                 <span className="sr-only">Search operators</span>
               </label>
               <div className="shadow-underline text-base-400 w-full">
@@ -73,18 +68,13 @@ const Operators = ({ onClick }) => {
           </div>
 
           <ul className="text-left lg:mx-32">
-            {data.mdx.frontmatter.vetted_operators
+            {data.allOperatorsYaml.nodes
               .filter(
                 (op) =>
-                  op.title.toUpperCase().indexOf(filterInput.toUpperCase()) !==
-                    -1 ||
-                  op.description
-                    .toUpperCase()
-                    .indexOf(filterInput.toUpperCase()) !== -1,
+                  op.title.toUpperCase().indexOf(filterInput.toUpperCase()) !== -1 ||
+                  op.description.toUpperCase().indexOf(filterInput.toUpperCase()) !== -1,
               )
-              .sort((a, b) =>
-                a.title.toUpperCase() > b.title.toUpperCase() ? 1 : -1,
-              )
+              .sort((a, b) => (a.title.toUpperCase() > b.title.toUpperCase() ? 1 : -1))
               .map((op) => (
                 <li
                   key={op.title}
@@ -123,10 +113,8 @@ const Operators = ({ onClick }) => {
 }
 
 export default function OperatorsPage() {
-  const headingStyle =
-    'font-headings text-3xl lg:text-5xl text-base-800 mb-2 lg:mb-4'
-  const ledeStyle =
-    'max-w-[60ch] text-center text-lg lg:text-xl text-base-600 mb-6'
+  const headingStyle = 'font-headings text-3xl lg:text-5xl text-base-800 mb-2 lg:mb-4'
+  const ledeStyle = 'max-w-[60ch] text-center text-lg lg:text-xl text-base-600 mb-6'
 
   return (
     <>
@@ -134,12 +122,10 @@ export default function OperatorsPage() {
       <div className="overflow-hidden text-center py-12 md:py-16 lg:pb-24">
         <div className="flex flex-col items-center space-y-32 page-wrapper">
           <section className="flex flex-col items-center space-y-8 w-full max-w-screen-lg relative z-0">
-            <h1 className={`${headingStyle} text-center`}>
-              Community-created Operators
-            </h1>
+            <h1 className={`${headingStyle} text-center`}>Community-created Operators</h1>
             <p className={ledeStyle}>
-              Take a few moments to learn what these operators can do for your
-              systems deployed on OpenShift.
+              Take a few moments to learn what these operators can do for your systems deployed on
+              OpenShift.
             </p>
             <Operators />
             <div

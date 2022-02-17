@@ -1,7 +1,5 @@
 const prodPlugins = process.env.NODE_ENV === 'production' ? [] : []
-const buildEnv = process.env.GATSBY_BUILD_ENV
-  ? process.env.GATSBY_BUILD_ENV
-  : process.env.NODE_ENV
+const buildEnv = process.env.GATSBY_BUILD_ENV ? process.env.GATSBY_BUILD_ENV : process.env.NODE_ENV
 
 module.exports = {
   flags: {
@@ -210,6 +208,7 @@ module.exports = {
         path: `${__dirname}/src/content/legal`,
       },
     },
+    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -227,15 +226,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `speakers`,
-        path: `${__dirname}/src/content/speakers`,
+        name: `sponsors`,
+        path: `${__dirname}/src/content/sponsors`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `sponsors`,
-        path: `${__dirname}/src/content/sponsors`,
+        name: `speakers`,
+        path: `${__dirname}/src/content/speakers`,
       },
     },
     {

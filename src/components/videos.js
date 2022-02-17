@@ -22,19 +22,17 @@ const Vid = ({ title, desc, id }) => {
 }
 
 const Videos = ({ title }) => {
-  const { mdx } = useStaticQuery(
+  const { videosYaml } = useStaticQuery(
     graphql`
       query {
-        mdx(fileAbsolutePath: { regex: "/videos/" }) {
-          frontmatter {
-            videos {
-              gathering_title
-              gathering_videos {
-                title
-                description
-                resourceId {
-                  videoId
-                }
+        videosYaml {
+          videos {
+            gathering_title
+            gathering_videos {
+              title
+              description
+              resourceId {
+                videoId
               }
             }
           }
@@ -43,7 +41,7 @@ const Videos = ({ title }) => {
     `,
   )
 
-  const videos = mdx.frontmatter.videos.find((v) => v.gathering_title === title)
+  const videos = videosYaml.videos.find((v) => v.gathering_title === title)
 
   return (
     <>

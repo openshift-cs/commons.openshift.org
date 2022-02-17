@@ -13,7 +13,8 @@
   "scripts": {
     "build": "TZ='America/Los_Angeles' gatsby build",
     "deploy": "TZ='America/Los_Angeles' gatsby build --prefix-paths && gh-pages -d public",
-    "dev": "TAILWIND_MODE=watch GATSBY_GRAPHQL_IDE=playground gatsby develop --host=0.0.0.0",
+    "dev": "TAILWIND_MODE=watch gatsby develop --host=0.0.0.0",
+    "dev:playground": "TAILWIND_MODE=watch GATSBY_GRAPHQL_IDE=playground gatsby develop --host=0.0.0.0",
     "format": "pretty-quick",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -60,6 +61,7 @@
     "gatsby-source-filesystem": "^4.1.2",
     "gatsby-source-rss-feed": "^1.2.2",
     "gatsby-transformer-sharp": "^4.1.0",
+    "gatsby-transformer-yaml": "^4.7.0",
     "he": "^1.2.0",
     "lmdb-store": "^1.6.9",
     "luxon": "^2.0.1",
