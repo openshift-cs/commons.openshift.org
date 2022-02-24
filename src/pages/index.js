@@ -11,16 +11,13 @@ import IconBox from '../components/iconbox'
 
 export default function IndexPage({ data }) {
   const posts = data.allFeedcommonsBlog.nodes
-  const headingStyle =
-    'font-headings text-3xl lg:text-5xl text-base-800 text-center mb-2 lg:mb-4'
+  const headingStyle = 'font-headings text-3xl lg:text-5xl text-base-800 text-center mb-2 lg:mb-4'
   const paragraphStyle = 'text-lg lg:text-xl text-base-600 lg:leading-relaxed'
-  const ctaStyle =
-    'text-center text-2xl lg:text-3xl text-base-600 lg:leading-relaxed'
+  const ctaStyle = 'text-center text-2xl lg:text-3xl text-base-600 lg:leading-relaxed'
 
   const blog = data.site.siteMetadata.blog
-  const slack = data.site.siteMetadata.socialMedia.filter(
-    (media) => media.platform === 'slack',
-  )[0].url
+  const slack = data.site.siteMetadata.socialMedia.filter((media) => media.platform === 'slack')[0]
+    .url
 
   const CallToAction = ({ title, url, last }) => {
     return (
@@ -32,11 +29,7 @@ export default function IndexPage({ data }) {
         className="flex w-full rounded-lg"
       >
         <Link
-          target={
-            url.indexOf('https://') === 0 || url.indexOf('www.') === 0
-              ? '_blank'
-              : '_self'
-          }
+          target={url.indexOf('https://') === 0 || url.indexOf('www.') === 0 ? '_blank' : '_self'}
           className="light flex-shrink-0 w-full inline-flex flex-row space-x-8 text-base-700 hover:text-tertiary-700 items-center justify-between rounded-lg border-2 border-base-100 dark:border-primary-100 px-2 md:tracking-tight lg:tracking-tight lg:px-4 py-6 xl:py-8 bg-gradient-to-br from-tertiary-200 to-success-200 hover:from-tertiary-300 hover:to-success-300 focus:from-tertiary-300 focus:to-success-300 dark:from-base-300 dark:to-tertiary-300 dark:hover:from-base-400 dark:hover:to-tertiary-400 dark:focus:from-base-400 dark:focus:to-tertiary-400 text-xl lg:text-2xl xl:text-3xl font-bold xl:font-semibold focus:outline-none focus:ring-2 focus:ring-primary-600"
           rel="noopener noreferrer"
           to={url}
@@ -93,32 +86,22 @@ export default function IndexPage({ data }) {
   return (
     <div className="overflow-hidden">
       <Seo />
-      <section className="overflow-hidden border-b border-base-300 relative before:absolute before:bg-hero-waves before:pointer-events-none before:hidden lg:before:flex before:text-transparent before:w-full before:h-full before:bg-left-bottom before:bg-repeat-x">
+      <section className="overflow-hidden border-b border-base-300 relative before:absolute before:bg-hero-waves before:hue-rotate-[245deg] before:pointer-events-none before:hidden lg:before:flex before:text-transparent before:w-full before:h-full before:bg-left-bottom before:bg-repeat-x">
         <div className="page-wrapper flex py-8 md:py-16 lg:pt-24 lg:pb-44">
           <div className="w-full md:w-[55ch] lg:w-[61ch] flex-shrink-0">
             <h1 className="font-headings font-bold text-4xl lg:text-6xl">
               <small className="block text-primary-700 dark:text-base-300 lg:mb-2 text-xl lg:text-3xl">
                 We have more in common than you know
               </small>
-              <span className="text-base-800 dark:text-primary-700 flex">
-                OpenShift Commons
-              </span>
+              <span className="text-base-800 dark:text-primary-700 flex">OpenShift Commons</span>
             </h1>
             <p className={`${paragraphStyle} my-6 lg:my-8`}>
-              Where users, partners, customers, and contributors come together
-              to collaborate and work together on OpenShift.
+              Where users, partners, customers, and contributors come together to collaborate and
+              work together on OpenShift.
             </p>
             <div className="flex flex-wrap gap-3 md:flex-nowrap leading-[3.5rem]">
-              <IconBox
-                title="Join us on Slack"
-                url={slack}
-                icon={<Slack alt="" />}
-              />
-              <IconBox
-                title="Join our community"
-                url="/join/"
-                icon={<Edit alt="" />}
-              />
+              <IconBox title="Join us on Slack" url={slack} icon={<Slack alt="" />} />
+              <IconBox title="Join our community" url="/join/" icon={<Edit alt="" />} />
             </div>
           </div>
           <div className="hidden md:flex w-full relative pointer-events-none">
@@ -129,33 +112,30 @@ export default function IndexPage({ data }) {
           </div>
         </div>
       </section>
-      <section className="z-0 py-12 md:pt-32 md:pb-40 lg:pt-40 relative dark:after:opacity-60 after:z-[-1] after:text-transparent after:bg-wave-pattern after:rotate-180 after:bg-no-repeat after:w-full after:z-[-1] after:absolute after:h-full after:top-0 after:bg-left-top after:scale-x-[-1]">
+      <section className="z-0 py-12 md:pt-32 md:pb-40 lg:pt-40 relative dark:after:opacity-60 after:z-[-1] after:text-transparent after:bg-wave-pattern after:rotate-180 after:hue-rotate-[245deg] after:bg-no-repeat after:w-full after:z-[-1] after:absolute after:h-full after:top-0 after:bg-left-top after:scale-x-[-1]">
         <div className="flex flex-col items-center page-wrapper">
           <h2 className={headingStyle}>Become a part of something bigger</h2>
           <p className={`${paragraphStyle} mt-6 text-center md:max-w-[64ch]`}>
-            OpenShift Commons is open to all community participants: users,
-            operators, enterprises, non-profits, educational institutions,
-            partners, and service providers as well as other open source
-            technology initiatives utilized under the hood or to extend the
-            OpenShift platform.
+            OpenShift Commons is open to all community participants: users, operators, enterprises,
+            non-profits, educational institutions, partners, and service providers as well as other
+            open source technology initiatives utilized under the hood or to extend the OpenShift
+            platform.
           </p>
           <ul className="mt-6 mb-4 list-disc ml-4 text-lg md:max-w-[64ch]">
             <li className={`${paragraphStyle} mb-4`}>
-              If you are an OpenShift Online or an OpenShift Enterprise customer
-              or have deployed OpenShift on premise or on a public cloud.
+              If you are an OpenShift Online or an OpenShift Enterprise customer or have deployed
+              OpenShift on premise or on a public cloud.
             </li>
             <li className={`${paragraphStyle} mb-4`}>
-              If you have contributed to the OpenShift Origin project and want
-              to connect with your peers and end users.
+              If you have contributed to the OpenShift Origin project and want to connect with your
+              peers and end users.
             </li>
             <li className={`${paragraphStyle} mb-4`}>
-              If you simply want to stay up-to-date on the roadmap and best
-              practices for using, deploying and operating OpenShift.
+              If you simply want to stay up-to-date on the roadmap and best practices for using,
+              deploying and operating OpenShift.
             </li>
           </ul>
-          <p className={ctaStyle}>
-            Then OpenShift Commons is the right place for&nbsp;you.
-          </p>
+          <p className={ctaStyle}>Then OpenShift Commons is the right place for&nbsp;you.</p>
           <p className="mt-6 mb-2 text-center">
             <IconBox title="Ready to join?" url="/join/" />
           </p>
@@ -201,26 +181,16 @@ export default function IndexPage({ data }) {
               url="https://www.youtube.com/user/rhopenshift/playlists"
               title="Check out our Briefings"
             />
-            <CallToAction
-              last
-              url="https://okd.io"
-              title="Collaborate with the community"
-            />
+            <CallToAction last url="https://okd.io" title="Collaborate with the community" />
           </div>
           <div className="light md:w-3/5 grid grid-cols-6 gap-3 lg:gap-4 rounded-lg p-3 lg:p-4 bg-tertiary-400 bg-opacity-40">
-            <div
-              className={`col-span-4 row-span-2 ${mosaicImgStyle} ${mosaicImgOverlay}`}
-            >
+            <div className={`col-span-4 row-span-2 ${mosaicImgStyle} ${mosaicImgOverlay}`}>
               <Office1 />
             </div>
-            <div
-              className={`col-span-2 ${mosaicImgStyle} lg:px-8 bg-tertiary-900`}
-            >
+            <div className={`col-span-2 ${mosaicImgStyle} lg:px-8 bg-tertiary-900`}>
               <SlackLarge className="p-2 lg:p-6" />
             </div>
-            <div
-              className={`col-span-2 ${mosaicImgStyle} lg:px-8 bg-[#1B1F6C]`}
-            >
+            <div className={`col-span-2 ${mosaicImgStyle} lg:px-8 bg-[#1B1F6C]`}>
               <OfficeHoursStacked className="p-2 lg:p-6" />
             </div>
             <div className={`col-span-3 ${mosaicImgStyle} ${mosaicImgOverlay}`}>
@@ -232,7 +202,7 @@ export default function IndexPage({ data }) {
           </div>
         </div>
       </section>
-      <section className="z-0 px-4 pt-32 pb-12 min-h-[600px] relative dark:before:opacity-60 before:scale-x-[-1] before:z-[-1] before:bg-wave-pattern before:bg-no-repeat before:text-transparent before:w-full before:absolute before:h-full before:top-0 before:bg-left-top">
+      <section className="z-0 px-4 pt-32 pb-12 min-h-[600px] relative dark:before:opacity-60 before:scale-x-[-1] before:z-[-1] before:bg-wave-pattern before:hue-rotate-[245deg] before:bg-no-repeat before:text-transparent before:w-full before:absolute before:h-full before:top-0 before:bg-left-top">
         <div className="flex flex-col items-center">
           <p className="text-5xl">Commons Participants</p>
           <ParticipantsCarousel />

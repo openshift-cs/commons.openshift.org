@@ -111,15 +111,15 @@ small {
 
 /* prettier-ignore-start */
 .light {
-  --base-100: 214, 0%, 100%;
-  --base-200: 214, 75%, 97%;
-  --base-300: 214, 65%, 89%;
-  --base-400: 213, 60%, 84%;
-  --base-500: 215, 35%, 62%;
-  --base-600: 215, 25%, 47%;
-  --base-700: 215, 30%, 38%;
-  --base-800: 215, 25%, 27%;
-  --base-900: 217, 33%, 17%;
+  --base-100: 140, 0%, 100%;
+  --base-200: 141, 75%, 97%;
+  --base-300: 141, 55%, 89%;
+  --base-400: 141, 50%, 84%;
+  --base-500: 142, 25%, 62%;
+  --base-600: 141, 15%, 47%;
+  --base-700: 142, 20%, 38%;
+  --base-800: 141, 15%, 27%;
+  --base-900: 141, 23%, 17%;
 
   /* Red Hat Green */
   --primary-100: 140, 33%, 95%; /*EDF6F0*/
@@ -389,22 +389,10 @@ code[class*='language-'] {
 .table-container {
   @apply overflow-auto mt-5 md:mt-8 md:mb-4 lg:mb-12;
   max-height: calc(100vh - 112px - 16px);
-  background: linear-gradient(rgba(255, 255, 255, 0), hsl(var(--base-100)) 70%)
-      0 100%,
-    radial-gradient(
-        farthest-side at 50% 100%,
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0)
-      )
-      0 100%,
-    linear-gradient(to right, rgba(255, 255, 255, 0), hsl(var(--base-100)) 70%)
-      0 100%,
-    radial-gradient(
-        farthest-side at 100% 50%,
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0)
-      )
-      0 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0), hsl(var(--base-100)) 70%) 0 100%,
+    radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%,
+    linear-gradient(to right, rgba(255, 255, 255, 0), hsl(var(--base-100)) 70%) 0 100%,
+    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%;
   background-repeat: no-repeat;
   background-color: hsl(var(--base-100));
   background-size: 100% 4rem, 100% 2.75rem, 4rem 100%, 2.75rem 100%;

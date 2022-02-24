@@ -7,18 +7,15 @@ import { ReactComponent as Meetup } from '../images/meetup.svg'
 import { Youtube } from 'react-feather'
 
 export default function BriefingsPage({ data }) {
-  const h1Style =
-    'font-headings text-3xl lg:text-5xl text-base-800 mb-2 lg:mb-4'
-  const h2Style =
-    'mt-10 mb-2 lg:mb-4 font-medium text-base-700 text-2xl md:text-3xl'
+  const h1Style = 'font-headings text-3xl lg:text-5xl text-base-800 mb-2 lg:mb-4'
+  const h2Style = 'mt-10 mb-2 lg:mb-4 font-medium text-base-700 text-2xl md:text-3xl'
   const pSubheadStyle = 'text-center text-xl lg:text-2xl text-base-600 mb-4'
   const pStyle = 'max-w-[60ch] mb-4 text-base text-base-700 leading-loose'
   const aStyle =
     'underline text-primary-700 visited:text-primary-900 focus:ring-2 focus:ring-primary-600 hover:text-warning-700'
 
-  const slack = data.site.siteMetadata.socialMedia.filter(
-    (media) => media.platform === 'slack',
-  )[0].url
+  const slack = data.site.siteMetadata.socialMedia.filter((media) => media.platform === 'slack')[0]
+    .url
 
   const IconBox = ({ ...props }) => {
     const { title, url, icon, target } = props
@@ -29,12 +26,7 @@ export default function BriefingsPage({ data }) {
     return (
       <>
         {target ? (
-          <a
-            className={styles}
-            rel="noopener noreferrer"
-            href={url}
-            target={target}
-          >
+          <a className={styles} rel="noopener noreferrer" href={url} target={target}>
             <div className="h-32 mb-4">{icon}</div>
             <p className="text-2xl font-semibold">{title}</p>
           </a>
@@ -51,20 +43,19 @@ export default function BriefingsPage({ data }) {
   return (
     <>
       <Seo title="Briefings" />
-      <div className="overflow-hidden text-center py-12 md:py-16 lg:pb-24">
-        <div className="flex flex-col items-center space-y-8 md:space-y-12 page-wrapper">
-          <section className="flex flex-col z-0">
+      <div className="overflow-hidden text-center xxxpy-12 xxxmd:py-16 xxxlg:pb-24">
+        <div className="flex flex-col items-center gap-8 md:gap-12 page-wrapper">
+          <section className="w-full flex flex-col z-0">
             <h1 className={h1Style}>Briefings</h1>
             <p className={pSubheadStyle}>Join us at upcoming events</p>
 
-            <div className="flex flex-col lg:flex-row lg:space-x-4 text-left">
-              <div className="lg:w-1/4 pb-8 lg:pb-16">
+            <div className="flex flex-col lg:flex-row lg:gap-4 text-left">
+              <div className="lg:w-1/3 pb-8 lg:pb-16">
                 <h2 className={h2Style}>Join great sessions</h2>
                 <p className={pStyle}>
-                  <strong>All times listed are Pacific Time.</strong> Each event
-                  is lead by an OpenShift expert who would love to answer any of
-                  your questions. All the OpenShift Commons Briefings and are
-                  recorded and posted on{' '}
+                  <strong>All times listed are Pacific Time.</strong> Each event is lead by an
+                  OpenShift expert who would love to answer any of your questions. All the OpenShift
+                  Commons Briefings and are recorded and posted on{' '}
                   <a
                     className={aStyle}
                     href="https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqdIM7LtosKqi3LlYXyxjwnj"
@@ -83,7 +74,7 @@ export default function BriefingsPage({ data }) {
                   <li className="mb-4">Contributing</li>
                 </ul>
               </div>
-              <div className="w-full lg:w-3/4 pb-8 lg:py-8">
+              <div className="w-full lg:w-2/3 pb-8 lg:py-8">
                 <TimeLyCalendar acct="9xhtzgrs" />
               </div>
             </div>
@@ -112,16 +103,10 @@ export default function BriefingsPage({ data }) {
           <section className="flex flex-col w-full items-center text-center relative z-0">
             <h1 className={h1Style}>Get involved</h1>
             <p className={pSubheadStyle}>
-              We are always looking for volunteers to help grow and enrich our
-              community
+              We are always looking for volunteers to help grow and enrich our community
             </p>
             <div className="gap-6 mt-16 mb-12 w-full grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-              <IconBox
-                title="Slack"
-                url={slack}
-                target="_blank"
-                icon={<Slack alt="" />}
-              />
+              <IconBox title="Slack" url={slack} target="_blank" icon={<Slack alt="" />} />
               <IconBox
                 title="Meetups"
                 url="https://www.meetup.com/pro/openshift/"
@@ -132,9 +117,7 @@ export default function BriefingsPage({ data }) {
                 title="Past Briefings"
                 url="https://www.youtube.com/user/rhopenshift/playlists?flow=grid&view=1"
                 target="_blank"
-                icon={
-                  <Youtube alt="" className="text-[#f00]" strokeWidth="1px" />
-                }
+                icon={<Youtube alt="" className="text-[#f00]" strokeWidth="1px" />}
               />
             </div>
             <div
