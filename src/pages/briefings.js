@@ -84,19 +84,19 @@ export default function BriefingsPage({ data }) {
             >
               <div
                 style={{ top: '200px', left: '20vw' }}
-                className="bg-alert-100 dark:bg-accent-100 absolute rounded-full h-10 w-10"
+                className="bg-alert-100 dark:bg-tertiary-100 absolute rounded-full h-10 w-10"
               />
               <div
                 style={{ bottom: '120px', left: '10vw' }}
-                className="bg-warning-100 dark:bg-accent-100 absolute rounded-full h-12 w-12"
+                className="bg-warning-100 dark:bg-tertiary-100 absolute rounded-full h-12 w-12"
               />
               <div
                 style={{ top: '60%', right: '15vw' }}
-                className=" bg-caution-100 dark:bg-accent-100 absolute rounded-full h-8 w-8"
+                className=" bg-caution-100 dark:bg-tertiary-100 absolute rounded-full h-8 w-8"
               />
               <div
                 style={{ top: '300px', right: '25vw' }}
-                className="bg-tertiary-100 dark:bg-accent-100 absolute rounded-full h-12 w-12"
+                className="bg-tertiary-100 dark:bg-tertiary-100 absolute rounded-full h-12 w-12"
               />
             </div>
           </section>
@@ -126,7 +126,7 @@ export default function BriefingsPage({ data }) {
             >
               <div
                 style={{ bottom: '-45px', right: '5vw' }}
-                className="bg-warning-100 dark:bg-accent-100 absolute rounded-full h-12 w-12"
+                className="bg-warning-100 dark:bg-tertiary-100 absolute rounded-full h-12 w-12"
               />
             </div>
           </section>

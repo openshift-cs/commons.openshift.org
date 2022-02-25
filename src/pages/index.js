@@ -86,7 +86,7 @@ export default function IndexPage({ data }) {
   return (
     <div className="overflow-hidden">
       <Seo />
-      <section className="overflow-hidden border-b border-base-300 relative before:absolute before:bg-hero-waves before:hue-rotate-[245deg] before:pointer-events-none before:hidden lg:before:flex before:text-transparent before:w-full before:h-full before:bg-left-bottom before:bg-repeat-x">
+      <section className="overflow-hidden border-b border-base-300 relative before:absolute before:bg-hero-waves before:hue-rotate-[330deg] before:pointer-events-none before:hidden lg:before:flex before:text-transparent before:w-full before:h-full before:bg-left-bottom before:bg-repeat-x">
         <div className="page-wrapper flex flex-col lg:flex-row gap-8 lg:gap-12 xl:gap-16 items-center py-8 md:py-16 lg:pb-24 xl:pt-24 xl:pb-44">
           <div className="max-w-[55ch] lg:max-w-none lg:w-1/2 flex-grow-0">
             <h1 className="font-headings font-bold text-4xl lg:text-5xl xl:text-6xl">
