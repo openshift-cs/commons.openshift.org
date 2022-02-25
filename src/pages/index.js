@@ -5,7 +5,7 @@ import ParticipantsCarousel from '../components/participants-carousel'
 import { ArrowRight, ChevronsRight, Edit, FileText } from 'react-feather'
 import { ReactComponent as Slack } from '../images/slack-icon.svg'
 import { ReactComponent as SlackLarge } from '../images/slack-large.svg'
-import { ReactComponent as HomeBanner } from '../images/home-devops-landscape.svg'
+import { ReactComponent as HomeBanner } from '../images/OpenShiftCommons.svg'
 import { StaticImage } from 'gatsby-plugin-image'
 import IconBox from '../components/iconbox'
 
@@ -87,27 +87,27 @@ export default function IndexPage({ data }) {
     <div className="overflow-hidden">
       <Seo />
       <section className="overflow-hidden border-b border-base-300 relative before:absolute before:bg-hero-waves before:hue-rotate-[245deg] before:pointer-events-none before:hidden lg:before:flex before:text-transparent before:w-full before:h-full before:bg-left-bottom before:bg-repeat-x">
-        <div className="page-wrapper flex py-8 md:py-16 lg:pt-24 lg:pb-44">
-          <div className="w-full md:w-[55ch] lg:w-[61ch] flex-shrink-0">
-            <h1 className="font-headings font-bold text-4xl lg:text-6xl">
-              <small className="block text-primary-700 dark:text-base-300 lg:mb-2 text-xl lg:text-3xl">
+        <div className="page-wrapper flex flex-col lg:flex-row gap-8 lg:gap-16 items-center py-8 md:py-16 lg:pb-24 xl:pt-24 xl:pb-44">
+          <div className="max-w-[55ch] lg:max-w-none lg:w-1/2 flex-grow-0">
+            <h1 className="font-headings font-bold text-4xl lg:text-5xl xl:text-6xl">
+              <small className="block text-primary-700 dark:text-base-300 lg:mb-2 text-xl lg:text-2xl xl:text-3xl">
                 We have more in common than you know
               </small>
-              <span className="text-base-800 dark:text-primary-700 flex">OpenShift Commons</span>
+              <span className="text-base-800 dark:text-primary-700">OpenShift Commons</span>
             </h1>
             <p className={`${paragraphStyle} my-6 lg:my-8`}>
               Where users, partners, customers, and contributors come together to collaborate and
               work together on OpenShift.
             </p>
-            <div className="flex flex-wrap gap-3 md:flex-nowrap leading-[3.5rem]">
+            <div className="flex flex-wrap gap-3">
               <IconBox title="Join us on Slack" url={slack} icon={<Slack alt="" />} />
               <IconBox title="Join our community" url="/join/" icon={<Edit alt="" />} />
             </div>
           </div>
-          <div className="hidden md:flex w-full relative pointer-events-none">
+          <div className="max-w-md w-full">
             <HomeBanner
-              alt="StackRox Community banner"
-              className="banner text-base-100 dark:text-base-200 absolute md:-top-full md:w-[1610px] md:h-[1040px] md:left-[-350px] lg:left-[-450px] xl:left-[-370px] lg:top-[-55%] lg:w-[2100px] lg:h-[1205px]"
+              alt="OpenShift Commons is your library of OpenShift knowledge"
+              className="banner lg:absolute lg:top-0 lg:w-auto"
             />
           </div>
         </div>
