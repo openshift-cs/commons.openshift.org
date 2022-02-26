@@ -25,13 +25,11 @@ const GatheringIndex = ({ data, pageContext }) => {
         {pageContext.pageNumber === 0 && (
           <>
             <h2 className={headingStyle}>Upcoming Gatherings</h2>
-            <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
+            <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-2 gap-6 my-6">
               {gatherings
                 .filter(
                   (gathering) =>
-                    DateTime.fromISO(gathering.frontmatter.date).startOf(
-                      'day',
-                    ) >= today,
+                    DateTime.fromISO(gathering.frontmatter.date).startOf('day') >= today,
                 )
                 .map((gathering) => {
                   return <PostCard key={gathering.id} post={gathering} />
@@ -39,20 +37,16 @@ const GatheringIndex = ({ data, pageContext }) => {
             </div>
           </>
         )}
-        <h2 className={headingStyle}>Past Gatherings Videos</h2>
-        <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-6">
+        <h2 className={`${headingStyle} mt-8 lg:mt-16`}>Past Gatherings Videos</h2>
+        <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-2 gap-6 my-6">
           {gatherings
             .filter(
               (gathering) =>
-                DateTime.fromISO(gathering.frontmatter.date).startOf('day') <
-                  today && gathering.frontmatter.youtube_playlist_id,
+                DateTime.fromISO(gathering.frontmatter.date).startOf('day') < today &&
+                gathering.frontmatter.youtube_playlist_id,
             )
             .map((gathering) => (
-              <PostCard
-                key={gathering.id}
-                post={gathering}
-                icon={<Film alt="" />}
-              />
+              <PostCard key={gathering.id} post={gathering} icon={<Film alt="" />} />
             ))}
         </div>
         <Pagination pageContext={pageContext} />
@@ -81,11 +75,7 @@ export const pageQuery = graphql`
           description
           image {
             childImageSharp {
-              gatsbyImageData(
-                layout: FULL_WIDTH
-                aspectRatio: 2.22
-                formats: [AUTO, WEBP]
-              )
+              gatsbyImageData(layout: FULL_WIDTH, aspectRatio: 2.22, formats: [AUTO, WEBP])
             }
           }
           youtube_playlist_id

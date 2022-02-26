@@ -1,27 +1,34 @@
 import React from 'react'
 import { DateTime } from 'luxon'
 
-const DateString = ({ date, language, dow = false }) => {
+const DateString = ({ date, language, dow = false, struct = false }) => {
   const dateOptions = dow
     ? {
         weekday: 'long',
         year: 'numeric',
         month: 'long',
         day: 'numeric',
-        zone: 'America/Los_Angeles',
       }
     : {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
-        zone: 'America/Los_Angeles',
       }
 
   const d = DateTime.fromISO(date + 'T00:00', {
-    zone: 'America/Los_Angeles',
-  })
+    zone: 'America/New_York',
+  }).setLocale(language)
 
-  return <span>{d.setLocale(language).toLocaleString(dateOptions)}</span>
+  if (struct) {
+    return {
+      dow: d.toFormat('cccc'),
+      day: d.toFormat('d'),
+      month: d.toFormat('LLLL'),
+      year: d.toFormat('y'),
+    }
+  }
+
+  return <>{d.toLocaleString(dateOptions)}</>
 }
 
 export default DateString

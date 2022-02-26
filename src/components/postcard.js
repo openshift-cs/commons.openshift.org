@@ -4,30 +4,44 @@ import DateString from './date-string'
 
 const PostCard = ({ post, icon }) => {
   const url = `/gatherings/${post.slug}`
+  const date = DateString({ date: post.frontmatter.date, struct: true })
 
   return (
     <div>
       <Link
         to={url}
-        className="shadow-post hover:shadow-post-hover flex flex-col bg-base-100 h-full p-4 group rounded-lg focus:ring-2 focus:ring-primary-400"
+        className="shadow-post hover:shadow-post-hover relative flex flex-col gap-4 bg-base-100 h-full p-4 group rounded-lg focus:ring-2 focus:ring-primary-400"
       >
-        <p className="flex justify-between border-b border-base-300 py-3 text-base-500 font-bold">
-          <DateString date={post.frontmatter.date} />
-          {icon && (
-            <span aria-hidden="true" className="h-6 w-6 ml-1">
-              {icon}
-            </span>
-          )}
-        </p>
+        <div className="z-10 flex flex-row gap-4">
+          <h2 className="order-2 shrink font-headings font-bold text-lg md:text-2xl tracking-wide group-hover:text-primary-700">
+            {post.frontmatter.title}
+          </h2>
 
-        <h2 className="my-2 font-headings font-bold text-lg tracking-wide group-hover:text-primary-700">
-          {post.frontmatter.title}
-        </h2>
+          <p className="order-1 relative mr-8 flex flex-row text-center leading-none font-bold">
+            <span className="flex flex-col">
+              <span className="text-secondary-600 text-sm">{date.dow}</span>
+              <span className="text-accent-700 text-4xl leading-snug">{date.day}</span>
+              <span className="text-base-900 text-lg leading-[0.8]">{date.month}</span>
+            </span>
+            <span className="absolute top-0 right-0 origin-top-right -rotate-90 text-base-400 text-3xl">
+              {date.year}&nbsp;
+            </span>
+          </p>
+        </div>
         <p>
-          {post.frontmatter.description
-            ? post.frontmatter.description
-            : post.excerpt}
+          {post.frontmatter.description ? post.frontmatter.description : post.excerpt}
+          Description here. This OpenShift Commons Gathering will be held live and broadcast live
+          around the globe. As always, our focus is on creating a welcoming and inclusive space for
+          peer-to-peer interactions online.
         </p>
+        {icon && (
+          <span
+            aria-hidden="true"
+            className="absolute z-0 top-4 right-4 h-20 w-20 ml-1 text-accent-100"
+          >
+            {icon}
+          </span>
+        )}
       </Link>
     </div>
   )
