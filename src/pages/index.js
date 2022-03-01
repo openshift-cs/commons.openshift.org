@@ -179,7 +179,7 @@ export default function IndexPage({ data }) {
             <CallToAction url={slack} title="Join us on Slack" />
             <CallToAction
               url="https://www.youtube.com/user/rhopenshift/playlists"
-              title="Check out our Briefings"
+              title="Check out past Briefings"
             />
             <CallToAction last url="https://okd.io" title="Collaborate with the community" />
           </div>
