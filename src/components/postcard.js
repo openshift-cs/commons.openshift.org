@@ -19,7 +19,7 @@ const PostCard = ({ post, icon }) => {
 
           <p className="order-1 relative mr-8 flex flex-row text-center leading-none font-bold">
             <span className="flex flex-col">
-              <span className="text-secondary-600 text-sm">{date.dow}</span>
+              <span className="text-primary-600 text-sm">{date.dow}</span>
               <span className="text-accent-700 text-4xl leading-snug">{date.day}</span>
               <span className="text-base-900 text-lg leading-[0.8]">{date.month}</span>
             </span>
@@ -28,12 +28,7 @@ const PostCard = ({ post, icon }) => {
             </span>
           </p>
         </div>
-        <p>
-          {post.frontmatter.description ? post.frontmatter.description : post.excerpt}
-          Description here. This OpenShift Commons Gathering will be held live and broadcast live
-          around the globe. As always, our focus is on creating a welcoming and inclusive space for
-          peer-to-peer interactions online.
-        </p>
+        <p>{post.frontmatter.description ? post.frontmatter.description : post.excerpt}</p>
         {icon && (
           <span
             aria-hidden="true"
