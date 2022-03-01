@@ -21,8 +21,8 @@ export const Header = ({ siteTitle }) => {
       title: 'Join Us',
     },
     {
-      path: '/briefings/',
-      title: 'Briefings',
+      path: '/events/',
+      title: 'Events',
     },
     {
       path: '/gatherings/',

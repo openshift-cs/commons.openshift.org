@@ -116,7 +116,7 @@ export default function CommunityPage() {
               className="lg:h-auto"
               title="Join Great Sessions"
               type="warning"
-              url="/briefings/"
+              url="/events/"
               icon={<Calendar alt="" />}
             >
               Events are lead by an OpenShift expert who would love to answer any of your questions.

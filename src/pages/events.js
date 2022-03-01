@@ -6,7 +6,7 @@ import { ReactComponent as Slack } from '../images/slack-icon.svg'
 import { ReactComponent as Meetup } from '../images/meetup.svg'
 import { Youtube } from 'react-feather'
 
-export default function BriefingsPage({ data }) {
+export default function EventsPage({ data }) {
   const h1Style = 'font-headings text-3xl lg:text-5xl text-base-800 mb-2 lg:mb-4'
   const h2Style = 'mt-10 mb-2 lg:mb-4 font-medium text-base-700 text-2xl md:text-3xl'
   const pSubheadStyle = 'text-center text-xl lg:text-2xl text-base-600 mb-4'
@@ -42,11 +42,11 @@ export default function BriefingsPage({ data }) {
 
   return (
     <>
-      <Seo title="Briefings" />
+      <Seo title="Events" />
       <div className="overflow-hidden text-center xxxpy-12 xxxmd:py-16 xxxlg:pb-24">
         <div className="flex flex-col items-center gap-8 md:gap-12 page-wrapper">
           <section className="w-full flex flex-col z-0">
-            <h1 className={h1Style}>Briefings</h1>
+            <h1 className={h1Style}>Events</h1>
             <p className={pSubheadStyle}>Join us at upcoming events</p>
 
             <div className="flex flex-col lg:flex-row lg:gap-4 text-left">
