@@ -29,6 +29,10 @@ export const Header = ({ siteTitle }) => {
       title: 'Gatherings',
     },
     {
+      path: '/gatherings/#videos',
+      title: 'Past Videos',
+    },
+    {
       path: '/sigs/',
       title: 'SIGs',
     },

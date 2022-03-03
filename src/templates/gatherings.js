@@ -37,7 +37,9 @@ const GatheringIndex = ({ data, pageContext }) => {
             </div>
           </>
         )}
-        <h2 className={`${headingStyle} mt-8 lg:mt-16`}>Past Gatherings Videos</h2>
+        <h2 id="videos" className={`${headingStyle} mt-8 lg:mt-16`}>
+          Past Gatherings Videos
+        </h2>
         <div className="grid grid-flow-row grid-cols-1 lg:grid-cols-2 gap-6 my-6">
           {gatherings
             .filter(
