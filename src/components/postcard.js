@@ -32,7 +32,7 @@ const PostCard = ({ post, icon }) => {
         {icon && (
           <span
             aria-hidden="true"
-            className="absolute z-0 top-4 right-4 h-20 w-20 ml-1 text-accent-100"
+            className="absolute z-0 top-4 right-4 h-20 w-20 ml-1 text-accent-100 dark:text-secondary-200"
           >
             {icon}
           </span>

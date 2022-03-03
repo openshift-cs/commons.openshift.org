@@ -93,7 +93,7 @@ export default function IndexPage({ data }) {
               <small className="block text-primary-600 dark:text-base-400 lg:mb-2 text-xl lg:text-2xl xl:text-3xl">
                 We have more in common than you know
               </small>
-              <span className="text-base-800 dark:text-primary-700">OpenShift Commons</span>
+              <span className="text-base-800 dark:text-base-700">OpenShift Commons</span>
             </h1>
             <p className={`${paragraphStyle} my-6 lg:my-8`}>
               Where users, partners, customers, and contributors come together to collaborate and
@@ -255,12 +255,12 @@ export default function IndexPage({ data }) {
                 key={post.title}
                 rel="noopener noreferrer"
                 target="_blank"
-                className="md:w-1/3 bg-base-100 group rounded-lg border-2 border-base-500 hover:border-primary-600 focus:ring-2 focus:ring-base-500"
+                className="md:w-1/3 bg-base-100 group rounded-lg border-2 border-base-500 hover:border-primary-600 hover:bg-primary-100 focus:ring-2 focus:ring-base-500"
               >
                 <p className="p-3 text-base-500 font-bold group-hover:text-primary-700">
                   {post.date}
                 </p>
-                <p className="border-t-2 border-base-400 p-3 text-sm lg:text-base font-medium group-hover:text-primary-700">
+                <p className="border-t-2 border-base-400 p-3 text-sm lg:text-base font-medium group-hover:text-primary-800">
                   <span className="line-clamp-4">{post.title}</span>
                 </p>
               </a>
