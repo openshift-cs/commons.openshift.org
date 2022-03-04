@@ -1,4 +1,79 @@
 gatherings:
+- name: "OpenShift Commons Gathering at Kubecon Europe 2022"
+  menu: "show"
+  language: "English"
+  date: "2022-05-17"
+  time: "9:00 am - 5:00 pm CEST"
+  location: "Live from Kubecon EU in Valencia Spain, Regional Watch Parties and "
+  venue: "For In-Person Attendance, Please register via CNCF Kubecon Registration Portal"
+  venue_URL: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
+  calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU_2022.html"
+  registration_text: "Virtual Registration Open"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-eu-2022"
+  registration_text2: "In Person Registration"
+  registration_URL2: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
+  pricing:
+    - label: "Registration Now Open"
+      price: "Free Virtual Attendance; In-Person attendance requires Kubecon/EU registration and adherence to CNCF Covid Protocols"
+  lead_text: >-
+    This OpenShift Commons Gathering focused on Emerging Technology will be held on May 17h in Central European Summer Time (CEST)!
+  info_text: >-
+    This OpenShift Commons Gathering will be held live in Valencia Spain and broadcast live via Hopin to regional watch parties around the globe. As always, our focus is on creating a space for peer-to-peer interactions and we'll be going hybrid, so if you are unable to attend in person, join us online. This Gathering will focus on talks from and by End Users with production deployments of OpenShift sharing their use cases, insights into their workloads and  lessons learned along the way. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and new technology initiatives on the Edge and in Data Science . We'll have a keynote and update from Red Hat's Clayton Colemen on all things Hybrid Cloud and Kubernetes Control Plane along with an Update/Road Map on the latest release of OpenShift with deep dive live demos and Q/A with Red Hat engineers & upstream leads. Red Hat's DevOps Black Belt Sasha Rosenbaum on SRE+Managed Services, and an update on latest Red Hat OpenShift Data Science initiatives from Red Hat's Data Scientist Audrey Reznik . The event is free and registration for the virtual event is open to all. In person event is limited to the first 300 registrants, register today if you are coming to Los Angeles!
+  event_footer_text: >-
+    This OpenShift Commons Gathering will be held on Central European Summer Time (CEST)!
+    Please note -> All in-person attendees must also be registered for Kubecon/NA, all COVID protocals required by CNCF must be followed for this co-located event.
+    In-Person Seating is limited to 150! 
+    <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/" target="_blank">[FOR IN-PERSON ATTENDANCE, Please register via the KUBECON Registration Portal here]</a>
+    Reception is Open to all registered Kubecon/EI attendees and starts at 3:00 pm.
+  invite_link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
+  schedule:
+    - local_time: "09:00 am"
+      session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      speakers:
+        - id: "diane"
+        - id: "karena_angell"
+      track: "Main Stage"
+    - local_time: "9:15 am"
+      session_name: "OpenShift Release Update and Road Map"
+      speakers:
+        - id: "karena_angell"
+      track: "Main Stage"
+    - local_time: "10:15 am"
+      session_name: "Customer Keynote"
+      track: "Main Stage"  
+    - local_time: "10:40 am"
+      session_name: "Coffee Break - OpenShift Meetup Updates (virtual)"
+      track: "Main Stage"  
+    - local_time: "11:00 am"
+      session_name: "Securing the Cloud Native Software Supply Chain: The Road Ahead"
+      track: "Main Stage"  
+    - local_time: "11:30 am"
+      session_name: "Application Modernization and Migration with Konveyor"
+      track: "Main Stage"   
+    - local_time: "12:00 pm"
+      session_name: "AI at the Edge with MicroShift"
+      track: "Main Stage"   
+    - local_time: "12:30 pm"
+      session_name: "Lunch Break - OpenShift Meetup Updates (virtual)"
+      track: "Main Stage"  
+    - local_time: "1:00 pm"
+      session_name: "Customer Case Study"
+      track: "Main Stage"  
+    - local_time: "1:30 pm"
+      session_name: "ACS Road Map/Update"
+      track: "Main Stage"   
+    - local_time: "2:00 pm"
+      session_name: "TBD"
+      track: "Main Stage"  
+    - local_time: "2:30 pm"
+      session_name: "AMA Session: Live Q/A with Guest Speakers & Red Hat Engineers, Project Leads and Product Managers"
+      track: "Main Stage"   
+    - local_time: "3:30 am"
+      session_name: "Tapas Reception"
+      track: "Main Stage"  
+    - local_time: "3:45 pm"
+      session_name: "OpenShift Commons Reception & Community Update Lightning Talks"
+      track: "Main Stage"   
 - name: "OpenShift Commons Gathering on GitOps"
   menu: "show"
   language: "English"
