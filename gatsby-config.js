@@ -11,7 +11,7 @@ module.exports = {
     description: `Where users, partners, customers, and contributors come together to collaborate and work together on OpenShift.`,
     author: `OpenShift Community`,
     siteUrl: `https://commons.openshift.org`,
-    image: `/images/OSC-OG.jpg`,
+    image: `https://commons.openshift.org/images/OSC-OG.jpg`,
     postsPerPage: 20,
     blog: `https://cloud.redhat.com/blog/tag/openshift-commons`,
     socialMedia: [
