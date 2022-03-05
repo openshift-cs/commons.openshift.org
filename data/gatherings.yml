@@ -1,4 +1,127 @@
 gatherings:
+- name: "OpenShift Commons Gathering at Kubecon Europe 2022"
+  menu: "show"
+  language: "English"
+  date: "2021-10-12"
+  time: "9:00 am - 5:00 pm PST"
+  location: "Live from Kubecon EU in Spain, Regional Watch Parties and OpenShift.tv!"
+  venue: "For In-Person Attendance, Please register via CNCF Kubecon Registration Portal"
+  venue_URL: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
+  calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html"
+  registration_text: "Virtual Registration Open"
+  registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-europe-2022"
+  registration_text2: "In Person Registration"
+  registration_URL2: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
+  pricing:
+    - label: "Registration Now Open"
+      price: "Free Virtual Attendance; In-Person attendance requires Kubecon/NA registration and adherence to CNCF Covid Protocols"
+  lead_text: >-
+    This OpenShift Commons Gathering focused on End Users will be held on May 17th in Central European Standard Time (CEST)!
+  info_text: >-
+    This OpenShift Commons Gathering will be held live in Valencia Spain and broadcast live to regional watch parties around the globe. As always, our focus is on creating a space for peer-to-peer interactions and we'll be going hybrid, so if you are unable to attend in person, join us online. This Gathering will focus on talks from and by End Users with production deployments of OpenShift sharing their use cases, insights into their workloads and  lessons learned along the way. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and new technology initiatives on the Edge and in Data Science . We'll have a keynote and update from Red Hat's Clayton Colemen on all things Hybrid Cloud and Kubernetes Control Plane along with an Update/Road Map on the latest release of OpenShift with deep dive live demos and Q/A with Red Hat engineers & upstream leads. Red Hat's DevOps Black Belt Sasha Rosenbaum on SRE+Managed Services, and an update on latest Red Hat OpenShift Data Science initiatives from Red Hat's Data Scientist Audrey Reznik . The event is free and registration for the virtual event is open to all. In person event is limited to the first 300 registrants, register today if you are coming to Los Angeles!
+  event_footer_text: >-
+    This OpenShift Commons Gathering will be held on Central European Standard Time (CEST)!
+    Please note -> All in-person attendees must also be registered for Kubecon/EU, all COVID protocals required by CNCF must be followed for this co-located event.
+    In-Person Seating is limited to 150! 
+    <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/" target="_blank">[FOR IN-PERSON ATTENDANCE, Please register via the KUBECON Registration Portal here]</a>
+    Reception is Open to all registered Kubecon/NA attendees and starts at 3:00 pm.
+  invite_link: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
+  schedule:
+    - local_time: "09:00 am"
+      session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      speakers:
+        - id: "diane"
+        - id: "stu"
+      track: "Main Stage"
+    - local_time: "9:10 am"
+      session_name: "OpenShift Release Update and Road Map"
+      speakers:
+        - id: "karena_angell"
+        - id: "rob_szumski" 
+        - id: "christian_hernandez"
+      track: "Main Stage"
+    - local_time: "10:00 am"
+      session_name: "Upstream Keynote: Kubernetes as the Control Plane for the Hybrid Cloud"
+      speakers: 
+        - id: "clayton_coleman"
+      track: "Main Stage"  
+    - local_time: "10:30 am"
+      session_name: "Coffee Break - live from Paris - OpenShift Meetup Shouts"
+      track: "Main Stage"  
+      speakers: 
+          - id: "yacine_kheddache"
+          - id: "dewan"
+          - id: "diane"
+    - local_time: "11:00 am"
+      session_name: "Site Reliability Engineering, Managed Services, and the path to the future"
+      speakers:
+        - id: "divineops"
+      track: "Main Stage"  
+    - local_time: "11:30 am"
+      session_name: "Data Science as a Managed Service on OpenShift"
+      speakers:
+        - id: "audrey_reznik"
+      track: "Main Stage"   
+    - local_time: "12:00 pm"
+      session_name: "Lunch Break"
+      track: "Main Stage"   
+    - local_time: "12:30 pm"
+      session_name: "Broadcom Case Study: GitOps in Action"
+      speakers:
+        - id: "billy_foss"
+        - id: "anil_sharma"
+        - id: "nitin_kalra"
+      track: "Main Stage"  
+    - local_time: "1:00 pm"
+      session_name: "TIAA Case Study: Why Policy Management? - Cloud Security and Governance"
+      track: "Main Stage"  
+      speakers: 
+        - id: "aradhna_chetal"   
+        - id: "jayashree_ramanathan"
+    - local_time: "1:30 pm"
+      session_name: "Deploying Microservices with OKD at MarketAmerica|SHOP.COM "
+      speakers:
+        - id: "john_fortin" 
+      track: "Main Stage"   
+    - local_time: "2:00 pm"
+      session_name: "Electrical Training Alliance Case Study"
+      speakers:
+         - id: "stephen_boyd"
+      track: "Main Stage"  
+    - local_time: "2:30 pm"
+      session_name: "AMA Session: Live Q/A with Guest Speakers & Red Hat Engineers, Data Scientists and Product Managers"
+      speakers:
+        - id: "diane"
+        - id: "stu"
+        - id: "annette_clewett"
+        - id: "clayton_coleman"
+        - id: "karena_angell"
+        - id: "christian_hernandez"
+        - id: "hugo_guerrero"
+        - id: "divineops"
+        - id: "audrey_reznik"
+        - id: "andrew_block"
+        - id: "peter_hunt"
+        - id: "aakanksha_duggal"
+        - id: "oindrilla_chatterjee"
+      track: "Main Stage"   
+    - local_time: "3:00 pm"
+      session_name: "OpenShift Commons Reception & Partner Lightning Talks"
+      track: "Main Stage"  
+      speakers:
+        - id: "michael_waite"
+        - id: "raveesh_dewan"
+        - id: "lee_choo_yee"
+        - id: "rob_jahn"
+        - id: "alexander_hanway"
+        - id: "keith_mcclellan"
+        - id: "sitaram_iyer"
+        - id: "pushkar_patil"
+        - id: "john_kendall"
+        - id: "luke_congdon"
+        - id: "brad_bignall"
+        - id: "suda_srinivasan"
+        - id: "eric_carter"
 - name: "OpenShift Commons Gathering on GitOps"
   menu: "show"
   language: "English"
