@@ -194,7 +194,7 @@ gatherings:
   registration_text: "Registration Open"
   registration_URL: "https://hopin.com/events/openshift-commons-gathering-israel"
   pricing:
-    - label: "Pre-registration Now Open"
+    - label: "Registration Now Open"
       price: "Free"
   lead_text: >-
     This OpenShift Commons Gathering will be held on March 29th live in Tel Aviv, Israel!
