@@ -4,7 +4,7 @@ gatherings:
   language: "English"
   date: "2022-05-17"
   time: "9:00 am - 5:00 pm CEST"
-  location: "Live from Kubecon EU in Valencia Spain, Regional Watch Parties and virtually via Hopin"
+  location: "Live from Kubecon EU in Valencia Spain, Regional Watch Parties and "
   venue: "For In-Person Attendance, Please register via CNCF Kubecon Registration Portal"
   venue_URL: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_EU_2022.html"
