@@ -1,10 +1,10 @@
 speakers:
   - id: "diane"
     name: "Diane Mueller"
-    role: "Director, Community Development, Cloud Platform"
+    role: "Director, Community Development, Hybrid Cloud Platform"
     company: "Red Hat"
     URL: "https://commons.openshift.org"
-    intro: "Diane Mueller is the founder of OpenShift Commons, co-chairs the OKD-WG, the Community Distribution of Kubernetes that powers Red Hat OpenShift."
+    intro: "Diane Mueller, Distinguished Community Architect, the founder of OpenShift Commons, and co-chair of the OKD-WG, the Community Distribution of Kubernetes that powers Red Hat OpenShift."
     photo: "speakers/diane.jpg" 
   - id: "stefanie_chiras"
     name: "Dr. Stefanie Chiras"
