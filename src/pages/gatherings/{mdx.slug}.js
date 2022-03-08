@@ -191,7 +191,7 @@ export default function GatheringPage({ data, ...props }) {
               </div>
             </div>
             <div>
-              <div className="bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
+              <div className="mt-4 bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
                 <h3 className={`${subheadingStyle} md:text-center`}>
                   {translate_where ? <>{translate_where}</> : <>Where</>}
                 </h3>
