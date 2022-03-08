@@ -175,8 +175,8 @@ export default function GatheringPage({ data, ...props }) {
             {translate_overview ? <>{translate_overview}</> : <>Event Overview</>}
           </h2>
 
-          <div className="mb-4 lg:mb-8 grid md:grid-cols-2 gap-6">
-            <div>
+          <div className="mb-4 lg:mb-8 flex flex-col md:flex-row gap-6">
+            <div className="md:w-1/2 shrink-0">
               <p className={`${ledeStyle}`}>{lead_text}</p>
               <p className="max-w-[56ch]">{info_text}</p>
               <div className="mt-4 lg:mt-8 flex justify-center gap-2 md:gap-4">
@@ -190,39 +190,46 @@ export default function GatheringPage({ data, ...props }) {
                   ))}
               </div>
             </div>
-            <div className="bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
-              <h3 className={`${subheadingStyle} md:text-center`}>
-                {translate_where ? <>{translate_where}</> : <>Where</>}
-              </h3>
-              <p
-                className={`${ledeStyle} !max-w-none md:text-center border-b-2 border-primary-200 pb-4`}
-              >
-                {location}
-                <br />
-                {venue_URL ? (
-                  <a className={aStyle} href={venue_URL} target="_blank" rel="noopener noreferrer">
-                    {venue}
-                  </a>
-                ) : (
-                  <a className={aStyle} href="#gathering-venue">
-                    {venue}
-                  </a>
-                )}
-              </p>
-              <div className="grid grid-cols-2 gap-4 lg:gap-8">
-                <div>
-                  <h3 className={subheadingStyle}>
-                    {translate_when ? <>{translate_when}</> : <>When</>}
-                  </h3>
-                  <p className={ledeStyle}>
-                    <DateString date={date} language={language} dow="true" />
-                  </p>
-                </div>
-                <div>
-                  <h3 className={subheadingStyle}>
-                    {translate_price ? <>{translate_price}</> : <>Price</>}
-                  </h3>
-                  <p className={ledeStyle}>{price}</p>
+            <div>
+              <div className="bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
+                <h3 className={`${subheadingStyle} md:text-center`}>
+                  {translate_where ? <>{translate_where}</> : <>Where</>}
+                </h3>
+                <p
+                  className={`${ledeStyle} !max-w-none md:text-center border-b-2 border-primary-200 pb-4`}
+                >
+                  {location}
+                  <br />
+                  {venue_URL ? (
+                    <a
+                      className={aStyle}
+                      href={venue_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {venue}
+                    </a>
+                  ) : (
+                    <a className={aStyle} href="#gathering-venue">
+                      {venue}
+                    </a>
+                  )}
+                </p>
+                <div className="grid grid-cols-2 gap-4 lg:gap-8">
+                  <div>
+                    <h3 className={subheadingStyle}>
+                      {translate_when ? <>{translate_when}</> : <>When</>}
+                    </h3>
+                    <p className={ledeStyle}>
+                      <DateString date={date} language={language} dow="true" />
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className={subheadingStyle}>
+                      {translate_price ? <>{translate_price}</> : <>Price</>}
+                    </h3>
+                    <p className={ledeStyle}>{price}</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -346,18 +353,20 @@ export default function GatheringPage({ data, ...props }) {
           </section>
         )}
 
-        <section className="my-8 md:my-16">
-          <h2 className={headingStyle}>
-            {translate_speakers ? <>{translate_speakers}</> : <>Speakers</>}
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
-            {speakerList
-              .sort((a, b) => (a > b ? 1 : -1))
-              .map((id) => (
-                <Speaker key={id} id={id} />
-              ))}
-          </div>
-        </section>
+        {speakerList.length !== 0 && (
+          <section className="my-8 md:my-16">
+            <h2 className={headingStyle}>
+              {translate_speakers ? <>{translate_speakers}</> : <>Speakers</>}
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
+              {speakerList
+                .sort((a, b) => (a > b ? 1 : -1))
+                .map((id) => (
+                  <Speaker key={id} id={id} />
+                ))}
+            </div>
+          </section>
+        )}
 
         <section id="gathering-venue" className="my-8 md:my-16 text-center">
           <h2 className={headingStyle}>{translate_venue ? <>{translate_venue}</> : <>Venue</>}</h2>

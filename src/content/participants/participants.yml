@@ -3475,3 +3475,10 @@
 - name: 'Ford'
   link: 'https://ford.com'
   logo: 'ford.jpg'
+- name: 'Agile Defense'
+  link: 'https://agile-defense.com/'
+  logo: 'agiledefense.jpg'
+- name: 'Detasad'
+  link: 'https://www.detasad.com/'
+  logo: 'detasad.jpg'
+
