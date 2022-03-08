@@ -14,7 +14,7 @@ gatherings:
   registration_text2: "In Person Registration Opens Soon"
   registration_URL2: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
   pricing:
-    - label: "Registration Now Open"
+    - label: "Registration Openng Soon"
       price: "Free Virtual Attendance; In-Person attendance requires Kubecon/NA registration and adherence to CNCF Covid Protocols"
   lead_text: >-
     This OpenShift Commons Gathering focused on End Users will be held on May 17th in Central European Standard Time (CEST)!
@@ -28,6 +28,8 @@ gatherings:
   schedule:
     - local_time: "09:00 am"
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
+      speakers:
+        - id: "diane"
       track: "Main Stage"
     - local_time: "9:15 am"
       session_name: "OpenShift Release Update and Road Map - Karena Angell, Daniel Messer, Ramon Acedo Rodriguez (Red Hat) and guests"
