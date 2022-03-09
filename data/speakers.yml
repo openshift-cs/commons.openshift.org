@@ -2923,7 +2923,7 @@ speakers:
     company: "NTT Data"
     photo: "speakers/bojan_mrazovac.jpg"
     role: "Head Of Research And Development"
-  - id: "Ramakrishna Yekulla"
+  - id: "ramakrishna_yekulla"
     name: "Ramakrishna Yekulla"
     URL: "https://redhat.com"
     company: "Red Hat"
