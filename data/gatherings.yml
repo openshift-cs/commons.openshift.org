@@ -290,7 +290,7 @@ gatherings:
   menu: "show"
   language: "English"
   date: "2022-04-06"
-  time: "9:00 am - 12:00 pm PST"
+  time: "4:00 pm - 8:00 pm CEST"
   topic: "On Automotive"
   location: "Virtual"
   venue: "Hopin"
@@ -302,47 +302,57 @@ gatherings:
     - label: "Registration Now Open"
       price: "Free"
   lead_text: >-
-    This OpenShift Commons Gathering on Automotive will be held on April 6th in Pacific Standard Time (PST)!
+    This OpenShift Commons Gathering on Automotive will be held on April 6th in Central European Standard Time (CEST)!
   info_text: >-
-    This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by GitOps practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
+    This OpenShift Commons Gathering will be held live and broadcast live around the globe. As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. At this OpenShift Commons Gathering, we'll hear from those end users, partners and OSS project leads from across the Automotive sector as well  as Red Hat engineers and project leads collaborating on emerging Automotive initatives. Get connected with your Automotive industry peers across the Cloud Native and OpenShift ecosystems who are passionate about implementing their workloads on OpenShift and other emerging Red Hat technologies.
   event_footer_text: >-
-    This OpenShift Commons Gathering on Automotive will be held on Pacific Standard Time (PST)!
+    This OpenShift Commons Gathering on Automotive will be held on Central European Standard Time (CEST)!
     <a href="https://hopin.com/events/openshift-commons-gathering-on-automotive" target="_blank">[Please register via the Hopin Registration Portal here]</a>
   invite_link: "https://hopin.com/events/openshift-commons-gathering-on-automotive"
   schedule:
-    - local_time: "09:00 am"
+    - local_time: "04:00 pm"
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
       speakers:
         - id: "diane"
+        - id: "harald_ruckriegel"
+      track: "Main Stage"
+    - local_time: "4:10 pm"
+      session_name: "Keynote: Automotive @ Red Hat Vision/Overview of Automotive Initiatives"
+      speakers:
         - id: "franz_meyer"
       track: "Main Stage"
-    - local_time: "9:10 am"
-      session_name: "Keynote: Automotive Industry Update"
-      track: "Main Stage"
-    - local_time: "9:30 am"
-      session_name: "A Brief History of Automotive Work Loads and Kubernetes at the Edge"
+    - local_time: "4:25 pm"
+      session_name: "Eclipse Software Defined Vehicle: Building the Future of Automotive Together"
       track: "Main Stage"  
-    - local_time: "09:50 am"
-      session_name: "Technology Updates from the field"
+    - local_time: "04:55 pm"
+      session_name: "Life on the Edge - Ongoing, Optimized Data Orchestration for Continual Improvement of the EV Experience"
       track: "Main Stage"  
-    - local_time: "10:10 am"
-      session_name: "End User Case Studies"
+    - local_time: "05:15 pm"
+      session_name: "Safer Driver: Human driver perception platform that prevents accidents, before they happen"
       track: "Main Stage"  
-    - local_time: "11:10 am"
-      session_name: "What's Next for Automotive Cloud Natives on the Edge"
-      speakers:
-        - id: "francis_chow"
-      track: "Main Stage"   
-    - local_time: "11:30 am"
+    - local_time: "05:35 pm"
+      session_name: "CyberSecurity and Data Management for Connected Vehicles"
+      track: "Main Stage"  
+    - local_time: "06:00 pm"
+      session_name: "Development and Testing Autonomous Vehicles at Scale"
+      track: "Main Stage"  
+    - local_time: "06:20 pm"
+      session_name: "Driving the Software Define Vehicle with eSync and Openshift"
+      track: "Main Stage"  
+    - local_time: "06:40 pm"
       session_name: "Automotive AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
       speakers:
-        - id: "diane"
         - id: "franz_meyer"
         - id: "harald_ruckriegel"
         - id: "nischal_muchakani"
         - id: "dirk_weihrauch"
         - id: "francis_chow"
       track: "Main Stage"
+    - local_time: "07:00 pm"
+      session_name: "What's Next for Automotive Cloud Natives on the Edge"
+      speakers:
+        - id: "francis_chow"
+      track: "Main Stage"   
 - name: "OpenShift Commons Gathering Israel"
   menu: "show"
   language: "English"
