@@ -2941,7 +2941,7 @@ speakers:
     company: "IBM"
     photo: "speakers/frank_kraemer.jpg"
     role: "IT Architect"
-  - id: "Shrikant Acharya"
+  - id: "shrikant_acharya"
     name: "Shrikant Acharya"
     URL: "https://excelfore.com/"
     company: "Excelfore/eSync Alliance"
