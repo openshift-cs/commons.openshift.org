@@ -315,6 +315,7 @@ gatherings:
       speakers:
         - id: "diane"
         - id: "harald_ruckriegel"
+        - id: "nischal_muchakani"
       track: "Main Stage"
     - local_time: "4:10 pm"
       session_name: "Keynote: Automotive at Red Hat Vision/Overview of Automotive Initiatives"
