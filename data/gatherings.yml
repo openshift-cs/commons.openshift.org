@@ -396,7 +396,7 @@ gatherings:
     - local_time: "08:00 am"
       session_name: "Registration & Exhibition Opens"
       track: "Main Stage"
-    - local_time: "08:00 am"
+    - local_time: "09:00 am"
       session_name: "Welcome to the Commons: Unlock the Potential of Collaboration"
       track: "Main Stage"
       speakers:
