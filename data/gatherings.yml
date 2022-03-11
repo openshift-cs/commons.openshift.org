@@ -401,6 +401,7 @@ gatherings:
       track: "Main Stage"
       speakers:
         - id: "diane"
+        - id: "jonathan_gershater"
     - local_time: "9:15 am"
       session_name: "OpenShift: Vision to Action - Live Demonstration of Latest Release"
       track: "Main Stage"
@@ -409,6 +410,8 @@ gatherings:
       track: "Main Stage"  
     - local_time: "10:25 am"
       session_name: "KubeVirt: Bringing Virtualization into Kubernetes - Dan Kenigsberg, Senior Manager, Software engineering, Red Hat "
+      speakers:
+        - id: "dan_kenigsberg"
       track: "Main Stage"  
     - local_time: "10:50 am"
       session_name: "Lightning talk by JFrog"
@@ -466,6 +469,8 @@ gatherings:
       track: "Main Stage" 
     - local_time: "3:50 pm"
       session_name: "Open Your Mind: Quantum Computing - Avi Vizel, IBM Quantum Ambassador"
+      speakers:
+        - id: "avi_vizel"
       track: "Main Stage"  
     - local_time: "4:00 pm"
       session_name: "AMA Session & Giveaways: Live Q/A with Guest Speakers, Red Hat Engineers & Project Leads"
