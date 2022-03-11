@@ -426,7 +426,7 @@ gatherings:
       session_name: "Lightning talk by Dynatrace"
       track: "Main Stage"  
     - local_time: "12:10 pm"
-      session_name: "OpenShift Data at production scale - Orit Wasserman and Shon Paz,  Red Hat
+      session_name: "OpenShift Data at production scale - Orit Wasserman and Shon Paz,  Red Hat"
       track: "Main Stage"      
     - local_time: "12:50 pm"
       session_name: "Lightning talk by Snyk"
