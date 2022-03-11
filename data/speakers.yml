@@ -2984,7 +2984,7 @@ speakers:
     company: "Red Hat"
     photo: "speakers/orit_wasserman.jpg"
     role: "Senior Principal Software Engineer"
-  - id: "dan_kenigsberg.jpg"
+  - id: "dan_kenigsberg"
     name: "Dan Kenigsberg"
     URL: "https://redhat.com/"
     company: "Red Hat"
