@@ -455,12 +455,12 @@ gatherings:
       session_name: "Lightning talk by Nvidia"
       track: "Main Stage"  
     - local_time: "3:00 pm"
-      session_name: "SRE, Managed Services and the path to the future Sasha Rosenbaum, Senior Manager, Red Hat"
+      session_name: "SRE, Managed Services and the Path to the Future"
       speakers:
          - id: "divineops"
       track: "Main Stage" 
     - local_time: "3:30 pm"
-      session_name: "Assisted Installer - SaaS - 85% success rate on Bare Metal Rom Freiman, Director, Software Engineering, Red Hat"
+      session_name: "Assisted Installer - SaaS - 85% success rate on Bare Metal"
       speakers:
         - id: "rom_freiman"
       track: "Main Stage" 
