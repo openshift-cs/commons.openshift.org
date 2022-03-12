@@ -2954,7 +2954,7 @@ speakers:
     company: "Red Hat"
     photo: "/speakers/rom_freiman.jpg"
     role: "Director of Software Engineering"
-  - id: "nir_yechiel.jpg"
+  - id: "nir_yechiel"
     name: "Nir Yechiel"
     URL: "https://redhat.com/"
     company: "Red Hat"
