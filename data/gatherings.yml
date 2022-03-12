@@ -445,7 +445,7 @@ gatherings:
     - local_time: "1:00 pm"
       session_name: "Joining Kubernetes Clusters with Submariner: Community, Research, Product with Daniel Bachar, MSc student, Reichman University"
       speakers:
-        - id: "nir_yechiel.jpg"
+        - id: "nir_yechiel"
       track: "Main Stage"  
     - local_time: "1:50 pm"
       session_name: "Lightning talk by Nutanix "
