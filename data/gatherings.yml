@@ -478,7 +478,7 @@ gatherings:
       session_name: "AMA Session & Giveaways: Live Q/A with Guest Speakers, Red Hat Engineers & Project Leads"
       track: "Main Stage"    
     - local_time: "4:55 pm"
-      session_name: "Closing Words"
+      session_name: "Wrap Up!"
       track: "Main Stage"  
       speakers:
         - id: "diane"
