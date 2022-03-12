@@ -406,10 +406,12 @@ gatherings:
       session_name: "OpenShift: Vision to Action - Live Demonstration of Latest Release"
       track: "Main Stage"
     - local_time: "10:00 am"
-      session_name: "Developing the Future of Banking - Dr. Ronen Yochpaz - Vice President information technology, Bank Hapoalim "
+      session_name: "Developing the Future of Banking"
+      speakers:
+         - id: "ronen_yochpaz"
       track: "Main Stage"  
     - local_time: "10:25 am"
-      session_name: "KubeVirt: Bringing Virtualization into Kubernetes - Dan Kenigsberg, Senior Manager, Software engineering, Red Hat "
+      session_name: "KubeVirt: Bringing Virtualization into Kubernetes"
       speakers:
         - id: "dan_kenigsberg"
       track: "Main Stage"  
@@ -468,7 +470,7 @@ gatherings:
         - id: "rom_freiman"
       track: "Main Stage" 
     - local_time: "3:50 pm"
-      session_name: "Open Your Mind: Quantum Computing - Avi Vizel, IBM Quantum Ambassador"
+      session_name: "Open Your Mind: Quantum Computing"
       speakers:
         - id: "avi_vizel"
       track: "Main Stage"  
