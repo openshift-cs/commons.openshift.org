@@ -333,6 +333,7 @@ gatherings:
       session_name: "Life on the Edge - Ongoing, Optimized Data Orchestration for Continual Improvement of the EV Experience"
       speakers:
         - id: "dennis_hamann"
+        - id: "florian_moss"
       track: "Main Stage"  
     - local_time: "05:15 pm"
       session_name: "Safer Driver: Human Driver Perception Platform That Prevents Accidents, Before They Happen"
