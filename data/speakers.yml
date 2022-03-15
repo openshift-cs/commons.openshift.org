@@ -2964,6 +2964,7 @@ speakers:
     name: "Tommer Amber"
     URL: "https://redhat.com/"
     company: "Red Hat"
+    photo: "speaker/tommer.jpg"
     role: "Senior Cloud Security Consultant"
   - id: "michael_kotelnikov"
     name: "Michael Kotelnikov"
