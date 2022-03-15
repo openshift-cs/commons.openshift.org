@@ -2953,6 +2953,7 @@ speakers:
     URL: "https://redhat.com/"
     company: "Red Hat"
     role: "Director, Software Engineering"
+    photo: "speakers/rom.jpg"
   - id: "nir_yechiel"
     name: "Nir Yechiel"
     URL: "https://redhat.com/"
