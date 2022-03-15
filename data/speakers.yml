@@ -2958,6 +2958,7 @@ speakers:
     URL: "https://redhat.com/"
     company: "Red Hat"
     role: "Manager,Software Engineering"
+    photo: "speakers/nir.jpg"
   - id: "tommer_amber"
     name: "Tommer Amber"
     URL: "https://redhat.com/"
@@ -3020,3 +3021,4 @@ speakers:
     URL: "https://redhat.com"
     company: "Red Hat" 
     role: "Solution Architecture, Senior Manager"
+    photo: "speakers/menny.jpg"
