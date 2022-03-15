@@ -402,9 +402,10 @@ gatherings:
       track: "Main Stage"
       speakers:
         - id: "diane"
-        - id: "jonathan_gershater"
     - local_time: "9:15 am"
       session_name: "OpenShift: Vision to Action - Live Demonstration of Latest Release"
+      speakers:
+        - id: "menny_tsarfati"
       track: "Main Stage"
     - local_time: "10:00 am"
       session_name: "Developing the Future of Banking"
