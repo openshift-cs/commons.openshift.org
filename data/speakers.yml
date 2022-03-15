@@ -3015,3 +3015,8 @@ speakers:
     URL: "https://redhat.com"
     company: "Red Hat" 
     photo: "speakers/florian_moss.jpg"
+  - id: "menny_tsarfati"
+    name: "Menny Tsarfati"
+    URL: "https://redhat.com"
+    company: "Red Hat" 
+    role: "Solution Architecture, Senior Manager"
