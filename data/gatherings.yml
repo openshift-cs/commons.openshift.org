@@ -355,6 +355,7 @@ gatherings:
       session_name: "Driving the Software Define Vehicle with eSync and Openshift"
       speakers:
         - id: "shrikant_acharya"
+        - id: "ortwin_schneider"
       track: "Main Stage"  
     - local_time: "06:40 pm"
       session_name: "Automotive AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
