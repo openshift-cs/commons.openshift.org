@@ -370,7 +370,7 @@ code[class*='language-'] {
 }
 
 .dark .banner {
-  filter: brightness(0.85) saturate(1.2) contrast(1.15);
+  filter: brightness(0.7) contrast(1.15);
 }
 
 .hover-animate-pause:hover {
