@@ -352,7 +352,7 @@ gatherings:
         - id: "frank_kraemer"
       track: "Main Stage"  
     - local_time: "06:20 pm"
-      session_name: "Driving the Software Define Vehicle with eSync and Openshift"
+      session_name: "Driving the Software Defined Vehicle with eSync and Openshift"
       speakers:
         - id: "shrikant_acharya"
         - id: "ortwin_schneider"
