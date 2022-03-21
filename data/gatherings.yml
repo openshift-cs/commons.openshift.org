@@ -407,6 +407,11 @@ gatherings:
       session_name: "OpenShift: Vision to Action - Live Demonstration of Latest Release"
       speakers:
         - id: "menny_tsarfati"
+        - id: "valera_bronshtein"
+        - id: "gabi_dabach"
+        - id: "anoel_yakoubov"
+        - id: "batel_assaf_volchek"
+        - id: "shon_paz"
       track: "Main Stage"
     - local_time: "10:00 am"
       session_name: "Developing the Future of Banking"
@@ -443,8 +448,7 @@ gatherings:
         - id: "shon_paz"
       track: "Main Stage"      
     - local_time: "1:00 pm"
-      session_name: "Lightning talk: Live Hacking Session: Securing Containers by Breaking In! -
-Elad Harel , Senior Solutions Engineer, Snyk"
+      session_name: "Lightning talk: Live Hacking Session: Securing Containers by Breaking In! - Elad Harel , Senior Solutions Engineer, Snyk"
       track: "Main Stage"  
     - local_time: "1:10 pm"
       session_name: "Joining Kubernetes Clusters with Submariner: Community, Research, Product"
