@@ -103,12 +103,12 @@ gatherings:
   venue: "For In-Person Attendance, Please register via CNCF Kubecon Registration Portal"
   venue_URL: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html"
-  registration_text: "Virtual Registration Opens Soon"
+  registration_text: "Register to Attend Virtually"
   registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-europe-2022"
-  registration_text2: "In Person Registration Opens Soon"
+  registration_text2: "In Person Registration by adding it to your KubeCon + CloudNativeCon registration."
   registration_URL2: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
   pricing:
-    - label: "Registration Openng Soon"
+    - label: "Registration Now Open"
       price: "Free Virtual Attendance; In-Person attendance requires Kubecon/NA registration and adherence to CNCF Covid Protocols"
   lead_text: >-
     This OpenShift Commons Gathering focused on End Users will be held on May 17th in Central European Standard Time (CEST)!
