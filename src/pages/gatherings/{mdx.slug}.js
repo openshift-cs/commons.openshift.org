@@ -148,7 +148,7 @@ export default function GatheringPage({ data, ...props }) {
           <ShareButtons title={title} url={url} twitterHandle="openshiftcommon" />
         </div>
 
-        <section className="flex flex-col items-center my-8 md:my-16">
+        <section className="flex flex-col items-center my-8 md:my-12">
           {head_text ? (
             <p className={`${ledeStyle} text-center`}>{head_text}</p>
           ) : (
