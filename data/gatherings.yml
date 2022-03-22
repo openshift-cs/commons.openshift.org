@@ -105,15 +105,17 @@ gatherings:
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html"
   registration_text: "Register to Attend Virtually"
   registration_URL: "https://hopin.com/events/openshift-commons-gathering-at-kubecon-europe-2022"
-  registration_text2: "In Person Registration by adding it to your KubeCon + CloudNativeCon registration."
+  registration_text2: "Register to Attend In Person (via KubeCon registration)"
   registration_URL2: "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"
   pricing:
     - label: "Registration Now Open"
       price: "Free Virtual Attendance; In-Person attendance requires Kubecon/NA registration and adherence to CNCF Covid Protocols"
   lead_text: >-
-    This OpenShift Commons Gathering focused on End Users will be held on May 17th in Central European Standard Time (CEST)!
+    This OpenShift Commons Gathering is on May 17th at 9:00 am Central European Standard Time (CEST)!
   info_text: >-
-    This OpenShift Commons Gathering will be held live in Valencia Spain and broadcast live to regional watch parties around the globe. As always, our focus is on creating a space for peer-to-peer interactions and we'll be going hybrid, so if you are unable to attend in person, join us online. This Gathering will focus on Emerging Technology and Case Studies from and by End Users with production deployments of OpenShift sharing their use cases, insights into their workloads and  lessons learned along the way. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and new Emerging technology initiatives on the Edge. 
+    This OpenShift Commons Gathering will be held live in Valencia Spain and broadcast live to regional watch parties around the globe. 
+    As always, our focus is on creating a space for peer-to-peer interactions and we'll be going hybrid, so if you are unable to attend in person, join us online. 
+    This Gathering will focus on Emerging Technology and Case Studies from and by End Users with production deployments of OpenShift sharing their use cases, insights into their workloads and  lessons learned along the way. Topics covered during this Gathering include hybrid cloud infrastructure, cloud-native development, and new Emerging technology initiatives on the Edge. 
     The event is free and registration for the virtual event is open to all. In person event is limited to the first 150 registrants, register today if you are coming to Spain!
   event_footer_text: >-
     This OpenShift Commons Gathering will be held on Central European Standard Time (CEST)! Please note -> All in-person attendees must also be registered for Kubecon/EU, all COVID protocals required by CNCF must be followed for this co-located event.
