@@ -59,9 +59,9 @@ description:  Where the OpenShift Commons community gets together and shares the
 </div>
 <div class="container">
   <div class="row">
-    <% if gathering.registration_text2 && gathering.registration_text2.length > 0 && gathering.registration_URL2 && gathering.registration_URL2.length > 0 && gathering.registration_text3 && gathering.registration_text3.length > 0 && gathering.registration_URL3 && gathering.registration_URL3.length > 0 %>
+    <% if gathering.registration_text2 && gathering.registration_text2.length > 0 && gathering.registration_URL2 && gathering.registration_URL2.length > 0 %>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-sm-offset-2">
           <div class="btn-event event-border buy obsoletes">
             <a href="<%= gathering.registration_URL %>" target="_blank">
               <p class="text-center">
@@ -81,15 +81,6 @@ description:  Where the OpenShift Commons community gets together and shares the
           </div>
         </div>
 
-        <div class="col-sm-4">
-          <div class="btn-event event-border buy obsoletes">
-            <a href="<%= gathering.registration_URL3 %>" target="_blank">
-              <p class="text-center">
-                  <%= gathering.registration_text3 %>
-              </p>
-            </a>
-          </div>
-        </div>
 
     <% else %>
 
