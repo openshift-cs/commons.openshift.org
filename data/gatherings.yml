@@ -381,13 +381,13 @@ gatherings:
   time: "9:00 am - 4:00 pm IST"
   topic: "Israel"
   location: "Tel Aviv"
-  venue: "Hopin"
-  venue_URL: "https://hopin.com/events/openshift-commons-gathering-israel"
+  venue: "East"
+  venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
   registration_text: "Registration Open"
-  registration_URL: "https://hopin.com/events/openshift-commons-gathering-israel"
+  registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
   pricing:
-    - label: "Registration Now Open"
+    - label: "Registration Closed"
       price: "Free"
   lead_text: >-
     This OpenShift Commons Gathering will be held on March 29th live in Tel Aviv, Israel!
@@ -395,8 +395,7 @@ gatherings:
     This OpenShift Commons Gathering will be held in-person and all talks will be delivered live! As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by Cloud Native practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
   event_footer_text: >-
     This OpenShift Commons Gathering will be held on Israel Standard Time (IST)!
-    <a href="https://hopin.com/events/openshift-commons-gathering-israel" target="_blank">[Please register via the Hopin Registration Portal here]</a>
-  invite_link: "https://hopin.com/events/openshift-commons-gathering-israel"
+  invite_link: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
   schedule:
     - local_time: "08:00 am"
       session_name: "Registration & Exhibition Opens"
