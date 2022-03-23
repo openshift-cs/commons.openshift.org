@@ -3053,7 +3053,7 @@ speakers:
     company: "Red Hat" 
     role: "Senior Solution Architect"
     photo: "speakers/batel_assaf_volchek.jpeg"
-  - id: "dan_noal.jpg"
+  - id: "dan_noal"
     name: "Dan Noal"
     URL: "https://redhat.com"
     company: "Red Hat" 
