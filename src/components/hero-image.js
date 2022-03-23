@@ -12,7 +12,7 @@ const HeroImage = ({ image, innerClassName, ...other }) => {
           layout="fullWidth"
           aspectRatio="2.22"
           className={innerClassName}
-          src="../images/stackrox-community.jpg"
+          src="../images/OSC-OG.jpg"
         />
       </div>
     )
