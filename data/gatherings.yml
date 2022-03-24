@@ -384,7 +384,7 @@ gatherings:
   venue: "East"
   venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
-  registration_text: "Registration Open"
+  registration_text: "Registration Closed"
   registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
   pricing:
     - label: "Registration Closed"
