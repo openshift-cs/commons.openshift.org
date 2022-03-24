@@ -381,8 +381,8 @@ gatherings:
   time: "9:00 am - 4:00 pm IST"
   topic: "Israel"
   location: "Tel Aviv"
-  venue: "East"
-  venue_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
+  venue: "East TLV Meitav St 13, Tel Aviv-Yafo, Israel"
+  venue_URL: "https://www.east-tlv.co.il/https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
   registration_text: "Registration Closed"
   registration_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html"
@@ -390,7 +390,7 @@ gatherings:
     - label: "Registration Closed"
       price: "Free"
   lead_text: >-
-    This OpenShift Commons Gathering will be held on March 29th live in Tel Aviv, Israel!
+    This OpenShift Commons Gathering will be held on March 29th live in Tel Aviv, Israel at East TLV!
   info_text: >-
     This OpenShift Commons Gathering will be held in-person and all talks will be delivered live! As always, our focus is on creating a welcoming and inclusive space for peer-to-peer interactions online. This Gathering will focus on talks from and by Cloud Native practitioners with production deployments sharing their use cases, insights into their workloads and lessons learned along the way. 
   event_footer_text: >-
