@@ -440,10 +440,14 @@ gatherings:
         - id: "tommer_amber"
       track: "Main Stage"  
     - local_time: "12:00 pm"
-      session_name: "Lightning talk: Achieving operational scalability with Open Shift and Couchbase - Roi Katz, Head of Solution Engineering, Israel ,Couchbase"
+      session_name: "Lightning talk: Achieving operational scalability with Open Shift and Couchbase"
+      speakers: 
+        - id: "Roi_Katz_Couchbase"
       track: "Main Stage"  
     - local_time: "12:10 pm"
-      session_name: "Lightning talk: Detailed End to End Real-Time Observability in Minutes - Gil Givati, Senior Solution Architect, Dynatrac"
+      session_name: "Lightning talk: Detailed End to End Real-Time Observability in Minutes"
+      speakers: 
+        - id: "Gil_Givati_DYNATRACE"
       track: "Main Stage"  
     - local_time: "12:20 pm"
       session_name: "OpenShift Data at Production Scale"
@@ -461,7 +465,9 @@ gatherings:
         - id: "daniel_bachar"
       track: "Main Stage"  
     - local_time: "1:50 pm"
-      session_name: "Lightning talk: Cloud Native with Nutanix and OpenShift - Nir Goldshmid, Sr. Channel Systems Engineer, Nutanix"
+      session_name: "Lightning talk: Cloud Native with Nutanix and OpenShift
+      speakers: 
+        - id: "Nir_Goldshmid_Nutanix"
       track: "Main Stage"  
     - local_time: "2:00 pm"
       session_name: "Lunch and Exhibition"
