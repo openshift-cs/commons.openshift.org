@@ -465,7 +465,7 @@ gatherings:
         - id: "daniel_bachar"
       track: "Main Stage"  
     - local_time: "1:50 pm"
-      session_name: "Lightning talk: Cloud Native with Nutanix and OpenShift
+      session_name: "Lightning talk: Cloud Native with Nutanix and OpenShift"
       speakers: 
         - id: "Nir_Goldshmid_Nutanix"
       track: "Main Stage"  
