@@ -6,7 +6,7 @@ gatherings:
   time: "9:00 am - 4:00 pm GMT"
   topic: "London"
   location: "United Kingdom"
-  venue: "30 Euston Square"
+  venue: "30 Euston Square "
   venue_URL: "https://30eustonsquare.co.uk/"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_London.html"
   registration_text: "Registration Opening Soon"
