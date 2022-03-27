@@ -2965,6 +2965,7 @@ speakers:
     URL: "https://redhat.com/"
     company: "Red Hat"
     role: "Senior Cloud Security Consultant"
+    photo: "speakers/tommer_sq_resize.jpg"
   - id: "michael_kotelnikov"
     name: "Michael Kotelnikov"
     URL: "https://redhat.com/"
