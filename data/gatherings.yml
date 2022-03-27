@@ -406,6 +406,7 @@ gatherings:
       track: "Main Stage"
       speakers:
         - id: "diane"
+        - id: "doron_fediuck"
     - local_time: "9:15 am"
       session_name: "OpenShift: Vision to Action - Live Demonstration of Latest Release"
       speakers:
@@ -467,7 +468,7 @@ gatherings:
     - local_time: "1:50 pm"
       session_name: "Lightning talk: Cloud Native with Nutanix and OpenShift"
       speakers: 
-        - id: "Nir_Goldshmid_Nutanix"
+        - id: "Shay_Hyams_Nutanix"
       track: "Main Stage"  
     - local_time: "2:00 pm"
       session_name: "Lunch and Exhibition"
@@ -477,6 +478,8 @@ gatherings:
       track: "Main Stage"  
     - local_time: "3:35 pm"
       session_name: "Lightning talk : Advanced Security for  OpenShift Applications - Ariel Shufer (Cisco)"
+      speakers: 
+        - id: "ariel_shufer"
       track: "Main Stage"  
     - local_time: "3:45 pm"
       session_name: "Assisted Installer - SaaS - 85% success rate on Bare Metal"
@@ -493,6 +496,8 @@ gatherings:
       track: "Main Stage"    
       speakers:
         - id: "diane"
+        - id: "doron_fediuck"
+        - id: "miki_kenneth"
 - name: "LATAM OpenShift Commons Gathering 2021 PT"
   menu: "show"
   language: "Portuguese"
