@@ -3120,7 +3120,7 @@ speakers:
     URL: "https://cisco.com"
     company: "Cisco"   
     role: "Cloud Native Security Product Manager"
-    photo: "speaker/ariel_shuper.jpeg"
+    photo: "speakers/ariel_shuper.jpeg"
   - id: "Batel_Zohar"
     name: "Batel Zohar"
     URL: "https://jfrog.com"
