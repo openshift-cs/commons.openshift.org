@@ -3123,6 +3123,7 @@ speakers:
     URL: "https://jfrog.com"
     company: "JFrog" 
     role: "Developer Advocate"
+    photo: "speakers/batel_zohar.jpeg"
   - id: "Elad_Harel"
     name: "Elad Harel"
     URL: "https://snyk.io/"
