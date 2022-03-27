@@ -3121,5 +3121,6 @@ speakers:
     name: "Elad Harel"
     URL: "https://snyk.io/"
     company: "Snyk" 
-    role: "Senior Solutions Engineer"    
+    role: "Senior Solutions Engineer"
+    photo: "speakers/Elad_Harel_SNYK.jpeg"
     
