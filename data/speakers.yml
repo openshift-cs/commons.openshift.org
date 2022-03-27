@@ -3089,7 +3089,7 @@ speakers:
     URL: "https://dynatrace.com"
     company: "Dynatrace" 
     role: "Senior Solution Architect"
-    photo: "speakers/Gil_Givati_DYNATRACE.jpeg"
+    photo: "speakers/Gil_Givati_DYNATRACE_resize.jpeg"
   - id: "Nir_Goldshmid_Nutanix"
     name: "Nir Goldshmid"
     URL: "https://nutanix.com"
