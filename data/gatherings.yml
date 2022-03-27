@@ -417,6 +417,7 @@ gatherings:
         - id: "batel_assaf_volchek"
         - id: "shon_paz"
         - id: "ronen_sde_or" 
+        - id: "oren_oichman"
       track: "Main Stage"
     - local_time: "10:00 am"
       session_name: "Developing the Future of Banking"
