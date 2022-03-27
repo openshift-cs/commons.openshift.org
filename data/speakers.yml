@@ -3109,6 +3109,7 @@ speakers:
     URL: "https://redhat.com"
     company: "Red Hat" 
     role: "Director, Software Engineering"
+    photo: "speakers/miki_kenneth.jpeg"
   - id: "oren_oichman"
     name: "Oren Oichman"
     URL: "https://redhat.com"
