@@ -3083,7 +3083,7 @@ speakers:
     URL: "https://couchbase.com"
     company: "Couchbase" 
     role: "Head of Solution Engineering, Israel Couchbase"
-    phoo: "speakers/roi_katz.png"
+    phoo: "speakers/roi_couchbase.jpeg"
   - id: "Gil_Givati_DYNATRACE"
     name: "Gil Givati"
     URL: "https://dynatrace.com"
