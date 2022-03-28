@@ -3107,6 +3107,7 @@ speakers:
     URL: "https://redhat.com"
     company: "Red Hat"    
     role: "Director, Software Engineering"
+    photo: "speakers/doron.png"
   - id: "miki_kenneth"
     name: "Miki Kenneth"
     URL: "https://redhat.com"
