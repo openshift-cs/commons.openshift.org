@@ -479,7 +479,7 @@ gatherings:
       session_name: "Lunch and Exhibition"
       track: "Main Stage"  
     - local_time: "2:45 pm"
-      session_name: "Customer Panel: Machine Learning From Data Center To The Edge"
+      session_name: "Customer Panel: Machine Learning From Data Center To The Edge - Bank Hapoalim, Clalit Health Services & MOD"
       track: "Main Stage"  
     - local_time: "3:35 pm"
       session_name: "Lightning talk : Advanced Security for  OpenShift Applications"
