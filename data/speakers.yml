@@ -3034,6 +3034,8 @@ speakers:
   - id: "valera_bronshtein"
     name: "Valera Bronshtein"
     URL: "https://redhat.com"
+    role: "Senior Solution Architect"
+    photo: "speakers/valera_bronshtein.png"
     company: "Red Hat" 
     role: "Sr. Solution Architect"
   - id: "gabi_dabach"
