@@ -361,8 +361,13 @@ gatherings:
       speakers:
         - id: "shrikant_acharya"
         - id: "ortwin_schneider"
-      track: "Main Stage"  
+      track: "Main Stage"
     - local_time: "06:40 pm"
+      session_name: "What's Next for Automotive Cloud Natives on the Edge"
+      speakers:
+        - id: "dan_noal"
+      track: "Main Stage"     
+    - local_time: "06:55 pm"
       session_name: "Automotive AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
       speakers:
         - id: "franz_meyer"
@@ -371,11 +376,12 @@ gatherings:
         - id: "dirk_weihrauch"
         - id: "dan_noal"
       track: "Main Stage"
-    - local_time: "07:00 pm"
-      session_name: "What's Next for Automotive Cloud Natives on the Edge"
+    - local_time: "07:15 pm"
+      session_name: "Online Networking"
       speakers:
-        - id: "dan_noal"
-      track: "Main Stage"   
+        - id: "harald_ruckriegel"
+        - id: "diane"
+      track: "Main Stage"     
 - name: "OpenShift Commons Gathering Israel"
   menu: "show"
   language: "English"
