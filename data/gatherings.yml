@@ -323,7 +323,6 @@ gatherings:
       session_name: "Keynote: Overview to Red Hat Industry Strategy, Automotive Initiatives, and Vision for Software Defined Vehicle"
       speakers:
         - id: "franz_meyer"
-        - id: "harald_ruckriegel"
       track: "Main Stage"
     - local_time: "4:25 pm"
       session_name: "Eclipse Software Defined Vehicle: Building the Future of Automotive Together"
