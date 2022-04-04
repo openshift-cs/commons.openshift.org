@@ -332,6 +332,7 @@ gatherings:
         - id: "daniel_krippner"
         - id: "ansgar_indwede"
         - id: "daniel_lueddecke"
+        - id: "harald_ruckriegel"
       track: "Main Stage"  
     - local_time: "04:55 pm"
       session_name: "Life on the Edge - Ongoing, Optimized Data Orchestration for Continual Improvement of the EV Experience"
