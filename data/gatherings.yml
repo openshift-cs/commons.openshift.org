@@ -319,12 +319,12 @@ gatherings:
         - id: "harald_ruckriegel"
         - id: "nischal_muchakani"
       track: "Main Stage"
-    - local_time: "4:10 pm"
+    - local_time: "4:05 pm"
       session_name: "Keynote: Overview to Red Hat Industry Strategy, Automotive Initiatives, and Vision for Software Defined Vehicle"
       speakers:
         - id: "franz_meyer"
       track: "Main Stage"
-    - local_time: "4:25 pm"
+    - local_time: "4:20 pm"
       session_name: "Eclipse Software Defined Vehicle: Building the Future of Automotive Together"
       speakers:
         - id: "michael_plagge"
@@ -333,7 +333,7 @@ gatherings:
         - id: "daniel_lueddecke"
         - id: "harald_ruckriegel"
       track: "Main Stage"  
-    - local_time: "05:00 pm"
+    - local_time: "04:55 pm"
       session_name: "Life on the Edge - Ongoing, Optimized Data Orchestration for Continual Improvement of the EV Experience"
       speakers:
         - id: "dennis_hamann"
