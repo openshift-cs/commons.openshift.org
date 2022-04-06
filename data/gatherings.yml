@@ -369,7 +369,6 @@ gatherings:
     - local_time: "06:55 pm"
       session_name: "Automotive AMA Session: Live Q/A with Guest Speakers,Red Hat Engineers & Project Leads"
       speakers:
-        - id: "franz_meyer"
         - id: "harald_ruckriegel"
         - id: "nischal_muchakani"
         - id: "dirk_weihrauch"
