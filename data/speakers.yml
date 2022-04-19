@@ -3146,4 +3146,9 @@ speakers:
     company: "Snyk" 
     role: "Senior Solutions Engineer"
     photo: "speakers/Elad_Harel_SNYK.jpeg"
+  - id: "jim_walker"
+    name: "Jim Walker"
+    role: "Principal Product Evangelist"
+    URL: "https://www.cockroachlabs.com/"
+    company: "Cockroach Labs"
     
