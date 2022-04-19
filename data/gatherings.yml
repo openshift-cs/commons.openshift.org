@@ -169,11 +169,13 @@ gatherings:
     - local_time: "3:15 pm"  
       session_name: "Storage Update: Moving Everything to Container Storage Interface without Anyone Noticing - Jan Šafránek (Red Hat)"
     - local_time: "3:25 pm"
-      session_name: "OKD Community Update - Vadim Rutkovsky and Christian Glombeck (Red Hat)
+      session_name: "OKD Community Update - Vadim Rutkovsky and Christian Glombeck (Red Hat)"
     - local_time: "3:35 pm"
       session_name: "Pivotal to OCP Migration - Adam Flower (HCL)"
     - local_time: "3:50 pm"
-      session_name: "TBD - 1"
+      session_name: "Cockroach Operator Update - Jim Walker (Cockroach Labs)"
+      speakers:
+         - id: "jim_walker"
     - local_time: "4:05 pm"
       session_name: "TBD - 2"
     - local_time: "4:20 pm"
