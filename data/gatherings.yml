@@ -208,7 +208,7 @@ gatherings:
       speakers: 
         - id: "mohammad_nofal"
     - local_time: "4:20 pm"
-      session_name: "Interconnectness and Growth OpenShift and Cloud Native Ecosystem"
+      session_name: "Interconnectness and Growth of OpenShift and Cloud Native Ecosystem"
       speakers: 
         - id: "miguel_angel_fernandez"
     - local_time: "4:35 pm"
