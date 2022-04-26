@@ -135,7 +135,7 @@ gatherings:
         - id: "ramonacedo" 
       track: "Main Stage"
     - local_time: "10:15 am"
-      session_name: "Partner Keynote: Application Modernization on AWS with OpenShift - ROSA)"
+      session_name: "Partner Keynote: Application Modernization on AWS with OpenShift (ROSA) - Javier Naranjo Matasan (Amazon)"
       speakers:
         - id: "sai_vennam"
       track: "Main Stage"  
