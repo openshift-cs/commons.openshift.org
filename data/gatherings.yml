@@ -196,7 +196,7 @@ gatherings:
         - id: "vadim"
         - id: "christian_glombek" 
     - local_time: "3:35 pm"
-      session_name: "Pivotal to OCP Migration"
+      session_name: "The Journey From Cloud Foundry to Openshift – Fully Automated Migration"
       speakers:
         - id: "adam_flower"
     - local_time: "3:50 pm"
