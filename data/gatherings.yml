@@ -149,7 +149,7 @@ gatherings:
         - id: "luke_hinds"
       track: "Main Stage"  
     - local_time: "11:35 am"
-      session_name: "Application Modernization and Migration with Konveyor - Ramon Roman Nissen (Red Hat)"
+      session_name: "Application Modernization and Migration with Konveyor"
       speakers:
         - id: "ramon_roman_nissen"
       track: "Main Stage"  
