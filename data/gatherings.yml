@@ -159,13 +159,13 @@ gatherings:
       speakers:
          - id: "stu"
     - local_time: "1:00 pm"
-      session_name: "Customer Case Study: Saudi Aramco"
+      session_name: "Platform Engineer's Journey - Yasmeen Alufaisan (Aramco)"
       track: "Main Stage"  
     - local_time: "1:30 pm"
       session_name: "Customer Case Study: Telefónica"
       track: "Main Stage"  
     - local_time: "2:00 pm"
-      session_name: "AI at the Edge with MicroShift)"
+      session_name: "AI at the Edge with MicroShift"
       speakers:
         - id: "ricardo_noriega_de_soto"
         - id: "miguel_angel_ajo"
@@ -212,6 +212,8 @@ gatherings:
       speakers: 
         - id: "miguel_angel_fernandez"
     - local_time: "4:35 pm"
+      session_name: "Sharing is Caring: Build, Accelerate, Inspire - Walid Shaari (Aramco)"
+    - local_time: "4:45 pm:
       session_name: "AMA with Red Hat Engineers, Project Leads and Guest Speakers"
     - local_time: "4:55 pm"
       session_name: "Closing - Opinionated Guide to Kubecon/EU 2022 - Daniel Oh (Red Hat) & Door Prizes Raffle"
