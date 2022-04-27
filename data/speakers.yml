@@ -3189,7 +3189,7 @@ speakers:
     photo: "speakers/miguel_angel_fernandez.jpg"
   - id: "adam_flower"
     name: "Adam Flower"
-    role: ""
+    role: "Senior Vice President - CTO & Global Head, Cloud Native Labs"
     URL: "https://www.hcl.com/"
     company: "HCL Technologies"
     photo: "speakers/adam_flower.jpg"
