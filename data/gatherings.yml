@@ -213,7 +213,7 @@ gatherings:
         - id: "miguel_angel_fernandez"
     - local_time: "4:35 pm"
       session_name: "Sharing is Caring: Build, Accelerate, Inspire - Walid Shaari (Aramco)"
-    - local_time: "4:45 pm:
+    - local_time: "4:45 pm"
       session_name: "AMA with Red Hat Engineers, Project Leads and Guest Speakers"
     - local_time: "4:55 pm"
       session_name: "Closing - Opinionated Guide to Kubecon/EU 2022 - Daniel Oh (Red Hat) & Door Prizes Raffle"
