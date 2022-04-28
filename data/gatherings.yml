@@ -200,7 +200,7 @@ gatherings:
       speakers:
         - id: "adam_flower"
     - local_time: "3:50 pm"
-      session_name: "Cockroach Operator Update"
+      session_name: "Data Management for a Hybrid World: That Was Easy"
       speakers:
          - id: "jim_walker"
     - local_time: "4:05 pm"
