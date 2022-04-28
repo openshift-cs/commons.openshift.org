@@ -3232,7 +3232,7 @@ speakers:
     company: "Aramco"
   - id: "walid_shaari"
     name: "Walid Shaari"
-    role: "AWS Container Hero, CNJ: Cloud-Native Janitor, Red Hat Accelerator,CKA, CKS, CKAD, RHCA"
+    role: "Red Hat Accelerator, AWS Container Hero, Cloud-Native Janitor"
     URL: "https://www.aramco.com/"
     company: "Aramco"
     photo: "speakers/walid_saleh.jpg"
