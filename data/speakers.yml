@@ -1,7 +1,7 @@
 speakers:
   - id: "diane"
     name: "Diane Mueller"
-    role: "Director, Community Development, Hybrid Cloud Platform"
+    role: "Director, Community Development - Co-Host, OpenShift Commons"
     company: "Red Hat"
     URL: "https://commons.openshift.org"
     intro: "Diane Mueller, Distinguished Community Architect,Director of OpenShift Commons, & Co-chair of the OKD-WG, the Community Distribution of Kubernetes that powers Red Hat OpenShift."
@@ -3197,7 +3197,7 @@ speakers:
     photo: "speakers/adam_flower.jpg"
   - id: "daniel_oh"
     name: "Daniel Oh"
-    role: "Developer Advocate, CNCF Ambassador"
+    role: "Developer Advocate, CNCF Ambassador - Co-Host, OpenShift Commons (Virtual)"
     URL: "https://www.redhat.com/"
     photo: "speakers/daniel_oh.jpg"
     company: "Red Hat"
