@@ -212,7 +212,9 @@ gatherings:
       speakers: 
         - id: "miguel_angel_fernandez"
     - local_time: "4:35 pm"
-      session_name: "Sharing is Caring: Build, Accelerate, Inspire - Walid Shaari (Aramco)"
+      session_name: "Sharing is Caring: Build, Accelerate, Inspire"
+      speakers: 
+        - id: "walid_shaari"
     - local_time: "4:45 pm"
       session_name: "AMA with Red Hat Engineers, Project Leads and Guest Speakers"
     - local_time: "4:55 pm"
