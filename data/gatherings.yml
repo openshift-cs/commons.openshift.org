@@ -56,10 +56,10 @@ gatherings:
   venue: "The Helix"
   venue_URL: "https://thehelix.ie/"
   calendar_event_URL: "https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Dublin.html"
-  registration_text: "Registration Opening Soon"
-  registration_URL: "https://hopin.com/events/openshift-commons-gathering-dublin"
+  registration_text: "Register Now!"
+  registration_URL: "https://events.redhat.com/profile/form/index.cfm?PKformID=0x5644726e5c&varPage=register"
   pricing:
-    - label: "Save The Date"
+    - label: "Registration Open!"
       price: "Free"
   lead_text: >-
     This OpenShift Commons Gathering will be held on June 23rd live in Dublin, Ireland!
