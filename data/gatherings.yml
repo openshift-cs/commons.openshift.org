@@ -184,7 +184,7 @@ gatherings:
       speakers:
         - id: "connor_gorman"
     - local_time: "3:15 pm"  
-      session_name: "Operator First! Community Update"
+      session_name: "Declarative GitHub org management with Peribolos on Operate First"
       speakers:
         - id: "tom_coufal"
     - local_time: "3:15 pm"  
