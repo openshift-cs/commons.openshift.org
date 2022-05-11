@@ -166,7 +166,7 @@ gatherings:
       session_name: "Customer Case Study: Telefónica"
       track: "Main Stage"  
     - local_time: "2:00 pm"
-      session_name: "AI at the Edge with MicroShift"
+      session_name: "MicroShift: a lightweight OpenShift at the Edge"
       speakers:
         - id: "ricardo_noriega_de_soto"
         - id: "miguel_angel_ajo"
