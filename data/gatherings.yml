@@ -155,48 +155,45 @@ gatherings:
         - id: "ramon_roman_nissen"
       track: "Main Stage"  
     - local_time: "12:00 pm"
-      session_name: "Lunch Break  - Virtual - OpenShift Regional Meetup Updates"
+      session_name: "Lunch Break"
       track: "Main Stage"  
-      speakers:
-         - id: "stu"
     - local_time: "1:00 pm"
       session_name: "Platform Engineer's Journey - Yasmeen Alufaisan (Aramco)"
       track: "Main Stage"  
     - local_time: "1:30 pm"
-      session_name: "Customer Case Study: Telefónica"
-      track: "Main Stage"  
-    - local_time: "2:00 pm"
       session_name: "MicroShift: a lightweight OpenShift at the Edge"
       speakers:
         - id: "ricardo_noriega_de_soto"
         - id: "miguel_angel_ajo"
-      track: "Main Stage"  
-    - local_time: "2:30 pm"
+    - local_time: "2:00 pm"
       session_name: "The Evolution of Kubernetes Security: What's Next?"
       speakers:
         - id: "kirsten"
+        - id: "karena_angell"
       track: "Main Stage"
-    - local_time: "3:00 pm"
+    - local_time: "2:55 pm"
       session_name: "OpenShift Commons Community Lead Lightning Talk Round"
       track: "Main Stage"  
-    - local_time: "3:05 pm"
+      speakers: 
+         - id: "diane"
+    - local_time: "3:00 pm"
       session_name: "Stackrox.io Community Update"
       speakers:
         - id: "connor_gorman"
-    - local_time: "3:15 pm"  
-      session_name: "Declarative GitHub org management with Peribolos on Operate First"
-      speakers:
-        - id: "tom_coufal"
-    - local_time: "3:15 pm"  
+    - local_time: "3:10 pm"  
       session_name: "Storage Update: Moving Everything to Container Storage Interface without Anyone Noticing"
       speakers:
         - id: "jan_safranek"
-    - local_time: "3:25 pm"
+    - local_time: "3:20 pm"  
+      session_name: "Declarative GitHub org management with Peribolos on Operate First"
+      speakers:
+        - id: "tom_coufal"
+    - local_time: "3:30 pm"
       session_name: "OKD Community Update"
       speakers:
         - id: "vadim"
         - id: "christian_glombek" 
-    - local_time: "3:35 pm"
+    - local_time: "3:40 pm"
       session_name: "The Journey From Cloud Foundry to Openshift – Fully Automated Migration"
       speakers:
         - id: "adam_flower"
@@ -204,7 +201,7 @@ gatherings:
       session_name: "Data Management for a Hybrid World: That Was Easy"
       speakers:
          - id: "jim_walker"
-    - local_time: "4:05 pm"
+    - local_time: "4:10 pm"
       session_name: "What’s Possible with Azure Red Hat OpenShift!"
       speakers: 
         - id: "mohammad_nofal"
@@ -212,11 +209,11 @@ gatherings:
       session_name: "Interconnectness and Growth of OpenShift and Cloud Native Ecosystem"
       speakers: 
         - id: "miguel_angel_fernandez"
-    - local_time: "4:35 pm"
+    - local_time: "4:40 pm"
       session_name: "Sharing is Caring: Build, Accelerate, Inspire"
       speakers: 
         - id: "walid_shaari"
-    - local_time: "4:45 pm"
+    - local_time: "4:50 pm"
       session_name: "AMA with Red Hat Engineers, Project Leads and Guest Speakers"
     - local_time: "4:55 pm"
       session_name: "Closing - Opinionated Guide to Kubecon/EU 2022 - Daniel Oh (Red Hat) & Door Prizes Raffle"
