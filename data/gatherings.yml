@@ -171,7 +171,7 @@ gatherings:
         - id: "kirsten"
         - id: "karena_angell"
       track: "Main Stage"
-    - local_time: "2:55 pm"
+    - local_time: "2:45 pm"
       session_name: "OpenShift Commons Community Lead Lightning Talk Round"
       track: "Main Stage"  
       speakers: 
