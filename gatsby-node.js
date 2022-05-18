@@ -197,6 +197,19 @@ exports.createSchemaCustomization = ({ actions }) => {
     videoId: String
   }
 
+  type SpeakersYaml implements Node {
+    id: ID!
+    parent: Node
+    children: [Node!]!
+    internal: Internal!
+    speaker_id: String
+    name: String
+    role: String
+    company: String
+    url: String
+    intro: String
+    photo: File
+  }
   `
   createTypes(typeDefs)
 }
