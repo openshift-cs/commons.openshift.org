@@ -1,12 +1,12 @@
 #!/usr/bin/ruby
 
 #################
-# Produces videos.mdx file with YouTube video links based on playlist IDs found
-# in videos/index.mdx.
+# Produces videos.yml file with YouTube video links based on playlist IDs found
+# in videos/videos.yml.
 # This script is intended to be run before Gatsby build
 
 GATHERINGS_FILE = "videos.yml"
-OUTPUT_FILE = "src/content/videos/index.mdx"
+OUTPUT_FILE = "src/content/videos/videos.yml"
 YT_PLAYLIST_PAGINATION = 20 # YouTube video results per page when querying playlistItems (max 50, default 5)
 SLEEP_SECONDS = 1 # throttling individual API requests
 
