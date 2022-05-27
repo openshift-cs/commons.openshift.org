@@ -23,6 +23,7 @@ gatherings:
     <a href="https://hopin.com/events/openshift-commons-gathering-london" target="_blank">[Please register via the Hopin Registration Portal here]</a>
   invite_link: "https://hopin.com/events/openshift-commons-gathering-london"
   sponsors:
+    - name: "Crunchy"
   sponsoring_URL: "mailto:cgriffit@redhat.com"
   schedule:
     - local_time: "09:00 am"
