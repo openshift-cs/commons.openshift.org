@@ -24,6 +24,8 @@ gatherings:
   invite_link: "https://hopin.com/events/openshift-commons-gathering-london"
   sponsors:
     - name: "Crunchy"
+      label: "Co-Host"
+      level: 1
   sponsoring_URL: "mailto:cgriffit@redhat.com"
   schedule:
     - local_time: "09:00 am"
