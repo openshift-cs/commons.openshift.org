@@ -110,7 +110,7 @@ export default function GatheringPage({ data, ...props }) {
   let sponsorLabels = []
 
   // If sponsors with levels, create array of levels.
-  if (sponsors && sponsors[1].level) {
+  if (sponsors && sponsors[0].level) {
     sponsorLevels = sponsors.map((sponsor) => {
       sponsorLabels[sponsor.level] = sponsor.label
       return sponsor.level
@@ -256,7 +256,7 @@ export default function GatheringPage({ data, ...props }) {
               </>
             )}
 
-            {sponsors[1].level ? (
+            {sponsors[0].level ? (
               sponsorLevels
                 .sort((a, b) => (a > b ? 1 : -1))
                 .map((lvl) => (
