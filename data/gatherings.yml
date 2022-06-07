@@ -81,6 +81,8 @@ gatherings:
     - local_time: "09:10 am"
       session_name: "Welcome to the Commons"
       track: "Main Stage"
+      speakers:
+        - id: "a"
     - local_time: "09:30 am"
       session_name: "Keynote: OpenShift Everywhere: Red Hat's Hybrid Cloud Vision"
       speakers:
