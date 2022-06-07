@@ -3277,6 +3277,7 @@ speakers:
     role: "Open Source Architect"
     URL: "https://www.redhat.com/"
     photo: "speakers/murph.jpg"
+    company: "Red Hat"
   - id: "brian_innes"
     name: "Brian Innes"
     role: "IT Specialist"
