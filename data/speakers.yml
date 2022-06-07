@@ -3297,7 +3297,7 @@ speakers:
     company: "Version 1"
     photo: "speakers/nick_tarmey.jpg"
   - id: "daniel_mcElligott"
-    name: "Daniel_McElligott"
+    name: "Daniel McElligott"
     role: "Senior Software Engineer"
     URL: "https://www.version1.com/"
     company: "Version 1"
