@@ -93,6 +93,7 @@ gatherings:
       track: "Main Stage"
       speakers:
         - id: "nick_tarmey"
+        - id: "hugh_nolan"
     - local_time: "10:30 am"
       session_name: "OpenShift Release Update and Road Map"
       track: "Main Stage"
@@ -140,11 +141,16 @@ gatherings:
       track: "Main Stage"   
       speakers:
         - id: "ian_lawson"
+    - local_time: "3:00 pm"
+      session_name: "From Idea to Production in 60 Days: A Real World Example"
+      track: "Main Stage"
+      speakers:
+        - id: "murph"
     - local_time: "3:30 pm"
       session_name: "Simplifying Database Cloud Service Access with RHODA"
       track: "Main Stage"   
       speakers:
-        - id: "raghuram_banda"
+        - id: "banda"
     - local_time: "4:00 pm"
       session_name: "3 Pitfalls Everyone Should Avoid with Cloud Data"
       track: "Main Stage"   
