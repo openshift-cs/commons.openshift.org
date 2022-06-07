@@ -79,10 +79,8 @@ gatherings:
       session_name: "Registration Opens"
       track: "Main Stage"
     - local_time: "09:10 am"
-      session_name: "Welcome to the Commons: Unlocking the Potential of Collaboration"
+      session_name: "Welcome to the Commons"
       track: "Main Stage"
-      speakers:
-        - id: "diane"
     - local_time: "09:30 am"
       session_name: "Keynote: OpenShift Everywhere: Red Hat's Hybrid Cloud Vision"
       speakers:
@@ -104,7 +102,7 @@ gatherings:
       session_name: "Coffee Break"
       track: "Main Stage"  
     - local_time: "11:15 am"
-      session_name: "Inner Loop Development on OpenShift - Lessons Learned - Florian Moss"
+      session_name: "Inner Loop Development on OpenShift - Lessons Learned"
       track: "Main Stage"  
       speakers:
         - id: "florian_moss"
