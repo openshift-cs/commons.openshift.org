@@ -106,6 +106,8 @@ gatherings:
     - local_time: "11:15 am"
       session_name: "Inner Loop Development on OpenShift - Lessons Learned - Florian Moss"
       track: "Main Stage"  
+      speakers:
+        - id: "florian_moss"
     - local_time: "11:45 pm"
       session_name: "Building Kubernetes Operators in the Wild - Managing the Lifecycle of Your Application on the Cloud"
       speakers:
@@ -127,7 +129,7 @@ gatherings:
       session_name: "Lunch Break"
       track: "Main Stage"  
     - local_time: "1:45 pm"
-      session_name: "Version 1 Sponsor Session:  Automated provisioning of CI/CD services on OpenShift"
+      session_name: "Automated Provisioning of CI/CD Services on OpenShift"
       track: "Main Stage"   
       speakers:
         - id: "daniel_mcElligott"
