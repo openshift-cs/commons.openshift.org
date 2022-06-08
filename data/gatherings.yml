@@ -104,10 +104,10 @@ gatherings:
       session_name: "Coffee Break"
       track: "Main Stage"  
     - local_time: "11:15 am"
-      session_name: "Inner Loop Development on OpenShift - Lessons Learned"
-      track: "Main Stage"  
+      session_name: "Next Generation AI/ML Workloads on OpenShift using Knative and Infinispan"
+      track: "Main Stage"   
       speakers:
-        - id: "florian_moss"
+        - id: "ian_lawson"
     - local_time: "11:45 pm"
       session_name: "Building Kubernetes Operators in the Wild - Managing the Lifecycle of Your Application on the Cloud"
       speakers:
@@ -125,7 +125,7 @@ gatherings:
       speakers:
         - id: "christian_glombek"
         - id: "brian_innes"
-    - local_time: "1:00 pm"
+    - local_time: "12:55 pm"
       session_name: "Lunch Break"
       track: "Main Stage"  
     - local_time: "1:45 pm"
@@ -138,27 +138,20 @@ gatherings:
       track: "Main Stage"   
       speakers:
         - id: "paul_maher"
-    - local_time: "2:35 pm"
-      session_name: "Next Generation AI/ML Workloads on OpenShift using Knative and Infinispan   "
-      track: "Main Stage"   
-      speakers:
-        - id: "ian_lawson"
-    - local_time: "3:00 pm"
-      session_name: "From Idea to Production in 60 Days: A Real World Example"
-      track: "Main Stage"
-      speakers:
-        - id: "murph"
-    - local_time: "3:30 pm"
+    - local_time: "2:45 pm"
       session_name: "Simplifying Database Cloud Service Access with RHODA"
       track: "Main Stage"   
       speakers:
         - id: "banda"
-    - local_time: "4:00 pm"
+    - local_time: "3:00 pm"
+      session_name: "Coffee Break"
+      track: "Main Stage"  
+    - local_time: "3:15 pm"
       session_name: "3 Pitfalls Everyone Should Avoid with Cloud Data"
       track: "Main Stage"   
       speakers:
         - id: "eric_schabell"
-    - local_time: "4:30 pm"
+    - local_time: "3:40 pm"
       session_name: "AMA Session: Live Q/A with Guest Speakers, Red Hat Engineers & Project Leads"
       track: "Main Stage"      
       speakers:
