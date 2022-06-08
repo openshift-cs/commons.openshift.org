@@ -108,7 +108,7 @@ gatherings:
       track: "Main Stage"   
       speakers:
         - id: "ian_lawson"
-    - local_time: "11:45 pm"
+    - local_time: "11:45 am"
       session_name: "Building Kubernetes Operators in the Wild - Managing the Lifecycle of Your Application on the Cloud"
       speakers:
         - id: "martin_hickey"
@@ -153,6 +153,11 @@ gatherings:
         - id: "eric_schabell"
     - local_time: "3:40 pm"
       session_name: "AMA Session: Live Q/A with Guest Speakers, Red Hat Engineers & Project Leads"
+      track: "Main Stage"      
+      speakers:
+        - id: "stu"
+    - local_time: "4:00 pm"
+      session_name: "Thank yous and Closing"
       track: "Main Stage"      
       speakers:
         - id: "stu"
