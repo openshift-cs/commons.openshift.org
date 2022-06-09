@@ -54,12 +54,14 @@ module.exports = {
         resolveEnv: () => buildEnv,
         env: {
           development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
+            policy: [{ userAgent: '*', disallow: '/' }],
             sitemap: null,
             host: null,
           },
           production: {
-            policy: [{ userAgent: '*', allow: '/' }],
+            policy: [
+              { userAgent: '*', allow: '/', disallow: ['/briefings/slides', '/gatherings/slides'] },
+            ],
           },
         },
       },

@@ -3484,3 +3484,6 @@
 - name: 'Entrust Corporation'
   link: 'https://www.entrust.com/'
   logo: 'entrustcorporation.jpg'
+- name: 'Version1'
+  link: 'https://www.version1.com/'
+  logo: 'version1.jpg'
