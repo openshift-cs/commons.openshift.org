@@ -54,13 +54,19 @@ Capitalization of the fields does not matter, however each need to be on differe
 
 The participants (displayed on [OpenShift Commons Participants](https://commons.openshift.org/participants/) are in the `src/content/participants` directory.
 
-Place the company's logo image in this directory. Edit `participants.yml` and add the new participant. Example entry:
+Place the company's logo image in this directory. Edit `participants.yml` and add the new participant.
+
+Example entry:
 
 ```
 - name: 'Red Hat'
   link: 'https://cloud.redhat.com'
   logo: 'red-hat-logo.svg'
 ```
+
+Displays as:
+
+![Red Hat entry on participants page](img/participant.png)
 
 The fields are:
 
@@ -72,7 +78,9 @@ The fields are:
 
 The operators (displayed on [Community-created Operators](https://commons.openshift.org/sigs/operators/) are in the `src/content/operators` directory.
 
-Place the company's logo image in this directory. Edit `operators.yml` and add the new operator. Example entry:
+Place the company's logo image in this directory. Edit `operators.yml` and add the new operator.
+
+Example entry:
 
 ```
 - title: 'Syndesis'
@@ -81,6 +89,10 @@ Place the company's logo image in this directory. Edit `operators.yml` and add t
   logo: 'syndesis.png'
   description: 'The Syndesis Infrastructure Operator for installing and updating Syndesis.'
 ```
+
+Displays as:
+
+![Syndesis entry on operators page](img/operator.png)
 
 The fields are:
 
@@ -101,14 +113,18 @@ Place the speakers image in this directory (optional). Edit `speakers.yml` and a
 Example entry:
 
 ```
-- speaker_id: 'speaker_id'
+- speaker_id: 'jane-doe'
   name: 'Jane Doe'
   role: 'Everyday Ninja'
-  URL: 'https://doesystems.com/jane/'
+  url: 'https://doesystems.com/jane/'
   company: 'Doe Systems'
   photo: 'janedoe.jpg'
   intro: 'Jane is...'
 ```
+
+Displays as:
+
+![Example speaker](img/speaker.png)
 
 The fields are:
 
@@ -116,7 +132,7 @@ The fields are:
 - **name** — The speaker's name.
 - **role** — Role or job title.
 - **company** — Company name (optional).
-- **URL** — URL to company or speaker information page (optional).
+- **url** — URL to company or speaker information page (optional).
 - **photo** — image file name (optional).
 - **intro** — a short introduction to the speaker (optional).
 
@@ -124,7 +140,9 @@ The fields are:
 
 Sponsor information is referenced from the gatherings file. It first looks for a sponsor in the participants directory, then in `src/content/sponsors` directory.
 
-To add a sponsor (who is not a participant), place the sponsor's logo image in this directory. Edit `sponsors.yml` and add the new sponsor. Example entry:
+To add a sponsor (who is not a participant), place the sponsor's logo image in this directory. Edit `sponsors.yml` and add the new sponsor.
+
+Example entry:
 
 ```
 - name: 'Red Hat'
@@ -142,9 +160,80 @@ The fields are:
 
 Images or presentation files that are to be on the website but not processed by Gatsby need to be placed under the `static` directory.
 
-For example, to have the file `RedHat-Talk-Saenko-Jan2021.pdf` available at [https://commons.openshift.org/gatherings/slides/RedHat-Talk-Saenko-Jan2021.pdf](https://commons.openshift.org/gatherings/slides/RedHat-Talk-Saenko-Jan2021.pdf) place the file in the `static/gatherings/slides` directory.
+For example, to have the file `MyPresentation.pdf` available at https://commons.openshift.org/gatherings/slides/MyPresentation.pdf place the file in the `static/gatherings/slides` directory.
 
-## Adding Gathering Pages and Videos
+Note: for best results, do not use spaces in files names and limit punctuation to period, hyphen, or underscore (. - \_).
+
+### Gatherings
+
+Gatherings information is located under the `src/content/gatherings` directory. Each gathering is in a separate subdirectory. The name of the subdirectory will become the of the URL.
+
+For example, to create a gathering for Chicago on April 18, 2023, create the directory `chicago-23-apr-18`. In that directory create the file `index.mdx`. This file will contain YAML frontmatter with all of the information. The URL for this gathering would be `https://commons.openshift.org/gatherings/chicago-23-apr-18`.
+
+Since this file contains many fields, the information will be presented a section at a time.
+
+#### Basic information
+
+Example:
+
+```
+---
+title: Chicago Meeting
+description: Come join us in Chicago at Wrigley Field.
+date: '2023-04-18'
+time: '2:30–6 p.m. CDT'
+location: Wrigley Field
+---
+```
+
+Displays on the gatherings summary page as:
+
+![Gathering summary](img/gathering-summary.png)
+
+and at the top of the gathering page as:
+
+![Gathering title area](img/gathering-top.png)
+
+The fields are:
+
+- **title** — title of the gathering.
+- **description** — description that displays in the summary (optional).
+- **date** — date in YYYY-MM-DD format.
+- **time** — time of the gathering
+
+The `language` field is used to format the date according to a particular language.
+
+Examples:
+
+```
+language: 'en-US'
+```
+
+Displays as:
+
+![Date in US English](img/en-US.png)
+
+```
+language: 'en-UK'
+```
+
+Displays as:
+
+![Date in UK English](img/en-UK.png)
+
+```
+language: 'pt-BR'
+```
+
+Displays as:
+
+![Date in Brazilian Portuguese](img/pt-BR.png)
+
+The filed is:
+
+- **language** — the language used to format the date. Must be a standard [HTML language specifier](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang). Defaults to `en-US` (optional).
+
+---
 
 Gathering pages summarizing information about a particular event can be generated automatically, based on information provided in the `/data/gatherings.yml` file. Details of the gathering event, sponsors and speakers are separated into three groups, explained below with in-line (comments in brackets). If not stated otherwise, the attribute is required and cannot be omitted for the page generation. However, if there are too many details omitted, the page may look plain; make sure to always check that the page is built to your liking, with the data provided in `gatherings.yml`.
 
