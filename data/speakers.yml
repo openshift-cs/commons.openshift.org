@@ -3291,7 +3291,7 @@ speakers:
     company: "IBM"
     photo: "speakers/brian_innes.jpg"
   - id: "martin_hickey"
-    name: "Martin_Hickey"
+    name: "Martin Hickey"
     role: "Senior Software Engineer"
     URL: "https://www.ibm.com/"
     company: "IBM"
