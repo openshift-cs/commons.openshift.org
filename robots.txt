@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /briefings/slides
+Disallow: /gatherings/slides
 Sitemap: https://commons.openshift.org/sitemap/sitemap-index.xml
 Host: https://commons.openshift.org
