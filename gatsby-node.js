@@ -208,7 +208,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     company: String
     url: String
     intro: String
-    photo: File
   }
   `
   createTypes(typeDefs)
