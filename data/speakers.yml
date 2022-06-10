@@ -3309,7 +3309,7 @@ speakers:
     company: "Version 1"
     photo: "speakers/daniel_mcElligott.jpg"
   - id: "hugh_nolan"
-    name: "Hugo Nolan"
+    name: "Hugh Nolan"
     role: "Lead Solution Architect"
     URL: "https://www.version1.com/"
     company: "Version 1"
