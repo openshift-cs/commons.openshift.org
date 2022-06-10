@@ -78,9 +78,6 @@ gatherings:
     - local_time: "09:00 am"
       session_name: "Registration Opens"
       track: "Main Stage"
-    - local_time: "09:10 am"
-      session_name: "Welcome to the Commons"
-      track: "Main Stage"
       speakers:
         - id: "a"
     - local_time: "09:30 am"
