@@ -182,7 +182,7 @@ title: Chicago Meeting
 description: Come join us in Chicago at Wrigley Field.
 date: '2023-04-18'
 time: '2:30–6 p.m. CDT'
-location: Wrigley Field
+location: Chicago
 ---
 ```
 
@@ -369,7 +369,7 @@ The fields are:
 - **schedule**: section label (section is optional).
 - **local_time**: start time of session.
 - **session_name**: — session title.
-- **track**: — track name (optional). If no sessions have a track, sessions display without tab interface. Sessions in the same track display in that tab. With most sessions having tracks, an event without one displays on all tracks. This is useful for breaks.
+- **track**: — track name (optional). If no sessions have a track, sessions display without tab interface. Sessions in the same track display in that tab. If tracks are defined, an event without one displays on all tracks. This is useful for breaks, reception, lunch, etc.
 - **speakers** — section label for session speakers (section is optional).
 - **id** — ID of a speaker from `src/content/speakers/speakers.yml`.
 
@@ -403,43 +403,167 @@ The fields are:
 
 Note: the other fields displayed in this section (`date`, `time`, `venue`, `venue_URL`, and `location`) already defined above.
 
+#### Translations
+
+If the gathering is being held in another language, the headings can be translated.
+
+Translation example:
+
+```
+translate_overview: Descrição do evento
+translate_invite: Convidar um amigo
+translate_where: Onde
+translate_when: Quando
+translate_price: Custo
+translate_sponsors: Patrocinadores
+translate_schedule: Agenda
+translate_speakers: Palestrantes
+translate_venue: Local do evento
+```
+
+The fields are:
+
+- **translate_overview** — translation of `Event Overview`.
+- **translate_invite** — translation of `Invite a Friend`.
+- **translate_where** — translation of `Where`.
+- **translate_when** — translation of `When`.
+- **translate_price** — translation of `Price`.
+- **translate_sponsors** — translation of `Sponsors`.
+- **translate_schedule** — translation of `Schedule`.
+- **translate_speakers** — translation of `Speakers`.
+- **translate_venue** — translation of `Venue`.
+
+#### Full example
+
+Example of a full `index.mdx` file:
+
+```
 ---
+title: 'LATAM OpenShift Commons Gathering 2021 PT'
+menu: 'show'
+description: ''
+language: 'pt-BR'
+date: '2021-10-06'
+time: '10 a.m–3 p.m.'
+location: 'Latinoamérica — Português'
 
-Gathering pages summarizing information about a particular event can be generated automatically, based on information provided in the `/data/gatherings.yml` file. Details of the gathering event, sponsors and speakers are separated into three groups, explained below with in-line (comments in brackets). If not stated otherwise, the attribute is required and cannot be omitted for the page generation. However, if there are too many details omitted, the page may look plain; make sure to always check that the page is built to your liking, with the data provided in `gatherings.yml`.
+head_text: >-
+  Onde usuários, parceiros, clientes, contribuidores e líderes de projetos se reúnem para colaborar e trabalhar juntos em todo o ecossistema OpenShift Cloud Native.
+registration_text: Confirme sua presença
+registration_URL: 'https://www.redhat.com/pt-br/forums/latam'
 
-As mentioned in the comment above, this section is also used to reference **YouTube playlists** from past Gatherings. See the `youtube_playlist_id` key description above. The videos are taken from the playlists with relevant details such as video order in the list, video thumbnail, video name and video description; if you need to edit any of these, it should be done in the YouTube playlist itself. When there are any changes made on youTube to a playlist that is already published, the changes will be in effect after the Commons site is re-deployed, as the videos are fetched on build time. Please contact repository maintainers, if you don't feel like waiting for the next site re-build and would like to have the changes deployed as soon as possible.
+lead_text: >-
+  Openshift Commons Gathering Latinoamérica 2021 — Português
+info_text: >-
+  O OpenShift Commons Gathering é o maior evento para usuários e contribuidores do OpenShift na região. Um espaço para criar conexões, onde experiências, histórias de sucesso e boas práticas são compartilhadas por especialistas e pares de todo o mundo. Este ano, aprenderemos sobre os recursos em contêineres mais recentes, à medida que a comunidade oferece um tour em primeira pessoa das melhores práticas para desenvolvedores de aplicativos nativos em nuvem e os projetos de software de código aberto que sustentam o ecossistema OpenShift.
+invite_link: 'https://docs.google.com/forms/d/e/1FAIpQLSfHDndcqfnU8y6X58e0GbfqHNxWPrX1qg2REH9tin-zqjJSkw/viewform'
+venue: 'Experiência virtual — Português'
+venue_URL: 'https://www.redhat.com/pt-br/forums/latam'
+price: Sem custo
+event_footer_text: >-
+  O OpenShift Commons Gathering será o cenário ideal para apresentar uma ampla gama de tecnologias que sustentam o ecossistema OpenShift.
 
-If a whole landing page does not need to be built for an older gathering, a simple record, such as the following one, would result in publishing videos only from the given YouTube playlist on [the Gatherings Videos page](https://commons.openshift.org/videos.html):
+schedule_leadin: >-
+  Todos os horários são mostrados no fuso horário de Brasília
+videos_text: >-
+  Veja edições anteriores de OpenShift Commons
+
+schedule:
+  - local_time: '9:50'
+    session_name: 'Bem-vindo ao OpenShift Commons: Colaboração em ação'
+    speakers:
+      - id: 'edson_yanaga'
+      - id: 'diane'
+  - local_time: '10:00'
+    session_name: 'Customer Keynote: Desacoplando o negócio digital com Openshift'
+    speakers:
+      - id: 'fred_ferreira'
+      - id: 'rodrigo_canhissare'
+  - local_time: '10:30'
+    session_name: 'O que há de novo no Openshift 4.8'
+    speakers:
+      - id: 'karena_angell'
+      - id: 'rob_szumski'
+  - local_time: '11:05'
+    session_name: 'OpenShift e Sulamérica: uma jornada de sucesso'
+    speakers:
+      - id: 'emerson_levi'
+  - local_time: '11:30'
+    session_name: 'Data Science como serviço gerenciado em OpenShift'
+    speakers:
+      - id: 'audrey_reznik'
+  - local_time: '12:05'
+    session_name: 'Jornada Banco #Original de Microsserviços'
+    speakers:
+      - id: 'luiz_paulo_leite_machado'
+  - local_time: '12:25'
+    session_name: 'Hospital Israelita Albert Einstein: Desafios e conquistas - Aprimorando a produtividade e promovendo a inovação'
+    speakers:
+      - id: 'henrique_xavier_goulart'
+  - local_time: '12:45'
+    session_name: 'Claro Brasil: Mudança de mentalidade e cultura devops Como o OpenShift nos ajudou a mudar nossa cultura'
+    speakers:
+      - id: 'rodrigo_sandrini'
+      - id: 'vitor_martins_dos_anjos'
+  - local_time: '13:15'
+    session_name: 'Engenharia de confiabilidade do local, serviços gerenciados e o caminho para o futuro'
+    speakers:
+      - id: 'divineops'
+  - local_time: '13:30'
+    session_name: 'Jogos clássicos. Demo ao vivo.'
+    speakers:
+      - id: 'tomas_gubeli'
+      - id: 'paulo_seguel'
+      - id: 'vinicius_ferraz'
+      - id: 'glauco_stephan'
+  - local_time: '14:00'
+    session_name: 'Projeto de atualização tecnológica das Aplicações na Usiminas'
+    speakers:
+      - id: 'fernando_simonetti'
+
+venue_address: 'Latinoamérica'
+
+translate_overview: Descrição do evento
+translate_schedule: Agenda
+translate_speakers: Palestrantes
+translate_venue: Local do evento
+translate_where: Onde
+translate_when: Quando
+translate_price: Custo
+translate_invite: Convidar um amigo
+translate_sponsors: Patrocinadores
+---
+```
+
+### Videos
+
+To display the videos from a YouTube playlist once a gathering is over, add `youtube_playlist_id` to the gathering's `index.mdx` file.
+
+Example showing the minimum required for a past gathering:
 
 ```
-gatherings:
-  - name: "Austin 2017"
-    date: "2017-12-05"
-    youtube_playlist_id: "PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K"
+---
+title: 'Austin 2017'
+date: '2017-12-05'
+youtube_playlist_id: 'PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K'
+---
 ```
 
-**Schedule tracks and Workshops**
-Specifying a `track` for any session indicates that a multi-track schedule is expected. The tracks will be rendered as individual
-tabs of the schedule. If there are tracks defined for some sessions, but some of the sessions do not have the track specified, it
-is assumed that such a session belongs into all tracks (that can be used for even reception, registration, coffee breaks, etc.). The
-order of individual track tabs is based on order of occurence when the track appears in the schedule for the first time, in the `gatherings.yml`,
-irrelevant of the actual time of that session (sessions themselves are ordered chronologically in the rendered schedule though).
-The workshops defined under the `workshops` section render as individual tabs right after tracks in the schedule area. The order of
-workshop tabs is based on the order of appearance of those workshops in the `gatherings.yml` file.
+A link to the videos displays on the gatherings page under _Past Gatherings Videos_.
 
-**Speakers**  
-Speaker details that are referenced by `id` in the schedule are kept in this form:
+Before the video pages can be generated, the information for each video must be pulled from YouTube. A YouTube API key is required to access the video information on YouTube.
+
+If you do not have a valid API key, contact a site mantainer to run the `gen-vid-list` script which will pull the information and create the `src/content/videos/videos.yml` file.
+
+(Obtaining a YouTube API key)[https://developers.google.com/youtube/v3/getting-started].
+
+To update `videos.yml`, from the root of the project, run:
 
 ```
-speakers:
-  - id: "speaker id" (unique)
-    name: "John Doe"
-    role: "Everyday Ninja"
-    company: "Doe Industries" (optional)
-    URL: "https://johndoe.org/about-me/" (optional)
-    intro: "John is" (optional; displays a pop up on hover with this text)
-    photo: "speakers/diane.jpg" (optional)
+YT_API_KEY=1234567890 ./gen-vid-list
 ```
+
+replacing `1234567890` with your YouTube API key. After it runs, commit the `src/content/videos/videos.yml` file to the repository.
 
 ## Submitting a pull request
 
