@@ -317,6 +317,19 @@ Displays as:
 
 ![Sponsors section](img/sponsors.png)
 
+Sponsor section without levels example:
+
+```
+sponsors:
+  - name: Red Hat
+  - name: IBM
+  - name: Github
+```
+
+Displays as:
+
+![Sponsors section](img/sponsors2.png)
+
 The fields are:
 
 - **sponsors** — the section label (section is optional).
@@ -324,96 +337,75 @@ The fields are:
 - **level** — numeric level for the display hierarchy (optional; default is all sponsors display at the same level).
 - **label** — title text for sponsor level. Use plural form if there are multiple sponsors in the same group. Only read from the last sponsor at a particular level (optional).
 
+#### Schedule
+
+Schedule section example:
+
+```
+schedule_leadin: The times are approximate for this event. You must follow all health protocols.
+videos_text: Watch previous gatherings
+schedule:
+  - local_time: '2:30 p.m.'
+    session_name: 'Gates Open'
+    track: Parking Lot
+  - local_time: '3:00 p.m.'
+    session_name: 'Game Starts'
+    track: Bleachers
+  - local_time: '4:00 p.m.'
+    session_name: '7th Inning Stretch'
+    speakers:
+      - id: 'jane-doe'
+    track: Bleachers
+```
+
+Displays as:
+
+![Schedule section](img/schedule.png)
+
+The fields are:
+
+- **schedule_leadin** — opening paragraph (optional). The default text is `Code of Conduct: We follow the Code of Conduct of other events such as KubeCon. Similarly we are dedicated to providing a harassment-free experience for participants at all of our events, whether they are held in person or virtually. All event participants, whether they are attending an in-person event or a virtual event, are expected to behave in accordance with professional standards, with both this Code of Conduct as well as their respective employer's policies governing appropriate workplace behavior and applicable laws.`.
+- **videos_text**: button text for link to YouTube gatherings playlists (optional). Defaults to `See sessions from previous gatherings`.
+- **schedule**: section label (section is optional).
+- **local_time**: start time of session.
+- **session_name**: — session title.
+- **track**: — track name (optional). If no sessions have a track, sessions display without tab interface. Sessions in the same track display in that tab. With most sessions having tracks, an event without one displays on all tracks. This is useful for breaks.
+- **speakers** — section label for session speakers (section is optional).
+- **id** — ID of a speaker from `src/content/speakers/speakers.yml`.
+
+#### Speakers
+
+If speakers are specified in the schedule and an entry is found in `src/content/speakers/speakers.yml` that matches, they will be displayed.
+
+Displays as:
+
+![Speakers section](img/speakers.png)
+
+#### Venue
+
+Venue section example:
+
+```
+venue_address: 1060 W. Addison St.
+google_maps_URL: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.413977857587!2d-87.65752674858008!3d41.94844236888554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3b2e59adf21%3A0x1cea3ee176ddd646!2sWrigley%20Field!5e0!3m2!1sen!2sus!4v1654913073280!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+```
+
+Displays as:
+
+The fields are:
+
+![Venue section](img/venue.png)
+
+The fields are:
+
+- **venue_address** — address of the venue (optional).
+- **google_maps_URL** — the URL of a Google map to the venue. On Google, select Share, Embed a map, then copy the code (it should start with `<iframe...`) (optional).
+
+Note: the other fields displayed in this section (`date`, `time`, `venue`, `venue_URL`, and `location`) already defined above.
+
 ---
 
 Gathering pages summarizing information about a particular event can be generated automatically, based on information provided in the `/data/gatherings.yml` file. Details of the gathering event, sponsors and speakers are separated into three groups, explained below with in-line (comments in brackets). If not stated otherwise, the attribute is required and cannot be omitted for the page generation. However, if there are too many details omitted, the page may look plain; make sure to always check that the page is built to your liking, with the data provided in `gatherings.yml`.
-
-**Gatherings**  
-Most data about individual event pages is stored here:
-
-```
-gatherings:
-  - name: "Seattle 2018" (unique; used to build the html page name and the menu link)
-    menu: "show" (is not in the site menu, if "show" is not here or the build date of this site is in future
-                 compared with the event date below; if this item is absent, a landing page is not built -
-                 this allows creating simple name/date/youtube_playlist_id records for past events with
-                 exising YouTube playlists)
-    language: "English" (optional)
-    date: "2018-12-10" (once this is detected to be in past, compared with user's local time, obsolete page sections
-                       are "disabled" and a notice is displayed)
-    time: "8:00 am - 5:30 pm"
-    youtube_playlist_id: "PLaR6Rq6Z4IqcrUvqDVPe5DxNvJp5s8UXC" (optional; an ID of a YouTube video playlist with
-                          talks' recordings to be published on the Gatherings -> Videos page; also used to link the
-                          playlist directly on the event page, once the event is over)
-    location: "Seattle, Washington"
-    google_maps_URL: >-
-      Start content here
-      (optional; alternate for the bottom map. Search for the location in Google Maps; Click "Share"; Select "Embed a map"; Copy/paste the entire HTML, including "<iframe...")
-    venue: "Washington Convention Center"
-    venue_URL: "" (optional; link to external venue page)
-    venue_address: "" (optional; adds lines to venue location on bottom of the page)
-    calendar_event_URL: "https://events.org/calendar_link.ical" (optional)
-    registration_text: "" (optional; replaces the default "Purchase tickets Now"/"Register Now")
-    registration_URL: "https://www.regonline.com/registration/Checkin.aspx?EventID=2246960"
-    pricing: (optional; if present, at least one label and price point is expected)
-      - label: "Early Bird"
-        price: "$99"
-      - label: "Standard"
-        price: "$149"
-        strikethrough: true (optional strikethrough boolean)
-    head_text: >- (optional; if present, overrides the header text)
-      Where users, partners, customers, contributors and upstream project leads come together to collaborate and work together on OpenShift.
-    lead_text: >- (optional; rendered as red intro text)
-      The OpenShift Commons Gathering will be co-located in Seattle with CNCF's KubeCon-NA!
-    info_text: >-
-      The OpenShift Commons Gathering brings together experts (...)
-    event_footer_text: >- (optional; this note is displayed below the event summary)
-      By being co-located in Seattle with KubeCon (...)
-    schedule_leadin: >- (optional: if present, will replace the lead-in text for the schedules)
-      The day will have a mix of keynotes, panels, ted-style talks, SIG break-out sessions, plenty of time to
-      network over local craft beers and be continuously fueled by local baristas.
-    videos_text: >- (optional; if present, will replace the text for the link to see gatherings videos)
-      See session video recordings from previous gatherings
-    invite_link: "" (optional; a link to invite a friend)
-    sponsors: (optional; sponsors are searched by name in participants.yml and in the sponsor list below)
-      - name: "sponsor"
-        level: 1 (optional; this can be omitted if all sponsors are to be rendered in the same group, defines group display order)
-        label: "Main Sponsor" (optional; sponsor group label; use plural form, if there are multiple sponsors in the same group)
-    sponsoring_URL: "foo" (optional; if present renders a button for sponsor registration)
-    sponsor_button_text: >- (optional; if present, overrides the sponsor application button text)
-      Apply to be a sponsor
-    overview_secion: (optional: if present, overrides the specified text)
-      where:
-      when:
-      price:
-      alternative_date_month:
-      alternative_date_day_of_week:
-      invite_a_friend:
-    headers: (optional; if present, overrides the text of the specified header)
-      overview: ""
-      sponsors: ""
-      schedule: ""
-      speakers: ""
-      venue: ""
-    schedule: (required; reordered according to local time)
-      - local_time: "8:00 am" (start time of the session; this string is parsed in attempt to order by time)
-        session_name: "Registration Opens"
-      - local_time: "9:00 am"
-        session_name: "Welcome to the Commons: Making Collaboration that Works"
-        track: "OpenShift" (optional name of track, used for grouping sessions in tabs)
-        speakers: (optional; if present at least one speaker id is expected)
-          - id: "diane" (a unique id defined in speakers list below)
-    workshops: (optional section; shown as individual schedule tabs)
-    - start_time: "1:30 pm" (required)
-      end_time: "6:00 pm" (required)
-      room: "1" (requried)
-      title: "Quay Workshop" (required)
-      registration_URL: "https://www.redhat.com/" (optional registration button)
-      description: >- (reqruied; multi line text expected; single empty line = line break, double empty line = new paragraph)
-        You're gona lear a ton during this workshop.
-      speakers: (optional; referecned by id's, same as in the schedule section)
-        - id: "august_simonelli"
-```
 
 As mentioned in the comment above, this section is also used to reference **YouTube playlists** from past Gatherings. See the `youtube_playlist_id` key description above. The videos are taken from the playlists with relevant details such as video order in the list, video thumbnail, video name and video description; if you need to edit any of these, it should be done in the YouTube playlist itself. When there are any changes made on youTube to a playlist that is already published, the changes will be in effect after the Commons site is re-deployed, as the videos are fetched on build time. Please contact repository maintainers, if you don't feel like waiting for the next site re-build and would like to have the changes deployed as soon as possible.
 
@@ -449,21 +441,11 @@ speakers:
     photo: "speakers/diane.jpg" (optional)
 ```
 
-**Sponsors**  
-Sponsors are primarily searched by name in the `/data/participants.yml` list. If the sponsoring company is not yet a Commons participant, they can be defined here, using the same format.
-
-```
-sponsors:
-  - name: "sponsor" (unique)
-    link: "sponsorl_link"
-    logo: "sponsor-logos/sponsor.png"
-```
-
 ## Submitting a pull request
 
 After your changes are done and tested, you are ready to submit a Pull Request.
 
-First, create a local branch on your local machine:
+First, create a local branch on your machine:
 
 ```
 git checkout -b my-feature-branch
@@ -477,4 +459,4 @@ git commit -m "short message describing changes"
 git push origin my-feature-branch
 ```
 
-Finally, [submit a Pull Request](https://github.com/openshift/commons.openshift.org/compare)
+Finally, [submit a Pull Request](https://github.com/openshift/commons.openshift.org/compare).
