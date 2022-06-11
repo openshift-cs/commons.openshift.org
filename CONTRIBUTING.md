@@ -201,6 +201,8 @@ The fields are:
 - **date** — date in YYYY-MM-DD format.
 - **time** — time of the gathering
 
+#### Language specification
+
 The `language` field is used to format the date according to a particular language.
 
 Examples:
@@ -232,6 +234,95 @@ Displays as:
 The filed is:
 
 - **language** — the language used to format the date. Must be a standard [HTML language specifier](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang). Defaults to `en-US` (optional).
+
+#### Introduction
+
+Introduction section example:
+
+```
+head_text: >-
+  Come join us for a baseball outing and a day of fun.
+registration_text: Sign-up now
+registration_URL: 'https://example.com/'
+registration_text2: Buy tickets
+registration_URL2: 'https://example.com/'
+registration_text3: Reserve hotel
+registration_URL3: 'https://example.com/'
+sponsoring_text: You, too, can sponsor this
+sponsoring_URL: 'mailto:someone@example.com'
+```
+
+Displays as:
+
+![Introduction section for a gathering](img/intro.png)
+
+The fields are:
+
+- **head_text** — the intro text for the gathering (optional). If not specified, displays as: `Where users, partners, customers, contributors and upstream project leads come together to collaborate and work together across the OpenShift Cloud Native ecosystem.`
+- **registration_text** — text for the registration button.
+- **registration_URL** — link for the registration button.
+- **registration_text2** — text for the second registration button (optional).
+- **registration_URL2** — link for the second registration button (optional).
+- **registration_text3** — text for the third registration button (optional).
+- **registration_URL3** — link for the third registration button (optional).
+- **sponsoring_text** — text for the sponsoring button (optional). If `sponsoring_URL` is specified but no text, the default is `Apply to be a Sponsor`.
+- **sponsoring_URL** — link for the sponsoring button.
+
+#### Event overview
+
+Event overview section example:
+
+```
+lead_text: Come with us and watch Cubs baseball
+info_text: >-
+  Have you always wanted to see a game at Wrigley Field? Now is your chance.
+invite_link: 'https://example.com/'
+venue: Wrigley Field
+venue_URL: 'https://www.mlb.com/cubs/ballpark'
+price: $29.95 until Dec. 1, $39.95 after
+event_footer_text: Be sure to dress appropriately for the weather.
+```
+
+Displays as:
+
+![Event overview section](img/overview.png)
+
+The fields are:
+
+- **lead_text** — lede text of the overview.
+- **info_text** — information paragraph.
+- **invite_link** — invite a friend link (optional).
+- **venue** — venue name.
+- **venue_URL** — link to venue (optional).
+- **price** — price information.
+- **event_footer** — overview footer paragraph.
+
+#### Sponsors
+
+Sponsor section example:
+
+```
+sponsors:
+  - name: Red Hat
+    level: 1
+    label: Platinum Sponsor
+  - name: IBM
+    level: 2
+  - name: Github
+    level: 2
+    label: Gold Sponsors
+```
+
+Displays as:
+
+![Sponsors section](img/sponsors.png)
+
+The fields are:
+
+- **sponsors** — the section label (section is optional).
+- **name** — the name must match either an entry in participants or sponsors.
+- **level** — numeric level for the display hierarchy (optional; default is all sponsors display at the same level).
+- **label** — title text for sponsor level. Use plural form if there are multiple sponsors in the same group. Only read from the last sponsor at a particular level (optional).
 
 ---
 
