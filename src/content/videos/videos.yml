@@ -3509,6 +3509,1110 @@ videos:
       videoId: Q3h2KKi1W4c
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering on Databases
+  gathering_date: '2022-02-23'
+  gathering_videos:
+  - publishedAt: '2022-02-25T19:06:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Welcome & Introduction to Databases on OpenShift -  Diane Mueller & Jehlum
+      Vitasta Pandit (Red Hat)
+    description: |-
+      Welcome to OpenShift Commons & Introduction to Databases on OpenShift -  Diane Mueller & Jehlum Vitasta Pandit (Red Hat)
+      Host: Diane Mueller (Red Hat)
+      Moderator:  Jehlum Vitasta Pandit (Red Hat)
+      OpenShift Commons Gathering on Databases held on 02/23/2022
+
+      Slides:  https://bit.ly/36xgX0E
+
+      Join OpenShift Commons: https://commons.openshift.org/index.html#join
+
+      Full Agenda here:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/5HbYHzsnL_I/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/5HbYHzsnL_I/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/5HbYHzsnL_I/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/5HbYHzsnL_I/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/5HbYHzsnL_I/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: 5HbYHzsnL_I
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-25T19:06:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Keynote Simplifying Database Cloud Service Access w/ RHODA Mike Piech Red
+      Hat OpenShift Commons 2022
+    description: |-
+      Keynote: Simplifying Database Cloud Service Access with RHODA
+      Mike Piech (Red Hat)
+
+      OpenShift Commons Gathering on Databases held on 02/23/2022
+
+      Slides: https://bit.ly/3hijP3S
+
+      Join OpenShift Commons: https://commons.openshift.org/index.html#join
+
+      Full Agenda here:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/lTohfJ-xQWQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/lTohfJ-xQWQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/lTohfJ-xQWQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/lTohfJ-xQWQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/lTohfJ-xQWQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: lTohfJ-xQWQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-25T19:06:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Deploying Databases using OpenShift Virtualization - Cem Omurtak (Sahibinden)
+      OpenShift Commons 2022
+    description: |-
+      Sahibinden's Cloud Transformation: Deploying MySQL, Cassandra, MongoDB using OpenShift Virtualization
+
+      Erkan Ercan (Red Hat)
+      Cem Omurtak (Sahibinden)
+      Jehlum Vitasta Pandit (Red Hat)
+      OpenShift Commons Gathering on Databases held on 02/23/2022
+
+      Slides: https://bit.ly/3HnII8P
+
+      Join OpenShift Commons: https://commons.openshift.org/index.html#join
+
+      Full Agenda here:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/imvZwgn8NUs/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/imvZwgn8NUs/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/imvZwgn8NUs/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/imvZwgn8NUs/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/imvZwgn8NUs/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: imvZwgn8NUs
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-25T19:06:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: What's Next for Databases & OpenShift Virtualization Peter Lauterbach Red
+      Hat OpenShift Commons 2022
+    description: "What's Next for Databases & OpenShift Virtualization \nPeter Lauterbach
+      (Red Hat)\nOpenShift Commons Gathering on Databases held on 02/23/2022\n\nSlides:
+      https://bit.ly/3M2nRvf\n\nJoin OpenShift Commons: https://commons.openshift.org/index.html#join\n\nFull
+      Agenda here:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/gRwM7u5wKLU/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/gRwM7u5wKLU/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/gRwM7u5wKLU/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/gRwM7u5wKLU/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/gRwM7u5wKLU/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: gRwM7u5wKLU
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-25T19:06:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Database Workloads on OpenShift Container Platform  Babak Mozaffari (Red
+      Hat) OpenShift Commons 2022
+    description: "Database Workloads on OpenShift Container Platform\nBabak Mozaffari
+      (Red Hat) \n\nOpenShift Commons Gathering on Databases held on 02/23/2022\n\nSlides:
+      https://bit.ly/35nr1ZD\n\nJoin OpenShift Commons: https://commons.openshift.org/index.html#join\n\nFull
+      Agenda here:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Ivv2E9mmGZ8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Ivv2E9mmGZ8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Ivv2E9mmGZ8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Ivv2E9mmGZ8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Ivv2E9mmGZ8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: Ivv2E9mmGZ8
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-25T19:06:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Building Ignite AI Platform on OpenShift  Hongfei Cao & Kevin Martelli
+      (KPMG) OpenShift Commons 2022
+    description: |-
+      Building the Ignite AI Platform using PostgreSQL and Kafka on OpenShift
+      Hongfei Cao & Kevin Martelli (KPMG)
+
+      OpenShift Commons Gathering on Databases held on 02/23/2022
+
+      Slides: https://bit.ly/3MeH4tV
+
+      Join OpenShift Commons: https://commons.openshift.org/index.html#join
+
+      Full Agenda here:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/FxtO1wp5BwM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/FxtO1wp5BwM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/FxtO1wp5BwM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/FxtO1wp5BwM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/FxtO1wp5BwM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: FxtO1wp5BwM
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-25T19:06:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Backup and DR for Databases on OpenShift Gaurav Rishi & Michael Courcy
+      Kasten OpenShift Commons 2022
+    description: |-
+      Backup and DR for databases on OpenShift with Kasten by Veeam
+      Gaurav Rishi & Michael Courcy Kasten by Veeam
+
+      OpenShift Commons Gathering on Databases held on 02/23/2022
+
+      Slides: https://bit.ly/3Izrh6k
+
+      Join OpenShift Commons: https://commons.openshift.org/index.html#join
+
+      Full Agenda here:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/YvHdPWEa-qg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/YvHdPWEa-qg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/YvHdPWEa-qg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/YvHdPWEa-qg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/YvHdPWEa-qg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: YvHdPWEa-qg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-25T19:06:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Operator Framework Explained - Austin Macdonald (Red Hat) OpenShift Commons
+      2022
+    description: "Operator Framework Explained  Austin Macdonald (Red Hat) \nOpenShift
+      Commons Gathering on Databases held on 02/23/2022\n\nSlides:  https://bit.ly/3tdYoqd\n\nJoin
+      OpenShift Commons: https://commons.openshift.org/index.html#join\n\nFull Agenda
+      here:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Databases.html"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/7kEaJqG7gZ0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/7kEaJqG7gZ0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/7kEaJqG7gZ0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/7kEaJqG7gZ0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/7kEaJqG7gZ0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: 7kEaJqG7gZ0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering at Kubecon North America 2021
+  gathering_date: '2021-10-12'
+  gathering_videos:
+  - publishedAt: '2021-10-29T19:48:35Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Welcome to the Commons: Unlock the Potential of Collaboration Stu Miniman
+      & Diane Mueller  (Red Hat)'
+    description: |-
+      OpenShift Commons Gathering 2021
+      Welcome to the Commons: Unlock the Potential of Collaboration
+      Guest Speakers: Diane Mueller (Red Hat)  |  Stu Miniman (Red Hat)
+      https://commons.openshift.org/index.html#join
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/B3k03vRcxlE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/B3k03vRcxlE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/B3k03vRcxlE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/B3k03vRcxlE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/B3k03vRcxlE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: B3k03vRcxlE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T19:48:35Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: GitOps in Action  William Foss,Anil Sharma, Nitin Kalra (Broadcom) OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nOpenShift Case Study: GitOps
+      in Action at Broadcom\nGuest Speakers: William Foss (Broadcom)  |  Anil Sharma
+      (Broadcom)  |  Nitin Kalra (Broadcom)\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/wYpoZNgXQCE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/wYpoZNgXQCE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/wYpoZNgXQCE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/wYpoZNgXQCE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/wYpoZNgXQCE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: wYpoZNgXQCE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T19:52:25Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: OpenShift Release Update and  Road Map - Karena Angell (Red Hat) OpenShift
+      Commons Gathering 2021
+    description: |-
+      OpenShift Commons Gathering 2021
+      OpenShift Release Update and Road Map & demos
+      Guest Speakers: Karena Angell (Red Hat) and Christian Hernandez (Red Hat)
+      https://commons.openshift.org/index.html#join
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/c9v7ULZ9V-E/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/c9v7ULZ9V-E/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/c9v7ULZ9V-E/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/c9v7ULZ9V-E/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/c9v7ULZ9V-E/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: c9v7ULZ9V-E
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T19:52:25Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Kubernetes as Control Plane for Hybrid Cloud Clayton Coleman Red Hat OpenShift
+      Common Gathering 2021
+    description: |-
+      OpenShift Commons Gathering 2021
+      Upstream Keynote: Kubernetes as the Control Plane for the Hybrid Cloud
+      Guest Speaker:  Clayton Coleman (Red Hat)
+      https://commons.openshift.org/index.html#join
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ftUdpMpHjZ4/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ftUdpMpHjZ4/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ftUdpMpHjZ4/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ftUdpMpHjZ4/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ftUdpMpHjZ4/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: ftUdpMpHjZ4
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T19:52:25Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Live from Paris - OpenShift Commons & Meetup Shout Outs w/ Yacine Kheddache,
+      Dewan Ahmed (Red Hat)
+    description: "OpenShift Commons Gathering 2021\nLive from Paris - OpenShift Commons
+      & Meetup Shout Outs w/ \nYacine Kheddache, Dewan Ahmed and Diane Mueller (Red
+      Hat) \nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/m1txi3MvP3k/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/m1txi3MvP3k/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/m1txi3MvP3k/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/m1txi3MvP3k/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/m1txi3MvP3k/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: m1txi3MvP3k
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T19:52:25Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Site Reliability Engineering, Managed Services and the path to the future  Sasha
+      Rosenbaum (Red Hat)
+    description: |-
+      OpenShift Commons Gathering 2021
+      Site Reliability Engineering, Managed Services, and the path to the future
+      Guest Speaker: Sasha Rosenbaum (Red Hat) @divineops
+      https://commons.openshift.org/index.html#join
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/IkK3gZFMvJI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/IkK3gZFMvJI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/IkK3gZFMvJI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/IkK3gZFMvJI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/IkK3gZFMvJI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: IkK3gZFMvJI
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T19:52:25Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Data Science as a Managed Service  Audrey Reznik (Red Hat) OpenShift Commons
+      Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nData Science as a Managed Service
+      on OpenShift\nAudrey Reznik (Red Hat)\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/RPeyoM2wLZM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/RPeyoM2wLZM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/RPeyoM2wLZM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/RPeyoM2wLZM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/RPeyoM2wLZM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: RPeyoM2wLZM
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T19:52:25Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Why Policy Management? Cloud Security & Governance - Aradhna Chetal (TIAA)
+      Jaya Ramanathan (Red Hat)
+    description: "OpenShift Commons Gathering 2021 \nOpenShift Case Study: TIAA  Why
+      Policy Management? Cloud Security and Governance \nGuest Speakers: Aradhna Chetal
+      (TIAA)  and Jayashree Ramanathan (Red Hat)\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/FWG480J2I24/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/FWG480J2I24/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/FWG480J2I24/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/FWG480J2I24/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/FWG480J2I24/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: FWG480J2I24
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Deploying Microservices w/ OKD John Fortin MarketAmerica|SHOP.COM OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nOpenShift Case Study: Deploying
+      Microservices w/ OKD at MarketAmerica|SHOP.COM\nGuest Speaker John Fortin (MarketAmerica|SHOP.COM)\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/kZYJ2UIfCWA/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/kZYJ2UIfCWA/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/kZYJ2UIfCWA/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/kZYJ2UIfCWA/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/kZYJ2UIfCWA/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 8
+    resourceId:
+      kind: youtube#video
+      videoId: kZYJ2UIfCWA
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: OpenShift Case Study - Stephen Boyd (Electrical Training Alliance) OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nOpenShift Case Study: Electrical
+      Training Alliance\nGuest Speaker: Stephen Boyd (Electrical Training Alliance)
+      \nOpenShift Commons Gathering 2021 \n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/mfJ_k3NOwQI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/mfJ_k3NOwQI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/mfJ_k3NOwQI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/mfJ_k3NOwQI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/mfJ_k3NOwQI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 9
+    resourceId:
+      kind: youtube#video
+      videoId: mfJ_k3NOwQI
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: AMA with  Red Hat Engineers, Data Scientists & Product Managers at OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nAMA Session: Live Q/A with Guest
+      Speakers & Red Hat Engineers, Data Scientists and Product Managers\nModerators:
+      \nDiane Mueller (Red Hat), Stu Miniman (Red Hat)\nGuest Speakers:\nAnnette Clewett
+      (Red Hat)  |  Clayton Coleman (Red Hat)  |  Karena Angell (Red Hat)  |  Christian
+      Hernandez (Red Hat)  |  Hugo Guerrero Olivares (Red Hat)  |  Sasha Rosenbaum
+      (Red Hat)  |  Audrey Reznik (Red Hat)  |  Andrew Block (Red Hat)  |  Peter Hunt
+      (Red Hat)  |  Aakanksha Duggal (Red Hat)  |  Oindrilla Chatterjee (Red Hat)\n
+      \                  \nOpenShift Commons Gathering 2021 \n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/tEf7teJXTxs/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/tEf7teJXTxs/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/tEf7teJXTxs/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/tEf7teJXTxs/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/tEf7teJXTxs/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: tEf7teJXTxs
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Partner Lightning Talk Introductions Michael Waite (Red Hat) OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nPartner Lightning Talk Introductions\nSpeakers:
+      Michael Waite (Red Hat) \n                   \nOpenShift Commons Gathering 2021
+      \n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/QFOf13aNrdc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/QFOf13aNrdc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/QFOf13aNrdc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/QFOf13aNrdc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/QFOf13aNrdc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 11
+    resourceId:
+      kind: youtube#video
+      videoId: QFOf13aNrdc
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Fast-Track The Cloud Native Journey  - Luke Congdon (Nutanix) OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: Fast-Track The
+      Cloud Native Journey\nSpeaker: Luke Congdon (Nutanix) & Brad Bignall (Nutanix)\n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/wyCIl3r79rk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/wyCIl3r79rk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/wyCIl3r79rk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/wyCIl3r79rk/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/wyCIl3r79rk/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 12
+    resourceId:
+      kind: youtube#video
+      videoId: wyCIl3r79rk
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Modernize, Real World, Secure DevOps Practices Eric Carter (Sysdig) OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: Modernize, Real
+      World, Secure DevOps Practices \nSpeaker: Eric Carter (Sysdig) \n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/-Fts7TCQ740/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/-Fts7TCQ740/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/-Fts7TCQ740/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/-Fts7TCQ740/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/-Fts7TCQ740/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 13
+    resourceId:
+      kind: youtube#video
+      videoId: "-Fts7TCQ740"
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Observability Service for Cloud-scale Apps John Kendall (Datadog) OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: Observability
+      Service for Cloud-scale Apps \nSpeaker: John Kendall (Datadog) \n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/EHk2WT6_04I/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/EHk2WT6_04I/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/EHk2WT6_04I/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/EHk2WT6_04I/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/EHk2WT6_04I/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 14
+    resourceId:
+      kind: youtube#video
+      videoId: EHk2WT6_04I
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Deliver A Resilient and Secure app - Pushkar Patil (Citrix) OpenShift Commons
+      Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: Deliver a Resilient
+      and Secure app\nSpeaker: Pushkar Patil (Citrix) \n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/XrQWItwXInc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/XrQWItwXInc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/XrQWItwXInc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/XrQWItwXInc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/XrQWItwXInc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 15
+    resourceId:
+      kind: youtube#video
+      videoId: XrQWItwXInc
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Deploy a Service Mesh, Run mTLS everywhere Sitram Iver (Jetstack) OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: Deploy a Service
+      Mesh, Run mTLS everywhere \nSpeaker: Sitram Iver (Jetstack)\n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/-T5_pyO4DJM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/-T5_pyO4DJM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/-T5_pyO4DJM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/-T5_pyO4DJM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/-T5_pyO4DJM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 16
+    resourceId:
+      kind: youtube#video
+      videoId: "-T5_pyO4DJM"
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Fast Trusted Development with Thales HSMs Alexander Hanway (Thales)OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: Fast, Trusted
+      Development with Thales HSMs\nSpeaker: Alexander Hanway (Thales)\n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/d-LWfY_cq7U/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/d-LWfY_cq7U/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/d-LWfY_cq7U/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/d-LWfY_cq7U/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/d-LWfY_cq7U/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 17
+    resourceId:
+      kind: youtube#video
+      videoId: d-LWfY_cq7U
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: CockroachDB, built from the ground up for K8s - Keith McClellan  OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: CockroachDB,
+      built from the ground up for K8s \nSpeaker Keith McClellan (Cockroach Labs)\n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/we0ucwhWfOo/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/we0ucwhWfOo/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/we0ucwhWfOo/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/we0ucwhWfOo/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/we0ucwhWfOo/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 18
+    resourceId:
+      kind: youtube#video
+      videoId: we0ucwhWfOo
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Porsche Informatik Accelerates Innovation Rob Jahn (Dynatrace) OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: Porsche Informatik
+      Accelerates Innovation \nSpeaker: Rob Jahn (Dynatrace)\n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/I-NA-I2egFQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/I-NA-I2egFQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/I-NA-I2egFQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/I-NA-I2egFQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/I-NA-I2egFQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 19
+    resourceId:
+      kind: youtube#video
+      videoId: I-NA-I2egFQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-10-29T20:34:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Accelerate Digitization LowCode Platform Lee Choo Yee AllianceBank OpenShift
+      Commons Gathering 2021
+    description: "OpenShift Commons Gathering 2021 \nLightning Talk: Joget and Alliance
+      Bank Accelerate Digitization with Low Code Platforms \nSpeakers: Lee Choo Yee
+      (Alliance Bank) Diane Mueller (Red Hat) Raveesh Dewan (Joget)\n                   \nOpenShift
+      Commons Gathering 2021 \n\nhttps://commons.openshift.org/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/LghQXjeIm4A/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/LghQXjeIm4A/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/LghQXjeIm4A/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/LghQXjeIm4A/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/LghQXjeIm4A/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
+    position: 20
+    resourceId:
+      kind: youtube#video
+      videoId: LghQXjeIm4A
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: Red Hat Summit 2020
   gathering_date: '2020-04-27'
   gathering_videos:
@@ -5036,6 +6140,228 @@ videos:
     resourceId:
       kind: youtube#video
       videoId: 3hFsVxTtV-4
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering on GitOps
+  gathering_date: '2022-02-09'
+  gathering_videos:
+  - publishedAt: '2022-02-11T17:33:41Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Path to GitOps - Christian Hernandez (Red Hat)  OpenShift Commons Gathering
+      2022
+    description: "OpenShift Commons Gathering 2022\n\nPath to GitOps\nSpeaker:  Christian
+      Hernandez (Red Hat) \n\nFull Agenda: \nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_GitOps.html\nLearn
+      more at OpenShift Commons https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/D2Qn95xrG_E/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/D2Qn95xrG_E/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/D2Qn95xrG_E/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/D2Qn95xrG_E/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/D2Qn95xrG_E/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcfC5F-DuOlRTpwjLc_IPag
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: D2Qn95xrG_E
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-11T17:33:41Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Brief History of GitOps - Cornelia Davis (Amazon) - OpenShift Commons Gathering
+      2022
+    description: "OpenShift Commons Gathering 2022\n\nBrief History of GitOps \nSpeaker:
+      \ Cornelia Davis (Amazon)\n\nFull Agenda: \nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_GitOps.html\nLearn
+      more at OpenShift Commons https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/X9UKWk93LW0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/X9UKWk93LW0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/X9UKWk93LW0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/X9UKWk93LW0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/X9UKWk93LW0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcfC5F-DuOlRTpwjLc_IPag
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: X9UKWk93LW0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-11T17:33:41Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: GitOps Community Update -  Dan Garfield (Codefresh)  - OpenShift Commons
+      Gathering 2022
+    description: "OpenShift Commons Gathering 2022\nSpeaker:  Dan Garfield (Codefresh)\n\nFull
+      Agenda: \nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_GitOps.html\nLearn
+      more at OpenShift Commons https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/SsQXceiA6aI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/SsQXceiA6aI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/SsQXceiA6aI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/SsQXceiA6aI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/SsQXceiA6aI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcfC5F-DuOlRTpwjLc_IPag
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: SsQXceiA6aI
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-11T17:33:41Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: CloudNative Development & Deployment w Kubernetes & GitOps Jaime Magiera
+      UMich OpenShiftCommons 2022
+    description: "OpenShift Commons Gathering 2022\n\nSpeaker:  Jaime Magiera (ICPSR
+      at University of Michigan Institute for Social Research)  \n\n\nFull Agenda:
+      \nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_GitOps.html\n
+      \nLearn more at OpenShift Commons https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/dnUhWmednQs/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/dnUhWmednQs/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/dnUhWmednQs/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/dnUhWmednQs/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/dnUhWmednQs/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcfC5F-DuOlRTpwjLc_IPag
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: dnUhWmednQs
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-11T17:33:41Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: What's Next for GitOps - Siamak Sadeghianfar (Red Hat)  OpenShift Commons
+      Gathering 2022
+    description: "OpenShift Commons Gathering 2022\n\nWhat's Next in GitOps at Red
+      Hat: Argo, Tekton, Operators, Pipelines and more\nSpeaker:  Siamak Sadeghianfar
+      (Red Hat)\nFull Agenda: \nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_GitOps.html\n
+      \nLearn more at OpenShift Commons https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/P0xXRpQntiI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/P0xXRpQntiI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/P0xXRpQntiI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/P0xXRpQntiI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/P0xXRpQntiI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcfC5F-DuOlRTpwjLc_IPag
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: P0xXRpQntiI
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-02-11T17:33:41Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: GitOps AMA Panel  - OpenShift Commons Gathering 2022
+    description: "OpenShift Commons Gathering 2022\n\nPanel Moderator:  Christian
+      Hernandez (Red Hat) \n\nPanelists:\n Siamak Sadeghianfar (Red Hat)\nJaime Magiera
+      (ICPSR at University of Michigan Institute for Social Research)  \nCornelia
+      Davis (Amazon)\nPriyanka Ravi (weaveworks)\n\nFull Agenda: \nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_GitOps.html\n
+      \nLearn more at OpenShift Commons https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/yniozVIJfzg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/yniozVIJfzg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/yniozVIJfzg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/yniozVIJfzg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/yniozVIJfzg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcfC5F-DuOlRTpwjLc_IPag
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: yniozVIJfzg
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: OpenShift Commons Gathering at Kubecon EU
@@ -6577,6 +7903,738 @@ videos:
     resourceId:
       kind: youtube#video
       videoId: jP8uWXLBnuQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering Israel
+  gathering_date: '2022-03-29'
+  gathering_videos:
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift: Vision to Action: Intro to Live Demo of Latest Release - Menny
+      Tsarfati (Red Hat)'
+    description: "OpenShift: Vision to Action: Intro to Live Demo of Latest Release\nMenny
+      Tsarfati (Red Hat) \nOpenShift Commons Israel 2022\nMarch 29, 2022 Tel Aviv-Yafo,
+      Israel\nHebrew\nמני\nfull agenda:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html\nlearn
+      more here\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/1FKX7MF7Mu0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/1FKX7MF7Mu0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/1FKX7MF7Mu0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/1FKX7MF7Mu0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/1FKX7MF7Mu0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: 1FKX7MF7Mu0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'GitOps: Everything as Code - Anoel Yakoubov and Oren Oichman (Red Hat)
+      OpenShift Commons Israel 2022'
+    description: |-
+      GitOps: Everything as Code -  Anoel Yakoubov amd  Oren Oichman (Red Hat)
+      OpenShift: Vision to Action - Live Demonstration of Latest Release
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/FefIv4WVf1s/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/FefIv4WVf1s/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/FefIv4WVf1s/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/FefIv4WVf1s/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/FefIv4WVf1s/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: FefIv4WVf1s
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: What's New in OpenShift 4.10 -  Ronen Sde Or (Red Hat)  OpenShift Commons
+      Israel 2022
+    description: "What's New in OpenShift 4.10 \n Ronen Sde Or (Red Hat)  \nOpenShift
+      Commons Israel 2022\nMarch 29, 2022 Tel Aviv-Yafo, Israel\nHebrew\nרונן \nfull
+      agenda:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html\nlearn
+      more here\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/CX82VL7Jf7I/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/CX82VL7Jf7I/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/CX82VL7Jf7I/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/CX82VL7Jf7I/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/CX82VL7Jf7I/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: CX82VL7Jf7I
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Application to the Edge - Gabi Dabach &  Shon Paz (Red Hat)  OpenShift
+      Commons Israel 2022
+    description: |-
+      OpenShift: Vision to Action - Live Demonstration of Latest Release
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+      שון וגבי
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/0eynOJpDLYE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/0eynOJpDLYE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/0eynOJpDLYE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/0eynOJpDLYE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/0eynOJpDLYE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: 0eynOJpDLYE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: OpenShift Data at Production Scale Orit Wasserman & Shon Paz (Red Hat)
+      OpenShift Commons Israel 2022
+    description: |-
+      OpenShift Data at Production Scale Orit Wasserman & Shon Paz (Red Hat) OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+      אורית ושון
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/05bCG3PkdEk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/05bCG3PkdEk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/05bCG3PkdEk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/05bCG3PkdEk/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/05bCG3PkdEk/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: 05bCG3PkdEk
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Joining Kubernetes Clusters with Submariner Mike Kolesnik/Red Hat Daniel
+      Bachar/Reichman University
+    description: "Joining Kubernetes Clusters with Submariner: Community, Research,
+      Product \nMike Kolesnik (Red Hat) & Daniel Bachar (Reichman University)\nOpenShift
+      Commons Israel 2022\nMarch 29, 2022 Tel Aviv-Yafo, Israel\nHebrew\nמיכאל ודניאל\nfull
+      agenda:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html\nlearn
+      more here\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/9TXcs0E3bXM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/9TXcs0E3bXM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/9TXcs0E3bXM/hqdefault.jpg
+        width: 480
+        height: 360
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: 9TXcs0E3bXM
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Maintaining Compliance & Security in Multicluster OpenShift Environments
+      Michael Kotelnikov Red Hat
+    description: |-
+      Maintaining Compliance and Security in Multicluster OpenShift Environments
+      Michael Kotelnikov (Red Hat)  |  Tommer Amber (Red Hat)
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+      מיכאל ותומר
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/D_kZ5PVAltQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/D_kZ5PVAltQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/D_kZ5PVAltQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/D_kZ5PVAltQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/D_kZ5PVAltQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: D_kZ5PVAltQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Assisted Installer SaaS on Bare Metal Rom Freiman (Red Hat) OpenShift Commons
+      Israel 2022
+    description: "Assisted Installer SaaS \n85% success rate on Bare Metal\nRom Freiman
+      (Red Hat)\nOpenShift Commons Israel 2022\nMarch 29, 2022 Tel Aviv-Yafo, Israel\nHebrew\nרון\nfull
+      agenda:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html\nlearn
+      more here\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/VEqePWob9p4/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/VEqePWob9p4/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/VEqePWob9p4/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/VEqePWob9p4/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/VEqePWob9p4/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: VEqePWob9p4
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Open Your Mind: Quantum Computing Avi Vizel (IBM) OpenShift Commons Israel
+      2022'
+    description: "Open Your Mind: Quantum Computing Avi Vizel (IBM) \nOpenShift Commons
+      Israel 2022\nMarch 29, 2022 Tel Aviv-Yafo, Israel\nHebrew\nאבי\nfull agenda:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html\nlearn
+      more here\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/o7sxIRUrih4/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/o7sxIRUrih4/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/o7sxIRUrih4/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/o7sxIRUrih4/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/o7sxIRUrih4/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 9
+    resourceId:
+      kind: youtube#video
+      videoId: o7sxIRUrih4
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Recap: OpenShift Product Overview Miki Kenneth & Doron Fediuck Red Hat
+      OpenShift Commons Israel 2022'
+    description: "Closing: OpenShift Product Overview & Recap\nMiki Kenneth (Red Hat)
+      Doron Fediuck (Red Hat)  & Diane Mueller (Red Hat)  \nOpenShift Commons Israel
+      2022\nMarch 29, 2022 Tel Aviv-Yafo, Israel\nHebrew\nמיקי ודורון\n\nfull agenda:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html\nlearn
+      more here\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/mQXD47f_24o/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/mQXD47f_24o/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/mQXD47f_24o/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/mQXD47f_24o/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/mQXD47f_24o/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: mQXD47f_24o
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lightning talk: Achieving Operational Scalability with Open Shift and
+      Couchbase Roi Katz (Couchbase)'
+    description: |-
+      Lightning talk: Achieving Operational Scalability with Open Shift and Couchbase Roi Katz (Couchbase)
+      https://www.couchbase.com/
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+      רועי
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/cAIHtWk-k7g/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/cAIHtWk-k7g/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/cAIHtWk-k7g/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/cAIHtWk-k7g/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/cAIHtWk-k7g/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 11
+    resourceId:
+      kind: youtube#video
+      videoId: cAIHtWk-k7g
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-06T06:54:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lightning talk: Poalim Hi-Tech  OpenShift Commons Israel 2022'
+    description: "Lightning talk: Poalim Hi-Tech  \nhttps://www.poalimhitech.co.il/he\nOpenShift
+      Commons Israel 2022\nMarch 29, 2022 Tel Aviv-Yafo, Israel\nHebrew\nרונן פועלים\nfull
+      agenda:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html\nlearn
+      more here\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/JRlC2fPzWtk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/JRlC2fPzWtk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/JRlC2fPzWtk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/JRlC2fPzWtk/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/JRlC2fPzWtk/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 12
+    resourceId:
+      kind: youtube#video
+      videoId: JRlC2fPzWtk
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-12T19:50:17Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lightning talk: Securing Containers by Breaking In! Elad Harel (Snyk)
+      OpenShift Commons Israel 2022'
+    description: |-
+      Lightning talk: Securing Containers by Breaking In!
+      Elad Harel (Snyk)
+      https://snyk.io/
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+      אלעד
+
+
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/7smqZW1oujk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/7smqZW1oujk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/7smqZW1oujk/hqdefault.jpg
+        width: 480
+        height: 360
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 13
+    resourceId:
+      kind: youtube#video
+      videoId: 7smqZW1oujk
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-12T23:01:48Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lightning talk : Advanced Security for OpenShift Applications Ariel Shuper
+      (Cisco) OpenShift Commons'
+    description: |-
+      Lightning talk : Advanced Security for OpenShift Applications
+      Ariel Shuper (Cisco)
+      https://www.cisco.com/
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+      אריאל CISCO
+
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/skMaTdYOFeU/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/skMaTdYOFeU/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/skMaTdYOFeU/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/skMaTdYOFeU/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/skMaTdYOFeU/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 14
+    resourceId:
+      kind: youtube#video
+      videoId: skMaTdYOFeU
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-12T23:03:09Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'KubeVirt: Bringing Virtualization into Kubernetes Dan Kenigsberg (Red
+      Hat) OpenShift Commons Israel'
+    description: |-
+      KubeVirt: Bringing Virtualization into Kubernetes
+      Dan Kenigsberg (Red Hat)
+      OpenShift Commons Israel 2022
+
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+      דן
+
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/8me8-UfwKxU/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/8me8-UfwKxU/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/8me8-UfwKxU/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/8me8-UfwKxU/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/8me8-UfwKxU/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 15
+    resourceId:
+      kind: youtube#video
+      videoId: 8me8-UfwKxU
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-12T23:03:26Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lightning talk: Detailed End to End Real-Time Observability in Minutes
+      Gil Givati (Dynatrace)'
+    description: |-
+      Lightning talk: Detailed End to End Real-Time Observability in Minutes
+      Gil Givati (Dynatrace)
+      https://www.dynatrace.com/
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+      Hebrew
+      גיל
+
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/BQZOrawQzrg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/BQZOrawQzrg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/BQZOrawQzrg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/BQZOrawQzrg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/BQZOrawQzrg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 16
+    resourceId:
+      kind: youtube#video
+      videoId: BQZOrawQzrg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-19T16:01:05Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: DevOps Patterns & Antipatterns for Continuous Software Update Batel Zohar
+      (JFrog) OpenShift Commons
+    description: |-
+      Lightning talk: DevOps Patterns & Antipatterns for Continuous Software Update
+      Batel Zohar (JFrog)
+      https://jfrog.com/
+      OpenShift Commons Israel 2022
+      March 29, 2022 Tel Aviv-Yafo, Israel
+
+      בת אל זהר 1
+      Hebrew
+
+      full agenda:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html
+      learn more here
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/B8KBSW4F-Tc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/B8KBSW4F-Tc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/B8KBSW4F-Tc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/B8KBSW4F-Tc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/B8KBSW4F-Tc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 17
+    resourceId:
+      kind: youtube#video
+      videoId: B8KBSW4F-Tc
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-21T13:16:03Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: App and Data Migration Demo - Batel Assaf Volchek and Valera Bronshtein
+      (Red Hat)  OpenShift Commons
+    description: "OpenShift: Vision to Action - Live Demonstration of Latest Release\nBatel
+      Assaf Volchek and Valera Bronshtein (Red Hat)  \nOpenShift Commons Israel 2022\nMarch
+      29, 2022 Tel Aviv-Yafo, Israel\nHebrew\nבת אל 1\n\nfull agenda:\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_Israel.html\nlearn
+      more here\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/mUTqJe6UPe0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/mUTqJe6UPe0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/mUTqJe6UPe0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/mUTqJe6UPe0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/mUTqJe6UPe0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
+    position: 18
+    resourceId:
+      kind: youtube#video
+      videoId: mUTqJe6UPe0
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: Buenos Aires 2018
@@ -9427,6 +11485,355 @@ videos:
       videoId: w0-VA_f84NE
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering on Automotive
+  gathering_date: '2022-04-06'
+  gathering_videos:
+  - publishedAt: '2022-04-20T22:06:07Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Keynote: Vision for Software Defined Vehicle Franz Meyer (Red Hat) OpenShift
+      Commons Automotive 2022'
+    description: |-
+      Keynote: Overview of Red Hat Industry Strategy, Automotive Initiatives, and Vision for Software Defined Vehicle
+      Franz Meyer (Red Hat)
+
+      OpenShift Commons Gathering on Automotive
+      April 6th 2022
+
+      full agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/etskDTfzA9g/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/etskDTfzA9g/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/etskDTfzA9g/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/etskDTfzA9g/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/etskDTfzA9g/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: etskDTfzA9g
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-21T02:25:43Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Eclipse Software Defined Vehicle:Building the Future of Automotive Michael
+      Plagge Eclipse Foundation
+    description: |-
+      Eclipse Software Defined Vehicle: Building the Future of Automotive Together
+      Michael Plagge (Eclipse Foundation)  |  Daniel Krippner (Bosch)  |  Ansgar Lindwedel (Bosch)  |  Daniel Lueddecke (Microsoft)  |  Harald Ruckriegel (Red Hat)
+      OpenShift Commons Gathering on Automotive
+      April 6th 2022
+
+      full agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/knwjb9oF9mo/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/knwjb9oF9mo/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/knwjb9oF9mo/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/knwjb9oF9mo/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/knwjb9oF9mo/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: knwjb9oF9mo
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-20T18:03:01Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Life on the Edge Dennis Hamann (Future Mobility Ireland) Florian Moss (Red
+      Hat) OpenShift Commons 2
+    description: "Life on the Edge: Ongoing, Optimized Data Orchestration for Continual
+      Improvement of the EV Experience \nDennis Hamann (Future Mobility Ireland)  and
+      Florian Moss (Red Hat)\n\nOpenShift Commons Gathering on Automotive\nApril 6th
+      2022\n\nfull agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/9pJYwKyIuWg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/9pJYwKyIuWg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/9pJYwKyIuWg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/9pJYwKyIuWg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/9pJYwKyIuWg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: 9pJYwKyIuWg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-20T20:53:13Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Safer Driver Human Driver Perception Platform Bojan Mrazovac (NTT Data)
+      Ramakrishna Yekulla Red Hat
+    description: "Safer Driver: Human Driver Perception Platform That Prevents Accidents,
+      Before They Happen\nBojan Mrazovac (NTT Data) \nRamakrishna Yekulla (Red Hat)\n\nOpenShift
+      Commons Gathering on Automotive\nApril 6th 2022\n\nfull agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/qNcj2I9vhmw/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/qNcj2I9vhmw/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/qNcj2I9vhmw/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/qNcj2I9vhmw/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/qNcj2I9vhmw/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: qNcj2I9vhmw
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-20T14:02:16Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: CyberSecurity and Data Management for Connected Vehicles Gil Mazuz (Upstream)
+      OpenShift Commons
+    description: "CyberSecurity and Data Management for Connected Vehicles \nGil Mazuz
+      (Upstream)\n\nOpenShift Commons on Automotive \nApril 6 2022\n\nfull agenda
+      here:\n\nhttps://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html\n\nJoin
+      OpenShift Commons:\n\nhttps://commons.openshift.org/gatherings/index.html#join"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/RNdiDvesnc0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/RNdiDvesnc0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/RNdiDvesnc0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/RNdiDvesnc0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/RNdiDvesnc0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: RNdiDvesnc0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-20T21:22:51Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Development and Testing Autonomous Vehicles at Scale - Frank Kraemer (IBM)
+      OpenShift Commons 2022
+    description: |-
+      Development and Testing Autonomous Vehicles at Scale - Frank Kraemer (IBM)
+      OpenShift Commons Gathering on Automotive
+      April 6th 2022
+
+      full agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ya0HPx6tjfs/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ya0HPx6tjfs/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ya0HPx6tjfs/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ya0HPx6tjfs/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ya0HPx6tjfs/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: ya0HPx6tjfs
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-20T15:18:15Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Driving the Software Defined Vehicle with eSync Shrikant Acharya Excelfore
+      Ortwin Schneider Red Hat
+    description: |-
+      Driving the Software Defined Vehicle with eSync and Openshift
+      Shrikant Acharya (Excelfore/eSync Alliance)
+      Ortwin Schneider (Red Hat)
+      OpenShift Commons Gathering on Automotive
+      April 6th 2022
+
+      full agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/HZc5r3kFwnw/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/HZc5r3kFwnw/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/HZc5r3kFwnw/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/HZc5r3kFwnw/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/HZc5r3kFwnw/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: HZc5r3kFwnw
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-20T14:51:21Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: What's Next for Automotive Cloud Natives on the Edge Dan Noal (Red Hat)
+      OpenShift Commons
+    description: "What's Next for Automotive Cloud Natives on the Edge \nDan Noal
+      (Red Hat) \nOpenShift Commons Gathering on Automotive\nApril 6th 2022\n\nfull
+      agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/1L2bj4CcraI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/1L2bj4CcraI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/1L2bj4CcraI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/1L2bj4CcraI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/1L2bj4CcraI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: 1L2bj4CcraI
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-04-20T19:59:27Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Automotive AMA Closing Session  Live Q A & Wrap Up - OpenShift Commons
+      on Automotive 2022
+    description: |-
+      Automotive AMA Closing Session  Live Q A & Wrap Up
+      OpenShift Commons Gathering on Automotive
+      April 6th 2022
+
+      full agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_on_Automotive.html
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Xrblsvo4jf0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Xrblsvo4jf0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Xrblsvo4jf0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Xrblsvo4jf0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Xrblsvo4jf0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
+    position: 8
+    resourceId:
+      kind: youtube#video
+      videoId: Xrblsvo4jf0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: London 2018
   gathering_date: '2018-01-31'
   gathering_videos:
@@ -9902,6 +12309,682 @@ videos:
     resourceId:
       kind: youtube#video
       videoId: WtqmHLuUtes
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering at Kubecon Europe 2022
+  gathering_date: '2022-05-17'
+  gathering_videos:
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Welcome to the Commons  Unlock the Potential of Collaboration - Diane Mueller
+      (Red Hat) OSCG
+    description: |-
+      Welcome to the Commons  Unlock the Potential of Collaboration
+      Speaker: Diane Mueller (Red Hat)
+
+      OpenShift Commons Gathering Kubecon EU
+      May 17, 2022  Live from Kubecon EU in Valencia, Spain
+
+      Full Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html
+
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/k-y16naZtRg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/k-y16naZtRg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/k-y16naZtRg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/k-y16naZtRg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/k-y16naZtRg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: k-y16naZtRg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: OpenShift Release Update and Road Map Daniel Messer, Ramon Acedo Rodriguez,
+      Daniel Oh (Red Hat) OSCG
+    description: "OpenShift Release Update and Road Map \n\nSpeakers: Daniel Messer,
+      Ramon Acedo Rodriguez, Daniel Oh (Red Hat)\n\nOpenShift Commons Gathering Kubecon
+      EU\nMay 17, 2022  Live from Kubecon EU in Valencia, Spain\n\nFull Agenda here:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/OF0C6DSooYQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/OF0C6DSooYQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/OF0C6DSooYQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/OF0C6DSooYQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/OF0C6DSooYQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: OF0C6DSooYQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Application Modernization on AWS with  OpenShift (ROSA) Sai Vennam & Javier
+      Naranjo  (AWS) OSCG 2022
+    description: |-
+      Partner Keynote: Application Modernization on AWS with OpenShift (ROSA)
+      Speakers: Sai Vennam (Amazon)  |  Javier Naranjo Matasan (Amazon)
+
+      OpenShift Commons Gathering Kubecon EU
+      May 17, 2022  Live from Kubecon EU in Valencia, Spain
+
+      Full Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html
+
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/CSPQ7eYxLJU/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/CSPQ7eYxLJU/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/CSPQ7eYxLJU/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/CSPQ7eYxLJU/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/CSPQ7eYxLJU/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: CSPQ7eYxLJU
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Securing Cloud Native Software Supply Chain: The Road Ahead - Luke Hinds
+      (Red Hat) OSCG 2022 Spain'
+    description: |-
+      Securing Cloud Native Software Supply Chain: The Road Ahead
+      Speaker: Luke Hinds (Red Hat)
+
+      OpenShift Commons Gathering Kubecon EU
+      May 17, 2022  Live from Kubecon EU in Valencia, Spain
+
+      Full Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html
+
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/mr40gHFBkUQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/mr40gHFBkUQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/mr40gHFBkUQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/mr40gHFBkUQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/mr40gHFBkUQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: mr40gHFBkUQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Application Modernization and Migration with Konveyor Ramón Román Nissen
+      (Red Hat) OSCG 2022 Spain
+    description: "Application Modernization and Migration with Konveyor \nSpeaker:
+      Ramón Román Nissen (Red Hat)\n\nOpenShift Commons Gathering Kubecon EU\nMay
+      17, 2022  Live from Kubecon EU in Valencia, Spain\n\nFull Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/-D_zkt-uZ58/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/-D_zkt-uZ58/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/-D_zkt-uZ58/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/-D_zkt-uZ58/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/-D_zkt-uZ58/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: "-D_zkt-uZ58"
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: MicroShift a lightweight OpenShift at the Edge  Ricardo Noriega  & Miguel
+      Angel Ajo Pelayo (Red Hat)
+    description: |-
+      MicroShift a lightweight OpenShift at the Edge
+      Speakers: Ricardo Noriega de Soto  & Miguel Angel Ajo Pelayo (Red Hat)
+
+      OpenShift Commons Gathering Kubecon EU
+      May 17, 2022  Live from Kubecon EU in Valencia, Spain
+
+      Full Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html
+
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ItaSh85h0pQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ItaSh85h0pQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ItaSh85h0pQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ItaSh85h0pQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ItaSh85h0pQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: ItaSh85h0pQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'The Evolution of Kubernetes Security:  What''s Next - Kirsten Newcomer
+      (Red Hat) OSCG 2022 Spain'
+    description: |-
+      The Evolution of Kubernetes Security:  What's Next
+      Speaker: Kirsten Newcomer (Red Hat)
+
+      OpenShift Commons Gathering Kubecon EU
+      May 17, 2022  Live from Kubecon EU in Valencia, Spain
+
+      Full Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html
+
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Zw8fnWQy1Ag/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Zw8fnWQy1Ag/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Zw8fnWQy1Ag/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Zw8fnWQy1Ag/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Zw8fnWQy1Ag/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: Zw8fnWQy1Ag
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Stackrox io (ACS) Community Update  Connor Gorman (Red Hat) OpenShift Commons
+      Gathering 2022 Spain
+    description: "Stackrox io (ACS) Community Update  \nSpeaker: Connor Gorman (Red
+      Hat)\nOpenShift Commons Gathering Kubecon EU\nMay 17, 2022  Live from Kubecon
+      EU in Valencia, Spain\n\nFull Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ARx9WF2Du2Y/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ARx9WF2Du2Y/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ARx9WF2Du2Y/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ARx9WF2Du2Y/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ARx9WF2Du2Y/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: ARx9WF2Du2Y
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Declarative GitHub org  Management with Peribolos on Operate First  - Tom
+      Coufal (Red Hat) OSCG 2022
+    description: "Declarative GitHub org  Management with Peribolos on Operate First
+      \nSpeaker: Tomáš Coufal (Red Hat)\n\n\nOpenShift Commons Gathering Kubecon
+      EU\nMay 17, 2022  Live from Kubecon EU in Valencia, Spain\n\n\nFull Agenda here:
+      https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Zjvn8VD4qTY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Zjvn8VD4qTY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Zjvn8VD4qTY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Zjvn8VD4qTY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Zjvn8VD4qTY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 8
+    resourceId:
+      kind: youtube#video
+      videoId: Zjvn8VD4qTY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Moving Everything to Container Storage Interface without Anyone Noticing
+      -Jan Šafránek Red Hat OSCG
+    description: "Moving Everything to Container Storage Interface without Anyone
+      Noticing \nSpeaker: Jan Šafránek Red Hat\nStorage Update\n\nOpenShift Commons
+      Gathering Kubecon EU\nMay 17, 2022  Live from Kubecon EU in Valencia, Spain\n\nFull
+      Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/etvBf-g64cc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/etvBf-g64cc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/etvBf-g64cc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/etvBf-g64cc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/etvBf-g64cc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 9
+    resourceId:
+      kind: youtube#video
+      videoId: etvBf-g64cc
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Interconnectness and Growth of OpenShift & Cloud Native Ecosystem Miguel
+      Ángel Fernández (Biterga)
+    description: |-
+      Interconnectness and Growth of OpenShift & Cloud Native Ecosystem Speaker: Miguel Ángel Fernández (Biterga)
+
+      OpenShift Commons Gathering Kubecon EU
+      May 17, 2022  Live from Kubecon EU in Valencia, Spain
+
+      Full Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html
+
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/0MOhTV3uKXc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/0MOhTV3uKXc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/0MOhTV3uKXc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/0MOhTV3uKXc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/0MOhTV3uKXc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: 0MOhTV3uKXc
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Data Management for a Hybrid World  That Was Easy  -  Jim Walker (Cockroach
+      Labs) OSCG 2022 Spain
+    description: "Data Management for a Hybrid World  That Was Easy \nSpeaker: Jim
+      Walker (Cockroach Labs) \n\nOpenShift Commons Gathering Kubecon EU\nMay 17,
+      2022  Live from Kubecon EU in Valencia, Spain\n\nFull Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/-M3xqwxS4oo/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/-M3xqwxS4oo/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/-M3xqwxS4oo/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/-M3xqwxS4oo/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/-M3xqwxS4oo/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 11
+    resourceId:
+      kind: youtube#video
+      videoId: "-M3xqwxS4oo"
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: OKD Community Update Vadim Rutkovsky  &  Christian Glombek Red Hat OKD
+      Working Group OSCG 2022 Spain
+    description: "OKD Community Update \nSpeakers: Vadim Rutkovsky  &  Christian Glombek
+      Red Hat OKD Working Group\n\nOpenShift Commons Gathering Kubecon EU\nMay 17,
+      2022  Live from Kubecon EU in Valencia, Spain\n\nFull Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/TgYCUM5KZ24/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/TgYCUM5KZ24/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/TgYCUM5KZ24/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/TgYCUM5KZ24/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/TgYCUM5KZ24/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 12
+    resourceId:
+      kind: youtube#video
+      videoId: TgYCUM5KZ24
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Sharing is Caring Build, Accelerate, Inspire  Walid Shaari (Aramco) OpenShift
+      Commons Gathering 2022
+    description: "Sharing is Caring Build, Accelerate, Inspire  \nSpeaker: Walid Shaari
+      (Aramco)\n\nOpenShift Commons Gathering Kubecon EU\nMay 17, 2022  Live from
+      Kubecon EU in Valencia, Spain\n\nFull Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/FioHW0WAZSE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/FioHW0WAZSE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/FioHW0WAZSE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/FioHW0WAZSE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/FioHW0WAZSE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 13
+    resourceId:
+      kind: youtube#video
+      videoId: FioHW0WAZSE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: From Cloud Foundry to Openshift Fully Automated Migration Adam Flower Thomas
+      De Vos HCL Technologies
+    description: "From Cloud Foundry to Openshift Fully Automated Migration \nSpeakers
+      Adam Flower  & Thomas De Vos (HCL Technologies)\n\nOpenShift Commons Gathering
+      Kubecon EU\nMay 17, 2022  Live from Kubecon EU in Valencia, Spain\n\nFull Agenda
+      here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Qhmj9vFEOOQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Qhmj9vFEOOQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Qhmj9vFEOOQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Qhmj9vFEOOQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Qhmj9vFEOOQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 14
+    resourceId:
+      kind: youtube#video
+      videoId: Qhmj9vFEOOQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: What’s Possible with Azure Red Hat OpenShift Mohammad Nofal (Microsoft)
+      OpenShift Commons 2022 Spain
+    description: "What’s Possible with Azure Red Hat OpenShift \nSpeaker: Mohammad
+      Nofal (Microsoft) \n\nOpenShift Commons Gathering Kubecon EU\nMay 17, 2022  Live
+      from Kubecon EU in Valencia, Spain\n\nFull Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html\n\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/8f7eoA4xW6Y/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/8f7eoA4xW6Y/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/8f7eoA4xW6Y/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/8f7eoA4xW6Y/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/8f7eoA4xW6Y/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 15
+    resourceId:
+      kind: youtube#video
+      videoId: 8f7eoA4xW6Y
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-05-18T13:03:28Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: AMA with Red Hat Engineers, Project Leads  & Guest Speakers - OpenShift
+      Commons Gathering 2022 Spain
+    description: |-
+      AMA with Red Hat Engineers, Project Leads  & Guest Speakers - OpenShift Commons Gathering 2022 Spain
+
+      OpenShift Commons Gathering Kubecon EU
+      May 17, 2022  Live from Kubecon EU in Valencia, Spain
+
+      Full Agenda here: https://commons.openshift.org/gatherings/OpenShift_Commons_Gathering_at_Kubecon_Europe_2022.html
+
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/vcpcR2d9mpk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/vcpcR2d9mpk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/vcpcR2d9mpk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/vcpcR2d9mpk/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/vcpcR2d9mpk/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
+    position: 16
+    resourceId:
+      kind: youtube#video
+      videoId: vcpcR2d9mpk
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: San Francisco 2019

@@ -18,6 +18,12 @@ gatherings:
   - title: 'Berlin 2017'
     date: '2017-03-28'
     youtube_playlist_id: 'PLaR6Rq6Z4IqdHztUG96ldb6B6h-BuuQud'
+  - title: OpenShift Commons Gathering on Databases
+    date: '2022-02-23'
+    youtube_playlist_id: 'PLaR6Rq6Z4IqfQmb2zHp7uuR6WFPkyxFVQ'
+  - title: OpenShift Commons Gathering at Kubecon North America 2021
+    date: '2021-10-12'
+    youtube_playlist_id: PLaR6Rq6Z4IqeQbRwXRQZJ7enUaSVwjDyN
   - title: 'Red Hat Summit 2020'
     date: '2020-04-27'
     youtube_playlist_id: 'PLaR6Rq6Z4IqfRAZarliWXi76atgNECwdl'
@@ -27,6 +33,9 @@ gatherings:
   - title: 'Boston 2019'
     date: '2019-05-06'
     youtube_playlist_id: 'PLaR6Rq6Z4IqclliES6msUxN97lamTCp5K'
+  - title: OpenShift Commons Gathering on GitOps
+    date: '2022-02-09'
+    youtube_playlist_id: PLaR6Rq6Z4IqcfC5F-DuOlRTpwjLc_IPag
   - title: 'OpenShift Commons Gathering at Kubecon EU'
     date: '2021-05-04'
     youtube_playlist_id: 'PLaR6Rq6Z4IqdZr58sHi7awp_WCDTYAaTZ'
@@ -36,6 +45,9 @@ gatherings:
   - title: 'Japan 2020'
     date: '2020-12-11'
     youtube_playlist_id: 'PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-'
+  - title: 'OpenShift Commons Gathering Israel'
+    date: '2022-03-29'
+    youtube_playlist_id: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
   - title: 'Buenos Aires 2018'
     date: '2018-08-02'
     youtube_playlist_id: 'PLaR6Rq6Z4IqeRZjo0YgY1N7pcvzf5-9el'
@@ -54,9 +66,15 @@ gatherings:
   - title: 'Helsinki 2018'
     date: '2018-09-10'
     youtube_playlist_id: 'PLaR6Rq6Z4IqcrUvqDVPe5DxNvJp5s8UXC'
+  - title: 'OpenShift Commons Gathering on Automotive'
+    date: '2022-04-06'
+    youtube_playlist_id: PLaR6Rq6Z4Iqf_z7cJok0vKn39igPPaCm0
   - title: 'London 2018'
     date: '2018-01-31'
     youtube_playlist_id: 'PLaR6Rq6Z4IqfhzC5ds3sMju7KKNzdd0xy'
+  - title: 'OpenShift Commons Gathering at Kubecon Europe 2022'
+    date: '2022-05-17'
+    youtube_playlist_id: PLaR6Rq6Z4IqeEqvjcwL9U5k_xUZj1gNDY
   - title: 'San Francisco 2019'
     date: '2019-10-28'
     youtube_playlist_id: 'PLaR6Rq6Z4IqcF997mKrBprx1m-JO02552'
