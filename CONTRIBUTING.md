@@ -555,7 +555,7 @@ Before the video pages can be generated, the information for each video must be 
 
 If you do not have a valid API key, contact a site mantainer to run the `gen-vid-list` script which will pull the information and create the `src/content/videos/videos.yml` file.
 
-(Obtaining a YouTube API key)[https://developers.google.com/youtube/v3/getting-started].
+[Obtaining a YouTube API key](https://developers.google.com/youtube/v3/getting-started).
 
 To update `videos.yml`, from the root of the project, run:
 
