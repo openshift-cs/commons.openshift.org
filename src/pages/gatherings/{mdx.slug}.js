@@ -67,8 +67,14 @@ export default function GatheringPage({ data, ...props }) {
   const aStyle =
     'underline text-primary-700 visited:text-primary-900 focus:ring-2 focus:ring-primary-600 hover:text-warning-700'
 
+  let archived = false
+
   // If the date has past, this is a video archive page
   if (DateTime.fromISO(date).startOf('day') < today) {
+    archived = true
+  }
+
+  if (false) {
     return (
       <>
         <Seo title={title} description={description} />
@@ -129,10 +135,18 @@ export default function GatheringPage({ data, ...props }) {
   // Just keep the unique ones.
   tracks = [...new Set(tracks)]
 
+  let bannerStyle =
+    'light bg-primary-800 text-primary-200 flex flex-col justify-center items-center text-center min-h-[300px] md:min-h-[400px] px-4 md:px-6 py-4 md:py-0'
+
+  if (archived) {
+    bannerStyle =
+      'light bg-accent-800 text-accent-200 flex flex-col justify-center items-center text-center min-h-[300px] md:min-h-[400px] px-4 md:px-6 py-4 md:py-8'
+  }
+
   return (
     <>
       <Seo title={title} description={description} />
-      <section className="light bg-primary-800 text-primary-200 flex flex-col justify-center items-center text-center min-h-[300px] md:min-h-[400px] px-4 md:px-6 py-4 md:py-0">
+      <section className={bannerStyle}>
         <div className="space-y-6 max-w-[900px]">
           <h1 className="font-headings font-bold text-4xl md:text-5xl lg:text-6xl tracking-wide">
             {title}
@@ -148,6 +162,12 @@ export default function GatheringPage({ data, ...props }) {
           <ShareButtons title={title} url={url} twitterHandle="openshiftcommon" />
         </div>
 
+        {archived && (
+          <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8">
+            <Videos title={title} />
+          </div>
+        )}
+
         <section className="flex flex-col items-center my-8 md:my-12">
           {head_text ? (
             <p className={`${ledeStyle} text-center`}>{head_text}</p>
@@ -157,17 +177,22 @@ export default function GatheringPage({ data, ...props }) {
               together to collaborate and work together across the OpenShift Cloud Native ecosystem.
             </p>
           )}
-          <div className="mt-4 flex flex-wrap justify-center gap-2 md:gap-4">
-            <IconBox title={registration_text} url={registration_URL} />
-            {registration_text2 && <IconBox title={registration_text2} url={registration_URL2} />}
-            {registration_text3 && <IconBox title={registration_text3} url={registration_URL3} />}
-            {sponsoring_URL &&
-              (sponsoring_text ? (
-                <IconBox title={sponsoring_text} url={sponsoring_URL} />
-              ) : (
-                <IconBox title="Apply to be a Sponsor" url={sponsoring_URL} />
-              ))}
-          </div>
+
+          {archived ? (
+            <p className={`${ledeStyle} text-center text-accent-600`}>The event is over</p>
+          ) : (
+            <div className="mt-4 flex flex-wrap justify-center gap-2 md:gap-4">
+              <IconBox title={registration_text} url={registration_URL} />
+              {registration_text2 && <IconBox title={registration_text2} url={registration_URL2} />}
+              {registration_text3 && <IconBox title={registration_text3} url={registration_URL3} />}
+              {sponsoring_URL &&
+                (sponsoring_text ? (
+                  <IconBox title={sponsoring_text} url={sponsoring_URL} />
+                ) : (
+                  <IconBox title="Apply to be a Sponsor" url={sponsoring_URL} />
+                ))}
+            </div>
+          )}
         </section>
 
         <section className="my-8 md:my-16">
@@ -179,16 +204,18 @@ export default function GatheringPage({ data, ...props }) {
             <div className="md:w-1/2 shrink-0">
               <p className={`${ledeStyle}`}>{lead_text}</p>
               <p className="max-w-[56ch]">{info_text}</p>
-              <div className="mt-4 lg:mt-8 flex justify-center gap-2 md:gap-4">
-                <IconBox title={registration_text} url={registration_URL} />
+              {!archived && (
+                <div className="mt-4 lg:mt-8 flex justify-center gap-2 md:gap-4">
+                  <IconBox title={registration_text} url={registration_URL} />
 
-                {invite_link &&
-                  (translate_invite ? (
-                    <IconBox title={translate_invite} url={invite_link} />
-                  ) : (
-                    <IconBox title="Invite a Friend" url={invite_link} />
-                  ))}
-              </div>
+                  {invite_link &&
+                    (translate_invite ? (
+                      <IconBox title={translate_invite} url={invite_link} />
+                    ) : (
+                      <IconBox title="Invite a Friend" url={invite_link} />
+                    ))}
+                </div>
+              )}
             </div>
             <div>
               <div className="mt-4 bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
