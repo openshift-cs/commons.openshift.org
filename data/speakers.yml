@@ -3304,7 +3304,7 @@ speakers:
     photo: "speakers/nick_tarmey.jpg"
   - id: "daniel_mcElligott"
     name: "Daniel McElligott"
-    role: "Senior Software Engineer"
+    role: "DevOps Tech Lead"
     URL: "https://www.version1.com/"
     company: "Version 1"
     photo: "speakers/daniel_mcElligott.jpg"
