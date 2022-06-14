@@ -74,34 +74,6 @@ export default function GatheringPage({ data, ...props }) {
     archived = true
   }
 
-  if (false) {
-    return (
-      <>
-        <Seo title={title} description={description} />
-        <section className="light bg-accent-800 text-accent-200 flex flex-col justify-center items-center text-center md:min-h-[200px] px-4 md:px-6 py-4 md:py-8">
-          <div className="space-y-6 max-w-[900px]">
-            <h1 className="font-headings font-bold text-4xl md:text-5xl lg:text-6xl tracking-wide">
-              {title}
-            </h1>
-            <p className="text-xl lg:text-2xl">
-              <DateString date={date} language={language} />
-            </p>
-          </div>
-        </section>
-
-        <div className="max-w-screen-xl page-wrapper">
-          <div className="flex justify-between border-b border-base-300 py-4 text-base-500">
-            <ShareButtons title={title} url={url} twitterHandle="openshiftcommon" />
-          </div>
-
-          <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8">
-            <Videos title={title} />
-          </div>
-        </div>
-      </>
-    )
-  }
-
   let speakersList = schedule
     ?.filter((session) => session.speakers)
     .map((session) =>
