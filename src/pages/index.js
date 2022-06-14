@@ -246,7 +246,7 @@ export default function IndexPage({ data }) {
         </div>
       </section>
       <section className="relative before:hidden md:before:flex flex-col w-full items-center z-0 before:z-[-1] before:text-transparent before:absolute before:w-full before:h-[100vw] before:top-[-100px] before:bg-gradient-to-b before:from-base-200 before:to-tertiary-400 dark:before:from-base-100 dark:before:to-tertiary-500 before:rounded-full">
-        <div className="page-wrapper mt-12 md:mt-20">
+        <div id="blog" className="page-wrapper mt-12 md:mt-20">
           <h2 className={`${headingStyle}`}>Recent posts</h2>
           <div className="space-y-6 my-6 md:my-12 md:space-x-6 md:space-y-0 w-full flex flex-col md:flex-row">
             {posts.map((post) => (
