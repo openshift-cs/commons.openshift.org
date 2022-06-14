@@ -3,7 +3,7 @@
 # and none of the Gatsby ways work with a static site, create static
 # HTML files with meta refresh tags.
 
-HELPMSG="USAGE: create-forward <from> <to>\n\t<from> — root relative link\n\t<to> — absolute link"
+HELPMSG="USAGE: create-redirect <from> <to>\n\t<from> — root relative link\n\t<to> — absolute link"
 
 if [ $# -lt 2 ] ; then
   echo -e $HELPMSG
