@@ -1,0 +1,458 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------------------------------------------
+Variable font.
+Usage:
+*/
+
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('../fonts/Inter-roman.var.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('../fonts/Inter-italic.var.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  font-named-instance: 'Regular';
+  src: url('../fonts/RedHatDisplay-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-named-instance: 'Bold';
+  src: url('../fonts/RedHatDisplay-Bold.woff2') format('woff2');
+}
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  @apply h-full;
+}
+
+#main {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+[data-radix-focus-guard] {
+  @apply z-20 bg-base-400 cursor-pointer pointer-events-auto bg-opacity-40 w-full h-full opacity-100 !important;
+}
+
+small {
+  font-size: 70%;
+}
+
+.page-wrapper {
+  @apply px-4 md:px-6 mx-auto max-w-[1440px];
+}
+
+/* skip to main offset for the sticky nav height */
+#main {
+  @apply mt-[-97px] pt-[97px] md:mt-[-113px] md:pt-[113px];
+}
+
+.skip-to-content {
+  @apply absolute opacity-0 pointer-events-none -top-10 left-1/2 transform -translate-x-1/2 z-50 rounded-b-lg border-2 border-t-0 border-base-100 p-2;
+}
+
+.skip-to-content:focus {
+  @apply top-0 pointer-events-auto opacity-100 transition-all duration-100 bg-alert-900 text-base-100;
+}
+
+.search-results:before {
+  content: ' ';
+  @apply h-0 w-0 absolute pointer-events-none -mt-3;
+
+  @apply right-0 transform -translate-x-1/2;
+  @apply hidden md:flex lg:left-1/2 transform -translate-x-1/2;
+  border-left: 12px solid transparent; /* left arrow slant */
+  border-right: 12px solid transparent; /* right arrow slant */
+  border-bottom: 12px solid hsla(var(--primary-600)); /* bottom, add background color here */
+}
+
+.get-involved:before,
+.get-involved:after {
+  mix-blend-mode: multiply;
+}
+
+/* For an anchor link, leave some space at the top. */
+[id],
+[name] {
+  scroll-margin-top: 8rem;
+}
+
+/* prettier-ignore-start */
+.light {
+  --base-100: 140, 0%, 100%;
+  --base-200: 141, 65%, 97%;
+  --base-300: 141, 35%, 89%;
+  --base-400: 141, 20%, 74%;
+  --base-500: 142, 15%, 62%;
+  --base-600: 141, 5%, 47%;
+  --base-700: 142, 10%, 38%;
+  --base-800: 141, 5%, 27%;
+  --base-900: 141, 23%, 17%;
+
+  /* Red Hat Green */
+  --primary-100: 140, 33%, 95%; /*EDF6F0*/
+  --primary-200: 141, 35%, 84%; /*C9E5D3*/
+  --primary-300: 141, 34%, 74%; /*A6D3B6*/
+  --primary-400: 141, 34%, 68%; /*92C9A5*/
+  --primary-500: 142, 34%, 64%; /*82C299*/
+  --primary-600: 141, 20%, 51%; /*689B7A*/
+  --primary-700: 142, 20%, 38%; /*4E745C*/
+  --primary-800: 141, 20%, 25%; /*344E3D*/
+  --primary-900: 141, 20%, 17%; /*233429*/
+
+  /* Red Hat Teal */
+  --secondary-100: 184, 40%, 95%; /*EDF7F7*/
+  --secondary-200: 184, 42%, 93%; /*E4F3F4*/
+  --secondary-300: 181, 41%, 77%; /*AEDCDD*/
+  --secondary-400: 182, 40%, 63%; /*79C4C6*/
+  --secondary-500: 181, 45%, 47%; /*43ADAF*/
+  --secondary-600: 181, 44%, 43%; /*3D9C9E*/
+  --secondary-700: 181, 44%, 38%; /*368A8C*/
+  --secondary-800: 181, 45%, 28%; /*286869*/
+  --secondary-900: 181, 44%, 19%; /*1B4546*/
+
+  --tertiary-100: 204, 98%, 96%;
+  --tertiary-200: 204, 94%, 94%;
+  --tertiary-300: 201, 65%, 88%;
+  --tertiary-400: 199, 60%, 70%;
+  --tertiary-500: 199, 70%, 57%;
+  --tertiary-600: 200, 98%, 39%;
+  --tertiary-700: 201, 96%, 32%;
+  --tertiary-800: 201, 90%, 27%;
+  --tertiary-900: 202, 80%, 24%;
+
+  --intermediate-100: 250, 100%, 98%;
+  --intermediate-200: 251, 91%, 95%;
+  --intermediate-300: 251, 95%, 92%;
+  --intermediate-400: 252, 95%, 85%;
+  --intermediate-500: 255, 92%, 76%;
+  --intermediate-600: 258, 90%, 66%;
+  --intermediate-700: 262, 83%, 58%;
+  --intermediate-800: 263, 70%, 50%;
+  --intermediate-900: 263, 69%, 42%;
+
+  /* Red Hat Red */
+  --accent-100: 0, 89%, 96%; /*FEECEC*/
+  --accent-200: 0, 89%, 93%; /*FDDBDB*/
+  --accent-300: 0, 87%, 85%; /*FAB6B6*/
+  --accent-400: 0, 87%, 69%; /*F56D6D*/
+  --accent-500: 0, 100%, 47%; /*EE0000*/
+  --accent-600: 0, 100%, 46%; /*EB0000*/
+  --accent-700: 0, 100%, 37%; /*BE0000*/
+  --accent-800: 0, 100%, 28%; /*8F0000*/
+  --accent-900: 0, 100%, 17%; /*5F0000*/
+
+  --success-100: 152, 81%, 96%;
+  --success-200: 149, 80%, 90%;
+  --success-300: 152, 76%, 80%;
+  --success-400: 156, 72%, 67%;
+  --success-500: 158, 64%, 52%;
+  --success-600: 160, 84%, 39%;
+  --success-700: 161, 94%, 30%;
+  --success-800: 163, 94%, 24%;
+  --success-900: 163, 88%, 20%;
+
+  --warning-100: 55, 81%, 95%;
+  --warning-200: 55, 80%, 88%;
+  --warning-300: 53, 80%, 77%;
+  --warning-400: 50, 83%, 64%;
+  --warning-500: 48, 86%, 53%;
+  --warning-600: 45, 90%, 47%;
+  --warning-700: 41, 92%, 40%;
+  --warning-800: 35, 92%, 33%;
+  --warning-900: 32, 81%, 29%;
+
+  --caution-100: 33, 100%, 96%;
+  --caution-200: 34, 100%, 92%;
+  --caution-300: 32, 98%, 83%;
+  --caution-400: 31, 97%, 72%;
+  --caution-500: 27, 96%, 61%;
+  --caution-600: 25, 95%, 53%;
+  --caution-700: 21, 90%, 48%;
+  --caution-800: 17, 88%, 40%;
+  --caution-900: 15, 79%, 34%;
+
+  --alert-100: 356, 100%, 97%;
+  --alert-200: 356, 100%, 95%;
+  --alert-300: 353, 90%, 90%;
+  --alert-400: 353, 90%, 82%;
+  --alert-500: 351, 90%, 71%;
+  --alert-600: 350, 85%, 60%;
+  --alert-700: 347, 72%, 50%;
+  --alert-800: 345, 83%, 41%;
+  --alert-900: 343, 80%, 35%;
+}
+
+.dark {
+  --base-0: 141, 20%, 17%;
+  --base-100: 141, 15%, 23%;
+  --base-200: 142, 10%, 26%;
+  --base-300: 141, 7%, 32%;
+  --base-400: 142, 10%, 37%;
+  --base-500: 141, 14%, 63%;
+  --base-600: 141, 14%, 87%;
+  --base-700: 141, 23%, 94%;
+  --base-800: 141, 25%, 98%;
+  --base-900: 140, 0%, 100%;
+
+  --primary-100: 141, 20%, 17%; /*233429*/
+  --primary-200: 141, 20%, 25%; /*344E3D*/
+  --primary-300: 142, 20%, 38%; /*4E745C*/
+  --primary-400: 141, 20%, 51%; /*689B7A*/
+  --primary-500: 142, 34%, 64%; /*82C299*/
+  --primary-600: 141, 34%, 68%; /*92C9A5*/
+  --primary-700: 141, 34%, 74%; /*A6D3B6*/
+  --primary-800: 141, 35%, 84%; /*C9E5D3*/
+  --primary-900: 140, 33%, 95%; /*EDF6F0*/
+
+  --secondary-100: 181, 44%, 19%; /*1B4546*/
+  --secondary-200: 181, 45%, 28%; /*286869*/
+  --secondary-300: 181, 44%, 38%; /*368A8C*/
+  --secondary-400: 181, 44%, 43%; /*3D9C9E*/
+  --secondary-500: 181, 45%, 47%; /*43ADAF*/
+  --secondary-600: 182, 40%, 63%; /*79C4C6*/
+  --secondary-700: 181, 41%, 77%; /*AEDCDD*/
+  --secondary-800: 184, 42%, 93%; /*E4F3F4*/
+  --secondary-900: 184, 40%, 95%; /*EDF7F7*/
+
+  --tertiary-100: 210, 25%, 21%;
+  --tertiary-200: 210, 33%, 26%;
+  --tertiary-300: 210, 35%, 48%;
+  --tertiary-400: 210, 40%, 58%;
+  --tertiary-500: 210, 55%, 68%;
+  --tertiary-600: 210, 68%, 78%;
+  --tertiary-700: 210, 81%, 90%;
+  --tertiary-800: 210, 100%, 96%;
+  --tertiary-900: 210, 45%, 98%;
+
+  --intermediate-100: 255, 25%, 21%;
+  --intermediate-200: 255, 33%, 26%;
+  --intermediate-300: 255, 35%, 48%;
+  --intermediate-400: 255, 40%, 58%;
+  --intermediate-500: 255, 55%, 68%;
+  --intermediate-600: 255, 68%, 78%;
+  --intermediate-700: 255, 81%, 90%;
+  --intermediate-800: 255, 100%, 96%;
+  --intermediate-900: 255, 45%, 98%;
+
+  --accent-100: 0, 100%, 17%; /*5F0000*/
+  --accent-200: 0, 100%, 28%; /*8F0000*/
+  --accent-300: 0, 100%, 37%; /*BE0000*/
+  --accent-400: 0, 100%, 46%; /*EB0000*/
+  --accent-500: 0, 100%, 47%; /*EE0000*/
+  --accent-600: 0, 87%, 69%; /*F56D6D*/
+  --accent-700: 0, 87%, 85%; /*FAB6B6*/
+  --accent-800: 0, 89%, 93%; /*FDDBDB*/
+  --accent-900: 0, 89%, 96%; /*FEECEC*/
+
+  --success-100: 175, 28%, 21%;
+  --success-200: 175, 33%, 30%;
+  --success-300: 175, 62%, 37%;
+  --success-400: 175, 52%, 46%;
+  --success-500: 175, 66%, 68%;
+  --success-600: 175, 68%, 78%;
+  --success-700: 175, 81%, 80%;
+  --success-800: 175, 100%, 72%;
+  --success-900: 175, 100%, 90%;
+
+  --warning-100: 39, 28%, 21%;
+  --warning-200: 39, 22%, 51%;
+  --warning-300: 39, 38%, 52%;
+  --warning-400: 39, 50%, 66%;
+  --warning-500: 39, 62%, 71%;
+  --warning-600: 39, 64%, 80%;
+  --warning-700: 39, 80%, 90%;
+  --warning-800: 39, 100%, 96%;
+  --warning-900: 39, 45%, 98%;
+
+  --caution-100: 16, 28%, 21%;
+  --caution-200: 16, 37%, 36%;
+  --caution-300: 16, 47%, 48%;
+  --caution-400: 16, 50%, 65%;
+  --caution-500: 16, 66%, 68%;
+  --caution-600: 16, 68%, 78%;
+  --caution-700: 16, 81%, 90%;
+  --caution-800: 16, 100%, 96%;
+  --caution-900: 16, 45%, 98%;
+
+  --alert-100: 348, 28%, 21%;
+  --alert-200: 348, 37%, 36%;
+  --alert-300: 348, 50%, 52%;
+  --alert-400: 348, 55%, 67%;
+  --alert-500: 348, 66%, 68%;
+  --alert-600: 348, 68%, 78%;
+  --alert-700: 348, 81%, 90%;
+  --alert-800: 348, 100%, 96%;
+  --alert-900: 348, 45%, 98%;
+}
+/* prettier-ignore-end */
+
+/* Style heading anchor links from gatsby-remark-autolink-headers */
+a.anchor {
+  @apply opacity-0 ml-2 inline-block w-4 h-4 text-base-700 hover:text-primary-600;
+}
+
+h2:hover a.anchor,
+h2:focus a.anchor,
+h3:hover a.anchor,
+h3:focus a.anchor,
+h4:hover a.anchor,
+h4:focus a.anchor,
+h5:hover a.anchor,
+h5:focus a.anchor {
+  @apply opacity-100;
+}
+
+/* Override PrismJS */
+pre[class*='language-'] {
+  @apply rounded-md py-6 !important;
+  @apply text-sm bg-base-900 !important;
+}
+
+.dark pre[class*='language-'] {
+  background: hsla(215, 20%, 10%) !important;
+  @apply shadow-post;
+}
+
+li > p:first-child {
+  @apply inline-block;
+}
+
+ul ul {
+  @apply list-circle !important;
+}
+.office-hours li {
+  @apply mb-3 leading-snug;
+}
+
+code[class*='language-'] {
+  white-space: pre-wrap !important;
+}
+
+.dark code[class*='language-'] {
+  @apply bg-alert-200 text-base-900;
+}
+
+.dark pre code[class*='language-'] {
+  @apply bg-none;
+}
+
+.dark .banner {
+  filter: brightness(0.7) contrast(1.15);
+}
+
+.hover-animate-pause:hover {
+  animation-play-state: paused;
+}
+
+.video-embed {
+  @apply relative;
+  padding-bottom: calc(9 / 16 * 100%);
+}
+
+.video-embed > * {
+  @apply absolute inset-0 h-full w-full;
+}
+
+.table-container {
+  @apply overflow-auto mt-5 md:mt-8 md:mb-4 lg:mb-12;
+  max-height: calc(100vh - 112px - 16px);
+  background: linear-gradient(rgba(255, 255, 255, 0), hsl(var(--base-100)) 70%) 0 100%,
+    radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%,
+    linear-gradient(to right, rgba(255, 255, 255, 0), hsl(var(--base-100)) 70%) 0 100%,
+    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: hsl(var(--base-100));
+  background-size: 100% 4rem, 100% 2.75rem, 4rem 100%, 2.75rem 100%;
+  background-position: bottom, bottom, 100%, 100%;
+  background-attachment: local, scroll, local, scroll;
+}
+
+.table-container:focus {
+  box-shadow: 0 0 8px 4px hsl(var(--base-500));
+  outline: 2px solid hsl(var(--base-500));
+}
+
+.table {
+  @apply border-separate border-t border-l border-primary-300 tabular-nums;
+  width: max(100%, 650px);
+  border-spacing: 0;
+}
+
+.table th,
+.table td {
+  @apply border-b border-r border-primary-300 p-2 align-top leading-6;
+}
+
+.table th *:last-child,
+.table td *:last-child {
+  @apply mb-0;
+}
+
+.table th {
+  @apply sticky top-0 z-20 bg-primary-200 text-left;
+}
+
+.table th[scope='row'],
+.table th[scope='rowgroup'] {
+  @apply sticky left-0 z-10;
+}
+
+.table p,
+.table li {
+  @apply leading-6;
+}
+
+.table li {
+  @apply mb-2;
+}
+
+.table caption {
+  @apply p-2 text-left italic;
+  caption-side: top;
+}
+
+.table tr:hover {
+  @apply bg-base-200;
+}
+
+.table tr:hover th {
+  @apply bg-base-300;
+}
+
+.table-fixed th,
+.table-fixed td {
+  @apply overflow-hidden text-ellipsis;
+}

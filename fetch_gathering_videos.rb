@@ -1,16 +1,16 @@
 #!/usr/bin/ruby
 
 #################
-# Produces /data/gathering_videos.yml file with YouTube video links based on playlist IDs found
-# in /data/gatherings.yml; this file is later used by Middleman to build a static video page.
-# This script is intended to be run before middleman build
+# Produces videos.yml file with YouTube video links based on playlist IDs found
+# in videos/videos.yml.
+# This script is intended to be run before Gatsby build
 
-GATHERINGS_FILE = "gatherings.yml"
-OUTPUT_FILE = "gathering_videos.yml"
+GATHERINGS_FILE = "videos.yml"
+OUTPUT_FILE = "src/content/videos/videos.yml"
 YT_PLAYLIST_PAGINATION = 20 # YouTube video results per page when querying playlistItems (max 50, default 5)
 SLEEP_SECONDS = 1 # throttling individual API requests
 
-puts "----> Attempting to get YouTube playlists from ./data/#{GATHERINGS_FILE}"
+puts "----> Attempting to get YouTube playlists from #{GATHERINGS_FILE}"
 
 require 'json'
 require 'net/http'
@@ -27,6 +27,7 @@ uri = URI('https://www.googleapis.com/youtube/v3/search')
 params = { :part => "snippet", :key => ENV["YT_API_KEY"], :q => "foo", :resultsPerPage => 1 }
 uri.query = URI.encode_www_form(params)
 res = Net::HTTP.get_response(uri)
+
 if res.code() == '400'
   data = JSON.parse(res.body())
   if data["error"]["errors"][0]["reason"] == "keyInvalid"
@@ -35,14 +36,15 @@ if res.code() == '400'
   end
 end
 
-# output that will be eventually converted to the yaml #{OUTPUT_FILE}
+# output that will be eventually converted to the mdx #{OUTPUT_FILE}
+output = { "---" => [] }
 output = { "videos" => [] }
 playlist_count = 0
 video_count = 0
 
 # be path aware
-Gatherings_file = File.join(File.dirname(__FILE__),"/data/#{GATHERINGS_FILE}")
-Output_file = File.join(File.dirname(__FILE__),"/data/#{OUTPUT_FILE}")
+Gatherings_file = File.join(File.dirname(__FILE__),"/#{GATHERINGS_FILE}")
+Output_file = File.join(File.dirname(__FILE__),"/#{OUTPUT_FILE}")
 
 # loop through gatherings and find YouTube playlist IDs
 begin
@@ -51,15 +53,18 @@ rescue
   STDERR.puts("ERROR: Cannot load Gatherings YAML (trying #{Gatherings_file})")
   exit(false)
 end
+
 index = 0
+
 gatherings["gatherings"].each do |gathering|
-  # only the gathering name, the event date and the playlist ID are required for the video list
-  if gathering["youtube_playlist_id"] && gathering["name"] && gathering["date"]
-    print gathering["name"]
-    output["videos"] << { "gathering_name" => gathering["name"], "gathering_date" => gathering["date"], "gathering_videos" => [] }
+  # only the gathering title, the event date and the playlist ID are required for the video list
+  if gathering["youtube_playlist_id"] && gathering["title"] && gathering["date"]
+    print gathering["title"]
+    output["videos"] << { "gathering_title" => gathering["title"], "gathering_date" => gathering["date"], "gathering_videos" => [] }
     playlist_count += 1
     uri = URI('https://www.googleapis.com/youtube/v3/playlistItems')
     params = { :part => "snippet", :playlistId => gathering["youtube_playlist_id"], :key => ENV["YT_API_KEY"], :maxResults => YT_PLAYLIST_PAGINATION }
+
     # loop through all the videos in the playlist
     loop do
       uri.query = URI.encode_www_form(params)
@@ -69,7 +74,9 @@ gatherings["gatherings"].each do |gathering|
         puts "WARN: Failed getting videos for " + gathering["name"]
         break
       end
+
       data = JSON.parse(res.body())
+
       # add retrieved items to output
       data["items"].each do |item|
         # ignore private videos (which dot return thumbnails, link, etc.)
@@ -80,12 +87,14 @@ gatherings["gatherings"].each do |gathering|
           print "."
         end
       end
+
       # terminate the loop, if the nextPageToken does not exist...
       break if !data["nextPageToken"]
       # ...otherwise continue with the next page of results
       params.merge!( :pageToken => data["nextPageToken"] )
       sleep(SLEEP_SECONDS)
     end
+
     print "\n"
     index += 1
     sleep(SLEEP_SECONDS)

@@ -1,0 +1,29 @@
+#!/bin/bash
+# Since GitHub Pages does not offer a way to do 301 redirects
+# and none of the Gatsby ways work with a static site, create static
+# HTML files with meta refresh tags.
+
+HELPMSG="USAGE: create-redirect <from> <to>\n\t<from> — root relative link\n\t<to> — absolute link"
+
+if [ $# -lt 2 ] ; then
+  echo -e $HELPMSG
+  exit 1
+fi
+
+DIR=`dirname $1`
+
+/usr/bin/mkdir -p static$DIR
+
+/usr/bin/cat << EOT > static$1
+<html>
+  <head>
+    <title>OpenShift Commons</title>
+    <meta http-equiv="refresh" content="0; URL=$2" />
+    <link rel="canonical" href="$2" />
+  </head>
+  <body>
+    <p>The page has moved to: <a href="$2">this page</a>.</p>
+  </body>
+</html>
+EOT
+

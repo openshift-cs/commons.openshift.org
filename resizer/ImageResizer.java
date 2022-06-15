@@ -39,7 +39,7 @@ public class ImageResizer {
   private static final String ISSUE_SKIP_FLAG = "tbd";
 
   /** Maximum pixel height for uploaded company logo */
-  private static final float MAX_HEIGHT = 60;
+  private static final float MAX_HEIGHT = 160;
 
   /**
    * Regular expression pattern used to capture company name, url, and logo url from
@@ -169,7 +169,7 @@ public class ImageResizer {
 
                 //Establishes the BufferedWriter needed to append text to 'participants.yml'
                 try {
-                  BufferedWriter out = new BufferedWriter(new FileWriter(new File(COMMONS_PATH + "/data/participants.yml"), true));
+                  BufferedWriter out = new BufferedWriter(new FileWriter(new File(COMMONS_PATH + "/src/content/participants/participants.yml"), true));
 
                   //Appends company and information to 'participants.yml'
                   out.newLine();
@@ -177,7 +177,7 @@ public class ImageResizer {
                   out.newLine();
                   out.append("  link: \"" + company_url + "\"");
                   out.newLine();
-                  out.append("  logo: \"commons-logos/" + fileName + "\"");
+                  out.append("  logo: \"" + fileName + "\"");
                   out.close();
                   participantsUpdated = true;
                 } catch (IOException e) {
@@ -292,8 +292,8 @@ public class ImageResizer {
       // avoid 403's by setting the user agent request header
       conn.setRequestProperty("User-Agent", USER_AGENT);
       // explicitly open connection to catch exceptions like SSL handshake errors
-      conn.connect(); 
-      mimeType = conn.getContentType();      
+      conn.connect();
+      mimeType = conn.getContentType();
     } catch (IOException e) {
       System.out.println("Error: Unable to read the image at the specified URL (" + url + ")");
       System.out.println(e);
@@ -392,7 +392,7 @@ public class ImageResizer {
   }
 
   private static String saveImage(BufferedImage image, URL url, String company) {
-    String filePath = COMMONS_PATH + "/source/img/commons-logos/";
+    String filePath = COMMONS_PATH + "/src/content/participants/";
     String fileName = company.toLowerCase().replaceAll("\\s","") + "." + getExtension(url);
     File imageFile = new File(filePath + fileName);
 

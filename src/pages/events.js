@@ -1,0 +1,151 @@
+import React from 'react'
+import { graphql } from 'gatsby'
+import Seo from '../components/seo'
+import TimeLyCalendar from '../components/time.ly'
+import { ReactComponent as Slack } from '../images/slack-icon.svg'
+import { ReactComponent as Meetup } from '../images/meetup.svg'
+import { Youtube } from 'react-feather'
+
+export default function EventsPage({ data }) {
+  const h1Style = 'font-headings text-3xl lg:text-5xl text-base-800 mb-2 lg:mb-4'
+  const h2Style = 'mt-10 mb-2 lg:mb-4 font-medium text-base-700 text-2xl md:text-3xl'
+  const pSubheadStyle = 'text-center text-xl lg:text-2xl text-base-600 mb-4'
+  const pStyle = 'max-w-[60ch] mb-4 text-base text-base-700 leading-loose'
+  const aStyle =
+    'underline text-primary-700 visited:text-primary-900 focus:ring-2 focus:ring-primary-600 hover:text-warning-700'
+
+  const slack = data.site.siteMetadata.socialMedia.filter((media) => media.platform === 'slack')[0]
+    .url
+
+  const IconBox = ({ ...props }) => {
+    const { title, url, icon, target } = props
+
+    const styles =
+      'border-2 bg-base-100 hover:border-base-500 hover:bg-base-200 focus:outline-none focus:ring-2 focus:ring-primary-600 rounded-lg w-full border-base-400 p-4 flex flex-col justify-center items-center'
+
+    return (
+      <>
+        {target ? (
+          <a className={styles} rel="noopener noreferrer" href={url} target={target}>
+            <div className="h-32 mb-4">{icon}</div>
+            <p className="text-2xl font-semibold">{title}</p>
+          </a>
+        ) : (
+          <a className={styles} href={url} target={target}>
+            <div className="h-32 mb-4">{icon}</div>
+            <p className="text-2xl font-semibold">{title}</p>
+          </a>
+        )}
+      </>
+    )
+  }
+
+  return (
+    <>
+      <Seo title="Events" />
+      <div className="overflow-hidden text-center xxxpy-12 xxxmd:py-16 xxxlg:pb-24">
+        <div className="flex flex-col items-center gap-8 md:gap-12 page-wrapper">
+          <section className="w-full flex flex-col z-0">
+            <h1 className={h1Style}>Events</h1>
+            <p className={pSubheadStyle}>Join us at upcoming events</p>
+
+            <div className="flex flex-col lg:flex-row lg:gap-4 text-left">
+              <div className="lg:w-1/3 pb-8 lg:pb-16">
+                <h2 className={h2Style}>Join great sessions</h2>
+                <p className={pStyle}>
+                  <strong>All times listed are Pacific Time.</strong> Each event is lead by an
+                  OpenShift expert who would love to answer any of your questions. All the OpenShift
+                  Commons Briefings and are recorded and posted on{' '}
+                  <a
+                    className={aStyle}
+                    href="https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqdIM7LtosKqi3LlYXyxjwnj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    our YouTube channel
+                  </a>
+                  .
+                </p>
+                <ul className="mb-4 list-disc ml-4 text-lg">
+                  <li className="mb-4">OpenShift</li>
+                  <li className="mb-4">Operations</li>
+                  <li className="mb-4">DevOps</li>
+                  <li className="mb-4">Development</li>
+                  <li className="mb-4">Contributing</li>
+                </ul>
+              </div>
+              <div className="w-full lg:w-2/3 pb-8 lg:py-8">
+                <TimeLyCalendar acct="9xhtzgrs" />
+              </div>
+            </div>
+            <div
+              className="absolute w-full top-0 left-0 h-full pointer-events-none z-[-1]"
+              aria-hidden
+            >
+              <div
+                style={{ top: '200px', left: '20vw' }}
+                className="bg-alert-100 dark:bg-tertiary-100 absolute rounded-full h-10 w-10"
+              />
+              <div
+                style={{ bottom: '120px', left: '10vw' }}
+                className="bg-warning-100 dark:bg-tertiary-100 absolute rounded-full h-12 w-12"
+              />
+              <div
+                style={{ top: '60%', right: '15vw' }}
+                className=" bg-caution-100 dark:bg-tertiary-100 absolute rounded-full h-8 w-8"
+              />
+              <div
+                style={{ top: '300px', right: '25vw' }}
+                className="bg-tertiary-100 dark:bg-tertiary-100 absolute rounded-full h-12 w-12"
+              />
+            </div>
+          </section>
+          <section className="flex flex-col w-full items-center text-center relative z-0">
+            <h1 className={h1Style}>Get involved</h1>
+            <p className={pSubheadStyle}>
+              We are always looking for volunteers to help grow and enrich our community
+            </p>
+            <div className="gap-6 mt-16 mb-12 w-full grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              <IconBox title="Slack" url={slack} target="_blank" icon={<Slack alt="" />} />
+              <IconBox
+                title="Meetups"
+                url="https://www.meetup.com/pro/openshift/"
+                target="_blank"
+                icon={<Meetup alt="" />}
+              />
+              <IconBox
+                title="Past Briefings"
+                url="https://www.youtube.com/user/rhopenshift/playlists?flow=grid&view=1"
+                target="_blank"
+                icon={<Youtube alt="" className="text-[#f00]" strokeWidth="1px" />}
+              />
+            </div>
+            <div
+              className="absolute w-full top-0 left-0 h-full pointer-events-none z-[-1]"
+              aria-hidden
+            >
+              <div
+                style={{ bottom: '-45px', right: '5vw' }}
+                className="bg-warning-100 dark:bg-tertiary-100 absolute rounded-full h-12 w-12"
+              />
+            </div>
+          </section>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export const query = graphql`
+  {
+    site {
+      siteMetadata {
+        blog
+        socialMedia {
+          platform
+          url
+        }
+      }
+    }
+  }
+`
