@@ -25,3 +25,6 @@
 - name: 'UKCloud'
   link: 'https://ukcloud.com/'
   logo: 'ukcloud.png'
+- name: 'eir evo'
+  link: 'https://www.eirevo.co.uk/'
+  logo: 'eir_evo.jpg'
