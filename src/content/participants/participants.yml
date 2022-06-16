@@ -2980,7 +2980,7 @@
   metatag2: 'none'
 - name: 'Cloudera'
   link: 'https://www.cloudera.com/'
-  logo: 'cloudera.png'
+  logo: 'cloudera_clear.png'
   metatag1: 'partner'
   metatag2: 'none'
 - name: 'Kong'
