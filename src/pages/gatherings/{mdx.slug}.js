@@ -265,7 +265,7 @@ export default function GatheringPage({ data, ...props }) {
                       {sponsors
                         .filter((sponsor) => sponsor.level === lvl)
                         .map((sponsor) => (
-                          <li key={sponsor.name} className="max-w-[220px]">
+                          <li key={sponsor.name}>
                             <Sponsor name={sponsor.name} />
                           </li>
                         ))}
@@ -275,7 +275,7 @@ export default function GatheringPage({ data, ...props }) {
             ) : (
               <ul className="mt-8 flex flex-wrap justify-center items-center gap-4 md:gap-8">
                 {sponsors.map((sponsor) => (
-                  <li key={sponsor.name} className="max-w-[220px]">
+                  <li key={sponsor.name}>
                     <Sponsor name={sponsor.name} />
                   </li>
                 ))}

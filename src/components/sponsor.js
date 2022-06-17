@@ -6,7 +6,7 @@ const LogoImage = ({ image, innerClassName }) => {
   if (image?.extension === 'svg')
     return (
       <div>
-        <img className="max-h-20" width="128" height="80" src={image.publicURL} alt="" />
+        <img className="" width="150" src={image.publicURL} alt="" />
       </div>
     )
 
@@ -25,7 +25,7 @@ const Sponsor = ({ name }) => {
             link
             logo {
               childImageSharp {
-                gatsbyImageData(height: 80, formats: [AUTO, WEBP])
+                gatsbyImageData(width: 150, formats: [AUTO, WEBP])
               }
               extension
               publicURL
@@ -39,7 +39,7 @@ const Sponsor = ({ name }) => {
             link
             logo {
               childImageSharp {
-                gatsbyImageData(height: 80, formats: [AUTO, WEBP])
+                gatsbyImageData(width: 150, formats: [AUTO, WEBP])
               }
               extension
               publicURL
@@ -53,13 +53,15 @@ const Sponsor = ({ name }) => {
   const aStyle =
     'block p-4 rounded-md dark:bg-base-400 hover:ring-2 hover: ring-primary-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-400'
 
+  const imgStyle = 'max-w-[500px]'
+
   // Sponsors can also be participants, use that data first, if found.
   const participant = p.nodes.find((obj) => obj.name === name)
 
   if (participant) {
     return (
       <a className={aStyle} target="_blank" rel="noopener noreferrer" href={participant.link}>
-        <LogoImage className="w-40 h-auto" image={participant.logo} alt={name} />
+        <LogoImage innerClassName={imgStyle} image={participant.logo} alt={name} />
       </a>
     )
   }
@@ -69,7 +71,7 @@ const Sponsor = ({ name }) => {
   if (sponsor) {
     return (
       <a className={aStyle} target="_blank" rel="noopener noreferrer" href={sponsor.link}>
-        <LogoImage className="w-40 h-auto" image={sponsor.logo} alt={name} />
+        <LogoImage className={imgStyle} image={sponsor.logo} alt={name} />
       </a>
     )
   }
