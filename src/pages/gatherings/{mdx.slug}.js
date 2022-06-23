@@ -237,7 +237,7 @@ export default function GatheringPage({ data, ...props }) {
           <p className={`${ledeStyle} mx-auto text-center`}>{event_footer_text}</p>
         </section>
 
-        {sponsors && (
+        {(sponsors || sponsoring_URL) && (
           <section className="my-8 md:my-16">
             <h2 className={headingStyle}>
               {translate_sponsors ? <>{translate_sponsors}</> : <>Sponsors</>}
@@ -255,31 +255,35 @@ export default function GatheringPage({ data, ...props }) {
               </>
             )}
 
-            {sponsors[0].level ? (
-              sponsorLevels
-                .sort((a, b) => (a > b ? 1 : -1))
-                .map((lvl) => (
-                  <div key={lvl}>
-                    <h3 className={`${subheadingStyle} text-center`}>{sponsorLabels[lvl]}</h3>
-                    <ul className="mt-4 mb-8 mx-auto flex flex-wrap justify-center items-center gap-4 md:gap-8">
-                      {sponsors
-                        .filter((sponsor) => sponsor.level === lvl)
-                        .map((sponsor) => (
-                          <li key={sponsor.name}>
-                            <Sponsor name={sponsor.name} />
-                          </li>
-                        ))}
-                    </ul>
-                  </div>
-                ))
-            ) : (
-              <ul className="mt-8 flex flex-wrap justify-center items-center gap-4 md:gap-8">
-                {sponsors.map((sponsor) => (
-                  <li key={sponsor.name}>
-                    <Sponsor name={sponsor.name} />
-                  </li>
-                ))}
-              </ul>
+            {sponsors && (
+              <>
+                {sponsors[0].level ? (
+                  sponsorLevels
+                    .sort((a, b) => (a > b ? 1 : -1))
+                    .map((lvl) => (
+                      <div key={lvl}>
+                        <h3 className={`${subheadingStyle} text-center`}>{sponsorLabels[lvl]}</h3>
+                        <ul className="mt-4 mb-8 mx-auto flex flex-wrap justify-center items-center gap-4 md:gap-8">
+                          {sponsors
+                            .filter((sponsor) => sponsor.level === lvl)
+                            .map((sponsor) => (
+                              <li key={sponsor.name}>
+                                <Sponsor name={sponsor.name} />
+                              </li>
+                            ))}
+                        </ul>
+                      </div>
+                    ))
+                ) : (
+                  <ul className="mt-8 flex flex-wrap justify-center items-center gap-4 md:gap-8">
+                    {sponsors.map((sponsor) => (
+                      <li key={sponsor.name}>
+                        <Sponsor name={sponsor.name} />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </>
             )}
           </section>
         )}
