@@ -545,6 +545,8 @@ Example showing the minimum required for a past gathering:
 ---
 title: 'Austin 2017'
 date: '2017-12-05'
+time: '9 a.m.–5 p.m.'
+location: 'Austin, Texas'
 youtube_playlist_id: 'PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K'
 ---
 ```
