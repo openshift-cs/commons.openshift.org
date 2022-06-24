@@ -167,75 +167,77 @@ export default function GatheringPage({ data, ...props }) {
           )}
         </section>
 
-        <section className="my-8 md:my-16">
-          <h2 className={headingStyle}>
-            {translate_overview ? <>{translate_overview}</> : <>Event Overview</>}
-          </h2>
+        {(lead_text || info_text) && (
+          <section className="my-8 md:my-16">
+            <h2 className={headingStyle}>
+              {translate_overview ? <>{translate_overview}</> : <>Event Overview</>}
+            </h2>
 
-          <div className="mb-4 lg:mb-8 flex flex-col md:flex-row gap-6">
-            <div className="md:w-1/2 shrink-0">
-              <p className={`${ledeStyle}`}>{lead_text}</p>
-              <p className="max-w-[56ch]">{info_text}</p>
-              {!archived && (
-                <div className="mt-4 lg:mt-8 flex justify-center gap-2 md:gap-4">
-                  <IconBox title={registration_text} url={registration_URL} />
+            <div className="mb-4 lg:mb-8 flex flex-col md:flex-row gap-6">
+              <div className="md:w-1/2 shrink-0">
+                <p className={`${ledeStyle}`}>{lead_text}</p>
+                <p className="max-w-[56ch]">{info_text}</p>
+                {!archived && (
+                  <div className="mt-4 lg:mt-8 flex justify-center gap-2 md:gap-4">
+                    <IconBox title={registration_text} url={registration_URL} />
 
-                  {invite_link &&
-                    (translate_invite ? (
-                      <IconBox title={translate_invite} url={invite_link} />
-                    ) : (
-                      <IconBox title="Invite a Friend" url={invite_link} />
-                    ))}
-                </div>
-              )}
-            </div>
-            <div>
-              <div className="mt-4 bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
-                <h3 className={`${subheadingStyle} md:text-center`}>
-                  {translate_where ? <>{translate_where}</> : <>Where</>}
-                </h3>
-                <p
-                  className={`${ledeStyle} !max-w-none md:text-center border-b-2 border-primary-200 pb-4`}
-                >
-                  {location}
-                  <br />
-                  {venue_URL ? (
-                    <a
-                      className={aStyle}
-                      href={venue_URL}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {venue}
-                    </a>
-                  ) : (
-                    <a className={aStyle} href="#gathering-venue">
-                      {venue}
-                    </a>
-                  )}
-                </p>
-                <div className="grid grid-cols-2 gap-4 lg:gap-8">
-                  <div>
-                    <h3 className={subheadingStyle}>
-                      {translate_when ? <>{translate_when}</> : <>When</>}
-                    </h3>
-                    <p className={ledeStyle}>
-                      <DateString date={date} language={language} dow="true" />
-                    </p>
+                    {invite_link &&
+                      (translate_invite ? (
+                        <IconBox title={translate_invite} url={invite_link} />
+                      ) : (
+                        <IconBox title="Invite a Friend" url={invite_link} />
+                      ))}
                   </div>
-                  <div>
-                    <h3 className={subheadingStyle}>
-                      {translate_price ? <>{translate_price}</> : <>Price</>}
-                    </h3>
-                    <p className={ledeStyle}>{price}</p>
+                )}
+              </div>
+              <div>
+                <div className="mt-4 bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
+                  <h3 className={`${subheadingStyle} md:text-center`}>
+                    {translate_where ? <>{translate_where}</> : <>Where</>}
+                  </h3>
+                  <p
+                    className={`${ledeStyle} !max-w-none md:text-center border-b-2 border-primary-200 pb-4`}
+                  >
+                    {location}
+                    <br />
+                    {venue_URL ? (
+                      <a
+                        className={aStyle}
+                        href={venue_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {venue}
+                      </a>
+                    ) : (
+                      <a className={aStyle} href="#gathering-venue">
+                        {venue}
+                      </a>
+                    )}
+                  </p>
+                  <div className="grid grid-cols-2 gap-4 lg:gap-8">
+                    <div>
+                      <h3 className={subheadingStyle}>
+                        {translate_when ? <>{translate_when}</> : <>When</>}
+                      </h3>
+                      <p className={ledeStyle}>
+                        <DateString date={date} language={language} dow="true" />
+                      </p>
+                    </div>
+                    <div>
+                      <h3 className={subheadingStyle}>
+                        {translate_price ? <>{translate_price}</> : <>Price</>}
+                      </h3>
+                      <p className={ledeStyle}>{price}</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <p className={`${ledeStyle} mx-auto text-center`}>{event_footer_text}</p>
-        </section>
+            <p className={`${ledeStyle} mx-auto text-center`}>{event_footer_text}</p>
+          </section>
+        )}
 
         {(sponsors || sponsoring_URL) && (
           <section className="my-8 md:my-16">
@@ -371,36 +373,40 @@ export default function GatheringPage({ data, ...props }) {
           </section>
         )}
 
-        <section id="gathering-venue" className="my-8 md:my-16 text-center">
-          <h2 className={headingStyle}>{translate_venue ? <>{translate_venue}</> : <>Venue</>}</h2>
-          <p className="mb-4 font-semibold text-tertiary-900 text-lg lg:text-xl">
-            <DateString date={date} language={language} /> | {time}
-          </p>
+        {venue && (
+          <section id="gathering-venue" className="my-8 md:my-16 text-center">
+            <h2 className={headingStyle}>
+              {translate_venue ? <>{translate_venue}</> : <>Venue</>}
+            </h2>
+            <p className="mb-4 font-semibold text-tertiary-900 text-lg lg:text-xl">
+              <DateString date={date} language={language} /> | {time}
+            </p>
 
-          <p className={`${ledeStyle} max-w-none text-center mx-auto`}>
-            {venue_URL ? (
-              <a className={aStyle} href={venue_URL} target="_blank" rel="noopener noreferrer">
-                {venue}
-              </a>
-            ) : (
-              <>{venue}</>
+            <p className={`${ledeStyle} max-w-none text-center mx-auto`}>
+              {venue_URL ? (
+                <a className={aStyle} href={venue_URL} target="_blank" rel="noopener noreferrer">
+                  {venue}
+                </a>
+              ) : (
+                <>{venue}</>
+              )}
+              {venue_address && (
+                <>
+                  <br />
+                  {venue_address}
+                </>
+              )}
+              <br />
+              {location}
+            </p>
+            {google_maps_URL && (
+              <div
+                className="video-embed my-8"
+                dangerouslySetInnerHTML={{ __html: google_maps_URL }}
+              ></div>
             )}
-            {venue_address && (
-              <>
-                <br />
-                {venue_address}
-              </>
-            )}
-            <br />
-            {location}
-          </p>
-          {google_maps_URL && (
-            <div
-              className="video-embed my-8"
-              dangerouslySetInnerHTML={{ __html: google_maps_URL }}
-            ></div>
-          )}
-        </section>
+          </section>
+        )}
         <MDXRenderer>{body}</MDXRenderer>
       </div>
     </>
