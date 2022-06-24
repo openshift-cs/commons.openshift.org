@@ -1,5 +1,4 @@
 const path = require('path')
-const fse = require('fs-extra')
 const { paginate } = require('gatsby-awesome-pagination')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
@@ -75,7 +74,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       difference: String
       locale: String
     ): Date
-    time: String
+    timezone: String
+    start_time: String
+    end_time: String
     location: String
     venue: String
     venue_URL: String

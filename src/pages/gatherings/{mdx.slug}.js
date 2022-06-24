@@ -6,6 +6,7 @@ import Speaker from '../../components/speaker'
 import ShareButtons from '../../components/sharebuttons'
 import IconBox from '../../components/iconbox'
 import DateString from '../../components/date-string'
+import TimeIntervalString from '../../components/time-interval-string'
 import Sponsor from '../../components/sponsor'
 import { Youtube } from 'react-feather'
 import * as Tabs from '@radix-ui/react-tabs'
@@ -23,6 +24,9 @@ export default function GatheringPage({ data, ...props }) {
       language,
       date,
       time,
+      timezone,
+      start_time,
+      end_time,
       description,
       location,
       schedule,
@@ -124,7 +128,15 @@ export default function GatheringPage({ data, ...props }) {
             {title}
           </h1>
           <p className="text-xl lg:text-2xl">
-            <DateString date={date} language={language} /> | {time} | {location}
+            <DateString date={date} language={language} /> |{' '}
+            <TimeIntervalString
+              date={date}
+              language={language}
+              timezone={timezone}
+              start={start_time}
+              end={end_time}
+            />{' '}
+            | {location}
           </p>
         </div>
       </section>
@@ -370,7 +382,14 @@ export default function GatheringPage({ data, ...props }) {
         <section id="gathering-venue" className="my-8 md:my-16 text-center">
           <h2 className={headingStyle}>{translate_venue ? <>{translate_venue}</> : <>Venue</>}</h2>
           <p className="mb-4 font-semibold text-tertiary-900 text-lg lg:text-xl">
-            <DateString date={date} language={language} /> | {time}
+            <DateString date={date} language={language} /> |{' '}
+            <TimeIntervalString
+              date={date}
+              language={language}
+              timezone={timezone}
+              start={start_time}
+              end={end_time}
+            />
           </p>
 
           <p className={`${ledeStyle} max-w-none text-center mx-auto`}>
@@ -412,7 +431,9 @@ export const query = graphql`
       frontmatter {
         language
         date
-        time
+        timezone
+        start_time
+        end_time
         title
         description
         location
