@@ -3,9 +3,6 @@ gatherings:
   - title: 'Milan 2019'
     date: '2019-09-18'
     youtube_playlist_id: 'PLaR6Rq6Z4Iqd1zqmQNUcGjc8wN8ofAVag'
-  - title: 'Data Science at NVIDIA GTC 2020'
-    date: '2020-10-10'
-    youtube_playlist_id: 'PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L'
   - title: Data Science 2021
     date: '2021-01-28'
     youtube_playlist_id: 'PLaR6Rq6Z4IqdcFGsjHcO5lmygnEhzHNF7'
@@ -42,9 +39,6 @@ gatherings:
   - title: 'Austin 2017'
     date: '2017-12-05'
     youtube_playlist_id: 'PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K'
-  - title: 'Japan 2020'
-    date: '2020-12-11'
-    youtube_playlist_id: 'PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-'
   - title: 'OpenShift Commons Gathering Israel'
     date: '2022-03-29'
     youtube_playlist_id: PLaR6Rq6Z4Iqc2EX8m9Dg52c4XxodDfkiL
@@ -57,9 +51,9 @@ gatherings:
   - title: 'San Diego 2019'
     date: '2019-11-18'
     youtube_playlist_id: 'PLaR6Rq6Z4IqeeLZsa1p0TzB6abT46ywDg'
-  - title: "Seattle 2018"
-    date: "2018-12-10"
-    youtube_playlist_id: "PLaR6Rq6Z4IqctmZiEgyO64ymwcfC77Nmv"
+  - title: 'Seattle 2018'
+    date: '2018-12-10'
+    youtube_playlist_id: 'PLaR6Rq6Z4IqctmZiEgyO64ymwcfC77Nmv'
   - title: 'Barcelona 2019'
     date: '2019-05-20'
     youtube_playlist_id: 'PLaR6Rq6Z4Iqcfav2yXus9yasf89mDGG3g'
@@ -90,4 +84,7 @@ gatherings:
   - title: 'Buenos Aires 2019'
     date: '2019-08-08'
     youtube_playlist_id: 'PLaR6Rq6Z4IqfTKTepIqpICs9NdR7VzpsM'
+  - title: 'Data Science at NVIDIA GTC 2020'
+    date: '2020-10-09'
+    youtube_playlist_id: 'PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L'
 ---

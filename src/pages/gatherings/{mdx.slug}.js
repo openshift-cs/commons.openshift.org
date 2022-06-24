@@ -23,7 +23,6 @@ export default function GatheringPage({ data, ...props }) {
       title,
       language,
       date,
-      time,
       timezone,
       start_time,
       end_time,

@@ -5,7 +5,7 @@ const TimeIntervalString = ({ date, language, timezone, start, end }) => {
   const start_time = DateTime.fromISO(date + 'T' + start, {
     zone: timezone,
   }).setLocale(language)
-  console.log('start.isValid =', start_time.isValid)
+
   const end_time = DateTime.fromISO(date + 'T' + end, {
     zone: timezone,
   }).setLocale(language)

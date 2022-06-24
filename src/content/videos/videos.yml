@@ -408,1431 +408,6 @@ videos:
       videoId: ubUDF_ACQgc
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-- gathering_title: Data Science at NVIDIA GTC 2020
-  gathering_date: '2020-10-10'
-  gathering_videos:
-  - publishedAt: '2019-11-04T19:11:57Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Why deploy AI/ML (Artificial Intelligence & Machine Learning) workloads
-      on OpenShift?
-    description: |-
-      While organizations are turning to Artificial Intelligence and Machine Learning (AI/ML) to better serve customers, reduce cost, and gain other competitive advantages, there are significant challenges to executing these programs.
-
-      Data Scientists need a self-service experience that allows them to build, scale, and share their machine learning (ML) modeling results across the hybrid cloud.
-
-      With Red Hat OpenShift, you'll enable data scientists to easily enable and deploy their ML modeling without the dependency on IT to provision infrastructure.
-
-      Learn more at openshift.com/ai-ml
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/fwryf3TcSPA/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/fwryf3TcSPA/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/fwryf3TcSPA/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/fwryf3TcSPA/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/fwryf3TcSPA/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 0
-    resourceId:
-      kind: youtube#video
-      videoId: fwryf3TcSPA
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2019-10-25T15:34:31Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Fraud Detection Using Open Data Hub on Openshift
-    description: "Demonstration of an end-to-end AI/ML fraud detection use case using
-      Open Data Hub on Openshift. \n\nFor more information on Open Data Hub, visit
-      http://opendatahub.io/"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/662FccIWeOE/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/662FccIWeOE/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/662FccIWeOE/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/662FccIWeOE/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/662FccIWeOE/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 1
-    resourceId:
-      kind: youtube#video
-      videoId: 662FccIWeOE
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2019-10-28T15:35:24Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Installing Open Data Hub on OpenShift 4.1
-    description: |-
-      Tutorial demonstrating how to deploy Open Data Hub in an Openshift 4.1 cluster using the Operator Hub catalog. At the end of this tutorial, you will be able to deploy a JupyterHub server, spark cluster and create your own Jupyter notebook.
-
-      OpenShift 4.1 cluster was created using Code Ready Containers(https://code-ready.github.io/crc/ )
-
-      For more information on Open Data Hub, visit http://opendatahub.io/
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/-T6ypF7LoKk/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/-T6ypF7LoKk/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/-T6ypF7LoKk/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/-T6ypF7LoKk/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/-T6ypF7LoKk/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 2
-    resourceId:
-      kind: youtube#video
-      videoId: "-T6ypF7LoKk"
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2019-10-30T18:43:18Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Uploading data to Ceph via command line
-    description: In this tutorial we show you how to store data in an S3 Data Lake
-      via the command line using the s3cmd tool.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/d6X1xvDXewM/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/d6X1xvDXewM/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/d6X1xvDXewM/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/d6X1xvDXewM/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/d6X1xvDXewM/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 3
-    resourceId:
-      kind: youtube#video
-      videoId: d6X1xvDXewM
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-04-07T18:35:56Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Harness the power of AI/ML with Red Hat OpenShift
-    description: |-
-      In this webinar, Abhinav Joshi shares how you can harness the power of AI/ML with the Red Hat portfolio. He covers the challenges, potential, and Containers and Kubernetes for AI/ML workloads.
-
-      Abhinav is the Product Marketing Lead for Artificial Intelligence / Machine Learning on OpenShift.
-
-      For more information, please visit: openshift.com/ai-ml
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/cMMjADG8Ljk/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/cMMjADG8Ljk/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/cMMjADG8Ljk/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/cMMjADG8Ljk/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/cMMjADG8Ljk/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 4
-    resourceId:
-      kind: youtube#video
-      videoId: cMMjADG8Ljk
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-04-09T20:20:32Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: ML Workflows on Red Hat OpenShift
-    description: Red Hat believes that machine learning (ML) workflows are just like
-      traditional software development workflows. In this video we demonstrate how
-      Red Hat OpenShift Container Platform can enable data scientists to leverage
-      traditional DevOps methodologies to accelerate their ML workflows.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/1REuOX6egnQ/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/1REuOX6egnQ/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/1REuOX6egnQ/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/1REuOX6egnQ/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/1REuOX6egnQ/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 5
-    resourceId:
-      kind: youtube#video
-      videoId: 1REuOX6egnQ
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-04-21T21:29:55Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Open Data Hub Introduction
-    description: Introduction to Open Data Hub an open source project that provides
-      an end to end AI/ML platform on Openshift. Please visit opendatahub.io
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/kdjd1wNK9Wc/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/kdjd1wNK9Wc/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/kdjd1wNK9Wc/hqdefault.jpg
-        width: 480
-        height: 360
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 6
-    resourceId:
-      kind: youtube#video
-      videoId: kdjd1wNK9Wc
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-06-04T20:09:09Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Briefing: Continuous Development and Deployment of AI/ML
-      Models with Kubernetes'
-    description: "OpenShift Commons Briefing\nContinuous Development &Deployment of
-      AI/ML Models with containers and Kubernetes\nGuest Speakers: \nWill Benton (Red
-      Hat)\nParag Dave (Red Hat)\nPeter Brey (Red Hat)\nhosted by Diane Mueller (Red
-      Hat)\n2020-06-04"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 7
-    resourceId:
-      kind: youtube#video
-      videoId: ZSiHI-c3rCU
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-06-19T16:03:57Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Top Considerations for Accelerating AI/ML Lifecycle in the Cloud-Native
-      Era
-    description: |-
-      Red Hat's Abhinav Joshi presents "Top Considerations for Accelerating AI/ML Lifecycle in the Cloud-Native Era" at Cloud Architecture Summit: News: Integration Developer News.
-
-      To learn more about OpenShift: visit: OpenShift.com
-
-      To download the slides, visit: https://www.idevnews.com/registration?event_id=506&code=ws_sidebar
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/349zHtFdhkI/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/349zHtFdhkI/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/349zHtFdhkI/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/349zHtFdhkI/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/349zHtFdhkI/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 8
-    resourceId:
-      kind: youtube#video
-      videoId: 349zHtFdhkI
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-07-09T16:09:23Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Using AI to Solve Problems
-    description: "Michael Clifford, a data scientist at Red Hat, discusses how Red
-      Hat uses Artificial Intelligence to solve operational problems and make the
-      company's products better. \nLearn more: openshift.com/ai-ml"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/ggK5XDAofcw/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/ggK5XDAofcw/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/ggK5XDAofcw/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/ggK5XDAofcw/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/ggK5XDAofcw/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 9
-    resourceId:
-      kind: youtube#video
-      videoId: ggK5XDAofcw
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-07-21T02:30:43Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Ask Me Anything on OpenDataHub with Landon LaSmith Red Hat and ODH team
-      members
-    description: AMA on OpenDataHub with Landon LaSmith Red Hat 07 20 2020
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/ktH1QTlTc7c/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/ktH1QTlTc7c/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/ktH1QTlTc7c/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/ktH1QTlTc7c/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/ktH1QTlTc7c/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 10
-    resourceId:
-      kind: youtube#video
-      videoId: ktH1QTlTc7c
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-07-28T13:41:50Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Intelligent Data Summit: Fast Track AI from Pilot to Production with a
-      Kubernetes-powered platform'
-    description: |-
-      Red Hat's Abhinav Joshi presents "Fast track AI from Pilot to Production with a Kubernetes-powered platform"
-
-      From: Intelligent Data Summit: Integration Developer News.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/uakzi8FyNZY/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/uakzi8FyNZY/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/uakzi8FyNZY/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/uakzi8FyNZY/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/uakzi8FyNZY/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 11
-    resourceId:
-      kind: youtube#video
-      videoId: uakzi8FyNZY
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-08-13T21:14:12Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Red Hat Research: University Collaboration'
-    description: |-
-      Hugh Brock, Research Director at Red Hat, discusses how Red Hat connects University research with Red Hat engineers and ultimately driving innovation upstream.
-
-
-
-      Learn more: https://research.redhat.com/
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/arijOYKSw0c/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/arijOYKSw0c/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/arijOYKSw0c/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/arijOYKSw0c/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 12
-    resourceId:
-      kind: youtube#video
-      videoId: arijOYKSw0c
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-08-27T21:25:23Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: AI/ML at the edge with Red Hat OpenShift
-    description: |-
-      Red Hat OpenShift simplifies the deployment and life-cycle management of AI-powered intelligent applications at the edge, just like it does in the cloud.
-
-      Learn more at: openshift.com/edge
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/Ty3X1C4pwn0/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/Ty3X1C4pwn0/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/Ty3X1C4pwn0/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/Ty3X1C4pwn0/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 13
-    resourceId:
-      kind: youtube#video
-      videoId: Ty3X1C4pwn0
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-09-02T20:16:42Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'AIOps: Anamoly Detection (Marcel Hild)'
-    description: |-
-      Red Hat uses techniques such as anamoly detection to identify issues in infrastructure and proactively addresses them to make the products even better.
-      Learn more: openshift.com/ai-ml and openshift.com/storage
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/PcsqcN4NqI4/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/PcsqcN4NqI4/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/PcsqcN4NqI4/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/PcsqcN4NqI4/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 14
-    resourceId:
-      kind: youtube#video
-      videoId: PcsqcN4NqI4
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-09-11T23:08:34Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: AIOps vs MLOps vs DevOps Zak Berrie (Red Hat)  | NVIDIA GTC OSCG
-    description: "AIOps vs MLOps vs DevOps \nZak Berrie (Red Hat)\nNVIDIA GTC OpenShift
-      Commons Gathering\nOctober 9, 2020"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/IDHvpgVu_ak/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/IDHvpgVu_ak/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/IDHvpgVu_ak/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/IDHvpgVu_ak/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/IDHvpgVu_ak/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 15
-    resourceId:
-      kind: youtube#video
-      videoId: IDHvpgVu_ak
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-10-23T23:55:30Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Applying AIOps to Kubernetes Telemetry Data with Open Data Hub at OpenShift
-      | NVIDIA GTC OSCG
-    description: "Applying AIOps to Kubernetes Telemetry Data with OpenDataHub \nAlex
-      Corvin and Ivan Necas (Red Hat)\nNVIDIA GTC OpenShift Commons Gathering 2020\nOctober
-      9 2020"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/lV12Cj3auZE/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/lV12Cj3auZE/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/lV12Cj3auZE/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/lV12Cj3auZE/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/lV12Cj3auZE/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 18
-    resourceId:
-      kind: youtube#video
-      videoId: lV12Cj3auZE
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-10-23T23:57:07Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: The Enterprise Neurosystem Initiative Bill Wright (Red Hat)  | NVIDIA GTC
-      OSCG
-    description: "The Enterprise Neurosystem Initiative \nBill Wright (Red Hat)\nNVIDIA
-      GTC OpenShift Commons Gathering\nOctober 9, 2020"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/EqkCoPHm5CI/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/EqkCoPHm5CI/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/EqkCoPHm5CI/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/EqkCoPHm5CI/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/EqkCoPHm5CI/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 19
-    resourceId:
-      kind: youtube#video
-      videoId: EqkCoPHm5CI
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-10-24T02:51:57Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: NVIDIA GTC Buck Woody MSFT
-    description: ''
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/uMJ5sE3Veic/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/uMJ5sE3Veic/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/uMJ5sE3Veic/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/uMJ5sE3Veic/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/uMJ5sE3Veic/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 20
-    resourceId:
-      kind: youtube#video
-      videoId: uMJ5sE3Veic
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-10-24T02:52:56Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: NVIDIA GTC Michael Bennett Dell Diane Feddema Red Hat
-    description: ''
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/OXCnzfWKI90/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/OXCnzfWKI90/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/OXCnzfWKI90/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/OXCnzfWKI90/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/OXCnzfWKI90/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 21
-    resourceId:
-      kind: youtube#video
-      videoId: OXCnzfWKI90
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-10-24T02:53:59Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: NVIDIA GTC Cory Latchkowski ExxonMobil
-    description: ''
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 22
-    resourceId:
-      kind: youtube#video
-      videoId: NsYGkgCE-UQ
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-10-24T02:55:16Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Using MPI Operator for GPU-Accelerated Workloads with Lustre FS David Gray
-      Red Hat | NVIDIA GTC OSCG
-    description: |-
-      David Gray
-      (Red Hat)
-      NVIDIA GTC OpenShift Commons Gathering
-      October 9, 2020
-      High performance computing workloads increasingly rely on containers that make applications easier to manage, preserve their dependencies, and add portability across different environments. Red Hat OpenShift Container Platform is an enterprise-ready Kubernetes-based platform for deploying containerized applications on shared compute resources. An Operator is a method of packaging, deploying, and managing a Kubernetes-native application that can make it easier to run complex workloads. We'll demonstrate how GPU-accelerated scientific applications can be deployed on OpenShift, using message-passing interface and backed by the Lustre file system for data storage.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/LAz_TG2Qtik/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/LAz_TG2Qtik/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/LAz_TG2Qtik/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/LAz_TG2Qtik/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/LAz_TG2Qtik/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 23
-    resourceId:
-      kind: youtube#video
-      videoId: LAz_TG2Qtik
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-02-12T15:36:31Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: A Day in the Life of a Red Hat Data Scientist
-    description: |-
-      Don Chesworth describes what it's like to be a data scientist at Red Hat, including the use the latest and greatest open source tooling. Don also shares an experience working with the Open Data Hub team to submit improvements for changing Red Hat OpenShift shared memory size across multiple GPUs.
-
-      Learn more at openshift.com/ai-ml
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/Ico3BQRdsi8/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/Ico3BQRdsi8/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/Ico3BQRdsi8/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/Ico3BQRdsi8/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/Ico3BQRdsi8/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 24
-    resourceId:
-      kind: youtube#video
-      videoId: Ico3BQRdsi8
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-02-12T15:40:18Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Using Open Data Hub as a Red Hat Data Scientist
-    description: |-
-      Isabel Zimmerman demonstrates how to build, deploy and monitor machine learning models using the Open Data Hub project for simplified end-to-end machine learning workflows. Isabel shows an ML workflow that includes Jupyter notebooks, Seldon for model hosting, Prometheus and Grafana for data visualization.
-
-      Learn more at openshift.com/ai-ml
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/aE0dS0_uyj8/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/aE0dS0_uyj8/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/aE0dS0_uyj8/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/aE0dS0_uyj8/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/aE0dS0_uyj8/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 25
-    resourceId:
-      kind: youtube#video
-      videoId: aE0dS0_uyj8
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-03-02T16:53:57Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: A Customer’s Story with Red Hat AI Solutions
-    description: "Red Hat Consulting Services describes how they helped a customer
-      solve problems of multiple siloed data sets, accelerating and scaling data science
-      workflows across thousands of users, and implementing open source AI/ML technologies
-      leveraging the Open Data Hub project. \n\nResults include: speeding up their
-      ML deployments (faster time to solution) and increased collaboration between
-      developers and Ops.\n\nLearn more at https://www.openshift.com/learn/topics/ai-ml"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/HFLbXmw9x9s/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/HFLbXmw9x9s/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/HFLbXmw9x9s/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/HFLbXmw9x9s/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/HFLbXmw9x9s/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 26
-    resourceId:
-      kind: youtube#video
-      videoId: HFLbXmw9x9s
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-03-03T13:29:44Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'PICT Voices #25: Ivan Oransky, The Use and Abuse of Science'
-    description: |-
-      Our twenty-fifth interview is with Ivan Oransky, science journalist (New York City, USA) by Kristof K.P. Vanhoutte (Basel, Switzerland) Friday, February 12, 2021
-
-      PICT Voices is an interview series conducted by PICT faculty with notable members of the broader PICT community. Our goal is to present our community with a variety of voices across the spectrum of the humanities and critical, creative thinking. To achieve this, we will interview a broad spectrum of thinkers ranging from scholars to journalists.
-
-      website: https://parisinstitute.org/
-
-      soundcloud: https://soundcloud.com/parisinstitute
-      instagram: https://www.instagram.com/parisinstitute/
-      facebook: https://www.facebook.com/parisinstitute.org/
-      twitter: https://twitter.com/ParisCritical
-      linkedin: https://www.linkedin.com/school/paris-institute-for-critical-thinking/
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/EItWV4S9WEE/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/EItWV4S9WEE/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/EItWV4S9WEE/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/EItWV4S9WEE/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/EItWV4S9WEE/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 27
-    resourceId:
-      kind: youtube#video
-      videoId: EItWV4S9WEE
-    videoOwnerChannelTitle: Paris Institute for Critical Thinking
-    videoOwnerChannelId: UC8jVMrQkIZJDDIjWoW5eyMA
-  - publishedAt: '2021-03-23T15:50:56Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Red Hat's Artificial Intelligence (AI) Vision (part 1)
-    description: |-
-      Steven Huels describes Red Hat’s AI/ML business focus and vision, including our investments in Kubernetes and DevOps as well as the technology partner ecosystem. Through the Open Data Hub project, Red Hat provides a reference for implementing open source tooling on OpenShift.
-
-      Learn more at openshift.com/learn/topics/ai-ml
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/88k7bI0HXFQ/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/88k7bI0HXFQ/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/88k7bI0HXFQ/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/88k7bI0HXFQ/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/88k7bI0HXFQ/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 28
-    resourceId:
-      kind: youtube#video
-      videoId: 88k7bI0HXFQ
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-03-23T15:52:56Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Red Hat's AI vision and Open Data Hub (part 2)
-    description: |-
-      As a proof point of Red Hat’s AI investments and vision, Steven highlights the origin of the Open Data Hub project, its use by Red Hat Consulting services to help customers put models into production and the ecosystem of AI/ML technology partners on Red Hat OpenShift.
-
-      Learn more at: openshift.com/learn/topics/ai-ml
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/-l6EiqCgFAg/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/-l6EiqCgFAg/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/-l6EiqCgFAg/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/-l6EiqCgFAg/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/-l6EiqCgFAg/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 29
-    resourceId:
-      kind: youtube#video
-      videoId: "-l6EiqCgFAg"
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-04-23T20:46:24Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Preview demo of Red Hat OpenShift Data Science
-    description: See a preview demo of the Red Hat OpenShift Data Science managed
-      cloud service offering. Red Hat OpenShift Data Science combines common open
-      source tooling, partner software and other Red Hat portfolio software to provide
-      a fully supported sandbox in which to rapidly develop, train, and test ML models
-      in the public cloud. Chris Chase runs through a tutorial of how easy it is to
-      launch Jupyter notebooks to build a model in a TensorFlow framework and deploy
-      the model in a container-ready format.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/joK89xYeuUY/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/joK89xYeuUY/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/joK89xYeuUY/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/joK89xYeuUY/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 30
-    resourceId:
-      kind: youtube#video
-      videoId: joK89xYeuUY
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-04-23T20:52:51Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Red Hat’s AI/ML Technology Partnerships
-    description: Red Hat has taken a partner ecosystem approach to AI/ML use cases
-      in a hybrid cloud environment, not only for the Open Data Hub project but also
-      its Red Hat OpenShift Data Science managed cloud services offering. In this
-      short video, Ryan describes the approach with these key data science ISV partnerships.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/tYOwSMqdWt8/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/tYOwSMqdWt8/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/tYOwSMqdWt8/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/tYOwSMqdWt8/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/tYOwSMqdWt8/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 31
-    resourceId:
-      kind: youtube#video
-      videoId: tYOwSMqdWt8
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-06-22T18:33:35Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Red Hat Innovators in the Open | HCA Healthcare
-    description: |-
-      HCA Healthcare uses an innovative data platform to accelerate detection of sepsis to save lives by using a containers ML application.
-
-      Learn more at https://www.OpenShift.com/ai-ml
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/z6c4o_DD5bc/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/z6c4o_DD5bc/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/z6c4o_DD5bc/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/z6c4o_DD5bc/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/z6c4o_DD5bc/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 32
-    resourceId:
-      kind: youtube#video
-      videoId: z6c4o_DD5bc
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-06-22T18:39:00Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: NVIDIA and Red Hat enabling faster delivery of AI-powered intelligent applications
-    description: |-
-      Together, Red Hat’s OpenShift hybrid cloud platform and NVIDIA’s innovative GPUs, CUDA-X libraries, GPU Operator and AI software from the NGC catalog helps businesses quickly, consistently, and securely develop, deploy, and scale AI applications across the hybrid cloud.
-
-      Learn more at https://www.OpenShift.com/nvidia
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/_dKVF3M_CFE/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/_dKVF3M_CFE/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/_dKVF3M_CFE/hqdefault.jpg
-        width: 480
-        height: 360
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 33
-    resourceId:
-      kind: youtube#video
-      videoId: _dKVF3M_CFE
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-06-23T14:01:27Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Delivering MLOps with OpenShift GitOps and Pipelines
-    description: As AI/ML modeling becomes more important the growing expection is
-      to adopt and implement an MLOps strategy to make it easier to productize models
-      and keep them up to date. Explore the challenges this poses for Data Scientists
-      and what OpenShift is doing to make productizing AI/ML models more simple with
-      features like OpenShift GitOps, OpenShift Pipelines, Quay, and Red Hat OpenShift
-      Data Science.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/l8bg8d4gtBw/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/l8bg8d4gtBw/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/l8bg8d4gtBw/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/l8bg8d4gtBw/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/l8bg8d4gtBw/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 34
-    resourceId:
-      kind: youtube#video
-      videoId: l8bg8d4gtBw
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-06-28T11:28:55Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Red Hat OpenShift - Moonshot ideas
-    description: |-
-      Innovation without limitation.
-
-      Learn more at OpenShift.com
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/1V69ejZSdnU/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/1V69ejZSdnU/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/1V69ejZSdnU/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/1V69ejZSdnU/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/1V69ejZSdnU/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 35
-    resourceId:
-      kind: youtube#video
-      videoId: 1V69ejZSdnU
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-11-01T20:39:27Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: How NTT and Red Hat have Built an Edge Offer to Deliver New Cloud-Native
-      AI-Platform Services
-    description: Learn how cloud-native AI applications can be enabled for a new digital
-      service edge platform from NTT East. The Multi-Access Edge Computing (MEC) platform
-      is based on a Red Hat OpenShift architecture leveraging GPUs and NVIDIA GPU-Operator
-      to deliver new AI applications services across multi-cloud edge environments
-      including private 5G, fiber, telco edge and customer’s enterprise edge. The
-      cloud-native edge solution is  for multiple industry solutions and a next generation
-      intelligent video analytics (IVA) example is highlighted for a retailer.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 36
-    resourceId:
-      kind: youtube#video
-      videoId: H2jS5sQ-f9o
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-11-12T14:41:51Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Using Open Data Hub for MLOps Demo
-    description: Juana Nakfour describes MLOps and demonstrates how to use Open Data
-      Hub, a community project integrating open source AI/ML tools in an end-to-end
-      AI platform on Red Hat OpenShift. First, Juana shows using the JupyterHub Elyra
-      tool to auto-generate and run an MLOps KubeFlow pipeline. After showcasing Red
-      Hat Ceph Storage and bucket notification to trigger and automate the MLOps pipeline,
-      Juana shows how to deploy the fraud detection neural network machine learning
-      model using KFServing and using Canary rollout to introduce a new version of
-      the model.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/F6nE1d5SXRU/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/F6nE1d5SXRU/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/F6nE1d5SXRU/hqdefault.jpg
-        width: 480
-        height: 360
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 37
-    resourceId:
-      kind: youtube#video
-      videoId: F6nE1d5SXRU
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-11-12T14:44:17Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: What is Kubeflow?
-    description: In this short 45 second video, Juana Nakfour describes Kubeflow and
-      its advantages.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/jEaoT0eDJrA/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/jEaoT0eDJrA/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/jEaoT0eDJrA/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/jEaoT0eDJrA/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/jEaoT0eDJrA/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 38
-    resourceId:
-      kind: youtube#video
-      videoId: jEaoT0eDJrA
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-11-12T21:00:45Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Top 5 Considerations for an AI/ML Platform
-    description: Will McGrath, Product Marketing Manager in Red Hat’s Data Services
-      business unit, discusses the top 5 considerations for building out an AI platform.
-      Whether it’s developing a data strategy or building a collaborative environment,
-      these guidelines will help your organization achieve success as your machine
-      learning projects move from experimentation to production.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/t3ElO45VEoM/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/t3ElO45VEoM/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/t3ElO45VEoM/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/t3ElO45VEoM/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/t3ElO45VEoM/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 39
-    resourceId:
-      kind: youtube#video
-      videoId: t3ElO45VEoM
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-11-12T21:03:53Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Starburst partners with Red Hat on OpenShift Data Science for AI/ML workloads
-    description: Justin Borgman, CEO of Starburst, describes how Starburst partners
-      with Red Hat, integrating with Red Hat OpenShift Data Science to provide insights
-      into an organization’s data for analytics and AI/ML workloads. Justin describes
-      how the Starburst data mesh capabilities can help data engineers to access decentralized
-      data and eliminate the need for data wrangling.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/pXCAYu4s_RY/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/pXCAYu4s_RY/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/pXCAYu4s_RY/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/pXCAYu4s_RY/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/pXCAYu4s_RY/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 40
-    resourceId:
-      kind: youtube#video
-      videoId: pXCAYu4s_RY
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2021-12-17T10:47:50Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: SWIFT and Red Hat OpenShift deliver an AI platform for financial transaction
-      intelligence at scale
-    description: "SWIFT is shaping the future of payments and securities to be faster,
-      smarter and better. As the financial industry’s neutral and trusted provider,
-      we help our community of over 11,000 financial institutions move value around
-      the world reliably and more securely at scale. SWIFT is now leveraging our pivotal
-      role in the financial industry to develop transformative AI solutions, enabled
-      by a high-performance AI platform that is future ready for hybrid cloud. \n\nJoin
-      this keynote to learn how SWIFT, along with Red Hat, C3.ai, Kove and partner
-      financial institutions, is embarking on a journey to enhance the effectiveness
-      and efficiency of shared services like payment screening and anomaly detection,
-      leveraging unique global transaction data – without compromising the integrity
-      of transaction data or the privacy of its users.\n\nSpeakers: Marius Bogoevici
-      (Red Hat) and  Chalapathy Neti (SWIFT)"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/yiEHj0lgsFQ/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/yiEHj0lgsFQ/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/yiEHj0lgsFQ/hqdefault.jpg
-        width: 480
-        height: 360
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 41
-    resourceId:
-      kind: youtube#video
-      videoId: yiEHj0lgsFQ
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: Data Science 2021
   gathering_date: '2021-01-28'
   gathering_videos:
@@ -7330,581 +5905,6 @@ videos:
       videoId: cvGslmRrJtA
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-- gathering_title: Japan 2020
-  gathering_date: '2020-12-11'
-  gathering_videos:
-  - publishedAt: '2020-11-11T22:59:30Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Better Together: OpenShift and RHEL Stefanie Chiras (Red Hat) OpenShift
-      Commons Gathering KubeCon NA'
-    description: "Keynote: Better Together: OpenShift and RHEL \nDr. Stefanie Chiras
-      (Red Hat)\n\nOpenShift Commons Gathering KubeCon NA\nNovember 17, 2020\n\nThe
-      world of IT is constantly changing with new technologies and processes. One
-      way to reduce this complexity is to build and run your applications on a common
-      set of platforms that can handle both traditional and cloud-native applications.
-      Red Hat Enterprise Linux (RHEL) runs both traditional applications, and also
-      powers Red Hat OpenShift, which you can use to build and run cloud-native applications.
-      \ Learn how Red Hat is utilizing latest technologies and processes to power
-      the next generation of IT.\n\n466754 Better Together RHEL & OpenShift"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/AYoXD9ywef4/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/AYoXD9ywef4/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/AYoXD9ywef4/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/AYoXD9ywef4/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 0
-    resourceId:
-      kind: youtube#video
-      videoId: AYoXD9ywef4
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T23:16:55Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: OpenShift 4.6 and Beyond New Release Deep Dives and Road Ahead OpenShift
-      Commons Gathering KubeConNA
-    description: "OpenShift 4.6 and Beyond: New Release Deep Dives and Road Ahead\nMike
-      Barrett,  Clayton Coleman and Derek Carr  (Red Hat)\nwith Annette Clewett, Paul
-      Morie, Rhys Oxenham (Red Hat)\n\n\nOpenShift Commons Gathering KubeCon NA\nNovember
-      17th, 2020 \n\nIn this session, we will examine the trends we are seeing in
-      the CNCF and discuss how those are affecting OpenShift in 2020 and 2021.  We
-      will include 3 forward looking product demonstrations during the session to
-      help illustrate where the product is moving in these areas.\n\n466755 OpenShift
-      4 6 Update"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/MaeGofZIuJE/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/MaeGofZIuJE/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/MaeGofZIuJE/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/MaeGofZIuJE/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 1
-    resourceId:
-      kind: youtube#video
-      videoId: MaeGofZIuJE
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-11T23:58:39Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: The Operating System for Enterprise Edge Ben Breard (Red Hat) OpenShift
-      Commons Gathering KubeCon NA
-    description: "The Operating System for Enterprise Edge \nBen Breard (Red Hat)
-      \nOpenShift Commons Gathering KubeCon NA\nNovember 17, 2020\n\nRed Hat Enterprise
-      Linux 8.3 brings a number of exciting improvements and key among them is a new
-      deployment option targeted at edge. In this session we'll take closer look at
-      how RHEL is using Image Builder and rpm-ostree to help to simplify challenges
-      with running remote systems.\n\n466757 The Operating System"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/aF1MSZ8gzNw/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/aF1MSZ8gzNw/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/aF1MSZ8gzNw/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/aF1MSZ8gzNw/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 2
-    resourceId:
-      kind: youtube#video
-      videoId: aF1MSZ8gzNw
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T00:16:27Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: HPC on Openshift Deploying Scientific Workloads on OpenShift with the MPI
-      Operator OpenShift Commons
-    description: "HPC on Openshift Deploying scientific workloads on Red Hat OpenShift
-      with the MPI Operator \n\nDavid Gray (Red Hat)\nOpenShift Commons Gathering
-      KubeCon NA\nNovember 17 2020 \n\nHigh Performance Computing (HPC) workloads
-      increasingly rely on the use of containers that make applications easier to
-      manage, preserve their dependencies and add portability across different environments.
-      Red Hat OpenShift Container Platform is a Kubernetes-based platform for deploying
-      containerized applications on shared compute resources. In this talk we will
-      show how to effectively deploy scientific applications, GROMACS and SPECFEM3D
-      Globe, on OpenShift using the MPI Operator from the Kubeflow project using two
-      different distributed shared filesystems, Lustre and CephFS.\n\n466756 HPC on
-      Openshift Deploying scientific workloads on Red Hat OpenShift with the MPI Operator"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/rVeSa26OqXc/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/rVeSa26OqXc/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/rVeSa26OqXc/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/rVeSa26OqXc/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 3
-    resourceId:
-      kind: youtube#video
-      videoId: rVeSa26OqXc
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T23:19:02Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Open Hybrid Cloud: Enabling Innovation Matt Hicks (Red Hat) OpenShift
-      Commons Gathering KubeCon NA'
-    description: "Open Hybrid Cloud: Enabling Innovation \nMatt Hicks (Red Hat)\n\nOpenShift
-      Commons Gathering KubeCon NA\nNovember 17, 2020 \n\nJoin Matt Hicks, Executive
-      Vice President of Red Hat’s Products and Technologies department, to learn more
-      about how open hybrid cloud is delivering a flexible, open approach to working
-      across clouds. Red Hat is committed to solving customer and market challenges,
-      and enabling innovation everywhere to meet the demands of our rapidly changing
-      world.\n\n466759 Open Hybrid Cloud Enabling Innovation"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/qYroer_L8RQ/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/qYroer_L8RQ/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/qYroer_L8RQ/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/qYroer_L8RQ/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 4
-    resourceId:
-      kind: youtube#video
-      videoId: qYroer_L8RQ
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T00:15:05Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: What's New in OpenShift Serverless Paul Morie William Markito OpenShift
-      Commons Gathering KubeConNA
-    description: "What's New in OpenShift Serverless\nPaul Morie (Red Hat)  |  William
-      Markito Oliveira (Red Hat)\n\nOpenShift Commons Gathering KubeCon NA\nNovember
-      17 2020 \n\nIn this session, we will give you an overview of the latest developments
-      of OpenShift Serverless, the Knative-based offering, with a quick recap about
-      what the project is all about and updates about Eventing features, now heading
-      to General Availability, and our implementation of Functions. Beyond that, you
-      will hear about updates to the governance process of Knative, including the
-      new steering charter, trademark committee, and much more.\n\n466761 What's new
-      in OpenShift Serverless"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/0xJZb3j-3ek/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/0xJZb3j-3ek/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/0xJZb3j-3ek/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/0xJZb3j-3ek/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 5
-    resourceId:
-      kind: youtube#video
-      videoId: 0xJZb3j-3ek
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T23:38:37Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: To Serve or not to Serve Serverless, Microservices & ServiceMesh OpenShift
-      Commons Gathering KubeCon
-    description: "To Serve or not to Serve: Serverless, Microservices, and Service
-      Mesh\nModerator: Jamie Longmuir (Red Hat) \nPanelists: Paul Morie (Red Hat)
-      , Daniel Berg (IBM) ,Lin Sun (IBM) ,Brenda Chan (VMware)  and Nick Young (VMware)\n\nOpenShift
-      Commons Gathering KubeCon NA\nNovember 17 2020 \n\nTo Be Of Service or Not:
-      Serverless, Microservices, and Service Mesh: In this panel, moderated by Jamie
-      Longmuir (Red Hat), Brenda Chan (VMWare), Paul Morie (Red Hat), Lin Sun (IBM),
-      Dan Berg (IBM) and Nick Young (VMWare) discuss the year that was, what's to
-      come and other tails of fun from the KNative, Istio and Contour communities.\n\n466762
-      \ To Serve or not to Serve Serverless, Microservices, and Service Mesh"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/TK9h2IOF4Zk/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/TK9h2IOF4Zk/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/TK9h2IOF4Zk/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/TK9h2IOF4Zk/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 6
-    resourceId:
-      kind: youtube#video
-      videoId: TK9h2IOF4Zk
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T00:01:31Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Deep Dive into Red Hat OpenShift on AWS (ROSA) Andrew Cathrow OpenShift
-      Commons Gathering KubeCon NA
-    description: "Deep Dive into Red Hat OpenShift on AWS (ROSA)\nAndrew Cathrow (Red
-      Hat) \n\nOpenShift Commons Gathering KubeCon NA\nNovember 2020 \n\nJoin Red
-      Hat's Andrew Cathrow for a deep dive into Red Hat OpenShift on AWS.\n\n466760
-      Deep Dive into Red Hat OpenShift on AWS"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/C9N7q8UJ8I0/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/C9N7q8UJ8I0/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/C9N7q8UJ8I0/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/C9N7q8UJ8I0/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 7
-    resourceId:
-      kind: youtube#video
-      videoId: C9N7q8UJ8I0
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T00:02:45Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Operators Everywhere - Jason Dobies and Josh Woods(Red Hat) | OpenShift
-      Commons Gathering KubeCon NA
-    description: "Operators Everywhere\nJason Dobies and Josh Woods(Red Hat)\nOpenShift
-      Commons Gathering KubeCon NA\nNovember 17 2020 \n\nJoin Red Hat's Josh Wood
-      and Jason Dobies, co-authors of the Kubernetes Operators book (O'Reilly, 2020),
-      for a surveillance flight over the Operator development landscape. Your co-pilots
-      will direct your attention out of the cabin windows to identify the biggest
-      news and latest features in the Operator Framework for building and distributing
-      Operators. Get a quick backgrounder on the purpose and adoption of Kubernetes
-      Operators, and what it means that the Operator Framework became a CNCF incubating
-      project this summer. Gaze at the new features and upstreamward standardization
-      resulting from the Operator SDK's adoption of Kubebuilder's extensions and project
-      layouts, and learn about the alternative ways to build Operators in a variety
-      of languages that have sprung up around the community.\n\n466764 Operators Everywhere"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/cZjZrXY7w3w/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/cZjZrXY7w3w/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/cZjZrXY7w3w/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/cZjZrXY7w3w/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 8
-    resourceId:
-      kind: youtube#video
-      videoId: cZjZrXY7w3w
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T00:00:58Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Empowering the End Users Priyanka Sharma(CNCF)Todd Moore(IBM) OpenShift
-      Commons Gathering KubeCon NA
-    description: "Empowering the End Users \nDiane Mueller(Red Hat), Priyanka Sharma
-      (CNCF), Todd Moore (IBM)\n\nOpenShift Commons Gathering KubeCon NA\nNovember
-      17, 2020 \n\nToday, end users are not just “using” open source software. They
-      are active and valuable participants, helping to drive innovation into upstream
-      projects and launching new projects into the open from behind the firewall.
-      Empowering more companies to navigate the cloud native ecosystem and participate
-      in open source is essential to all our success. Join Priyanka Sharma (CNCF),
-      Todd Moore (IBM) and Diane Mueller (Red Hat) in a conversation on best practices
-      for supporting end users\n\n466765 Empowering End Users"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/m475PFhMkbs/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/m475PFhMkbs/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/m475PFhMkbs/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/m475PFhMkbs/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 9
-    resourceId:
-      kind: youtube#video
-      videoId: m475PFhMkbs
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-11T23:59:32Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: GPU-Accelerated AI and ML with OpenShift Container Platform | OpenShift
-      Commons Gathering KubeCon NA
-    description: "GPU-Accelerated AI and ML with OpenShift Container Platform\nDiane
-      Feddema (Red Hat)  |  Michael Bennett (Dell)\n\nOpenShift Commons Gathering
-      KubeCon NA\nNovember 17, 2020 \n\nThis presentation by Dell Technologies and
-      Red Hat will go over OpenShift Container Platform 4.3, and show how we have
-      proven the performance of containerized machine learning workloads accelerated
-      with NVIDIA GPUs and how they can match baremetal systems. You will see the
-      results of our development effort including MLPerf benchmark results that show
-      performance of training and inference on both the Dell EMC PowerEdge R740 and
-      C4140 NVLink platforms using NVIDIA T4 and V100 GPUs. This session will also
-      cover monitoring dashboards built with Grafana and Prometheus that enable IT
-      operators to track metrics relevant to this validated design.  Finally, there
-      will be discussion of the essential software tools that enable machine learning
-      on OpenShift such as NGC containers and the NVIDIA GPU operator.\n\n466770 GPU
-      Enabling OpenShift for AI and ML workloads"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/mg95rI3Vqvg/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/mg95rI3Vqvg/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/mg95rI3Vqvg/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/mg95rI3Vqvg/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 10
-    resourceId:
-      kind: youtube#video
-      videoId: mg95rI3Vqvg
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T00:00:23Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'The State of OKD4: OpenShift Kubernetes on Fedora CoreOS - CodeReady Edition'
-    description: "The State of OKD4: OpenShift Kubernetes on Fedora CoreOS - CodeReady
-      Edition \nChristian Glombek and Charro Gruver (Red Hat)\n\nOpenShift Commons
-      Gathering KubeCon NA\nNovember 17, 2020 \n\nRed Hat's Christian Glombek and
-      Charro Gruver give a quick overview of the current state of the OKD 4 Kubernetes
-      Distribution and where it is going next. Starting with a reminder of where OKD
-      sits within the Kubernetes ecosystem, they follow up with a quick update on
-      where OKD is going with the introduction of version 4.6.  They'll close out
-      with a demonstration of the CodeReady Containers developer tool, built from
-      the OKD 4.5 code base for developing locally with ease.\n\n466768 The State
-      of OKD4 withSlides"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/3aaaEGWrbX4/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/3aaaEGWrbX4/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/3aaaEGWrbX4/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/3aaaEGWrbX4/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 11
-    resourceId:
-      kind: youtube#video
-      videoId: 3aaaEGWrbX4
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-11T22:55:52Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Red Hat OpenShift on IBM Power and IBM Z | OpenShift Commons Gathering
-      2020 at Kubecon/NA
-    description: |-
-      Red Hat OpenShift on IBM Power and IBM Z
-      OpenShift Commons Gathering 2020 at Kubecon/NA
-      November 17, 2020
-      Christy Norman (IBM)  |  Marcel Mitran (IBM)
-
-      Red Hat OpenShift enables businesses to easily develop and deploy applications across the hybrid cloud. In many enterprises the latter includes on-premises IT infrastructure such as IBM Power and IBM Z. In this breakout, Marcel Mitran from IBM Z and Christy Norman from IBM Power show how the user experience remains the same, and then explore the reasons why businesses would want to deploy Red Hat OpenShift on IBM Power and IBM Z. Backed up by common use cases and customer examples, they describe the technical scenarios possible, and then review the special considerations in deploying Red Hat OpenShift on IBM Power and IBM Z.
-
-      466766 Red Hat OpenShift on IBM Power and IBM Z
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/0biWBea0B_0/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/0biWBea0B_0/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/0biWBea0B_0/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/0biWBea0B_0/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 12
-    resourceId:
-      kind: youtube#video
-      videoId: 0biWBea0B_0
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-11T23:59:10Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Creating Custom Operator Catalogs for OpenShift | OpenShift Commons Gathering
-      2020 KubeCon NA
-    description: "Creating Custom Operator Catalogs for OpenShift \nKarena Angell
-      (Red Hat)  Andre Tost (IBM)\n\nOpenShift Commons Gathering KubeCon NA\nNovember
-      2020 \n\nOperators are a great way to package up single applications and features
-      for OpenShift, as well as other Kubernetes based application environments. But
-      what if you could build a custom operator catalog of applications that can be
-      added to the administrator console? Building custom operator catalogs allow
-      you to add an index of applications to be easily accessed and  deployed from
-      the console. This session walks through the steps required to create one in
-      OpenShift as well as a demo example of a custom operator catalog using IBM Cloud
-      Paks.\n\n466769 Creating Custom Operator Catalogs for OpenShift"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/kJpk5LuJiwY/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/kJpk5LuJiwY/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/kJpk5LuJiwY/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/kJpk5LuJiwY/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 13
-    resourceId:
-      kind: youtube#video
-      videoId: kJpk5LuJiwY
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2020-11-12T00:00:01Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Accelerating the Journey to Hybrid Cloud with Konveyor OpenShift Commons
-      Gathering KubeCon NA
-    description: "Accelerating the Journey to Hybrid Cloud with Konveyor \nAmith Singhee
-      (IBM)  |  James Labocki (Red Hat)\n\nOpenShift Commons Gathering KubeCon NA\nNovember
-      17 2020 \n\nModernizing applications to realize the benefits of hybrid cloud
-      can be a daunting task. Konveyor is a community of people passionate about helping
-      others modernize and migrate their applications to the hybrid cloud by building
-      tools, best practices, and providing advice on how to break down monoliths,
-      adopt containers, and embrace Kubernetes. In this presentation you will learn
-      about the Konveyor community, it's tools, and see a live demonstration of a
-      recently open sourced tool - move2kube - which can help customers migrate application
-      from cloud foundry and swarm to Kubernetes.\n\n468596 Accelerating the Journey
-      to Hybrid Cloud with the Konveyor Community"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/jP8uWXLBnuQ/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/jP8uWXLBnuQ/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/jP8uWXLBnuQ/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/jP8uWXLBnuQ/sddefault.jpg
-        width: 640
-        height: 480
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqeJuNmeETU6Scr5Axqi9wk-
-    position: 14
-    resourceId:
-      kind: youtube#video
-      videoId: jP8uWXLBnuQ
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: OpenShift Commons Gathering Israel
   gathering_date: '2022-03-29'
   gathering_videos:
@@ -13335,14 +11335,6 @@ videos:
         url: https://i.ytimg.com/vi/cJ_HuVHqDDk/hqdefault.jpg
         width: 480
         height: 360
-      standard:
-        url: https://i.ytimg.com/vi/cJ_HuVHqDDk/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/cJ_HuVHqDDk/maxresdefault.jpg
-        width: 1280
-        height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4IqcF997mKrBprx1m-JO02552
     position: 9
@@ -15730,5 +13722,1430 @@ videos:
     resourceId:
       kind: youtube#video
       videoId: QiSHwh_nvcE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: Data Science at NVIDIA GTC 2020
+  gathering_date: '2020-10-09'
+  gathering_videos:
+  - publishedAt: '2019-11-04T19:11:57Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Why deploy AI/ML (Artificial Intelligence & Machine Learning) workloads
+      on OpenShift?
+    description: |-
+      While organizations are turning to Artificial Intelligence and Machine Learning (AI/ML) to better serve customers, reduce cost, and gain other competitive advantages, there are significant challenges to executing these programs.
+
+      Data Scientists need a self-service experience that allows them to build, scale, and share their machine learning (ML) modeling results across the hybrid cloud.
+
+      With Red Hat OpenShift, you'll enable data scientists to easily enable and deploy their ML modeling without the dependency on IT to provision infrastructure.
+
+      Learn more at openshift.com/ai-ml
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/fwryf3TcSPA/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/fwryf3TcSPA/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/fwryf3TcSPA/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/fwryf3TcSPA/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/fwryf3TcSPA/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: fwryf3TcSPA
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2019-10-25T15:34:31Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Fraud Detection Using Open Data Hub on Openshift
+    description: "Demonstration of an end-to-end AI/ML fraud detection use case using
+      Open Data Hub on Openshift. \n\nFor more information on Open Data Hub, visit
+      http://opendatahub.io/"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/662FccIWeOE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/662FccIWeOE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/662FccIWeOE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/662FccIWeOE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/662FccIWeOE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: 662FccIWeOE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2019-10-28T15:35:24Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Installing Open Data Hub on OpenShift 4.1
+    description: |-
+      Tutorial demonstrating how to deploy Open Data Hub in an Openshift 4.1 cluster using the Operator Hub catalog. At the end of this tutorial, you will be able to deploy a JupyterHub server, spark cluster and create your own Jupyter notebook.
+
+      OpenShift 4.1 cluster was created using Code Ready Containers(https://code-ready.github.io/crc/ )
+
+      For more information on Open Data Hub, visit http://opendatahub.io/
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/-T6ypF7LoKk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/-T6ypF7LoKk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/-T6ypF7LoKk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/-T6ypF7LoKk/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/-T6ypF7LoKk/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: "-T6ypF7LoKk"
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2019-10-30T18:43:18Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Uploading data to Ceph via command line
+    description: In this tutorial we show you how to store data in an S3 Data Lake
+      via the command line using the s3cmd tool.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/d6X1xvDXewM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/d6X1xvDXewM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/d6X1xvDXewM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/d6X1xvDXewM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/d6X1xvDXewM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: d6X1xvDXewM
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-04-07T18:35:56Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Harness the power of AI/ML with Red Hat OpenShift
+    description: |-
+      In this webinar, Abhinav Joshi shares how you can harness the power of AI/ML with the Red Hat portfolio. He covers the challenges, potential, and Containers and Kubernetes for AI/ML workloads.
+
+      Abhinav is the Product Marketing Lead for Artificial Intelligence / Machine Learning on OpenShift.
+
+      For more information, please visit: openshift.com/ai-ml
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/cMMjADG8Ljk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/cMMjADG8Ljk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/cMMjADG8Ljk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/cMMjADG8Ljk/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/cMMjADG8Ljk/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: cMMjADG8Ljk
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-04-09T20:20:32Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: ML Workflows on Red Hat OpenShift
+    description: Red Hat believes that machine learning (ML) workflows are just like
+      traditional software development workflows. In this video we demonstrate how
+      Red Hat OpenShift Container Platform can enable data scientists to leverage
+      traditional DevOps methodologies to accelerate their ML workflows.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/1REuOX6egnQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/1REuOX6egnQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/1REuOX6egnQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/1REuOX6egnQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/1REuOX6egnQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: 1REuOX6egnQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-04-21T21:29:55Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Open Data Hub Introduction
+    description: Introduction to Open Data Hub an open source project that provides
+      an end to end AI/ML platform on Openshift. Please visit opendatahub.io
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/kdjd1wNK9Wc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/kdjd1wNK9Wc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/kdjd1wNK9Wc/hqdefault.jpg
+        width: 480
+        height: 360
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: kdjd1wNK9Wc
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-06-04T20:09:09Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Briefing: Continuous Development and Deployment of AI/ML
+      Models with Kubernetes'
+    description: "OpenShift Commons Briefing\nContinuous Development &Deployment of
+      AI/ML Models with containers and Kubernetes\nGuest Speakers: \nWill Benton (Red
+      Hat)\nParag Dave (Red Hat)\nPeter Brey (Red Hat)\nhosted by Diane Mueller (Red
+      Hat)\n2020-06-04"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ZSiHI-c3rCU/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: ZSiHI-c3rCU
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-06-19T16:03:57Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Top Considerations for Accelerating AI/ML Lifecycle in the Cloud-Native
+      Era
+    description: |-
+      Red Hat's Abhinav Joshi presents "Top Considerations for Accelerating AI/ML Lifecycle in the Cloud-Native Era" at Cloud Architecture Summit: News: Integration Developer News.
+
+      To learn more about OpenShift: visit: OpenShift.com
+
+      To download the slides, visit: https://www.idevnews.com/registration?event_id=506&code=ws_sidebar
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/349zHtFdhkI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/349zHtFdhkI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/349zHtFdhkI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/349zHtFdhkI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/349zHtFdhkI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 8
+    resourceId:
+      kind: youtube#video
+      videoId: 349zHtFdhkI
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-07-09T16:09:23Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Using AI to Solve Problems
+    description: "Michael Clifford, a data scientist at Red Hat, discusses how Red
+      Hat uses Artificial Intelligence to solve operational problems and make the
+      company's products better. \nLearn more: openshift.com/ai-ml"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ggK5XDAofcw/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ggK5XDAofcw/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ggK5XDAofcw/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ggK5XDAofcw/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ggK5XDAofcw/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 9
+    resourceId:
+      kind: youtube#video
+      videoId: ggK5XDAofcw
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-07-21T02:30:43Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Ask Me Anything on OpenDataHub with Landon LaSmith Red Hat and ODH team
+      members
+    description: AMA on OpenDataHub with Landon LaSmith Red Hat 07 20 2020
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ktH1QTlTc7c/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ktH1QTlTc7c/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ktH1QTlTc7c/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ktH1QTlTc7c/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ktH1QTlTc7c/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: ktH1QTlTc7c
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-07-28T13:41:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Intelligent Data Summit: Fast Track AI from Pilot to Production with a
+      Kubernetes-powered platform'
+    description: |-
+      Red Hat's Abhinav Joshi presents "Fast track AI from Pilot to Production with a Kubernetes-powered platform"
+
+      From: Intelligent Data Summit: Integration Developer News.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/uakzi8FyNZY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/uakzi8FyNZY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/uakzi8FyNZY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/uakzi8FyNZY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/uakzi8FyNZY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 11
+    resourceId:
+      kind: youtube#video
+      videoId: uakzi8FyNZY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-08-13T21:14:12Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Red Hat Research: University Collaboration'
+    description: |-
+      Hugh Brock, Research Director at Red Hat, discusses how Red Hat connects University research with Red Hat engineers and ultimately driving innovation upstream.
+
+
+
+      Learn more: https://research.redhat.com/
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/arijOYKSw0c/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/arijOYKSw0c/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/arijOYKSw0c/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/arijOYKSw0c/sddefault.jpg
+        width: 640
+        height: 480
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 12
+    resourceId:
+      kind: youtube#video
+      videoId: arijOYKSw0c
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-08-27T21:25:23Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: AI/ML at the edge with Red Hat OpenShift
+    description: |-
+      Red Hat OpenShift simplifies the deployment and life-cycle management of AI-powered intelligent applications at the edge, just like it does in the cloud.
+
+      Learn more at: openshift.com/edge
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Ty3X1C4pwn0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Ty3X1C4pwn0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Ty3X1C4pwn0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Ty3X1C4pwn0/sddefault.jpg
+        width: 640
+        height: 480
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 13
+    resourceId:
+      kind: youtube#video
+      videoId: Ty3X1C4pwn0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-09-02T20:16:42Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'AIOps: Anamoly Detection (Marcel Hild)'
+    description: |-
+      Red Hat uses techniques such as anamoly detection to identify issues in infrastructure and proactively addresses them to make the products even better.
+      Learn more: openshift.com/ai-ml and openshift.com/storage
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/PcsqcN4NqI4/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/PcsqcN4NqI4/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/PcsqcN4NqI4/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/PcsqcN4NqI4/sddefault.jpg
+        width: 640
+        height: 480
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 14
+    resourceId:
+      kind: youtube#video
+      videoId: PcsqcN4NqI4
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-09-11T23:08:34Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: AIOps vs MLOps vs DevOps Zak Berrie (Red Hat)  | NVIDIA GTC OSCG
+    description: "AIOps vs MLOps vs DevOps \nZak Berrie (Red Hat)\nNVIDIA GTC OpenShift
+      Commons Gathering\nOctober 9, 2020"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/IDHvpgVu_ak/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/IDHvpgVu_ak/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/IDHvpgVu_ak/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/IDHvpgVu_ak/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/IDHvpgVu_ak/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 15
+    resourceId:
+      kind: youtube#video
+      videoId: IDHvpgVu_ak
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-10-23T23:55:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Applying AIOps to Kubernetes Telemetry Data with Open Data Hub at OpenShift
+      | NVIDIA GTC OSCG
+    description: "Applying AIOps to Kubernetes Telemetry Data with OpenDataHub \nAlex
+      Corvin and Ivan Necas (Red Hat)\nNVIDIA GTC OpenShift Commons Gathering 2020\nOctober
+      9 2020"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/lV12Cj3auZE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/lV12Cj3auZE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/lV12Cj3auZE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/lV12Cj3auZE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/lV12Cj3auZE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 18
+    resourceId:
+      kind: youtube#video
+      videoId: lV12Cj3auZE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-10-23T23:57:07Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: The Enterprise Neurosystem Initiative Bill Wright (Red Hat)  | NVIDIA GTC
+      OSCG
+    description: "The Enterprise Neurosystem Initiative \nBill Wright (Red Hat)\nNVIDIA
+      GTC OpenShift Commons Gathering\nOctober 9, 2020"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/EqkCoPHm5CI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/EqkCoPHm5CI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/EqkCoPHm5CI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/EqkCoPHm5CI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/EqkCoPHm5CI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 19
+    resourceId:
+      kind: youtube#video
+      videoId: EqkCoPHm5CI
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-10-24T02:51:57Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: NVIDIA GTC Buck Woody MSFT
+    description: ''
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/uMJ5sE3Veic/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/uMJ5sE3Veic/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/uMJ5sE3Veic/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/uMJ5sE3Veic/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/uMJ5sE3Veic/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 20
+    resourceId:
+      kind: youtube#video
+      videoId: uMJ5sE3Veic
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-10-24T02:52:56Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: NVIDIA GTC Michael Bennett Dell Diane Feddema Red Hat
+    description: ''
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/OXCnzfWKI90/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/OXCnzfWKI90/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/OXCnzfWKI90/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/OXCnzfWKI90/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/OXCnzfWKI90/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 21
+    resourceId:
+      kind: youtube#video
+      videoId: OXCnzfWKI90
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-10-24T02:53:59Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: NVIDIA GTC Cory Latchkowski ExxonMobil
+    description: ''
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/NsYGkgCE-UQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 22
+    resourceId:
+      kind: youtube#video
+      videoId: NsYGkgCE-UQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2020-10-24T02:55:16Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Using MPI Operator for GPU-Accelerated Workloads with Lustre FS David Gray
+      Red Hat | NVIDIA GTC OSCG
+    description: |-
+      David Gray
+      (Red Hat)
+      NVIDIA GTC OpenShift Commons Gathering
+      October 9, 2020
+      High performance computing workloads increasingly rely on containers that make applications easier to manage, preserve their dependencies, and add portability across different environments. Red Hat OpenShift Container Platform is an enterprise-ready Kubernetes-based platform for deploying containerized applications on shared compute resources. An Operator is a method of packaging, deploying, and managing a Kubernetes-native application that can make it easier to run complex workloads. We'll demonstrate how GPU-accelerated scientific applications can be deployed on OpenShift, using message-passing interface and backed by the Lustre file system for data storage.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/LAz_TG2Qtik/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/LAz_TG2Qtik/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/LAz_TG2Qtik/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/LAz_TG2Qtik/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/LAz_TG2Qtik/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 23
+    resourceId:
+      kind: youtube#video
+      videoId: LAz_TG2Qtik
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-02-12T15:36:31Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: A Day in the Life of a Red Hat Data Scientist
+    description: |-
+      Don Chesworth describes what it's like to be a data scientist at Red Hat, including the use the latest and greatest open source tooling. Don also shares an experience working with the Open Data Hub team to submit improvements for changing Red Hat OpenShift shared memory size across multiple GPUs.
+
+      Learn more at openshift.com/ai-ml
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Ico3BQRdsi8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Ico3BQRdsi8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Ico3BQRdsi8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Ico3BQRdsi8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Ico3BQRdsi8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 24
+    resourceId:
+      kind: youtube#video
+      videoId: Ico3BQRdsi8
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-02-12T15:40:18Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Using Open Data Hub as a Red Hat Data Scientist
+    description: |-
+      Isabel Zimmerman demonstrates how to build, deploy and monitor machine learning models using the Open Data Hub project for simplified end-to-end machine learning workflows. Isabel shows an ML workflow that includes Jupyter notebooks, Seldon for model hosting, Prometheus and Grafana for data visualization.
+
+      Learn more at openshift.com/ai-ml
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/aE0dS0_uyj8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/aE0dS0_uyj8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/aE0dS0_uyj8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/aE0dS0_uyj8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/aE0dS0_uyj8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 25
+    resourceId:
+      kind: youtube#video
+      videoId: aE0dS0_uyj8
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-03-02T16:53:57Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: A Customer’s Story with Red Hat AI Solutions
+    description: "Red Hat Consulting Services describes how they helped a customer
+      solve problems of multiple siloed data sets, accelerating and scaling data science
+      workflows across thousands of users, and implementing open source AI/ML technologies
+      leveraging the Open Data Hub project. \n\nResults include: speeding up their
+      ML deployments (faster time to solution) and increased collaboration between
+      developers and Ops.\n\nLearn more at https://www.openshift.com/learn/topics/ai-ml"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/HFLbXmw9x9s/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/HFLbXmw9x9s/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/HFLbXmw9x9s/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/HFLbXmw9x9s/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/HFLbXmw9x9s/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 26
+    resourceId:
+      kind: youtube#video
+      videoId: HFLbXmw9x9s
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-03-03T13:29:44Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'PICT Voices #25: Ivan Oransky, The Use and Abuse of Science'
+    description: |-
+      Our twenty-fifth interview is with Ivan Oransky, science journalist (New York City, USA) by Kristof K.P. Vanhoutte (Basel, Switzerland) Friday, February 12, 2021
+
+      PICT Voices is an interview series conducted by PICT faculty with notable members of the broader PICT community. Our goal is to present our community with a variety of voices across the spectrum of the humanities and critical, creative thinking. To achieve this, we will interview a broad spectrum of thinkers ranging from scholars to journalists.
+
+      website: https://parisinstitute.org/
+
+      soundcloud: https://soundcloud.com/parisinstitute
+      instagram: https://www.instagram.com/parisinstitute/
+      facebook: https://www.facebook.com/parisinstitute.org/
+      twitter: https://twitter.com/ParisCritical
+      linkedin: https://www.linkedin.com/school/paris-institute-for-critical-thinking/
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/EItWV4S9WEE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/EItWV4S9WEE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/EItWV4S9WEE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/EItWV4S9WEE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/EItWV4S9WEE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 27
+    resourceId:
+      kind: youtube#video
+      videoId: EItWV4S9WEE
+    videoOwnerChannelTitle: Paris Institute for Critical Thinking
+    videoOwnerChannelId: UC8jVMrQkIZJDDIjWoW5eyMA
+  - publishedAt: '2021-03-23T15:50:56Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Red Hat's Artificial Intelligence (AI) Vision (part 1)
+    description: |-
+      Steven Huels describes Red Hat’s AI/ML business focus and vision, including our investments in Kubernetes and DevOps as well as the technology partner ecosystem. Through the Open Data Hub project, Red Hat provides a reference for implementing open source tooling on OpenShift.
+
+      Learn more at openshift.com/learn/topics/ai-ml
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/88k7bI0HXFQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/88k7bI0HXFQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/88k7bI0HXFQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/88k7bI0HXFQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/88k7bI0HXFQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 28
+    resourceId:
+      kind: youtube#video
+      videoId: 88k7bI0HXFQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-03-23T15:52:56Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Red Hat's AI vision and Open Data Hub (part 2)
+    description: |-
+      As a proof point of Red Hat’s AI investments and vision, Steven highlights the origin of the Open Data Hub project, its use by Red Hat Consulting services to help customers put models into production and the ecosystem of AI/ML technology partners on Red Hat OpenShift.
+
+      Learn more at: openshift.com/learn/topics/ai-ml
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/-l6EiqCgFAg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/-l6EiqCgFAg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/-l6EiqCgFAg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/-l6EiqCgFAg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/-l6EiqCgFAg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 29
+    resourceId:
+      kind: youtube#video
+      videoId: "-l6EiqCgFAg"
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-04-23T20:46:24Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Preview demo of Red Hat OpenShift Data Science
+    description: See a preview demo of the Red Hat OpenShift Data Science managed
+      cloud service offering. Red Hat OpenShift Data Science combines common open
+      source tooling, partner software and other Red Hat portfolio software to provide
+      a fully supported sandbox in which to rapidly develop, train, and test ML models
+      in the public cloud. Chris Chase runs through a tutorial of how easy it is to
+      launch Jupyter notebooks to build a model in a TensorFlow framework and deploy
+      the model in a container-ready format.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/joK89xYeuUY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/joK89xYeuUY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/joK89xYeuUY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/joK89xYeuUY/sddefault.jpg
+        width: 640
+        height: 480
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 30
+    resourceId:
+      kind: youtube#video
+      videoId: joK89xYeuUY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-04-23T20:52:51Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Red Hat’s AI/ML Technology Partnerships
+    description: Red Hat has taken a partner ecosystem approach to AI/ML use cases
+      in a hybrid cloud environment, not only for the Open Data Hub project but also
+      its Red Hat OpenShift Data Science managed cloud services offering. In this
+      short video, Ryan describes the approach with these key data science ISV partnerships.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/tYOwSMqdWt8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/tYOwSMqdWt8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/tYOwSMqdWt8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/tYOwSMqdWt8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/tYOwSMqdWt8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 31
+    resourceId:
+      kind: youtube#video
+      videoId: tYOwSMqdWt8
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-06-22T18:33:35Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Red Hat Innovators in the Open | HCA Healthcare
+    description: |-
+      HCA Healthcare uses an innovative data platform to accelerate detection of sepsis to save lives by using a containers ML application.
+
+      Learn more at https://www.OpenShift.com/ai-ml
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/z6c4o_DD5bc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/z6c4o_DD5bc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/z6c4o_DD5bc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/z6c4o_DD5bc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/z6c4o_DD5bc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 32
+    resourceId:
+      kind: youtube#video
+      videoId: z6c4o_DD5bc
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-06-22T18:39:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: NVIDIA and Red Hat enabling faster delivery of AI-powered intelligent applications
+    description: |-
+      Together, Red Hat’s OpenShift hybrid cloud platform and NVIDIA’s innovative GPUs, CUDA-X libraries, GPU Operator and AI software from the NGC catalog helps businesses quickly, consistently, and securely develop, deploy, and scale AI applications across the hybrid cloud.
+
+      Learn more at https://www.OpenShift.com/nvidia
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/_dKVF3M_CFE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/_dKVF3M_CFE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/_dKVF3M_CFE/hqdefault.jpg
+        width: 480
+        height: 360
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 33
+    resourceId:
+      kind: youtube#video
+      videoId: _dKVF3M_CFE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-06-23T14:01:27Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Delivering MLOps with OpenShift GitOps and Pipelines
+    description: As AI/ML modeling becomes more important the growing expection is
+      to adopt and implement an MLOps strategy to make it easier to productize models
+      and keep them up to date. Explore the challenges this poses for Data Scientists
+      and what OpenShift is doing to make productizing AI/ML models more simple with
+      features like OpenShift GitOps, OpenShift Pipelines, Quay, and Red Hat OpenShift
+      Data Science.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/l8bg8d4gtBw/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/l8bg8d4gtBw/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/l8bg8d4gtBw/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/l8bg8d4gtBw/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/l8bg8d4gtBw/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 34
+    resourceId:
+      kind: youtube#video
+      videoId: l8bg8d4gtBw
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-06-28T11:28:55Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Red Hat OpenShift - Moonshot ideas
+    description: |-
+      Innovation without limitation.
+
+      Learn more at OpenShift.com
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/1V69ejZSdnU/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/1V69ejZSdnU/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/1V69ejZSdnU/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/1V69ejZSdnU/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/1V69ejZSdnU/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 35
+    resourceId:
+      kind: youtube#video
+      videoId: 1V69ejZSdnU
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-11-01T20:39:27Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: How NTT and Red Hat have Built an Edge Offer to Deliver New Cloud-Native
+      AI-Platform Services
+    description: Learn how cloud-native AI applications can be enabled for a new digital
+      service edge platform from NTT East. The Multi-Access Edge Computing (MEC) platform
+      is based on a Red Hat OpenShift architecture leveraging GPUs and NVIDIA GPU-Operator
+      to deliver new AI applications services across multi-cloud edge environments
+      including private 5G, fiber, telco edge and customer’s enterprise edge. The
+      cloud-native edge solution is  for multiple industry solutions and a next generation
+      intelligent video analytics (IVA) example is highlighted for a retailer.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/H2jS5sQ-f9o/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 36
+    resourceId:
+      kind: youtube#video
+      videoId: H2jS5sQ-f9o
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-11-12T14:41:51Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Using Open Data Hub for MLOps Demo
+    description: Juana Nakfour describes MLOps and demonstrates how to use Open Data
+      Hub, a community project integrating open source AI/ML tools in an end-to-end
+      AI platform on Red Hat OpenShift. First, Juana shows using the JupyterHub Elyra
+      tool to auto-generate and run an MLOps KubeFlow pipeline. After showcasing Red
+      Hat Ceph Storage and bucket notification to trigger and automate the MLOps pipeline,
+      Juana shows how to deploy the fraud detection neural network machine learning
+      model using KFServing and using Canary rollout to introduce a new version of
+      the model.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/F6nE1d5SXRU/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/F6nE1d5SXRU/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/F6nE1d5SXRU/hqdefault.jpg
+        width: 480
+        height: 360
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 37
+    resourceId:
+      kind: youtube#video
+      videoId: F6nE1d5SXRU
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-11-12T14:44:17Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: What is Kubeflow?
+    description: In this short 45 second video, Juana Nakfour describes Kubeflow and
+      its advantages.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/jEaoT0eDJrA/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/jEaoT0eDJrA/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/jEaoT0eDJrA/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/jEaoT0eDJrA/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/jEaoT0eDJrA/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 38
+    resourceId:
+      kind: youtube#video
+      videoId: jEaoT0eDJrA
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-11-12T21:00:45Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Top 5 Considerations for an AI/ML Platform
+    description: Will McGrath, Product Marketing Manager in Red Hat’s Data Services
+      business unit, discusses the top 5 considerations for building out an AI platform.
+      Whether it’s developing a data strategy or building a collaborative environment,
+      these guidelines will help your organization achieve success as your machine
+      learning projects move from experimentation to production.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/t3ElO45VEoM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/t3ElO45VEoM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/t3ElO45VEoM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/t3ElO45VEoM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/t3ElO45VEoM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 39
+    resourceId:
+      kind: youtube#video
+      videoId: t3ElO45VEoM
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-11-12T21:03:53Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Starburst partners with Red Hat on OpenShift Data Science for AI/ML workloads
+    description: Justin Borgman, CEO of Starburst, describes how Starburst partners
+      with Red Hat, integrating with Red Hat OpenShift Data Science to provide insights
+      into an organization’s data for analytics and AI/ML workloads. Justin describes
+      how the Starburst data mesh capabilities can help data engineers to access decentralized
+      data and eliminate the need for data wrangling.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/pXCAYu4s_RY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/pXCAYu4s_RY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/pXCAYu4s_RY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/pXCAYu4s_RY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/pXCAYu4s_RY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 40
+    resourceId:
+      kind: youtube#video
+      videoId: pXCAYu4s_RY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2021-12-17T10:47:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: SWIFT and Red Hat OpenShift deliver an AI platform for financial transaction
+      intelligence at scale
+    description: "SWIFT is shaping the future of payments and securities to be faster,
+      smarter and better. As the financial industry’s neutral and trusted provider,
+      we help our community of over 11,000 financial institutions move value around
+      the world reliably and more securely at scale. SWIFT is now leveraging our pivotal
+      role in the financial industry to develop transformative AI solutions, enabled
+      by a high-performance AI platform that is future ready for hybrid cloud. \n\nJoin
+      this keynote to learn how SWIFT, along with Red Hat, C3.ai, Kove and partner
+      financial institutions, is embarking on a journey to enhance the effectiveness
+      and efficiency of shared services like payment screening and anomaly detection,
+      leveraging unique global transaction data – without compromising the integrity
+      of transaction data or the privacy of its users.\n\nSpeakers: Marius Bogoevici
+      (Red Hat) and  Chalapathy Neti (SWIFT)"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/yiEHj0lgsFQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/yiEHj0lgsFQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/yiEHj0lgsFQ/hqdefault.jpg
+        width: 480
+        height: 360
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 41
+    resourceId:
+      kind: youtube#video
+      videoId: yiEHj0lgsFQ
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
