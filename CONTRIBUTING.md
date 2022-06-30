@@ -181,7 +181,9 @@ Example:
 title: Chicago Meeting
 description: Come join us in Chicago at Wrigley Field.
 date: '2023-04-18'
-time: '2:30–6 p.m. CDT'
+timezone: 'America/Chicago'
+start_time: '14:30'
+end_time: '18:00'
 location: Chicago
 ---
 ```
@@ -199,11 +201,13 @@ The fields are:
 - **title** — title of the gathering.
 - **description** — description that displays in the summary (optional).
 - **date** — date in YYYY-MM-DD format.
-- **time** — time of the gathering
+- **timezone** — a time zone name from the IANA [time zone database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+- **start_time** — starting time of the gathering. Must be in the format 'hh:mm' with hour being '00'–'23'.
+- **end_time** — ending time of the gathering. Must be in the format 'hh:mm' with hour being '00'–'23'.
 
 #### Language specification
 
-The `language` field is used to format the date according to a particular language.
+The `language` field is used to format the date and time according to a particular language (along with the `timezone` field).
 
 Examples:
 
@@ -213,7 +217,7 @@ language: 'en-US'
 
 Displays as:
 
-![Date in US English](img/en-US.png)
+![Date and time in US English](img/en-US.png)
 
 ```
 language: 'en-UK'
@@ -221,7 +225,7 @@ language: 'en-UK'
 
 Displays as:
 
-![Date in UK English](img/en-UK.png)
+![Date and time in UK English](img/en-UK.png)
 
 ```
 language: 'pt-BR'
@@ -229,11 +233,20 @@ language: 'pt-BR'
 
 Displays as:
 
-![Date in Brazilian Portuguese](img/pt-BR.png)
+![Date and time in Brazilian Portuguese](img/pt-BR.png)
 
-The filed is:
+```
+language: 'es-AR`
+timezone: 'America/Argentina/Buenos_Aires'
+```
 
-- **language** — the language used to format the date. Must be a standard [HTML language specifier](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang). Defaults to `en-US` (optional).
+Displays as:
+
+![Date and time in Argentine Spanish](img/es-AR.png)
+
+The field is:
+
+- **language** — the language used to format the date and time (along with the `timezone` field). Must be a standard [HTML language specifier](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang). Defaults to `en-US` (optional).
 
 #### Introduction
 
@@ -440,11 +453,12 @@ Example of a full `index.mdx` file:
 ```
 ---
 title: 'LATAM OpenShift Commons Gathering 2021 PT'
-menu: 'show'
 description: ''
 language: 'pt-BR'
 date: '2021-10-06'
-time: '10 a.m–3 p.m.'
+timezone: 'America/Belem'
+start_time: '10:00'
+end_time: '15:00'
 location: 'Latinoamérica — Português'
 
 head_text: >-
