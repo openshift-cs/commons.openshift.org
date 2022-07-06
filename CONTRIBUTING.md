@@ -358,13 +358,13 @@ Schedule section example:
 schedule_leadin: The times are approximate for this event. You must follow all health protocols.
 videos_text: Watch previous gatherings
 schedule:
-  - local_time: '2:30 p.m.'
+  - local_time: '14:30'
     session_name: 'Gates Open'
     track: Parking Lot
-  - local_time: '3:00 p.m.'
+  - local_time: '15:00'
     session_name: 'Game Starts'
     track: Bleachers
-  - local_time: '4:00 p.m.'
+  - local_time: '16:00'
     session_name: '7th Inning Stretch'
     speakers:
       - id: 'jane-doe'
@@ -380,7 +380,7 @@ The fields are:
 - **schedule_leadin** — opening paragraph (optional). The default text is `Code of Conduct: We follow the Code of Conduct of other events such as KubeCon. Similarly we are dedicated to providing a harassment-free experience for participants at all of our events, whether they are held in person or virtually. All event participants, whether they are attending an in-person event or a virtual event, are expected to behave in accordance with professional standards, with both this Code of Conduct as well as their respective employer's policies governing appropriate workplace behavior and applicable laws.`.
 - **videos_text**: button text for link to YouTube gatherings playlists (optional). Defaults to `See sessions from previous gatherings`.
 - **schedule**: section label (section is optional).
-- **local_time**: start time of session.
+- **local_time**: start time of session. Must be in the format 'hh:mm' with hour being '00'–'23'.
 - **session_name**: — session title.
 - **track**: — track name (optional). If no sessions have a track, sessions display without tab interface. Sessions in the same track display in that tab. If tracks are defined, an event without one displays on all tracks. This is useful for breaks, reception, lunch, etc.
 - **speakers** — section label for session speakers (section is optional).
@@ -483,7 +483,7 @@ videos_text: >-
   Veja edições anteriores de OpenShift Commons
 
 schedule:
-  - local_time: '9:50'
+  - local_time: 0'9:50'
     session_name: 'Bem-vindo ao OpenShift Commons: Colaboração em ação'
     speakers:
       - id: 'edson_yanaga'
@@ -559,7 +559,9 @@ Example showing the minimum required for a past gathering:
 ---
 title: 'Austin 2017'
 date: '2017-12-05'
-time: '9 a.m.–5 p.m.'
+timezone: 'America/Chicago'
+start_time: '09:00'
+end_time: '17:00'
 location: 'Austin, Texas'
 youtube_playlist_id: 'PLaR6Rq6Z4Iqe9xnafdhWdSgD-3qsWTm6K'
 ---

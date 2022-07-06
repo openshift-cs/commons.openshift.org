@@ -357,13 +357,19 @@ export default function GatheringPage({ data, ...props }) {
                     key={`${track}-content`}
                     value={encodeURIComponent(track)}
                   >
-                    <Schedule track={track} schedule={schedule} />
+                    <Schedule
+                      track={track}
+                      schedule={schedule}
+                      date={date}
+                      language={language}
+                      timezone={timezone}
+                    />
                   </Tabs.Content>
                 ))}
               </Tabs.Root>
             ) : (
               <div className="my-8 md:my-16 rounded-lg border-2 border-secondary-400">
-                <Schedule schedule={schedule} />
+                <Schedule schedule={schedule} date={date} language={language} timezone={timezone} />
               </div>
             )}
           </section>
