@@ -63,10 +63,10 @@ export default function GatheringPage({ data, ...props }) {
   } = data.mdx
   const url = props.location.href
   const headingStyle =
-    'text-center font-headings text-xl md:text-3xl lg:text-4xl text-base-800 mb-4 lg:mb-8'
+    'text-center font-headings font-semibold text-xl md:text-3xl lg:text-4xl text-base-700 mb-4 lg:mb-8'
   const subheadingStyle =
-    'font-headings text-lg md:text-xl lg:text-2xl text-accent-600 dark:text-accent-600 my-2 md:mt-4 md:mb-2'
-  const ledeStyle = 'mb-2 lg:mb-4 mt-2 text-primary-700 text-base lg:text-lg max-w-[56ch]'
+    'font-headings text-lg md:text-xl lg:text-2xl text-accent-600 dark:text-accent-600 mb-2 mt-8'
+  const ledeStyle = 'mb-2 lg:mb-4 mt-2 text-primary-700 text-base lg:text-lg max-w-[72ch]'
   const aStyle =
     'underline text-primary-700 visited:text-primary-900 focus:ring-2 focus:ring-primary-600 hover:text-warning-700'
 
@@ -104,6 +104,11 @@ export default function GatheringPage({ data, ...props }) {
   const tabsTriggerStyle =
     'p-4 border-primary-900 font-headings font-bold md:text-lg tab-active:bg-accent-700 tab-active:text-white dark:tab-active:bg-accent-200'
 
+  const bannerPStyle = 'text-lg lg:text-xl leading-relaxed lg:leading-loose max-w-[600px]'
+
+  const bannerButtonStyle =
+    'bg-transparent dark:bg-transparent text-white hover:text-white hover:bg-dark dark:hover:!bg-dark'
+
   let tracks = []
 
   tracks = schedule?.filter((event) => event.track !== null).map((event) => event.track)
@@ -111,18 +116,18 @@ export default function GatheringPage({ data, ...props }) {
   tracks = [...new Set(tracks)]
 
   let bannerStyle =
-    'light bg-primary-800 text-primary-200 flex flex-col justify-center items-center text-center min-h-[300px] md:min-h-[400px] px-4 md:px-6 py-4 md:py-0'
+    'light bg-primary-800 text-primary-200 flex flex-col justify-center items-center text-center min-h-[300px] md:min-h-[400px] px-4 md:px-6 py-4 md:py-16'
 
   if (archived) {
     bannerStyle =
-      'light bg-accent-800 text-accent-200 flex flex-col justify-center items-center text-center min-h-[300px] md:min-h-[400px] px-4 md:px-6 py-4 md:py-8'
+      'light bg-accent-800 dark:bg-accent-900 text-accent-200 flex flex-col justify-center items-center text-center min-h-[300px] md:min-h-[400px] px-4 md:px-6 py-4 md:py-16'
   }
 
   return (
     <>
       <Seo title={title} description={description} />
       <section className={bannerStyle}>
-        <div className="space-y-6 max-w-[900px]">
+        <div className="flex flex-col gap-8 max-w-[900px] items-center">
           <h1 className="font-headings font-bold text-4xl md:text-5xl lg:text-6xl tracking-wide">
             {title}
           </h1>
@@ -137,10 +142,55 @@ export default function GatheringPage({ data, ...props }) {
             />{' '}
             | {location}
           </p>
+
+          <p
+            className={`w-60 border-t
+              ${archived ? 'border-alert-800' : 'border-primary-700'}`}
+          ></p>
+
+          {head_text ? (
+            <p className={bannerPStyle}>{head_text}</p>
+          ) : (
+            <p className={bannerPStyle}>
+              Where users, partners, customers, contributors and upstream project leads come
+              together to collaborate and work together across the OpenShift Cloud Native ecosystem.
+            </p>
+          )}
+
+          {archived ? (
+            <p className={bannerPStyle}>The event is over</p>
+          ) : (
+            <div className="flex flex-wrap justify-center gap-2 md:gap-4">
+              <IconBox
+                title={registration_text}
+                url={registration_URL}
+                className={bannerButtonStyle}
+              />
+              {registration_text2 && (
+                <IconBox
+                  title={registration_text2}
+                  url={registration_URL2}
+                  className={bannerButtonStyle}
+                />
+              )}
+              {registration_text3 && (
+                <IconBox
+                  title={registration_text3}
+                  url={registration_URL3}
+                  className={bannerButtonStyle}
+                />
+              )}
+              <IconBox
+                title={`${sponsoring_text ? sponsoring_text : 'Apply to be a Sponsor'}`}
+                url={sponsoring_URL}
+                className={bannerButtonStyle}
+              />
+            </div>
+          )}
         </div>
       </section>
 
-      <div className="max-w-screen-xl page-wrapper">
+      <div className="!max-w-screen-xl page-wrapper">
         <div className="flex justify-between border-b border-base-300 py-4 text-base-500">
           <ShareButtons title={title} url={url} twitterHandle="openshiftcommon" />
         </div>
@@ -151,45 +201,22 @@ export default function GatheringPage({ data, ...props }) {
           </div>
         )}
 
-        <section className="flex flex-col items-center my-8 md:my-12">
-          {head_text ? (
-            <p className={`${ledeStyle} text-center`}>{head_text}</p>
-          ) : (
-            <p className={`${ledeStyle} text-center`}>
-              Where users, partners, customers, contributors and upstream project leads come
-              together to collaborate and work together across the OpenShift Cloud Native ecosystem.
-            </p>
-          )}
-
-          {archived ? (
-            <p className={`${ledeStyle} text-center text-accent-600`}>The event is over</p>
-          ) : (
-            <div className="mt-4 flex flex-wrap justify-center gap-2 md:gap-4">
-              <IconBox title={registration_text} url={registration_URL} />
-              {registration_text2 && <IconBox title={registration_text2} url={registration_URL2} />}
-              {registration_text3 && <IconBox title={registration_text3} url={registration_URL3} />}
-              {sponsoring_URL &&
-                (sponsoring_text ? (
-                  <IconBox title={sponsoring_text} url={sponsoring_URL} />
-                ) : (
-                  <IconBox title="Apply to be a Sponsor" url={sponsoring_URL} />
-                ))}
-            </div>
-          )}
-        </section>
-
         {(lead_text || info_text) && (
           <section className="my-8 md:my-16">
             <h2 className={headingStyle}>
               {translate_overview ? <>{translate_overview}</> : <>Event Overview</>}
             </h2>
 
-            <div className="mb-4 lg:mb-8 flex flex-col md:flex-row gap-6">
-              <div className="md:w-1/2 shrink-0">
-                <p className={`${ledeStyle}`}>{lead_text}</p>
+            <div className="mt-8 md:mt-16 bg-primary-100 dark:bg-base-100 rounded-2xl border-2 border-base-400 divide-base-400 divide-y-2 md:divide-y-0 md:divide-x-2 flex flex-col md:flex-row gap-6 text-primary-900">
+              <div className="md:w-3/5 shrink-0 p-6">
+                <p
+                  className={`${ledeStyle} !mb-4 md:!mb-8 font-headings text-primary-900 text-lg lg:text-xl`}
+                >
+                  {lead_text}
+                </p>
                 <p className="max-w-[56ch]">{info_text}</p>
                 {!archived && (
-                  <div className="mt-4 lg:mt-8 flex justify-center gap-2 md:gap-4">
+                  <div className="mt-4 lg:mt-8 flex justify-center md:justify-start gap-2 md:gap-4">
                     <IconBox title={registration_text} url={registration_URL} />
 
                     {invite_link &&
@@ -201,52 +228,44 @@ export default function GatheringPage({ data, ...props }) {
                   </div>
                 )}
               </div>
-              <div>
-                <div className="mt-4 bg-primary-100 dark:bg-base-100 w-full rounded-2xl border-2 border-base-400 px-6 py-4">
-                  <h3 className={`${subheadingStyle} md:text-center`}>
-                    {translate_where ? <>{translate_where}</> : <>Where</>}
-                  </h3>
-                  <p
-                    className={`${ledeStyle} !max-w-none md:text-center border-b-2 border-primary-200 pb-4`}
-                  >
-                    {location}
-                    <br />
-                    {venue_URL ? (
-                      <a
-                        className={aStyle}
-                        href={venue_URL}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {venue}
-                      </a>
-                    ) : (
-                      <a className={aStyle} href="#gathering-venue">
-                        {venue}
-                      </a>
-                    )}
-                  </p>
-                  <div className="grid grid-cols-2 gap-4 lg:gap-8">
-                    <div>
-                      <h3 className={subheadingStyle}>
-                        {translate_when ? <>{translate_when}</> : <>When</>}
-                      </h3>
-                      <p className={ledeStyle}>
-                        <DateString date={date} language={language} dow="true" />
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className={subheadingStyle}>
-                        {translate_price ? <>{translate_price}</> : <>Price</>}
-                      </h3>
-                      <p className={ledeStyle}>{price}</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="p-6">
+                <h3 className={`${subheadingStyle} mt-0`}>
+                  {translate_where ? <>{translate_where}</> : <>Where</>}
+                </h3>
+                <p className={`${ledeStyle} font-semibold !max-w-none`}>
+                  {location}
+                  <br />
+                  {venue_URL ? (
+                    <a
+                      className={aStyle}
+                      href={venue_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {venue}
+                    </a>
+                  ) : (
+                    <a className={aStyle} href="#gathering-venue">
+                      {venue}
+                    </a>
+                  )}
+                </p>
+
+                <h3 className={subheadingStyle}>
+                  {translate_when ? <>{translate_when}</> : <>When</>}
+                </h3>
+                <p className={`${ledeStyle} font-semibold !max-w-none`}>
+                  <DateString date={date} language={language} dow="true" />
+                </p>
+
+                <h3 className={subheadingStyle}>
+                  {translate_price ? <>{translate_price}</> : <>Price</>}
+                </h3>
+                <p className={`${ledeStyle} font-semibold !max-w-none`}>{price}</p>
+
+                <p className={`${ledeStyle}`}>{event_footer_text}</p>
               </div>
             </div>
-
-            <p className={`${ledeStyle} mx-auto text-center`}>{event_footer_text}</p>
           </section>
         )}
 
@@ -255,28 +274,20 @@ export default function GatheringPage({ data, ...props }) {
             <h2 className={headingStyle}>
               {translate_sponsors ? <>{translate_sponsors}</> : <>Sponsors</>}
             </h2>
-            {sponsoring_URL && (
-              <>
-                <p className={ledeStyle}>
-                  Interested in sponsoring an OpenShift Commons Gathering?
-                </p>
-                {sponsoring_text ? (
-                  <IconBox title={sponsoring_text} url={sponsoring_URL} />
-                ) : (
-                  <IconBox title="Apply to be a Sponsor" url={sponsoring_URL} />
-                )}
-              </>
-            )}
 
             {sponsors && (
-              <>
+              <div className="flex flex-col lg:flex-row lg:divide-x-2 divide-primary-200 justify-center">
                 {sponsors[0].level ? (
                   sponsorLevels
                     .sort((a, b) => (a > b ? 1 : -1))
                     .map((lvl) => (
-                      <div key={lvl}>
-                        <h3 className={`${subheadingStyle} text-center`}>{sponsorLabels[lvl]}</h3>
-                        <ul className="mt-4 mb-8 mx-auto flex flex-wrap justify-center items-center gap-4 md:gap-8">
+                      <div key={lvl} className="mb-8 lg:basis-60 px-8">
+                        <h3
+                          className={`${subheadingStyle} !mt-2 mb-8 !text-base-700 font-semibold text-center`}
+                        >
+                          {sponsorLabels[lvl]}
+                        </h3>
+                        <ul className="mt-4 lg:mb-4 mx-auto flex flex-wrap justify-center items-center gap-4 md:gap-8">
                           {sponsors
                             .filter((sponsor) => sponsor.level === lvl)
                             .map((sponsor) => (
@@ -288,7 +299,7 @@ export default function GatheringPage({ data, ...props }) {
                       </div>
                     ))
                 ) : (
-                  <ul className="mt-8 flex flex-wrap justify-center items-center gap-4 md:gap-8">
+                  <ul className="mt-8 flex flex-wrap justify-center items-center gap-6 md:gap-8">
                     {sponsors.map((sponsor) => (
                       <li key={sponsor.name}>
                         <Sponsor name={sponsor.name} />
@@ -296,7 +307,22 @@ export default function GatheringPage({ data, ...props }) {
                     ))}
                   </ul>
                 )}
-              </>
+              </div>
+            )}
+
+            {sponsoring_URL && (
+              <div className="pb-12 border-b border-base-500">
+                <p className={`${subheadingStyle} mt-8 font-semibold text-center`}>
+                  Interested in sponsoring an OpenShift Commons Gathering?
+                </p>
+                <p className="text-center">
+                  <IconBox
+                    title={`${sponsoring_text ? sponsoring_text : 'Apply to be a Sponsor'}`}
+                    url={sponsoring_URL}
+                    className="mt-4"
+                  />
+                </p>
+              </div>
             )}
           </section>
         )}

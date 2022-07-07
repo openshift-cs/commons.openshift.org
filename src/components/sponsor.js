@@ -51,7 +51,7 @@ const Sponsor = ({ name }) => {
   )
 
   const aStyle =
-    'block p-4 rounded-md dark:bg-base-400 hover:ring-2 hover: ring-primary-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-400'
+    'block p-4 rounded-md dark:bg-base-900 ring-2 ring-secondary-400 hover:ring-4 hover:ring-secondary-600 focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-400'
 
   const imgStyle = 'max-w-[500px]'
 
