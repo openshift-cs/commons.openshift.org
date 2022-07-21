@@ -180,11 +180,13 @@ export default function GatheringPage({ data, ...props }) {
                   className={bannerButtonStyle}
                 />
               )}
-              <IconBox
-                title={`${sponsoring_text ? sponsoring_text : 'Apply to be a Sponsor'}`}
-                url={sponsoring_URL}
-                className={bannerButtonStyle}
-              />
+              {sponsoring_URL && (
+                <IconBox
+                  title={`${sponsoring_text ? sponsoring_text : 'Apply to be a Sponsor'}`}
+                  url={sponsoring_URL}
+                  className={bannerButtonStyle}
+                />
+              )}
             </div>
           )}
         </div>
