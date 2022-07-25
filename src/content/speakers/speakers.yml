@@ -1721,6 +1721,10 @@
   name: 'Diego Calegari'
   company: 'Agencia de Sistemas de Información - Buenos Aires Ciudad'
   url: 'https://www.buenosaires.gob.ar/jefaturadegabinete/agenciadesistemas'
+- speaker_id: 'bruno_machado'   
+  name: 'Bruno Machado'
+  company: 'Red Hat'
+  url: 'https://www.redhat.com'
    
   
   
