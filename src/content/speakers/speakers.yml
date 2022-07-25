@@ -1668,7 +1668,7 @@
   role: 'Solutions Engineer'
   photo: 'laurence_ryszka.jpg'
 - speaker_id: 'marcos_entenza'
-  name: 'Marcos Entenza'
+  name: 'marcos_entenza'
   company: 'Red Hat'
   url: 'https://www.redhat.com'
   role: 'Product Manager'
@@ -1680,8 +1680,48 @@
   role: 'Data Architect'
   photo: 'brian_pace.jpg'
 - speaker_id: 'victoria_martinez'
-  name: 'Victoria Martinez'
+  name: 'victoria_martinez'
   company: 'Red Hat'
   url: 'https://www.openshift.com'
   role: 'Business Development'
   photo: 'victoria-martinez.jpeg'
+- speaker_id: 'jennifer_vargas'
+  name: 'Jennifer Vargas'
+  company: "Red Hat"
+  url: "https://www.redhat.com"
+- speaker_id: 'bruno_machado'
+  name: 'Bruno Machado'
+  company: "Red Hat"
+  url: "https://www.redhat.com"
+- speaker_id: 'scott_mccarty'  
+  name: 'Scott Mccarty'
+  company: "Red Hat"
+  url: "https://www.redhat.com"
+- speaker_id: 'mario_adaro'
+  name: 'Mario Adaro'
+  company: 'JuFeJus'
+  url: 'http://www.jufejus.org.ar/'
+- speaker_id: 'luis_papagni'
+  name: 'Luis Papagni'
+  company: 'Secretaría de Innovación'
+  url: 'https://www.argentina.gob.ar/jefatura/innovacion-tecnologica'
+- speaker_id: 'gustavo_barroso'
+  name: 'Gustavo Barroso'
+  company: 'AGIP'
+  url: 'https://www.agip.gob.ar/'
+- speaker_id: 'guillermo_depatri'
+  name: 'Guillermo Depatri'
+  company: 'Banco Pinchincha'
+  url: 'https://www.pichincha.com'
+- speaker_id: 'andrea_gamboa'
+  name: 'Andrea Gamboa'
+  company: 'Davidenda'
+  url: 'https://www.davivienda.com'
+- speaker_id: 'diego_calegari'   
+  name: 'Diego Calegari'
+  company: 'Agencia de Sistemas de Información - Buenos Aires Ciudad'
+  url: 'https://www.buenosaires.gob.ar/jefaturadegabinete/agenciadesistemas'
+   
+  
+  
+  
