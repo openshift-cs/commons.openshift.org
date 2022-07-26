@@ -1687,16 +1687,12 @@
   photo: 'victoria-martinez.jpeg'
 - speaker_id: 'jennifer_vargas'
   name: 'Jennifer Vargas'
-  company: "Red Hat"
-  url: "https://www.redhat.com"
-- speaker_id: 'bruno_machado'
-  name: 'Bruno Machado'
-  company: "Red Hat"
-  url: "https://www.redhat.com"
+  company: 'Red Hat'
+  url: 'https://www.redhat.com'
 - speaker_id: 'scott_mccarty'  
   name: 'Scott Mccarty'
-  company: "Red Hat"
-  url: "https://www.redhat.com"
+  company: 'Red Hat
+  url: 'https://www.redhat.com'
 - speaker_id: 'mario_adaro'
   name: 'Mario Adaro'
   company: 'JuFeJus'
@@ -1727,5 +1723,3 @@
   url: 'https://www.redhat.com'
   photo: 'Bruno_Machado.jpeg'
   role: 'Manager, Specialist Solution Architecture'
-  
-  
