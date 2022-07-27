@@ -1723,3 +1723,8 @@
   url: 'https://www.redhat.com'
   photo: 'Bruno_Machado.jpeg'
   role: 'Manager, Specialist Solution Architecture'
+- speaker_id: 'juan carlos_cepeda'   
+  name: 'Juan Carlos Cepeda'
+  company: 'Red Hat'
+  url: 'https://www.redhat.com'
+  role: 'Senior Specialist Solution Architect'
