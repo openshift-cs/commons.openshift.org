@@ -1698,7 +1698,7 @@
 - speaker_id: 'mario_adaro'
   name: 'Mario Adaro'
   company: 'JuFeJus'
-  role:' Ministro de la Suprema Corte del Poder Judicial de la Provincia de Mendoza'
+  role: 'Ministro de la Suprema Corte del Poder Judicial de la Provincia de Mendoza'
   url: 'http://www.jufejus.org.ar/'
   photo: 'mario_adaro.jpg'
 - speaker_id: 'luis_papagni'
