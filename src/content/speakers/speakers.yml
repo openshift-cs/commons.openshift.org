@@ -1745,3 +1745,42 @@
   url: 'https://www.redhat.com'
   role: 'Senior Specialist Solution Architect'
   photo: 'juan_carlos_cepeda.jpg'
+- speaker_id: 'victor_cornejo'   
+  name: 'Victor Cornejo'
+  company: 'Red Hat'
+  url: 'https://www.redhat.com'
+  role: 'Senior Manager, Solution Architecture'
+  photo: 'victor_cornejo.jpg'
+- speaker_id: 'sebastian_sarasate'   
+  name: 'Sebastian Sarasate'
+  company: 'Andreani'
+  url: 'https://www.andreani.com'
+  role: 'Gerente de TI'
+  photo: 'sebatian_sarasate.jpg'
+- speaker_id: 'guillermo_deprati'   
+  name: 'Guillermo Deprati'
+  company: 'Banco Pichincha'
+  url: 'https://www.pichincha.com'
+  role: 'Gerente Arquitectura SRE | DevSecOps'
+  photo: 'guillermo_deprati.jpg'
+- speaker_id: 'carlos_moreno'   
+  name: 'Carlos Moreno'
+  company: 'Telefónica Argentina'
+  url: 'https://www.telefonica.com.ar/'
+  role: 'Gerente Desarrollo FullStack Digital y Disciplinas Agiles DevOps, Testing y SQA'
+  photo: 'carlos_moreno.jpg'
+- speaker_id: 'gustavo_rivero'   
+  name: 'Gustavo Rivero'
+  company: 'Telefónica Argentina'
+  url: 'https://www.telefonica.com.ar/'
+  role: 'DevOps Consultant'
+  photo: 'gustavo_rivero.jpg'
+  
+  
+  
+  
+  
+  
+  
+  
+  
