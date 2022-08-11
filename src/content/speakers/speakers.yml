@@ -73,7 +73,7 @@
   name: 'Karena Angell'
   company: 'Red Hat'
   url: 'https://www.redhat.com/en'
-  role: 'Principal Product Manager, Cloud Paks'
+  role: 'Principal Product Manager, OpenShift'
   photo: 'karena_angell.jpeg'
 - speaker_id: 'ramonacedo'
   name: 'Ramon Acedo Rodriguez'
