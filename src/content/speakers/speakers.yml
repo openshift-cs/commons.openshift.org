@@ -1757,12 +1757,6 @@
   url: 'https://www.andreani.com'
   role: 'Gerente de TI'
   photo: 'sebatian_sarasate.jpg'
-- speaker_id: 'guillermo_deprati'   
-  name: 'Guillermo Deprati'
-  company: 'Banco Pichincha'
-  url: 'https://www.pichincha.com'
-  role: 'Gerente Arquitectura SRE | DevSecOps'
-  photo: 'guillermo_deprati.jpg'
 - speaker_id: 'carlos_moreno'   
   name: 'Carlos Moreno'
   company: 'Telefónica Argentina'
@@ -1775,12 +1769,3 @@
   url: 'https://www.telefonica.com.ar/'
   role: 'DevOps Consultant'
   photo: 'gustavo_rivero.jpg'
-  
-  
-  
-  
-  
-  
-  
-  
-  
