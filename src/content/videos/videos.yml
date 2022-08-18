@@ -7069,6 +7069,679 @@ videos:
       videoId: Xt9WiQZMqaM
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering London
+  gathering_date: '2022-07-06'
+  gathering_videos:
+  - publishedAt: '2022-07-19T20:22:13Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Building Kubernetes Operators in the Wild -- Martin Hickey (IBM)
+    description: |-
+      Building Kubernetes Operators in the Wild - Managing the Lifecycle of Your Application on the Cloud
+      Martin Hickey (IBM)
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: cDm_st9qEPQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T20:22:13Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Taking OpenShift to the Edge with MicroShift - Henry Geay De Montenon (Red
+      Hat)
+    description: |-
+      Taking OpenShift to the Edge with MicroShift
+      Henry Geay De Montenon (Red Hat)
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: fPrQQ8FmGwg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T20:22:13Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: GitOps Automation on OpenShift - Mark Roberts (Red Hat)
+    description: |-
+      GitOps Automation on OpenShift
+      Mark Roberts (Red Hat)
+
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: w_WIz5Cc69k
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T20:22:13Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Next Generation AI/ML Workloads on OpenShift using knative and Infinispan
+      - Ian Lawson (Red Hat)
+    description: "Next Generation AI/ML Workloads on OpenShift using knative and Infinispan\nIan
+      Lawson (Red Hat) \nThis OpenShift Commons Gathering was  held on July 6, 2022
+      live in London, England\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: ZdhsG-kIBJA
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T20:22:13Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OKD: OpenShift''s Open Source Road Map Brian Innes (IBM)'
+    description: "OKD: OpenShift's Open Source Road Map\nBrian Innes (IBM)\n\nThis
+      OpenShift Commons Gathering was held on July 6, 2022 live in London, England
+      \n\nhttps://okd.io\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: rKyaKEgGW6Q
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Building Kubernetes Operators in the Wild -- Martin Hickey (IBM)
+    description: |-
+      Building Kubernetes Operators in the Wild - Managing the Lifecycle of Your Application on the Cloud
+      Martin Hickey (IBM)
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/cDm_st9qEPQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: cDm_st9qEPQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Taking OpenShift to the Edge with MicroShift - Henry Geay De Montenon (Red
+      Hat)
+    description: |-
+      Taking OpenShift to the Edge with MicroShift
+      Henry Geay De Montenon (Red Hat)
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/fPrQQ8FmGwg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: fPrQQ8FmGwg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: GitOps Automation on OpenShift - Mark Roberts (Red Hat)
+    description: |-
+      GitOps Automation on OpenShift
+      Mark Roberts (Red Hat)
+
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/w_WIz5Cc69k/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: w_WIz5Cc69k
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Next Generation AI/ML Workloads on OpenShift using knative and Infinispan
+      - Ian Lawson (Red Hat)
+    description: "Next Generation AI/ML Workloads on OpenShift using knative and Infinispan\nIan
+      Lawson (Red Hat) \nThis OpenShift Commons Gathering was  held on July 6, 2022
+      live in London, England\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ZdhsG-kIBJA/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 8
+    resourceId:
+      kind: youtube#video
+      videoId: ZdhsG-kIBJA
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OKD: OpenShift''s Open Source Road Map Brian Innes (IBM)'
+    description: "OKD: OpenShift's Open Source Road Map\nBrian Innes (IBM)\n\nThis
+      OpenShift Commons Gathering was held on July 6, 2022 live in London, England
+      \n\nhttps://okd.io\nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/rKyaKEgGW6Q/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 9
+    resourceId:
+      kind: youtube#video
+      videoId: rKyaKEgGW6Q
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Application Delivery & Life Cycle Management  - Francesco Giannoccaro (UK
+      Health Security Agency)
+    description: |-
+      Accelerate Application Delivery and Life-Cycle Management to Support the Growing Complexity of Public Health Science
+
+      Francesco Giannoccaro (UK Health Security Agency)
+
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/4odevGb51M8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/4odevGb51M8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/4odevGb51M8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/4odevGb51M8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/4odevGb51M8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: 4odevGb51M8
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Crunchy Data Lighting Talk: The PostgreSQL Operator for OpenShift - Brian
+      Pace (Crunchy Data)'
+    description: |-
+      Crunchy Data Lighting Talk: The PostgreSQL Operator for OpenShift - Brian Pace (Crunchy Data)
+
+      This OpenShift Commons Gathering was held on July 6, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/hlD0lYvtZl4/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/hlD0lYvtZl4/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/hlD0lYvtZl4/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/hlD0lYvtZl4/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/hlD0lYvtZl4/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 11
+    resourceId:
+      kind: youtube#video
+      videoId: hlD0lYvtZl4
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lightning Talk: Shifting the Database Paradigm - Richard Douglas (Couchbase)'
+    description: |-
+      Lightning Talk: Shifting the Database Paradigm - Richard Douglas (Couchbase)
+
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/c35PbRE2RRg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/c35PbRE2RRg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/c35PbRE2RRg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/c35PbRE2RRg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/c35PbRE2RRg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 12
+    resourceId:
+      kind: youtube#video
+      videoId: c35PbRE2RRg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lighting Talk: Introdcution to Trilio - Rodolfo Casas (Trilio)'
+    description: |-
+      Lighting Talk: Introdcution to Trilio - Rodolfo Casas (Trilio)
+
+      This OpenShift Commons Gathering was held on July 6, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/GRCW5H7qKsY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/GRCW5H7qKsY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/GRCW5H7qKsY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/GRCW5H7qKsY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/GRCW5H7qKsY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 13
+    resourceId:
+      kind: youtube#video
+      videoId: GRCW5H7qKsY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lightning Talk: Portworx by Pure Storage - Anthony Hodson (Portworx)'
+    description: |-
+      Lightning Talk: Portworx by Pure Storage - Anthony Hodson (Portworx)
+
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/jG469-6XMhM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/jG469-6XMhM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/jG469-6XMhM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/jG469-6XMhM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/jG469-6XMhM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 14
+    resourceId:
+      kind: youtube#video
+      videoId: jG469-6XMhM
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:17:00Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Lightning Talk: K8S, Data and Cloud simplicity Cockroach Labs - Jim Walker
+      (Cockroach Labs)'
+    description: "Lightning Talk: K8S, Data and Cloud simplicity Cockroach Labs -
+      Jim Walker (Cockroach Labs) \n\nThis OpenShift Commons Gathering was held on
+      July 6th, 2022 live in London, England \nhttps://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/AI7AMDhlfiA/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/AI7AMDhlfiA/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/AI7AMDhlfiA/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/AI7AMDhlfiA/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/AI7AMDhlfiA/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 15
+    resourceId:
+      kind: youtube#video
+      videoId: AI7AMDhlfiA
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:30:36Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Keynote: OpenShift Everywhere: Red Hat''s Hybrid Cloud Vision - Karena
+      Angell (Red Hat)'
+    description: |-
+      Keynote: OpenShift Everywhere: Red Hat's Hybrid Cloud Vision
+      Karena Angell (Red Hat)
+
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/7pNZbb-yMZo/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/7pNZbb-yMZo/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/7pNZbb-yMZo/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/7pNZbb-yMZo/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/7pNZbb-yMZo/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 16
+    resourceId:
+      kind: youtube#video
+      videoId: 7pNZbb-yMZo
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2022-07-19T21:31:08Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: OpenShift Release Update and Road Map - Marcos Entenza, Rhys Oxenham and
+      Karena Angell (Red Hat)
+    description: |-
+      OpenShift Release Update and Road Map - Karena Angell ,  Marcos Entenza and Rhys Oxenham (Red Hat)
+
+      This OpenShift Commons Gathering was held on July 6th, 2022 live in London, England
+      https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Oegqr1roBbQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Oegqr1roBbQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Oegqr1roBbQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Oegqr1roBbQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Oegqr1roBbQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqdbvYZkcLLSjk9YOym9okrj
+    position: 17
+    resourceId:
+      kind: youtube#video
+      videoId: Oegqr1roBbQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: Seattle 2016
   gathering_date: '2016-11-07'
   gathering_videos:
