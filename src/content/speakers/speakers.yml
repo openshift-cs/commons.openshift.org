@@ -1774,9 +1774,13 @@
   company: 'JuFeJus'
   url: 'http://www.jufejus.org.ar/'
   role: 'Subsecretario de Tecnologia Informatica · Suprema Corte De Justicia'
-  photo: 'gustavo_perez_villar.jpeg'
-
-
+  photo: 'gustavo_perez_villar.jpeg' 
+- speaker_id: 'matias_lorusso'
+  name: 'Matias Ezequiel Lorusso'
+  company: 'Banco Galicia'
+  url: 'https://www.bancogalicia.com'
+  role: 'Magister en Data Mining y Arquitecto de soluciones'
+  photo: 'matias_lorusso.jpeg'
 
 
 
