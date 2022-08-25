@@ -1806,7 +1806,6 @@
   url: 'https://www.redhat.com'
   role: 'Senior Principal Software Engineer'
   photo: 'colin_walters.jpg'
-  
 - speaker_id: 'arno_vonk'
   name: 'Arno Vonk'
   company: 'ING'
@@ -1818,7 +1817,6 @@
   company: 'ING'
   url: 'https://www.ing.com'
   role: 'Devops Engineer'
-  
 - speaker_id: 'ian_miller'
   name: 'Ian Miller'
   company: 'ING'
@@ -1831,6 +1829,19 @@
   url: 'https://www.lockheedmartin.com/'
   photo: 'matt_wittstock.jpg'
   role: 'Senior Manager, AI Infrastructure'
+- speaker_id: 'savitha_raghunathan'
+  name: 'Savitha Raghunathan'
+  company: 'Red Hat'
+  url: 'https://www.redhat.com'
+  role: 'Senior Software Engineer @ Red Hat, KBE Insider co-host, Konveyor Maintainer, K8s Sig-Security-Docs Lead'
+  photo: 'savitha_raghunathan.jpg'
+- speaker_id: 'fabian_von_feilitzsch'
+  name: 'Fabian Von Feilitzsch'
+  company: 'Red Hat'
+  url: 'https://www.redhat.com'
+  role: 'Principal Software Engineer - Openshift Engineering'
+  photo: 'fabian_von_feilitzsch.jpg'
+  
 
 
 
