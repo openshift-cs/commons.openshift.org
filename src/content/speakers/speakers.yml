@@ -1787,6 +1787,12 @@
   url: 'https://www.bancogalicia.com'
   role: 'Magister en Data Mining y Arquitecto de soluciones'
   photo: 'matias_lorusso.jpeg'
+- speaker_id: 'doron_caspin'
+  name: 'Doron Caspin'
+  company: 'Red Hat'
+  url: 'https://www.redhat.com'
+  role: 'Senior Product Manager, Security Product Platform Development'
+  photo: 'doron_caspin.jpg'
 
 
 
