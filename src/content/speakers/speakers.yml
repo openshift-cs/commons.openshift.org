@@ -1817,6 +1817,17 @@
   company: 'ING'
   url: 'https://www.ing.com'
   role: 'Devops Engineer'
+- speaker_id: 'thijs_ebbers'
+  name: 'Thijs Ebbers'
+  company: 'ING'
+  url: 'https://www.ing.com'
+  role: 'Cloud Native Architect'  
+- speaker_id: 'sandeep_kaul'
+  name: 'Sandeep Kaul'
+  company: 'ING'
+  url: 'https://www.ing.com'
+  role: 'IT Area Lead, Global Cloud Tribe
+  photo: 'sandeep_kaul.jpg'
 - speaker_id: 'ian_miller'
   name: 'Ian Miller'
   company: 'ING'
@@ -1841,7 +1852,12 @@
   url: 'https://www.redhat.com'
   role: 'Principal Software Engineer - Openshift Engineering'
   photo: 'fabian_von_feilitzsch.jpg'
-  
+- speaker_id: 'erik_jacobs'
+  name: 'Erik Jacobs'
+  company: 'Red Hat'
+  url: 'https://www.redhat.com'
+  role: 'Senior Manager, Product Marketing - Technical_Global'
+
 
 
 
