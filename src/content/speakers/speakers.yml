@@ -1869,5 +1869,11 @@
   url: 'https://www.Red Hat.com'
   role: 'Senior Principal Software Engineer at Red Hat'
   photo: 'michael_hrivnak.jpg'
+- speaker_id: 'luiz_bernardo_levenhagen'
+  name: 'Luiz Bernardo Levenhagen'
+  company: 'Red Hat'
+  url: 'https://www.Red Hat.com'
+  role: 'Technical Marketing Manager'
+  photo: 'luiz_bernardo_levenhagen.jpg' 
 
 
