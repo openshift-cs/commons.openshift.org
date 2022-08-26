@@ -1830,7 +1830,7 @@
   photo: 'sandeep_kaul.jpg'
 - speaker_id: 'ian_miller'
   name: 'Ian Miller'
-  company: 'ING'
+  company: 'Lockheed Martin'
   url: 'https://www.lockheedmartin.com/'
   role: 'MLOps Engineering Manager'
   photo: 'ian_miller.jpg'
