@@ -1856,6 +1856,7 @@
   company: 'Red Hat'
   url: 'https://www.redhat.com'
   role: 'Senior Manager, Product Marketing - Technical_Global'
+  photo: 'erik_jacobs.jpeg'
 - speaker_id: 'satish_puranam'
   name: 'Satish Puranam'
   company: 'Ford Motor Company'
