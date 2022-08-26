@@ -345,13 +345,12 @@ export default function GatheringPage({ data, ...props }) {
                 event, are expected to behave in accordance with professional standards, with both
                 this Code of Conduct as well as their respective employer's policies governing
                 appropriate workplace behavior and applicable laws.
-                                                                                                                                
+              </p>      
+              <p className={`${ledeStyle} mx-auto`}>
                 COVID-19 Health + Safety Information: CNCF is committed to our attendee's health and safety; 
                 this remains our top priority as we continue to monitor COVID-19 and look to the venue, local, 
                 state, CDC, and WHO guidelines to make the best and most informed decisions around onsite safety 
-                and requirements. 
-                
-                Kindly find health and safety information for KubeCon + CloudNativeCon North America here: 
+                and requirements. Kindly find health and safety information for KubeCon + CloudNativeCon North America here: 
                 https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/attend/health-and-safety/
               </p>
             )}
