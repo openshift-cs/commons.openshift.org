@@ -1,9 +1,8 @@
 - speaker_id: 'diane'
   name: 'Diane Mueller'
-  role: 'Director, Community Development — Co-Host, OpenShift Commons'
+  role: 'Director, Community Development, Distinguished Community Architect & Co-Chair OKD Working Group'
   company: 'Red Hat'
   url: 'https://commons.openshift.org'
-  intro: 'Diane Mueller, Distinguished Community Architect, Director of OpenShift Commons, & Co-chair of the OKD-WG, the Community Distribution of Kubernetes that powers Red Hat OpenShift.'
   photo: 'diane.jpg'
 - speaker_id: 'a'
   name: 'OpenShift Commons'
@@ -1857,7 +1856,12 @@
   company: 'Red Hat'
   url: 'https://www.redhat.com'
   role: 'Senior Manager, Product Marketing - Technical_Global'
-
+- speaker_id: 'satish_puranam'
+  name: 'Satish Puranam'
+  company: 'Ford Motor Company'
+  url: 'https://www.ford.com'
+  role: 'Senior Security & Controls Engineer'
+  photo: 'satish_puranam.jpg'
 
 
 
