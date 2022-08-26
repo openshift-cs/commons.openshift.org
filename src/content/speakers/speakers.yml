@@ -1862,6 +1862,11 @@
   url: 'https://www.ford.com'
   role: 'Senior Security & Controls Engineer'
   photo: 'satish_puranam.jpg'
-
+- speaker_id: 'michael_hrivnak'
+  name: 'Michael Hrivnak'
+  company: 'Red Hat'
+  url: 'https://www.Red Hat.com'
+  role: 'Senior Principal Software Engineer at Red Hat'
+  photo: 'michael_hrivnak.jpg'
 
 
