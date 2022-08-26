@@ -345,8 +345,6 @@ export default function GatheringPage({ data, ...props }) {
                 event, are expected to behave in accordance with professional standards, with both
                 this Code of Conduct as well as their respective employer's policies governing
                 appropriate workplace behavior and applicable laws.
-              </p>
-              <p className={`${ledeStyle} mx-auto`}>
                 COVID-19 Health + Safety Information: Both Red Hat and CNCF are committed to our 
                 attendee's health and safety; this remains our top priority as we continue to monitor 
                 COVID-19 and look to the venue, local, state, CDC, and WHO guidelines to make the best 
