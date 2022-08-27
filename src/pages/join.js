@@ -3,6 +3,7 @@ import Seo from '../components/seo'
 import Callout from '../components/callout'
 import { Calendar, Youtube, Twitter, Edit } from 'react-feather'
 import { graphql, useStaticQuery } from 'gatsby'
+import DynamicForm from '../components/dynamic-form'
 
 export default function CommunityPage() {
   const headingStyle = 'font-headings text-3xl md:text-4xl lg:text-5xl text-base-800 mb-2 lg:mb-6'
@@ -69,13 +70,8 @@ export default function CommunityPage() {
               communication.
             </p>
           </div>
-          <div id="elq-iframe-signup-container" className="dark:bg-base-600 lg:order-3">
-            <iframe
-              className="w-full h-[720px] md:h-[500px] lg:h-[720px]"
-              src="https://engage.redhat.com/opensource-commons-newsletter"
-              scrolling="no"
-              title="Enrollment Form"
-            ></iframe>
+          <div className="lg:order-3">
+            <DynamicForm />
           </div>
           <div className="mt-8 lg:mt-0 lg:order-2 flex flex-col h-full">
             <h2 className={headingStyle}>Contribute</h2>

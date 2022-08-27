@@ -9,7 +9,7 @@ export default function HTML(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta
           httpEquiv="Content-Security-Policy"
-          content="default-src 'self' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' calendar.time.ly www.redhat.com static.redhat.com assets.adobedtm.com dpm.demdex.net; font-src 'self' data:; img-src data: *; style-src 'self' 'unsafe-inline'; frame-src 'self' engage.redhat.com www.youtube.com www.google.com calendar.time.ly"
+          content="default-src 'self' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' calendar.time.ly www.redhat.com static.redhat.com assets.adobedtm.com dpm.demdex.net j.6sc.co img.en25.com; font-src 'self' data:; img-src data: *; style-src 'self' 'unsafe-inline'; frame-src 'self' www.youtube.com www.google.com calendar.time.ly"
         ></meta>
         {props.headComponents}
       </head>

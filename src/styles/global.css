@@ -456,3 +456,41 @@ code[class*='language-'] {
 .table-fixed td {
   @apply overflow-hidden text-ellipsis;
 }
+
+/* For Dynamic Form forms */
+.pf-c-title {
+  @apply font-headings text-xl md:text-2xl lg:text-3xl text-base-800 mb-2 lg:mb-6;
+}
+
+.pf-c-form__label,
+.pf-c-form__group-control div {
+  @apply text-lg lg:text-xl text-base-600 pb-4 lg:h-full;
+}
+
+.pf-c-form__label-required {
+  @apply text-accent-600;
+}
+
+.pf-c-form-control {
+  @apply form-input bg-base-100 dark:bg-base-0 w-full placeholder-base-500 md:focus:bg-base-200 border-2 py-2 border-base-400 hover:border-base-500 focus:border-base-500 pr-2 h-9 md:h-10 lg:h-11 text-base-700 rounded-t-sm hover:rounded-sm hover:ring-2 hover:ring-base-500 focus:ring-2 focus:ring-primary-600 focus:rounded-sm;
+}
+
+.pf-c-form__group {
+  @apply mb-4 lg:mb-6;
+}
+
+.pf-c-radio__input {
+  @apply text-accent-600;
+}
+
+.pf-c-radio__label {
+  @apply ml-2;
+}
+
+.pf-c-form__group-control a {
+  @apply underline text-primary-700 visited:text-primary-900 focus:ring-2 focus:ring-primary-600 hover:text-warning-700;
+}
+
+.pf-c-button {
+  @apply flex justify-center bg-base-100 dark:bg-base-0 flex-row space-x-2 items-center rounded-md border-2 border-base-400 px-2 md:px-4 py-2 text-base lg:text-lg font-bold hover:text-dark dark:hover:text-white hover:border-base-500 hover:bg-base-200 dark:hover:bg-base-200 focus:outline-none focus:ring-2 focus:ring-primary-600;
+}
