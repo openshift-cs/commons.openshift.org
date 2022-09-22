@@ -330,7 +330,7 @@
   name: 'Jaime Magiera'
   url: 'https://www.icpsr.umich.edu/web/pages/'
   company: 'ICPSR at University of Michigan Institute for Social Research'
-  role: 'Senior DevOps Engineer'
+  role: 'Lead DevOps Engineer, Co-Chair OKD Working Group'
   photo: 'jaime_magiera.jpg'
 - speaker_id: 'franz_meyer'
   name: 'Franz Meyer'
