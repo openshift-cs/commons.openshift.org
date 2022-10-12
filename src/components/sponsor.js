@@ -19,7 +19,7 @@ const Sponsor = ({ name }) => {
   const { p, s } = useStaticQuery(
     graphql`
       query {
-        p: allParticipantsYaml {
+        p: allParticipantsYaml(filter: { archived: { ne: true } }) {
           nodes {
             name
             link

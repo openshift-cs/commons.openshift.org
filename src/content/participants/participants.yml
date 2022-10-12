@@ -3410,6 +3410,7 @@
   link: 'https://www.datastar.com.ar/'
   logo: 'datastarargentina.png'
 - name: 'Red Hat'
+  archived: false
   link: 'https://cloud.redhat.com'
   logo: 'red-hat-logo.svg'
 - name: 'Mitre'

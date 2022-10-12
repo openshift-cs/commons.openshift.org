@@ -24,7 +24,7 @@ const ParticipantsCarousel = () => {
     <StaticQuery
       query={graphql`
         {
-          allParticipantsYaml {
+          allParticipantsYaml(filter: { archived: { ne: true } }) {
             nodes {
               name
               logo {

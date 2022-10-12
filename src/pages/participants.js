@@ -44,7 +44,7 @@ const Participants = ({ onClick }) => {
     <StaticQuery
       query={graphql`
         {
-          allParticipantsYaml {
+          allParticipantsYaml(filter: { archived: { ne: true } }) {
             nodes {
               name
               link
