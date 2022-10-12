@@ -20,10 +20,10 @@ export const Header = ({ siteTitle }) => {
       path: '/join/',
       title: 'Join Us',
     },
-    {
+    /*{
       path: '/events/',
       title: 'Events',
-    },
+    },*/
     {
       path: '/gatherings/',
       title: 'Gatherings',
