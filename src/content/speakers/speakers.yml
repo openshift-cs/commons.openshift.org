@@ -1935,3 +1935,10 @@
   url: 'https://www.RedHat.com'
   role: 'Senior Principal Software Engineer'
   photo: 'peter_hunt.jpg' 
+- speaker_id: 'serena_nichols'
+  name: 'Serena Nichols'
+  company: 'Red Hat'
+  url: 'https://www.RedHat.com'
+  role: 'Senior Principal Product Manager'
+  photo: 'serena_nichols.jpeg' 
+  
