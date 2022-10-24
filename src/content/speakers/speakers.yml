@@ -1940,5 +1940,11 @@
   company: 'Red Hat'
   url: 'https://www.RedHat.com'
   role: 'Senior Principal Product Manager'
-  photo: 'serena_nichols.jpeg' 
+  photo: 'serena_nichols.jpeg'
+- speaker_id: 'raffaele_spazzoli'
+  name: 'Raffaele Spazzoli'
+  company: 'Red Hat'
+  url: 'https://www.RedHat.com'
+  role: 'Senior Principal Architect'
+  photo: 'raffaele_spazzoli.jpeg'
   
