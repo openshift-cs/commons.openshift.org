@@ -10,7 +10,7 @@ const IconBox = ({ title, url, icon, titleText, flex, className = '', right, dar
       } flex-row gap-2 items-center rounded-md border-2 border-primary-400 px-2 md:px-4 py-2 text-base lg:text-lg font-bold hover:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500 ${className}`}
       href={url}
       title={titleText}
-      target={url.indexOf('https://') === 0 ? '_blank' : '_self'}
+      target={url?.indexOf('https://') === 0 ? '_blank' : '_self'}
       rel="noopener noreferrer"
     >
       {icon && !right && (
