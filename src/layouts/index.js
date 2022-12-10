@@ -4,6 +4,7 @@ import ReactDOMServer from 'react-dom/server'
 import { graphql, useStaticQuery } from 'gatsby'
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
+import { IdProvider } from '@radix-ui/react-id'
 import CopyCodeButton from '../components/copycodebutton'
 import he from 'he'
 
@@ -75,18 +76,20 @@ export default function Layout({ children }) {
   `)
 
   return (
-    <div className="font-body text-base-700 flex flex-col min-h-full">
-      <div id="top" tabIndex="-1"></div>
-      <a className="light skip-to-content" href="#main">
-        skip to main content
-      </a>
-      <Header siteTitle={data.site.siteMetadata.title || `Title`} />
-      <MDXProvider components={components}>
-        <main id="main" className="w-full mx-auto mb-auto h-full">
-          {children}
-        </main>
-      </MDXProvider>
-      <Footer siteTitle={data.site.siteMetadata.title || `Title`} />
-    </div>
+    <IdProvider>
+      <div className="font-body text-base-700 flex flex-col min-h-full">
+        <div id="top" tabIndex="-1"></div>
+        <a className="light skip-to-content" href="#main">
+          skip to main content
+        </a>
+        <Header siteTitle={data.site.siteMetadata.title || `Title`} />
+        <MDXProvider components={components}>
+          <main id="main" className="w-full mx-auto mb-auto h-full">
+            {children}
+          </main>
+        </MDXProvider>
+        <Footer siteTitle={data.site.siteMetadata.title || `Title`} />
+      </div>
+    </IdProvider>
   )
 }
