@@ -247,6 +247,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `hello-bar`,
+        path: `${__dirname}/src/content/hello-bar`,
+      },
+    },
+    {
       resolve: `gatsby-source-rss-feed`,
       options: {
         url: `https://www.openshift.com/blog/tag/openshift-commons/rss.xml`,
