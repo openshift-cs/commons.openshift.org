@@ -1,4 +1,4 @@
-display: true
+display: false
 title: Some important event is coming up!
 end_date: 2022-12-31T8:00:00-08:00
 background_color: base
