@@ -21,11 +21,15 @@ const HelloBar = () => (
       }
     `}
     render={({ helloBarYaml }) => {
+      if (helloBarYaml === null) {
+        return <></>
+      }
+
       const { background_color, end_date, link_text, link_url, title } = helloBarYaml
 
       return (
         <>
-          {helloBarYaml === null || DateTime.fromISO(end_date) < now ? (
+          {DateTime.fromISO(end_date) < now ? (
             <></>
           ) : (
             <div
