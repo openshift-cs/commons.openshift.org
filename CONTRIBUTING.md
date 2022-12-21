@@ -32,6 +32,34 @@ To clear cache files, run `gatsby clean`. This is sometimes needed to ensure a c
 
 ## Updating the site
 
+### Hello Bar
+
+This is an optional call-to-action displayed at the top of each page. It is configured in `src/content/hello-bar/hello-bar.yml`.
+
+Example file:
+
+```
+display: true
+title: State of Application Modernization Report 2022 is out!
+end_date: 2023-01-01T8:00:00-08:00
+background_color: base
+link_text: Read the report
+link_url: /modernization-report/
+```
+
+Displays as:
+
+![Hello bar with link to State of Application Modernization Report 2022](img/hello-bar.png)
+
+The fields are:
+
+- **display** — Boolean controlling the display of the Hello Bar.
+- **title** — Title text to display.
+- **end_date** — The expiration date of the Hello Bar.
+- **background_color** — The theme color for the background. Valid values are `base`, `primary`, and `accent`.
+- **link_text** — the button text.
+- **link_url** — the URL to link to.
+
 ### Participants
 
 #### Automatic method
@@ -73,6 +101,7 @@ The fields are:
 - **name** — the participant name.
 - **link** — URL to the participant.
 - **logo** — image file name. Note: SVG is the preferred format.
+- **archived** — [optional] Boolean controlling the display of participant. Set to `true` to hide this participant. Useful for keeping a record of old participants.
 
 ### Operators
 
