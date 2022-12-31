@@ -12,7 +12,8 @@ module.exports = {
     author: `OpenShift Community`,
     siteUrl: `https://commons.openshift.org`,
     image: `https://commons.openshift.org/images/OSC.jpg`,
-    postsPerPage: 20,
+    postsPerPage: 7,
+    gatheringsPerPage: 20,
     blog: `https://cloud.redhat.com/blog/tag/openshift-commons`,
     socialMedia: [
       {
@@ -22,7 +23,7 @@ module.exports = {
       },
       {
         platform: `rss`,
-        url: `https://cloud.redhat.com/blog/tag/openshift-commons/rss.xml`,
+        url: `/rss.xml`,
         title: `Subscribe to our blog feed`,
       },
       {
@@ -108,7 +109,7 @@ module.exports = {
             {
               allMdx(
                 sort: { order: DESC, fields: [frontmatter___date] }
-                filter: { fileAbsolutePath: { regex: "/gatherings/" } }
+                filter: { fileAbsolutePath: { regex: "/(/blog/)/" } }
               ) {
                 edges {
                   node {
@@ -201,6 +202,13 @@ module.exports = {
       options: {
         name: `gatherings`,
         path: `${__dirname}/src/content/gatherings`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/src/content/blog`,
       },
     },
     {

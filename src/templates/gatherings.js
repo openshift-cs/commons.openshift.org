@@ -2,8 +2,7 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import Seo from '../components/seo'
 import Pagination from '../components/pagination'
-import PostCard from '../components/postcard'
-//import BlogSidebar from '../components/blogsidebar'
+import PostCard from '../components/gatheringcard'
 import { DateTime } from 'luxon'
 import { Film } from 'react-feather'
 
@@ -14,7 +13,7 @@ const headingStyle =
 const today = DateTime.now().startOf('day')
 
 const GatheringIndex = ({ data, pageContext }) => {
-  const gatherings = data.allMdx.nodes
+  const gatherings = data.gatheringsList.nodes
 
   return (
     <div className="max-w-screen-xl page-wrapper">
@@ -61,11 +60,11 @@ export default GatheringIndex
 
 export const pageQuery = graphql`
   query allMdxQuery($limit: Int!, $skip: Int!) {
-    allMdx(
+    gatheringsList: allMdx(
       sort: { order: DESC, fields: frontmatter___date }
       limit: $limit
       skip: $skip
-      filter: { fileAbsolutePath: { regex: "/gatherings/" } }
+      filter: { fileAbsolutePath: { regex: "/(/gatherings/)/" } }
     ) {
       nodes {
         id

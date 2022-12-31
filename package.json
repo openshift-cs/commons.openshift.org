@@ -12,13 +12,15 @@
   "license": "MIT",
   "scripts": {
     "build": "TZ='America/Los_Angeles' gatsby build",
-    "deploy": "TZ='America/Los_Angeles' gatsby build --prefix-paths && gh-pages -d public",
     "dev": "TAILWIND_MODE=watch gatsby develop --host=0.0.0.0",
     "dev:playground": "TAILWIND_MODE=watch GATSBY_GRAPHQL_IDE=playground gatsby develop --host=0.0.0.0",
     "format": "pretty-quick",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
+  },
+  "engines": {
+    "node": ">=16 <17"
   },
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
@@ -47,7 +49,7 @@
     "gatsby-plugin-postcss": "^5.1.0",
     "gatsby-plugin-react-helmet": "^5.1.0",
     "gatsby-plugin-remove-fingerprints": "^0.0.2",
-    "gatsby-plugin-robots-txt": "^1.5.5",
+    "gatsby-plugin-robots-txt": "1.7.1",
     "gatsby-plugin-sharp": "^4.1.3",
     "gatsby-plugin-sitemap": "^5.1.1",
     "gatsby-plugin-svgr": "^3.0.0-beta.0",
@@ -78,7 +80,7 @@
     "tailwindcss-multi-column": "^1.0.2"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
+    "editorconfig": "^1.0.1",
     "prettier": "^2.2.1"
   }
 }

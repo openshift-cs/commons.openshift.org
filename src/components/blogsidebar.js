@@ -1,4 +1,6 @@
 import React from 'react'
+import FeaturedPosts from '../components/featuredposts'
+import TagIndex from '../components/tagindex'
 import IconBox from '../components/iconbox'
 import { Rss } from 'react-feather'
 import { useStaticQuery, graphql } from 'gatsby'
@@ -21,9 +23,7 @@ const BlogSidebar = () => {
     `,
   )
 
-  const rss = site.siteMetadata.socialMedia.filter(
-    (media) => media.platform === 'rss',
-  )[0].url
+  const rss = site.siteMetadata.socialMedia.filter((media) => media.platform === 'rss')[0].url
 
   return (
     <>
@@ -39,7 +39,13 @@ const BlogSidebar = () => {
         <h2 className="my-4 border-b border-base-300 pb-2 text-xl md:text-base lg:text-lg font-semibold">
           Featured Posts
         </h2>
-        <p>None of that here</p>
+        <FeaturedPosts />
+      </div>
+      <div className="mb-8 md:sticky md:top-32">
+        <h2 className="my-4 border-b border-base-300 pb-2 text-xl md:text-base font-semibold lg:text-lg">
+          Filter by Topic
+        </h2>
+        <TagIndex />
       </div>
     </>
   )

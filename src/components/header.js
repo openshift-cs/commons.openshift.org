@@ -41,6 +41,10 @@ export const Header = ({ siteTitle }) => {
       path: '/testimonials/',
       title: 'Testimonials',
     },
+    {
+      path: '/blog/',
+      title: 'Blog',
+    },
   ]
 
   return (
