@@ -1,6 +1,6 @@
-display: true
+display: false
 title: Fill out a quick survey on OpenShift Commons content!
 end_date: 2023-01-31T8:00:00-08:00
 background_color: base
 link_text: OpenShift Commons Content Survey
-link_url: https://bit.ly/commons-content/
+link_url: 
