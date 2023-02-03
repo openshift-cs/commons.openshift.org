@@ -13,7 +13,7 @@ module.exports = {
     siteUrl: `https://commons.openshift.org`,
     image: `https://commons.openshift.org/images/OSC.jpg`,
     postsPerPage: 20,
-    blog: `https://cloud.redhat.com/blog/tag/openshift-commons`,
+    blog: `https://cloud.redhat.com/blog/tag/openshift`,
     socialMedia: [
       {
         platform: `slack`,
