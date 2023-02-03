@@ -64,7 +64,7 @@
     "gatsby-transformer-yaml": "^4.7.0",
     "he": "^1.2.0",
     "lmdb-store": "^1.6.9",
-    "luxon": "^3.0.1",
+    "luxon": "^3.2.1",
     "postcss": "^8.3.9",
     "prismjs": "^1.23.0",
     "react": "^18.0.0",
