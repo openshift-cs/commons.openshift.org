@@ -1947,4 +1947,16 @@
   url: 'https://www.RedHat.com'
   role: 'Senior Principal Architect'
   photo: 'raffaele_spazzoli.jpeg'
-  
+ - speaker_id: 'roland_barcia'
+  name: 'Roland Barcia'
+  company: 'AWS'
+  url: 'https://www.aws.com'
+  role: 'World Wide SSA Leader'
+  photo: 'roland_barcia.jpeg'
+- speaker_id: 'ali_duran'
+  name: 'Ali Duran'
+  company: 'AWS'
+  url: 'https://www.aws.com'
+  role: 'World Wide Partner Solution Architect'
+  photo: 'ali_duran.jpeg'
+ 
