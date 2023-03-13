@@ -2076,3 +2076,8 @@
   company: 'Red Hat'
   role: 'Senior Principal Software Engineer'
   photo: 'david_eads.jpeg'
+- speaker_id: 'huamin_chen'
+  name: 'Huamin Chen'
+  company: 'Red Hat'
+  role: 'R&D, Office of CTO'
+  photo: 'huamin_chen.jpeg'
