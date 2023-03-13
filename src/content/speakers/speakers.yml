@@ -2071,4 +2071,8 @@
   company: 'Amadeus IT Group'
   role: 'Traceability Engineer Apprentice'
   photo: 'alban_hurtaud.jpeg'
-
+- speaker_id: 'david_eads'
+  name: 'David Eads'
+  company: 'Red Hat'
+  role: 'Senior Principal Software Engineer'
+  photo: 'david_eads.jpeg'
