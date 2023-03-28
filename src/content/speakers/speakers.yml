@@ -2087,3 +2087,7 @@
   url: 'https://www.ing.com'
   role: 'DevOps Engineer'
   photo: 'rob_de_boer.jpeg'
+- speaker_id: 'eric_tiquet'
+  name: 'Eric Tiquet'
+  company: 'France, Ministry of Interior'
+  photo: 'eric_tiquet.jpeg'
