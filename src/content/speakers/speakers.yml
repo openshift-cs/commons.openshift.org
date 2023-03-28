@@ -2200,3 +2200,8 @@
   name: 'Sean Webb'
   company: 'NOAA/Raytheon'
   photo: 'sean_webb.jpeg'
+- speaker_id: 'dmitry_zhukovski'
+  name: 'Dmitry Zhukovski'
+  company: 'IBM'
+  role: 'Principal Solution Architect'
+  photo: 'dmitry_zhukovski.jpeg'
