@@ -2213,3 +2213,8 @@
   company: 'IBM'
   role: 'Principal Solution Architect'
   photo: 'dmitry_zhukovski.jpeg'
+- speaker_id: 'sam_osarenkhoe'
+  name: 'Norris Sam Osarenkhoe'
+  company: 'SVA GmbH'
+  role: 'DevOps Architect'
+  photo: 'sam-osarenkhoe.jpg'
