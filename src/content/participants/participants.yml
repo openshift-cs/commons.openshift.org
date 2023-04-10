@@ -3497,3 +3497,6 @@
 - name: 'PA Consulting'
   link: 'https://www.paconsulting.com/'
   logo: 'Pa-logo.png'
+- name: 'Intermountain Healthcare'
+  link: 'https://intermountainhealthcare.org/'
+  logo: 'Intermountain-healthcare.png'
