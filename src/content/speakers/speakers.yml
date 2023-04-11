@@ -2218,3 +2218,8 @@
   company: 'SVA GmbH'
   role: 'DevOps Architect'
   photo: 'sam-osarenkhoe.jpg'
+- speaker_id: 'myriam_guitierrez'
+  name: 'Myriam Fentanes Guitierrez'
+  company: 'Red Hat'
+  role: 'Principal Product Manager'
+  photo: 'myriam_guitierrez.jpeg'
