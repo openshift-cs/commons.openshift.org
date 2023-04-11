@@ -118,16 +118,15 @@ export default function IndexPage({ data }) {
           <p className={`${paragraphStyle} mt-6 text-center md:max-w-[64ch]`}>
             OpenShift Commons is open to all community participants: users, operators, enterprises,
             non-profits, educational institutions, partners, and service providers as well as other
-            open source technology initiatives utilized under the hood or to extend the OpenShift
-            platform.
+            open source technology initiatives utilized under the hood or to extend community projects.
           </p>
           <ul className="mt-6 mb-4 list-disc ml-4 text-lg md:max-w-[64ch]">
             <li className={`${paragraphStyle} mb-4`}>
-              If you are an OpenShift Online or an OpenShift Enterprise customer or have deployed
-              OpenShift on premise or on a public cloud.
+              If you are a Kubernetes or OpenShift customer or have deployed
+              Kubernetes or OpenShift on premise or on a public cloud.
             </li>
             <li className={`${paragraphStyle} mb-4`}>
-              If you have contributed to the OpenShift Origin project and want to connect with your
+              If you have contributed to community projects and want to connect with your
               peers and end users.
             </li>
             <li className={`${paragraphStyle} mb-4`}>
