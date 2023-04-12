@@ -2201,3 +2201,7 @@
   company: 'IBM'
   role: 'Principal Solution Architect'
   photo: 'dmitry_zhukovski.jpeg'
+- speaker_id: 'gabriel_sampaio'
+  name: 'Gabriel Sampaio'
+  company: 'Red Hat'
+  photo: 'gabriel_sampaio.png'
