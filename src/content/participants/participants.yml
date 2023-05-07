@@ -3539,3 +3539,7 @@
 - name: 'NVIDIA'
   link: 'https://www.nvidia.com/en-us/'
   logo: 'nvidia.png'
+- name: 'Swift Transportation'
+  link: 'https://www.swifttrans.com/'
+  logo: 'swifttrans.jpeg'
+  
