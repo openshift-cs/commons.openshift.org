@@ -3525,7 +3525,7 @@
   link: 'https://figpom.tech/'
   logo: 'figpom.png'
 - name: 'Novian Group'
-  link: 'https://www.novian.lt'
+  link: 'https://www.novian.io'
   logo: 'novian.png'
 - name: 'Statnett'
   link: 'https://www.statnett.no/en/'
@@ -3542,4 +3542,6 @@
 - name: 'Swift Transportation'
   link: 'https://www.swifttrans.com/'
   logo: 'swifttrans.jpeg'
-  
+- name: 'Team Rockstars IT'
+  link: 'https://www.teamrockstars.nl/en/'
+  logo: 'teamrockstars.png'
