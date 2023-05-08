@@ -37,7 +37,7 @@
   photo: 'siamak.jpg'
 - speaker_id: 'joe_f'
   name: 'Joe Fernandes'
-  role: 'Vice President Of Products, Cloud Platforms'
+  role: 'VP and GM, Hybrid Cloud Platforms'
   company: 'Red Hat'
   url: 'https://www.redhat.com'
   intro: ''
@@ -2245,3 +2245,9 @@
   company: 'Red Hat'
   role: 'Distinguished Engineer'
   photo: 'jeremy_eder.jpeg'
+- speaker_id: 'chris_wright'
+  name: 'Chris Wright'
+  company: 'Red Hat'
+  role: 'CTO'
+  photo: 'chris_wright.jpeg'
+
