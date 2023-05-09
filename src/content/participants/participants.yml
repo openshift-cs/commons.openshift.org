@@ -3545,3 +3545,13 @@
 - name: 'Team Rockstars IT'
   link: 'https://www.teamrockstars.nl/en/'
   logo: 'teamrockstars.png'
+- name: 'Fiserv'
+  link: 'https://www.fiserv.com/en.html'
+  logo: 'fiserv.png'
+- name: 'Publicis Sapient'
+  link: 'https://www.publicissapient.com/'
+  logo: 'publicis_sapient.png'
+- name: 'Amazon Web Services'
+  link: 'https://aws.amazon.com/'
+  logo: 'aws.png'
+  
