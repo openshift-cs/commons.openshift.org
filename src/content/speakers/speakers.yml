@@ -2279,4 +2279,11 @@
   name: 'Cloudera'
 - speaker_id: 'couchbase'
   name: 'Couchbase'
+- speaker_id: 'sebastian_kister'
+  name: 'Sebastian Kister'
+  company: 'Audi AG'
+  role: 'Kubernetes Competence Center Lead'
+  photo: 'sebastian_kister.jpeg'
+  
+
   
