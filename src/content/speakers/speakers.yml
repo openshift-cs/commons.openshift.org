@@ -2271,4 +2271,12 @@
   name: 'Dell Technologies'
 - speaker_id: 'intel'
   name: 'Intel'
+- speaker_id: 'kong'
+  name: 'Kong'
+- speaker_id: 'sas'
+  name: 'SAS'
+- speaker_id: 'cloudera'
+  name: 'Cloudera'
+- speaker_id: 'couchbase'
+  name: 'Couchbase'
   
