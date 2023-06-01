@@ -2351,4 +2351,9 @@
   company: 'Red Hat'
   role: 'Senior Software Engineer'
   photo: 'Oren_Cohen.jpg'
+- speaker_id: 'josh_salomon'
+  name: 'Josh Salomon'
+  role: 'Senior Principal Software Engineer'
+  company: 'Red Hat'
+  photo: 'josh_salomon.jpg'
   
