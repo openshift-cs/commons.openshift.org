@@ -36,7 +36,7 @@
     "dangerously-set-html-content": "^1.0.9",
     "framer-motion": "^4.0.2",
     "fs-extra": "^10.0.0",
-    "gatsby": "^4.1.4",
+    "gatsby": "^4.25.7",
     "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-catch-links": "^4.1.0",
     "gatsby-plugin-feed": "^4.1.1",
