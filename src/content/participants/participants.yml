@@ -945,7 +945,7 @@
   metatag2: 'none'
 - name: 'Infinidat'
   link: 'https://www.infinidat.com/'
-  logo: 'infinidat-new.png'
+  logo: 'Infinidat-new.png'
   metatag1: 'partner'
   metatag2: 'ISV'
 - name: 'influxdb'
