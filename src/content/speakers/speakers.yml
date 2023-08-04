@@ -1714,7 +1714,7 @@
   role: 'Ingeniero en Sistemas de Información'
   url: 'https://www.argentina.gob.ar/jefatura/innovacion-tecnologica'
   photo: 'luis_papagni.jpg'
-- speaker_id: 'gustavo_barroso'
+- speaker_id: 'gustavo_ariel_barroso'
   name: 'Gustavo Ariel Barroso'
   company: 'Administración Gubernamental de Ingresos Públicos de Argentina (AGIP)'
   role: 'Subdirector General de Sistemas'
@@ -2374,7 +2374,7 @@
 - speaker_id: 'gustavo_arriola'
   name: 'Gustavo Arriola'
   company: 'YPF Argentina'
-  role: 'Lider Plataformas de conenedores e Hipervisores Infraestructuras y Telecomunicaciones'
+  role: 'Lider Plataformas de contenedores e Hipervisores Infraestructuras y Telecomunicaciones'
   photo: 'gustavo_arriola.jpeg'
 - speaker_id: 'daniel_penagos'
   name: 'Daniel Penagos'
@@ -2454,5 +2454,5 @@
   company: 'Secretaría de Innovación Pública'
   role: 'Product Manager'
   photo: 'fernanda_amicone.jpeg'
-  
+
 
