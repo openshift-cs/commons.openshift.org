@@ -2454,5 +2454,9 @@
   company: 'Secretaría de Innovación Pública'
   role: 'Product Manager'
   photo: 'fernanda_amicone.jpeg'
-
+- speaker_id: 'jorge_morales'
+  name: 'Jorge Morales'
+  company: 'Forum Servicios Financieros Chile'
+  role: 'Team Leader'
+  photo: 'jorge_morales.jpeg'
 
