@@ -2459,4 +2459,9 @@
   company: 'Forum Servicios Financieros Chile'
   role: 'Team Leader'
   photo: 'jorge_morales.jpeg'
-
+- speaker_id: 'gunnar'
+  name: 'Gunnar Hellekson'
+  company: 'Red Hat'
+  role: 'Vice President and GM, Linux'
+  photo: 'gunnar.jpeg'
+  
