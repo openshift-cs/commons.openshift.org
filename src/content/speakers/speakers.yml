@@ -2494,4 +2494,9 @@
   company: 'Red Hat'
   role: 'Chief Architect, Ansible Automation Platform'
   photo: 'matt_jones.jpeg'
-
+- speaker_id: 'brian_gracely'
+  name: 'Brian Gracely'
+  company: 'Red Hat'
+  role: 'Senior Director Portfolio Strategy'
+  photo: 'brian_gracely.jpeg'
+  
