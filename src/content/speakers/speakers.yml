@@ -2499,4 +2499,9 @@
   company: 'Red Hat'
   role: 'Senior Director Portfolio Strategy'
   photo: 'brian_gracely.jpeg'
+- speaker_id: 'burr_sutter'
+  name: 'Burr Sutter'
+  company: 'Red Hat'
+  role: 'Director, Developer Experience'
+  photo: 'burr_sutter.jpeg'
   
