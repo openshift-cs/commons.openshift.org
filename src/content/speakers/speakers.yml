@@ -2549,4 +2549,9 @@
   company: 'Neural Magic'
   role: 'Vice President of Business Development'
   photo: 'jay_marshall.jpeg'
+- speaker_id: 'michael_peters'
+  name: 'Michael Peters'
+  company: 'Red Hat'
+  role: 'Principal Software Engineer, Office of the CTO'
+  photo: 'michael_peters.jpeg'
   
