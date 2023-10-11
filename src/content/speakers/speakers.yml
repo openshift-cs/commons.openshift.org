@@ -2554,4 +2554,9 @@
   company: 'Red Hat'
   role: 'Principal Software Engineer, Office of the CTO'
   photo: 'michael_peters.jpeg'
+- speaker_id: 'adam_kaplan'
+  name: 'Adam Kaplan'
+  company: 'Red Hat'
+  role: 'Principal Software Engineer'
+  photo: 'adam_kaplan.jpeg'
   
