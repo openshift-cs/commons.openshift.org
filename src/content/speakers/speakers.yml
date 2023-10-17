@@ -2568,5 +2568,10 @@
   name: 'Frank La Vigne'
   company: 'Red Hat'
   role: 'Data Scientist, Cloud Services Leader'
-  photo: 'frank_lavigne'
-  
+  photo: 'frank_lavigne.jpeg'
+- speaker_id: 'ann_marie_fred'
+  name: 'Ann Marie Fred'
+  company: 'Red Hat'
+  role: 'Architect, Red Hat Trusted Application Platform'
+  photo: 'ann_marie_fred.jpeg'
+
