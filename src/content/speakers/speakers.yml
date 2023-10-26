@@ -2659,6 +2659,10 @@
   company: 'Red Hat'
   role: 'Senior Account Solutions Architect'
   photo: 'filipe_calo'
-
-
+- speaker_id: 'christoph_blecker'
+  name: 'Christoph Blecker'
+  company: 'Red Hat'
+  role: 'Service Delivery Architect'
+  photo: 'christoph_blecker.jpeg'
+  
 
