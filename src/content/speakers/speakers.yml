@@ -2468,7 +2468,7 @@
   name: 'Vincent Danen'
   company: 'Red Hat'
   role: 'Vice President, Product Security'
-  photo: 'vincent_danen.jpeg'
+  photo: 'vincent_danen.png'
 - speaker_id: 'david_caravello'
   name: 'David Caravello'
   company: 'Red Hat'
@@ -2659,6 +2659,6 @@
   company: 'Red Hat'
   role: 'Senior Account Solutions Architect'
   photo: 'filipe_calo'
-  
+
 
 
