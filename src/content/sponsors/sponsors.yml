@@ -40,4 +40,7 @@
 - name: 'Kube by Example'
   link: 'https://kubebyexample.com/'
   logo: 'kbe.png'
+- name: 'NetApp'
+  link: 'https://www.netapp.com/'
+  logo: 'netapp.png'
   
