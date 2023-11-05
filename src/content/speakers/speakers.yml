@@ -2664,5 +2664,9 @@
   company: 'Red Hat'
   role: 'Service Delivery Architect'
   photo: 'christoph_blecker.jpeg'
-  
+- speaker_id: 'chuck_svoboda'
+  name: 'Chuck Svoboda'
+  company: 'Red Hat'
+  role: 'Senior Director, Managed Services GTM'
+  photo: 'chuck_svoboda.jpeg'
 
