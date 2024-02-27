@@ -10,7 +10,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 import IconBox from '../components/iconbox'
 
 export default function IndexPage({ data }) {
-  const posts = data.allFeedcommonsBlog.nodes
   const headingStyle = 'font-headings text-3xl lg:text-5xl text-base-800 text-center mb-2 lg:mb-4'
   const paragraphStyle = 'text-lg lg:text-xl text-base-600 lg:leading-relaxed'
   const ctaStyle = 'text-center text-2xl lg:text-3xl text-base-600 lg:leading-relaxed'
@@ -118,16 +117,17 @@ export default function IndexPage({ data }) {
           <p className={`${paragraphStyle} mt-6 text-center md:max-w-[64ch]`}>
             OpenShift Commons is open to all community participants: users, operators, enterprises,
             non-profits, educational institutions, partners, and service providers as well as other
-            open source technology initiatives utilized under the hood or to extend community projects.
+            open source technology initiatives utilized under the hood or to extend community
+            projects.
           </p>
           <ul className="mt-6 mb-4 list-disc ml-4 text-lg md:max-w-[64ch]">
             <li className={`${paragraphStyle} mb-4`}>
-              If you are a Kubernetes or OpenShift customer or have deployed
-              Kubernetes or OpenShift on premise or on a public cloud.
+              If you are a Kubernetes or OpenShift customer or have deployed Kubernetes or OpenShift
+              on premise or on a public cloud.
             </li>
             <li className={`${paragraphStyle} mb-4`}>
-              If you have contributed to community projects and want to connect with your
-              peers and end users.
+              If you have contributed to community projects and want to connect with your peers and
+              end users.
             </li>
             <li className={`${paragraphStyle} mb-4`}>
               If you simply want to stay up-to-date on the roadmap and best practices for using,
@@ -244,32 +244,6 @@ export default function IndexPage({ data }) {
           </div>
         </div>
       </section>
-      <section className="relative before:hidden md:before:flex flex-col w-full items-center z-0 before:z-[-1] before:text-transparent before:absolute before:w-full before:h-[100vw] before:top-[-100px] before:bg-gradient-to-b before:from-base-200 before:to-tertiary-400 dark:before:from-base-100 dark:before:to-tertiary-500 before:rounded-full">
-        <div id="blog" className="page-wrapper mt-12 md:mt-20">
-          <h2 className={`${headingStyle}`}>Recent posts</h2>
-          <div className="space-y-6 my-6 md:my-12 md:space-x-6 md:space-y-0 w-full flex flex-col md:flex-row">
-            {posts.map((post) => (
-              <a
-                href={post.link}
-                key={post.title}
-                rel="noopener noreferrer"
-                target="_blank"
-                className="md:w-1/3 bg-base-100 group rounded-lg border-2 border-base-500 hover:border-primary-600 hover:bg-primary-100 focus:ring-2 focus:ring-base-500"
-              >
-                <p className="p-3 text-base-500 font-bold group-hover:text-primary-700">
-                  {post.date}
-                </p>
-                <p className="border-t-2 border-base-400 p-3 text-sm lg:text-base font-medium group-hover:text-primary-800">
-                  <span className="line-clamp-4">{post.title}</span>
-                </p>
-              </a>
-            ))}
-          </div>
-          <div className="text-center mb-6 md:mb-12">
-            <IconBox title="Read our blog" url={blog} icon={<FileText />} />
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
@@ -283,14 +257,6 @@ export const query = graphql`
           platform
           url
         }
-      }
-    }
-
-    allFeedcommonsBlog(limit: 3) {
-      nodes {
-        title
-        date(formatString: "MMMM D, YYYY")
-        link
       }
     }
   }
