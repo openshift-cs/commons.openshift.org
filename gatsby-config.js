@@ -77,7 +77,7 @@ module.exports = {
         includeInDevelopment: true,
       },
     },
-    {
+    /*{
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
@@ -128,7 +128,7 @@ module.exports = {
           },
         ],
       },
-    },
+    },*/
     `gatsby-awesome-pagination`,
     {
       resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
@@ -253,7 +253,7 @@ module.exports = {
         path: `${__dirname}/src/content/hello-bar`,
       },
     },
-    {
+    /*{
       resolve: `gatsby-source-rss-feed`,
       options: {
         url: `https://www.openshift.com/blog/tag/openshift-commons/rss.xml`,
@@ -262,7 +262,7 @@ module.exports = {
           headers: { Accept: 'text/xml,application/rss+xml' },
         },
       },
-    },
+    },*/
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
