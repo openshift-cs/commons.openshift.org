@@ -2699,4 +2699,12 @@
   name: 'Felix Peters'
   company: 'Breuninger'
   photo: 'felix_peters.jpeg'
-
+- speaker_id: 'andre_alfter'
+  name: 'André Alfter'
+  company: 'Bechtle'
+  photo: 'andre_alfter.jpeg'
+- speaker_id: 'thomas_munoz'
+  name: 'Thomas Munoz'
+  company: 'Amadeus'
+  photo: 'thomas_munoz.jpeg'
+  
