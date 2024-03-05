@@ -2707,4 +2707,8 @@
   name: 'Thomas Munoz'
   company: 'Amadeus'
   photo: 'thomas_munoz.jpeg'
+- speaker_id: 'jasper_wiegratz'
+  name: 'Jasper Wiegratz'
+  company: 'SVA'
+  photo: 'jasper_wiegratz.jpeg'
   
