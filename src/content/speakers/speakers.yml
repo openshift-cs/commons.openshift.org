@@ -2681,4 +2681,10 @@
 - speaker_id: 'guillaume_salou'
   name: 'Guillaume Salou'
   company: 'Hugging Face'
+- speaker_id: 'clara_li'
+  name: 'Clara Li'
+  company: 'Intel'
+- speaker_id: 'kurebayashi'
+  name: 'Ryosuke Kurebayashi'
+  company: 'NTT'
 
