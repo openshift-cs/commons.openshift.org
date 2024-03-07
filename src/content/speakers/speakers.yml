@@ -2672,8 +2672,9 @@
 - speaker_id: 'adel'
   name: 'Adel Zaalouk'
   company: 'Red Hat'
+  photo: 'adel.jpeg'
 - speaker_id: 'stevan_lemeur'
-  name: 'Stevan LeMeur'
+  name: 'Stevan Le Meur'
   company: 'Red Hat'
 - speaker_id: 'peter_de_cleyn'
   name: 'Peter de Cleyn'
@@ -2681,6 +2682,7 @@
 - speaker_id: 'guillaume_salou'
   name: 'Guillaume Salou'
   company: 'Hugging Face'
+  photo: 'guillaume_salou.jpeg'
 - speaker_id: 'clara_li'
   name: 'Clara Li'
   company: 'Intel'
@@ -2741,7 +2743,7 @@
 - speaker_id: 'salaboy'
   name: 'Mauricio ''Salaboy'' Salatino'
   company: 'Diagrid'
-  photo: 'salaboy.jpeg'
+  photo: 'salaboy.jpg'
 - speaker_id: 'adrian_martin'
   name: 'Adrián Martín'
   company: 'Inditex'
@@ -2750,4 +2752,4 @@
   name: 'Javier López'
   company: 'Inditex'
   photo: 'javier_lopez.jpeg'
-    
+
