@@ -2687,6 +2687,8 @@
 - speaker_id: 'clara_li'
   name: 'Clara Li'
   company: 'Intel'
+  role: 'Senior Director'
+  photo: 'Clara_Li.jpg'
 - speaker_id: 'kurebayashi'
   name: 'Ryosuke Kurebayashi'
   company: 'NTT'
