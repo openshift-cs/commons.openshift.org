@@ -766,7 +766,7 @@
   name: 'Eric Schabell'
   role: 'Director Technical Marketing and Evangelism'
   company: 'Chronosphere'
-  photo: 'eric_schabell.jpg'
+  photo: 'eric_schabell-new.jpeg'
 - speaker_id: 'ian_lawson'
   name: 'Ian Lawson'
   role: 'Principal Domain Solution Architect'
@@ -2763,5 +2763,5 @@
 - speaker_id: 'daniel_froelich'
   name: 'Daniel Froelich' 
   company: 'Red Hat'
-  
+
 
