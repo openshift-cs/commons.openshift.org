@@ -2754,4 +2754,14 @@
   name: 'Javier López'
   company: 'Inditex'
   photo: 'javier_lopez.jpeg'
+- speaker_id: 'jaafar_chraibi'
+  name: 'Jaafar Chraibi'
+  company: 'Red Hat'
+- speaker_id: 'christopher_nuland'
+  name: 'Christopher Nuland'
+  company: 'Red Hat'
+- speaker_id: 'daniel_froelich'
+  name: 'Daniel Froelich' 
+  company: 'Red Hat'
+  
 
