@@ -2763,5 +2763,13 @@
 - speaker_id: 'daniel_froelich'
   name: 'Daniel Froelich' 
   company: 'Red Hat'
+- speaker_id: 'taylor_dolezal'
+  name: 'Taylor Dolezal'
+  company: 'CNCF'
+  photo: 'taylor_dolezal.jpeg'
+- speaker_id: 'michael_st_jean'
+  name: 'Michael St-Jean'
+  company: 'Red Hat'
+  photo: 'michael-st-jean.jpeg'
 
 
