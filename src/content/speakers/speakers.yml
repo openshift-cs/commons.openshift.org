@@ -11,7 +11,7 @@
   photo: 'more_in_common.jpg'
 - speaker_id: 'erin_boyd'
   name: 'Erin Boyd'
-  role: 'Director of Emerging Technologies, Distinguished Engineer, CNCF TOC Board'
+  role: 'Director of Emerging Technologies, Distinguished Engineer, CNCF TOC Board, CNCF Governing Board'
   company: 'Red Hat'
   url: 'https://redhat.com'
   photo: 'erin_boyd.jpg'
@@ -2786,4 +2786,4 @@
   company: 'Red Hat'
   role: 'Chief Product Officer'
   photo: 'ashesh_badani.jpeg'
-  
+
