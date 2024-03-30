@@ -2806,4 +2806,9 @@
   company: 'Triton Digital by iHeart Radio'
   role: 'Lead Dev Platform'
   photo: 'louis-alexandre_bergeron.jpeg'
-
+- speaker_id: 'anna_syed'
+  name: 'Anna Syed'
+  company: 'Red Hat'
+  role: 'Senior Engineering Manager, RHEL'
+  photo: 'anna_syed.jpeg'
+  
