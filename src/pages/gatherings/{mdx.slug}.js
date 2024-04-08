@@ -357,7 +357,7 @@ export default function GatheringPage({ data, ...props }) {
                     rel="noopener noreferrer"
                     href="https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/attend/health-and-safety/"
                   >
-                    CNCF.
+                     CNCF.
                   </a>
                 </p>
               </>
