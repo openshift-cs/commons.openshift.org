@@ -348,19 +348,16 @@ export default function GatheringPage({ data, ...props }) {
                   appropriate workplace behavior and applicable laws.
                 </p>
                 <p className={`${ledeStyle} mx-auto`}>
-                  COVID-19 Health + Safety Information: CNCF is committed to our attendee's health
-                  and safety; this remains our top priority as we continue to monitor COVID-19 and
-                  look to the venue, local, state, CDC, and WHO guidelines to make the best and most
-                  informed decisions around onsite safety and requirements.
-                </p>
-                <p className={`${ledeStyle} mx-auto`}>
+                  COVID-19 Health + Safety Information: We are committed to our attendee's health
+                  and safety and follow the Healthy and Safety policies of the events we are co-located
+                  with or by default those of the 
                   <a
                     className={aStyle}
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/attend/health-and-safety/"
                   >
-                    Health and safety information for KubeCon + CloudNativeCon North America
+                    CNCF.
                   </a>
                 </p>
               </>
