@@ -351,7 +351,6 @@ export default function GatheringPage({ data, ...props }) {
                   COVID-19 Health + Safety Information: We are committed to our attendee's health
                   and safety and follow the Healthy and Safety policies of the events we are co-located
                   with or by default those of the CNCF.
-                  </a>
                 </p>
               </>
             )}
