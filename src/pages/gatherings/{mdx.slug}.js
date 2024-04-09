@@ -350,14 +350,7 @@ export default function GatheringPage({ data, ...props }) {
                 <p className={`${ledeStyle} mx-auto`}>
                   COVID-19 Health + Safety Information: We are committed to our attendee's health
                   and safety and follow the Healthy and Safety policies of the events we are co-located
-                  with or by default those of the 
-                  <a
-                    className={aStyle}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/attend/health-and-safety/"
-                  >
-                     CNCF.
+                  with or by default those of the CNCF.
                   </a>
                 </p>
               </>
