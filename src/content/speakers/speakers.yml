@@ -2811,6 +2811,12 @@
   company: 'Red Hat'
   role: 'Senior Engineering Manager, RHEL'
   photo: 'anna_syed.jpeg'
+- speaker_id: 'adam_tetelman'
+  name: 'Adam Tetelman'
+  role: 'Principal Engineering Architect, NVIDIA Enterprise Products'
+  company: 'NVIDIA'
+  url: 'https://www.nvidia.com'
+  photo: 'adam_tetelman.jpg'
 - speaker_id: 'lutz_kaemper'
   name: 'Lutz Kaemper'
   company: 'Commerzbank'
@@ -2896,4 +2902,3 @@
 - speaker_id: 'michael_wells_jr'
   name: 'Michael Wells Jr'
   company: 'Dell'
-  
