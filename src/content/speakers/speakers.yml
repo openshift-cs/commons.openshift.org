@@ -2893,3 +2893,7 @@
 - speaker_id: 'vincent_caldeira'
   name: 'Vincent Caldeira'
   company: 'Red Hat'
+- speaker_id: 'michael_wells_jr'
+  name: 'Michael Wells Jr'
+  company: 'Dell'
+  
