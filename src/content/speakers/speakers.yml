@@ -2835,6 +2835,8 @@
 - speaker_id: 'ian_tewksbury'
   name: 'Ian Tewksbury'
   company: 'Red Hat'
+  role: 'Senior Principal Architect, Global Services'
+  photo: 'Ian_Tewksbury.png'
 - speaker_id: 'jose_manel_sillero'
   name: 'Jose Manel Sillero'
   company: 'Banco Sabadell'
