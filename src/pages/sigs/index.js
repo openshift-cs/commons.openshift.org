@@ -114,7 +114,7 @@ export default function SIGPage() {
                       <li className="mb-4">Proactive Hunting</li>
                       <li className="mb-4">Continuous Detection and Response</li>
                     </ul>
-                    <h4 className={h4Style}>About DevSeCops</h4>
+                    <h4 className={h4Style}>About DevSecOps</h4>
                     <p className={paragraphStyle}>
                       DevSecOps is as much about operations as it is about development. This Special
                       Interest Group is way for like-minded engineers to discuss and share
