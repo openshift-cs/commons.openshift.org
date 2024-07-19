@@ -15,6 +15,8 @@ import {
   Tool,
   Truck,
   Zap,
+  Triangle,
+  Loader,
 } from 'react-feather'
 import { StaticImage } from 'gatsby-plugin-image'
 import Callout from '../../components/callout'
@@ -84,6 +86,47 @@ export default function SIGPage() {
               that you can find everything you need in one place around a central topic.
             </p>
             <Accordion.Root className="w-full border-t border-base-500" type="multiple">
+              <AccordionItem title="Edge" icon={<Loader alt="" />}>
+                <p className={paragraphStyle}>
+                  The purpose of the edge SIG is to collaborate and share information around best practices and lessons learned for the community’s deployment at the edge.
+                </p>
+                <h3 className={h3Style}>About edge computing</h3>
+                <p className={paragraphStyle}></p>
+                      Simply put, edge computing is when compute/insights/decisions happen outside of larger, centralized data centers and public clouds.
+                      This Special Interest Group is a way for the community to meet, discuss and share information about a quickly-growing, highly-variable subject.
+                </p>
+              <h3 className={h3Style}>Links</h3>
+              <div className="grid lg:grid-cols-2 my-8 lg:my-0 gap-8 page-wrapper">
+                <Callout
+                  title="What is edge computing?"
+                  url="https://www.redhat.com/en/topics/edge-computing/what-is-edge-computing"
+                  icon={<ExternalLink alt="" />}
+                >
+                  Edge computing is computing that takes place at or near the physical location of either the user or the source of the data
+                  </Callout>
+                <Callout
+                  title="Edge computing with Red Hat OpenShift?"
+                  url="https://www.redhat.com/en/technologies/cloud-computing/openshift/edge-computing"
+                  icon={<ExternalLink alt="" />}
+                >
+                  For organizations using cloud-native applications, virtual machines (VMs), IoT (Internet of Things), and cloud computing to deliver extraordinary customer experiences, or using applications powered by artificial intelligence and machine learning (AI/ML) to unlock new opportunities from data, they are evolving and distributing their IT infrastructure using edge computing to get resources as close to the data and users as possible.
+                  </Callout>
+                <Callout
+                  title="Edge computing with Red Hat Device Edge"
+                  url="https://www.redhat.com/en/topics/edge-computing/what-is-edge-computing"
+                  icon={<ExternalLink alt="" />}
+                >
+                  Devices at the far edge need a different approach. Edge devices such as assembly line tools, IoT gateways, points of sale, and industrial controllers have to operate with limited computing resources, power, cooling, and connectivity.
+                  </Callout>
+   
+              </AccordionItem>
+              <AccordionItem title="Validated Patterns" icon={<Triangle alt="" />}>
+                <p className={paragraphStyle}>
+                  The focus of the Validated Patterns SIG is to discuss common use cases and the business problems being solved in order to spark conversation and share architectures.
+                  In discussing the use cases being developed, we can learn from each other and understand why specific components were chosen and allow each of us to grow over time.
+                  This SIG is open to all Architecture related Communities of Practice.
+                </p>
+              </AccordionItem>
               <AccordionItem title="DevSecOps" icon={<Shield alt="" />}>
                 <p className={paragraphStyle}>
                   The purpose of the DevSecOps SIG is to collaborate and share information around
