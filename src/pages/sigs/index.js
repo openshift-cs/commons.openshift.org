@@ -119,13 +119,21 @@ export default function SIGPage() {
                     Devices at the far edge need a different approach. Edge devices such as assembly line tools, IoT gateways, points of sale, and industrial controllers have to operate with limited computing resources, power, cooling, and connectivity.
                   </Callout>
                 </div>
-                <div className="grid lg:grid-cols-1 my-8 lg:my-0 gap-8 page-wrapper">
+                <h3 className={h3Style}>Connect with us</h3>
+                <div className="grid lg:grid-cols-2 my-8 lg:my-0 gap-8 page-wrapper">
                   <Callout
                     title="Missed a session?"
                     url="https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqceDBWosHflxRFiJSqIT4Aa"
                     icon={<ExternalLink alt="" />}
                   >
                     Check out our Edge SIG Playlist
+                  </Callout>
+                  <Callout
+                    title="Join our live sessions"
+                    url="https://docs.google.com/document/d/1Amxly4E5FHyH8QbQQxHip2d3Ip87Hdrh_IPpoP7YLiE/edit?usp=sharing"
+                    icon={<ExternalLink alt="" />}
+                  >
+                    OpenShift Commons Edge SIG - Agenda
                   </Callout>
                 </div>
               </AccordionItem>
