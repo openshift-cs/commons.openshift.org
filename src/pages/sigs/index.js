@@ -36,14 +36,14 @@ const AccordionItem = ({ ...props }) => {
           className={`${
             open &&
             'text-secondary-800 hover:text-secondary-900 bg-secondary-200 hover:bg-secondary-200'
-          } w-full border-b border-base-500 hover:bg-base-200 focus:outline-none focus:ring-inset focus:ring-2 focus:ring-primary-600 text-left py-4 px-3 text-xl lg:text-2xl font-medium`}
+            } w-full border-b border-base-500 hover:bg-base-200 focus:outline-none focus:ring-inset focus:ring-2 focus:ring-primary-600 text-left py-4 px-3 text-xl lg:text-2xl font-medium`}
         >
           <h2 className="flex items-center space-x-3">
             {open ? (
               <MinusCircle className="flex-shrink-0 w-6 h-6" />
             ) : (
-              <PlusCircle className="flex-shrink-0 w-6 h-6" />
-            )}
+                <PlusCircle className="flex-shrink-0 w-6 h-6" />
+              )}
             <span className="flex gap-2 space-x-6 items-center">
               <span className="inline h-6 w-6 lg:h-8 lg:w-8">{icon}</span> {title}
             </span>
@@ -91,34 +91,34 @@ export default function SIGPage() {
                   The purpose of the edge SIG is to collaborate and share information around best practices and lessons learned for the community’s deployment at the edge.
                 </p>
                 <h3 className={h3Style}>About edge computing</h3>
-                <p className={paragraphStyle}></p>
-                      Simply put, edge computing is when compute/insights/decisions happen outside of larger, centralized data centers and public clouds.
-                      This Special Interest Group is a way for the community to meet, discuss and share information about a quickly-growing, highly-variable subject.
+                <p className={paragraphStyle}>
+                  Simply put, edge computing is when compute/insights/decisions happen outside of larger, centralized data centers and public clouds.
+                  This Special Interest Group is a way for the community to meet, discuss and share information about a quickly-growing, highly-variable subject.
                 </p>
-              <h3 className={h3Style}>Links</h3>
-              <div className="grid lg:grid-cols-2 my-8 lg:my-0 gap-8 page-wrapper">
-                <Callout
-                  title="What is edge computing?"
-                  url="https://www.redhat.com/en/topics/edge-computing/what-is-edge-computing"
-                  icon={<ExternalLink alt="" />}
-                >
-                  Edge computing is computing that takes place at or near the physical location of either the user or the source of the data
+                <h3 className={h3Style}>Links</h3>
+                <div className="grid lg:grid-cols-3 my-8 lg:my-0 gap-8 page-wrapper">
+                  <Callout
+                    title="What is edge computing?"
+                    url="https://www.redhat.com/en/topics/edge-computing/what-is-edge-computing"
+                    icon={<ExternalLink alt="" />}
+                  >
+                    Edge computing is computing that takes place at or near the physical location of either the user or the source of the data
                   </Callout>
-                <Callout
-                  title="Edge computing with Red Hat OpenShift?"
-                  url="https://www.redhat.com/en/technologies/cloud-computing/openshift/edge-computing"
-                  icon={<ExternalLink alt="" />}
-                >
-                  For organizations using cloud-native applications, virtual machines (VMs), IoT (Internet of Things), and cloud computing to deliver extraordinary customer experiences, or using applications powered by artificial intelligence and machine learning (AI/ML) to unlock new opportunities from data, they are evolving and distributing their IT infrastructure using edge computing to get resources as close to the data and users as possible.
+                  <Callout
+                    title="Edge computing with Red Hat OpenShift?"
+                    url="https://www.redhat.com/en/technologies/cloud-computing/openshift/edge-computing"
+                    icon={<ExternalLink alt="" />}
+                  >
+                    For organizations using cloud-native applications, virtual machines (VMs), IoT (Internet of Things), and cloud computing to deliver extraordinary customer experiences, or using applications powered by artificial intelligence and machine learning (AI/ML) to unlock new opportunities from data, they are evolving and distributing their IT infrastructure using edge computing to get resources as close to the data and users as possible.
                   </Callout>
-                <Callout
-                  title="Edge computing with Red Hat Device Edge"
-                  url="https://www.redhat.com/en/topics/edge-computing/what-is-edge-computing"
-                  icon={<ExternalLink alt="" />}
-                >
-                  Devices at the far edge need a different approach. Edge devices such as assembly line tools, IoT gateways, points of sale, and industrial controllers have to operate with limited computing resources, power, cooling, and connectivity.
+                  <Callout
+                    title="Edge computing with Red Hat Device Edge"
+                    url="https://www.redhat.com/en/topics/edge-computing/what-is-edge-computing"
+                    icon={<ExternalLink alt="" />}
+                  >
+                    Devices at the far edge need a different approach. Edge devices such as assembly line tools, IoT gateways, points of sale, and industrial controllers have to operate with limited computing resources, power, cooling, and connectivity.
                   </Callout>
-   
+                </div>
               </AccordionItem>
               <AccordionItem title="Validated Patterns" icon={<Triangle alt="" />}>
                 <p className={paragraphStyle}>
