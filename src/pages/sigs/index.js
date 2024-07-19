@@ -135,7 +135,7 @@ export default function SIGPage() {
                     <div className="video-embed mb-8">
                       <iframe
                         title="YouTube Video"
-                        src="https://youtu.be/dGsoUNjHYOw?si=XZSSnctbEUsVsDii"
+                        src="https://www.youtube.com/embed/dGsoUNjHYOw?si=gqtTKp9EAAkB3bxA"
                         frameborder="0"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
