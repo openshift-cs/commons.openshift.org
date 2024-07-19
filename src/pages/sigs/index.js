@@ -119,6 +119,15 @@ export default function SIGPage() {
                     Devices at the far edge need a different approach. Edge devices such as assembly line tools, IoT gateways, points of sale, and industrial controllers have to operate with limited computing resources, power, cooling, and connectivity.
                   </Callout>
                 </div>
+                <div className="grid lg:grid-cols-1 my-8 lg:my-0 gap-8 page-wrapper">
+                  <Callout
+                    title="Missed a session?"
+                    url="https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqceDBWosHflxRFiJSqIT4Aa"
+                    icon={<ExternalLink alt="" />}
+                  >
+                    Check out our Edge SIG Playlist
+                  </Callout>
+                </div>
               </AccordionItem>
               <AccordionItem title="Validated Patterns" icon={<Triangle alt="" />}>
                 <p className={paragraphStyle}>
