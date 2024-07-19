@@ -126,6 +126,58 @@ export default function SIGPage() {
                   In discussing the use cases being developed, we can learn from each other and understand why specific components were chosen and allow each of us to grow over time.
                   This SIG is open to all Architecture related Communities of Practice.
                 </p>
+                <div className="mb-8 flex flex-col lg:flex-row lg:space-x-8 text-left">
+                  <div className="w-full lg:w-1/2">
+                    <h3 className={h3Style}>Introduction</h3>
+                    <p className={paragraphStyle}>
+                      Watch this video to see benefits of using Patterns to deploy distributed architectures
+                    </p>
+                    <div className="video-embed mb-8">
+                      <iframe
+                        title="YouTube Video"
+                        src="https://youtu.be/dGsoUNjHYOw?si=XZSSnctbEUsVsDii"
+                        frameborder="0"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div className="lg:w-1/2">
+                    <h3 className={h3Style}>Principles</h3>
+                    <ul className="mb-4 list-disc ml-4 text-lg">
+                      <li className="mb-4">Distributed reference architectures</li>
+                      <li className="mb-4">GitOps Framework</li>
+                      <li className="mb-4">Declarative modalities</li>
+                      <li className="mb-4">Repeatable, Scalable, Extensible</li>
+                      <li className="mb-4">Built and Maintained as code</li>
+                      <li className="mb-4">Fast track proofs of concept (POCs)</li>
+                      <li className="mb-4">Create repeatable frameworks for easier testing and deployment</li>
+                    </ul>
+                    <h4 className={h4Style}>About Validated Patterns</h4>
+                    <p className={paragraphStyle}>
+                      Validated Patterns are an evolution of how you deploy applications in a hybrid cloud.
+                      With a pattern, you can automatically deploy a full application stack through a GitOps-based framework.
+                      With this framework, you can create business-centric solutions while maintaining a level of Continuous Integration (CI) over your application.
+                    </p>
+                  </div>
+                </div>
+                <h3 className={h3Style}>Links</h3>
+                <div className="grid lg:grid-cols-2 my-8 lg:my-0 gap-8 page-wrapper">
+                  <Callout
+                    title="Missed a session?"
+                    url="https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqf8CbyJFX9vSVxBc9sBTIKK"
+                    icon={<ExternalLink alt="" />}
+                  >
+                    Check out our Validated Patterns SIG Playlist
+                  </Callout>
+                  <Callout
+                    title="Do you have an experience you’d like to discuss?"
+                    url="https://forms.gle/E7w3iCgX3PaRsf9P6"
+                    icon={<ExternalLink alt="" />}
+                  >
+                    Submit a session
+                  </Callout>
+                </div>
               </AccordionItem>
               <AccordionItem title="DevSecOps" icon={<Shield alt="" />}>
                 <p className={paragraphStyle}>
