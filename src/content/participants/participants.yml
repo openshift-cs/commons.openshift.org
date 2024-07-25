@@ -1485,7 +1485,7 @@
   metatag2: 'none'
 - name: 'Portworx'
   link: 'https://portworx.com/'
-  logo: 'portworx.png'
+  logo: 'portworx-logo.png'
   metatag1: 'other'
   metatag2: 'none'
 - name: 'Principal'
