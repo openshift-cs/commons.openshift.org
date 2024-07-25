@@ -43,4 +43,7 @@
 - name: 'NetApp'
   link: 'https://www.netapp.com/'
   logo: 'netapp.png'
+- name: 'Portworx'
+  link: 'https://portworx.com/'
+  logo: 'portworx-logo.png'
   
