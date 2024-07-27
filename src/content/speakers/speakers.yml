@@ -2937,3 +2937,10 @@
 - speaker_id: 'gustavo_varisco'
   name: 'Gustavo Varisco'
   company: 'Claro'
+- speaker_id: 'simon_seagrave'
+  name: 'Simon Seagrave'
+  role: 'Senior Principal Product Marketing Manager'
+  company: 'Red Hat'
+  url: 'https://redhat.com'
+  photo: 'simon_seagrave.jpg'
+
