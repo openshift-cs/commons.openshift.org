@@ -15,7 +15,6 @@ import {
   Tool,
   Truck,
   Zap,
-  Triangle,
   Loader,
 } from 'react-feather'
 import { StaticImage } from 'gatsby-plugin-image'
@@ -23,6 +22,7 @@ import Callout from '../../components/callout'
 import IconBox from '../../components/iconbox'
 import * as Accordion from '@radix-ui/react-accordion'
 import OperatorsCarousel from '../../components/operators-carousel'
+import ModernTriangle from '../../icons/ModernTriangle'
 
 const AccordionItem = ({ ...props }) => {
   const { title, icon, children } = props
@@ -137,7 +137,7 @@ export default function SIGPage() {
                   </Callout>
                 </div>
               </AccordionItem>
-              <AccordionItem title="Validated Patterns" icon={<Triangle alt="" />}>
+              <AccordionItem title="Validated Patterns" icon={<ModernTriangle alt="" />}>
                 <p className={paragraphStyle}>
                   The focus of the Validated Patterns SIG is to discuss common use cases and the business problems being solved in order to spark conversation and share architectures.
                   In discussing the use cases being developed, we can learn from each other and understand why specific components were chosen and allow each of us to grow over time.
