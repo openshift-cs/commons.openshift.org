@@ -46,4 +46,7 @@
 - name: 'Portworx'
   link: 'https://portworx.com/'
   logo: 'portworx-logo.png'
+- name: 'Carahsoft'
+  link: 'https://www.carahsoft.com/'
+  logo: 'carahsoft.png'
   
