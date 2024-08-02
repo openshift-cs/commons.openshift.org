@@ -2927,7 +2927,7 @@
   company: 'Swiss Medical Group (SMG)'
 - speaker_id: 'agustin_lacorazza'
   name: 'Agustin Lacorazza'
-  company: 'MATBA'
+  company: 'PRIMARY'
 - speaker_id: 'rodrigo_nenna'
   name: 'Rodrigo Nenna'
   company: 'Claro'
@@ -2957,5 +2957,5 @@
   company: 'Red Hat'
 - speaker_id: 'eugenio_orsini'
   name: 'Eugenio Orsini'
-  company: ''
+  company: 'Intel'
 
