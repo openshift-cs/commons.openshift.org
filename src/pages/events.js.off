@@ -115,7 +115,7 @@ export default function EventsPage({ data }) {
               />
               <IconBox
                 title="Past Briefings"
-                url="https://www.youtube.com/user/rhopenshift/playlists?flow=grid&view=1"
+                url="https://red.ht/commons-meeting-recordings"
                 target="_blank"
                 icon={<Youtube alt="" className="text-[#f00]" strokeWidth="1px" />}
               />

@@ -84,7 +84,7 @@ export default function CommunityPage() {
             <Callout
               className="lg:h-auto"
               title="Past Briefings"
-              url="https://www.youtube.com/user/rhopenshift/playlists?flow=grid&view=1"
+              url="https://red.ht/commons-meeting-recordings"
               icon={<Youtube alt="" />}
             >
               Check out our video library to learn about OpenShift&nbsp;topics.
