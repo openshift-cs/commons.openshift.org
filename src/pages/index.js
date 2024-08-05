@@ -177,7 +177,7 @@ export default function IndexPage({ data }) {
           <div className="md:w-1/2 xl:w-2/5 flex flex-col space-y-12 justify-between">
             <CallToAction url={slack} title="Join us on Slack" />
             <CallToAction
-              url="https://www.youtube.com/user/rhopenshift/playlists"
+              url="https://red.ht/commons-meeting-recordings"
               title="Check out past Briefings"
             />
             <CallToAction last url="https://okd.io" title="Collaborate with the community" />
