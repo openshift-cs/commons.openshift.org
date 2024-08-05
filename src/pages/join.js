@@ -101,15 +101,6 @@ export default function CommunityPage() {
             </Callout>
             <Callout
               className="lg:h-auto"
-              title="Blogs"
-              url="mailto:community@stackrox.io?subject=Blog%20contribution&body=My%20blog%20topic%20is%20"
-              icon={<Edit alt="" />}
-            >
-              Blogs are open for contribution. Is there a topic you are interested in? Let the
-              organizers know about&nbsp;it. <strong>[needs review]</strong>
-            </Callout>
-            <Callout
-              className="lg:h-auto"
               title="Join Great Sessions"
               type="warning"
               url="/events/"
