@@ -12,7 +12,7 @@ module.exports = {
     author: `OpenShift Community`,
     siteUrl: `https://commons.openshift.org`,
     image: `https://commons.openshift.org/images/OSC.jpg`,
-    postsPerPage: 20,
+    postsPerPage: 30,
     blog: `https://cloud.redhat.com/blog/tag/openshift`,
     socialMedia: [
       {
