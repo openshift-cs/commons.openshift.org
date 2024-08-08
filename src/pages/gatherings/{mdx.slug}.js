@@ -339,9 +339,9 @@ export default function GatheringPage({ data, ...props }) {
             ) : (
               <>
                 <p className={`${ledeStyle} mx-auto`}>
-                  Code of Conduct: We follow the Code of Conduct of other events such as KubeCon.
-                  Similarly we are dedicated to providing a harassment-free experience for
-                  participants at all of our events, whether they are held in person or virtually.
+                  Code of Conduct: We follow the Code of Conduct of other events such as KubeCon +
+                  CloudNativeCon. Similarly we are dedicated to providing a harassment-free experience
+                  for participants at all of our events, whether they are held in person or virtually.
                   All event participants, whether they are attending an in-person event or a virtual
                   event, are expected to behave in accordance with professional standards, with both
                   this Code of Conduct as well as their respective employer's policies governing
