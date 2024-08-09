@@ -1391,6 +1391,47 @@ videos:
 - gathering_title: Data Science at NVIDIA GTC 2020
   gathering_date: '2020-10-09'
   gathering_videos:
+  - publishedAt: '2024-08-08T19:20:03Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: AI inference at the edge using OpenShift AI
+    description: "Many organizations are looking to edge deployments of AI to provide
+      real-time insights into their data. OpenShift AI can be used to deploy model
+      serving, predict failure, detect anomalies, and do quality inspection in low-latency
+      environments in near real-time. The demo shows how the model can be packaged
+      into an inference container image and use data science pipelines to fetch models,
+      build, test, deploy and update within a GitOps workflow. ArgoCD is used to detect
+      changes and update the image at the edge devices if needed.  Observability into
+      the model’s health and performance is provided by gathering metrics from edge
+      devices and reporting back to centralized management. \n\nLearn more: https://red.ht/openshift_ai"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/OxNQaWOCii4/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/OxNQaWOCii4/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/OxNQaWOCii4/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/OxNQaWOCii4/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/OxNQaWOCii4/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: OxNQaWOCii4
+    videoOwnerChannelTitle: Red Hat
+    videoOwnerChannelId: UCp6NUFV9mSEK6RxUiEVymVg
   - publishedAt: '2024-07-19T03:52:34Z'
     channelId: UCZKMj3YI0wP-kq4QYpaKdEA
     title: 'OpenShift Commons: A conversation about OpenShift LightSpeed with Erik
@@ -1423,7 +1464,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 0
+    position: 1
     resourceId:
       kind: youtube#video
       videoId: idoLjjjQ2sA
@@ -1461,7 +1502,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 1
+    position: 2
     resourceId:
       kind: youtube#video
       videoId: 0HZycCgXlbM
@@ -1497,7 +1538,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 2
+    position: 3
     resourceId:
       kind: youtube#video
       videoId: ncGYIztHy8g
@@ -1535,7 +1576,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 3
+    position: 4
     resourceId:
       kind: youtube#video
       videoId: gt7tZtWt-80
@@ -1576,7 +1617,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 4
+    position: 5
     resourceId:
       kind: youtube#video
       videoId: 1EBkzJ_iymo
@@ -1615,7 +1656,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 5
+    position: 6
     resourceId:
       kind: youtube#video
       videoId: 0eh-B55zMPI
@@ -1651,7 +1692,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 6
+    position: 7
     resourceId:
       kind: youtube#video
       videoId: TdwuTgfbgko
@@ -1686,7 +1727,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 7
+    position: 8
     resourceId:
       kind: youtube#video
       videoId: AdudRq2cJk4
@@ -1722,7 +1763,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 8
+    position: 9
     resourceId:
       kind: youtube#video
       videoId: PtD4mf8PcJ4
@@ -1758,7 +1799,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 9
+    position: 10
     resourceId:
       kind: youtube#video
       videoId: nWoo3YX9eKw
@@ -1794,7 +1835,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 10
+    position: 11
     resourceId:
       kind: youtube#video
       videoId: x8rvGk_EerE
@@ -1832,7 +1873,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 11
+    position: 12
     resourceId:
       kind: youtube#video
       videoId: Rmv_YQzhTpE
@@ -1869,7 +1910,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 12
+    position: 13
     resourceId:
       kind: youtube#video
       videoId: 1KFvRKsinzg
@@ -1905,7 +1946,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 13
+    position: 14
     resourceId:
       kind: youtube#video
       videoId: yVm4AX1D7cg
@@ -1941,7 +1982,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 14
+    position: 15
     resourceId:
       kind: youtube#video
       videoId: fLK1E17UmKI
@@ -1978,7 +2019,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 15
+    position: 16
     resourceId:
       kind: youtube#video
       videoId: T8-Pb0ae50w
@@ -2010,7 +2051,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 16
+    position: 17
     resourceId:
       kind: youtube#video
       videoId: TIKUO1uFK1A
@@ -2045,7 +2086,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 17
+    position: 18
     resourceId:
       kind: youtube#video
       videoId: ShRKIFWaea0
@@ -2078,7 +2119,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 18
+    position: 19
     resourceId:
       kind: youtube#video
       videoId: 75WtOSpn5qU
@@ -2106,7 +2147,7 @@ videos:
         height: 360
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 19
+    position: 20
     resourceId:
       kind: youtube#video
       videoId: o-qae0vJ3Aw
@@ -2146,7 +2187,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 20
+    position: 21
     resourceId:
       kind: youtube#video
       videoId: 6GxUPWRrws0
@@ -2182,7 +2223,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 21
+    position: 22
     resourceId:
       kind: youtube#video
       videoId: 1KNFnQG2b5w
@@ -2211,7 +2252,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 22
+    position: 23
     resourceId:
       kind: youtube#video
       videoId: ZIKq0W9z31I
@@ -2246,7 +2287,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 23
+    position: 24
     resourceId:
       kind: youtube#video
       videoId: awgmTOLxYOE
@@ -2281,7 +2322,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 24
+    position: 25
     resourceId:
       kind: youtube#video
       videoId: 1ddxwZWSgtY
@@ -2317,7 +2358,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 25
+    position: 26
     resourceId:
       kind: youtube#video
       videoId: kMnIGSb3T8w
@@ -2352,7 +2393,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 26
+    position: 27
     resourceId:
       kind: youtube#video
       videoId: i5wd_qZdc8Y
@@ -2388,7 +2429,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 27
+    position: 28
     resourceId:
       kind: youtube#video
       videoId: S6Obo7pw6p4
@@ -2425,7 +2466,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 28
+    position: 29
     resourceId:
       kind: youtube#video
       videoId: RCwcEZtba4E
@@ -2464,7 +2505,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 29
+    position: 30
     resourceId:
       kind: youtube#video
       videoId: LESA9Jl_8zg
@@ -2500,7 +2541,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 30
+    position: 31
     resourceId:
       kind: youtube#video
       videoId: 6PZfKufNisM
@@ -2540,7 +2581,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 31
+    position: 32
     resourceId:
       kind: youtube#video
       videoId: 8QVf1Xbbdyg
@@ -2581,7 +2622,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 32
+    position: 33
     resourceId:
       kind: youtube#video
       videoId: yiEHj0lgsFQ
@@ -2618,7 +2659,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 33
+    position: 34
     resourceId:
       kind: youtube#video
       videoId: pXCAYu4s_RY
@@ -2655,7 +2696,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 34
+    position: 35
     resourceId:
       kind: youtube#video
       videoId: t3ElO45VEoM
@@ -2689,7 +2730,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 35
+    position: 36
     resourceId:
       kind: youtube#video
       videoId: jEaoT0eDJrA
@@ -2721,7 +2762,7 @@ videos:
         height: 360
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 36
+    position: 37
     resourceId:
       kind: youtube#video
       videoId: F6nE1d5SXRU
@@ -2761,7 +2802,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 37
+    position: 38
     resourceId:
       kind: youtube#video
       videoId: H2jS5sQ-f9o
@@ -2797,7 +2838,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 38
+    position: 39
     resourceId:
       kind: youtube#video
       videoId: 1V69ejZSdnU
@@ -2835,7 +2876,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 39
+    position: 40
     resourceId:
       kind: youtube#video
       videoId: l8bg8d4gtBw
@@ -2867,7 +2908,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 40
+    position: 41
     resourceId:
       kind: youtube#video
       videoId: _dKVF3M_CFE
@@ -2903,7 +2944,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 41
+    position: 42
     resourceId:
       kind: youtube#video
       videoId: z6c4o_DD5bc
@@ -2939,7 +2980,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 42
+    position: 43
     resourceId:
       kind: youtube#video
       videoId: tYOwSMqdWt8
@@ -2975,7 +3016,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 43
+    position: 44
     resourceId:
       kind: youtube#video
       videoId: joK89xYeuUY
@@ -3011,7 +3052,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 44
+    position: 45
     resourceId:
       kind: youtube#video
       videoId: "-l6EiqCgFAg"
@@ -3047,7 +3088,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 45
+    position: 46
     resourceId:
       kind: youtube#video
       videoId: 88k7bI0HXFQ
@@ -3091,7 +3132,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 46
+    position: 47
     resourceId:
       kind: youtube#video
       videoId: EItWV4S9WEE
@@ -3129,7 +3170,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 47
+    position: 48
     resourceId:
       kind: youtube#video
       videoId: HFLbXmw9x9s
@@ -3165,7 +3206,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 48
+    position: 49
     resourceId:
       kind: youtube#video
       videoId: aE0dS0_uyj8
@@ -3201,7 +3242,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 49
+    position: 50
     resourceId:
       kind: youtube#video
       videoId: Ico3BQRdsi8
@@ -3240,7 +3281,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 50
+    position: 51
     resourceId:
       kind: youtube#video
       videoId: LAz_TG2Qtik
@@ -3273,7 +3314,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 51
+    position: 52
     resourceId:
       kind: youtube#video
       videoId: NsYGkgCE-UQ
@@ -3306,7 +3347,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 52
+    position: 53
     resourceId:
       kind: youtube#video
       videoId: OXCnzfWKI90
@@ -3339,7 +3380,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 53
+    position: 54
     resourceId:
       kind: youtube#video
       videoId: uMJ5sE3Veic
@@ -3374,7 +3415,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 54
+    position: 55
     resourceId:
       kind: youtube#video
       videoId: EqkCoPHm5CI
@@ -3410,7 +3451,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 55
+    position: 56
     resourceId:
       kind: youtube#video
       videoId: lV12Cj3auZE
@@ -3444,7 +3485,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 58
+    position: 59
     resourceId:
       kind: youtube#video
       videoId: IDHvpgVu_ak
@@ -3475,7 +3516,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 59
+    position: 60
     resourceId:
       kind: youtube#video
       videoId: PcsqcN4NqI4
@@ -3507,7 +3548,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 60
+    position: 61
     resourceId:
       kind: youtube#video
       videoId: Ty3X1C4pwn0
@@ -3541,7 +3582,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 61
+    position: 62
     resourceId:
       kind: youtube#video
       videoId: arijOYKSw0c
@@ -3578,7 +3619,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 62
+    position: 63
     resourceId:
       kind: youtube#video
       videoId: uakzi8FyNZY
@@ -3612,7 +3653,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 63
+    position: 64
     resourceId:
       kind: youtube#video
       videoId: ktH1QTlTc7c
@@ -3647,7 +3688,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 64
+    position: 65
     resourceId:
       kind: youtube#video
       videoId: ggK5XDAofcw
@@ -3686,7 +3727,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 65
+    position: 66
     resourceId:
       kind: youtube#video
       videoId: 349zHtFdhkI
@@ -3723,7 +3764,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 66
+    position: 67
     resourceId:
       kind: youtube#video
       videoId: ZSiHI-c3rCU
@@ -3749,7 +3790,7 @@ videos:
         height: 360
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 67
+    position: 68
     resourceId:
       kind: youtube#video
       videoId: kdjd1wNK9Wc
@@ -3785,7 +3826,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 68
+    position: 69
     resourceId:
       kind: youtube#video
       videoId: 1REuOX6egnQ
@@ -3823,7 +3864,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 69
+    position: 70
     resourceId:
       kind: youtube#video
       videoId: cMMjADG8Ljk
@@ -3864,7 +3905,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 70
+    position: 71
     resourceId:
       kind: youtube#video
       videoId: fwryf3TcSPA
@@ -3898,7 +3939,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 71
+    position: 72
     resourceId:
       kind: youtube#video
       videoId: d6X1xvDXewM
@@ -3936,7 +3977,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 72
+    position: 73
     resourceId:
       kind: youtube#video
       videoId: "-T6ypF7LoKk"
@@ -3971,10 +4012,727 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 73
+    position: 74
     resourceId:
       kind: youtube#video
       videoId: 662FccIWeOE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering at Red Hat Summit 2023
+  gathering_date: '2023-05-22'
+  gathering_videos:
+  - publishedAt: '2023-05-31T15:48:06Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Red Hat Summit and OpenShift Commons 2023 Recap
+    description: Red Hat distinguished engineers Derek Carr and Jeremy Eder reflect
+      on how much Red Hat solutions have evolved since their first Red Hat Summit
+      presentation five years ago.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/mvcPzQHpUW0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/mvcPzQHpUW0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/mvcPzQHpUW0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/mvcPzQHpUW0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/mvcPzQHpUW0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: mvcPzQHpUW0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-01T10:39:58Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Gathering at Red Hat Summit: Welcome to the Commons
+      - Collaboration in Action'
+    description: Karena Angell (Red Hat) welcomes the community to a lively OpenShift
+      Commons Gathering at the 2023 Red Hat Summit.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/U1e7nRA843E/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/U1e7nRA843E/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/U1e7nRA843E/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/U1e7nRA843E/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/U1e7nRA843E/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: U1e7nRA843E
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-01T09:00:46Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Gathering at Red Hat Summit: OpenShift - The Road Ahead'
+    description: Mike Barrett (Red Hat) and Derek Carr (Red Hat) openly discuss the
+      decisions they must make when a technology evolves including navigating the
+      constraints, cluster boundaries, application networking, AI workloads and open
+      source collaborations.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/3vjOCOLXExQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/3vjOCOLXExQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/3vjOCOLXExQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/3vjOCOLXExQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/3vjOCOLXExQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: 3vjOCOLXExQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-05-30T15:29:53Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Executive Fireside Chat at OpenShift Commons Gathering at Red Hat Summit
+      2023
+    description: Chris Wright (Red Hat), Tracy Rankin (Red Hat), Joe Fernandes (Red
+      Hat), and Karena Angell (Red Hat) discuss innovation in open source, the offerings
+      they are investing in on top of OpenShift, and the latest innovations in edge
+      and AI.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/HDkwtVbuL1w/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/HDkwtVbuL1w/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/HDkwtVbuL1w/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/HDkwtVbuL1w/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/HDkwtVbuL1w/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: HDkwtVbuL1w
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-06T20:03:33Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Audi''s Digital Transformation: to reduce friction and boost time to market'
+    description: Audi's digital transformation focuses on 'people first.' Sebastian
+      Kister, Product Team Lead for Audi AG's Container Competence Center & Platforms,
+      discusses his effort to bring a startup mentality into an enterprise.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/_3IfYLb_bbE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/_3IfYLb_bbE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/_3IfYLb_bbE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/_3IfYLb_bbE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/_3IfYLb_bbE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: _3IfYLb_bbE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-01T10:12:19Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Gathering at Red Hat Summit: OpenShift Futures -  Containerized
+      WASM'
+    description: Dan Walsh (Red Hat) discusses what Red Hat is doing with WASM in
+      OpenShift.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/YF3S9WqWZpU/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/YF3S9WqWZpU/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/YF3S9WqWZpU/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/YF3S9WqWZpU/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/YF3S9WqWZpU/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: YF3S9WqWZpU
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-01T14:31:04Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Case Study: Safely navigating storm clouds with OpenShift'
+    description: Deploying 150 OpenShift clusters to collect weather data and issue
+      storm alerts across the country? John Call (Red Hat) and Sean Webb (NOAA/Raytheon)
+      discuss how the National Oceanic & Atmospheric Association plans to use Red
+      Hat OpenShift Virtualization and Advanced Cluster Management for Kubernetes
+      to manage its complex infrastructure. They join us at the OpenShift Commons
+      Gathering at Red Hat Summit.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/aq1VFOiLi_0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/aq1VFOiLi_0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/aq1VFOiLi_0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/aq1VFOiLi_0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/aq1VFOiLi_0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: aq1VFOiLi_0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-01T15:46:55Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Case Study - Taming the pets: Managing a heterogenous and sovereign multi-cloud
+      container platform'
+    description: Michael Gruener (SBB) Lukas Reusser (SBB), part of Swiss Federal
+      Railways' container platform team present at the OpenShift Commons Gathering
+      at Red Hat Summit
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/eT5Dz3fziQY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/eT5Dz3fziQY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/eT5Dz3fziQY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/eT5Dz3fziQY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/eT5Dz3fziQY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: eT5Dz3fziQY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-15T19:21:42Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Gathering at Red Hat Summit: Case Study - Overcoming
+      Fake Cloud in Telco'
+    description: Jerrad DeBolt (SaskTel) and Aaron Chartier (SaskTel) discuss Telco
+      cloud and how SaskTel manages its container platform.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 8
+    resourceId:
+      kind: youtube#video
+      videoId: Nw3eMHWDCUc
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-02T16:01:25Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Case Study: The Use of Development Services and Enablement Teams to Guide
+      Technical Implementation'
+    description: Jim Wittermans, ABN AMRO Clearing Bank speaks at the OpenShift Commons
+      Gathering at Red Hat Summit about how to enable the global landscape on a global
+      platform.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 9
+    resourceId:
+      kind: youtube#video
+      videoId: J_c2_yBJ5bs
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-03T20:40:39Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Case Study: Citizen Banks'' journey to modernization through culture and
+      technology'
+    description: John Maciocci (Citizens Bank) and Suresh Ganesan (Citizens Bank)
+      discuss Citizen Banks' cloud platform features and capabilities at the OpenShift
+      Commons Gathering at Red Hat Summit 2023.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/e86IbJaPIFQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/e86IbJaPIFQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/e86IbJaPIFQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/e86IbJaPIFQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/e86IbJaPIFQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: e86IbJaPIFQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-03T20:40:49Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Case Study: Driving the evolution of Banco Original financial services'
+    description: Henrique Romao Oliveira (Banco Original) and Gabriel Sampaio (Red
+      Hat) discuss how Pix, the Brazilian Instant Payment service runs in the background.
+      They join us at the OpenShift Commons Gathering at Red Hat Summit 2023.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/UejmEiAptFE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/UejmEiAptFE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/UejmEiAptFE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/UejmEiAptFE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/UejmEiAptFE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 11
+    resourceId:
+      kind: youtube#video
+      videoId: UejmEiAptFE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-06-05T08:34:13Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Gathering at Red Hat Summit: User Experience Design
+      at Red Hat'
+    description: Andy Braren (Red Hat) discusses how Red Hat brings users into the
+      process when designing their platform experience.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/fe-OhqT_kxA/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/fe-OhqT_kxA/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/fe-OhqT_kxA/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/fe-OhqT_kxA/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/fe-OhqT_kxA/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 12
+    resourceId:
+      kind: youtube#video
+      videoId: fe-OhqT_kxA
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-05-30T18:20:35Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Boston Panel: Backstage Developer Platform'
+    description: How do you bring developer experience to your organization and modernize
+      the platform? Discussing this and more are Serena Chechile (Red Hat), Satish
+      Puranam (Ford Motor Company), Randeep Khaund (Deloitte Consulting), Adam Sykes
+      (Deloitte Consulting) and Christophe Fargette (Red Hat).
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/lQHMRXGB_pY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/lQHMRXGB_pY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/lQHMRXGB_pY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/lQHMRXGB_pY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/lQHMRXGB_pY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 13
+    resourceId:
+      kind: youtube#video
+      videoId: lQHMRXGB_pY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-08-02T15:01:23Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Red Hat and NVIDIA Partner to Bring AI to the Enterprise
+    description: How do you take generative AI and bring it into the enterprise sphere
+      where it has all the support, all the ecosystem engagement, and all the accelerated
+      infrastructure required to run it? NVIDIA's Amanda Saunders discusses how Red
+      Hat and NVIDIA are partnering to make this possible.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/6PZfKufNisM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/6PZfKufNisM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/6PZfKufNisM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/6PZfKufNisM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/6PZfKufNisM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 14
+    resourceId:
+      kind: youtube#video
+      videoId: 6PZfKufNisM
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-08-03T12:59:40Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Meeting Sustainability Goals with Project Kepler
+    description: 'Sandro Mazziotta demonstrates project Kepler, an open-source upstream
+      project that measures and optimizes workload energy consumption. The goal: to
+      lower a company''s carbon footprint.'
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 15
+    resourceId:
+      kind: youtube#video
+      videoId: Zh5jT5-GUdg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2023-08-07T02:27:58Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Cockroach Labs and Red Hat Partner to Modernize Applications with a Cloud
+      Native Database
+    description: CockroachDB, a cloud-native, distributed SQL database, helps Red
+      Hat OpenShift users on their path to the cloud.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/8_6MQdtd2ww/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/8_6MQdtd2ww/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/8_6MQdtd2ww/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/8_6MQdtd2ww/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/8_6MQdtd2ww/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 16
+    resourceId:
+      kind: youtube#video
+      videoId: 8_6MQdtd2ww
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-05-03T15:44:38Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: SaskTel's Cloud Native Journey
+    description: Jerrad DeBolt and Aaron Chartier discuss how SaskTel implemented
+      its cloud native Telco Cloud and some of the key features of its cloud deployment.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/6YMfzqHXfqg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/6YMfzqHXfqg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/6YMfzqHXfqg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/6YMfzqHXfqg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/6YMfzqHXfqg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 17
+    resourceId:
+      kind: youtube#video
+      videoId: 6YMfzqHXfqg
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-05-16T13:49:42Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Denver: Accelerating AI: Visions, Trends, and OpenShift'
+    description: "Erwan Gallen (Red Hat), Raghu Moorthy (Intel), Adam Tetelman (NVIDIA),
+      and Ramine Roane (AMD) join us from the Community Day and OpenShift Commons
+      Gathering at Red Hat Summit 2024 in Denver Colorado.\n\nOpenShift Commons Gathering
+      \nMay 6, 2024, Live from Red Hat Summit 2024 in Denver, Colorado\nJoin us: commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 18
+    resourceId:
+      kind: youtube#video
+      videoId: yqPg3F7dq7Y
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-05-16T14:40:10Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Denver: Scaling OpenShift cluster lifecycle management
+      at Garmin'
+    description: "Brett Summers (Garmin) and Jonathan Regehr (Garmin) discuss how
+      they leverage Jsonnet, Tekton & ArgoCD to scale OpenShift cluster lifecycle
+      management at Garmin. They join us from the Community Day and OpenShift Commons
+      Gathering at Red Hat Summit 2024 in Denver Colorado.\n\nOpenShift Commons Gathering
+      \nMay 6, 2024, Live from Red Hat Summit 2024 in Denver, Colorado\nJoin us: commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
+    position: 19
+    resourceId:
+      kind: youtube#video
+      videoId: BcKX-5Vz5fM
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: Seattle 2016
@@ -15180,723 +15938,6 @@ videos:
     resourceId:
       kind: youtube#video
       videoId: zeIyYn1n884
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-- gathering_title: OpenShift Commons Gathering at Red Hat Summit 2023
-  gathering_date: '2023-05-22'
-  gathering_videos:
-  - publishedAt: '2023-05-31T15:48:06Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Red Hat Summit and OpenShift Commons 2023 Recap
-    description: Red Hat distinguished engineers Derek Carr and Jeremy Eder reflect
-      on how much Red Hat solutions have evolved since their first Red Hat Summit
-      presentation five years ago.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/mvcPzQHpUW0/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/mvcPzQHpUW0/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/mvcPzQHpUW0/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/mvcPzQHpUW0/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/mvcPzQHpUW0/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 0
-    resourceId:
-      kind: youtube#video
-      videoId: mvcPzQHpUW0
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-01T10:39:58Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Gathering at Red Hat Summit: Welcome to the Commons
-      - Collaboration in Action'
-    description: Karena Angell (Red Hat) welcomes the community to a lively OpenShift
-      Commons Gathering at the 2023 Red Hat Summit.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/U1e7nRA843E/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/U1e7nRA843E/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/U1e7nRA843E/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/U1e7nRA843E/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/U1e7nRA843E/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 1
-    resourceId:
-      kind: youtube#video
-      videoId: U1e7nRA843E
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-01T09:00:46Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Gathering at Red Hat Summit: OpenShift - The Road Ahead'
-    description: Mike Barrett (Red Hat) and Derek Carr (Red Hat) openly discuss the
-      decisions they must make when a technology evolves including navigating the
-      constraints, cluster boundaries, application networking, AI workloads and open
-      source collaborations.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/3vjOCOLXExQ/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/3vjOCOLXExQ/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/3vjOCOLXExQ/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/3vjOCOLXExQ/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/3vjOCOLXExQ/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 2
-    resourceId:
-      kind: youtube#video
-      videoId: 3vjOCOLXExQ
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-05-30T15:29:53Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Executive Fireside Chat at OpenShift Commons Gathering at Red Hat Summit
-      2023
-    description: Chris Wright (Red Hat), Tracy Rankin (Red Hat), Joe Fernandes (Red
-      Hat), and Karena Angell (Red Hat) discuss innovation in open source, the offerings
-      they are investing in on top of OpenShift, and the latest innovations in edge
-      and AI.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/HDkwtVbuL1w/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/HDkwtVbuL1w/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/HDkwtVbuL1w/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/HDkwtVbuL1w/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/HDkwtVbuL1w/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 3
-    resourceId:
-      kind: youtube#video
-      videoId: HDkwtVbuL1w
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-06T20:03:33Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Audi''s Digital Transformation: to reduce friction and boost time to market'
-    description: Audi's digital transformation focuses on 'people first.' Sebastian
-      Kister, Product Team Lead for Audi AG's Container Competence Center & Platforms,
-      discusses his effort to bring a startup mentality into an enterprise.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/_3IfYLb_bbE/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/_3IfYLb_bbE/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/_3IfYLb_bbE/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/_3IfYLb_bbE/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/_3IfYLb_bbE/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 4
-    resourceId:
-      kind: youtube#video
-      videoId: _3IfYLb_bbE
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-01T10:12:19Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Gathering at Red Hat Summit: OpenShift Futures -  Containerized
-      WASM'
-    description: Dan Walsh (Red Hat) discusses what Red Hat is doing with WASM in
-      OpenShift.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/YF3S9WqWZpU/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/YF3S9WqWZpU/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/YF3S9WqWZpU/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/YF3S9WqWZpU/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/YF3S9WqWZpU/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 5
-    resourceId:
-      kind: youtube#video
-      videoId: YF3S9WqWZpU
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-01T14:31:04Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Case Study: Safely navigating storm clouds with OpenShift'
-    description: Deploying 150 OpenShift clusters to collect weather data and issue
-      storm alerts across the country? John Call (Red Hat) and Sean Webb (NOAA/Raytheon)
-      discuss how the National Oceanic & Atmospheric Association plans to use Red
-      Hat OpenShift Virtualization and Advanced Cluster Management for Kubernetes
-      to manage its complex infrastructure. They join us at the OpenShift Commons
-      Gathering at Red Hat Summit.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/aq1VFOiLi_0/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/aq1VFOiLi_0/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/aq1VFOiLi_0/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/aq1VFOiLi_0/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/aq1VFOiLi_0/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 6
-    resourceId:
-      kind: youtube#video
-      videoId: aq1VFOiLi_0
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-01T15:46:55Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Case Study - Taming the pets: Managing a heterogenous and sovereign multi-cloud
-      container platform'
-    description: Michael Gruener (SBB) Lukas Reusser (SBB), part of Swiss Federal
-      Railways' container platform team present at the OpenShift Commons Gathering
-      at Red Hat Summit
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/eT5Dz3fziQY/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/eT5Dz3fziQY/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/eT5Dz3fziQY/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/eT5Dz3fziQY/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/eT5Dz3fziQY/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 7
-    resourceId:
-      kind: youtube#video
-      videoId: eT5Dz3fziQY
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-15T19:21:42Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Gathering at Red Hat Summit: Case Study - Overcoming
-      Fake Cloud in Telco'
-    description: Jerrad DeBolt (SaskTel) and Aaron Chartier (SaskTel) discuss Telco
-      cloud and how SaskTel manages its container platform.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/Nw3eMHWDCUc/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 8
-    resourceId:
-      kind: youtube#video
-      videoId: Nw3eMHWDCUc
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-02T16:01:25Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Case Study: The Use of Development Services and Enablement Teams to Guide
-      Technical Implementation'
-    description: Jim Wittermans, ABN AMRO Clearing Bank speaks at the OpenShift Commons
-      Gathering at Red Hat Summit about how to enable the global landscape on a global
-      platform.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/J_c2_yBJ5bs/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 9
-    resourceId:
-      kind: youtube#video
-      videoId: J_c2_yBJ5bs
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-03T20:40:39Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Case Study: Citizen Banks'' journey to modernization through culture and
-      technology'
-    description: John Maciocci (Citizens Bank) and Suresh Ganesan (Citizens Bank)
-      discuss Citizen Banks' cloud platform features and capabilities at the OpenShift
-      Commons Gathering at Red Hat Summit 2023.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/e86IbJaPIFQ/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/e86IbJaPIFQ/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/e86IbJaPIFQ/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/e86IbJaPIFQ/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/e86IbJaPIFQ/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 10
-    resourceId:
-      kind: youtube#video
-      videoId: e86IbJaPIFQ
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-03T20:40:49Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Case Study: Driving the evolution of Banco Original financial services'
-    description: Henrique Romao Oliveira (Banco Original) and Gabriel Sampaio (Red
-      Hat) discuss how Pix, the Brazilian Instant Payment service runs in the background.
-      They join us at the OpenShift Commons Gathering at Red Hat Summit 2023.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/UejmEiAptFE/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/UejmEiAptFE/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/UejmEiAptFE/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/UejmEiAptFE/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/UejmEiAptFE/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 11
-    resourceId:
-      kind: youtube#video
-      videoId: UejmEiAptFE
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-06-05T08:34:13Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Gathering at Red Hat Summit: User Experience Design
-      at Red Hat'
-    description: Andy Braren (Red Hat) discusses how Red Hat brings users into the
-      process when designing their platform experience.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/fe-OhqT_kxA/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/fe-OhqT_kxA/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/fe-OhqT_kxA/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/fe-OhqT_kxA/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/fe-OhqT_kxA/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 12
-    resourceId:
-      kind: youtube#video
-      videoId: fe-OhqT_kxA
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-05-30T18:20:35Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Boston Panel: Backstage Developer Platform'
-    description: How do you bring developer experience to your organization and modernize
-      the platform? Discussing this and more are Serena Chechile (Red Hat), Satish
-      Puranam (Ford Motor Company), Randeep Khaund (Deloitte Consulting), Adam Sykes
-      (Deloitte Consulting) and Christophe Fargette (Red Hat).
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/lQHMRXGB_pY/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/lQHMRXGB_pY/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/lQHMRXGB_pY/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/lQHMRXGB_pY/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/lQHMRXGB_pY/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 13
-    resourceId:
-      kind: youtube#video
-      videoId: lQHMRXGB_pY
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-08-02T15:01:23Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Red Hat and NVIDIA Partner to Bring AI to the Enterprise
-    description: How do you take generative AI and bring it into the enterprise sphere
-      where it has all the support, all the ecosystem engagement, and all the accelerated
-      infrastructure required to run it? NVIDIA's Amanda Saunders discusses how Red
-      Hat and NVIDIA are partnering to make this possible.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/6PZfKufNisM/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/6PZfKufNisM/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/6PZfKufNisM/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/6PZfKufNisM/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/6PZfKufNisM/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 14
-    resourceId:
-      kind: youtube#video
-      videoId: 6PZfKufNisM
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-08-03T12:59:40Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Meeting Sustainability Goals with Project Kepler
-    description: 'Sandro Mazziotta demonstrates project Kepler, an open-source upstream
-      project that measures and optimizes workload energy consumption. The goal: to
-      lower a company''s carbon footprint.'
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/Zh5jT5-GUdg/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 15
-    resourceId:
-      kind: youtube#video
-      videoId: Zh5jT5-GUdg
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2023-08-07T02:27:58Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: Cockroach Labs and Red Hat Partner to Modernize Applications with a Cloud
-      Native Database
-    description: CockroachDB, a cloud-native, distributed SQL database, helps Red
-      Hat OpenShift users on their path to the cloud.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/8_6MQdtd2ww/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/8_6MQdtd2ww/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/8_6MQdtd2ww/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/8_6MQdtd2ww/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/8_6MQdtd2ww/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 16
-    resourceId:
-      kind: youtube#video
-      videoId: 8_6MQdtd2ww
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2024-05-03T15:44:38Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: SaskTel's Cloud Native Journey
-    description: Jerrad DeBolt and Aaron Chartier discuss how SaskTel implemented
-      its cloud native Telco Cloud and some of the key features of its cloud deployment.
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/6YMfzqHXfqg/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/6YMfzqHXfqg/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/6YMfzqHXfqg/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/6YMfzqHXfqg/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/6YMfzqHXfqg/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 17
-    resourceId:
-      kind: youtube#video
-      videoId: 6YMfzqHXfqg
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2024-05-16T13:49:42Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Denver: Accelerating AI: Visions, Trends, and OpenShift'
-    description: "Erwan Gallen (Red Hat), Raghu Moorthy (Intel), Adam Tetelman (NVIDIA),
-      and Ramine Roane (AMD) join us from the Community Day and OpenShift Commons
-      Gathering at Red Hat Summit 2024 in Denver Colorado.\n\nOpenShift Commons Gathering
-      \nMay 6, 2024, Live from Red Hat Summit 2024 in Denver, Colorado\nJoin us: commons.openshift.org"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/yqPg3F7dq7Y/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 18
-    resourceId:
-      kind: youtube#video
-      videoId: yqPg3F7dq7Y
-    videoOwnerChannelTitle: OpenShift
-    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
-  - publishedAt: '2024-05-16T14:40:10Z'
-    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Denver: Scaling OpenShift cluster lifecycle management
-      at Garmin'
-    description: "Brett Summers (Garmin) and Jonathan Regehr (Garmin) discuss how
-      they leverage Jsonnet, Tekton & ArgoCD to scale OpenShift cluster lifecycle
-      management at Garmin. They join us from the Community Day and OpenShift Commons
-      Gathering at Red Hat Summit 2024 in Denver Colorado.\n\nOpenShift Commons Gathering
-      \nMay 6, 2024, Live from Red Hat Summit 2024 in Denver, Colorado\nJoin us: commons.openshift.org"
-    thumbnails:
-      default:
-        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/default.jpg
-        width: 120
-        height: 90
-      medium:
-        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/mqdefault.jpg
-        width: 320
-        height: 180
-      high:
-        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/hqdefault.jpg
-        width: 480
-        height: 360
-      standard:
-        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/sddefault.jpg
-        width: 640
-        height: 480
-      maxres:
-        url: https://i.ytimg.com/vi/BcKX-5Vz5fM/maxresdefault.jpg
-        width: 1280
-        height: 720
-    channelTitle: OpenShift
-    playlistId: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
-    position: 19
-    resourceId:
-      kind: youtube#video
-      videoId: BcKX-5Vz5fM
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: Buenos Aires 2019
