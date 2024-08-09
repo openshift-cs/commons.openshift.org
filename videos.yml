@@ -12,6 +12,9 @@ gatherings:
   - title: 'Data Science at NVIDIA GTC 2020'
     date: '2020-10-09'
     youtube_playlist_id: 'PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L'
+  - title: 'OpenShift Commons Gathering at Red Hat Summit 2023'
+    date: '2023-05-22'
+    youtube_playlist_id: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
   - title: 'Seattle 2016'
     date: '2016-11-07'
     youtube_playlist_id: 'PLaR6Rq6Z4Iqfahozh6X_RJwGYx0i94qXc'
@@ -78,9 +81,6 @@ gatherings:
   - title: 'San Diego 2019'
     date: '2019-11-18'
     youtube_playlist_id: 'PLaR6Rq6Z4IqeeLZsa1p0TzB6abT46ywDg'
-  - title: 'OpenShift Commons Gathering at Red Hat Summit 2023'
-    date: '2023-05-22'
-    youtube_playlist_id: PLaR6Rq6Z4IqcltkOZJ2LTBE4wC021TJBu
   - title: 'Buenos Aires 2019'
     date: '2019-08-08'
     youtube_playlist_id: 'PLaR6Rq6Z4IqfTKTepIqpICs9NdR7VzpsM'
