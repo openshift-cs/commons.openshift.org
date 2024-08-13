@@ -2974,4 +2974,8 @@
   role: 'Latam ITS DC'
   company: 'Intel'
   photo: 'eugenio_orsini.jpg'
+- speaker_id: 'weslley_rosalem'
+  name: 'Weslley Rosalem'
+  role: 'Principal Specialist Solution Architect'
+  company: 'Red Hat'
 
