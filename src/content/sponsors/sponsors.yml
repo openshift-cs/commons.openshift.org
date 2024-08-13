@@ -49,4 +49,7 @@
 - name: 'Carahsoft'
   link: 'https://www.carahsoft.com/'
   logo: 'carahsoft.png'
+- name: 'Veeam'
+  link: 'https://www.veeam.com/'
+  logo: 'veeam_logo.png'
   
