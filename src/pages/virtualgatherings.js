@@ -1,9 +1,9 @@
 import React from 'react'
 import Seo from '../components/seo'
 import Callout from '../components/callout'
-import { Calendar, Youtube, Twitter, Edit } from 'react-feather'
+import { Info, Navigation } from 'react-feather'
 import { graphql, useStaticQuery } from 'gatsby'
-import DynamicForm from '../components/dynamic-form'
+
 
 export default function CommunityPage() {
   const headingStyle = 'font-headings text-3xl md:text-4xl lg:text-5xl text-base-800 mb-2 lg:mb-6'
@@ -62,51 +62,45 @@ export default function CommunityPage() {
 
         <div className="grid lg:grid-cols-2 my-12 md:my-0 gap-8 page-wrapper">
           <div className="flex flex-col h-full">
-            <h2 className={headingStyle}>Enrollment</h2>
+            <h2 className={headingStyle}>Virtural Gatherings</h2>
             <p className={paragraphStyle}>
               Our goals go beyond code contributions. Commons is a place for companies using
               OpenShift to accelerate its success and adoption. To do this we'll act as resources
               for each other, share best practices and provide a forum for peer-to-peer
               communication.
             </p>
-          </div>
-          <div className="lg:order-3">
-            <DynamicForm />
-          </div>
-          <div className="mt-8 lg:mt-0 lg:order-2 flex flex-col h-full">
-            <h2 className={headingStyle}>Contribute</h2>
+            &nbsp;
+            <h2 className={headingStyle}>Want to become Involved?</h2>
             <p className={paragraphStyle}>
-              Users, partners, customers, and contributors come together to collaborate and work
-              together on OpenShift.
+              Interested in sharing your own insight with the OpenShift Commons? Please fill out the <b><a href="https://red.ht/commons-general-speaking">Following Forum</a></b> 
             </p>
           </div>
+        
           <div className="flex flex-col gap-8 lg:order-4">
             <Callout
               className="lg:h-auto"
-              title="Past Briefings"
-              url="https://red.ht/commons-meeting-recordings"
-              icon={<Youtube alt="" />}
+              title="OpenShift Commons General Virtual Meeting"
+              url="https://red.ht/commons-general"
+              icon={<Info alt="" />}
             >
-              Check out our video library to learn about OpenShift&nbsp;topics.
+              <b>Every Wednesday at 12:00PM EST - 9:00AM&nbsp;PT</b>.
             </Callout>
             <Callout
               className="lg:h-auto"
-              title="Twitter"
+              title="OpenShift Commons SIG Virtual Meetings"
               type="warning"
-              url={twitter}
-              icon={<Twitter alt="" />}
+              url="/sigs/"
+              icon={< Navigation alt="" />}
             >
-              You can get blog and event announcements on Twitter as well as our
-              other&nbsp;channels.
+               <b>Every Other Tuesday at 12:00PM EST - 9:00AMPT</b> ~ Dive into more Centralized Discussions with SIGs; such as Edge or Validated&nbsp;Patterns.
             </Callout>
             <Callout
               className="lg:h-auto"
-              title="Join Great Sessions"
-              type="warning"
-              url="/events/"
-              icon={<Calendar alt="" />}
+              title="OpenShift Commons Gatherings"
+              url="/gatherings/"
+              icon={< Info alt="" />}
             >
-              Events are lead by an OpenShift expert who would love to answer any of your questions.
+               Interested in joining an On-Site Gathering? Review our upcoming conferences&nbsp;here.
             </Callout>
           </div>
         </div>
