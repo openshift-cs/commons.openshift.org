@@ -440,7 +440,7 @@ export default function SIGPage() {
               </AccordionItem>
             </Accordion.Root>
             <p className="mt-6 mb-2 text-center">
-              <IconBox title="Ready to join?" url="/join/" />
+              <IconBox title="Ready to join?" url="/virtualmeetings/" />
             </p>
             <div
               className="absolute w-full top-0 left-0 h-full pointer-events-none z-[-1]"

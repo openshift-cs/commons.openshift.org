@@ -18,8 +18,8 @@ export const Header = ({ siteTitle }) => {
 
   const MenuItems = [
     {
-      path: '/join/',
-      title: 'Join Us',
+      path: '/virtualgatherings/',
+      title: 'Virtual Gatherings',
     },
     /*{
       path: '/events/',
@@ -28,10 +28,6 @@ export const Header = ({ siteTitle }) => {
     {
       path: '/gatherings/',
       title: 'Gatherings',
-    },
-    {
-      path: '/gatherings/#videos',
-      title: 'Past Videos',
     },
     {
       path: '/sigs/',
