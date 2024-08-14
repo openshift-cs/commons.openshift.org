@@ -100,7 +100,7 @@ export default function IndexPage({ data }) {
             </p>
             <div className="flex flex-wrap gap-3">
               <IconBox title="Join us on Slack" url={slack} icon={<Slack alt="" />} />
-              <IconBox title="Join our community" url="/join/" icon={<Edit alt="" />} />
+              <IconBox title="Join our community" url="/virtualgatherings/" icon={<Edit alt="" />} />
             </div>
           </div>
           <div className="max-w-md w-full">
@@ -135,9 +135,6 @@ export default function IndexPage({ data }) {
             </li>
           </ul>
           <p className={ctaStyle}>Then OpenShift Commons is the right place for&nbsp;you.</p>
-          <p className="mt-6 mb-2 text-center">
-            <IconBox title="Ready to join?" url="/join/" />
-          </p>
         </div>
         <div
           className="absolute w-full hidden md:flex top-0 left-0 h-full pointer-events-none z-[-1]"
