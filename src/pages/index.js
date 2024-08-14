@@ -135,9 +135,6 @@ export default function IndexPage({ data }) {
             </li>
           </ul>
           <p className={ctaStyle}>Then OpenShift Commons is the right place for&nbsp;you.</p>
-          <p className="mt-6 mb-2 text-center">
-            <IconBox title="Ready to join?" url="/virtualgatherings/" />
-          </p>
         </div>
         <div
           className="absolute w-full hidden md:flex top-0 left-0 h-full pointer-events-none z-[-1]"
