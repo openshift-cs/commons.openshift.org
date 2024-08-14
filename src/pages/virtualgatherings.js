@@ -72,7 +72,7 @@ export default function CommunityPage() {
             &nbsp;
             <h2 className={headingStyle}>Want to become Involved?</h2>
             <p className={paragraphStyle}>
-              Interested in sharing your own insight with the OpenShift Commons? Please fill out the <b><a href="https://red.ht/commons-general-speaking">Following Forum</a></b> 
+              Interested in sharing your own insight with the OpenShift Commons? Please fill out the <b><a href="https://red.ht/commons-general-speaking">Following Forum.</a></b> 
             </p>
           </div>
         
