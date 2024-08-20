@@ -32,7 +32,7 @@ export default function CommunityPage() {
   return (
     <>
       <Seo title="Join Us" />
-      <section className="get-involved z-0 relative bg-base-700 dark:bg-base-100 py-16 lg:pt-24 lg:pb-40 after:z-[-1] after:text-transparent after:bg-low-poly after:rotate-180 after:bg-no-repeat after:w-full after:absolute after:h-full after:top-0 after:bg-left-bottom after:opacity-60 before:opacity-60 before:transform before:z-[-1] before:bg-low-poly before:bg-no-repeat before:text-transparent before:w-full before:absolute before:h-full before:top-0 before:bg-left-bottom overflow-hidden">
+      <section className=" z-0 py-12 md:pt-32 md:pb-40 lg:pt-40 relative dark:after:opacity-60 after:z-[-1] after:text-transparent after:bg-low-poly after:rotate-180 after:bg-no-repeat after:w-full after:absolute after:h-full after:top-0 after:bg-left-bottom after:opacity-60 before:opacity-60 before:transform before:z-[-1] before:bg-low-poly before:bg-no-repeat before:text-transparent before:w-full before:absolute before:h-full before:top-0 before:bg-left-bottom overflow-hidden">
         <div className="flex flex-col items-center page-wrapper">
           <h2 className={headingStyle}>Become a part of something bigger</h2>
           <p className={`${paragraphStyle} mt-6 text-center md:max-w-[64ch]`}>
