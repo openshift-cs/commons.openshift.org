@@ -32,20 +32,7 @@ export default function CommunityPage() {
   return (
     <>
       <Seo title="Join Us" />
-      <section className="light bg-primary-800 text-primary-200 flex flex-col justify-center items-center text-center min-h-[400px] px-4 md:px-6 py-4 md:py-0">
-        <div className="space-y-6 max-w-[900px]">
-          <h1 className="font-headings font-bold text-5xl md:text-6xl tracking-wide">
-            Join OpenShift Commons
-          </h1>
-          <p className="text-lg lg:text-xl max-w-[64ch]">
-            Commons builds connections and collaboration across OpenShift communities, projects and
-            stakeholders. In doing so we'll enable the success of customers, users, partners, and
-            contributors as we deepen our knowledge and experiences together.
-          </p>  
-        </div>
-      </section>
-
-      <section className="z-0 py-12 md:pt-32 md:pb-40 lg:pt-40 relative dark:before:opacity-60 dark:after:opacity-60 before:scale-x-[-1] before:z-[-1] before:bg-wave-pattern before:hue-rotate-[245deg] before:bg-no-repeat before:text-transparent before:w-full after:z-[-1] before:absolute before:h-full before:top-0 before:bg-left-top relative dark:after:opacity-60 after:z-[-1] after:text-transparent after:bg-wave-pattern after:rotate-180 after:hue-rotate-[245deg] after:bg-no-repeat after:w-full after:z-[-1] after:absolute after:h-full after:top-0 after:bg-left-top after:scale-x-[-1]">
+      <section className="get-involved z-0 relative bg-base-700 dark:bg-base-100 py-16 lg:pt-24 lg:pb-40 after:z-[-1] after:text-transparent after:bg-low-poly after:rotate-180 after:bg-no-repeat after:w-full after:absolute after:h-full after:top-0 after:bg-left-bottom after:opacity-60 before:opacity-60 before:transform before:z-[-1] before:bg-low-poly before:bg-no-repeat before:text-transparent before:w-full before:absolute before:h-full before:top-0 before:bg-left-bottom overflow-hidden">
         <div className="flex flex-col items-center page-wrapper">
           <h2 className={headingStyle}>Become a part of something bigger</h2>
           <p className={`${paragraphStyle} mt-6 text-center md:max-w-[64ch]`}>
@@ -100,7 +87,7 @@ export default function CommunityPage() {
         </div>
       </section>
 
-      <div className="z-0 py-12 lg:pt-32 md:pb-40 relative dark:before:opacity-60 dark:after:opacity-60 before:scale-x-[-1] before:z-[-1] before:hue-rotate-[245deg] before:bg-no-repeat before:text-transparent before:w-full after:z-[-1] before:absolute before:h-full before:top-0 before:bg-left-top after:text-transparent after:rotate-180 after:hue-rotate-[245deg] after:bg-no-repeat after:w-full after:z-[-1] after:absolute after:h-full after:top-0 after:bg-left-top after:scale-x-[-1]">
+      <div className="z-0 py-12 md:pt-32 md:pb-40 lg:pt-40 relative before:absolute before:bg-hero-waves dark:before:opacity-60 dark:after:opacity-60 before:scale-x-[-1] before:z-[-1] before:bg-wave-pattern before:hue-rotate-[245deg] before:bg-no-repeat before:text-transparent before:w-full after:z-[-1] before:absolute before:h-full before:top-0 before:bg-left-top relative dark:after:opacity-60 after:z-[-1] after:text-transparent after:bg-wave-pattern after:rotate-180 after:hue-rotate-[245deg] after:bg-no-repeat after:w-full after:z-[-1] after:absolute after:h-full after:top-0 after:bg-left-top after:scale-x-[-1]">
         <div className="absolute w-full top-0 left-0 h-full pointer-events-none z-[-1]" aria-hidden>
           <div
             style={{ bottom: '110px', left: '10vw' }}
@@ -132,7 +119,7 @@ export default function CommunityPage() {
             </p>
           </div>
         
-          <div className="flex flex-col gap-8 lg:order-4">
+          <div className="flex flex-col gap-20 lg:order-4">
             <Callout
               className="lg:h-auto"
               title="OpenShift Commons General Virtual Meeting"
@@ -147,25 +134,7 @@ export default function CommunityPage() {
               url="http://red.ht/commons-GENERAL-agenda"
               icon={< Info alt="" />}
             >
-               Interested in joining a Virtual or On-Site Gathering? Review our upcoming conferences&nbsp;here.
-            </Callout>
-            <Callout
-              className="lg:h-auto"
-              title="OpenShift Commons SIG Virtual Meetings"
-              type="warning"
-              url="/sigs/"
-              icon={< Navigation alt="" />}
-            >
-               Dive into more Centralized Discussions with SIGs; such as Edge or Validated&nbsp;Patterns.
-            </Callout>
-            <Callout
-              className="lg:h-auto"
-              title="OpenShift Commons SIG Agenda"
-              type="warning"
-              url="/sigs/"
-              icon={< Info alt="" />}
-            >
-               Interested in joining an Special Interest Group? Review our upcoming SIG conferences&nbsp;here.
+               Interested in joining a Virtual Gathering? Review our upcoming Gatherings&nbsp;here.
             </Callout>
           </div>
         </div>
