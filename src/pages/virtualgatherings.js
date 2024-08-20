@@ -105,7 +105,7 @@ export default function CommunityPage() {
 
         <div className="grid lg:grid-cols-2 my-12 md:my-0 gap-8 page-wrapper">
           <div className="flex flex-col h-full">
-            <h2 className={headingStyle}>Virtural Gatherings</h2>
+            <h2 className={headingStyle}>Virtual Gatherings</h2>
             <p className={paragraphStyle}>
               Our goals go beyond code contributions. Commons is a place for companies using
               OpenShift to accelerate its success and adoption. To do this we'll act as resources
@@ -115,14 +115,14 @@ export default function CommunityPage() {
             &nbsp;
             <h2 className={headingStyle}>Submit to Speak</h2>
             <p className={paragraphStyle}>
-              Interested in sharing your own insight with the OpenShift Commons? Please fill out and submit the <b><a href="https://red.ht/commons-general-speaking">Following Forum.</a></b> 
+              Interested in sharing your own insight with the OpenShift Commons? CFPs are Open <b><a href="https://red.ht/commons-general-speaking">Submit your talk here</a></b>
             </p>
           </div>
-        
+
           <div className="flex flex-col gap-20 lg:order-4">
             <Callout
               className="lg:h-auto"
-              title="OpenShift Commons General Virtual Meeting"
+              title="OpenShift Commons Virtual Meetings"
               url="https://red.ht/commons-general"
               icon={< Navigation alt="" />}
             >
@@ -130,11 +130,11 @@ export default function CommunityPage() {
             </Callout>
             <Callout
               className="lg:h-auto"
-              title="OpenShift Commons General Agenda"
+              title="OpenShift Commons Virtual Meetings -  Agenda"
               url="http://red.ht/commons-GENERAL-agenda"
               icon={< Info alt="" />}
             >
-               Interested in joining a Virtual Gathering? Review our upcoming Gatherings&nbsp;here.
+              Interested in joining a Virtual Gathering? Review our upcoming Gatherings&nbsp;here.
             </Callout>
           </div>
         </div>
