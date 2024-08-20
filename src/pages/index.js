@@ -100,6 +100,7 @@ export default function IndexPage({ data }) {
             </p>
             <div className="flex flex-wrap gap-3">
               <IconBox title="Join us on Slack" url={slack} icon={<Slack alt="" />} />
+              <IconBox title="Join our community" url="/virtualgatherings/" icon={<Edit alt="" />} />
             </div>
           </div>
           <div className="max-w-md w-full">

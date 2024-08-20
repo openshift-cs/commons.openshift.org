@@ -17,6 +17,10 @@ export const Header = ({ siteTitle }) => {
   }
 
   const MenuItems = [
+    {
+      path: '/virtualgatherings/',
+      title: 'Virtual Gatherings',
+    },
     /*{
       path: '/events/',
       title: 'Events',
