@@ -115,7 +115,7 @@ export default function CommunityPage() {
             &nbsp;
             <h2 className={headingStyle}>Submit to Speak</h2>
             <p className={paragraphStyle}>
-              Interested in sharing your own insight with the OpenShift Commons? CFPs are Open <b><a href="https://red.ht/commons-general-speaking">Submit your talk here</a></b>
+              Interested in sharing your own insight with the OpenShift Commons? CFPs are Open <b><a href="https://red.ht/commons-general-speaking" target="_blank">Submit your talk here</a></b>
             </p>
           </div>
 
@@ -131,7 +131,7 @@ export default function CommunityPage() {
             <Callout
               className="lg:h-auto"
               title="OpenShift Commons Virtual Meetings -  Agenda"
-              url="http://red.ht/commons-GENERAL-agenda"
+              url="https://red.ht/commons-GENERAL-agenda"
               icon={< Info alt="" />}
             >
               Interested in joining a Virtual Gathering? Review our upcoming Gatherings&nbsp;here.
