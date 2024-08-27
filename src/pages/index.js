@@ -4,7 +4,6 @@ import Seo from '../components/seo'
 import ParticipantsCarousel from '../components/participants-carousel'
 import { ArrowRight, ChevronsRight, Edit, FileText } from 'react-feather'
 import { ReactComponent as Slack } from '../images/slack-icon.svg'
-import { ReactComponent as SlackLarge } from '../images/slack-large.svg'
 import { ReactComponent as HomeBanner } from '../images/OpenShiftCommons.svg'
 import { StaticImage } from 'gatsby-plugin-image'
 import IconBox from '../components/iconbox'
@@ -42,38 +41,17 @@ export default function IndexPage({ data }) {
     )
   }
 
-  const Office1 = () => (
+  const CommonsGathering = () => (
     <StaticImage
-      src="../images/meetup-paris.jpg"
-      alt="OpenShift Commons Paris Meetup"
-      aspectRatio="1.6"
-      className="h-full rounded-lg"
-      width="1028"
-    />
-  )
-  const Briefing2 = () => (
-    <StaticImage
-      src="../images/briefing-2.jpg"
+      src="../images/commons-gathering.png"
       alt="A Commons briefing presentation"
       className="h-full rounded-lg"
-      width="760"
-      height="350"
     />
   )
-  const Office3 = () => (
+  const CommonsResources = () => (
     <StaticImage
-      src="../images/officehours.jpg"
+      src="../images/commons-resources.png"
       alt="A Commons office hours event"
-      className="h-full rounded-lg"
-      width="760"
-      height="350"
-    />
-  )
-
-  const OfficeHoursStacked = () => (
-    <StaticImage
-      src="../images/office-hours.jpg"
-      alt="Office Hours"
       className="h-full rounded-lg"
     />
   )
@@ -95,8 +73,7 @@ export default function IndexPage({ data }) {
               <span className="text-base-800 dark:text-base-700">OpenShift Commons</span>
             </h1>
             <p className={`${paragraphStyle} my-6 lg:my-8`}>
-              Where users, partners, customers, and contributors come together to collaborate and
-              work together on OpenShift.
+              To provide a platform where users, partners, customers, and contributors come together to collaborate, learn, share knowledge and work together on any topics related to OpenShift.
             </p>
             <div className="flex flex-wrap gap-3">
               <IconBox title="Join us on Slack" url={slack} icon={<Slack alt="" />} />
@@ -180,20 +157,11 @@ export default function IndexPage({ data }) {
             <CallToAction last url="https://okd.io" title="Collaborate with the community" />
           </div>
           <div className="light md:w-3/5 grid grid-cols-6 gap-3 lg:gap-4 rounded-lg p-3 lg:p-4 bg-tertiary-400 bg-opacity-40">
-            <div className={`col-span-4 row-span-2 ${mosaicImgStyle} ${mosaicImgOverlay}`}>
-              <Office1 />
-            </div>
-            <div className={`col-span-2 ${mosaicImgStyle} lg:px-8 bg-tertiary-900`}>
-              <SlackLarge className="p-2 lg:p-6" />
-            </div>
-            <div className={`col-span-2 ${mosaicImgStyle} lg:px-8 bg-[#1B1F6C]`}>
-              <OfficeHoursStacked className="p-2 lg:p-6" />
+            <div className={`col-span-3 ${mosaicImgStyle} ${mosaicImgOverlay}`}>
+              <CommonsGathering />
             </div>
             <div className={`col-span-3 ${mosaicImgStyle} ${mosaicImgOverlay}`}>
-              <Briefing2 />
-            </div>
-            <div className={`col-span-3 ${mosaicImgStyle} ${mosaicImgOverlay}`}>
-              <Office3 />
+              <CommonsResources />
             </div>
           </div>
         </div>
