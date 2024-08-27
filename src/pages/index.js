@@ -156,7 +156,7 @@ export default function IndexPage({ data }) {
             />
             <CallToAction last url="https://okd.io" title="Collaborate with the community" />
           </div>
-          <div className="light md:w-3/5 grid grid-cols-6 gap-3 lg:gap-4 rounded-lg p-3 lg:p-4 bg-tertiary-400 bg-opacity-40">
+          <div className="light md:w-3/5 grid grid-cols-2 gap-3 lg:gap-4 rounded-lg p-3 lg:p-4 bg-tertiary-400 bg-opacity-40">
             <div className={`col-span-3 ${mosaicImgStyle} ${mosaicImgOverlay}`}>
               <CommonsGathering />
             </div>
