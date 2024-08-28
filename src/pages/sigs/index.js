@@ -179,20 +179,128 @@ export default function SIGPage() {
                   </div>
                 </div>
                 <h3 className={h3Style}>Links</h3>
-                <div className="grid lg:grid-cols-2 my-8 lg:my-0 gap-8 page-wrapper">
+                <p className={paragraphStyle}>
+                  Ready to join us? Check out the AGENDA doc, join the SLACK channel, and add us to your CALENDAR. 
+                  Missed a session? Take a look at our PLAYLIST and SUBMIT a talk for a future session.
+                </p>
+                <div className="grid lg:grid-cols-5 my-8 lg:my-0 gap-8 page-wrapper">
                   <Callout
-                    title="Missed a session?"
-                    url="https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqf8CbyJFX9vSVxBc9sBTIKK"
+                    title="AGENDA"
+                    url="http://red.ht/commons-vpsig-agenda"
                     icon={<ExternalLink alt="" />}
                   >
-                    Check out our Validated Patterns SIG Playlist
                   </Callout>
                   <Callout
-                    title="Do you have an experience you’d like to discuss?"
-                    url="https://forms.gle/E7w3iCgX3PaRsf9P6"
+                    title="SLACK"
+                    type="warning"
+                    url="https://openshiftcommons.slack.com/archives/C059ABEU2ET"
                     icon={<ExternalLink alt="" />}
                   >
-                    Submit a session
+                  </Callout>
+                  <Callout
+                    title="CALENDAR"
+                    url="https://calendar.google.com/calendar/u/0?cid=b3BlbnNoaWZ0Y29tbW9uc3JoQGdtYWlsLmNvbQ"
+                    icon={<ExternalLink alt="" />}
+                  >
+                  </Callout>
+                  <Callout
+                    title="PLAYLIST"
+                    type="warning"
+                    url="https://youtube.com/playlist?list=PLaR6Rq6Z4Iqf8CbyJFX9vSVxBc9sBTIKK&si=vDh82Ur4GUixyS9I"
+                    icon={<ExternalLink alt="" />}
+                  >
+                  </Callout>
+                  <Callout
+                    title="SUBMIT"
+                    url="https://forms.gle/3QjcCiB6oZsBMM1u6"
+                    icon={<ExternalLink alt="" />}
+                  >
+                  </Callout>
+                </div>
+              </AccordionItem>
+                      
+              <AccordionItem title="Data SIG" icon={<ModernTriangle alt="" />}>
+                <p className={paragraphStyle}>
+                  The Data Special Interest Group (SIG) is a forum for lively interactions about all things data related. 
+                  Whether you’re working on solutions for Storage and Data Services, Business Continuity and Disaster Recovery, 
+                  Databases and Data Cache, Data Discovery and Federation—<b>THIS IS THE PLACE TO BE!</b>
+                </p>
+                <div className="mb-8 flex flex-col lg:flex-row lg:space-x-8 text-left">
+                  <div className="w-full lg:w-1/2">
+                    <h3 className={h3Style}>Introduction</h3>
+                    <p className={paragraphStyle}>
+                      Check out this video on data storage modalities and use cases. Just one of many subjects open for discussion.
+                    </p>
+                    <div className="video-embed mb-8">
+                      <iframe
+                        title="YouTube Video"
+                        src="https://www.youtube.com/embed/PGVzrcgC16g?si=noIGqdC3D5pOs-XR"
+                        frameborder="0"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div className="lg:w-1/2">
+                    <h3 className={h3Style}>Principles</h3>
+                    <ul className="mb-4 list-disc ml-4 text-lg">
+                      <li className="mb-4">Persistence and Storage in Kubernetes</li>
+                      <li className="mb-4">Business Continuity</li>
+                      <li className="mb-4">Disaster Recovery strategies</li>
+                      <li className="mb-4">Data security and governance</li>
+                      <li className="mb-4">Databases, Vectors, and Graphs</li>
+                      <li className="mb-4">Warehouses, Data Lakes, & Lake Houses</li>
+                      <li className="mb-4">Data discovery and federation</li>
+                      <li className="mb-4">Search and queries</li>
+                    </ul>
+                    <h4 className={h4Style}>About the Data SIG</h4>
+                    <p className={paragraphStyle}>
+                      Come join fellow practitioners, share ideas, successes, questions. 
+                      This SIG is open to a wide breadth of topics across industries and workloads. 
+                      Talks may include subjects such as data concerns in modern Virtualization platforms, 
+                      backup and recovery best practices to address Ransomware attacks, federated queries 
+                      driving better business insights, database resiliency in Kubernetes, how organizations 
+                      are using vector and graph databases for Generative AI, and so much more!
+                    </p>
+                  </div>
+                </div>
+                <h3 className={h3Style}>Links</h3>
+                <p className={paragraphStyle}>
+                  Ready to join us? Check out the AGENDA doc, join the SLACK channel, and add us to your CALENDAR. 
+                  Missed a session? Take a look at our PLAYLIST and SUBMIT a talk for a future session.
+                </p>
+                <div className="grid lg:grid-cols-5 my-8 lg:my-0 gap-8 page-wrapper">
+                  <Callout
+                    title="AGENDA"
+                    url="http://red.ht/commons-datasig-agenda"
+                    icon={<ExternalLink alt="" />}
+                  >
+                  </Callout>
+                  <Callout
+                    title="SLACK"
+                    type="warning"
+                    url="https://openshiftcommons.slack.com/archives/C07JKN0J5C6"
+                    icon={<ExternalLink alt="" />}
+                  >
+                  </Callout>
+                  <Callout
+                    title="CALENDAR"
+                    url="https://calendar.google.com/calendar/u/0?cid=b3BlbnNoaWZ0Y29tbW9uc3JoQGdtYWlsLmNvbQ"
+                    icon={<ExternalLink alt="" />}
+                  >
+                  </Callout>
+                  <Callout
+                    title="PLAYLIST"
+                    type="warning"
+                    url="https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqe0ROvj-HUjoMV0LXQ3aQq4"
+                    icon={<ExternalLink alt="" />}
+                  >
+                  </Callout>
+                  <Callout
+                    title="SUBMIT"
+                    url="https://forms.gle/UnMQH9NJoEsgL8n89"
+                    icon={<ExternalLink alt="" />}
+                  >
                   </Callout>
                 </div>
               </AccordionItem>
