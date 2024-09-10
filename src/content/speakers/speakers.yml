@@ -2984,4 +2984,9 @@
   role: 'Principal Specialist Solution Architect'
   company: 'Red Hat'
   photo: 'weslley_rosalem.jpeg'
+- speaker_id: 'blair_mcduff'
+  name: 'Blair McDuff'
+  role: 'Account Executive'
+  company: 'Crunchy Data'
+  photo: 'blair_mcduff.jpg'
 
