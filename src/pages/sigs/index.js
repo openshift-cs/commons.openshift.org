@@ -10,7 +10,7 @@ import {
   ExternalLink,
   Flag,
   Power,
-  Share-2,
+  Share2,
   Shield,
   Smartphone,
   Tool,
@@ -186,7 +186,7 @@ export default function SIGPage() {
                     url="http://red.ht/commons-vpsig-agenda"
                     icon={<ExternalLink alt="" />}
                   >
-                  Get info & notes
+                    Get info & notes
                   </Callout>
                   <Callout
                     title="SLACK"
@@ -194,14 +194,14 @@ export default function SIGPage() {
                     url="https://openshiftcommons.slack.com/archives/C059ABEU2ET"
                     icon={<ExternalLink alt="" />}
                   >
-                  Join the conversation
+                    Join the conversation
                   </Callout>
                   <Callout
                     title="CALENDAR"
                     url="https://calendar.google.com/calendar/u/0?cid=b3BlbnNoaWZ0Y29tbW9uc3JoQGdtYWlsLmNvbQ"
                     icon={<ExternalLink alt="" />}
                   >
-                  Add the Commons calendar
+                    Add the Commons calendar
                   </Callout>
                   <Callout
                     title="PLAYLIST"
@@ -209,26 +209,26 @@ export default function SIGPage() {
                     url="https://youtube.com/playlist?list=PLaR6Rq6Z4Iqf8CbyJFX9vSVxBc9sBTIKK&si=vDh82Ur4GUixyS9I"
                     icon={<ExternalLink alt="" />}
                   >
-                  View previous sessions
+                    View previous sessions
                   </Callout>
                   <Callout
                     title="SUBMIT"
                     url="https://forms.gle/3QjcCiB6oZsBMM1u6"
                     icon={<ExternalLink alt="" />}
                   >
-                  Submit a session
+                    Submit a session
                   </Callout>
                 </div>
                 <p className={paragraphStyle}>
-                  Ready to join us? Check out the <b>Agenda</b> doc, join the <b>Slack</b> channel, and add us to your <b>Calendar</b>. 
+                  Ready to join us? Check out the <b>Agenda</b> doc, join the <b>Slack</b> channel, and add us to your <b>Calendar</b>.
                   Missed a session? Take a look at our <b>Playlist</b> and <b>Submit</b> a talk for a future session.
                 </p>
               </AccordionItem>
-                      
-              <AccordionItem title="Data" icon={<Share-2 alt="" />}>
+
+              <AccordionItem title="Data" icon={<Share2 alt="" />}>
                 <p className={paragraphStyle}>
-                  The Data Special Interest Group (SIG) is a forum for lively interactions about all things data related. 
-                  Whether you’re working on solutions for Storage and Data Services, Business Continuity and Disaster Recovery, 
+                  The Data Special Interest Group (SIG) is a forum for lively interactions about all things data related.
+                  Whether you’re working on solutions for Storage and Data Services, Business Continuity and Disaster Recovery,
                   Databases and Data Cache, Data Discovery and Federation—<b>THIS IS THE PLACE TO BE!</b>
                 </p>
                 <div className="mb-8 flex flex-col lg:flex-row lg:space-x-8 text-left">
@@ -261,11 +261,11 @@ export default function SIGPage() {
                     </ul>
                     <h4 className={h4Style}>About the Data SIG</h4>
                     <p className={paragraphStyle}>
-                      Come join fellow practitioners, share ideas, successes, questions. 
-                      This SIG is open to a wide breadth of topics across industries and workloads. 
-                      Talks may include subjects such as data concerns in modern Virtualization platforms, 
-                      backup and recovery best practices to address Ransomware attacks, federated queries 
-                      driving better business insights, database resiliency in Kubernetes, how organizations 
+                      Come join fellow practitioners, share ideas, successes, questions.
+                      This SIG is open to a wide breadth of topics across industries and workloads.
+                      Talks may include subjects such as data concerns in modern Virtualization platforms,
+                      backup and recovery best practices to address Ransomware attacks, federated queries
+                      driving better business insights, database resiliency in Kubernetes, how organizations
                       are using vector and graph databases for Generative AI, and so much more!
                     </p>
                   </div>
@@ -277,7 +277,7 @@ export default function SIGPage() {
                     url="http://red.ht/commons-datasig-agenda"
                     icon={<ExternalLink alt="" />}
                   >
-                  Get info & notes
+                    Get info & notes
                   </Callout>
                   <Callout
                     title="SLACK"
@@ -285,14 +285,14 @@ export default function SIGPage() {
                     url="https://openshiftcommons.slack.com/archives/C07JKN0J5C6"
                     icon={<ExternalLink alt="" />}
                   >
-                  Join the conversation
+                    Join the conversation
                   </Callout>
                   <Callout
                     title="CALENDAR"
                     url="https://calendar.google.com/calendar/u/0?cid=b3BlbnNoaWZ0Y29tbW9uc3JoQGdtYWlsLmNvbQ"
                     icon={<ExternalLink alt="" />}
                   >
-                  Add the Commons calendar
+                    Add the Commons calendar
                   </Callout>
                   <Callout
                     title="PLAYLIST"
@@ -300,18 +300,18 @@ export default function SIGPage() {
                     url="https://www.youtube.com/playlist?list=PLaR6Rq6Z4Iqe0ROvj-HUjoMV0LXQ3aQq4"
                     icon={<ExternalLink alt="" />}
                   >
-                  View previous sessions
+                    View previous sessions
                   </Callout>
                   <Callout
                     title="SUBMIT"
                     url="https://forms.gle/UnMQH9NJoEsgL8n89"
                     icon={<ExternalLink alt="" />}
                   >
-                  Submit a session
+                    Submit a session
                   </Callout>
                 </div>
                 <p className={paragraphStyle}>
-                  Ready to join us? Check out the <b>Agenda</b> doc, join the <b>Slack</b> channel, and add us to your <b>Calendar</b>. 
+                  Ready to join us? Check out the <b>Agenda</b> doc, join the <b>Slack</b> channel, and add us to your <b>Calendar</b>.
                   Missed a session? Take a look at our <b>Playlist</b> and <b>Submit</b> a talk for a future session.
                 </p>
               </AccordionItem>
