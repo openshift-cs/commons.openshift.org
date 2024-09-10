@@ -52,4 +52,6 @@
 - name: 'Veeam'
   link: 'https://www.veeam.com/'
   logo: 'veeam_logo.png'
-  
+- name: 'EDB'
+  link: 'https://https://www.enterprisedb.com/'
+  logo: 'edb.png'
