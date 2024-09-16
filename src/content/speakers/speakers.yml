@@ -2989,4 +2989,9 @@
   role: 'Account Executive'
   company: 'Crunchy Data'
   photo: 'blair_mcduff.jpg'
+- speaker_id: 'andy_gower'
+  name: 'Andy Gower'
+  role: 'Head of Partner & Solutions Marketing'
+  company: 'Portworx'
+  photo: 'andy_gower.jpeg'
 
