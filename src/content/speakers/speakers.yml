@@ -3089,4 +3089,8 @@
   role: 'Senior Product Marketing Manager'
   company: 'Red Hat'
   photo: 'younes_ben_brahim.jpeg'
+- speaker_id: 'varodrig'
+  name: 'Valentina Rodriguez Sosa'
+  role: 'Principal Technical Marketing Manager'
+  company: 'Red Hat'
 
