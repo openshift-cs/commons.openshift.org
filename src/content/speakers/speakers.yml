@@ -3093,4 +3093,10 @@
   name: 'Valentina Rodriguez Sosa'
   role: 'Principal Technical Marketing Manager'
   company: 'Red Hat'
+  photo: 'valentina_rodriguez.jpeg'
+- speaker_id: 'anjali_telang'
+  name: 'Anjali Telang'
+  role: 'Principal Product Manager'
+  company: 'Red Hat'
+  photo: 'anjali_telang.jpeg'
 
