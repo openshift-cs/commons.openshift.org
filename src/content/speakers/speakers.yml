@@ -3094,4 +3094,8 @@
   role: 'Principal Product Manager'
   company: 'Red Hat'
   photo: 'jamie_parker.jpg'
-
+- speaker_id: 'amy_marrich'
+  name: 'Amy Marrich'
+  role: 'Principal Technical Marketing Manager'
+  company: 'Red Hat'
+  photo: 'amy_marrich.jpg'
