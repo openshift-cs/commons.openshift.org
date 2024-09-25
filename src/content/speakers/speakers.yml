@@ -1454,7 +1454,7 @@
   company: 'Red Hat'
   url: 'https://www.openshift.com'
   intro: 'Mike Barrett is the Vice President and General Manager of Red Hat Hybrid Platforms. He looks after Red Hat OpenShift, Red Hat Cloud Services, Red Hat OpenStack, Red Hat Virtualization, and most of Red Hat’s Cloud Native Computing Foundation investments.
-  
+
   He joined Red Hat in 2013 and specializes in accelerating application platforms through the use of operating systems, cloud and hardware technologies. Mike has more than 25 years of experience in datacenter architecture. He previously worked in both services and product management roles at Sun Microsystems and Oracle before joining Red Hat.'
   photo: 'mike_barrett.jpg'
 - speaker_id: 'derek_carr'
@@ -3115,4 +3115,6 @@
   role: 'Principal Technical Marketing Manager'
   company: 'Red Hat'
   photo: 'amy_marrich.jpg'
+- speaker_id: 'jamie_magiera'
+  name: 'Jamie Magiera'
 
