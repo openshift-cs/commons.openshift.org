@@ -3117,4 +3117,6 @@
   photo: 'amy_marrich.jpg'
 - speaker_id: 'jamie_magiera'
   name: 'Jamie Magiera'
+  role: 'Senior Systems Engineer'
+  company: 'CSX'
 
