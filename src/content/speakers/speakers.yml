@@ -3242,3 +3242,12 @@ With more than 12 years of experience in the IT industry, Francisco has been wit
   role: 'Senior Consultant'
   company: 'Red Hat'
   photo: 'idan_henik.png'
+- speaker_id: 'eylon_ifshiz'
+  name: 'Eylon Lifshiz'
+  role: 'PaaS Team Leader'
+  company: 'MoD'
+- speaker_id: 'matan_kriel'
+  name: 'Matan Kriel'
+  role: 'CaaS Team Leader'
+  company: 'MoD'
+
