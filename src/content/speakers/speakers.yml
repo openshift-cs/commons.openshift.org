@@ -2590,7 +2590,7 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Red Hat'
   role: 'Principal Software Engineer, Emerging Technologies'
   photo: 'sally_omalley.jpg'
-  info: 'Sally Ann O'Malley is a principal software engineer at Red Hat. She has worked on various teams within OpenShift. Currently, she works with Emerging Technologies, within the Office of the CTO. She enjoys combining open-source tools in creative ways to solve complex problems. Occasionally, she creates something new!'
+  info: 'Sally Ann O Malley is a principal software engineer at Red Hat. She has worked on various teams within OpenShift. Currently, she works with Emerging Technologies, within the Office of the CTO. She enjoys combining open-source tools in creative ways to solve complex problems. Occasionally, she creates something new!'
 - speaker_id: 'matt_butcher'
   name: 'Matt Butcher'
   company: 'Fermyon'
