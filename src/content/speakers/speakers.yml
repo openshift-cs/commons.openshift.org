@@ -3104,7 +3104,7 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   role: 'Distinguished Engineer'
   company: 'Red Hat'
   photo: 'mrunal_patel.jpeg'
-  intro: 'Mrunal Patel is a Distinguished engineer at Red Hat working on OpenShift and Kubernetes. He serves as a Kubernetes SIG-Node Chair and Technical Lead, contributing to the evolution of container orchestration. As a founder of the CRI-O container runtime and a maintainer of the OCI runtime spec and runc, Mrunal played a pivotal role in advancing containerization and runtime standards.
+  intro: 'Mrunal Patel is a Distinguished engineer at Red Hat working on OpenShift and Kubernetes. He serves as a Kubernetes SIG-Node Chair and Technical Lead, contributing to the evolution of container orchestration. As a founder of the CRI-O container runtime and a maintainer of the OCI runtime spec and runc, Mrunal played a pivotal role in advancing containerization and runtime standards.'
 - speaker_id: 'prasanth_anbalagan'
   name: 'Prasanth Anbalagan'
   role: 'Senior Principal Technical Marketing Manager'
