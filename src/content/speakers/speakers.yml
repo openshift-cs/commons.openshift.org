@@ -3253,3 +3253,10 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Red Hat'
   photo: 'michael_clifford.jpeg'
   intro: 'Michael Clifford is a Principal Data Scientist in the Office of the CTO at Red Hat. He is a member of the Emerging Technologies team where he focuses primarily on the intersection of AI tools and cloud native development.'
+- speaker_id: 'michael_mccune'
+  name: 'Michael McCune'
+  role: 'Senior Principal Software Engineer'
+  company: 'Red Hat'
+  photo: 'michael_mccune.png'
+  intro: 'Michael McCune is a software developer creating open source infrastructure and applications for cloud platforms. He has a passion for problem solving and team building, and a lifelong love of music, food, and culture.'
+
