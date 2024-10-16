@@ -1455,8 +1455,7 @@
   company: 'Red Hat'
   url: 'https://www.openshift.com'
   photo: 'mike_barrett.jpg'
-  intro: 'Mike Barrett is the Vice President and General Manager of Red Hat Hybrid Platforms. He looks after Red Hat OpenShift, Red Hat Cloud Services, Red Hat OpenStack and most of Red Hat’s Cloud Native Computing Foundation investments.
-He joined Red Hat in 2013 and specializes in accelerating application platforms through the use of operating systems, cloud and hardware technologies. Mike has more than 25 years of experience in datacenter architecture. He previously worked in both services and product management roles at Sun Microsystems and Oracle before joining Red Hat.'
+  intro: 'Mike Barrett is the Vice President and General Manager of Red Hat Hybrid Platforms. He looks after Red Hat OpenShift, Red Hat Cloud Services, Red Hat OpenStack and most of Red Hat’s Cloud Native Computing Foundation investments. He joined Red Hat in 2013 and specializes in accelerating application platforms through the use of operating systems, cloud and hardware technologies. Mike has more than 25 years of experience in datacenter architecture. He previously worked in both services and product management roles at Sun Microsystems and Oracle before joining Red Hat.'
 - speaker_id: 'derek_carr'
   name: 'Derek Carr'
   role: 'Senior Principal Software Engineer'
@@ -3259,4 +3258,9 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Red Hat'
   photo: 'michael_mccune.png'
   intro: 'Michael McCune is a software developer creating open source infrastructure and applications for cloud platforms. He has a passion for problem solving and team building, and a lifelong love of music, food, and culture.'
-
+- speaker_id: 'jeff_demoss'
+  name: 'Jeff DeMoss'
+  role: 'AI Product Management Director'
+  company: 'Red Hat'
+  photo: ''
+  intro: ''
