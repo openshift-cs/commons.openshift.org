@@ -3258,4 +3258,10 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Red Hat'
   photo: 'michael_mccune.png'
   intro: 'Michael McCune is a software developer creating open source infrastructure and applications for cloud platforms. He has a passion for problem solving and team building, and a lifelong love of music, food, and culture.'
+- speaker_id: 'ravi_rao'
+  name: 'Ravi Rao'
+  role: 'Principal Architect'
+  company: 'Mastercard Inc'
+  photo: 'ravi_rao.jpeg'
+  intro: 'Ravishankar Rao is Principal Architect at Mastercard Inc. He is a seasoned technology leader with a passion for designing and implementing large-scale distributed systems. With extensive experience in creating on-prem platforms with GPU compute capabilities, Ravishankar has successfully architected and implemented scalable and resilient infrastructure solutions. He is the architect behind Mastercard's AI-Workbench, a cutting-edge AI/ML platform that enables rapid prototyping, training, and deployment of machine learning models. Ravishankar is a strong advocate for automation, CI/CD, and Zero Trust frameworks, and has a proven track record of delivering innovative solutions that drive business growth. He is currently exploring the application of Large Language Models (LLMs), and is working on expanding the capabilities of AI-Workbench to support LLM Ops.'
 
