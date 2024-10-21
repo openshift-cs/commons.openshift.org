@@ -3264,4 +3264,9 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Mastercard'
   photo: 'ravi_rao.jpeg'
   intro: 'Ravishankar Rao is Principal Architect at Mastercard Inc. He is a seasoned technology leader with a passion for designing and implementing large-scale distributed systems. With extensive experience in creating on-prem platforms with GPU compute capabilities, Ravishankar has successfully architected and implemented scalable and resilient infrastructure solutions. He is the architect behind Mastercards AI-Workbench, a cutting-edge AI/ML platform that enables rapid prototyping, training, and deployment of machine learning models. Ravishankar is a strong advocate for automation, CI/CD, and Zero Trust frameworks, and has a proven track record of delivering innovative solutions that drive business growth. He is currently exploring the application of Large Language Models (LLMs), and is working on expanding the capabilities of AI-Workbench to support LLM Ops.'
+- speaker_id: 'carl_evans'
+  name: 'Carl Evans'
+  role: 'Senior HPC Specialist'
+  company: 'New York University'
+  intro: 'Carl has worked in the IT industry for over a decade. He is a senior HPC specialist at New York University, focused on designing cloud native solutions to facilitate academic research and promoting the adoption of enterprise automation, microservices and event driven architecture throughout research technology. Previously, he was a Senior Systems Engineer at Columbia University Medical Center, where he managed HPC and cloud operations at the Institute for Genomic Medicine. He also worked for UCLA where he managed research and instructional technology for the Department of Atmospheric and Oceanic Sciences.'
 
