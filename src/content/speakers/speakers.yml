@@ -2299,6 +2299,7 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Red Hat'
   role: 'Senior Manager, OpenShift Product Manager'
   intro: 'Ju Lim is a Senior Manager, OpenShift Product Management and Distinguished Engineer. She works on the core Red Hat OpenShift Container Platform for hybrid and multi-cloud environments to enable customers to run Red Hat OpenShift anywhere. Ju leads the product management teams responsible for installation, updates, provider integration, and cloud infrastructure.'
+  photo: 'ju_lim.jpg'
 - speaker_id: 'peter_lauterbach'
   name: 'Peter Lauterbach'
   role: 'Senior Principal Technical Product Manager'
