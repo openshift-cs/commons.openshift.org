@@ -3269,6 +3269,7 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   name: 'Carl Evans'
   role: 'Senior HPC Specialist'
   company: 'New York University'
+  photo: 'carl_evans.jpg'
   intro: 'Carl has worked in the IT industry for over a decade. He is a senior HPC specialist at New York University, focused on designing cloud native solutions to facilitate academic research and promoting the adoption of enterprise automation, microservices and event driven architecture throughout research technology. Previously, he was a Senior Systems Engineer at Columbia University Medical Center, where he managed HPC and cloud operations at the Institute for Genomic Medicine. He also worked for UCLA where he managed research and instructional technology for the Department of Atmospheric and Oceanic Sciences.'
 - speaker_id: 'lior_atar'
   name: 'Lior Atar'
