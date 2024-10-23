@@ -17,7 +17,7 @@ module.exports = {
     socialMedia: [
       {
         platform: `slack`,
-        url: `https://join.slack.com/t/openshiftcommons/shared_invite/zt-2qq1ehecy-KW04rQI_MNgYFnrIutlcIA`,
+        url: `https://join.slack.com/t/openshiftcommons/shared_invite/zt-2syl7uarb-FCWJdn72mUUxuhISNd89_g`,
         title: `Join us on Slack`,
       },
       {
