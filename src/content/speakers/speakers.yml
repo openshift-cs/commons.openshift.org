@@ -3282,5 +3282,8 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
 - speaker_id: 'christoph_blecker'
   name: 'Christoph Blecker'
   company: 'Red Hat'
-
-
+- speaker_id: 'bryan_head'
+  name: 'Bryan Head'
+  company: 'Frost Bank'
+  intro: 'A lifelong Texan (so far), I have been a Linux admin since 2002. I have worked for a newspaper, the government, and now the financial sector. Our OpenShift journey at Frost Bank began in 2021 and I have been transforming into a Kubernetes engineer ever since.'
+  photo: 'bryan_head.jpg
