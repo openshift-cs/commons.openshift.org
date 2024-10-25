@@ -3286,4 +3286,16 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   name: 'Bryan Head'
   company: 'Frost Bank'
   intro: 'A lifelong Texan (so far), I have been a Linux admin since 2002. I have worked for a newspaper, the government, and now the financial sector. Our OpenShift journey at Frost Bank began in 2021 and I have been transforming into a Kubernetes engineer ever since.'
-  photo: 'bryan_head.jpg
+  photo: 'bryan_head.jpg'
+- speaker_id: 'michael_lightfoot'
+  name: 'Michael Lightfoot'
+  company: 'Red Hat'
+  role: 'Account Solution Architect'
+  intro: 'Michael Lightfoot is an Account Solution Architect and RHCE at Red Hat.  His role is to work with organizations to adopt solutions using Red Hats portfolio of technologies. Michael joined Red Hat in 2022, and prior to that had over 20 years experience with systems administration and infrastructure management spanning the USAF, NASA, higher education, and the oil and gas industry.  When hes not at work, Michael can be found outdoors, volunteering with the World’s Championship Barbecue Contest, or (most importantly) trying to keep up with his 3 year old son!'
+  photo: 'michael_lightfoot.jpeg'
+- speaker_id: 'shane_baker'
+  name: 'Shane Baker'
+  company: 'Red Hat'
+  role: 'OpenShift Technical Account Manager'
+  info: 'Shane Baker is an Openshift Technical Account manager with Red Hat.  During his Red Hat tenure, he has worked with a wide variety of industries including financial institutions, health care, and higher education, employing technologies like Openshift Virtualization, Openshift Data Foundations, Advanced Cluster Security, and more, and has been deeply involved in large scale virtualization migration projects. Prior to joining Red Hat he led an international team of systems administrators in the clinical research software development space, supporting cancer research institutions worldwide in their mission to eradicate disease and improve patient outcomes. Shane is a commercial pilot, and can most likely be found poking holes in the sky in his free time.'
+
