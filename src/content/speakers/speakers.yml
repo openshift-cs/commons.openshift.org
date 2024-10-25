@@ -3298,4 +3298,9 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Red Hat'
   role: 'OpenShift Technical Account Manager'
   info: 'Shane Baker is an Openshift Technical Account manager with Red Hat.  During his Red Hat tenure, he has worked with a wide variety of industries including financial institutions, health care, and higher education, employing technologies like Openshift Virtualization, Openshift Data Foundations, Advanced Cluster Security, and more, and has been deeply involved in large scale virtualization migration projects. Prior to joining Red Hat he led an international team of systems administrators in the clinical research software development space, supporting cancer research institutions worldwide in their mission to eradicate disease and improve patient outcomes. Shane is a commercial pilot, and can most likely be found poking holes in the sky in his free time.'
+- speaker_id: 'jeff_demoss'
+  name: 'Jeff DeMoss'
+  company: 'Red Hat'
+  role: 'Director, AI Product Management'
+  info: 'Jeff DeMoss is a product management leader for Red Hat OpenShift AI. He has extensive experience as a product manager for AI and analytics solutions and enjoys discussing how organizations can use AI to solve business challenges.'
 
