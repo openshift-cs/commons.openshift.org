@@ -3304,4 +3304,11 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Red Hat'
   role: 'Director, AI Product Management'
   info: 'Jeff DeMoss is a product management leader for Red Hat OpenShift AI. He has extensive experience as a product manager for AI and analytics solutions and enjoys discussing how organizations can use AI to solve business challenges.'
-
+- speaker_id: 'alex_kisliuk'
+  name: 'Alex Kisliuk'
+  company: 'Amdocs'
+  role: 'Senior DevOps/Cloud Operation Manager'
+- speaker_id: 'avishay_traeger'
+  name: 'Avishay Traeger'
+  company: 'Red Hat'
+  role: 'Senior Principal Software Engineer'
