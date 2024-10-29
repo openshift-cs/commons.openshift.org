@@ -3280,6 +3280,7 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
 - speaker_id: 'paul_trebe'
   name: 'Paul Trebe'
   company: 'Groundcover'
+  role: 'Vice President of Sales at Groundcover'
   photo: 'paul_trebe.jpg'
   intro: 'Paul Trebe has spent his entire career in observability, and has worked in pre-sales engineering, sales, marketing, and go-to-makret strategy.  At groundcover, Paul runs sales and partnerships working with companies of all sizes from 40 person startups and Fortune 100 companies who are leveraging groundcover unique eBPF sensor and a BYOC architecture to monitor their modern cloud applications and infrastructure. groundcover offers free and commercial offerings leveraging eBPF to seamlessly gather logs, metrics, and traces, with zero configuration.'
 - speaker_id: 'christoph_blecker'
