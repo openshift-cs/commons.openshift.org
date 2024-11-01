@@ -3324,4 +3324,8 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   name: 'Praveen Siddu'
   company: 'SWIFT'
   role: 'Senior Enterprise Architect'
+- speaker_id: 'grant_shipley'
+  name: 'Grant Shipley'
+  company: Red Hat
+  role: 'Senior Director, Technical Marketing'
 
