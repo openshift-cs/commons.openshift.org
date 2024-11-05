@@ -3301,7 +3301,7 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   name: 'Shane Baker'
   company: 'Red Hat'
   role: 'OpenShift Technical Account Manager'
-  info: 'Shane Baker is an Openshift Technical Account manager with Red Hat.  During his Red Hat tenure, he has worked with a wide variety of industries including financial institutions, health care, and higher education, employing technologies like Openshift Virtualization, Openshift Data Foundations, Advanced Cluster Security, and more, and has been deeply involved in large scale virtualization migration projects. Prior to joining Red Hat he led an international team of systems administrators in the clinical research software development space, supporting cancer research institutions worldwide in their mission to eradicate disease and improve patient outcomes. Shane is a commercial pilot, and can most likely be found poking holes in the sky in his free time.'
+  intro: 'Shane Baker is an Openshift Technical Account manager with Red Hat.  During his Red Hat tenure, he has worked with a wide variety of industries including financial institutions, health care, and higher education, employing technologies like Openshift Virtualization, Openshift Data Foundations, Advanced Cluster Security, and more, and has been deeply involved in large scale virtualization migration projects. Prior to joining Red Hat he led an international team of systems administrators in the clinical research software development space, supporting cancer research institutions worldwide in their mission to eradicate disease and improve patient outcomes. Shane is a commercial pilot, and can most likely be found poking holes in the sky in his free time.'
 - speaker_id: 'jeff_demoss'
   name: 'Jeff DeMoss'
   company: 'Red Hat'
@@ -3327,4 +3327,8 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   name: 'Grant Shipley'
   company: Red Hat
   role: 'Senior Director, Technical Marketing'
-
+- speaker_id: 'diego_torres_fuerte'
+  name: 'Diego Torres Fuerte'
+  company: Red Hat
+  role: 'Managing Architect, AI Practice Pre-sales'
+  intro: 'Diego Torres is a software architect with more than 10 years of experience leading customers to implement intelligent applications through the use of process automation, decision management, and artificial intelligence. As the managing architect at AI Practice pre-sales, he leads a talented team of consulting architects that provide proposals to Red Hat AI Consulting Services clients, and drive adoption of the Red Hat Openshift AI product.'
