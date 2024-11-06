@@ -3325,10 +3325,16 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   role: 'Senior Enterprise Architect'
 - speaker_id: 'grant_shipley'
   name: 'Grant Shipley'
-  company: Red Hat
+  company: 'Red Hat'
   role: 'Senior Director, Technical Marketing'
 - speaker_id: 'diego_torres_fuerte'
   name: 'Diego Torres Fuerte'
-  company: Red Hat
+  company: 'Red Hat'
   role: 'Managing Architect, AI Practice Pre-sales'
   intro: 'Diego Torres is a software architect with more than 10 years of experience leading customers to implement intelligent applications through the use of process automation, decision management, and artificial intelligence. As the managing architect at AI Practice pre-sales, he leads a talented team of consulting architects that provide proposals to Red Hat AI Consulting Services clients, and drive adoption of the Red Hat Openshift AI product.'
+- speaker_id: 'fernando_alvarez'
+  name: 'Fernando Alvarez'
+  company: 'ARSAT'
+  role: 'IT Infrastructure Lead'
+  photo: 'fernando_alvarez.jpg'
+  intro: 'Fernando Alvarez, based in Argentina, is currently the IT Infrastructure Lead at ARSAT, where he heads group initiatives in information technologies. His expertise centers around leveraging Linux, virtualization, and IaaS cloud computing as core technological tools at the National Data Center. Fernando has previously held various roles at ARSAT - Empresa Argentina de Soluciones Satelitales S.A. and has academic experience from the University of Buenos Aires. He is a graduate of the Universidad Nacional de La Matanza. With a strong technical skill set, Fernando is proficient in virtualization technologies, Linux distributions (including Debian and RHEL), Bash scripting, and more.'
