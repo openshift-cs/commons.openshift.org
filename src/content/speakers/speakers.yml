@@ -3338,3 +3338,10 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   role: 'IT Infrastructure Lead'
   photo: 'fernando_alvarez.jpg'
   intro: 'Fernando Alvarez, based in Argentina, is currently the IT Infrastructure Lead at ARSAT, where he heads group initiatives in information technologies. His expertise centers around leveraging Linux, virtualization, and IaaS cloud computing as core technological tools at the National Data Center. Fernando has previously held various roles at ARSAT - Empresa Argentina de Soluciones Satelitales S.A. and has academic experience from the University of Buenos Aires. He is a graduate of the Universidad Nacional de La Matanza. With a strong technical skill set, Fernando is proficient in virtualization technologies, Linux distributions (including Debian and RHEL), Bash scripting, and more.'
+- speaker_id: 'jason_moody'
+  name: 'Jason Moody'
+  company: 'Frost Bank'
+  role: 'Capability Leader of Platform Engineering'
+  photo: 'jason_moody.jpg'
+  intro: 'Jason Moody is a lifelong Texan as well as a former Linux and Windows admin. Jason has over 20 years of IT experience. He is currently the Capability Leader of Platform Engineering at Frost Bank. Before this role, Jason worked at several large companies across different industries including telco, healthcare, hosting, and tech. Jason is passionate about OSS/CNCF, building high performing teams, and Kubernetes. In his spare time he can be found reading (mostly about technology and leadership), hiking/mountain climbing, and traveling.'
+
