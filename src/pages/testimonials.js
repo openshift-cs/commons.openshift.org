@@ -148,7 +148,7 @@ export default function TestimonialsPage() {
                 facilitate development of a community to foster this broad industry collaboration.
               </p>
               <footer className={quoteFooter}>
-                Ashesh Badani, Vice President and General Manager, OpenShift, Red Hat
+                Ashesh Badani, Chief Product Officer, Red Hat
               </footer>
             </blockquote>
           </section>
