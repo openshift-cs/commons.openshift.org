@@ -1391,6 +1391,76 @@ videos:
 - gathering_title: Data Science at NVIDIA GTC 2020
   gathering_date: '2020-10-09'
   gathering_videos:
+  - publishedAt: '2024-09-20T13:45:16Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons: Validated Patterns SIG, Red Hat OpenShift and MLOps'
+    description: In this session, we see the deployment of a machine learning model
+      using data science pipelines and how we can set up these pipelines on OpenShift
+      AI.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/cEHThkcQ_VQ/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/cEHThkcQ_VQ/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/cEHThkcQ_VQ/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/cEHThkcQ_VQ/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/cEHThkcQ_VQ/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: cEHThkcQ_VQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-09-18T18:40:55Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: OpenShift Commons Virtual Meetings Kubeflow and the AI lifecycle with Ricardo
+      Martinelli de Oliveira
+    description: OpenShift Commons Virtual Meetings Kubeflow and the AI lifecycle
+      with Ricardo Martinelli de Oliveira
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/UdKUBywfG7g/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/UdKUBywfG7g/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/UdKUBywfG7g/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/UdKUBywfG7g/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/UdKUBywfG7g/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: UdKUBywfG7g
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
   - publishedAt: '2024-08-08T19:20:03Z'
     channelId: UCZKMj3YI0wP-kq4QYpaKdEA
     title: AI inference at the edge using OpenShift AI
@@ -1426,7 +1496,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 0
+    position: 2
     resourceId:
       kind: youtube#video
       videoId: OxNQaWOCii4
@@ -1464,7 +1534,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 1
+    position: 3
     resourceId:
       kind: youtube#video
       videoId: idoLjjjQ2sA
@@ -1502,7 +1572,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 2
+    position: 4
     resourceId:
       kind: youtube#video
       videoId: 0HZycCgXlbM
@@ -1538,7 +1608,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 3
+    position: 5
     resourceId:
       kind: youtube#video
       videoId: ncGYIztHy8g
@@ -1576,7 +1646,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 4
+    position: 6
     resourceId:
       kind: youtube#video
       videoId: gt7tZtWt-80
@@ -1617,7 +1687,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 5
+    position: 7
     resourceId:
       kind: youtube#video
       videoId: 1EBkzJ_iymo
@@ -1656,7 +1726,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 6
+    position: 8
     resourceId:
       kind: youtube#video
       videoId: 0eh-B55zMPI
@@ -1664,7 +1734,7 @@ videos:
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
   - publishedAt: '2024-06-13T10:09:16Z'
     channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'Red Hat: El poder de la lA está abierto (The power of AI is open)'
+    title: El poder de la IA está en el código abierto (The power of AI is open)
     description: |-
       El rol de Red Hat siempre ha sido ser catalistas dentro de las comunidades de código abierto. Maria Bracho, CTO para América Latina de Red Hat, y Myriam Fentanes, Principal Technical Product Manager de Red Hat OpenShift Al, analizan los esfuerzos para llevar la innovación en IA a todos.
 
@@ -1692,7 +1762,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 7
+    position: 9
     resourceId:
       kind: youtube#video
       videoId: TdwuTgfbgko
@@ -1727,7 +1797,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 8
+    position: 10
     resourceId:
       kind: youtube#video
       videoId: AdudRq2cJk4
@@ -1763,7 +1833,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 9
+    position: 11
     resourceId:
       kind: youtube#video
       videoId: PtD4mf8PcJ4
@@ -1799,7 +1869,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 10
+    position: 12
     resourceId:
       kind: youtube#video
       videoId: nWoo3YX9eKw
@@ -1835,7 +1905,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 11
+    position: 13
     resourceId:
       kind: youtube#video
       videoId: x8rvGk_EerE
@@ -1873,7 +1943,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 12
+    position: 14
     resourceId:
       kind: youtube#video
       videoId: Rmv_YQzhTpE
@@ -1910,7 +1980,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 13
+    position: 15
     resourceId:
       kind: youtube#video
       videoId: 1KFvRKsinzg
@@ -1946,7 +2016,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 14
+    position: 16
     resourceId:
       kind: youtube#video
       videoId: yVm4AX1D7cg
@@ -1982,7 +2052,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 15
+    position: 17
     resourceId:
       kind: youtube#video
       videoId: fLK1E17UmKI
@@ -2019,7 +2089,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 16
+    position: 18
     resourceId:
       kind: youtube#video
       videoId: T8-Pb0ae50w
@@ -2051,7 +2121,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 17
+    position: 19
     resourceId:
       kind: youtube#video
       videoId: TIKUO1uFK1A
@@ -2086,7 +2156,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 18
+    position: 20
     resourceId:
       kind: youtube#video
       videoId: ShRKIFWaea0
@@ -2119,7 +2189,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 19
+    position: 21
     resourceId:
       kind: youtube#video
       videoId: 75WtOSpn5qU
@@ -2147,7 +2217,7 @@ videos:
         height: 360
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 20
+    position: 22
     resourceId:
       kind: youtube#video
       videoId: o-qae0vJ3Aw
@@ -2187,7 +2257,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 21
+    position: 23
     resourceId:
       kind: youtube#video
       videoId: 6GxUPWRrws0
@@ -2223,7 +2293,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 22
+    position: 24
     resourceId:
       kind: youtube#video
       videoId: 1KNFnQG2b5w
@@ -2252,7 +2322,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 23
+    position: 25
     resourceId:
       kind: youtube#video
       videoId: ZIKq0W9z31I
@@ -2287,7 +2357,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 24
+    position: 26
     resourceId:
       kind: youtube#video
       videoId: awgmTOLxYOE
@@ -2322,7 +2392,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 25
+    position: 27
     resourceId:
       kind: youtube#video
       videoId: 1ddxwZWSgtY
@@ -2358,7 +2428,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 26
+    position: 28
     resourceId:
       kind: youtube#video
       videoId: kMnIGSb3T8w
@@ -2393,7 +2463,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 27
+    position: 29
     resourceId:
       kind: youtube#video
       videoId: i5wd_qZdc8Y
@@ -2429,7 +2499,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 28
+    position: 30
     resourceId:
       kind: youtube#video
       videoId: S6Obo7pw6p4
@@ -2466,7 +2536,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 29
+    position: 31
     resourceId:
       kind: youtube#video
       videoId: RCwcEZtba4E
@@ -2505,7 +2575,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 30
+    position: 32
     resourceId:
       kind: youtube#video
       videoId: LESA9Jl_8zg
@@ -2541,7 +2611,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 31
+    position: 33
     resourceId:
       kind: youtube#video
       videoId: 6PZfKufNisM
@@ -2581,7 +2651,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 32
+    position: 34
     resourceId:
       kind: youtube#video
       videoId: 8QVf1Xbbdyg
@@ -2622,7 +2692,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 33
+    position: 35
     resourceId:
       kind: youtube#video
       videoId: yiEHj0lgsFQ
@@ -2659,7 +2729,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 34
+    position: 36
     resourceId:
       kind: youtube#video
       videoId: pXCAYu4s_RY
@@ -2696,7 +2766,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 35
+    position: 37
     resourceId:
       kind: youtube#video
       videoId: t3ElO45VEoM
@@ -2730,7 +2800,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 36
+    position: 38
     resourceId:
       kind: youtube#video
       videoId: jEaoT0eDJrA
@@ -2762,7 +2832,7 @@ videos:
         height: 360
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 37
+    position: 39
     resourceId:
       kind: youtube#video
       videoId: F6nE1d5SXRU
@@ -2802,7 +2872,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 38
+    position: 40
     resourceId:
       kind: youtube#video
       videoId: H2jS5sQ-f9o
@@ -2838,7 +2908,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 39
+    position: 41
     resourceId:
       kind: youtube#video
       videoId: 1V69ejZSdnU
@@ -2876,7 +2946,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 40
+    position: 42
     resourceId:
       kind: youtube#video
       videoId: l8bg8d4gtBw
@@ -2908,7 +2978,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 41
+    position: 43
     resourceId:
       kind: youtube#video
       videoId: _dKVF3M_CFE
@@ -2944,7 +3014,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 42
+    position: 44
     resourceId:
       kind: youtube#video
       videoId: z6c4o_DD5bc
@@ -2980,7 +3050,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 43
+    position: 45
     resourceId:
       kind: youtube#video
       videoId: tYOwSMqdWt8
@@ -3016,7 +3086,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 44
+    position: 46
     resourceId:
       kind: youtube#video
       videoId: joK89xYeuUY
@@ -3052,7 +3122,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 45
+    position: 47
     resourceId:
       kind: youtube#video
       videoId: "-l6EiqCgFAg"
@@ -3088,7 +3158,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 46
+    position: 48
     resourceId:
       kind: youtube#video
       videoId: 88k7bI0HXFQ
@@ -3132,7 +3202,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 47
+    position: 49
     resourceId:
       kind: youtube#video
       videoId: EItWV4S9WEE
@@ -3170,7 +3240,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 48
+    position: 50
     resourceId:
       kind: youtube#video
       videoId: HFLbXmw9x9s
@@ -3206,7 +3276,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 49
+    position: 51
     resourceId:
       kind: youtube#video
       videoId: aE0dS0_uyj8
@@ -3242,7 +3312,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 50
+    position: 52
     resourceId:
       kind: youtube#video
       videoId: Ico3BQRdsi8
@@ -3281,7 +3351,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 51
+    position: 53
     resourceId:
       kind: youtube#video
       videoId: LAz_TG2Qtik
@@ -3314,7 +3384,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 52
+    position: 54
     resourceId:
       kind: youtube#video
       videoId: NsYGkgCE-UQ
@@ -3347,7 +3417,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 53
+    position: 55
     resourceId:
       kind: youtube#video
       videoId: OXCnzfWKI90
@@ -3380,7 +3450,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 54
+    position: 56
     resourceId:
       kind: youtube#video
       videoId: uMJ5sE3Veic
@@ -3415,7 +3485,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 55
+    position: 57
     resourceId:
       kind: youtube#video
       videoId: EqkCoPHm5CI
@@ -3451,7 +3521,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 56
+    position: 58
     resourceId:
       kind: youtube#video
       videoId: lV12Cj3auZE
@@ -3485,7 +3555,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 59
+    position: 61
     resourceId:
       kind: youtube#video
       videoId: IDHvpgVu_ak
@@ -3516,7 +3586,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 60
+    position: 62
     resourceId:
       kind: youtube#video
       videoId: PcsqcN4NqI4
@@ -3548,7 +3618,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 61
+    position: 63
     resourceId:
       kind: youtube#video
       videoId: Ty3X1C4pwn0
@@ -3582,7 +3652,7 @@ videos:
         height: 480
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 62
+    position: 64
     resourceId:
       kind: youtube#video
       videoId: arijOYKSw0c
@@ -3619,7 +3689,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 63
+    position: 65
     resourceId:
       kind: youtube#video
       videoId: uakzi8FyNZY
@@ -3653,7 +3723,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 64
+    position: 66
     resourceId:
       kind: youtube#video
       videoId: ktH1QTlTc7c
@@ -3688,7 +3758,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 65
+    position: 67
     resourceId:
       kind: youtube#video
       videoId: ggK5XDAofcw
@@ -3727,7 +3797,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 66
+    position: 68
     resourceId:
       kind: youtube#video
       videoId: 349zHtFdhkI
@@ -3764,7 +3834,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 67
+    position: 69
     resourceId:
       kind: youtube#video
       videoId: ZSiHI-c3rCU
@@ -3790,7 +3860,7 @@ videos:
         height: 360
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 68
+    position: 70
     resourceId:
       kind: youtube#video
       videoId: kdjd1wNK9Wc
@@ -3826,7 +3896,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 69
+    position: 71
     resourceId:
       kind: youtube#video
       videoId: 1REuOX6egnQ
@@ -3864,7 +3934,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 70
+    position: 72
     resourceId:
       kind: youtube#video
       videoId: cMMjADG8Ljk
@@ -3905,7 +3975,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 71
+    position: 73
     resourceId:
       kind: youtube#video
       videoId: fwryf3TcSPA
@@ -3939,7 +4009,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 72
+    position: 74
     resourceId:
       kind: youtube#video
       videoId: d6X1xvDXewM
@@ -3977,7 +4047,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 73
+    position: 75
     resourceId:
       kind: youtube#video
       videoId: "-T6ypF7LoKk"
@@ -4012,7 +4082,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4Iqcg2znnClv-xbj93Q_wcY8L
-    position: 74
+    position: 76
     resourceId:
       kind: youtube#video
       videoId: 662FccIWeOE
@@ -12533,6 +12603,554 @@ videos:
     resourceId:
       kind: youtube#video
       videoId: "-OMBwBCO9UU"
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering Co-located Alongside KubeCon + CloudNativeCon
+    North America
+  gathering_date: '2024-11-12'
+  gathering_videos:
+  - publishedAt: '2024-11-15T21:27:32Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Salt Lake City: Welcome to Commons'
+    description: "Simon Seagrave from Red Hat welcomes customers, OpenShift users,
+      and community members to the OpenShift Commons Gathering in Salt Lake City at
+      KubeCon NA 2024.  \n\nOpenShift Commons Gathering Kubecon NA 2024\nNovember
+      12, 2024  Live from Kubecon NA in Salt Lake City, Utah \nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/yTm6cjShrBY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/yTm6cjShrBY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/yTm6cjShrBY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/yTm6cjShrBY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/yTm6cjShrBY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: yTm6cjShrBY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-15T21:32:26Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Salt Lake City: What''s Next in OpenShift in 2025'
+    description: "Mike Barrett, Derek Carr and Mrunal Patel kick of the day with the
+      latest on Red Hat innovations in OpenShift, virtualization, Al and more.\n\nOpenShift
+      Commons Gathering Kubecon NA 2024\nNovember 12, 2024,  Live from Kubecon NA
+      in Salt Lake City, Utah \nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Un7s0RLqS2A/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Un7s0RLqS2A/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Un7s0RLqS2A/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Un7s0RLqS2A/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Un7s0RLqS2A/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: Un7s0RLqS2A
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-13T12:31:34Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Salt Lake City: Step into the world of Virtualization
+      with New York University'
+    description: "The New York University Research and Instructional Technology team
+      talk about some of the exciting work they have in flight (and out of the doors)
+      in the world of Virtualization. They have been focused on getting their OpenShift
+      Virtualization environment production-ready. \n\nLior Atar (NYU), Carl Evans
+      (NYU), and Shane Baker (RH) discuss what this process has been like, how they
+      are setting up the environment and the variety of applications (from VMs, HPC
+      workloads, shiny new apps to migrated traditional apps that aren't quite ready
+      for containerizing) running on it as well as how they decided which apps to
+      modernize, migrate and retire. They also give a quick glimpse into what's coming
+      and their exploration of the fun world of GitOps, service mesh, and AI!\n\nOpenShift
+      Commons Gathering Kubecon NA 2024\nNovember 12, 2024,  Live from Kubecon NA
+      in Salt Lake City, Utah \nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/PubVhBHR4SE/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/PubVhBHR4SE/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/PubVhBHR4SE/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/PubVhBHR4SE/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/PubVhBHR4SE/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: PubVhBHR4SE
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-15T22:06:51Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons SLC: Mastercard Transforms Data Science with Cloud-Native
+      Technologies'
+    description: "Mastercard's Alexander Hughes, Ravishankar Rao, and Red Hat's Diego
+      Torres Fuerte discuss how Mastercard has transformed their Data Science Workbench
+      (DSWB) to support advanced Machine Learning (ML) and Deep Learning (DL) applications.
+      Mastercard leveraged Red Hat OpenShift to build a robust, scalable, and flexible
+      architecture that enables rapid experimentation and deployment of AI/ML workloads.
+      Their new platform utilizes containerization, cloud-native tools, and automated
+      deployment pipelines to deliver faster model training times, scalability of
+      resources, and enhanced support for complex ML/DL projects. \n\nThe team highlights
+      the benefits they've observed, including improved operational efficiency, reduced
+      time-to-market for new models, and increased innovation in AI and ML. The talk
+      also covers the strategic decisions and lessons learned from our journey, providing
+      insights for organizations looking to transform their data science capabilities
+      and unlock the full potential of their teams.\n\nOpenShift Commons Gathering
+      Kubecon NA 2024\nNovember 12, 2024,  Live from Kubecon NA in Salt Lake City,
+      Utah \nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/mVR_LKp2Jxk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/mVR_LKp2Jxk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/mVR_LKp2Jxk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/mVR_LKp2Jxk/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/mVR_LKp2Jxk/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: mVR_LKp2Jxk
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-15T22:34:54Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons SLC: Deloitte - How to go from zero to hero with Internal
+      Developer Portals'
+    description: "Adam Sykes (Deloitte) and Christophe Fargette (Red Hat) share why
+      Deloitte picked Red Hat Developer Hub as their developer portal of choice and
+      their top 5 learnings on how to elevate Developer Experience on your platform.\n\nOpenShift
+      Commons Gathering Kubecon NA 2024\nNovember 12, 2024,  Live from Kubecon NA
+      in Salt Lake City, Utah \nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/qrAUwNRb0J8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/qrAUwNRb0J8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/qrAUwNRb0J8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/qrAUwNRb0J8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/qrAUwNRb0J8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: qrAUwNRb0J8
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-15T22:42:58Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: Ensuring Data Protection & Disaster Recovery with Leading Partners Portworx,
+      Red Hat, Trilio, Veeam
+    description: "In this panel at OpennShift Commons in Salt Lake City, we explore
+      how Red Hat and our partners, Portworx, Trilio, Veeam, are working together
+      to usher in a new, modern application development platform that supports VMs
+      and containers running side by side.\n\nOpenShift Commons Gathering Kubecon
+      NA 2024\nNovember 12, 2024  Live from Kubecon NA in Salt Lake City, Utah \nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/HoY01vXdPGs/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/HoY01vXdPGs/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/HoY01vXdPGs/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/HoY01vXdPGs/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/HoY01vXdPGs/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: HoY01vXdPGs
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-15T22:56:30Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons SLC: Architechting storage for modern applications on
+      OpenShift'
+    description: "Andy Gower (Portworx) discusses the key storage considerations for
+      enterprises as they build and scale modern applications — both VMs and containers
+      — on OpenShift.  Watch for a better understanding of External CSI Drivers and
+      the value of architecting container native storage into OpenShift environments\n\nOpenShift
+      Commons Gathering Kubecon NA 2024\nNovember 12, 2024  Live from Kubecon NA in
+      Salt Lake City, Utah \nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/ZKjp5IhUsb8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/ZKjp5IhUsb8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/ZKjp5IhUsb8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/ZKjp5IhUsb8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/ZKjp5IhUsb8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: ZKjp5IhUsb8
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-15T23:26:01Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Salt Lake City: AI open innovation at IBM and Red Hat'
+    description: |-
+      Younes Ben Brahim (Red Hat) and Craig Wilcox (IBM) discuss how Red Hat and IBM together provide curated, enterprise AI technology solutions.
+
+      OpenShift Commons Gathering Kubecon NA 2024 November 12, 2024 Live from Kubecon NA in Salt Lake City, Utah
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/vwfM-8AbSMI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/vwfM-8AbSMI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/vwfM-8AbSMI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/vwfM-8AbSMI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/vwfM-8AbSMI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: vwfM-8AbSMI
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-15T23:46:05Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Salt Lake City: Scaling app development at Frost Bank
+      with OpenShift'
+    description: |-
+      In 2020, the Frost Bank infrastructure and development teams were frustrated with the slow roll outs, development, and updates to their application platform. They craved faster releases, zero downtime for maintenance and patching, and technology that adapted in alignment with the pace of their business. They landed on Red Hat OpenShift. Listen to the 'amigos' from Frost Bank who were the brains behind the OpenShift operation share their learnings about how their grassroots efforts went from standing up one solitary OpenShift cluster to scaling it out to run their main web banking portal.
+
+      OpenShift Commons Gathering Kubecon NA 2024 November 12, 2024 Live from Kubecon NA in Salt Lake City, Utah
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Yr-ZOmRYA0w/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Yr-ZOmRYA0w/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Yr-ZOmRYA0w/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Yr-ZOmRYA0w/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Yr-ZOmRYA0w/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 8
+    resourceId:
+      kind: youtube#video
+      videoId: Yr-ZOmRYA0w
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-15T23:56:50Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Salt Lake City: Crunchy Data Postgres for Red Hat Products'
+    description: |-
+      Blair McDuff (Crunchy Data) discusses how Crunchy Data supplements the Red Hat ecosystem by providing backups, High Availability, deployment flexibility and more to Red Hat products like Ansible Automation Platform, Quay, Clair and applications on OpenShift.
+
+      OpenShift Commons Gathering Kubecon NA 2024 November 12, 2024 Live from Kubecon NA in Salt Lake City, Utah
+      Learn more at: https://commons.openshift.org
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/czxvKaF0ES0/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/czxvKaF0ES0/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/czxvKaF0ES0/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/czxvKaF0ES0/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/czxvKaF0ES0/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 9
+    resourceId:
+      kind: youtube#video
+      videoId: czxvKaF0ES0
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-16T00:10:32Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons SLC: Disconnected OpenShift, A Zero Touch Provisioning
+      Approach with SWIFT'
+    description: "In this session, Praveen Siddu (SWIFT), Otmane Benali (SWIFT), and
+      Brian Ward (Red Hat) explain how SWIFT uses GitOps to perform zero-touch deployment
+      of OpenShift clusters by: \n* Using Helm to generate configuration bundles for
+      cluster and day-2\n* Managing secrets with HashiCorp Vault and Argo Vault plugin\n*
+      Using zero privilege principles to enhance security \n* Providing a single pane
+      of visibility through a custom SWIFT Insights UI  \n\nOpenShift Commons Gathering
+      Kubecon NA 2024 November 12, 2024 Live from Kubecon NA in Salt Lake City, Utah\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/wI6pmgznbd8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/wI6pmgznbd8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/wI6pmgznbd8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/wI6pmgznbd8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/wI6pmgznbd8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: wI6pmgznbd8
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-16T00:34:54Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Salt Lake City: Ask an OpenShift Expert'
+    description: "Red Hat's OpenShift team fields questions on virtualization, postgres,
+      and all things AI. \n\nOpenShift Commons Gathering Kubecon NA 2024 November
+      12, 2024 Live from Kubecon NA in Salt Lake City, Utah\nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/e5bmx9qLJdk/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/e5bmx9qLJdk/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/e5bmx9qLJdk/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/e5bmx9qLJdk/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/e5bmx9qLJdk/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 11
+    resourceId:
+      kind: youtube#video
+      videoId: e5bmx9qLJdk
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-16T00:55:34Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons SLC: LLM Alignment Tuning with Red Hat'
+    description: "Jeff DeMoss (Red Hat), Sally O'Malley (Red Hat), and Michael Clifford
+      (Red Hat) discuss how InstructLab, a novel approach for instruction alignment
+      and fine tuning of language models, can be run at scale on OpenShift AI to help
+      you customize models that can be seamlessly integrated into GenAI applications.\n\nOpenShift
+      Commons Gathering Kubecon NA 2024 \nNovember 12, 2024 Live from Kubecon NA in
+      Salt Lake City, Utah\nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/AIOK0NQa5NY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/AIOK0NQa5NY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/AIOK0NQa5NY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/AIOK0NQa5NY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/AIOK0NQa5NY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 12
+    resourceId:
+      kind: youtube#video
+      videoId: AIOK0NQa5NY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2024-11-16T01:06:59Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Salt Lake City: What''s Next & The OpenShift Hero Awards'
+    description: "Aubrey Muhlach (Red Hat), Amy Marrich (Red Hat) and Debbie Margulies
+      (Red Hat) present the OpenShift Hero awards to key OpenShift users and contributors
+      and discuss what's next for OpenShift Commons. \n\nOpenShift Commons Gathering
+      Kubecon NA 2024 November 12, 2024 Live from Kubecon NA in Salt Lake City, Utah\nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/tc7ijF0YM2Q/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/tc7ijF0YM2Q/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/tc7ijF0YM2Q/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/tc7ijF0YM2Q/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/tc7ijF0YM2Q/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
+    position: 13
+    resourceId:
+      kind: youtube#video
+      videoId: tc7ijF0YM2Q
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: London 2020
