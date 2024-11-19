@@ -60,6 +60,9 @@ gatherings:
   - title: 'Red Hat Summit 2020'
     date: '2020-04-27'
     youtube_playlist_id: 'PLaR6Rq6Z4IqfRAZarliWXi76atgNECwdl'
+  - title: 'OpenShift Commons Gathering Co-located Alongside KubeCon + CloudNativeCon North America'
+    date: '2024-11-12'
+    youtube_playlist_id: PLaR6Rq6Z4IqeaaLg-0Arf_uaCsWWXSbQi
   - title: 'London 2020'
     date: '2020-01-29'
     youtube_playlist_id: 'PLaR6Rq6Z4Iqcy9rg0JF6SCFst5lyyftQ-'
