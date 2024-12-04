@@ -19,6 +19,7 @@ import {
   Loader,
 } from 'react-feather'
 import { StaticImage } from 'gatsby-plugin-image'
+import { ReactComponent as Slack } from '../images/slack-icon.svg'
 import Callout from '../../components/callout'
 import IconBox from '../../components/iconbox'
 import * as Accordion from '@radix-ui/react-accordion'
@@ -559,7 +560,7 @@ export default function SIGPage() {
               </AccordionItem>
             </Accordion.Root>
             <p className="mt-6 mb-2 text-center">
-              <IconBox title="Ready to join?" url="/virtualgatherings/" />
+              <IconBox title="Ready to join?" url={slack} icon={<Slack alt="" />} />
             </p>
             <div
               className="absolute w-full top-0 left-0 h-full pointer-events-none z-[-1]"
