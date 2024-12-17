@@ -339,7 +339,7 @@ export default function GatheringPage({ data, ...props }) {
             ) : (
               <>
                 <p className={`${ledeStyle} mx-auto`}>
-                  Code of Conduct: We follow both the <a href='../../../img/rheventtandc.pdf'>Red Hat Event Terms and Conditions</a> and the Code of
+                  Code of Conduct: We follow both the <a href='../../../static/rheventtandc.pdf'>Red Hat Event Terms and Conditions</a> and the Code of
                   Conduct of other events such as KubeCon + CloudNativeCon. Similarly we are dedicated
                   to providing a harassment-free experience for participants at all of our events,
                   whether they are held in person or virtually. All event participants, whether they are
