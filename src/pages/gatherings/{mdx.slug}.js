@@ -352,6 +352,10 @@ export default function GatheringPage({ data, ...props }) {
                   and safety and follow the Healthy and Safety policies of the events we are co-located
                   with or by default those of the CNCF.
                 </p>
+                <p className={`${ledeStyle} mx-auto`}>
+                  Please Note: All sessions are first come, first seated. Workshops and roundtables have limited capacity. 
+                  Workshops are interactive and hands-on; attendees must bring their own laptop to participate.
+                </p>
               </>
             )}
             <p className="mt-8 text-center">
