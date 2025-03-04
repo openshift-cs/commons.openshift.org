@@ -351,9 +351,6 @@ export default function GatheringPage({ data, ...props }) {
                   COVID-19 Health + Safety Information: We are committed to our attendee's health
                   and safety and follow the Healthy and Safety policies of the events we are co-located
                   with or by default those of the CNCF.
-                <p className={`${ledeStyle} mx-auto`}>
-                  <b>Please Note:</b> All sessions are first come, first seated. Workshops and roundtables have limited capacity. 
-                  Workshops are interactive and hands-on; attendees must bring their own laptop to participate.
                 </p>
               </>
             )}
