@@ -3394,4 +3394,10 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Worldpay'
   role: 'Development Manager Senior'
   intro: 'I am Michal, originally from Poland. Been working with OpenShift for more than 4 years now. Before that I was working in Network Engineering space for more than 10 years.'
+- speaker_id: 'matt_simons'
+  name: 'Matt Simons'
+  photo: 'matt_simons.png'
+  company: 'Worldpay'
+  role: 'Development Manager Senior'
+  intro: 'Matt is a passionate platform engineer with a keen interest in simplifying tools and processes at Worldpay. Matt believes in levelling up the developer experience through implementing and leading api-driven modernisation initiatives.'
 
