@@ -6339,6 +6339,516 @@ videos:
       videoId: w0-VA_f84NE
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+- gathering_title: OpenShift Commons Gathering Buenos Aires 2025
+  gathering_date: '2025-04-23'
+  gathering_videos:
+  - publishedAt: '2025-05-28T12:45:36Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: Openshift Commons Gathering Buenos Aires | Apertura a cargo de Santiago
+      Sinelnicof
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Apertura a cargo de Santiago Sinelnicof, Principal Solutions Architect de Red Hat.
+
+      Next OSCG video: https://youtu.be/JitfaGX-Cmc
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/uOMOaoj696g/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/uOMOaoj696g/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/uOMOaoj696g/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/uOMOaoj696g/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/uOMOaoj696g/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 0
+    resourceId:
+      kind: youtube#video
+      videoId: uOMOaoj696g
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T12:50:06Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: 'Openshift Commons Gathering Buenos Aires | Caso de Éxito: ExxonMobil'
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Caso de éxito de ExxonMobil, a cargo de Jaffet Sanchez, System Architect de ExxonMobil.
+
+      Next OSCG video: https://youtu.be/Nmsa9O5Otm8
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/JitfaGX-Cmc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/JitfaGX-Cmc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/JitfaGX-Cmc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/JitfaGX-Cmc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/JitfaGX-Cmc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 1
+    resourceId:
+      kind: youtube#video
+      videoId: JitfaGX-Cmc
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T12:53:50Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: Openshift Commons Gathering Buenos Aires | Trends and Road Map for Red
+      Hat OpenShift
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Trends and Road Map for Red Hat OpenShift, a cargo de Mauricio ""Maltron"" Leal, Principal Product Marketing Manager de Red Hat y Víctor Cornejo, Chief Architect, de Red Hat.
+
+      Next OSCG video: https://youtu.be/1gacol8Q9Qg
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Nmsa9O5Otm8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Nmsa9O5Otm8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Nmsa9O5Otm8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Nmsa9O5Otm8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Nmsa9O5Otm8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 2
+    resourceId:
+      kind: youtube#video
+      videoId: Nmsa9O5Otm8
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T12:56:29Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: 'Openshift Commons Gathering Buenos Aires | Caso de Éxito: Universidad
+      Finis Terrae'
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Caso de Éxito: Universidad Finis Terrae a cargo de Mario Herrera Retamal, Oficial de Seguridad de la Información (CISO), y Joaquin Lagos, Administrador de Sistemas y Plataformas Linux, ambos de Universidad de Finis Terrae.
+
+      Next OSCG video: https://youtu.be/Uzvf18rxduo
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/1gacol8Q9Qg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/1gacol8Q9Qg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/1gacol8Q9Qg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/1gacol8Q9Qg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/1gacol8Q9Qg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: 1gacol8Q9Qg
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T12:59:07Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: Openshift Commons Gathering Buenos Aires | Red Hat AI Últimas novedades
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Charla Red Hat AI Últimas novedades a cargo de Victor Cornejo, Manager Solution Architecture, SOLA Region, Redf Hat.
+
+      Next OSCG video: https://youtu.be/EqETOu7vtO8
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/Uzvf18rxduo/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/Uzvf18rxduo/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/Uzvf18rxduo/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/Uzvf18rxduo/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/Uzvf18rxduo/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 4
+    resourceId:
+      kind: youtube#video
+      videoId: Uzvf18rxduo
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T17:27:30Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: 'Openshift Commons Gathering Buenos Aires 2025 | Caso de éxito: Ar. sat'
+    description: "Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift
+      Commons Gathering convocó presencialmente a más de 360 usuarios, canales de
+      venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles.
+      Además del esperado roadmap de productos y nuevas funcionalidades, con especial
+      énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito
+      locales y regionales.\n\nCaso de éxito de ARSAT, liderada por Mariano Greco,
+      Gerente General \n\nNext OSCG video: https://youtu.be/rN2LNZf2b0c"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/EqETOu7vtO8/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/EqETOu7vtO8/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/EqETOu7vtO8/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/EqETOu7vtO8/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/EqETOu7vtO8/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 5
+    resourceId:
+      kind: youtube#video
+      videoId: EqETOu7vtO8
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T17:33:16Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: Openshift Commons Gathering Buenos Aires 2025 | Banco Ciudad - Iniciativa
+      Desafio Oportunidad
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Charla de Banco Ciudad a partir de Iniciativa Desafio Oportunidad, liderada por Julian Benitez, Jefe de Arquitectura de Integraciones en el área de Coordinación de Arquitectura
+      y Alejandro Tevrizian, Jefe de Arquitectura de Soluciones en el área de Coordinación de Arquitectura.
+
+      Next OSCG video: https://youtu.be/DUkffJogMac
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/rN2LNZf2b0c/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/rN2LNZf2b0c/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/rN2LNZf2b0c/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/rN2LNZf2b0c/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/rN2LNZf2b0c/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 6
+    resourceId:
+      kind: youtube#video
+      videoId: rN2LNZf2b0c
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T17:36:15Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: 'Openshift Commons Gathering Buenos Aires 2025 | Caso de éxito:  Gobierno
+      de la Provincia'
+    description: "Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift
+      Commons Gathering convocó presencialmente a más de 360 usuarios, canales de
+      venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles.
+      Además del esperado roadmap de productos y nuevas funcionalidades, con especial
+      énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito
+      locales y regionales.\n\nCaso de exito Gobierno de la Provincia, liderada por
+      Sandra D'agostino, Subsecretaria de gobierno digital de la provincia de Buenos
+      Aires. \n\nNext OSCG video: https://youtu.be/TyaWV5se8jI"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/DUkffJogMac/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/DUkffJogMac/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/DUkffJogMac/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/DUkffJogMac/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/DUkffJogMac/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 7
+    resourceId:
+      kind: youtube#video
+      videoId: DUkffJogMac
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T17:39:28Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: 'Openshift Commons Gathering Buenos Aires 2025 | Caso de éxito: Movistar
+      Developer Hub'
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Caso de éxito Movistar Developer Hub, liderado por Rodrigo López Surra, Platform Engineer Manager, Cloud & DevOps Specialist, Enabler of Developer Experience y Juan Manuel Da Silva, Platform Engineer, Full Stack Developer, Advocate for Developer Experience.
+
+      Next OSCG video: https://youtu.be/0uM6X9MoA2c
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/TyaWV5se8jI/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/TyaWV5se8jI/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/TyaWV5se8jI/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/TyaWV5se8jI/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/TyaWV5se8jI/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 8
+    resourceId:
+      kind: youtube#video
+      videoId: TyaWV5se8jI
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T17:43:15Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: Openshift Commons Gathering Buenos Aires 2025 | Caso de LA SEGUNDA
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Caso de éxito La Segunda seguros, liderada por Ariel Guzmán, Jefe de Arquitectura de Aplicaciones con participacion de Jeronimo Ginzburg, Principal Solution Architect en Red Hat.
+
+      Next OSCG video: https://youtu.be/_EB7bMfn8To
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/0uM6X9MoA2c/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/0uM6X9MoA2c/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/0uM6X9MoA2c/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/0uM6X9MoA2c/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/0uM6X9MoA2c/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 9
+    resourceId:
+      kind: youtube#video
+      videoId: 0uM6X9MoA2c
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T17:46:20Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: 'Openshift Commons Gathering Buenos Aires 2025 | Caso de éxito: Banco Itaú
+      Paraguay'
+    description: "Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift
+      Commons Gathering convocó presencialmente a más de 360 usuarios, canales de
+      venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles.
+      Además del esperado roadmap de productos y nuevas funcionalidades, con especial
+      énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito
+      locales y regionales.\n\nCaso de éxito Banco Itau Paraguay, liderada por Jose
+      Flecha, Director de DataSystems y Cristian Lara, Chief Technology Officer. \n\nNext
+      OSCG video: https://youtu.be/991zfPY4edo"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/_EB7bMfn8To/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/_EB7bMfn8To/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/_EB7bMfn8To/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/_EB7bMfn8To/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/_EB7bMfn8To/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: _EB7bMfn8To
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T17:49:48Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: Openshift Commons Gathering Buenos Aires 2025 | Ask Me Anything
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Espacio utilizado para que Santiago Sinelnicof, Principal Solutions Architect
+      Mauricio ""Maltron"" Leal, Principal Product Marketing Manager y Víctor Cornejo, Chief Architect de Red Hat, respondan preguntas del público.
+
+      Next OSCG video: https://youtu.be/dlUMP3l_pAc
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/991zfPY4edo/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/991zfPY4edo/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/991zfPY4edo/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/991zfPY4edo/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/991zfPY4edo/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 11
+    resourceId:
+      kind: youtube#video
+      videoId: 991zfPY4edo
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
+  - publishedAt: '2025-05-28T17:51:02Z'
+    channelId: UCe9KurO7bRXqRGn0756FYfA
+    title: Openshift Commons Gathering Buenos Aires 2025 | OpenShift Virtualization
+      Test Drive
+    description: |-
+      Celebrado en el predio de La Rural de Buenos Aires, el Red Hat OpenShift Commons Gathering convocó presencialmente a más de 360 usuarios, canales de venta, clientes y líderes de proyectos de desarrollo, entre otros perfiles. Además del esperado roadmap de productos y nuevas funcionalidades, con especial énfasis en OpenShift AI, el encuentro presentó experiencias y casos de éxito locales y regionales.
+
+      Test Drive presencial liderado por Esteban Prieto, Principal Specialist Solution Architect, OpenShift - Cross Segment de Red Hat, con entrega de certificado oficial.
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/dlUMP3l_pAc/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/dlUMP3l_pAc/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/dlUMP3l_pAc/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/dlUMP3l_pAc/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/dlUMP3l_pAc/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: Red Hat Latinoamérica
+    playlistId: PLPYOoBG7-9ZpRyTfjpfUgRSUv3JvSiKBx
+    position: 12
+    resourceId:
+      kind: youtube#video
+      videoId: dlUMP3l_pAc
+    videoOwnerChannelTitle: Red Hat Latinoamérica
+    videoOwnerChannelId: UCe9KurO7bRXqRGn0756FYfA
 - gathering_title: Barcelona 2019
   gathering_date: '2019-05-20'
   gathering_videos:
