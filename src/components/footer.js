@@ -14,7 +14,7 @@ export const Footer = () => {
         <div className="flex flex-col lg:flex-row lg:justify-between w-full lg:items-center">
           <ul className="flex flex-col md:flex-row justify-between lg:space-x-10 text-base-300 dark:text-secondary-600 text-base">
             <li className={listStyle}>
-              &copy;{new Date().getUTCFullYear()} Red Hat, Inc.
+              &copy;{new Date().getUTCFullYear()} Red Hat
             </li>
             <li className={listStyle}>Sponsored by Red Hat, Inc.</li>
             <li className={listStyle}>
