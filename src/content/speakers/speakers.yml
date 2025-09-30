@@ -3474,11 +3474,13 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   intro: 'With over 20 years of experience in technology, I holds a bachelor degree in Mathematics and Business Administration, and MBA in Cloud Solutions Engineering and Architecture. Over the past 6 years, I have worked with cloud computing at Banco do Brasil, where I had the opportunity to work in areas such as training, support and moderation of developer communities. Currently, I lead three teams focused on simplifying the cloud platform for professionals and encouraging the adoption of best practices, ensuring the scalability and governance of solutions.'
 - speaker_id: 'eric_shanks'
   name: 'Eric Shanks'
+  photo: 'eric_shanks.png'
   company: 'Pure Storage'
   role: 'Principal Technical Marketing Engineer'
   intro: 'Eric is an IT Professional with a diverse background as a Data Center Engineer, Consultant, and Technical Marketer bringing over 20 years of experience in driving technical excellence. '
 - speaker_id: 'debbie_margulies'
   name: 'Debbie Margulies'
+  photo: 'debbie_margulies.png
   company: 'Red Hat'
   role: 'Principal Product Marketing Manager'
-
+  intro: 'Debbie Margulies is currently a Principal Product Marketing Manager at Red Hat. She brings more than two decades of experience in top tech and cybersecurity firms. Her expertise spans marketing strategy, operational excellence, and program leadership, with a strong background in shaping go-to-market programs for technology companies.'
