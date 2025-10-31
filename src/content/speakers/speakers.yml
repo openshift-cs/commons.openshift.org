@@ -3483,3 +3483,8 @@ He joined Red Hat in 2013 and specializes in accelerating application platforms 
   company: 'Red Hat'
   role: 'Principal Product Marketing Manager'
   intro: 'Debbie Margulies is currently a Principal Product Marketing Manager at Red Hat. She brings more than two decades of experience in top tech and cybersecurity firms. Her expertise spans marketing strategy, operational excellence, and program leadership, with a strong background in shaping go-to-market programs for technology companies.'
+- speaker_id: 'christopher_engleby'
+  name: 'Christopher Engleby'
+  company: 'Red Hat'
+  role: 'Specialist Adoption Architect'
+  intro: 'Architect with a strong background in cloud architecture and DevOps, I am passionate about engineering solutions at scale. I have experience in designing, implementing, and managing large-scale cloud infrastructure, as well as developing and deploying microservices and continuous delivery pipelines.'
