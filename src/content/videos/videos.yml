@@ -7137,8 +7137,8 @@ videos:
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
   - publishedAt: '2025-11-14T15:40:12Z'
     channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Atlanta: Building an adaptable enterprise with Red Hat
-      OpenShift'
+    title: 'OpenShift Commons Atlanta Keynote: Building an adaptable enterprise with
+      Red Hat OpenShift'
     description: |-
       Red Hat’s Stu Miniman and Michael Foster explore four key trends driving the industry: virtualization, AI, the developer experience, and data proximity & sovereignty. They share how open source drives innovation across them all to bring value to enterprises.
 
@@ -7213,6 +7213,48 @@ videos:
       videoId: vqT9bCdSDqA
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2025-11-24T11:10:13Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'OpenShift Commons Atl: Modernizing Developer Experience on OpenShift DevSpaces
+      at Dell Technologies'
+    description: "Dell Technologies’ Infrastructure Solutions Group is modernizing
+      developer environments by adopting Dev Spaces on Red Hat OpenShift to speed
+      up cloud-native development and provide a consistent, secure workspace for teams.
+      Joseph Kanjirathinkal, DevOps Manager II at Dell Technologies, and James Walton,
+      Principal Solution Architect at Red Hat discuss how Dell rolled out Dev Spaces
+      in a controlled, scalable way, enabled single-click access through Backstage,
+      and integrated the Windsurfer Gen AI coding assistant to boost productivity.
+      \ \n\nOpenShift Commons Gathering KubeCon NA 2025\nNovember 10, 2025  Live from
+      KubeCon NA in Atlanta\nLearn more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/3cVeDo-lvQY/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/3cVeDo-lvQY/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/3cVeDo-lvQY/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/3cVeDo-lvQY/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/3cVeDo-lvQY/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcGBE_eDT4YVlzUrROcuIYl
+    position: 3
+    resourceId:
+      kind: youtube#video
+      videoId: 3cVeDo-lvQY
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
   - publishedAt: '2025-11-14T15:45:31Z'
     channelId: UCZKMj3YI0wP-kq4QYpaKdEA
     title: 'OpenShift Commons Atlanta: OpenShift at scale, The Morgan Stanley blueprint'
@@ -7246,7 +7288,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4IqcGBE_eDT4YVlzUrROcuIYl
-    position: 3
+    position: 4
     resourceId:
       kind: youtube#video
       videoId: HCKcVn32bkw
@@ -7294,7 +7336,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4IqcGBE_eDT4YVlzUrROcuIYl
-    position: 4
+    position: 5
     resourceId:
       kind: youtube#video
       videoId: qeBE9FHY0JY
@@ -7302,8 +7344,8 @@ videos:
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
   - publishedAt: '2025-11-14T16:06:08Z'
     channelId: UCZKMj3YI0wP-kq4QYpaKdEA
-    title: 'OpenShift Commons Atlanta: The OpenShift super hero awards'
-    description: "Red Hat's Debbie Margulies presents the OpenShift super hero awards
+    title: 'OpenShift Commons Atlanta: The OpenShift superhero awards'
+    description: "Red Hat's Debbie Margulies presents the OpenShift superhero awards
       to OpenShift users:\n•Larry Green, Neuberger Berman. Senior Vice President,
       Lead Technologist I, Alternatives Front Office\n•Michael Lewis, U.S. Defense
       Intelligence Agency, Platform Team, Lead; Data & Applications Delivery, Cloud
@@ -7336,7 +7378,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4IqcGBE_eDT4YVlzUrROcuIYl
-    position: 5
+    position: 6
     resourceId:
       kind: youtube#video
       videoId: LE7PFyyLQWQ
@@ -7375,7 +7417,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4IqcGBE_eDT4YVlzUrROcuIYl
-    position: 6
+    position: 7
     resourceId:
       kind: youtube#video
       videoId: khq0jlWJQX4
@@ -7414,7 +7456,7 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4IqcGBE_eDT4YVlzUrROcuIYl
-    position: 7
+    position: 8
     resourceId:
       kind: youtube#video
       videoId: ZbgOcEw20aA
@@ -7463,10 +7505,50 @@ videos:
         height: 720
     channelTitle: OpenShift
     playlistId: PLaR6Rq6Z4IqcGBE_eDT4YVlzUrROcuIYl
-    position: 8
+    position: 9
     resourceId:
       kind: youtube#video
       videoId: bQxruovQMuQ
+    videoOwnerChannelTitle: OpenShift
+    videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
+  - publishedAt: '2025-11-24T11:39:08Z'
+    channelId: UCZKMj3YI0wP-kq4QYpaKdEA
+    title: 'Executive Recap: OpenShift Commons Atlanta at KubeCon NA 2025'
+    description: "From OpenShift at scale to seamless AI integration with Dev Spaces
+      to practical GitOps strategies, the OpenShift Commons Gathering in Atlanta brought
+      together developers, architects, and industry leaders to examine the latest
+      innovations in cloud-native computing. With perspectives from Morgan Stanley,
+      Dell Technologies, Northrop Grumman, Banco do Brasil,  and many others, this
+      executive recap offers a look at the day in action.\n\nOpenShift Commons Gathering
+      Kubecon NA 2025, November 10, 2025 \nLive from Kubecon NA in Atlanta, GA \nLearn
+      more at: https://commons.openshift.org"
+    thumbnails:
+      default:
+        url: https://i.ytimg.com/vi/v57T8eG_iXg/default.jpg
+        width: 120
+        height: 90
+      medium:
+        url: https://i.ytimg.com/vi/v57T8eG_iXg/mqdefault.jpg
+        width: 320
+        height: 180
+      high:
+        url: https://i.ytimg.com/vi/v57T8eG_iXg/hqdefault.jpg
+        width: 480
+        height: 360
+      standard:
+        url: https://i.ytimg.com/vi/v57T8eG_iXg/sddefault.jpg
+        width: 640
+        height: 480
+      maxres:
+        url: https://i.ytimg.com/vi/v57T8eG_iXg/maxresdefault.jpg
+        width: 1280
+        height: 720
+    channelTitle: OpenShift
+    playlistId: PLaR6Rq6Z4IqcGBE_eDT4YVlzUrROcuIYl
+    position: 10
+    resourceId:
+      kind: youtube#video
+      videoId: v57T8eG_iXg
     videoOwnerChannelTitle: OpenShift
     videoOwnerChannelId: UCZKMj3YI0wP-kq4QYpaKdEA
 - gathering_title: OpenShift Commons Gathering Co-located Alongside KubeCon + CloudNativeCon
